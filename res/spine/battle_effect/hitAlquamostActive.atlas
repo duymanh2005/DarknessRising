@@ -1,0 +1,27 @@
+
+hitAlquamostActive.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow fx
+  rotate: false
+  xy: 2, 2
+  size: 458, 459
+  orig: 458, 459
+  offset: 0, 0
+  index: -1
+hit fx
+  rotate: false
+  xy: 462, 157
+  size: 148, 133
+  orig: 148, 133
+  offset: 0, 0
+  index: -1
+moon slash
+  rotate: false
+  xy: 462, 292
+  size: 164, 169
+  orig: 164, 169
+  offset: 0, 0
+  index: -1

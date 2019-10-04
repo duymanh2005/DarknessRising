@@ -1,0 +1,48 @@
+
+hitIceBlast.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+energy dot
+  rotate: false
+  xy: 202, 32
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+ice lance arch
+  rotate: true
+  xy: 642, 146
+  size: 54, 178
+  orig: 54, 178
+  offset: 0, 0
+  index: -1
+shield fx
+  rotate: false
+  xy: 2, 2
+  size: 198, 198
+  orig: 198, 198
+  offset: 0, 0
+  index: -1
+snow fx
+  rotate: false
+  xy: 642, 91
+  size: 56, 53
+  orig: 56, 53
+  offset: 0, 0
+  index: -1
+snow vortex fx
+  rotate: false
+  xy: 372, 35
+  size: 149, 165
+  orig: 149, 165
+  offset: 0, 0
+  index: -1
+vortex fx
+  rotate: false
+  xy: 523, 82
+  size: 117, 118
+  orig: 117, 118
+  offset: 0, 0
+  index: -1

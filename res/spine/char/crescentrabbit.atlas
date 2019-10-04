@@ -1,0 +1,153 @@
+
+crescentrabbit.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm L
+  rotate: true
+  xy: 858, 279
+  size: 92, 115
+  orig: 92, 115
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: true
+  xy: 1474, 264
+  size: 94, 119
+  orig: 94, 119
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 276, 60
+  size: 232, 225
+  orig: 232, 225
+  offset: 0, 0
+  index: -1
+bow
+  rotate: false
+  xy: 276, 2
+  size: 97, 56
+  orig: 97, 56
+  offset: 0, 0
+  index: -1
+carrot lance
+  rotate: true
+  xy: 530, 385
+  size: 125, 332
+  orig: 125, 332
+  offset: 0, 0
+  index: -1
+carrot lance holder
+  rotate: false
+  xy: 864, 373
+  size: 202, 137
+  orig: 202, 137
+  offset: 0, 0
+  index: -1
+circle fx
+  rotate: false
+  xy: 1474, 360
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+ear L
+  rotate: true
+  xy: 1626, 434
+  size: 76, 181
+  orig: 76, 181
+  offset: 0, 0
+  index: -1
+ear R
+  rotate: false
+  xy: 1068, 333
+  size: 202, 177
+  orig: 202, 177
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 1809, 432
+  size: 149, 78
+  orig: 149, 78
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: false
+  xy: 2, 7
+  size: 118, 12
+  orig: 118, 12
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 375, 6
+  size: 131, 52
+  orig: 131, 52
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 1960, 456
+  size: 86, 54
+  orig: 86, 54
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 975, 314
+  size: 76, 57
+  orig: 76, 57
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 276, 287
+  size: 252, 223
+  orig: 252, 223
+  offset: 0, 0
+  index: -1
+light fx
+  rotate: false
+  xy: 2, 21
+  size: 272, 489
+  orig: 272, 489
+  offset: 0, 0
+  index: -1
+magic ring
+  rotate: false
+  xy: 1272, 310
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+mouth  2
+  rotate: true
+  xy: 1626, 374
+  size: 58, 143
+  orig: 58, 143
+  offset: 0, 0
+  index: -1
+mouth 1
+  rotate: false
+  xy: 629, 278
+  size: 62, 40
+  orig: 62, 40
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 530, 320
+  size: 326, 63
+  orig: 326, 63
+  offset: 0, 0
+  index: -1
+tail
+  rotate: true
+  xy: 530, 224
+  size: 94, 97
+  orig: 94, 97
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,97 @@
+{
+  "skeleton": {
+    "hash": "bgs+PHN+POD1Yarzdg1jF/8p1NE",
+    "spine": "3.6.48",
+    "width": 751,
+    "height": 874
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "back#b_torch_small#1",
+      "parent": "root",
+      "x": 550.77,
+      "y": 775.23
+    },
+    {
+      "name": "back#b_torch_small#2",
+      "parent": "root",
+      "x": 187.68,
+      "y": 776.59
+    },
+    {
+      "name": "front#f_fireheat#1",
+      "parent": "root",
+      "x": 381.51,
+      "y": 322.05
+    },
+    {
+      "name": "front#f_fireidle_tiny#1",
+      "parent": "root",
+      "x": 402.03,
+      "y": 491.77
+    },
+    {
+      "name": "front#f_fireidle_tiny#2",
+      "parent": "root",
+      "x": 34.74,
+      "y": 30.64
+    },
+    {
+      "name": "front#f_fireidle_tiny#3",
+      "parent": "root",
+      "x": 71.96,
+      "y": 29.02
+    },
+    {
+      "name": "front#f_fireidle_tiny#4",
+      "parent": "root",
+      "x": 123.73,
+      "y": 135.81
+    },
+    {
+      "name": "front#f_fireidle_tiny#5",
+      "parent": "root",
+      "x": 324.37,
+      "y": 82.42
+    },
+    {
+      "name": "front#f_fireidle_tiny#6",
+      "parent": "root",
+      "x": 400.41,
+      "y": 308.94
+    },
+    {
+      "name": "front#f_fireidle_tiny#7",
+      "parent": "root",
+      "x": 568.68,
+      "y": 83.61
+    },
+    {
+      "name": "front#f_fireidle_tiny#8",
+      "parent": "root",
+      "x": 607.52,
+      "y": 11.22
+    },
+    {
+      "name": "front#f_fireidle_tiny#9",
+      "parent": "root",
+      "x": 363.67,
+      "y": 209.13
+    }
+  ],
+  "slots": [
+    {
+      "name": "BACK_DUGEON",
+      "bone": "root"
+    }
+  ],
+  "skins": {
+    "default": {}
+  },
+  "animations": {
+    "dungeon1": {}
+  }
+}

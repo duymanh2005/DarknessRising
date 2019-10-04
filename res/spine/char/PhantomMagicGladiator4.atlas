@@ -1,0 +1,405 @@
+
+PhantomMagicGladiator.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm L
+  rotate: true
+  xy: 746, 870
+  size: 38, 48
+  orig: 38, 48
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: true
+  xy: 695, 873
+  size: 35, 49
+  orig: 35, 49
+  offset: 0, 0
+  index: -1
+boot L
+  rotate: false
+  xy: 626, 583
+  size: 28, 55
+  orig: 28, 55
+  offset: 0, 0
+  index: -1
+boot R
+  rotate: true
+  xy: 641, 875
+  size: 33, 52
+  orig: 33, 52
+  offset: 0, 0
+  index: -1
+bracer L
+  rotate: true
+  xy: 629, 797
+  size: 33, 49
+  orig: 33, 49
+  offset: 0, 0
+  index: -1
+bracer R
+  rotate: false
+  xy: 629, 832
+  size: 44, 41
+  orig: 44, 41
+  offset: 0, 0
+  index: -1
+cape
+  rotate: false
+  xy: 641, 910
+  size: 231, 112
+  orig: 231, 112
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: false
+  xy: 571, 498
+  size: 57, 49
+  orig: 57, 49
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: true
+  xy: 463, 498
+  size: 74, 44
+  orig: 74, 44
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: false
+  xy: 509, 498
+  size: 60, 49
+  orig: 60, 49
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 520, 549
+  size: 89, 104
+  orig: 89, 104
+  offset: 0, 0
+  index: -1
+fire magic ring
+  rotate: false
+  xy: 2, 62
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+flame slash
+  rotate: false
+  xy: 463, 421
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 311, 653
+  size: 30, 23
+  orig: 30, 23
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 29, 6
+  size: 30, 23
+  orig: 30, 23
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 678
+  size: 343, 344
+  orig: 343, 344
+  offset: 0, 0
+  index: -1
+hair front
+  rotate: false
+  xy: 521, 640
+  size: 129, 141
+  orig: 129, 141
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: true
+  xy: 626, 549
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 295, 242
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+hellfire symbol
+  rotate: false
+  xy: 874, 877
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+leg L
+  rotate: true
+  xy: 581, 429
+  size: 67, 46
+  orig: 67, 46
+  offset: 0, 0
+  index: -1
+leg R
+  rotate: true
+  xy: 537, 352
+  size: 67, 46
+  orig: 67, 46
+  offset: 0, 0
+  index: -1
+light beam
+  rotate: false
+  xy: 460, 268
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+light column
+  rotate: true
+  xy: 137, 242
+  size: 91, 156
+  orig: 91, 156
+  offset: 0, 0
+  index: -1
+light fx
+  rotate: true
+  xy: 347, 783
+  size: 102, 280
+  orig: 102, 280
+  offset: 0, 0
+  index: -1
+light wall
+  rotate: false
+  xy: 311, 562
+  size: 128, 89
+  orig: 128, 89
+  offset: 0, 0
+  index: -1
+lighting circle
+  rotate: false
+  xy: 324, 423
+  size: 137, 137
+  orig: 137, 137
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 1
+  rotate: true
+  xy: 585, 353
+  size: 15, 34
+  orig: 15, 34
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 2
+  rotate: false
+  xy: 156, 25
+  size: 16, 35
+  orig: 16, 35
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 3
+  rotate: false
+  xy: 845, 874
+  size: 15, 34
+  orig: 15, 34
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 4
+  rotate: true
+  xy: 629, 783
+  size: 12, 28
+  orig: 12, 28
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 5
+  rotate: true
+  xy: 441, 562
+  size: 10, 17
+  orig: 10, 17
+  offset: 0, 0
+  index: -1
+magic ring
+  rotate: false
+  xy: 460, 344
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+mana shield
+  rotate: false
+  xy: 324, 287
+  size: 134, 134
+  orig: 134, 134
+  offset: 0, 0
+  index: -1
+projectile
+  rotate: true
+  xy: 137, 335
+  size: 190, 185
+  orig: 190, 185
+  offset: 0, 0
+  index: -1
+rock 1
+  rotate: true
+  xy: 327, 242
+  size: 12, 13
+  orig: 12, 13
+  offset: 0, 0
+  index: -1
+rock 2
+  rotate: true
+  xy: 137, 234
+  size: 6, 7
+  orig: 6, 7
+  offset: 0, 0
+  index: -1
+rock 3
+  rotate: false
+  xy: 264, 2
+  size: 14, 9
+  orig: 14, 9
+  offset: 0, 0
+  index: -1
+rock 4
+  rotate: true
+  xy: 509, 562
+  size: 10, 9
+  orig: 10, 9
+  offset: 0, 0
+  index: -1
+rock 5
+  rotate: false
+  xy: 311, 552
+  size: 11, 8
+  orig: 11, 8
+  offset: 0, 0
+  index: -1
+rock1
+  rotate: false
+  xy: 2, 2
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+rock2
+  rotate: false
+  xy: 295, 274
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+rock3
+  rotate: false
+  xy: 327, 256
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+rock4
+  rotate: false
+  xy: 295, 305
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 31
+  size: 152, 29
+  orig: 152, 29
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 264, 13
+  size: 65, 57
+  orig: 65, 57
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: true
+  xy: 585, 370
+  size: 57, 35
+  orig: 57, 35
+  offset: 0, 0
+  index: -1
+silk
+  rotate: false
+  xy: 540, 421
+  size: 39, 75
+  orig: 39, 75
+  offset: 0, 0
+  index: -1
+slash
+  rotate: false
+  xy: 441, 574
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+sword skill ulti
+  rotate: false
+  xy: 2, 234
+  size: 133, 291
+  orig: 133, 291
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 174, 2
+  size: 68, 88
+  orig: 68, 88
+  offset: 0, 0
+  index: -1
+waist L
+  rotate: false
+  xy: 796, 872
+  size: 47, 36
+  orig: 47, 36
+  offset: 0, 0
+  index: -1
+waist R
+  rotate: false
+  xy: 630, 512
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: false
+  xy: 347, 887
+  size: 292, 135
+  orig: 292, 135
+  offset: 0, 0
+  index: -1
+weapon fx
+  rotate: false
+  xy: 2, 527
+  size: 307, 149
+  orig: 307, 149
+  offset: 0, 0
+  index: -1
+wings/level 1
+  rotate: false
+  xy: 347, 653
+  size: 172, 128
+  orig: 172, 128
+  offset: 0, 0
+  index: -1
+wings/level 2
+  rotate: true
+  xy: 174, 72
+  size: 168, 164
+  orig: 168, 164
+  offset: 0, 0
+  index: -1

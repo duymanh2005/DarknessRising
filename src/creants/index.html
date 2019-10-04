@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Creants Login</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet"
+          type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/css/bootstrapValidator.min.css"
+          rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/socialbutton.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div class="row">
+    <div class="container">
+        <div class="center-screen">
+            <i id="waiting_view" class="fa fa-spinner fa-pulse fa-3x fa-fw text-danger"></i>
+        </div>
+        <div id="main_dialog" class="modal" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-login">
+                    <div class="modal-body no-margin-padding-border">
+                        <div id="panel_login" class="login-register-form-section">
+                            <ul id="tab_container" class="nav nav-tabs nav-tab-no-border" role="tablist">
+                                <li class="active li-custom"><a href="#login" data-toggle="tab">Login</a></li>
+                                <li class="li-custom"><a href="#register" data-toggle="tab">Register</a></li>
+                                <li>
+                                    <a href="#confirm-code" data-toggle="tab" style="display: none;"></a>
+                                </li>
+                                <li>
+                                    <a href="#get-password" data-toggle="tab" style="display: none;"></a>
+                                </li>
+                                <li>
+                                    <a href="#recover" data-toggle="tab" style="display: none;"></a>
+                                </li>
+                                <div class="tab-content tab-header" style="margin-top: 55px;">
+                                    <div role="tabpanel" class="tab-pane fade in active" id="login">
+                                        <form id="form_login" class="form-horizontal">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                                                    <input id="input_user_login" type="text" name="login_user"
+                                                           class="form-control" placeholder="Username or email"
+                                                           required="required" value="">
+                                                </div>
+                                            </div>
+                                            <div class="form-group ">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon"><i class="fa fa-key"></i></div>
+                                                    <input id="input_password_login" type="password"
+                                                           name="login_password" class="form-control"
+                                                           placeholder="Password" required="required">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <a href="#get-password" data-toggle="tab" class="pull-right">Forgot
+                                                    password?</a>
+                                            </div>
+                                            <div class="form-group">
+                                                <button id="btn_login" type="submit" class="btn btn-success btn-custom">
+                                                    Login
+                                                </button>
+                                                <button id="btn_playnow"
+                                                        class="btn btn-success btn-custom btn-custom-green pull-right">
+                                                    Play now
+                                                </button>
+                                                <button id="btn_facebook2"
+                                                        class="btn btn-success btn-custom btn-custom-facebook pull-right hidden">
+                                                    Facebook
+                                                </button>
+                                            </div>
+                                            <div id="fb_group">
+                                                <div class="form-group">
+                                                    <h5 id="lbl_login_with" style="text-align: center;">Or Login
+                                                        with</h5>
+                                                </div>
+                                                <div class="form-group center-block">
+                                                    <a id="btn_facebook" type="submit" class="facebookBtn smGlobalBtn"
+                                                       href="#"></a>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="register">
+                                        <form id="form_register" class="form-horizontal">
+                                            <div class="form-group ">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                                                    <input id="input_user_register" type="text" name="register_username"
+                                                           class="form-control" placeholder="Username"
+                                                           required="required" value="">
+                                                </div>
+                                            </div>
+                                            <div class="form-group ">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon"><i class="fa fa-lock"></i></div>
+                                                    <input id="input_password_register" type="password"
+                                                           name="register_password" class="form-control"
+                                                           placeholder="Password" required="required">
+                                                </div>
+                                            </div>
+                                            <div class="form-group ">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon"><i class="fa fa-lock"></i></div>
+                                                    <input id="input_cpassword_register" type="password"
+                                                           name="register_cpassword" class="form-control"
+                                                           placeholder="Confirm Password" required="required">
+                                                </div>
+                                            </div>
+                                            <div class="form-group ">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+                                                    <input id="input_email_register" name="register_email"
+                                                           class="form-control" placeholder="Email" required="required"
+                                                           value="">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <a class="pull-right" style="margin-bottom: 5px;" href="#">TERM OF
+                                                    CONDITIONS</a>
+                                            </div>
+                                            <button id="btn_register" type="submit"
+                                                    class="btn btn-success btn-custom btn-custom-large">Agree and
+                                                register
+                                            </button>
+                                        </form>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="get-password">
+                                        <form id="getpassword_form" class="form-horizontal">
+                                            <div class="form-group ">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+                                                    <input id="input_mail_getpassword" name="getpassword"
+                                                           class="form-control" placeholder="Email" required="required"
+                                                           value="">
+                                                </div>
+                                            </div>
+                                            <button id="btn_get_password" type="submit"
+                                                    class="btn btn-success btn-custom btn-custom-large">Get Password
+                                            </button>
+                                        </form>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="confirm-code">
+                                        <form id="confirmcode_form" class="form-horizontal">
+                                            <div class="form-group ">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon"><i class="fa fa-check"></i></div>
+                                                    <input id="input_confirm_code" name="confirmcode"
+                                                           class="form-control" placeholder="Confirm code"
+                                                           required="required" value="">
+                                                </div>
+                                            </div>
+                                            <button id="btn_confirm_code" type="submit"
+                                                    class="btn btn-success btn-custom btn-custom-large">Submit
+                                            </button>
+                                        </form>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="recover">
+                                        <form id="recovery_form" class="form-horizontal" method="post" action="">
+                                            <div class="form-group ">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon"><i class="fa fa-lock"></i></div>
+                                                    <input id="input_password_recover" type="password"
+                                                           name="recovery_password" class="form-control"
+                                                           placeholder="Password" required="required">
+                                                </div>
+                                            </div>
+                                            <div class="form-group ">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon"><i class="fa fa-lock"></i></div>
+                                                    <input id="input_cpassword_recover" type="password"
+                                                           name="recovery_cpassword" class="form-control"
+                                                           placeholder="Confirm Password" required="required">
+                                                </div>
+                                            </div>
+                                            <button id="btn_recover" type="submit"
+                                                    class="btn btn-success btn-custom btn-custom-large">Recover
+                                            </button>
+                                        </form>
+                                    </div>
+                                    <div id="div_language" class="pull-right">
+                                        <span id="icon_flag" class="flag flag-vn"
+                                              style="position: relative; top: 3px; right: 5px;"></span>
+                                        <a id="a_language" href="#">Tieng Viet</a>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="panel_logout" class="panel" style="display: none">
+                        <div class="widget-header"></div>
+                        <div class="login-register-form-section">
+                            <div class="widget-body center-block">
+                                <img id="user_avatar_logout" alt="Profile Picture"
+                                     class="widget-img img-circle img-border-light" src="img/default_avatar.png">
+                                <h4 id="user_name_logout" class="scale-width-with-parent">No Name</h4>
+
+                                <p class="text-muted mar-btm"></p>
+                                <button id="btn_logout" type="submit"
+                                        class="btn btn-success btn-custom btn-custom-green">Log out
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal_loading" class="modal">
+            <div class="modal-dialog">
+                <div class="modal-content modal-content-info">
+                    <div id="div_loading">
+                        <h4 id="lbl_loading" class="center-block">Please waiting</h4>
+
+                        <div class="center-block">
+                            <i id="ico_loading" class="fa fa-spinner fa-pulse fa-3x fa-fw text-danger"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal_info" class="modal">
+            <div class=" modal-dialog ">
+                <div class="modal-content modal-content-info ">
+                    <div id="div_ok" class="hidden ">
+                        <h4 id="lbl_ok" class="center-block ">Success!!</h4>
+
+                        <div class="center-block ">
+                            <i id="ico_loading_ok " class="fa fa-check-circle fa-3x text-success "></i>
+                        </div>
+                    </div>
+                    <div id="div_fail" class="hidden ">
+                        <h4 id="lbl_fail" class="center-block ">Fail!!</h4>
+
+                        <div class="center-block ">
+                            <i id="ico_loading_fail " class="fa fa-exclamation-triangle fa-3x text-danger "></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript " src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js "></script>
+<script type="text/javascript " src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js "></script>
+<script type="text/javascript "
+        src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js'></script>
+<script src="js/language.js "></script>
+<script src="js/creants_api.js "></script>
+<script src="js/main.js "></script>
+<script src="js/RC4.js "></script>
+</body>
+
+</html>

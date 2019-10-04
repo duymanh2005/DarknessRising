@@ -1,0 +1,573 @@
+
+GRedDragonKnight.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm L
+  rotate: false
+  xy: 332, 25
+  size: 33, 42
+  orig: 33, 42
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: true
+  xy: 857, 358
+  size: 32, 43
+  orig: 32, 43
+  offset: 0, 0
+  index: -1
+belt
+  rotate: false
+  xy: 275, 171
+  size: 47, 28
+  orig: 47, 28
+  offset: 0, 0
+  index: -1
+blade
+  rotate: false
+  xy: 513, 588
+  size: 107, 211
+  orig: 107, 211
+  offset: 0, 0
+  index: -1
+skill active/weapon
+  rotate: false
+  xy: 513, 588
+  size: 107, 211
+  orig: 107, 211
+  offset: 0, 0
+  index: -1
+boot L
+  rotate: true
+  xy: 367, 2
+  size: 26, 28
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+bracer L
+  rotate: false
+  xy: 860, 265
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+cycloneslash/cycloneslash1
+  rotate: false
+  xy: 372, 62
+  size: 37, 28
+  orig: 37, 28
+  offset: 0, 0
+  index: -1
+cycloneslash/cycloneslash2
+  rotate: false
+  xy: 382, 92
+  size: 38, 27
+  orig: 38, 27
+  offset: 0, 0
+  index: -1
+cycloneslash/cycloneslash3
+  rotate: false
+  xy: 893, 254
+  size: 42, 30
+  orig: 42, 30
+  offset: 0, 0
+  index: -1
+cycloneslash/cycloneslash4
+  rotate: false
+  xy: 698, 392
+  size: 85, 44
+  orig: 85, 44
+  offset: 0, 0
+  index: -1
+cycloneslash/cycloneslash5
+  rotate: true
+  xy: 902, 381
+  size: 99, 50
+  orig: 99, 50
+  offset: 0, 0
+  index: -1
+cycloneslash/cycloneslash6
+  rotate: true
+  xy: 954, 631
+  size: 98, 50
+  orig: 98, 50
+  offset: 0, 0
+  index: -1
+cycloneslash/cycloneslash7
+  rotate: true
+  xy: 977, 780
+  size: 86, 45
+  orig: 86, 45
+  offset: 0, 0
+  index: -1
+eye4
+  rotate: false
+  xy: 698, 349
+  size: 78, 41
+  orig: 78, 41
+  offset: 0, 0
+  index: -1
+eyes attack
+  rotate: false
+  xy: 902, 329
+  size: 58, 50
+  orig: 58, 50
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: true
+  xy: 275, 301
+  size: 52, 32
+  orig: 52, 32
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: true
+  xy: 763, 289
+  size: 58, 31
+  orig: 58, 31
+  offset: 0, 0
+  index: -1
+eyes lookback
+  rotate: true
+  xy: 860, 298
+  size: 58, 31
+  orig: 58, 31
+  offset: 0, 0
+  index: -1
+fire/1
+  rotate: false
+  xy: 363, 309
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire/10
+  rotate: false
+  xy: 425, 259
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire/11
+  rotate: false
+  xy: 425, 209
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire/12
+  rotate: false
+  xy: 282, 121
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire/13
+  rotate: false
+  xy: 282, 71
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire/14
+  rotate: false
+  xy: 282, 21
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire/15
+  rotate: false
+  xy: 332, 159
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire/16
+  rotate: false
+  xy: 332, 109
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire/2
+  rotate: false
+  xy: 413, 309
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire/3
+  rotate: false
+  xy: 275, 251
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire/4
+  rotate: false
+  xy: 275, 201
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire/5
+  rotate: false
+  xy: 325, 259
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire/6
+  rotate: false
+  xy: 325, 209
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire/7
+  rotate: false
+  xy: 375, 259
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire/8
+  rotate: false
+  xy: 375, 209
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 101, 42
+  size: 28, 16
+  orig: 28, 16
+  offset: 0, 0
+  index: -1
+grip
+  rotate: false
+  xy: 1000, 920
+  size: 20, 102
+  orig: 20, 102
+  offset: 0, 0
+  index: -1
+hand L Down
+  rotate: false
+  xy: 397, 2
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+hand L Up
+  rotate: false
+  xy: 594, 557
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 937, 256
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 119, 12
+  size: 161, 157
+  orig: 161, 157
+  offset: 0, 0
+  index: -1
+knee armor L
+  rotate: false
+  xy: 1000, 891
+  size: 22, 27
+  orig: 22, 27
+  offset: 0, 0
+  index: -1
+powerslash10
+  rotate: false
+  xy: 698, 438
+  size: 100, 94
+  orig: 100, 94
+  offset: 0, 0
+  index: -1
+powerslash2
+  rotate: true
+  xy: 698, 290
+  size: 57, 63
+  orig: 57, 63
+  offset: 0, 0
+  index: -1
+powerslash3
+  rotate: true
+  xy: 2, 13
+  size: 57, 97
+  orig: 57, 97
+  offset: 0, 0
+  index: -1
+powerslash4
+  rotate: false
+  xy: 954, 547
+  size: 60, 82
+  orig: 60, 82
+  offset: 0, 0
+  index: -1
+powerslash5
+  rotate: true
+  xy: 954, 391
+  size: 72, 66
+  orig: 72, 66
+  offset: 0, 0
+  index: -1
+powerslash6
+  rotate: false
+  xy: 962, 335
+  size: 51, 54
+  orig: 51, 54
+  offset: 0, 0
+  index: -1
+powerslash7
+  rotate: false
+  xy: 800, 392
+  size: 100, 88
+  orig: 100, 88
+  offset: 0, 0
+  index: -1
+powerslash8
+  rotate: true
+  xy: 598, 337
+  size: 92, 98
+  orig: 92, 98
+  offset: 0, 0
+  index: -1
+powerslash9
+  rotate: false
+  xy: 598, 431
+  size: 98, 101
+  orig: 98, 101
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 284, 359
+  size: 177, 34
+  orig: 177, 34
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 796, 287
+  size: 62, 61
+  orig: 62, 61
+  offset: 0, 0
+  index: -1
+shoulder R back
+  rotate: false
+  xy: 309, 309
+  size: 52, 48
+  orig: 52, 48
+  offset: 0, 0
+  index: -1
+shoulder R front
+  rotate: true
+  xy: 893, 286
+  size: 41, 61
+  orig: 41, 61
+  offset: 0, 0
+  index: -1
+silk
+  rotate: true
+  xy: 778, 350
+  size: 40, 77
+  orig: 40, 77
+  offset: 0, 0
+  index: -1
+skill active/DotSparkA
+  rotate: false
+  xy: 332, 69
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+skill active/LightCircle
+  rotate: false
+  xy: 382, 121
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+skill active/Light_circleA
+  rotate: false
+  xy: 367, 30
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+skill active/light beam underground
+  rotate: true
+  xy: 567, 801
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+skill active/light fx
+  rotate: false
+  xy: 284, 551
+  size: 227, 248
+  orig: 227, 248
+  offset: 0, 0
+  index: -1
+skill active/partical circle #1
+  rotate: false
+  xy: 513, 559
+  size: 79, 27
+  orig: 79, 27
+  offset: 0, 0
+  index: -1
+skill active/shockwave2
+  rotate: false
+  xy: 432, 169
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+skill active/slash ulti #1
+  rotate: false
+  xy: 2, 801
+  size: 281, 221
+  orig: 281, 221
+  offset: 0, 0
+  index: -1
+skill active/slash ulti #2
+  rotate: false
+  xy: 2, 578
+  size: 280, 221
+  orig: 280, 221
+  offset: 0, 0
+  index: -1
+skill active/slash ulti #3
+  rotate: false
+  xy: 285, 801
+  size: 280, 221
+  orig: 280, 221
+  offset: 0, 0
+  index: -1
+skill active/slash ulti #4
+  rotate: false
+  xy: 2, 355
+  size: 280, 221
+  orig: 280, 221
+  offset: 0, 0
+  index: -1
+slash #1
+  rotate: false
+  xy: 284, 395
+  size: 182, 154
+  orig: 182, 154
+  offset: 0, 0
+  index: -1
+slash #2
+  rotate: false
+  xy: 816, 868
+  size: 182, 154
+  orig: 182, 154
+  offset: 0, 0
+  index: -1
+slash #3
+  rotate: true
+  xy: 119, 171
+  size: 182, 154
+  orig: 182, 154
+  offset: 0, 0
+  index: -1
+slash #4
+  rotate: false
+  xy: 622, 670
+  size: 182, 154
+  orig: 182, 154
+  offset: 0, 0
+  index: -1
+slash/slash 1
+  rotate: false
+  xy: 622, 534
+  size: 182, 134
+  orig: 182, 134
+  offset: 0, 0
+  index: -1
+slash/slash 2
+  rotate: false
+  xy: 806, 612
+  size: 146, 131
+  orig: 146, 131
+  offset: 0, 0
+  index: -1
+slash/slash 3
+  rotate: false
+  xy: 806, 482
+  size: 146, 128
+  orig: 146, 128
+  offset: 0, 0
+  index: -1
+slash/slash 4
+  rotate: true
+  xy: 468, 403
+  size: 146, 128
+  orig: 146, 128
+  offset: 0, 0
+  index: -1
+starsparkle
+  rotate: false
+  xy: 463, 309
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+sword
+  rotate: false
+  xy: 2, 72
+  size: 115, 281
+  orig: 115, 281
+  offset: 0, 0
+  index: -1
+thigh L
+  rotate: false
+  xy: 382, 161
+  size: 48, 46
+  orig: 48, 46
+  offset: 0, 0
+  index: -1
+thigh R
+  rotate: true
+  xy: 977, 731
+  size: 47, 45
+  orig: 47, 45
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 954, 465
+  size: 67, 80
+  orig: 67, 80
+  offset: 0, 0
+  index: -1
+wing level 2
+  rotate: false
+  xy: 816, 745
+  size: 159, 121
+  orig: 159, 121
+  offset: 0, 0
+  index: -1
+wing level 3
+  rotate: false
+  xy: 567, 826
+  size: 247, 196
+  orig: 247, 196
+  offset: 0, 0
+  index: -1

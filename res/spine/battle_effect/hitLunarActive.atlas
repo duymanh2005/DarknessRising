@@ -1,0 +1,209 @@
+
+hitLunarActive.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fire/1
+  rotate: false
+  xy: 185, 78
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire_explode/fire_expl_01
+  rotate: false
+  xy: 2, 4
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+fire_explode/fire_expl_03
+  rotate: false
+  xy: 267, 97
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+fire_explode/fire_expl_05
+  rotate: false
+  xy: 33, 4
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+fire_explode/fire_expl_11
+  rotate: false
+  xy: 298, 97
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+fire_explode/fire_expl_13
+  rotate: false
+  xy: 64, 4
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+fire_explode/fire_expl_15
+  rotate: false
+  xy: 95, 7
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+hit/Shine
+  rotate: false
+  xy: 329, 103
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+hit/energy_ball
+  rotate: false
+  xy: 185, 40
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+hit/hit effect circle glowing
+  rotate: false
+  xy: 185, 2
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+hit/impact 1
+  rotate: false
+  xy: 95, 38
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+hit/light_beam
+  rotate: false
+  xy: 235, 96
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+hit/magic ring
+  rotate: false
+  xy: 2, 35
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back1
+  rotate: false
+  xy: 126, 25
+  size: 32, 11
+  orig: 32, 11
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back2
+  rotate: true
+  xy: 160, 11
+  size: 25, 11
+  orig: 25, 11
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back3
+  rotate: false
+  xy: 423, 108
+  size: 32, 7
+  orig: 32, 7
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back4
+  rotate: false
+  xy: 389, 107
+  size: 32, 8
+  orig: 32, 8
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back5
+  rotate: false
+  xy: 126, 5
+  size: 31, 7
+  orig: 31, 7
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back6
+  rotate: false
+  xy: 354, 107
+  size: 33, 8
+  orig: 33, 8
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back7
+  rotate: false
+  xy: 354, 117
+  size: 33, 9
+  orig: 33, 9
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back8
+  rotate: false
+  xy: 126, 14
+  size: 32, 9
+  orig: 32, 9
+  offset: 0, 0
+  index: -1
+smoke/ground smoke1
+  rotate: false
+  xy: 235, 85
+  size: 29, 9
+  orig: 29, 9
+  offset: 0, 0
+  index: -1
+smoke/ground smoke2
+  rotate: false
+  xy: 389, 117
+  size: 31, 9
+  orig: 31, 9
+  offset: 0, 0
+  index: -1
+smoke/ground smoke3
+  rotate: true
+  xy: 223, 43
+  size: 33, 9
+  orig: 33, 9
+  offset: 0, 0
+  index: -1
+smoke/ground smoke4
+  rotate: true
+  xy: 173, 10
+  size: 26, 8
+  orig: 26, 8
+  offset: 0, 0
+  index: -1
+smoke/ground smoke5
+  rotate: false
+  xy: 422, 117
+  size: 31, 9
+  orig: 31, 9
+  offset: 0, 0
+  index: -1
+smoke/ground smoke6
+  rotate: false
+  xy: 455, 117
+  size: 31, 9
+  orig: 31, 9
+  offset: 0, 0
+  index: -1
+smoke/ground smoke7
+  rotate: false
+  xy: 457, 109
+  size: 28, 6
+  orig: 28, 6
+  offset: 0, 0
+  index: -1
+smoke/ground smoke8
+  rotate: false
+  xy: 235, 75
+  size: 26, 8
+  orig: 26, 8
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+hitLichAttack.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images lich hit/explode
+  rotate: false
+  xy: 2, 11
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+images lich hit/explode 1
+  rotate: false
+  xy: 325, 49
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+images lich hit/light dust
+  rotate: false
+  xy: 439, 63
+  size: 44, 42
+  orig: 44, 42
+  offset: 0, 0
+  index: -1
+images lich hit/light saber
+  rotate: true
+  xy: 2, 2
+  size: 7, 56
+  orig: 7, 56
+  offset: 0, 0
+  index: -1
+images lich hit/magic ring
+  rotate: false
+  xy: 98, 30
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+images lich hit/magic ring skillactive
+  rotate: false
+  xy: 251, 33
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+images lich02/hit effect circle glowing
+  rotate: false
+  xy: 383, 61
+  size: 54, 44
+  orig: 54, 44
+  offset: 0, 0
+  index: -1
+images lich02/light beam
+  rotate: false
+  xy: 175, 31
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1

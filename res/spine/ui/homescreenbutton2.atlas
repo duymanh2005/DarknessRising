@@ -1,0 +1,48 @@
+
+homescreenbutton2.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arena
+  rotate: false
+  xy: 816, 95
+  size: 144, 145
+  orig: 144, 145
+  offset: 0, 0
+  index: -1
+circle
+  rotate: false
+  xy: 222, 45
+  size: 195, 195
+  orig: 195, 195
+  offset: 0, 0
+  index: -1
+effect_water
+  rotate: false
+  xy: 419, 2
+  size: 93, 70
+  orig: 93, 70
+  offset: 0, 0
+  index: -1
+flying stone
+  rotate: true
+  xy: 632, 91
+  size: 149, 182
+  orig: 149, 182
+  offset: 0, 0
+  index: -1
+magic
+  rotate: false
+  xy: 2, 27
+  size: 218, 213
+  orig: 218, 213
+  offset: 0, 0
+  index: -1
+map
+  rotate: false
+  xy: 419, 74
+  size: 211, 166
+  orig: 211, 166
+  offset: 0, 0
+  index: -1

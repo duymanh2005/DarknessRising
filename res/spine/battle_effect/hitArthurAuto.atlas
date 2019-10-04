@@ -1,0 +1,160 @@
+
+hitArthurAuto.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx/impact 1
+  rotate: false
+  xy: 2, 8
+  size: 117, 118
+  orig: 117, 118
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 1
+  rotate: false
+  xy: 583, 56
+  size: 80, 23
+  orig: 80, 23
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 2
+  rotate: false
+  xy: 772, 101
+  size: 86, 25
+  orig: 86, 25
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 3
+  rotate: false
+  xy: 213, 25
+  size: 92, 25
+  orig: 92, 25
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 4
+  rotate: false
+  xy: 680, 81
+  size: 72, 23
+  orig: 72, 23
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 5
+  rotate: false
+  xy: 307, 26
+  size: 88, 24
+  orig: 88, 24
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 6
+  rotate: false
+  xy: 860, 99
+  size: 86, 27
+  orig: 86, 27
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 7
+  rotate: false
+  xy: 587, 81
+  size: 82, 21
+  orig: 82, 21
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 8
+  rotate: false
+  xy: 307, 2
+  size: 74, 22
+  orig: 74, 22
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 1
+  rotate: false
+  xy: 121, 20
+  size: 90, 30
+  orig: 90, 30
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 2
+  rotate: false
+  xy: 948, 97
+  size: 69, 29
+  orig: 69, 29
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 3
+  rotate: false
+  xy: 680, 106
+  size: 90, 20
+  orig: 90, 20
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 4
+  rotate: false
+  xy: 213, 2
+  size: 90, 21
+  orig: 90, 21
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 5
+  rotate: false
+  xy: 491, 53
+  size: 87, 19
+  orig: 87, 19
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 6
+  rotate: false
+  xy: 587, 104
+  size: 91, 22
+  orig: 91, 22
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 7
+  rotate: false
+  xy: 491, 101
+  size: 94, 25
+  orig: 94, 25
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 8
+  rotate: false
+  xy: 491, 74
+  size: 90, 25
+  orig: 90, 25
+  offset: 0, 0
+  index: -1
+tornado/tornado-01
+  rotate: false
+  xy: 121, 52
+  size: 72, 74
+  orig: 72, 74
+  offset: 0, 0
+  index: -1
+tornado/tornado-02
+  rotate: false
+  xy: 195, 52
+  size: 72, 74
+  orig: 72, 74
+  offset: 0, 0
+  index: -1
+tornado/tornado-03
+  rotate: false
+  xy: 417, 53
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+tornado/tornado-04
+  rotate: false
+  xy: 269, 52
+  size: 72, 74
+  orig: 72, 74
+  offset: 0, 0
+  index: -1
+tornado/tornado-05
+  rotate: false
+  xy: 343, 52
+  size: 72, 74
+  orig: 72, 74
+  offset: 0, 0
+  index: -1

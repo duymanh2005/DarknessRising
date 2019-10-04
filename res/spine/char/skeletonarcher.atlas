@@ -1,0 +1,153 @@
+
+skeletonarcher.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Leg up L
+  rotate: false
+  xy: 782, 41
+  size: 52, 49
+  orig: 52, 49
+  offset: 0, 0
+  index: -1
+Leg up R
+  rotate: true
+  xy: 836, 56
+  size: 34, 50
+  orig: 34, 50
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: false
+  xy: 912, 67
+  size: 98, 79
+  orig: 98, 79
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: true
+  xy: 274, 33
+  size: 63, 113
+  orig: 63, 113
+  offset: 0, 0
+  index: -1
+arrow
+  rotate: false
+  xy: 2, 47
+  size: 270, 49
+  orig: 270, 49
+  offset: 0, 0
+  index: -1
+belly
+  rotate: false
+  xy: 721, 34
+  size: 59, 60
+  orig: 59, 60
+  offset: 0, 0
+  index: -1
+body low
+  rotate: true
+  xy: 174, 4
+  size: 26, 45
+  orig: 26, 45
+  offset: 0, 0
+  index: -1
+body up
+  rotate: true
+  xy: 794, 148
+  size: 106, 199
+  orig: 106, 199
+  offset: 0, 0
+  index: -1
+bow
+  rotate: true
+  xy: 2, 98
+  size: 156, 398
+  orig: 156, 398
+  offset: 0, 0
+  index: -1
+eyes 1
+  rotate: false
+  xy: 96, 13
+  size: 76, 32
+  orig: 76, 32
+  offset: 0, 0
+  index: -1
+eyes 3
+  rotate: false
+  xy: 389, 28
+  size: 115, 44
+  orig: 115, 44
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 995, 193
+  size: 61, 27
+  orig: 61, 27
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 602, 68
+  size: 50, 26
+  orig: 50, 26
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 506, 6
+  size: 93, 66
+  orig: 93, 66
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 794, 92
+  size: 116, 54
+  orig: 116, 54
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 602, 96
+  size: 158, 190
+  orig: 158, 190
+  offset: 0, 0
+  index: -1
+leg low L
+  rotate: false
+  xy: 601, 2
+  size: 52, 63
+  orig: 52, 63
+  offset: 0, 0
+  index: -1
+leg low R
+  rotate: false
+  xy: 655, 29
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+quiver
+  rotate: true
+  xy: 402, 74
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 174, 32
+  size: 68, 13
+  orig: 68, 13
+  offset: 0, 0
+  index: -1
+skill_arrow_fx
+  rotate: false
+  xy: 2, 24
+  size: 92, 21
+  orig: 92, 21
+  offset: 0, 0
+  index: -1

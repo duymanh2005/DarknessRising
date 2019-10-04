@@ -1,0 +1,746 @@
+{
+  "ID": "6228dab5-32c5-47ff-9b44-7e0b89088e4a",
+  "Version": "3.10.0.0",
+  "Name": "ItemOptionFunctionDialog",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 81,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 733.7
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.55
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.7167,
+              "Y": 0.5624
+            },
+            "LeftMargin": 106.2375,
+            "RightMargin": 106.2375,
+            "TopMargin": 225.1792,
+            "BottomMargin": 358.5792,
+            "Tag": 82,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/pnl_Popup.png",
+                  "Plist": "json/patch9_6.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 119,
+                "Scale9OriginY": 120,
+                "Scale9Width": 123,
+                "Scale9Height": 126,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 270.7514,
+                  "Y": 377.1464
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5037,
+                  "Y": 0.5027
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.58
+                },
+                "LeftMargin": 1.9889,
+                "RightMargin": -1.9889,
+                "TopMargin": 155.5251,
+                "BottomMargin": 159.5764,
+                "Tag": 84,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "button/quit_button.png",
+                      "Plist": "json/button.plist"
+                    },
+                    "Scale9OriginX": 23,
+                    "Scale9OriginY": 25,
+                    "Scale9Width": 26,
+                    "Scale9Height": 26,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 512.2619,
+                      "Y": 409.678
+                    },
+                    "Scale": {
+                      "ScaleX": 0.65,
+                      "ScaleY": 0.65
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.953,
+                      "Y": 0.9415
+                    },
+                    "PreSize": {
+                      "X": 0.1339,
+                      "Y": 0.1747
+                    },
+                    "LeftMargin": 476.2619,
+                    "RightMargin": -10.7369,
+                    "TopMargin": -12.5379,
+                    "BottomMargin": 371.678,
+                    "Tag": 85,
+                    "ActionTag": 224193777,
+                    "Size": {
+                      "X": 72.0,
+                      "Y": 76.0
+                    },
+                    "Name": "btnClose",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "LabelText": "Infomation",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/cam_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.4993,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 268.7625,
+                      "Y": 397.2552
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.75
+                    },
+                    "CColor": {
+                      "G": 165,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.9129
+                    },
+                    "PreSize": {
+                      "X": 0.3274,
+                      "Y": 0.0919
+                    },
+                    "LeftMargin": 180.8857,
+                    "RightMargin": 180.6393,
+                    "TopMargin": 17.8849,
+                    "BottomMargin": 377.2552,
+                    "Tag": 494,
+                    "ActionTag": 1833584737,
+                    "Size": {
+                      "X": 176.0,
+                      "Y": 40.0
+                    },
+                    "Name": "lblTitle",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "patch9/sep_header_pattern.png",
+                      "Plist": "json/patch9_8.plist"
+                    },
+                    "Scale9OriginX": 79,
+                    "Scale9OriginY": 5,
+                    "Scale9Width": 82,
+                    "Scale9Height": 8,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 268.7625,
+                      "Y": 352.2505
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.8095
+                    },
+                    "PreSize": {
+                      "X": 0.4465,
+                      "Y": 0.0414
+                    },
+                    "LeftMargin": 148.7625,
+                    "RightMargin": 148.7625,
+                    "TopMargin": 73.8896,
+                    "BottomMargin": 343.2505,
+                    "Tag": 493,
+                    "ActionTag": 1283725161,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 18.0
+                    },
+                    "Name": "sepe_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "patch9/pnl_howtoget_trans.png",
+                      "Plist": "json/patch9_8.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 74,
+                    "Scale9OriginY": 65,
+                    "Scale9Width": 78,
+                    "Scale9Height": 67,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 268.7625,
+                      "Y": 181.3229
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4167
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.8804,
+                      "Y": 0.6
+                    },
+                    "LeftMargin": 32.144,
+                    "RightMargin": 32.144,
+                    "TopMargin": 123.2752,
+                    "BottomMargin": 50.7809,
+                    "Tag": 90,
+                    "Children": [
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 236.6185,
+                          "Y": 185.3697
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.71
+                        },
+                        "PreSize": {
+                          "X": 0.8516,
+                          "Y": 0.4213
+                        },
+                        "LeftMargin": 35.1185,
+                        "RightMargin": 35.1185,
+                        "TopMargin": 20.7144,
+                        "BottomMargin": 130.3697,
+                        "Tag": 92,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "patch9/pnl_how to get.png",
+                              "Plist": "json/patch9_10.plist"
+                            },
+                            "Scale9OriginX": 132,
+                            "Scale9OriginY": 25,
+                            "Scale9Width": 139,
+                            "Scale9Height": 28,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 215.6453,
+                              "Y": 55.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5351,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0,
+                              "Y": 0.7091
+                            },
+                            "LeftMargin": 14.1453,
+                            "RightMargin": -14.1453,
+                            "TopMargin": 16.0,
+                            "BottomMargin": 16.0,
+                            "Tag": 93,
+                            "ActionTag": 2122752509,
+                            "Size": {
+                              "X": 403.0,
+                              "Y": 78.0
+                            },
+                            "Name": "brk",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "icon/ico_howto_craft.png",
+                              "Plist": "json/icon.plist"
+                            },
+                            "Scale9OriginX": 29,
+                            "Scale9OriginY": 34,
+                            "Scale9Width": 32,
+                            "Scale9Height": 38,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 43.1613,
+                              "Y": 55.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1071,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.2233,
+                              "Y": 0.9636
+                            },
+                            "LeftMargin": -1.8387,
+                            "RightMargin": 314.8387,
+                            "TopMargin": 2.0,
+                            "BottomMargin": 2.0,
+                            "Tag": 94,
+                            "ActionTag": -1409517418,
+                            "Size": {
+                              "X": 90.0,
+                              "Y": 106.0
+                            },
+                            "Name": "icon",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "button/btn_go.png",
+                              "Plist": "json/button.plist"
+                            },
+                            "Scale9OriginX": 14,
+                            "Scale9OriginY": 14,
+                            "Scale9Width": 17,
+                            "Scale9Height": 16,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 375.596,
+                              "Y": 52.8
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.932,
+                              "Y": 0.48
+                            },
+                            "PreSize": {
+                              "X": 0.1117,
+                              "Y": 0.4
+                            },
+                            "LeftMargin": 353.096,
+                            "RightMargin": 4.904,
+                            "TopMargin": 35.2,
+                            "BottomMargin": 30.8,
+                            "Tag": 95,
+                            "ActionTag": 476548585,
+                            "Size": {
+                              "X": 45.0,
+                              "Y": 44.0
+                            },
+                            "Name": "btn",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 1733351893,
+                        "Size": {
+                          "X": 403.0,
+                          "Y": 110.0
+                        },
+                        "Name": "cellAdd",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 236.6185,
+                          "Y": 78.3252
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.3
+                        },
+                        "PreSize": {
+                          "X": 0.8516,
+                          "Y": 0.4213
+                        },
+                        "LeftMargin": 35.1185,
+                        "RightMargin": 35.1185,
+                        "TopMargin": 127.7588,
+                        "BottomMargin": 23.3252,
+                        "Tag": 495,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "patch9/pnl_how to get.png",
+                              "Plist": "json/patch9_10.plist"
+                            },
+                            "Scale9OriginX": 132,
+                            "Scale9OriginY": 25,
+                            "Scale9Width": 139,
+                            "Scale9Height": 28,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 215.6453,
+                              "Y": 55.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5351,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0,
+                              "Y": 0.7091
+                            },
+                            "LeftMargin": 14.1453,
+                            "RightMargin": -14.1453,
+                            "TopMargin": 16.0,
+                            "BottomMargin": 16.0,
+                            "Tag": 496,
+                            "ActionTag": -1884100583,
+                            "Size": {
+                              "X": 403.0,
+                              "Y": 78.0
+                            },
+                            "Name": "brk",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "icon/ico_howto_craft.png",
+                              "Plist": "json/icon.plist"
+                            },
+                            "Scale9OriginX": 29,
+                            "Scale9OriginY": 34,
+                            "Scale9Width": 32,
+                            "Scale9Height": 38,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 43.1613,
+                              "Y": 55.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1071,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.2233,
+                              "Y": 0.9636
+                            },
+                            "LeftMargin": -1.8387,
+                            "RightMargin": 314.8387,
+                            "TopMargin": 2.0,
+                            "BottomMargin": 2.0,
+                            "Tag": 497,
+                            "ActionTag": -1737471131,
+                            "Size": {
+                              "X": 90.0,
+                              "Y": 106.0
+                            },
+                            "Name": "icon",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "button/btn_go.png",
+                              "Plist": "json/button.plist"
+                            },
+                            "Scale9OriginX": 14,
+                            "Scale9OriginY": 14,
+                            "Scale9Width": 17,
+                            "Scale9Height": 16,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 375.596,
+                              "Y": 52.8
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.932,
+                              "Y": 0.48
+                            },
+                            "PreSize": {
+                              "X": 0.1117,
+                              "Y": 0.4
+                            },
+                            "LeftMargin": 353.096,
+                            "RightMargin": 4.904,
+                            "TopMargin": 35.2,
+                            "BottomMargin": 30.8,
+                            "Tag": 498,
+                            "ActionTag": 717760930,
+                            "Size": {
+                              "X": 45.0,
+                              "Y": 44.0
+                            },
+                            "Name": "btn",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 1210442590,
+                        "Size": {
+                          "X": 403.0,
+                          "Y": 110.0
+                        },
+                        "Name": "cellChange",
+                        "ctype": "PanelObjectData"
+                      }
+                    ],
+                    "ActionTag": -1383954109,
+                    "Size": {
+                      "X": 473.237,
+                      "Y": 261.084
+                    },
+                    "Name": "brkHowTo",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -991428162,
+                "Size": {
+                  "X": 537.525,
+                  "Y": 435.1401
+                },
+                "Name": "brk",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1167474643,
+            "Size": {
+              "X": 537.525,
+              "Y": 750.2416
+            },
+            "Name": "root",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 750.0,
+          "Y": 1334.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../font/cam_stroke_32-export.fnt",
+        "../../font/cam_stroke_32-export.png",
+        "../button.plist",
+        "../button.png",
+        "../icon.plist",
+        "../icon.png",
+        "../patch9_10.plist",
+        "../patch9_10.png",
+        "../patch9_6.plist",
+        "../patch9_6.png",
+        "../patch9_8.plist",
+        "../patch9_8.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

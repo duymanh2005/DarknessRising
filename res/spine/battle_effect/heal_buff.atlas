@@ -1,0 +1,48 @@
+
+heal_buff.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Circle_A_small
+  rotate: false
+  xy: 2, 154
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+Light_circleA_small
+  rotate: false
+  xy: 324, 174
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Light_circleB_small
+  rotate: false
+  xy: 626, 174
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+Shine
+  rotate: false
+  xy: 2, 2
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+Shine_small
+  rotate: false
+  xy: 928, 436
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+speedlight_effect
+  rotate: true
+  xy: 324, 161
+  size: 11, 162
+  orig: 11, 162
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,125 @@
+
+hitHonorableCharge.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hit/SlashLine
+  rotate: false
+  xy: 2, 120
+  size: 222, 125
+  orig: 222, 125
+  offset: 0, 0
+  index: -1
+hit/glow fx
+  rotate: false
+  xy: 226, 99
+  size: 146, 146
+  orig: 146, 146
+  offset: 0, 0
+  index: -1
+hit/hit effect circle glowing
+  rotate: false
+  xy: 673, 90
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+hit/impact 1
+  rotate: true
+  xy: 732, 86
+  size: 117, 118
+  orig: 117, 118
+  offset: 0, 0
+  index: -1
+hit/light beam
+  rotate: false
+  xy: 852, 163
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+hit/light circle
+  rotate: false
+  xy: 852, 141
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+hit/shock wave
+  rotate: false
+  xy: 180, 14
+  size: 82, 83
+  orig: 82, 83
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder1
+  rotate: true
+  xy: 910, 163
+  size: 82, 100
+  orig: 82, 100
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder10
+  rotate: true
+  xy: 732, 205
+  size: 40, 176
+  orig: 40, 176
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder11
+  rotate: true
+  xy: 374, 96
+  size: 38, 176
+  orig: 38, 176
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder2
+  rotate: true
+  xy: 552, 182
+  size: 63, 178
+  orig: 63, 178
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder4
+  rotate: true
+  xy: 374, 179
+  size: 66, 176
+  orig: 66, 176
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder5
+  rotate: true
+  xy: 552, 64
+  size: 73, 119
+  orig: 73, 119
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder6
+  rotate: true
+  xy: 2, 46
+  size: 72, 176
+  orig: 72, 176
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder7
+  rotate: true
+  xy: 374, 136
+  size: 41, 176
+  orig: 41, 176
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder8
+  rotate: true
+  xy: 2, 2
+  size: 42, 176
+  orig: 42, 176
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder9
+  rotate: true
+  xy: 552, 139
+  size: 41, 176
+  orig: 41, 176
+  offset: 0, 0
+  index: -1

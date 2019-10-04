@@ -1,0 +1,265 @@
+
+LegendaryWizard.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Back silk
+  rotate: true
+  xy: 888, 867
+  size: 155, 124
+  orig: 155, 124
+  offset: 0, 0
+  index: -1
+L arm
+  rotate: false
+  xy: 492, 109
+  size: 47, 46
+  orig: 47, 46
+  offset: 0, 0
+  index: -1
+L boot
+  rotate: true
+  xy: 426, 29
+  size: 36, 58
+  orig: 36, 58
+  offset: 0, 0
+  index: -1
+L bracer
+  rotate: true
+  xy: 492, 157
+  size: 53, 43
+  orig: 53, 43
+  offset: 0, 0
+  index: -1
+L leg
+  rotate: false
+  xy: 901, 498
+  size: 67, 58
+  orig: 67, 58
+  offset: 0, 0
+  index: -1
+L palm
+  rotate: false
+  xy: 492, 212
+  size: 49, 48
+  orig: 49, 48
+  offset: 0, 0
+  index: -1
+R arm
+  rotate: false
+  xy: 488, 63
+  size: 48, 44
+  orig: 48, 44
+  offset: 0, 0
+  index: -1
+R boot
+  rotate: true
+  xy: 833, 728
+  size: 52, 53
+  orig: 52, 53
+  offset: 0, 0
+  index: -1
+R bracer
+  rotate: true
+  xy: 970, 513
+  size: 43, 52
+  orig: 43, 52
+  offset: 0, 0
+  index: -1
+R leg
+  rotate: true
+  xy: 833, 654
+  size: 72, 70
+  orig: 72, 70
+  offset: 0, 0
+  index: -1
+R palm
+  rotate: true
+  xy: 849, 510
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: -1
+R shoulder
+  rotate: false
+  xy: 426, 67
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+Shield
+  rotate: true
+  xy: 646, 645
+  size: 135, 185
+  orig: 135, 185
+  offset: 0, 0
+  index: -1
+Silk
+  rotate: true
+  xy: 902, 604
+  size: 43, 95
+  orig: 43, 95
+  offset: 0, 0
+  index: -1
+Torso
+  rotate: true
+  xy: 905, 649
+  size: 88, 99
+  orig: 88, 99
+  offset: 0, 0
+  index: -1
+Weapon
+  rotate: false
+  xy: 404, 702
+  size: 240, 320
+  orig: 240, 320
+  offset: 0, 0
+  index: -1
+WizardHead/backhair
+  rotate: false
+  xy: 260, 34
+  size: 164, 224
+  orig: 164, 224
+  offset: 0, 0
+  index: -1
+WizardHead/ear
+  rotate: false
+  xy: 995, 558
+  size: 26, 44
+  orig: 26, 44
+  offset: 0, 0
+  index: -1
+WizardHead/eyes_close
+  rotate: false
+  xy: 364, 260
+  size: 83, 51
+  orig: 83, 51
+  offset: 0, 0
+  index: -1
+WizardHead/eyes_cry
+  rotate: false
+  xy: 449, 262
+  size: 104, 59
+  orig: 104, 59
+  offset: 0, 0
+  index: -1
+WizardHead/eyes_default
+  rotate: true
+  xy: 849, 564
+  size: 88, 51
+  orig: 88, 51
+  offset: 0, 0
+  index: -1
+WizardHead/front_hair
+  rotate: false
+  xy: 888, 739
+  size: 133, 126
+  orig: 133, 126
+  offset: 0, 0
+  index: -1
+WizardHead/hair
+  rotate: false
+  xy: 409, 513
+  size: 164, 146
+  orig: 164, 146
+  offset: 0, 0
+  index: -1
+WizardHead/head
+  rotate: true
+  xy: 575, 520
+  size: 123, 142
+  orig: 123, 142
+  offset: 0, 0
+  index: -1
+circle_02
+  rotate: false
+  xy: 426, 194
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+effect_light
+  rotate: false
+  xy: 409, 359
+  size: 156, 152
+  orig: 156, 152
+  offset: 0, 0
+  index: -1
+effect_line
+  rotate: false
+  xy: 364, 313
+  size: 43, 307
+  orig: 43, 307
+  offset: 0, 0
+  index: -1
+effect_speedline.
+  rotate: true
+  xy: 260, 8
+  size: 24, 51
+  orig: 24, 51
+  offset: 0, 0
+  index: -1
+ice_00
+  rotate: false
+  xy: 426, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+lightD_Blue
+  rotate: false
+  xy: 2, 622
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+lightning2
+  rotate: false
+  xy: 719, 515
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+magic_circle3
+  rotate: false
+  xy: 2, 260
+  size: 360, 360
+  orig: 360, 360
+  offset: 0, 0
+  index: -1
+precast/Light_SparkA
+  rotate: false
+  xy: 902, 558
+  size: 91, 44
+  orig: 91, 44
+  offset: 0, 0
+  index: -1
+precast/Light_circleA
+  rotate: false
+  xy: 646, 782
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+precast/Light_lineA
+  rotate: false
+  xy: 409, 323
+  size: 157, 34
+  orig: 157, 34
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 404, 661
+  size: 203, 39
+  orig: 203, 39
+  offset: 0, 0
+  index: -1
+somasi05_R
+  rotate: false
+  xy: 2, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1

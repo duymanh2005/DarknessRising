@@ -1,0 +1,743 @@
+{
+  "ID": "e51bc67d-254a-4054-b80b-4322f9080040",
+  "Version": "3.10.0.0",
+  "Name": "SellingItem",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 145,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": -100,
+            "Scale9OriginY": -98,
+            "Scale9Width": 200,
+            "Scale9Height": 196,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 727.03
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.545
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.8767,
+              "Y": 0.3799
+            },
+            "LeftMargin": 46.2375,
+            "RightMargin": 46.2375,
+            "TopMargin": 353.5767,
+            "BottomMargin": 473.6367,
+            "Tag": 147,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/Grid_Panel.png",
+                  "Plist": "json/patch9_1.plist"
+                },
+                "Scale9OriginX": 240,
+                "Scale9OriginY": 230,
+                "Scale9Width": 250,
+                "Scale9Height": 238,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 328.7625,
+                  "Y": 253.3933
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 204,
+                "ActionTag": -1106597640,
+                "Size": {
+                  "X": 657.525,
+                  "Y": 506.7866
+                },
+                "Name": "brk",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/pnl_ItemsUnderSlot.png",
+                  "Plist": "json/patch9_5.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 158.8328,
+                  "Y": 308.425
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2416,
+                  "Y": 0.6086
+                },
+                "PreSize": {
+                  "X": 0.2418,
+                  "Y": 0.3137
+                },
+                "LeftMargin": 79.3328,
+                "RightMargin": 419.1922,
+                "TopMargin": 118.8616,
+                "BottomMargin": 228.925,
+                "Tag": 148,
+                "ActionTag": -1598785944,
+                "Size": {
+                  "X": 159.0,
+                  "Y": 159.0
+                },
+                "Name": "brkItem",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "button/quit_button.png",
+                  "Plist": "json/button.plist"
+                },
+                "Scale9OriginX": 23,
+                "Scale9OriginY": 25,
+                "Scale9Width": 26,
+                "Scale9Height": 26,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 625.6104,
+                  "Y": 475.495
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9515,
+                  "Y": 0.9383
+                },
+                "PreSize": {
+                  "X": 0.1095,
+                  "Y": 0.15
+                },
+                "LeftMargin": 589.6104,
+                "RightMargin": -4.0854,
+                "TopMargin": -6.7084,
+                "BottomMargin": 437.495,
+                "Tag": 149,
+                "ActionTag": -1268160985,
+                "Size": {
+                  "X": 72.0,
+                  "Y": 76.0
+                },
+                "Name": "btnClose",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "LabelText": "Sell Item",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/UTMBienvenue_none_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 328.7629,
+                  "Y": 464.8046
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9172
+                },
+                "PreSize": {
+                  "X": 0.1962,
+                  "Y": 0.0789
+                },
+                "LeftMargin": 264.2629,
+                "RightMargin": 264.262,
+                "TopMargin": 21.982,
+                "BottomMargin": 444.8046,
+                "Tag": 150,
+                "ActionTag": -630421867,
+                "Size": {
+                  "X": 129.0,
+                  "Y": 40.0
+                },
+                "Name": "lblTitle",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "button/Orange_Round.png",
+                  "Plist": "json/button.plist"
+                },
+                "Scale9OriginX": 72,
+                "Scale9OriginY": 25,
+                "Scale9Width": 75,
+                "Scale9Height": 28,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 328.7628,
+                  "Y": 80.7929
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1594
+                },
+                "PreSize": {
+                  "X": 0.3331,
+                  "Y": 0.1539
+                },
+                "LeftMargin": 219.2628,
+                "RightMargin": 219.2622,
+                "TopMargin": 386.9937,
+                "BottomMargin": 41.7929,
+                "Tag": 151,
+                "ActionTag": -1669947459,
+                "Size": {
+                  "X": 219.0,
+                  "Y": 78.0
+                },
+                "Name": "btnSell",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/UI_Shop_moneyslot.png",
+                  "Plist": "json/patch9_2.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 62,
+                "Scale9OriginY": 20,
+                "Scale9Width": 66,
+                "Scale9Height": 7,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 328.7632,
+                  "Y": 164.5396
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.3247
+                },
+                "PreSize": {
+                  "X": 0.3757,
+                  "Y": 0.0927
+                },
+                "LeftMargin": 205.2632,
+                "RightMargin": 205.2618,
+                "TopMargin": 318.747,
+                "BottomMargin": 141.0396,
+                "Tag": 154,
+                "ActionTag": -1828770980,
+                "Size": {
+                  "X": 247.0,
+                  "Y": 47.0
+                },
+                "Name": "brkPrice",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/pnl_separator.png",
+                  "Plist": "json/patch9_5.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 328.7635,
+                  "Y": 212.1468
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4186
+                },
+                "PreSize": {
+                  "X": 0.7711,
+                  "Y": 0.0316
+                },
+                "LeftMargin": 75.2635,
+                "RightMargin": 75.2614,
+                "TopMargin": 286.6398,
+                "BottomMargin": 204.1468,
+                "Tag": 152,
+                "ActionTag": -960063561,
+                "Size": {
+                  "X": 507.0,
+                  "Y": 16.0
+                },
+                "Name": "brkSeperator",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "icon/coin.png",
+                  "Plist": "json/icon.plist"
+                },
+                "Scale9OriginX": 20,
+                "Scale9OriginY": 21,
+                "Scale9Width": 7,
+                "Scale9Height": 3,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 233.0201,
+                  "Y": 166.5403
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3544,
+                  "Y": 0.3286
+                },
+                "PreSize": {
+                  "X": 0.0715,
+                  "Y": 0.0888
+                },
+                "LeftMargin": 209.5201,
+                "RightMargin": 401.0049,
+                "TopMargin": 317.7463,
+                "BottomMargin": 144.0403,
+                "Tag": 169,
+                "ActionTag": -1249714731,
+                "Size": {
+                  "X": 47.0,
+                  "Y": 45.0
+                },
+                "Name": "icon",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "LabelText": "25,000",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/UTMBienvenue_none_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 344.9127,
+                  "Y": 172.0622
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5246,
+                  "Y": 0.3395
+                },
+                "PreSize": {
+                  "X": 0.1293,
+                  "Y": 0.0789
+                },
+                "LeftMargin": 302.4127,
+                "RightMargin": 270.1122,
+                "TopMargin": 314.7244,
+                "BottomMargin": 152.0622,
+                "Tag": 156,
+                "ActionTag": 157744517,
+                "Size": {
+                  "X": 85.0,
+                  "Y": 40.0
+                },
+                "Name": "lblPrice",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/UI_Shop_moneyslot.png",
+                  "Plist": "json/patch9_2.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 62,
+                "Scale9OriginY": 20,
+                "Scale9Width": 66,
+                "Scale9Height": 7,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 438.3721,
+                  "Y": 310.2267
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.6667,
+                  "Y": 0.6121
+                },
+                "PreSize": {
+                  "X": 0.3757,
+                  "Y": 0.1085
+                },
+                "LeftMargin": 314.8721,
+                "RightMargin": 95.6528,
+                "TopMargin": 169.0599,
+                "BottomMargin": 282.7267,
+                "Tag": 157,
+                "ActionTag": -1103234185,
+                "Size": {
+                  "X": 247.0,
+                  "Y": 55.0
+                },
+                "Name": "brkQuantity",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "button/btn_square_minus.png",
+                  "Plist": "json/button.plist"
+                },
+                "Scale9OriginX": 21,
+                "Scale9OriginY": 20,
+                "Scale9Width": 22,
+                "Scale9Height": 23,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 320.2949,
+                  "Y": 310.2273
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4871,
+                  "Y": 0.6121
+                },
+                "PreSize": {
+                  "X": 0.0973,
+                  "Y": 0.1243
+                },
+                "LeftMargin": 288.2949,
+                "RightMargin": 305.23,
+                "TopMargin": 165.0593,
+                "BottomMargin": 278.7273,
+                "Tag": 158,
+                "ActionTag": -685577189,
+                "Size": {
+                  "X": 64.0,
+                  "Y": 63.0
+                },
+                "Name": "btnMinus",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "button/btn_square_cross.png",
+                  "Plist": "json/button.plist"
+                },
+                "Scale9OriginX": 21,
+                "Scale9OriginY": 20,
+                "Scale9Width": 22,
+                "Scale9Height": 23,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 540.8812,
+                  "Y": 310.2273
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8226,
+                  "Y": 0.6121
+                },
+                "PreSize": {
+                  "X": 0.0973,
+                  "Y": 0.1243
+                },
+                "LeftMargin": 508.8812,
+                "RightMargin": 84.6438,
+                "TopMargin": 165.0593,
+                "BottomMargin": 278.7273,
+                "Tag": 159,
+                "ActionTag": -1103461447,
+                "Size": {
+                  "X": 64.0,
+                  "Y": 63.0
+                },
+                "Name": "btnPlus",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "LabelText": "15",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/UTMBienvenue_none_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 431.965,
+                  "Y": 319.4797
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.657,
+                  "Y": 0.6304
+                },
+                "PreSize": {
+                  "X": 0.0411,
+                  "Y": 0.0789
+                },
+                "LeftMargin": 418.465,
+                "RightMargin": 212.0599,
+                "TopMargin": 167.3069,
+                "BottomMargin": 299.4797,
+                "Tag": 160,
+                "ActionTag": 873501106,
+                "Size": {
+                  "X": 27.0,
+                  "Y": 40.0
+                },
+                "Name": "lblQuantity",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/sep_header_pattern.png",
+                  "Plist": "json/patch9_8.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 328.7681,
+                  "Y": 416.8079
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8225
+                },
+                "PreSize": {
+                  "X": 0.365,
+                  "Y": 0.0355
+                },
+                "LeftMargin": 208.7681,
+                "RightMargin": 208.7568,
+                "TopMargin": 80.9787,
+                "BottomMargin": 407.8079,
+                "Tag": 221,
+                "ActionTag": 557834754,
+                "Size": {
+                  "X": 240.0,
+                  "Y": 18.0
+                },
+                "Name": "Sprite_3",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -2069716936,
+            "Size": {
+              "X": 657.525,
+              "Y": 506.7866
+            },
+            "Name": "root",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 750.0,
+          "Y": 1334.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../font/UTMBienvenue_none_32-export.fnt",
+        "../../font/UTMBienvenue_none_32-export.png",
+        "../button.plist",
+        "../button.png",
+        "../icon.plist",
+        "../icon.png",
+        "../patch9_1.plist",
+        "../patch9_1.png",
+        "../patch9_2.plist",
+        "../patch9_2.png",
+        "../patch9_5.plist",
+        "../patch9_5.png",
+        "../patch9_8.plist",
+        "../patch9_8.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

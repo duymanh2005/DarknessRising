@@ -1,0 +1,34 @@
+
+slashYellow1.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+impactB_Red
+  rotate: true
+  xy: 551, 19
+  size: 156, 175
+  orig: 156, 175
+  offset: 0, 0
+  index: -1
+impactC_Red
+  rotate: true
+  xy: 728, 19
+  size: 156, 175
+  orig: 156, 175
+  offset: 0, 0
+  index: -1
+light_ring2
+  rotate: true
+  xy: 366, 12
+  size: 163, 183
+  orig: 163, 183
+  offset: 0, 0
+  index: -1
+slashA_Red
+  rotate: false
+  xy: 2, 2
+  size: 362, 173
+  orig: 362, 173
+  offset: 0, 0
+  index: -1

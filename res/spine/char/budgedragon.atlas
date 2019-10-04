@@ -1,0 +1,174 @@
+
+budgedragon.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 98
+  size: 229, 151
+  orig: 229, 151
+  offset: 0, 0
+  index: -1
+charge fx
+  rotate: false
+  xy: 2, 251
+  size: 400, 259
+  orig: 400, 259
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 337, 79
+  size: 38, 28
+  orig: 38, 28
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 293, 74
+  size: 42, 33
+  orig: 42, 33
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 240, 68
+  size: 51, 39
+  orig: 51, 39
+  offset: 0, 0
+  index: -1
+hand L low
+  rotate: false
+  xy: 720, 457
+  size: 100, 53
+  orig: 100, 53
+  offset: 0, 0
+  index: -1
+hand L up
+  rotate: false
+  xy: 404, 241
+  size: 33, 28
+  orig: 33, 28
+  offset: 0, 0
+  index: -1
+hand R lower
+  rotate: false
+  xy: 534, 357
+  size: 115, 60
+  orig: 115, 60
+  offset: 0, 0
+  index: -1
+hand R up
+  rotate: false
+  xy: 293, 40
+  size: 38, 32
+  orig: 38, 32
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 404, 353
+  size: 128, 116
+  orig: 128, 116
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: true
+  xy: 171, 24
+  size: 72, 67
+  orig: 72, 67
+  offset: 0, 0
+  index: -1
+leg L center
+  rotate: false
+  xy: 240, 35
+  size: 51, 31
+  orig: 51, 31
+  offset: 0, 0
+  index: -1
+leg L lower
+  rotate: true
+  xy: 171, 2
+  size: 20, 31
+  orig: 20, 31
+  offset: 0, 0
+  index: -1
+leg L upper
+  rotate: false
+  xy: 986, 406
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+leg R center
+  rotate: false
+  xy: 922, 415
+  size: 62, 37
+  orig: 62, 37
+  offset: 0, 0
+  index: -1
+leg R lower
+  rotate: false
+  xy: 379, 207
+  size: 23, 42
+  orig: 23, 42
+  offset: 0, 0
+  index: -1
+leg R upper
+  rotate: false
+  xy: 651, 361
+  size: 43, 56
+  orig: 43, 56
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 404, 471
+  size: 314, 39
+  orig: 314, 39
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 534, 419
+  size: 170, 50
+  orig: 170, 50
+  offset: 0, 0
+  index: -1
+thrush skill
+  rotate: false
+  xy: 404, 271
+  size: 113, 80
+  orig: 113, 80
+  offset: 0, 0
+  index: -1
+wing L
+  rotate: false
+  xy: 822, 425
+  size: 98, 85
+  orig: 98, 85
+  offset: 0, 0
+  index: -1
+wing L inside
+  rotate: false
+  xy: 922, 454
+  size: 91, 56
+  orig: 91, 56
+  offset: 0, 0
+  index: -1
+wing R
+  rotate: false
+  xy: 233, 109
+  size: 144, 140
+  orig: 144, 140
+  offset: 0, 0
+  index: -1
+wing R inside
+  rotate: false
+  xy: 2, 22
+  size: 167, 74
+  orig: 167, 74
+  offset: 0, 0
+  index: -1

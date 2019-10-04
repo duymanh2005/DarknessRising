@@ -1,0 +1,216 @@
+
+tantalos.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sword of Destruction
+  rotate: true
+  xy: 901, 132
+  size: 122, 214
+  orig: 122, 214
+  offset: 0, 0
+  index: -1
+Sword of Destruction glow
+  rotate: true
+  xy: 458, 102
+  size: 152, 242
+  orig: 152, 242
+  offset: 0, 0
+  index: -1
+Sword of Destruction head
+  rotate: true
+  xy: 702, 114
+  size: 140, 197
+  orig: 140, 197
+  offset: 0, 0
+  index: -1
+arm R low
+  rotate: true
+  xy: 458, 35
+  size: 65, 79
+  orig: 65, 79
+  offset: 0, 0
+  index: -1
+arm R up
+  rotate: true
+  xy: 1961, 186
+  size: 68, 80
+  orig: 68, 80
+  offset: 0, 0
+  index: -1
+arm low L
+  rotate: false
+  xy: 539, 43
+  size: 71, 57
+  orig: 71, 57
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: true
+  xy: 612, 52
+  size: 48, 72
+  orig: 48, 72
+  offset: 0, 0
+  index: -1
+body low
+  rotate: false
+  xy: 1464, 103
+  size: 57, 49
+  orig: 57, 49
+  offset: 0, 0
+  index: -1
+body up
+  rotate: false
+  xy: 1464, 154
+  size: 113, 100
+  orig: 113, 100
+  offset: 0, 0
+  index: -1
+eye 2
+  rotate: false
+  xy: 702, 103
+  size: 13, 9
+  orig: 13, 9
+  offset: 0, 0
+  index: -1
+eye 3
+  rotate: false
+  xy: 249, 11
+  size: 27, 22
+  orig: 27, 22
+  offset: 0, 0
+  index: -1
+eyes stun
+  rotate: false
+  xy: 1331, 123
+  size: 131, 131
+  orig: 131, 131
+  offset: 0, 0
+  index: -1
+fly line
+  rotate: false
+  xy: 249, 35
+  size: 207, 219
+  orig: 207, 219
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 901, 119
+  size: 22, 11
+  orig: 22, 11
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 664, 38
+  size: 15, 12
+  orig: 15, 12
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 612, 2
+  size: 50, 48
+  orig: 50, 48
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 1523, 98
+  size: 55, 54
+  orig: 55, 54
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1689, 163
+  size: 88, 91
+  orig: 88, 91
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: true
+  xy: 1779, 164
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+leg low L
+  rotate: false
+  xy: 1619, 122
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+leg low R
+  rotate: true
+  xy: 1650, 129
+  size: 28, 36
+  orig: 28, 36
+  offset: 0, 0
+  index: -1
+leg up L
+  rotate: false
+  xy: 1580, 119
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+leg up R
+  rotate: true
+  xy: 1117, 133
+  size: 26, 46
+  orig: 26, 46
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 9
+  size: 245, 245
+  orig: 245, 245
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: true
+  xy: 1876, 179
+  size: 75, 83
+  orig: 75, 83
+  offset: 0, 0
+  index: -1
+shoulder L back
+  rotate: true
+  xy: 578, 7
+  size: 34, 32
+  orig: 34, 32
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 1579, 159
+  size: 108, 95
+  orig: 108, 95
+  offset: 0, 0
+  index: -1
+smash line
+  rotate: true
+  xy: 1117, 161
+  size: 93, 212
+  orig: 93, 212
+  offset: 0, 0
+  index: -1
+star1
+  rotate: true
+  xy: 539, 2
+  size: 39, 37
+  orig: 39, 37
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 1779, 184
+  size: 70, 95
+  orig: 70, 95
+  offset: 0, 0
+  index: -1

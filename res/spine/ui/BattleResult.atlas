@@ -1,0 +1,97 @@
+
+BattleResult.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Purplestar1
+  rotate: false
+  xy: 490, 77
+  size: 123, 115
+  orig: 123, 115
+  offset: 0, 0
+  index: -1
+images/Purplestar2
+  rotate: false
+  xy: 739, 2
+  size: 99, 93
+  orig: 99, 93
+  offset: 0, 0
+  index: -1
+images/Purplestar3
+  rotate: false
+  xy: 840, 2
+  size: 99, 93
+  orig: 99, 93
+  offset: 0, 0
+  index: -1
+images/Sparkle
+  rotate: false
+  xy: 504, 194
+  size: 365, 316
+  orig: 365, 316
+  offset: 0, 0
+  index: -1
+images/Star
+  rotate: false
+  xy: 615, 77
+  size: 122, 115
+  orig: 122, 115
+  offset: 0, 0
+  index: -1
+images/UI_Lose_Blueeffect
+  rotate: false
+  xy: 1387, 310
+  size: 231, 200
+  orig: 231, 200
+  offset: 0, 0
+  index: -1
+images/UI_Win_Yelloweffect
+  rotate: false
+  xy: 1620, 310
+  size: 231, 200
+  orig: 231, 200
+  offset: 0, 0
+  index: -1
+images/Unavailable_Star
+  rotate: false
+  xy: 739, 97
+  size: 102, 95
+  orig: 102, 95
+  offset: 0, 0
+  index: -1
+images/Whiteray
+  rotate: false
+  xy: 1853, 335
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+images/ico_Lose
+  rotate: false
+  xy: 2, 254
+  size: 500, 256
+  orig: 500, 256
+  offset: 0, 0
+  index: -1
+images/ico_Win
+  rotate: false
+  xy: 2, 2
+  size: 486, 250
+  orig: 486, 250
+  offset: 0, 0
+  index: -1
+images/losedwing_left
+  rotate: false
+  xy: 871, 278
+  size: 263, 232
+  orig: 263, 232
+  offset: 0, 0
+  index: -1
+images/winniedwing_left
+  rotate: false
+  xy: 1136, 290
+  size: 249, 220
+  orig: 249, 220
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+hitExplosion.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+small/explosive-fire
+  rotate: false
+  xy: 1012, 22
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+small/fire_explosion_1
+  rotate: false
+  xy: 2, 2
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+small/fire_explosion_2
+  rotate: false
+  xy: 204, 2
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+small/fire_explosion_3
+  rotate: false
+  xy: 406, 2
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+small/fire_explosion_4
+  rotate: false
+  xy: 608, 2
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+small/fire_explosion_5
+  rotate: false
+  xy: 810, 2
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+small/light_ringbold
+  rotate: false
+  xy: 1194, 82
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+small/shock-wave-explosionA
+  rotate: false
+  xy: 1316, 94
+  size: 125, 108
+  orig: 125, 108
+  offset: 0, 0
+  index: -1

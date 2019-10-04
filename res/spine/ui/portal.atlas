@@ -1,0 +1,27 @@
+
+portal.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Portal
+  rotate: false
+  xy: 398, 140
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+lightbeam
+  rotate: false
+  xy: 398, 14
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+magic ring
+  rotate: false
+  xy: 2, 2
+  size: 394, 394
+  orig: 394, 394
+  offset: 0, 0
+  index: -1

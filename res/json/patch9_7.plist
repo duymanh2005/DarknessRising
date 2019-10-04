@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>patch9/pnl_cover.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{756,203}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{756,203}</string>
+			</dict>
+			<key>patch9/Friend_Panel.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{234,580},{280,177}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{280,177}</string>
+			</dict>
+			<key>patch9/select_retangle.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,716},{234,240}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{234,240}</string>
+			</dict>
+			<key>patch9/pnl_event_stage.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,203},{726,184}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{726,184}</string>
+			</dict>
+			<key>patch9/pnl_friend_cell.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,403},{719,177}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{719,177}</string>
+			</dict>
+			<key>patch9/pnl_loot_BG.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{756,0},{264,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{264,250}</string>
+			</dict>
+			<key>patch9/pnl_name_grey.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{736,250},{259,233}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{259,233}</string>
+			</dict>
+			<key>patch9/pnl_name_pink.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{719,483},{259,233}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{259,233}</string>
+			</dict>
+			<key>patch9/pnl_numberslot_grey.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,956},{143,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{143,40}</string>
+			</dict>
+			<key>patch9/seperation_line_horizon_grey.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{726,203},{5,200}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{5,200}</string>
+			</dict>
+			<key>patch9/seperation_line_horizon.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{731,203},{5,200}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{5,200}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>patch9_7.png</string>
+			<key>realTextureFileName</key>
+			<string>patch9_7.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

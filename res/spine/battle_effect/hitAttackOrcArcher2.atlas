@@ -1,0 +1,118 @@
+
+hitAttackOrcArcher.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arrow
+  rotate: true
+  xy: 928, 62
+  size: 32, 58
+  orig: 32, 58
+  offset: 0, 0
+  index: -1
+cut fx
+  rotate: true
+  xy: 2, 90
+  size: 35, 247
+  orig: 35, 247
+  offset: 0, 0
+  index: -1
+explosion beam1
+  rotate: false
+  xy: 880, 37
+  size: 46, 57
+  orig: 46, 57
+  offset: 0, 0
+  index: -1
+explosion beam2
+  rotate: true
+  xy: 805, 31
+  size: 63, 73
+  orig: 63, 73
+  offset: 0, 0
+  index: -1
+explosion beam3
+  rotate: false
+  xy: 450, 45
+  size: 76, 80
+  orig: 76, 80
+  offset: 0, 0
+  index: -1
+explosion beam4
+  rotate: false
+  xy: 364, 42
+  size: 84, 83
+  orig: 84, 83
+  offset: 0, 0
+  index: -1
+explosion beam5
+  rotate: false
+  xy: 528, 53
+  size: 84, 72
+  orig: 84, 72
+  offset: 0, 0
+  index: -1
+explosion beam6
+  rotate: false
+  xy: 614, 64
+  size: 84, 61
+  orig: 84, 61
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 154, 2
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+hit fx
+  rotate: false
+  xy: 251, 25
+  size: 111, 100
+  orig: 111, 100
+  offset: 0, 0
+  index: -1
+magic arrow
+  rotate: false
+  xy: 2, 15
+  size: 150, 73
+  orig: 150, 73
+  offset: 0, 0
+  index: -1
+spark smash1
+  rotate: false
+  xy: 364, 19
+  size: 70, 21
+  orig: 70, 21
+  offset: 0, 0
+  index: -1
+spark smash2
+  rotate: false
+  xy: 700, 57
+  size: 86, 31
+  orig: 86, 31
+  offset: 0, 0
+  index: -1
+spark smash3
+  rotate: false
+  xy: 700, 90
+  size: 103, 35
+  orig: 103, 35
+  offset: 0, 0
+  index: -1
+spark smash4
+  rotate: false
+  xy: 805, 96
+  size: 94, 29
+  orig: 94, 29
+  offset: 0, 0
+  index: -1
+spark smash5
+  rotate: false
+  xy: 901, 96
+  size: 94, 29
+  orig: 94, 29
+  offset: 0, 0
+  index: -1

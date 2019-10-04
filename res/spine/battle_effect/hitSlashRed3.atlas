@@ -1,0 +1,48 @@
+
+hitSlashRed.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ImpactPart1
+  rotate: false
+  xy: 385, 131
+  size: 116, 116
+  orig: 116, 116
+  offset: 0, 0
+  index: -1
+ImpactPart2
+  rotate: false
+  xy: 385, 19
+  size: 118, 110
+  orig: 118, 110
+  offset: 0, 0
+  index: -1
+ImpactPart3
+  rotate: false
+  xy: 226, 100
+  size: 157, 147
+  orig: 157, 147
+  offset: 0, 0
+  index: -1
+ImpactPart4
+  rotate: false
+  xy: 121, 17
+  size: 103, 103
+  orig: 103, 103
+  offset: 0, 0
+  index: -1
+ImpactPart5
+  rotate: false
+  xy: 2, 2
+  size: 117, 118
+  orig: 117, 118
+  offset: 0, 0
+  index: -1
+SlashLine
+  rotate: false
+  xy: 2, 122
+  size: 222, 125
+  orig: 222, 125
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,342 @@
+
+MagicGladiator.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cape
+  rotate: false
+  xy: 523, 59
+  size: 168, 134
+  orig: 168, 134
+  offset: 0, 0
+  index: -1
+Default
+  rotate: false
+  xy: 2, 90
+  size: 420, 150
+  orig: 420, 150
+  offset: 0, 0
+  index: -1
+Default fx
+  rotate: false
+  xy: 531, 360
+  size: 420, 150
+  orig: 420, 150
+  offset: 0, 0
+  index: -1
+FireSlash/SlashA
+  rotate: false
+  xy: 2, 242
+  size: 527, 268
+  orig: 527, 268
+  offset: 0, 0
+  index: -1
+FireSlash/fireslashwave1
+  rotate: true
+  xy: 823, 48
+  size: 59, 73
+  orig: 59, 73
+  offset: 0, 0
+  index: -1
+L boot
+  rotate: true
+  xy: 1435, 231
+  size: 27, 42
+  orig: 27, 42
+  offset: 0, 0
+  index: -1
+L leg
+  rotate: false
+  xy: 151, 11
+  size: 57, 49
+  orig: 57, 49
+  offset: 0, 0
+  index: -1
+L waist
+  rotate: true
+  xy: 2005, 369
+  size: 47, 41
+  orig: 47, 41
+  offset: 0, 0
+  index: -1
+R arm
+  rotate: true
+  xy: 1132, 219
+  size: 39, 54
+  orig: 39, 54
+  offset: 0, 0
+  index: -1
+R boot
+  rotate: false
+  xy: 1234, 219
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: -1
+R leg
+  rotate: true
+  xy: 443, 6
+  size: 57, 54
+  orig: 57, 54
+  offset: 0, 0
+  index: -1
+R shoulder back
+  rotate: false
+  xy: 823, 109
+  size: 71, 67
+  orig: 71, 67
+  offset: 0, 0
+  index: -1
+R shoulder front
+  rotate: true
+  xy: 82, 12
+  size: 48, 67
+  orig: 48, 67
+  offset: 0, 0
+  index: -1
+R waist
+  rotate: false
+  xy: 1188, 218
+  size: 44, 40
+  orig: 44, 40
+  offset: 0, 0
+  index: -1
+back torso
+  rotate: false
+  xy: 424, 65
+  size: 69, 69
+  orig: 69, 69
+  offset: 0, 0
+  index: -1
+close eyes
+  rotate: true
+  xy: 258, 2
+  size: 61, 43
+  orig: 61, 43
+  offset: 0, 0
+  index: -1
+eyes attack
+  rotate: true
+  xy: 210, 2
+  size: 61, 46
+  orig: 61, 46
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 929, 210
+  size: 66, 48
+  orig: 66, 48
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: true
+  xy: 303, 2
+  size: 61, 43
+  orig: 61, 43
+  offset: 0, 0
+  index: -1
+eyes flip
+  rotate: true
+  xy: 348, 2
+  size: 61, 43
+  orig: 61, 43
+  offset: 0, 0
+  index: -1
+face skin
+  rotate: false
+  xy: 424, 136
+  size: 97, 104
+  orig: 97, 104
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 693, 60
+  size: 128, 116
+  orig: 128, 116
+  offset: 0, 0
+  index: -1
+helmet
+  rotate: false
+  xy: 1933, 418
+  size: 113, 92
+  orig: 113, 92
+  offset: 0, 0
+  index: -1
+hit/slashNormal
+  rotate: false
+  xy: 953, 260
+  size: 295, 250
+  orig: 295, 250
+  offset: 0, 0
+  index: -1
+left arm
+  rotate: false
+  xy: 393, 2
+  size: 48, 55
+  orig: 48, 55
+  offset: 0, 0
+  index: -1
+left gaunlet
+  rotate: false
+  xy: 1275, 223
+  size: 43, 35
+  orig: 43, 35
+  offset: 0, 0
+  index: -1
+left palm
+  rotate: true
+  xy: 2005, 330
+  size: 37, 39
+  orig: 37, 39
+  offset: 0, 0
+  index: -1
+left shoulder
+  rotate: false
+  xy: 2, 12
+  size: 78, 76
+  orig: 78, 76
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 1
+  rotate: true
+  xy: 202, 73
+  size: 15, 34
+  orig: 15, 34
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 2
+  rotate: false
+  xy: 1721, 281
+  size: 16, 35
+  orig: 16, 35
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 3
+  rotate: false
+  xy: 495, 100
+  size: 15, 34
+  orig: 15, 34
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 4
+  rotate: true
+  xy: 898, 192
+  size: 12, 28
+  orig: 12, 28
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 5
+  rotate: true
+  xy: 693, 183
+  size: 10, 17
+  orig: 10, 17
+  offset: 0, 0
+  index: -1
+precast/Light_SparkA
+  rotate: false
+  xy: 997, 225
+  size: 69, 33
+  orig: 69, 33
+  offset: 0, 0
+  index: -1
+precast/Light_circleA
+  rotate: false
+  xy: 716, 178
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+precast/Light_lineA
+  rotate: false
+  xy: 82, 62
+  size: 118, 26
+  orig: 118, 26
+  offset: 0, 0
+  index: -1
+projectile
+  rotate: false
+  xy: 1741, 325
+  size: 190, 185
+  orig: 190, 185
+  offset: 0, 0
+  index: -1
+skill/projectile
+  rotate: false
+  xy: 1741, 325
+  size: 190, 185
+  orig: 190, 185
+  offset: 0, 0
+  index: -1
+right gaunlet
+  rotate: false
+  xy: 1360, 220
+  size: 34, 38
+  orig: 34, 38
+  offset: 0, 0
+  index: -1
+right palm
+  rotate: false
+  xy: 1396, 224
+  size: 37, 34
+  orig: 37, 34
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 898, 206
+  size: 152, 29
+  orig: 152, 29
+  offset: 0, 0
+  index: -1
+silk
+  rotate: true
+  xy: 1068, 227
+  size: 31, 62
+  orig: 31, 62
+  offset: 0, 0
+  index: -1
+skill/DotSparkA
+  rotate: false
+  xy: 1320, 220
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+skill/LightCircleA
+  rotate: false
+  xy: 1547, 318
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+skill/slashBA
+  rotate: false
+  xy: 1250, 260
+  size: 295, 250
+  orig: 295, 250
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 1933, 331
+  size: 70, 85
+  orig: 70, 85
+  offset: 0, 0
+  index: -1
+wings/level 1
+  rotate: false
+  xy: 1547, 188
+  size: 172, 128
+  orig: 172, 128
+  offset: 0, 0
+  index: -1
+wings/level 2
+  rotate: false
+  xy: 531, 195
+  size: 183, 163
+  orig: 183, 163
+  offset: 0, 0
+  index: -1

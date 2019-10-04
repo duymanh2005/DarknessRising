@@ -1,0 +1,27 @@
+
+icon_event.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+DotSparkA
+  rotate: false
+  xy: 2, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ico_event
+  rotate: false
+  xy: 2, 68
+  size: 144, 164
+  orig: 144, 164
+  offset: 0, 0
+  index: -1
+sparkle
+  rotate: false
+  xy: 148, 211
+  size: 19, 21
+  orig: 19, 21
+  offset: 0, 0
+  index: -1

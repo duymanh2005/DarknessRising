@@ -1,0 +1,104 @@
+
+hitTaku.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Air_15_fill/Air_15_fill_0001
+  rotate: false
+  xy: 86, 29
+  size: 32, 56
+  orig: 32, 56
+  offset: 0, 0
+  index: -1
+Air_15_fill/Air_15_fill_0002
+  rotate: false
+  xy: 1273, 129
+  size: 130, 120
+  orig: 130, 120
+  offset: 0, 0
+  index: -1
+Air_15_fill/Air_15_fill_0003
+  rotate: false
+  xy: 1119, 99
+  size: 152, 150
+  orig: 152, 150
+  offset: 0, 0
+  index: -1
+Air_15_fill/Air_15_fill_0004
+  rotate: false
+  xy: 967, 96
+  size: 150, 153
+  orig: 150, 153
+  offset: 0, 0
+  index: -1
+Air_15_fill/Air_15_fill_0005
+  rotate: false
+  xy: 650, 93
+  size: 156, 156
+  orig: 156, 156
+  offset: 0, 0
+  index: -1
+Air_15_fill/Air_15_fill_0006
+  rotate: false
+  xy: 330, 88
+  size: 158, 161
+  orig: 158, 161
+  offset: 0, 0
+  index: -1
+Air_15_fill/Air_15_fill_0007
+  rotate: false
+  xy: 2, 87
+  size: 162, 162
+  orig: 162, 162
+  offset: 0, 0
+  index: -1
+Air_15_fill/Air_15_fill_0008
+  rotate: false
+  xy: 166, 87
+  size: 162, 162
+  orig: 162, 162
+  offset: 0, 0
+  index: -1
+Air_15_fill/Air_15_fill_0009
+  rotate: false
+  xy: 490, 88
+  size: 158, 161
+  orig: 158, 161
+  offset: 0, 0
+  index: -1
+Air_15_fill/Air_15_fill_0010
+  rotate: false
+  xy: 808, 94
+  size: 157, 155
+  orig: 157, 155
+  offset: 0, 0
+  index: -1
+fx/hit effect circle glowing
+  rotate: false
+  xy: 1524, 202
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+fx/impact 1
+  rotate: false
+  xy: 1405, 131
+  size: 117, 118
+  orig: 117, 118
+  offset: 0, 0
+  index: -1
+fx/light beam
+  rotate: false
+  xy: 1524, 160
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+fx/shock wave
+  rotate: false
+  xy: 2, 2
+  size: 82, 83
+  orig: 82, 83
+  offset: 0, 0
+  index: -1

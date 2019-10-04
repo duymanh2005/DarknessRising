@@ -1,0 +1,23 @@
+{
+  "ID": "2f8d05b3-2faa-4566-8e71-7e45a03b06c0",
+  "Version": "3.10.0.0",
+  "Name": "IllusionStage",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

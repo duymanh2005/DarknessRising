@@ -1,0 +1,139 @@
+
+hitGarenAuto.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hit/SlashLine
+  rotate: false
+  xy: 2, 2
+  size: 166, 94
+  orig: 166, 94
+  offset: 0, 0
+  index: -1
+hit/hit effect circle glowing
+  rotate: false
+  xy: 459, 123
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+hit/impact 1
+  rotate: false
+  xy: 766, 130
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+hit/light beam
+  rotate: false
+  xy: 992, 220
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+hit/light circle
+  rotate: false
+  xy: 368, 28
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+hit/shock wave
+  rotate: false
+  xy: 368, 45
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+hit/starsparkle
+  rotate: false
+  xy: 856, 192
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+hit/weaponfx
+  rotate: true
+  xy: 325, 161
+  size: 89, 170
+  orig: 89, 170
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder1
+  rotate: false
+  xy: 304, 21
+  size: 62, 75
+  orig: 62, 75
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder10
+  rotate: true
+  xy: 766, 220
+  size: 30, 132
+  orig: 30, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder11
+  rotate: true
+  xy: 632, 190
+  size: 28, 132
+  orig: 28, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder2
+  rotate: true
+  xy: 497, 203
+  size: 47, 133
+  orig: 47, 133
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder4
+  rotate: true
+  xy: 325, 109
+  size: 50, 132
+  orig: 50, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder5
+  rotate: true
+  xy: 900, 195
+  size: 55, 90
+  orig: 55, 90
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder6
+  rotate: true
+  xy: 170, 42
+  size: 54, 132
+  orig: 54, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder7
+  rotate: true
+  xy: 632, 220
+  size: 30, 132
+  orig: 30, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder8
+  rotate: true
+  xy: 170, 9
+  size: 31, 132
+  orig: 31, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder9
+  rotate: true
+  xy: 497, 170
+  size: 31, 132
+  orig: 31, 132
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: true
+  xy: 2, 98
+  size: 152, 321
+  orig: 152, 321
+  offset: 0, 0
+  index: -1

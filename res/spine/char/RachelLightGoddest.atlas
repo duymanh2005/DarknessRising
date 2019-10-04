@@ -1,0 +1,335 @@
+
+RachelLightGoddest.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm L
+  rotate: false
+  xy: 1560, 130
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: true
+  xy: 485, 11
+  size: 20, 50
+  orig: 20, 50
+  offset: 0, 0
+  index: -1
+boobs
+  rotate: false
+  xy: 347, 9
+  size: 48, 24
+  orig: 48, 24
+  offset: 0, 0
+  index: -1
+boot L
+  rotate: false
+  xy: 1223, 153
+  size: 27, 36
+  orig: 27, 36
+  offset: 0, 0
+  index: -1
+ear back
+  rotate: false
+  xy: 1504, 172
+  size: 72, 39
+  orig: 72, 39
+  offset: 0, 0
+  index: -1
+eyes attack
+  rotate: true
+  xy: 819, 5
+  size: 90, 72
+  orig: 90, 72
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: false
+  xy: 1166, 82
+  size: 84, 63
+  orig: 84, 63
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 1939, 185
+  size: 99, 69
+  orig: 99, 69
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: false
+  xy: 1035, 18
+  size: 92, 63
+  orig: 92, 63
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 422, 33
+  size: 112, 126
+  orig: 112, 126
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 1598, 134
+  size: 19, 36
+  orig: 19, 36
+  offset: 0, 0
+  index: -1
+hair back
+  rotate: false
+  xy: 991, 26
+  size: 42, 86
+  orig: 42, 86
+  offset: 0, 0
+  index: -1
+hair front
+  rotate: false
+  xy: 180, 2
+  size: 165, 152
+  orig: 165, 152
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 1334, 138
+  size: 83, 73
+  orig: 83, 73
+  offset: 0, 0
+  index: -1
+hand L backward
+  rotate: false
+  xy: 1419, 142
+  size: 83, 69
+  orig: 83, 69
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 1196, 4
+  size: 76, 72
+  orig: 76, 72
+  offset: 0, 0
+  index: -1
+hit/hit effect circle glowing
+  rotate: false
+  xy: 1252, 82
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+hit/light beam
+  rotate: false
+  xy: 1581, 172
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+hit/light fx
+  rotate: true
+  xy: 166, 156
+  size: 98, 267
+  orig: 98, 267
+  offset: 0, 0
+  index: -1
+hit/magic ring
+  rotate: false
+  xy: 893, 16
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+hit/magic ring 2
+  rotate: false
+  xy: 1252, 131
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+hit/starsparkle
+  rotate: false
+  xy: 1623, 177
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder1
+  rotate: true
+  xy: 717, 13
+  size: 82, 100
+  orig: 82, 100
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder10
+  rotate: true
+  xy: 1581, 214
+  size: 40, 176
+  orig: 40, 176
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder11
+  rotate: true
+  xy: 2, 2
+  size: 38, 176
+  orig: 38, 176
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder2
+  rotate: true
+  xy: 1045, 191
+  size: 63, 178
+  orig: 63, 178
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder4
+  rotate: true
+  xy: 867, 114
+  size: 66, 176
+  orig: 66, 176
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder5
+  rotate: false
+  xy: 347, 35
+  size: 73, 119
+  orig: 73, 119
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder6
+  rotate: true
+  xy: 867, 182
+  size: 72, 176
+  orig: 72, 176
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder7
+  rotate: true
+  xy: 1225, 213
+  size: 41, 176
+  orig: 41, 176
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder8
+  rotate: true
+  xy: 1045, 147
+  size: 42, 176
+  orig: 42, 176
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder9
+  rotate: true
+  xy: 1403, 213
+  size: 41, 176
+  orig: 41, 176
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1759, 220
+  size: 178, 34
+  orig: 178, 34
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: true
+  xy: 1301, 85
+  size: 44, 28
+  orig: 44, 28
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 439, 3
+  size: 44, 28
+  orig: 44, 28
+  offset: 0, 0
+  index: -1
+silk back
+  rotate: false
+  xy: 1129, 2
+  size: 65, 78
+  orig: 65, 78
+  offset: 0, 0
+  index: -1
+silk front L
+  rotate: true
+  xy: 397, 2
+  size: 29, 40
+  orig: 29, 40
+  offset: 0, 0
+  index: -1
+silk front R
+  rotate: false
+  xy: 166, 114
+  size: 12, 40
+  orig: 12, 40
+  offset: 0, 0
+  index: -1
+staff
+  rotate: true
+  xy: 435, 147
+  size: 107, 226
+  orig: 107, 226
+  offset: 0, 0
+  index: -1
+staff gems
+  rotate: false
+  xy: 1270, 21
+  size: 35, 59
+  orig: 35, 59
+  offset: 0, 0
+  index: -1
+thigh L
+  rotate: false
+  xy: 1307, 35
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+tiara
+  rotate: false
+  xy: 550, 28
+  size: 102, 117
+  orig: 102, 117
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 654, 2
+  size: 61, 93
+  orig: 61, 93
+  offset: 0, 0
+  index: -1
+torso skirt
+  rotate: true
+  xy: 1504, 129
+  size: 41, 54
+  orig: 41, 54
+  offset: 0, 0
+  index: -1
+weapon fx/staff fx
+  rotate: true
+  xy: 1045, 83
+  size: 62, 119
+  orig: 62, 119
+  offset: 0, 0
+  index: -1
+wings/level 2
+  rotate: false
+  xy: 2, 42
+  size: 162, 212
+  orig: 162, 212
+  offset: 0, 0
+  index: -1
+wings/level 3
+  rotate: true
+  xy: 663, 97
+  size: 157, 202
+  orig: 157, 202
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,104 @@
+
+hitSpiritBeast.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cut fx
+  rotate: true
+  xy: 2, 91
+  size: 35, 247
+  orig: 35, 247
+  offset: 0, 0
+  index: -1
+explosion beam1
+  rotate: true
+  xy: 881, 78
+  size: 48, 57
+  orig: 48, 57
+  offset: 0, 0
+  index: -1
+explosion beam2
+  rotate: false
+  xy: 656, 53
+  size: 61, 73
+  orig: 61, 73
+  offset: 0, 0
+  index: -1
+explosion beam3
+  rotate: false
+  xy: 577, 51
+  size: 77, 75
+  orig: 77, 75
+  offset: 0, 0
+  index: -1
+explosion beam4
+  rotate: false
+  xy: 479, 37
+  size: 96, 89
+  orig: 96, 89
+  offset: 0, 0
+  index: -1
+explosion beam5
+  rotate: false
+  xy: 251, 31
+  size: 113, 95
+  orig: 113, 95
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 141, 3
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+hit fx
+  rotate: false
+  xy: 366, 26
+  size: 111, 100
+  orig: 111, 100
+  offset: 0, 0
+  index: -1
+scratch round
+  rotate: true
+  xy: 2, 17
+  size: 72, 137
+  orig: 72, 137
+  offset: 0, 0
+  index: -1
+spark smash1
+  rotate: false
+  xy: 719, 61
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+spark smash2
+  rotate: false
+  xy: 940, 94
+  size: 54, 32
+  orig: 54, 32
+  offset: 0, 0
+  index: -1
+spark smash3
+  rotate: false
+  xy: 719, 86
+  size: 82, 40
+  orig: 82, 40
+  offset: 0, 0
+  index: -1
+spark smash4
+  rotate: false
+  xy: 479, 2
+  size: 86, 33
+  orig: 86, 33
+  offset: 0, 0
+  index: -1
+spark smash5
+  rotate: false
+  xy: 803, 94
+  size: 76, 32
+  orig: 76, 32
+  offset: 0, 0
+  index: -1

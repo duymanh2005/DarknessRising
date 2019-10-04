@@ -1,0 +1,216 @@
+
+spiritbeast.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm low L
+  rotate: false
+  xy: 874, 85
+  size: 59, 70
+  orig: 59, 70
+  offset: 0, 0
+  index: -1
+arm low L glow
+  rotate: true
+  xy: 645, 76
+  size: 78, 89
+  orig: 78, 89
+  offset: 0, 0
+  index: -1
+arm low R
+  rotate: false
+  xy: 729, 2
+  size: 74, 69
+  orig: 74, 69
+  offset: 0, 0
+  index: -1
+arm low R glow
+  rotate: false
+  xy: 462, 41
+  size: 99, 93
+  orig: 99, 93
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: false
+  xy: 563, 38
+  size: 76, 96
+  orig: 76, 96
+  offset: 0, 0
+  index: -1
+arm up L glow
+  rotate: true
+  xy: 645, 156
+  size: 98, 124
+  orig: 98, 124
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: false
+  xy: 771, 157
+  size: 116, 97
+  orig: 116, 97
+  offset: 0, 0
+  index: -1
+arm up R glow
+  rotate: false
+  xy: 502, 136
+  size: 141, 118
+  orig: 141, 118
+  offset: 0, 0
+  index: -1
+body low
+  rotate: true
+  xy: 327, 8
+  size: 32, 25
+  orig: 32, 25
+  offset: 0, 0
+  index: -1
+body up
+  rotate: false
+  xy: 344, 140
+  size: 156, 114
+  orig: 156, 114
+  offset: 0, 0
+  index: -1
+eyes 2
+  rotate: true
+  xy: 1000, 164
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+eyes 3
+  rotate: false
+  xy: 249, 11
+  size: 41, 29
+  orig: 41, 29
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 366, 33
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 383, 33
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: true
+  xy: 736, 73
+  size: 81, 67
+  orig: 81, 67
+  offset: 0, 0
+  index: -1
+hand L glow
+  rotate: false
+  xy: 889, 164
+  size: 109, 90
+  orig: 109, 90
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 641, 5
+  size: 69, 86
+  orig: 69, 86
+  offset: 0, 0
+  index: -1
+hand R glow
+  rotate: true
+  xy: 344, 46
+  size: 92, 116
+  orig: 92, 116
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 805, 6
+  size: 71, 63
+  orig: 71, 63
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: true
+  xy: 935, 98
+  size: 64, 40
+  orig: 64, 40
+  offset: 0, 0
+  index: -1
+jaw behind
+  rotate: true
+  xy: 977, 104
+  size: 58, 39
+  orig: 58, 39
+  offset: 0, 0
+  index: -1
+leg cen L
+  rotate: true
+  xy: 1000, 228
+  size: 26, 17
+  orig: 26, 17
+  offset: 0, 0
+  index: -1
+leg cen R
+  rotate: true
+  xy: 1000, 201
+  size: 25, 18
+  orig: 25, 18
+  offset: 0, 0
+  index: -1
+leg low L
+  rotate: false
+  xy: 1000, 178
+  size: 11, 21
+  orig: 11, 21
+  offset: 0, 0
+  index: -1
+leg low R
+  rotate: false
+  xy: 354, 23
+  size: 10, 21
+  orig: 10, 21
+  offset: 0, 0
+  index: -1
+leg up L
+  rotate: true
+  xy: 292, 10
+  size: 30, 33
+  orig: 30, 33
+  offset: 0, 0
+  index: -1
+leg up R
+  rotate: true
+  xy: 935, 70
+  size: 26, 36
+  orig: 26, 36
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 9
+  size: 245, 245
+  orig: 245, 245
+  offset: 0, 0
+  index: -1
+smash line
+  rotate: false
+  xy: 249, 42
+  size: 93, 212
+  orig: 93, 212
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 805, 79
+  size: 67, 76
+  orig: 67, 76
+  offset: 0, 0
+  index: -1

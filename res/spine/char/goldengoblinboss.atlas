@@ -1,0 +1,349 @@
+
+goldengoblinboss.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_L
+  rotate: false
+  xy: 1954, 740
+  size: 34, 54
+  orig: 34, 54
+  offset: 0, 0
+  index: -1
+arm_R
+  rotate: false
+  xy: 695, 127
+  size: 71, 121
+  orig: 71, 121
+  offset: 0, 0
+  index: -1
+backpack
+  rotate: false
+  xy: 1227, 797
+  size: 272, 225
+  orig: 272, 225
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 807, 355
+  size: 74, 82
+  orig: 74, 82
+  offset: 0, 0
+  index: -1
+bome
+  rotate: false
+  xy: 975, 356
+  size: 89, 94
+  orig: 89, 94
+  offset: 0, 0
+  index: -1
+bome_buff
+  rotate: false
+  xy: 883, 356
+  size: 90, 94
+  orig: 90, 94
+  offset: 0, 0
+  index: -1
+bome_skill
+  rotate: false
+  xy: 768, 152
+  size: 89, 94
+  orig: 89, 94
+  offset: 0, 0
+  index: -1
+bulleyes
+  rotate: false
+  xy: 672, 439
+  size: 203, 203
+  orig: 203, 203
+  offset: 0, 0
+  index: -1
+cut fx
+  rotate: true
+  xy: 1501, 963
+  size: 59, 412
+  orig: 59, 412
+  offset: 0, 0
+  index: -1
+explosion beam1
+  rotate: false
+  xy: 877, 452
+  size: 160, 190
+  orig: 160, 190
+  offset: 0, 0
+  index: -1
+explosion beam2
+  rotate: false
+  xy: 1748, 719
+  size: 204, 242
+  orig: 204, 242
+  offset: 0, 0
+  index: -1
+explosion beam3
+  rotate: false
+  xy: 968, 772
+  size: 257, 250
+  orig: 257, 250
+  offset: 0, 0
+  index: -1
+explosion beam4
+  rotate: false
+  xy: 374, 724
+  size: 320, 298
+  orig: 320, 298
+  offset: 0, 0
+  index: -1
+explosion beam5
+  rotate: true
+  xy: 2, 310
+  size: 377, 318
+  orig: 377, 318
+  offset: 0, 0
+  index: -1
+explosion1
+  rotate: true
+  xy: 2007, 840
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+explosion2
+  rotate: true
+  xy: 2007, 795
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+explosion3
+  rotate: false
+  xy: 768, 111
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+explosion4
+  rotate: false
+  xy: 813, 111
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+explosion5
+  rotate: false
+  xy: 758, 70
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+explosion6
+  rotate: false
+  xy: 803, 69
+  size: 43, 40
+  orig: 43, 40
+  offset: 0, 0
+  index: -1
+explosion7
+  rotate: false
+  xy: 1990, 754
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+explosion8
+  rotate: true
+  xy: 859, 203
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: true
+  xy: 806, 248
+  size: 105, 73
+  orig: 105, 73
+  offset: 0, 0
+  index: -1
+eyes_close
+  rotate: true
+  xy: 1954, 885
+  size: 97, 73
+  orig: 97, 73
+  offset: 0, 0
+  index: -1
+eyes_cry
+  rotate: false
+  xy: 695, 250
+  size: 109, 108
+  orig: 109, 108
+  offset: 0, 0
+  index: -1
+foot_L
+  rotate: true
+  xy: 399, 359
+  size: 39, 30
+  orig: 39, 30
+  offset: 0, 0
+  index: -1
+foot_R
+  rotate: false
+  xy: 290, 2
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+forearm_L
+  rotate: false
+  xy: 1954, 832
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+glance light
+  rotate: false
+  xy: 290, 33
+  size: 56, 275
+  orig: 56, 275
+  offset: 0, 0
+  index: -1
+gloriole
+  rotate: false
+  xy: 348, 127
+  size: 209, 209
+  orig: 209, 209
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 21
+  size: 286, 287
+  orig: 286, 287
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 436, 338
+  size: 234, 154
+  orig: 234, 154
+  offset: 0, 0
+  index: -1
+hit fx
+  rotate: false
+  xy: 2, 689
+  size: 370, 333
+  orig: 370, 333
+  offset: 0, 0
+  index: -1
+leg_L
+  rotate: false
+  xy: 666, 692
+  size: 22, 30
+  orig: 22, 30
+  offset: 0, 0
+  index: -1
+leg_R
+  rotate: false
+  xy: 530, 95
+  size: 27, 30
+  orig: 27, 30
+  offset: 0, 0
+  index: -1
+lighting bubble
+  rotate: false
+  xy: 696, 752
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+lighting circle
+  rotate: false
+  xy: 436, 494
+  size: 228, 228
+  orig: 228, 228
+  offset: 0, 0
+  index: -1
+papers1
+  rotate: true
+  xy: 1915, 984
+  size: 38, 102
+  orig: 38, 102
+  offset: 0, 0
+  index: -1
+papers2
+  rotate: false
+  xy: 695, 72
+  size: 61, 53
+  orig: 61, 53
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1501, 716
+  size: 245, 245
+  orig: 245, 245
+  offset: 0, 0
+  index: -1
+skirt
+  rotate: true
+  xy: 322, 346
+  size: 52, 75
+  orig: 52, 75
+  offset: 0, 0
+  index: -1
+spark light fx
+  rotate: true
+  xy: 1227, 786
+  size: 9, 103
+  orig: 9, 103
+  offset: 0, 0
+  index: -1
+spark smash1
+  rotate: false
+  xy: 672, 360
+  size: 133, 77
+  orig: 133, 77
+  offset: 0, 0
+  index: -1
+spark smash2
+  rotate: false
+  xy: 348, 19
+  size: 180, 106
+  orig: 180, 106
+  offset: 0, 0
+  index: -1
+spark smash3
+  rotate: true
+  xy: 559, 62
+  size: 274, 134
+  orig: 274, 134
+  offset: 0, 0
+  index: -1
+spark smash4
+  rotate: true
+  xy: 322, 400
+  size: 287, 112
+  orig: 287, 112
+  offset: 0, 0
+  index: -1
+spark smash5
+  rotate: false
+  xy: 696, 644
+  size: 255, 106
+  orig: 255, 106
+  offset: 0, 0
+  index: -1
+thigh_L
+  rotate: false
+  xy: 374, 690
+  size: 43, 32
+  orig: 43, 32
+  offset: 0, 0
+  index: -1
+thigh_R
+  rotate: true
+  xy: 1954, 796
+  size: 34, 51
+  orig: 34, 51
+  offset: 0, 0
+  index: -1

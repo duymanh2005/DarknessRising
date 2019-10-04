@@ -1,0 +1,391 @@
+
+RedSpiritBattleElf.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm L
+  rotate: false
+  xy: 336, 2
+  size: 26, 31
+  orig: 26, 31
+  offset: 0, 0
+  index: -1
+arrow holder
+  rotate: false
+  xy: 1375, 175
+  size: 140, 79
+  orig: 140, 79
+  offset: 0, 0
+  index: -1
+arrow skill fx
+  rotate: false
+  xy: 1232, 117
+  size: 138, 24
+  orig: 138, 24
+  offset: 0, 0
+  index: -1
+boobs
+  rotate: true
+  xy: 2026, 220
+  size: 34, 20
+  orig: 34, 20
+  offset: 0, 0
+  index: -1
+boot L
+  rotate: false
+  xy: 364, 2
+  size: 23, 31
+  orig: 23, 31
+  offset: 0, 0
+  index: -1
+boot knee L
+  rotate: false
+  xy: 418, 14
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+bow
+  rotate: true
+  xy: 336, 35
+  size: 104, 242
+  orig: 104, 242
+  offset: 0, 0
+  index: -1
+bowfx1
+  rotate: true
+  xy: 2, 141
+  size: 113, 332
+  orig: 113, 332
+  offset: 0, 0
+  index: -1
+bowfx2
+  rotate: true
+  xy: 2, 26
+  size: 113, 332
+  orig: 113, 332
+  offset: 0, 0
+  index: -1
+bowfxfull
+  rotate: true
+  xy: 336, 141
+  size: 113, 332
+  orig: 113, 332
+  offset: 0, 0
+  index: -1
+bowstring
+  rotate: true
+  xy: 2, 19
+  size: 5, 223
+  orig: 5, 223
+  offset: 0, 0
+  index: -1
+eyes attack
+  rotate: false
+  xy: 926, 38
+  size: 69, 50
+  orig: 69, 50
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: false
+  xy: 1160, 61
+  size: 69, 39
+  orig: 69, 39
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 750, 23
+  size: 74, 49
+  orig: 74, 49
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: false
+  xy: 852, 49
+  size: 72, 39
+  orig: 72, 39
+  offset: 0, 0
+  index: -1
+eyes pre attack
+  rotate: true
+  xy: 1068, 21
+  size: 72, 44
+  orig: 72, 44
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 580, 44
+  size: 84, 95
+  orig: 84, 95
+  offset: 0, 0
+  index: -1
+fire arrow fx
+  rotate: false
+  xy: 1732, 192
+  size: 120, 62
+  orig: 120, 62
+  offset: 0, 0
+  index: -1
+fire/flame1_01
+  rotate: false
+  xy: 1231, 16
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire/flame1_03
+  rotate: false
+  xy: 1344, 67
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire/flame1_05
+  rotate: false
+  xy: 1394, 97
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire/flame1_07
+  rotate: false
+  xy: 1444, 97
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire/flame1_09
+  rotate: false
+  xy: 1494, 96
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+flower
+  rotate: true
+  xy: 1232, 66
+  size: 49, 54
+  orig: 49, 54
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 2026, 181
+  size: 14, 20
+  orig: 14, 20
+  offset: 0, 0
+  index: -1
+gaunlet L
+  rotate: false
+  xy: 1449, 69
+  size: 30, 26
+  orig: 30, 26
+  offset: 0, 0
+  index: -1
+hair back
+  rotate: false
+  xy: 1517, 146
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+hair front
+  rotate: false
+  xy: 1232, 143
+  size: 141, 111
+  orig: 141, 111
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 264, 2
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 289, 6
+  size: 26, 18
+  orig: 26, 18
+  offset: 0, 0
+  index: -1
+light beam
+  rotate: false
+  xy: 1950, 180
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+light beam underground
+  rotate: false
+  xy: 1627, 153
+  size: 103, 101
+  orig: 103, 101
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 1
+  rotate: true
+  xy: 2, 2
+  size: 15, 34
+  orig: 15, 34
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 2
+  rotate: true
+  xy: 1580, 128
+  size: 16, 35
+  orig: 16, 35
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 3
+  rotate: true
+  xy: 38, 2
+  size: 15, 34
+  orig: 15, 34
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 4
+  rotate: true
+  xy: 74, 5
+  size: 12, 28
+  orig: 12, 28
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 5
+  rotate: true
+  xy: 317, 14
+  size: 10, 17
+  orig: 10, 17
+  offset: 0, 0
+  index: -1
+precast fx
+  rotate: false
+  xy: 1288, 71
+  size: 54, 44
+  orig: 54, 44
+  offset: 0, 0
+  index: -1
+precast/Light_SparkA
+  rotate: false
+  xy: 1160, 26
+  size: 69, 33
+  orig: 69, 33
+  offset: 0, 0
+  index: -1
+precast/Light_circleA
+  rotate: false
+  xy: 670, 74
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+precast/Light_lineA
+  rotate: false
+  xy: 1732, 164
+  size: 118, 26
+  orig: 118, 26
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1375, 147
+  size: 134, 26
+  orig: 134, 26
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 1544, 114
+  size: 34, 30
+  orig: 34, 30
+  offset: 0, 0
+  index: -1
+silk
+  rotate: true
+  xy: 997, 27
+  size: 66, 69
+  orig: 66, 69
+  offset: 0, 0
+  index: -1
+silk 2
+  rotate: false
+  xy: 666, 33
+  size: 82, 39
+  orig: 82, 39
+  offset: 0, 0
+  index: -1
+skirt
+  rotate: false
+  xy: 1394, 66
+  size: 53, 29
+  orig: 53, 29
+  offset: 0, 0
+  index: -1
+thigh L
+  rotate: false
+  xy: 826, 36
+  size: 24, 36
+  orig: 24, 36
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 1114, 32
+  size: 44, 68
+  orig: 44, 68
+  offset: 0, 0
+  index: -1
+waist
+  rotate: false
+  xy: 227, 2
+  size: 35, 22
+  orig: 35, 22
+  offset: 0, 0
+  index: -1
+waist armor L
+  rotate: false
+  xy: 389, 10
+  size: 27, 23
+  orig: 27, 23
+  offset: 0, 0
+  index: -1
+waist armor R
+  rotate: false
+  xy: 2026, 197
+  size: 20, 21
+  orig: 20, 21
+  offset: 0, 0
+  index: -1
+wings/level 1
+  rotate: false
+  xy: 1854, 171
+  size: 94, 83
+  orig: 94, 83
+  offset: 0, 0
+  index: -1
+wings/level 2
+  rotate: false
+  xy: 990, 95
+  size: 121, 159
+  orig: 121, 159
+  offset: 0, 0
+  index: -1
+wings/level 3
+  rotate: false
+  xy: 1113, 102
+  size: 117, 152
+  orig: 117, 152
+  offset: 0, 0
+  index: -1
+wings/level 4
+  rotate: false
+  xy: 852, 90
+  size: 136, 164
+  orig: 136, 164
+  offset: 0, 0
+  index: -1

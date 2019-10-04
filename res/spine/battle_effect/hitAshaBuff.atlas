@@ -1,0 +1,41 @@
+
+hitAshaBuff.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flash
+  rotate: false
+  xy: 410, 161
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 201, 127
+  size: 114, 115
+  orig: 114, 115
+  offset: 0, 0
+  index: -1
+lighting circle
+  rotate: false
+  xy: 317, 151
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+magic circle LV5-2
+  rotate: false
+  xy: 2, 45
+  size: 197, 197
+  orig: 197, 197
+  offset: 0, 0
+  index: -1
+spark light fx
+  rotate: false
+  xy: 2, 2
+  size: 4, 41
+  orig: 4, 41
+  offset: 0, 0
+  index: -1

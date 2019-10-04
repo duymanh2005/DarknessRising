@@ -1,0 +1,145 @@
+
+evolve_animation2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lightbeam
+  rotate: false
+  xy: 2, 504
+  size: 493, 493
+  orig: 493, 493
+  offset: 0, 0
+  index: -1
+magic ring
+  rotate: false
+  xy: 421, 108
+  size: 394, 394
+  orig: 394, 394
+  offset: 0, 0
+  index: -1
+smoke ball
+  rotate: true
+  xy: 2, 2
+  size: 500, 417
+  orig: 500, 417
+  offset: 0, 0
+  index: -1
+tail light
+  rotate: true
+  xy: 421, 2
+  size: 104, 522
+  orig: 104, 522
+  offset: 0, 0
+  index: -1
+thunder2
+  rotate: false
+  xy: 497, 552
+  size: 158, 445
+  orig: 158, 445
+  offset: 0, 0
+  index: -1
+thunder4
+  rotate: false
+  xy: 817, 114
+  size: 166, 441
+  orig: 166, 441
+  offset: 0, 0
+  index: -1
+thunder6
+  rotate: false
+  xy: 817, 557
+  size: 180, 440
+  orig: 180, 440
+  offset: 0, 0
+  index: -1
+thunder8
+  rotate: false
+  xy: 657, 557
+  size: 104, 440
+  orig: 104, 440
+  offset: 0, 0
+  index: -1
+
+evolve_animation22.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Shine_small
+  rotate: false
+  xy: 837, 319
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+hit effect circle glowing
+  rotate: false
+  xy: 2, 2
+  size: 244, 244
+  orig: 244, 244
+  offset: 0, 0
+  index: -1
+hit effect circle glowing 2
+  rotate: false
+  xy: 658, 679
+  size: 235, 237
+  orig: 235, 237
+  offset: 0, 0
+  index: -1
+light column
+  rotate: true
+  xy: 551, 301
+  size: 168, 284
+  orig: 168, 284
+  offset: 0, 0
+  index: -1
+light fx
+  rotate: false
+  xy: 2, 248
+  size: 246, 668
+  orig: 246, 668
+  offset: 0, 0
+  index: -1
+thunder1
+  rotate: true
+  xy: 658, 471
+  size: 206, 250
+  orig: 206, 250
+  offset: 0, 0
+  index: -1
+thunder10
+  rotate: false
+  xy: 459, 477
+  size: 100, 439
+  orig: 100, 439
+  offset: 0, 0
+  index: -1
+thunder11
+  rotate: false
+  xy: 561, 477
+  size: 95, 439
+  orig: 95, 439
+  offset: 0, 0
+  index: -1
+thunder5
+  rotate: true
+  xy: 250, 291
+  size: 184, 299
+  orig: 184, 299
+  offset: 0, 0
+  index: -1
+thunder7
+  rotate: false
+  xy: 355, 477
+  size: 102, 439
+  orig: 102, 439
+  offset: 0, 0
+  index: -1
+thunder9
+  rotate: false
+  xy: 250, 477
+  size: 103, 439
+  orig: 103, 439
+  offset: 0, 0
+  index: -1

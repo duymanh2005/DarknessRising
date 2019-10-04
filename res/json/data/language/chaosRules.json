@@ -1,0 +1,42 @@
+{
+  "en": [
+	{
+	  "header": "Game Rules",
+	  "content": [
+		"- Each player has 1 free turn every day",
+		"- Player can use all owned Heroes",
+		"- Each hero can participate in Chaos Tower until the HP runs out",
+		"- Player can use all owned items",
+		"- Complete each stage to receive chest"]
+	},
+	{
+	  "header": "Reward",
+	  "content": [
+		"- Reward in each chest when completed"]
+	},
+	{
+	  "header": "Useful Heroes List",
+	  "content": []
+	}
+  ],
+  "vi": [
+	{
+	  "header": "Luật Chơi",
+	  "content": [
+		"- Mỗi người chơi có 1 lượt miễn phí đánh mỗi ngày",
+		"- Được sử dụng tất cả các tướng đang có",
+		"- Mỗi tướng được tham gia đánh Hỗn Nguyên Lâu đến khi hết máu",
+		"- Được sủ dụng tất cả các vật phẩm",
+		"- Hoàn thành mỗi mốc để có thể nhận quà"]
+	},
+	{
+	  "header": "Phần thưởng",
+	  "content": [
+		"- Phần thưởng trong mỗi rương khi đã hoàn thành"]
+	},
+	{
+	  "header": "Danh Sách Tướng Hữu Dụng",
+	  "content": []
+	}
+  ]
+}

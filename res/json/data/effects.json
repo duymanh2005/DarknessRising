@@ -1,0 +1,1033 @@
+[
+  {
+    "index": 1,
+    "name": "FlatATK",
+    "desc": "Tăng chỉ số ATK (Số nguyên)",
+    "valueType": "interger",
+    "effectTo": "FlatATK",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 2,
+    "name": "PercentATK",
+    "desc": "Tăng tỷ lệ % chỉ số ATK (Số phần trăm, thí thụ 5%, 10%...)",
+    "valueType": "percent",
+    "effectTo": "PercentATK",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 3,
+    "name": "FlatMAG",
+    "desc": "Tăng chỉ số MAG (Số nguyên)",
+    "valueType": "interger",
+    "effectTo": "FlatMAG",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 4,
+    "name": "PercentMAG",
+    "desc": "Tăng tỷ lệ % chỉ số MAG (Số phần trăm)",
+    "valueType": "percent",
+    "effectTo": "PercentMAG",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 5,
+    "name": "FlatmaxHP",
+    "desc": "Tăng chỉ số maxHP (Số nguyên)",
+    "valueType": "interger",
+    "effectTo": "FlatmaxHP",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 6,
+    "name": "PercentmaxHP",
+    "desc": "Tăng tỷ lệ % chỉ số maxHP (Số phần trăm)",
+    "valueType": "percent",
+    "effectTo": "PercentmaxHP",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 7,
+    "name": "FlatDEF",
+    "desc": "Tăng chỉ số DEF (Số nguyên)",
+    "valueType": "interger",
+    "effectTo": "FlatDEF",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 8,
+    "name": "PercentDEF",
+    "desc": "Tăng tỷ lệ % chỉ số DEF (Số phần trăm)",
+    "valueType": "percent",
+    "effectTo": "PercentDEF",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 9,
+    "name": "FlatRES",
+    "desc": "Tăng chỉ số RES (Số nguyên)",
+    "valueType": "interger",
+    "effectTo": "FlatRES",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 10,
+    "name": "PercentRES",
+    "desc": "Tăng tỷ lệ % chỉ số RES (Số phần trăm)",
+    "valueType": "percent",
+    "effectTo": "PercentRES",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 11,
+    "name": "FlatHPRecovery",
+    "desc": "Tăng chỉ số HPRecovery - lượng máu hồi phục (Số nguyên)",
+    "valueType": "interger",
+    "effectTo": "FlatHPRecovery",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 12,
+    "name": "PercentHPRecovery",
+    "desc": "Tăng tỷ lệ % chỉ số HPRecovery - lượng % máu hồi phục (Số phần trăm)",
+    "valueType": "percent",
+    "effectTo": "PercentHPRecovery",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 13,
+    "name": "ShieldPoints",
+    "desc": "Tăng chỉ số ShieldPoints - khả năng chống đỡ (Số nguyên)",
+    "valueType": "interger",
+    "effectTo": "FlatShield",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 14,
+    "name": "CriticalChance",
+    "desc": "Tăng tỷ lệ % chỉ số CriticalChance - cơ hội đánh ra đòn chí mạng (Số phần trăm)",
+    "valueType": "percent",
+    "effectTo": "PercentCRT",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 15,
+    "name": "FlatCriticalDamage",
+    "desc": "Tăng chỉ số CriticalDamage - tăng lực sát thương chí mạng (Số nguyên)",
+    "valueType": "percent",
+    "effectTo": "FlatCriticalDamage",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 16,
+    "name": "PercentCriticalDamage",
+    "desc": "Tăng tỷ lệ % chỉ số CriticalDamage - tăng % lực sát thương chí mạng (Số phần trăm)",
+    "valueType": "interger",
+    "effectTo": "PercentCriticalDamage",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 17,
+    "name": "FlatDamage",
+    "desc": "Tăng chỉ số Damage - tăng sát thương cộng thêm (Số nguyên)",
+    "valueType": "interger",
+    "effectTo": "FlatDamage",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 18,
+    "name": "PercentDamage",
+    "desc": "Tăng tỷ lệ % chỉ số Damage - tăng % sát thương cộng thêm (Số phần trăm)",
+    "valueType": "percent",
+    "effectTo": "PercentDamage",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 19,
+    "name": "FlatMPRec",
+    "desc": "Tăng chỉ số MPRec - khả năng hồi phục MP (Số nguyên)",
+    "valueType": "interger",
+    "effectTo": "FlatMPRec",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 20,
+    "name": "PercentMPRec",
+    "desc": "Tăng tỷ lệ % chỉ số MPRec - % khả năng hồi phục MP (Số phần trăm)",
+    "valueType": "percent",
+    "effectTo": "PercentMPRec",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 21,
+    "name": "FlatSPD",
+    "desc": "Tăng chỉ số SPD - tốc độ (Số nguyên)",
+    "valueType": "interger",
+    "effectTo": "FlatSPD",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 22,
+    "name": "PercentSPD",
+    "desc": "Tăng tỷ lệ % chỉ số SPD - phần trăm tốc độc (Số phần trăm)",
+    "valueType": "percent",
+    "effectTo": "PercentSPD",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 40,
+    "name": "FlatEXCDamage",
+    "desc": "Tăng chỉ số Excellent Damage (Số nguyên)",
+    "valueType": "percent",
+    "effectTo": "FlatEXCDamage",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 41,
+    "name": "PercentEXCDamage",
+    "desc": "Tăng tỷ lệ % chỉ số Excellent Damage (Số phần trăm, thí thụ 5%, 10%...)",
+    "valueType": "interger",
+    "effectTo": "PercentEXCDamage",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 42,
+    "name": "ExcellentChance",
+    "desc": "Tỷ lệ cơ hội đánh ra đòn sát thương Excellent",
+    "valueType": "percent",
+    "effectTo": "PercentExcellentChance",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 43,
+    "name": "PercentLifeSteal",
+    "desc": "Tỷ lệ % hút máu dựa trên sát thương gây ra",
+    "valueType": "percent",
+    "effectTo": "PercentLifeSteal",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 44,
+    "name": "PercentBuffShield",
+    "desc": "Tỷ lệ %buff shield cộng thêm",
+    "valueType": "percent",
+    "effectTo": "PercentBuffShield",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 55,
+    "name": "ReduceATK",
+    "desc": "Trạng thái bị giảm ATK",
+    "valueType": "percent",
+    "effectTo": "PercentATK",
+    "effectType": "debuff",
+    "statusImage": "atk_dwn.png",
+    "category": "basic"
+  },
+  {
+    "index": 56,
+    "name": "ReduceMAG",
+    "desc": "Trạng thái bị giảm MAG",
+    "valueType": "percent",
+    "effectTo": "PercentMAG",
+    "effectType": "debuff",
+    "statusImage": "mag_dwn.png",
+    "category": "basic"
+  },
+  {
+    "index": 57,
+    "name": "ReduceDEF",
+    "desc": "Trạng thái bị giảm DEF",
+    "valueType": "percent",
+    "effectTo": "PercentDEF",
+    "effectType": "debuff",
+    "statusImage": "def_dwn.png",
+    "category": "basic"
+  },
+  {
+    "index": 58,
+    "name": "ReduceRES",
+    "desc": "Trạng thái bị giảm RES",
+    "valueType": "percent",
+    "effectTo": "PercentRES",
+    "effectType": "debuff",
+    "statusImage": "res_dwn.png",
+    "category": "basic"
+  },
+  {
+    "index": 59,
+    "name": "ReduceSPD",
+    "desc": "Trạng thái bị giảm SPD",
+    "valueType": "percent",
+    "effectTo": "PercentSPD",
+    "effectType": "debuff",
+    "statusImage": "spd_dwn.png",
+    "category": "basic"
+  },
+  {
+    "index": 60,
+    "name": "Disable",
+    "desc": "Trạng thái bị chủ thể bị Mất Lượt",
+    "valueType": "instant",
+    "effectTo": "Disable",
+    "effectType": "debuff",
+    "statusImage": "stun.png",
+    "category": "special"
+  },
+  {
+    "index": 61,
+    "name": "Miss",
+    "desc": "Trạng thái bị đánh trượt 100%",
+    "valueType": "instant",
+    "effectTo": "Target",
+    "effectType": "debuff",
+    "statusImage": "miss.png",
+    "category": "special"
+  },
+  {
+    "index": 62,
+    "name": "Sleep",
+    "desc": "Trạng thái bị Ngủ khiến chủ thể bị mất lượt không giới hạn và chỉ bị đánh thức sau khi bị tấn công.",
+    "valueType": "instant",
+    "effectTo": "Turn",
+    "effectType": "debuff",
+    "statusImage": "sleep.png",
+    "category": "special"
+  },
+  {
+    "index": 63,
+    "name": "Roots",
+    "desc": "Trạng thái bị Trói Chân khiến các chủ thể có phạm vi tấn công meele bị mất lượt đồng thời mất máu theo lượt.",
+    "valueType": "instant#range",
+    "effectTo": "Roots",
+    "effectType": "debuff",
+    "statusImage": "roots.png",
+    "category": "special"
+  },
+  {
+    "index": 64,
+    "name": "Silence",
+    "desc": "Trạng thái bị Cấm Sử Dụng Skill",
+    "valueType": "instant",
+    "effectTo": "Silience",
+    "effectType": "debuff",
+    "statusImage": "silence.png",
+    "category": "special"
+  },
+  {
+    "index": 65,
+    "name": "DamageOverTurns",
+    "desc": "Trạng thái bị tự mất máu theo lượt",
+    "valueType": "percent",
+    "effectTo": "dps",
+    "effectType": "debuff",
+    "statusImage": "bleeding.png",
+    "category": "update"
+  },
+  {
+    "index": 66,
+    "name": "Decover",
+    "desc": "Trạng thái Không Thể Hồi Phục, chủ thể không thể nhận được các buff có EffectIndex= 19,20",
+    "valueType": "instant",
+    "effectTo": "Decover",
+    "effectType": "debuff",
+    "statusImage": "decover.png",
+    "category": "special"
+  },
+  {
+    "index": 67,
+    "name": "Taunt",
+    "desc": "Trạng thái bị Chọc Giận, và chủ thể chỉ tấn công đối tượng đã gây hiệu ứng này cho mình.",
+    "valueType": "instant",
+    "effectTo": "Taunt",
+    "effectType": "debuff",
+    "statusImage": "taunt.png",
+    "category": "special"
+  },
+  {
+    "index": 68,
+    "name": "Mark",
+    "desc": "Trạng thái bị Đánh Dấu, và chủ thể này khi bị tấn công bởi SKILL đánh dấu sẽ nhận thêm DESTATS, DEBUFF",
+    "valueType": "percent",
+    "effectTo": "Mark",
+    "effectType": "debuff",
+    "statusImage": "mark.png",
+    "category": "special"
+  },
+  {
+    "index": 69,
+    "name": "Cursed",
+    "desc": "Trạng thái bị Nguyền Rủa, chủ thể sẽ không thể nhận được bất kỳ tác dụng có EffectType=\"buff\" ngoại trừ EffectIndex=74 (Removal)",
+    "valueType": "instant",
+    "effectTo": "Cursed",
+    "effectType": "debuff",
+    "statusImage": "cursed.png",
+    "category": "special"
+  },
+  {
+    "index": 70,
+    "name": "Punishmented",
+    "desc": "Trạng thái bị Trừng Phạt, chủ thể sẽ bị nhận thêm 5% sát thương với mọi đòn tấn công hoặc phép thuật",
+    "valueType": "percent",
+    "effectTo": "Punishmented",
+    "effectType": "debuff",
+    "statusImage": "punishmented.png",
+    "category": "special"
+  },
+  {
+    "index": 71,
+    "name": "Oblivion",
+    "desc": "Trạng thái bị Lãng Quên, vô hiệu hóa mọi hiệu ứng passive skill của đồng đội tác động lên chủ thể, bao gồm cả skill của chủ thể",
+    "valueType": "instant",
+    "effectTo": "Oblivion",
+    "effectType": "debuff",
+    "statusImage": "oblivion.png",
+    "category": "special"
+  },
+  {
+    "index": 72,
+    "name": "StatusImmunity",
+    "desc": "Trạng thái miễn nhiễm với tat ca status effect. Neu chu the dang ton tai status thi se remove tat ca.(bkb)",
+    "valueType": "instant",
+    "effectTo": "StatusImmunity",
+    "effectType": "debuff",
+    "category": "special"
+  },
+  {
+    "index": 73,
+    "name": "ReducePercentmaxHP",
+    "desc": "Giảm tỷ lệ % chỉ số maxHP (Số phần trăm)",
+    "valueType": "percent",
+    "effectTo": "PercentmaxHP",
+    "effectType": "debuff",
+    "category": "basic"
+  },
+  {
+    "index": 74,
+    "name": "Freeze",
+    "desc": "Trạng thái bị chủ thể bị Mất Lượt",
+    "valueType": "instant",
+    "effectTo": "Freeze",
+    "effectType": "debuff",
+    "statusImage": "stun.png",
+    "category": "special"
+  },
+  {
+    "index": 75,
+    "name": "PercentRegenMana",
+    "desc": "Tự hồi phục %Mana theo lượt",
+    "valueType": "percent",
+    "effectTo": "PercentRegenMP",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 76,
+    "name": "FlatRegenMana",
+    "desc": "Tự hồi phục Mana theo lượt",
+    "valueType": "instant",
+    "effectTo": "FlatRegenMP",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 77,
+    "name": "PercentRegenHP",
+    "desc": "Tự hồi phục %HP theo lượt",
+    "valueType": "percent",
+    "effectTo": "PercentRegenHP",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 78,
+    "name": "FlatRegenHP",
+    "desc": "Tự hồi phục HP theo lượt",
+    "valueType": "instant",
+    "effectTo": "FlatRegenHP",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 80,
+    "name": "Invincibility",
+    "desc": "Trạng thái Bất Khả Xâm Phạm, chủ thể có khả năng làm cho mọi sát thương nhận vào giảm về = 0 (Có thể tạo 1 công thức tính riêng)",
+    "valueType": "instant",
+    "effectTo": "Invincibility",
+    "effectType": "buff",
+    "statusImage": "invincibility.png",
+    "category": "special"
+  },
+  {
+    "index": 81,
+    "name": "MagicImmunity",
+    "desc": "Trạng thái miễn nhiễm với Phép Thuật, mọi sát thương phép thuật đều = 0",
+    "valueType": "instant",
+    "effectTo": "MagicImmunity",
+    "effectType": "buff",
+    "statusImage": "magicimmunity.png",
+    "category": "special"
+  },
+  {
+    "index": 82,
+    "name": "PhysicImmunity",
+    "desc": "Trạng thái miễn nhiễm với Sức Mạnh Vật Lý, mọi sát thương vật lý đều = 0",
+    "valueType": "instant",
+    "effectTo": "PhysicImmunity",
+    "effectType": "buff",
+    "statusImage": "physicimmunity.png",
+    "category": "special"
+  },
+  {
+    "index": 83,
+    "name": "Removal",
+    "desc": "Xóa bỏ tất cả các trạng thái debuff đang tác động trên chủ thể (EffectType=\"debuff\")",
+    "valueType": "instant",
+    "effectTo": "EffectType=\"debuff\"",
+    "effectType": "buff",
+    "category": "special"
+  },
+  {
+    "index": 84,
+    "name": "InstantKill",
+    "desc": "Tuyệt kỹ Đấm Phát Chết Luôn, những mục tiêu có HP<30% khi dính hiệu ứng này sẽ chết ngay tức thì (HP=0) (Không tác dụng với EffectIndex=91 - RejectDeath)",
+    "valueType": "instant",
+    "effectTo": "kill",
+    "effectType": "buff",
+    "statusImage": "instantkill.png",
+    "category": "special"
+  },
+  {
+    "index": 85,
+    "name": "RejectDeath",
+    "desc": "Trạng thái Từ Chối Tử Thần, HP của chủ thể vẫn bị mất máu nhưng không bị trừ về =0 cho đến khi hết hiệu ứng (min =1HP)",
+    "valueType": "instant",
+    "effectTo": "Rejectdeath",
+    "effectType": "buff",
+    "statusImage": "rejectdeath.png",
+    "category": "special"
+  },
+  {
+    "index": 86,
+    "name": "Cured",
+    "desc": "Trạng thái Chữa Trị, xóa bỏ 1 hiệu ứng trạng thái mới nhất tác dụng lên chủ thể như stun, freeze... (EffectIndex=60,61,62,63,64,65,66,68,69,71, 78,79,80...)",
+    "valueType": "instant",
+    "effectTo": "(EffectIndex=60,61,62,63,64,65,66,68,69,71,78,79,80)",
+    "effectType": "buff",
+    "category": "special"
+  },
+  {
+    "index": 87,
+    "name": "HPRecovery",
+    "desc": "Chỉ số Hồi Phục HP theo chỉ số nguyên (HEAL)",
+    "valueType": "interger",
+    "effectTo": "HPRecovery",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 88,
+    "name": "PercentHPRecovery",
+    "desc": "Chỉ số Hồi Phục HP theo công thức (HEAL)",
+    "valueType": "percent",
+    "effectTo": "PercentHPRecovery",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 89,
+    "name": "BeneficialRemoval",
+    "desc": "Trạng thái Loại bỏ ngay lập tức 1 hiệu ứng buff lợi ích ngẫu nhiên trừ các buff EffectIndex=80,83,84,85",
+    "valueType": "instant",
+    "effectTo": "BeneficialRemoval",
+    "effectType": "buff",
+    "category": "special"
+  },
+  {
+    "index": 90,
+    "name": "Shield",
+    "desc": "Trạng thái Lá Chắn",
+    "valueType": "interger",
+    "effectTo": "Shield",
+    "effectType": "buff",
+    "statusImage": "shield.png",
+    "category": "special"
+  },
+  {
+    "index": 91,
+    "name": "IncreaseATK",
+    "desc": "Trạng thái tăng ATK",
+    "valueType": "interger",
+    "effectTo": "PercentATK",
+    "effectType": "buff",
+    "statusImage": "atk_up.png",
+    "category": "basic"
+  },
+  {
+    "index": 92,
+    "name": "IncreaseMAG",
+    "desc": "Trạng thái tăng MAG",
+    "valueType": "interger",
+    "effectTo": "PercentMAG",
+    "effectType": "buff",
+    "statusImage": "mag_up.png",
+    "category": "basic"
+  },
+  {
+    "index": 93,
+    "name": "IncreaseDEF",
+    "desc": "Trạng thái tăng DEF",
+    "valueType": "interger",
+    "effectTo": "PercentDEF",
+    "effectType": "buff",
+    "statusImage": "def_up.png",
+    "category": "basic"
+  },
+  {
+    "index": 94,
+    "name": "IncreaseRES",
+    "desc": "Trạng thái tăng RES",
+    "valueType": "interger",
+    "effectTo": "PercentRES",
+    "effectType": "buff",
+    "statusImage": "res_up.png",
+    "category": "basic"
+  },
+  {
+    "index": 95,
+    "name": "IncreaseSPD",
+    "desc": "Trạng thái tăng SPD",
+    "valueType": "interger",
+    "effectTo": "PercentSPD",
+    "effectType": "buff",
+    "statusImage": "spd_up.png",
+    "category": "basic"
+  },
+  {
+    "index": 96,
+    "name": "IncreaseCRT",
+    "desc": "Trạng thái tăng CRT",
+    "valueType": "interger",
+    "effectTo": "PercentCRT",
+    "effectType": "buff",
+    "statusImage": "crit_up.png",
+    "category": "basic"
+  },
+  {
+    "index": 97,
+    "name": "IncreaseFlatDamage",
+    "desc": "Trạng thái tăng FlatDamage",
+    "valueType": "interger",
+    "effectTo": "FlatDamage",
+    "effectType": "buff",
+    "statusImage": "atk_up.png",
+    "category": "basic"
+  },
+  {
+    "index": 98,
+    "name": "IncreasePercentDamage",
+    "desc": "Trạng thái tăng PercentDamage",
+    "valueType": "interger",
+    "effectTo": "PercentDamage",
+    "effectType": "buff",
+    "statusImage": "atk_up.png",
+    "category": "basic"
+  },
+  {
+    "index": 99,
+    "name": "RegenMP",
+    "desc": "Tự hồi phục Mana theo lượt",
+    "valueType": "instant",
+    "effectTo": "regenmp",
+    "effectType": "buff",
+    "statusImage": "recovery.png",
+    "category": "update"
+  },
+  {
+    "index": 100,
+    "name": "RegenHP",
+    "desc": "Tự hồi phục %HP theo lượt",
+    "valueType": "percent",
+    "effectTo": "regenhp",
+    "effectType": "buff",
+    "statusImage": "recovery.png",
+    "category": "update"
+  },
+  {
+    "index": 101,
+    "name": "BonusElementalPenaltyRate(Fire)",
+    "desc": "Lực công kích vào hệ Hỏa tăng lên hoặc giảm xuống tùy theo dấu",
+    "valueType": "percent",
+    "effectTo": "BEPRFire",
+    "effectType": "stats"
+  },
+  {
+    "index": 102,
+    "name": "BonusElementalPenaltyRate(Water)",
+    "desc": "Lực công kích vào hệ Thủy tăng lên hoặc giảm xuống tùy theo dấu",
+    "valueType": "percent",
+    "effectTo": "BEPRWater",
+    "effectType": "stats"
+  },
+  {
+    "index": 103,
+    "name": "BonusElementalPenaltyRate(Earth)",
+    "desc": "Lực công kích vào hệ Đất tăng lên hoặc giảm xuống tùy theo dấu",
+    "valueType": "percent",
+    "effectTo": "BEPREarth",
+    "effectType": "stats"
+  },
+  {
+    "index": 104,
+    "name": "BonusElementalPenaltyRate(Light)",
+    "desc": "Lực công kích vào hệ Ánh Sáng tăng lên hoặc giảm xuống tùy theo dấu",
+    "valueType": "percent",
+    "effectTo": "BEPRLight",
+    "effectType": "stats"
+  },
+  {
+    "index": 105,
+    "name": "BonusElementalPenaltyRate(Dark)",
+    "desc": "Lực công kích vào hệ Bóng Tối tăng lên hoặc giảm xuống tùy theo dấu",
+    "valueType": "percent",
+    "effectTo": "BEPRDark",
+    "effectType": "stats"
+  },
+  {
+    "index": 106,
+    "name": "Hex",
+    "desc": "Hex",
+    "valueType": "instant",
+    "effectTo": "Hex",
+    "effectType": "debuff",
+    "category": "special"
+  },
+  {
+    "index": 107,
+    "name": "PercentLifeStealChance",
+    "desc": "% Cơ hội hút máu",
+    "valueType": "percent",
+    "effectTo": "PercentLifeStealChance",
+    "effectType": "buff",
+    "category": "basic"
+  },
+  {
+    "index": 108,
+    "name": "PercentReflectDamageChance",
+    "desc": "% Cơ hội phản damage",
+    "valueType": "percent",
+    "effectTo": "PercentReflectDamageChance",
+    "effectType": "buff",
+    "category": "basic"
+  },
+  {
+    "index": 109,
+    "name": "PercentLifeSteal",
+    "desc": "% máu hút",
+    "valueType": "percent",
+    "effectTo": "PercentLifeSteal",
+    "effectType": "buff",
+    "category": "basic"
+  },
+  {
+    "index": 110,
+    "name": "PercentReflectDamage",
+    "desc": "% damage phản",
+    "valueType": "percent",
+    "effectTo": "PercentReflectDamage",
+    "effectType": "buff",
+    "category": "basic"
+  },
+  {
+    "index": 111,
+    "name": "PercentEffectRate",
+    "desc": "(Tăng giảm) % ra hiệu ứng",
+    "valueType": "percent",
+    "effectTo": "PercentEffectRate",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 112,
+    "name": "PercentDecreaseEffectRate",
+    "desc": "Giảm % ra hiệu ứng khi là mục tiêu",
+    "valueType": "percent",
+    "effectTo": "PercentDecreaseEffectRate",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 113,
+    "name": "Hiding",
+    "desc": "Tàng hình",
+    "valueType": "percent",
+    "effectTo": "Hiding",
+    "effectType": "buff",
+    "category": "special"
+  },
+  {
+    "index": 114,
+    "name": "Hidden",
+    "desc": "Bị Giấu",
+    "valueType": "percent",
+    "effectTo": "Hidden",
+    "effectType": "debuff",
+    "category": "special"
+  },
+  {
+    "index": 115,
+    "name": "PercentLostEnemyBountyChanceMap",
+    "desc": "% xuất hiện điểm STATS, BUFF thưởng khi địch bị tiêu diệt",
+    "valueType": "percent",
+    "effectTo": "PercentLostEnemyBountyChanceMap",
+    "effectType": "buff",
+    "category": "toskill"
+  },
+  {
+    "index": 116,
+    "name": "PercentLostAllyBountyChanceMap",
+    "desc": "% xuất hiện điểm STATS, BUFF thưởng khi đồng minh bị tiêu diệt",
+    "valueType": "percent",
+    "effectTo": "PercentLostAllyBountyChanceMap",
+    "effectType": "buff",
+    "category": "toskill"
+  },
+  {
+    "index": 117,
+    "name": "PercentLostAnyBountyChanceMap",
+    "desc": "% xuất hiện điểm STATS, BUFF thưởng khi bất kỳ nhân vật bị tiêu diệt",
+    "valueType": "percent",
+    "effectTo": "PercentLostAnyBountyChanceMap",
+    "effectType": "buff",
+    "category": "toskill"
+  },
+  {
+    "index": 118,
+    "name": "PercentDeadCurseChanceMap",
+    "desc": "% xuất hiện lời nguyền cho địch khi bị hắn tiêu diệt",
+    "valueType": "percent",
+    "effectTo": "PercentDeadCurseChanceMap",
+    "effectType": "buff",
+    "category": "toskill"
+  },
+  {
+    "index": 119,
+    "name": "PercentBelowHPBountyChanceMap",
+    "desc": "xuất hiện điểm STATS, BUFF thưởng khi còn x% máu(Chỉ kích hoạt 1 lần)(format: 119/skillId/hp)",
+    "valueType": "percent",
+    "effectTo": "PercentBelowHPBountyChanceMap",
+    "effectType": "buff",
+    "category": "toskill"
+  },
+  {
+    "index": 120,
+    "name": "PercentBeHitBountyChanceMap",
+    "desc": "xuất hiện điểm STATS, BUFF thưởng khi bị đánh",
+    "valueType": "percent",
+    "effectTo": "PercentBeHitBountyChanceMap",
+    "effectType": "buff",
+    "category": "toskill"
+  },
+  {
+    "index": 121,
+    "name": "PercentKillerBountyChanceMap",
+    "desc": "% xuất hiện điểm STATS, BUFF thưởng khi tiêu diệt được địch",
+    "valueType": "percent",
+    "effectTo": "PercentKillerBountyChanceMap",
+    "effectType": "buff",
+    "category": "toskill"
+  },
+  {
+    "index": 122,
+    "name": "PercentActionBeforeBeHitChance",
+    "desc": "% cơ hội gây ra 1 hành động trước khi bị đánh",
+    "valueType": "percent",
+    "effectTo": "PercentActionBeforeBeHitChance",
+    "effectType": "buff",
+    "category": "toskill"
+  },
+  {
+    "index": 123,
+    "name": "PercentActionAfterBeHitChance",
+    "desc": "% cơ hội gây ra 1 hành động sau khi bị đánh",
+    "valueType": "percent",
+    "effectTo": "PercentActionAfterBeHitChance",
+    "effectType": "buff",
+    "category": "toskill"
+  },
+  {
+    "index": 124,
+    "name": "Crazy",
+    "desc": "Bị điên loạn",
+    "valueType": "instant",
+    "effectTo": "Crazy",
+    "effectType": "debuff",
+    "category": "special"
+  },
+  {
+    "index": 125,
+    "name": "Hypnosis",
+    "desc": "Thôi miên",
+    "valueType": "instant",
+    "effectTo": "Hypnosis",
+    "effectType": "debuff",
+    "category": "special"
+  },
+  {
+    "index": 126,
+    "name": "PercentReviveBountyChanceMap",
+    "desc": "hồi sinh va xuất hiện điểm STATS, BUFF thưởng khi hồi sinh(format: 126/skillId/turn)",
+    "valueType": "percent",
+    "effectTo": "PercentReviveBountyChanceMap",
+    "effectType": "buff",
+    "statusImage": "rejectdeath.png",
+    "category": "toskill"
+  },
+  {
+    "index": 127,
+    "name": "IncreaseAttributePerTurn",
+    "desc": "Tự tăng Attribute theo lượt (format: 127/skillId/-1)",
+    "valueType": "instant",
+    "effectTo": "increaseattr",
+    "effectType": "buff",
+    "category": "update"
+  },
+  {
+    "index": 128,
+    "name": "PercentBonusTurn",
+    "desc": "% cơ hội có thêm 1 lượt.",
+    "valueType": "instant",
+    "effectTo": "PercentBonusTurn",
+    "effectType": "buff",
+    "category": "basic"
+  },
+  {
+    "index": 129,
+    "name": "PercentDecreaseDamageTaken",
+    "desc": "% damge nhan vao dc giam",
+    "valueType": "instant",
+    "effectTo": "PercentDecreaseDamageTaken",
+    "effectType": "buff",
+    "category": "basic"
+  },
+  {
+    "index": 130,
+    "name": "PercentBurnMana",
+    "desc": "% hut mana doi tuong bi danh",
+    "valueType": "instant",
+    "effectTo": "PercentBurnMana",
+    "effectType": "buff",
+    "category": "basic"
+  },
+  {
+    "index": 131,
+    "name": "RegenMPOption",
+    "desc": "Tự hồi phục Mana theo lượt của Option",
+    "valueType": "instant",
+    "effectTo": "regenmpoption",
+    "effectType": "buff",
+    "statusImage": "recovery.png",
+    "category": "update"
+  },
+  {
+    "index": 132,
+    "name": "RegenHPOption",
+    "desc": "Tự hồi phục %HP theo lượt của Option",
+    "valueType": "percent",
+    "effectTo": "regenhpoption",
+    "effectType": "buff",
+    "statusImage": "recovery.png",
+    "category": "update"
+  },
+  {
+    "index": 133,
+    "name": "PercentRegenManaOption",
+    "desc": "Tự hồi phục %Mana theo lượt của Option",
+    "valueType": "percent",
+    "effectTo": "PercentRegenMPOption",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 134,
+    "name": "FlatRegenManaOption",
+    "desc": "Tự hồi phục Mana theo lượt của Option",
+    "valueType": "instant",
+    "effectTo": "FlatRegenMPOption",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 135,
+    "name": "PercentRegenHPOption",
+    "desc": "Tự hồi phục %HP theo lượt của Option",
+    "valueType": "percent",
+    "effectTo": "PercentRegenHPOption",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 136,
+    "name": "FlatRegenHPOption",
+    "desc": "Tự hồi phục HP theo lượt của Option",
+    "valueType": "instant",
+    "effectTo": "FlatRegenHPOption",
+    "effectType": "stats",
+    "category": "basic"
+  },
+  {
+    "index": 137,
+    "name": "PercentBeHitCurseChanceMap",
+    "desc": "loi nguyen gây ra khi bị đánh",
+    "valueType": "percent",
+    "effectTo": "PercentBeHitCurseChanceMap",
+    "effectType": "buff",
+    "category": "toskill"
+  },
+  {
+    "index": 138,
+    "name": "PercentHitBountyChanceMap",
+    "desc": "phan thuong sau khi đánh",
+    "valueType": "percent",
+    "effectTo": "PercentHitBountyChanceMap",
+    "effectType": "buff",
+    "category": "toskill"
+  },
+  {
+    "index": 139,
+    "name": "PercentHitCurseChanceMap",
+    "desc": "loi nguyen sau khi đánh",
+    "valueType": "percent",
+    "effectTo": "PercentHitCurseChanceMap",
+    "effectType": "buff",
+    "category": "toskill"
+  }
+]

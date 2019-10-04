@@ -1,0 +1,62 @@
+
+chaosmachine.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fire-swirlA
+  rotate: false
+  xy: 260, 144
+  size: 236, 216
+  orig: 236, 216
+  offset: 0, 0
+  index: -1
+light_effect
+  rotate: false
+  xy: 2, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+stone
+  rotate: false
+  xy: 2, 362
+  size: 802, 595
+  orig: 802, 595
+  offset: 0, 0
+  index: -1
+swirlA
+  rotate: false
+  xy: 1862, 832
+  size: 128, 125
+  orig: 128, 125
+  offset: 0, 0
+  index: -1
+swirlB
+  rotate: false
+  xy: 2, 104
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+vong1
+  rotate: false
+  xy: 1351, 6
+  size: 441, 439
+  orig: 441, 439
+  offset: 0, 0
+  index: -1
+vong2
+  rotate: false
+  xy: 806, 397
+  size: 543, 560
+  orig: 543, 560
+  offset: 0, 0
+  index: -1
+vong3
+  rotate: false
+  xy: 1351, 447
+  size: 509, 510
+  orig: 509, 510
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+hitPhoenixSign.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hit/phoenix_shield
+  rotate: false
+  xy: 2, 2
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1

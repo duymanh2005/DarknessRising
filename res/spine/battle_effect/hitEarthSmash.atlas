@@ -1,0 +1,118 @@
+
+hitEarthSmash.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+earth grow
+  rotate: false
+  xy: 2, 15
+  size: 163, 125
+  orig: 163, 125
+  offset: 0, 0
+  index: -1
+earth shake
+  rotate: false
+  xy: 398, 96
+  size: 184, 55
+  orig: 184, 55
+  offset: 0, 0
+  index: -1
+smash fx3
+  rotate: false
+  xy: 2, 142
+  size: 257, 107
+  orig: 257, 107
+  offset: 0, 0
+  index: -1
+smog3
+  rotate: false
+  xy: 777, 176
+  size: 170, 73
+  orig: 170, 73
+  offset: 0, 0
+  index: -1
+smoke ground1
+  rotate: false
+  xy: 267, 4
+  size: 113, 64
+  orig: 113, 64
+  offset: 0, 0
+  index: -1
+smoke ground2
+  rotate: false
+  xy: 619, 161
+  size: 156, 88
+  orig: 156, 88
+  offset: 0, 0
+  index: -1
+smoke ground3
+  rotate: false
+  xy: 261, 169
+  size: 187, 80
+  orig: 187, 80
+  offset: 0, 0
+  index: -1
+smoke ground4
+  rotate: false
+  xy: 450, 153
+  size: 167, 96
+  orig: 167, 96
+  offset: 0, 0
+  index: -1
+smoke ground5
+  rotate: true
+  xy: 167, 2
+  size: 138, 98
+  orig: 138, 98
+  offset: 0, 0
+  index: -1
+smoke ground6
+  rotate: false
+  xy: 267, 70
+  size: 129, 97
+  orig: 129, 97
+  offset: 0, 0
+  index: -1
+smoke ground7
+  rotate: true
+  xy: 949, 136
+  size: 113, 62
+  orig: 113, 62
+  offset: 0, 0
+  index: -1
+smoke smash1
+  rotate: true
+  xy: 584, 59
+  size: 92, 26
+  orig: 92, 26
+  offset: 0, 0
+  index: -1
+smoke smash2
+  rotate: false
+  xy: 619, 119
+  size: 114, 40
+  orig: 114, 40
+  offset: 0, 0
+  index: -1
+smoke smash3
+  rotate: false
+  xy: 398, 47
+  size: 137, 47
+  orig: 137, 47
+  offset: 0, 0
+  index: -1
+smoke smash4
+  rotate: false
+  xy: 382, 6
+  size: 126, 39
+  orig: 126, 39
+  offset: 0, 0
+  index: -1
+smoke smash5
+  rotate: false
+  xy: 777, 135
+  size: 126, 39
+  orig: 126, 39
+  offset: 0, 0
+  index: -1

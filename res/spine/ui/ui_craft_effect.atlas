@@ -1,0 +1,62 @@
+
+ui_craft_effect.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+UI_Win_Yelloweffect_small
+  rotate: false
+  xy: 504, 179
+  size: 352, 327
+  orig: 352, 327
+  offset: 0, 0
+  index: -1
+Whiteray
+  rotate: false
+  xy: 504, 2
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+grow_light
+  rotate: false
+  xy: 1433, 250
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+lighht_lineglowA
+  rotate: false
+  xy: 858, 199
+  size: 307, 307
+  orig: 307, 307
+  offset: 0, 0
+  index: -1
+lighting cicrle
+  rotate: false
+  xy: 1167, 242
+  size: 264, 264
+  orig: 264, 264
+  offset: 0, 0
+  index: -1
+magic_circle_blueS
+  rotate: false
+  xy: 1691, 259
+  size: 247, 247
+  orig: 247, 247
+  offset: 0, 0
+  index: -1
+mana shield
+  rotate: false
+  xy: 1167, 31
+  size: 209, 209
+  orig: 209, 209
+  offset: 0, 0
+  index: -1
+starburstA
+  rotate: false
+  xy: 2, 6
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1

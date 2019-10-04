@@ -1,0 +1,195 @@
+
+hitActiveLavaWarlord.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/chain
+  rotate: false
+  xy: 850, 221
+  size: 51, 25
+  orig: 51, 25
+  offset: 0, 0
+  index: -1
+images/fire/1
+  rotate: false
+  xy: 2, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/fire/10
+  rotate: false
+  xy: 166, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/fire/11
+  rotate: false
+  xy: 248, 84
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/fire/12
+  rotate: false
+  xy: 330, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/fire/13
+  rotate: false
+  xy: 248, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/fire/14
+  rotate: false
+  xy: 330, 84
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/fire/15
+  rotate: false
+  xy: 412, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/fire/16
+  rotate: false
+  xy: 330, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/fire/2
+  rotate: false
+  xy: 2, 84
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/fire/3
+  rotate: false
+  xy: 84, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/fire/4
+  rotate: false
+  xy: 2, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/fire/5
+  rotate: false
+  xy: 84, 84
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/fire/6
+  rotate: false
+  xy: 166, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/fire/7
+  rotate: false
+  xy: 84, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/fire/8
+  rotate: false
+  xy: 166, 84
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/fire/9
+  rotate: false
+  xy: 248, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/hit/fire_expl_01
+  rotate: false
+  xy: 412, 55
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+images/hit/fire_expl_03
+  rotate: false
+  xy: 546, 198
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+images/hit/fire_expl_05
+  rotate: false
+  xy: 412, 5
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+images/hit/fire_expl_11
+  rotate: false
+  xy: 596, 198
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+images/hit/fire_expl_13
+  rotate: false
+  xy: 646, 198
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+images/hit/fire_expl_15
+  rotate: false
+  xy: 696, 198
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+images/hit/fire_expl_17
+  rotate: false
+  xy: 746, 198
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+images/hit/hit effect circle glowing
+  rotate: false
+  xy: 412, 105
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+images/hit/light beam
+  rotate: false
+  xy: 494, 196
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+images/hit/weapon#1
+  rotate: false
+  xy: 796, 204
+  size: 52, 42
+  orig: 52, 42
+  offset: 0, 0
+  index: -1

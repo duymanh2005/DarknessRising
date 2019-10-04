@@ -1,0 +1,90 @@
+
+hitIceStorm.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ice smoke 1
+  rotate: false
+  xy: 180, 195
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+ice smoke 2
+  rotate: false
+  xy: 316, 399
+  size: 40, 38
+  orig: 40, 38
+  offset: 0, 0
+  index: -1
+ice smoke 3
+  rotate: false
+  xy: 121, 129
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+ice smoke 4
+  rotate: false
+  xy: 65, 66
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+ice smoke 5
+  rotate: false
+  xy: 2, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ice smoke 6
+  rotate: false
+  xy: 316, 439
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: -1
+ice smoke 7
+  rotate: false
+  xy: 121, 177
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+ice smoke 8
+  rotate: false
+  xy: 2, 54
+  size: 61, 60
+  orig: 61, 60
+  offset: 0, 0
+  index: -1
+ice spearhead
+  rotate: false
+  xy: 260, 315
+  size: 54, 177
+  orig: 54, 177
+  offset: 0, 0
+  index: -1
+snow fx
+  rotate: true
+  xy: 260, 257
+  size: 56, 53
+  orig: 56, 53
+  offset: 0, 0
+  index: -1
+somasi05_R
+  rotate: false
+  xy: 2, 236
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+vortex fx
+  rotate: false
+  xy: 2, 116
+  size: 117, 118
+  orig: 117, 118
+  offset: 0, 0
+  index: -1

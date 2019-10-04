@@ -1,0 +1,1890 @@
+{
+  "ID": "65b7121d-b629-4821-8130-a96bb13db4f8",
+  "Version": "3.10.0.0",
+  "Name": "EventPage",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 62,
+        "Children": [
+          {
+            "ClipAble": false,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 35,
+              "G": 38,
+              "B": 59
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 63,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 384.0,
+                  "Y": 725.029
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.512,
+                  "Y": 0.5435
+                },
+                "PreSize": {
+                  "X": 0.976,
+                  "Y": 0.9145
+                },
+                "LeftMargin": 18.0,
+                "TopMargin": -1.0291,
+                "BottomMargin": 115.029,
+                "Tag": 224,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "event_page/banner_top_firstpurchase.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 254,
+                    "Scale9OriginY": 122,
+                    "Scale9Width": 247,
+                    "Scale9Height": 124,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 366.0,
+                      "Y": 1225.002
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 1.0041
+                    },
+                    "PreSize": {
+                      "X": 1.0519,
+                      "Y": 0.3041
+                    },
+                    "LeftMargin": -19.0,
+                    "RightMargin": -19.0,
+                    "TopMargin": -5.002,
+                    "BottomMargin": 854.002,
+                    "Tag": 225,
+                    "ActionTag": 1083983536,
+                    "Size": {
+                      "X": 770.0,
+                      "Y": 371.0
+                    },
+                    "Name": "banner",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "event_page/event_F_BG.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 254,
+                    "Scale9OriginY": 122,
+                    "Scale9Width": 251,
+                    "Scale9Height": 626,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 366.0,
+                      "Y": -114.924
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": -0.0942
+                    },
+                    "PreSize": {
+                      "X": 1.0369,
+                      "Y": 0.7131
+                    },
+                    "LeftMargin": -13.5,
+                    "RightMargin": -13.5,
+                    "TopMargin": 464.924,
+                    "BottomMargin": -114.924,
+                    "Tag": 226,
+                    "ActionTag": 652554916,
+                    "Size": {
+                      "X": 759.0,
+                      "Y": 870.0
+                    },
+                    "Name": "banner_bot",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "DirectionType": "Vertical",
+                    "HorizontalType": "Align_HorizontalCenter",
+                    "ScrollDirectionType": 0,
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "patch9/pnl_vip_card_small_resize.png",
+                      "Plist": "json/patch9_8.plist"
+                    },
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 150
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 150
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 44,
+                    "Scale9OriginY": 40,
+                    "Scale9Width": 10,
+                    "Scale9Height": 11,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 364.6824,
+                      "Y": 393.206
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4982,
+                      "Y": 0.3223
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.5
+                    },
+                    "LeftMargin": -1.3176,
+                    "RightMargin": 1.3176,
+                    "TopMargin": 521.794,
+                    "BottomMargin": 88.206,
+                    "Tag": 42,
+                    "ActionTag": 1285161942,
+                    "Size": {
+                      "X": 732.0,
+                      "Y": 610.0
+                    },
+                    "Name": "lvl",
+                    "ctype": "ListViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "event_page/bannertxt_6.png",
+                      "Plist": "json/event_pack.plist"
+                    },
+                    "Scale9OriginX": 254,
+                    "Scale9OriginY": 44,
+                    "Scale9Width": 244,
+                    "Scale9Height": 33,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 364.9752,
+                      "Y": 796.66
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4986,
+                      "Y": 0.653
+                    },
+                    "PreSize": {
+                      "X": 1.0533,
+                      "Y": 0.1107
+                    },
+                    "LeftMargin": -20.5248,
+                    "RightMargin": -18.4752,
+                    "TopMargin": 355.84,
+                    "BottomMargin": 729.16,
+                    "Tag": 227,
+                    "ActionTag": -716284115,
+                    "Size": {
+                      "X": 771.0,
+                      "Y": 135.0
+                    },
+                    "Name": "banner_txt",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "event_page/btn_craft.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 67,
+                    "Scale9OriginY": 23,
+                    "Scale9Width": 72,
+                    "Scale9Height": 25,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 366.0,
+                      "Y": 39.9426
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.0327
+                    },
+                    "PreSize": {
+                      "X": 0.2814,
+                      "Y": 0.0582
+                    },
+                    "LeftMargin": 263.0,
+                    "RightMargin": 263.0,
+                    "TopMargin": 1144.5574,
+                    "BottomMargin": 4.4426,
+                    "Tag": 139,
+                    "ActionTag": -1212756555,
+                    "Size": {
+                      "X": 206.0,
+                      "Y": 71.0
+                    },
+                    "Name": "btnBuy",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "LabelText": "Fnt Text Label",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/UTMBienvenue_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 366.0,
+                      "Y": 794.0524
+                    },
+                    "Scale": {
+                      "ScaleX": 0.7,
+                      "ScaleY": 0.7
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6509
+                    },
+                    "PreSize": {
+                      "X": 0.3552,
+                      "Y": 0.0328
+                    },
+                    "LeftMargin": 236.0,
+                    "RightMargin": 236.0,
+                    "TopMargin": 405.9476,
+                    "BottomMargin": 774.0524,
+                    "Tag": 145,
+                    "ActionTag": -1374987783,
+                    "Size": {
+                      "X": 260.0,
+                      "Y": 40.0
+                    },
+                    "Name": "desc",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 2122587473,
+                "Size": {
+                  "X": 732.0,
+                  "Y": 1220.0
+                },
+                "Name": "content_event_1",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 375.0,
+                  "Y": 723.028
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.542
+                },
+                "PreSize": {
+                  "X": 0.976,
+                  "Y": 0.9145
+                },
+                "LeftMargin": 9.0,
+                "RightMargin": 9.0,
+                "TopMargin": 0.9719,
+                "BottomMargin": 113.028,
+                "Tag": 105,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "event_page/summer_event_banner.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 254,
+                    "Scale9OriginY": 122,
+                    "Scale9Width": 245,
+                    "Scale9Height": 123,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 364.0236,
+                      "Y": 1220.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4973,
+                      "Y": 1.0
+                    },
+                    "PreSize": {
+                      "X": 1.0287,
+                      "Y": 0.3008
+                    },
+                    "LeftMargin": -12.4764,
+                    "RightMargin": -8.5236,
+                    "BottomMargin": 853.0,
+                    "Tag": 106,
+                    "ActionTag": -954017536,
+                    "Size": {
+                      "X": 753.0,
+                      "Y": 367.0
+                    },
+                    "Name": "banner",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "event_page/pnl_summer_event_bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 254,
+                    "Scale9OriginY": 122,
+                    "Scale9Width": 247,
+                    "Scale9Height": 632,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 366.0,
+                      "Y": -115.9
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": -0.095
+                    },
+                    "PreSize": {
+                      "X": 1.0314,
+                      "Y": 0.718
+                    },
+                    "LeftMargin": -11.5,
+                    "RightMargin": -11.5,
+                    "TopMargin": 459.9,
+                    "BottomMargin": -115.9,
+                    "Tag": 107,
+                    "ActionTag": 937898468,
+                    "Size": {
+                      "X": 755.0,
+                      "Y": 876.0
+                    },
+                    "Name": "banner_bot",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "DirectionType": "Vertical",
+                    "HorizontalType": "Align_HorizontalCenter",
+                    "IsBounceEnabled": true,
+                    "ScrollDirectionType": 0,
+                    "ClipAble": true,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 150
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 150
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9OriginX": -249,
+                    "Scale9OriginY": -289,
+                    "Scale9Width": 498,
+                    "Scale9Height": 578,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 365.7072,
+                      "Y": 350.262
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4996,
+                      "Y": 0.2871
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.65
+                    },
+                    "LeftMargin": -0.2928,
+                    "RightMargin": 0.2928,
+                    "TopMargin": 473.238,
+                    "BottomMargin": -46.238,
+                    "Tag": 109,
+                    "ActionTag": -988914800,
+                    "Size": {
+                      "X": 732.0,
+                      "Y": 793.0
+                    },
+                    "Name": "lvl",
+                    "ctype": "ListViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "event_page/bannertxt_6.png",
+                      "Plist": "json/event_pack.plist"
+                    },
+                    "Scale9OriginX": 254,
+                    "Scale9OriginY": 44,
+                    "Scale9Width": 244,
+                    "Scale9Height": 33,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 364.0236,
+                      "Y": 801.662
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4973,
+                      "Y": 0.6571
+                    },
+                    "PreSize": {
+                      "X": 1.0273,
+                      "Y": 0.0992
+                    },
+                    "LeftMargin": -11.9764,
+                    "RightMargin": -8.0236,
+                    "TopMargin": 357.838,
+                    "BottomMargin": 741.162,
+                    "Tag": 108,
+                    "ActionTag": -983912048,
+                    "Size": {
+                      "X": 752.0,
+                      "Y": 121.0
+                    },
+                    "Name": "banner_txt",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "event_page/pnl_summer_event.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 64,
+                    "Scale9OriginY": 59,
+                    "Scale9Width": 66,
+                    "Scale9Height": 61,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 366.0,
+                      "Y": 520.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4266
+                    },
+                    "PreSize": {
+                      "X": 0.265,
+                      "Y": 0.1467
+                    },
+                    "LeftMargin": 269.0,
+                    "RightMargin": 269.0,
+                    "TopMargin": 610.0,
+                    "BottomMargin": 431.0,
+                    "Tag": 116,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "patch9/pnl_shop_price.png",
+                          "Plist": "json/patch9_5.plist"
+                        },
+                        "Scale9OriginX": 64,
+                        "Scale9OriginY": 14,
+                        "Scale9Width": 52,
+                        "Scale9Height": 16,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 97.7099,
+                          "Y": 0.2658
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5037,
+                          "Y": 0.0015
+                        },
+                        "PreSize": {
+                          "X": 0.9278,
+                          "Y": 0.2458
+                        },
+                        "LeftMargin": 7.7099,
+                        "RightMargin": 6.2901,
+                        "TopMargin": 156.7342,
+                        "BottomMargin": -21.7342,
+                        "Tag": 117,
+                        "ActionTag": 1267528283,
+                        "ZOrder": 1,
+                        "Size": {
+                          "X": 180.0,
+                          "Y": 44.0
+                        },
+                        "Name": "ricebg",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "event_page/ico_event_ice_cream_with_glow.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 64,
+                        "Scale9OriginY": 14,
+                        "Scale9Width": 9,
+                        "Scale9Height": 116,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 35.6667,
+                          "Y": 4.5629
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1838,
+                          "Y": 0.0255
+                        },
+                        "PreSize": {
+                          "X": 0.7062,
+                          "Y": 0.8045
+                        },
+                        "LeftMargin": -32.8333,
+                        "RightMargin": 89.8333,
+                        "TopMargin": 102.4371,
+                        "BottomMargin": -67.4371,
+                        "Tag": 118,
+                        "ActionTag": -1188250840,
+                        "ZOrder": 1,
+                        "Size": {
+                          "X": 137.0,
+                          "Y": 144.0
+                        },
+                        "Name": "riceicon",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 909558661,
+                    "Size": {
+                      "X": 194.0,
+                      "Y": 179.0
+                    },
+                    "Name": "itemClone",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "LabelText": "During the event, use [Ice Cream] to exchange for",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/UTMBienvenue_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 366.0,
+                      "Y": 818.9628
+                    },
+                    "Scale": {
+                      "ScaleX": 0.7,
+                      "ScaleY": 0.7
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6713
+                    },
+                    "PreSize": {
+                      "X": 1.2172,
+                      "Y": 0.0328
+                    },
+                    "LeftMargin": -79.5,
+                    "RightMargin": -79.5,
+                    "TopMargin": 381.0372,
+                    "BottomMargin": 798.9628,
+                    "Tag": 118,
+                    "ActionTag": 1312994739,
+                    "Size": {
+                      "X": 891.0,
+                      "Y": 40.0
+                    },
+                    "Name": "desc",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "patch9/Map_Tittle_Name.png",
+                      "Plist": "json/patch9_1.plist"
+                    },
+                    "Scale9OriginX": 18,
+                    "Scale9OriginY": 23,
+                    "Scale9Width": 156,
+                    "Scale9Height": 6,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 498.858,
+                      "Y": 959.9727
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.6815,
+                      "Y": 0.7869
+                    },
+                    "PreSize": {
+                      "X": 0.2623,
+                      "Y": 0.0426
+                    },
+                    "LeftMargin": 402.858,
+                    "RightMargin": 137.142,
+                    "TopMargin": 234.0273,
+                    "BottomMargin": 933.9727,
+                    "Tag": 112,
+                    "Children": [
+                      {
+                        "LabelText": "000",
+                        "LabelBMFontFile_CNB": {
+                          "Type": "Normal",
+                          "Path": "font/UTMBienvenue_stroke_32-export.fnt",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 96.0,
+                          "Y": 29.0004
+                        },
+                        "Scale": {
+                          "ScaleX": 0.7,
+                          "ScaleY": 0.7
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5577
+                        },
+                        "PreSize": {
+                          "X": 0.3281,
+                          "Y": 0.7692
+                        },
+                        "LeftMargin": 64.5,
+                        "RightMargin": 64.5,
+                        "TopMargin": 2.9996,
+                        "BottomMargin": 9.0004,
+                        "Tag": 113,
+                        "ActionTag": -1602258214,
+                        "Size": {
+                          "X": 63.0,
+                          "Y": 40.0
+                        },
+                        "Name": "ice_num",
+                        "ctype": "TextBMFontObjectData"
+                      }
+                    ],
+                    "ActionTag": 1368393130,
+                    "Size": {
+                      "X": 192.0,
+                      "Y": 52.0
+                    },
+                    "Name": "ice_cream_bg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "event_page/ico_event_ice_cream_with_glow.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 18,
+                    "Scale9OriginY": 23,
+                    "Scale9Width": 101,
+                    "Scale9Height": 98,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 421.5588,
+                      "Y": 963.6867
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5759,
+                      "Y": 0.7899
+                    },
+                    "PreSize": {
+                      "X": 0.1872,
+                      "Y": 0.118
+                    },
+                    "LeftMargin": 353.0588,
+                    "RightMargin": 241.9412,
+                    "TopMargin": 184.3132,
+                    "BottomMargin": 891.6867,
+                    "Tag": 111,
+                    "ActionTag": 688625994,
+                    "Size": {
+                      "X": 137.0,
+                      "Y": 144.0
+                    },
+                    "Name": "icon_ice_cream",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "button/Blue_Button.png",
+                      "Plist": "json/button.plist"
+                    },
+                    "Scale9OriginX": 72,
+                    "Scale9OriginY": 25,
+                    "Scale9Width": 75,
+                    "Scale9Height": 28,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 625.0502,
+                      "Y": -74.8749
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.75
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8539,
+                      "Y": -0.0614
+                    },
+                    "PreSize": {
+                      "X": 0.2992,
+                      "Y": 0.0639
+                    },
+                    "LeftMargin": 515.5502,
+                    "RightMargin": -2.5502,
+                    "TopMargin": 1255.8749,
+                    "BottomMargin": -113.8749,
+                    "Tag": 76,
+                    "ActionTag": 1380420557,
+                    "Size": {
+                      "X": 219.0,
+                      "Y": 78.0
+                    },
+                    "Name": "btnRefresh",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "patch9/pnl_rank_Timeslot.png",
+                      "Plist": "json/patch9_5.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 62,
+                    "Scale9OriginY": 20,
+                    "Scale9Width": 193,
+                    "Scale9Height": 21,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 402.7191,
+                      "Y": -76.2284
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5502,
+                      "Y": -0.0625
+                    },
+                    "PreSize": {
+                      "X": 0.3128,
+                      "Y": 0.0418
+                    },
+                    "LeftMargin": 288.2191,
+                    "RightMargin": 214.7809,
+                    "TopMargin": 1270.7284,
+                    "BottomMargin": -101.7284,
+                    "Tag": 78,
+                    "ActionTag": 498820950,
+                    "Size": {
+                      "X": 229.0,
+                      "Y": 51.0
+                    },
+                    "Name": "Image_1_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "LabelText": "Times Left:",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/cam_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 307.6778,
+                      "Y": -70.9491
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.75
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4203,
+                      "Y": -0.0582
+                    },
+                    "PreSize": {
+                      "X": 0.2473,
+                      "Y": 0.0328
+                    },
+                    "LeftMargin": 307.6778,
+                    "RightMargin": 243.3222,
+                    "TopMargin": 1270.9491,
+                    "BottomMargin": -90.9491,
+                    "Tag": 77,
+                    "ActionTag": 837279734,
+                    "Size": {
+                      "X": 181.0,
+                      "Y": 40.0
+                    },
+                    "Name": "lblTimesLeft",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "patch9/pnl_rank_Timeslot.png",
+                      "Plist": "json/patch9_5.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 57,
+                    "Scale9OriginY": 20,
+                    "Scale9Width": 133,
+                    "Scale9Height": 21,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 151.1296,
+                      "Y": -76.2284
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2065,
+                      "Y": -0.0625
+                    },
+                    "PreSize": {
+                      "X": 0.3538,
+                      "Y": 0.0418
+                    },
+                    "LeftMargin": 21.6296,
+                    "RightMargin": 451.3704,
+                    "TopMargin": 1270.7284,
+                    "BottomMargin": -101.7284,
+                    "Tag": 80,
+                    "ActionTag": 1571861407,
+                    "Size": {
+                      "X": 259.0,
+                      "Y": 51.0
+                    },
+                    "Name": "Image_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "LabelText": "Refesh in 03:00:23",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/cam_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 33.5469,
+                      "Y": -70.6174
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.75
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0458,
+                      "Y": -0.0579
+                    },
+                    "PreSize": {
+                      "X": 0.3852,
+                      "Y": 0.0328
+                    },
+                    "LeftMargin": 33.5469,
+                    "RightMargin": 416.4531,
+                    "TopMargin": 1270.6174,
+                    "BottomMargin": -90.6174,
+                    "Tag": 79,
+                    "ActionTag": -1242613343,
+                    "Size": {
+                      "X": 282.0,
+                      "Y": 40.0
+                    },
+                    "Name": "lblRefeshIn",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 559773403,
+                "Size": {
+                  "X": 732.0,
+                  "Y": 1220.0
+                },
+                "Name": "content_event_2",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 384.675,
+                  "Y": 717.9588
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5129,
+                  "Y": 0.5382
+                },
+                "PreSize": {
+                  "X": 0.976,
+                  "Y": 0.9145
+                },
+                "LeftMargin": 18.675,
+                "RightMargin": -0.675,
+                "TopMargin": 6.0413,
+                "BottomMargin": 107.9588,
+                "Tag": 97,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "event_page/banner_top_dailyevent_en.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 254,
+                    "Scale9OriginY": 122,
+                    "Scale9Width": 262,
+                    "Scale9Height": 127,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 366.0,
+                      "Y": 1225.002
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 1.0041
+                    },
+                    "PreSize": {
+                      "X": 1.0519,
+                      "Y": 0.3041
+                    },
+                    "LeftMargin": -19.0,
+                    "RightMargin": -19.0,
+                    "TopMargin": -5.002,
+                    "BottomMargin": 854.002,
+                    "Tag": 98,
+                    "Children": [
+                      {
+                        "LabelText": "Fnt Text Label",
+                        "LabelBMFontFile_CNB": {
+                          "Type": "Normal",
+                          "Path": "font/cam_stroke_32-export.fnt",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 385.0,
+                          "Y": 34.2159
+                        },
+                        "Scale": {
+                          "ScaleX": 0.75,
+                          "ScaleY": 0.75
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.0922
+                        },
+                        "PreSize": {
+                          "X": 0.3078,
+                          "Y": 0.1078
+                        },
+                        "LeftMargin": 266.5,
+                        "RightMargin": 266.5,
+                        "TopMargin": 316.7841,
+                        "BottomMargin": 14.2159,
+                        "Tag": 99,
+                        "ActionTag": -1913330304,
+                        "Size": {
+                          "X": 237.0,
+                          "Y": 40.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "lbl",
+                        "ctype": "TextBMFontObjectData"
+                      }
+                    ],
+                    "ActionTag": 1860769923,
+                    "Size": {
+                      "X": 770.0,
+                      "Y": 371.0
+                    },
+                    "Name": "banner",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "event_page/pnl_bottom.png",
+                      "Plist": "json/event_pack.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 70,
+                    "Scale9OriginY": 67,
+                    "Scale9Width": 74,
+                    "Scale9Height": 70,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 366.0,
+                      "Y": 733.098
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6009
+                    },
+                    "PreSize": {
+                      "X": 1.0314,
+                      "Y": 0.6885
+                    },
+                    "LeftMargin": -11.5,
+                    "RightMargin": -11.5,
+                    "TopMargin": 486.902,
+                    "BottomMargin": -106.902,
+                    "Tag": 100,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "button/btn_brown_off.png",
+                          "Plist": "json/button.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 78,
+                        "Scale9OriginY": 52,
+                        "Scale9Width": 83,
+                        "Scale9Height": 2,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 382.7976,
+                          "Y": 709.8494
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.507,
+                          "Y": 0.8451
+                        },
+                        "PreSize": {
+                          "X": 0.3166,
+                          "Y": 0.0714
+                        },
+                        "LeftMargin": 263.2976,
+                        "RightMargin": 252.7024,
+                        "TopMargin": 100.1506,
+                        "BottomMargin": 679.8494,
+                        "Tag": 101,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "event_page/ico_celendar.png",
+                              "Plist": "json/event_pack.plist"
+                            },
+                            "Scale9OriginX": 21,
+                            "Scale9OriginY": 20,
+                            "Scale9Width": 23,
+                            "Scale9Height": 23,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 16.7125,
+                              "Y": 29.3754
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0699,
+                              "Y": 0.4896
+                            },
+                            "PreSize": {
+                              "X": 0.272,
+                              "Y": 1.05
+                            },
+                            "LeftMargin": -15.7875,
+                            "RightMargin": 189.7875,
+                            "TopMargin": -0.8754,
+                            "BottomMargin": -2.1246,
+                            "Tag": 102,
+                            "ActionTag": 2108078898,
+                            "Size": {
+                              "X": 65.0,
+                              "Y": 63.0
+                            },
+                            "Name": "icon",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": -1831773943,
+                        "Size": {
+                          "X": 239.0,
+                          "Y": 60.0
+                        },
+                        "Name": "btn_checkin",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "DirectionType": "Vertical",
+                        "ScrollDirectionType": 0,
+                        "ClipAble": true,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 150
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 150
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5
+                        },
+                        "Position": {
+                          "X": 377.5,
+                          "Y": 8.9999
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.0107
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentHeightEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PercentHeightEnabled": true,
+                        "PreSize": {
+                          "X": 0.97,
+                          "Y": 0.75
+                        },
+                        "LeftMargin": 11.325,
+                        "RightMargin": 11.325,
+                        "TopMargin": 201.0001,
+                        "BottomMargin": 8.9999,
+                        "Tag": 103,
+                        "ActionTag": 1928328213,
+                        "Size": {
+                          "X": 732.35,
+                          "Y": 630.0
+                        },
+                        "Name": "list_view",
+                        "ctype": "ListViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 890443699,
+                    "Size": {
+                      "X": 755.0,
+                      "Y": 840.0
+                    },
+                    "Name": "banner_bot",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "event_page/bannertxt_3.png",
+                      "Plist": "json/event_pack.plist"
+                    },
+                    "Scale9OriginX": 254,
+                    "Scale9OriginY": 44,
+                    "Scale9Width": 263,
+                    "Scale9Height": 47,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 366.0,
+                      "Y": 796.66
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.653
+                    },
+                    "PreSize": {
+                      "X": 1.0533,
+                      "Y": 0.1107
+                    },
+                    "LeftMargin": -19.5,
+                    "RightMargin": -19.5,
+                    "TopMargin": 355.84,
+                    "BottomMargin": 729.16,
+                    "Tag": 104,
+                    "Children": [
+                      {
+                        "LabelText": "Fnt Text Label",
+                        "LabelBMFontFile_CNB": {
+                          "Type": "Normal",
+                          "Path": "font/UTMBienvenue_stroke_32-export.fnt",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 385.5,
+                          "Y": 67.5
+                        },
+                        "Scale": {
+                          "ScaleX": 0.7,
+                          "ScaleY": 0.7
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.3372,
+                          "Y": 0.2963
+                        },
+                        "LeftMargin": 255.5,
+                        "RightMargin": 255.5,
+                        "TopMargin": 47.5,
+                        "BottomMargin": 47.5,
+                        "Tag": 105,
+                        "ActionTag": 1159329465,
+                        "Size": {
+                          "X": 260.0,
+                          "Y": 40.0
+                        },
+                        "Name": "lbl",
+                        "ctype": "TextBMFontObjectData"
+                      }
+                    ],
+                    "ActionTag": 2128040028,
+                    "Size": {
+                      "X": 771.0,
+                      "Y": 135.0
+                    },
+                    "Name": "banner_txt",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "LabelText": "Fnt Text Label",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/UTMBienvenue_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 366.0,
+                      "Y": 705.77
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5785
+                    },
+                    "PreSize": {
+                      "X": 0.3552,
+                      "Y": 0.0328
+                    },
+                    "LeftMargin": 236.0,
+                    "RightMargin": 236.0,
+                    "TopMargin": 494.23,
+                    "BottomMargin": 685.77,
+                    "Tag": 106,
+                    "ActionTag": -1135232351,
+                    "Size": {
+                      "X": 260.0,
+                      "Y": 40.0
+                    },
+                    "Name": "lblRewards",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "event_page/pnl_trans.png",
+                      "Plist": "json/event_pack.plist"
+                    },
+                    "Scale9OriginX": 50,
+                    "Scale9OriginY": 62,
+                    "Scale9Width": 52,
+                    "Scale9Height": 66,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -100.2336,
+                      "Y": 122.1162
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": -0.1369,
+                      "Y": 0.1001
+                    },
+                    "PreSize": {
+                      "X": 0.2077,
+                      "Y": 0.1557
+                    },
+                    "LeftMargin": -176.2336,
+                    "RightMargin": 756.2336,
+                    "TopMargin": 1002.8838,
+                    "BottomMargin": 27.1162,
+                    "Tag": 107,
+                    "Children": [
+                      {
+                        "LabelText": "Day 1",
+                        "LabelBMFontFile_CNB": {
+                          "Type": "Normal",
+                          "Path": "font/UTMBienvenue_none_32-export.fnt",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 76.0,
+                          "Y": 170.6899
+                        },
+                        "Scale": {
+                          "ScaleX": 0.75,
+                          "ScaleY": 0.75
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.8984
+                        },
+                        "PreSize": {
+                          "X": 0.5197,
+                          "Y": 0.2105
+                        },
+                        "LeftMargin": 36.5,
+                        "RightMargin": 36.5,
+                        "TopMargin": -0.6899,
+                        "BottomMargin": 150.6899,
+                        "Tag": 108,
+                        "ActionTag": 1998379451,
+                        "Size": {
+                          "X": 79.0,
+                          "Y": 40.0
+                        },
+                        "Name": "title",
+                        "ctype": "TextBMFontObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "event_page/Unavailable.png",
+                          "Plist": "json/event_pack.plist"
+                        },
+                        "Scale9OriginX": 45,
+                        "Scale9OriginY": 47,
+                        "Scale9Width": 47,
+                        "Scale9Height": 50,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 75.3008,
+                          "Y": 79.135
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.4954,
+                          "Y": 0.4165
+                        },
+                        "PreSize": {
+                          "X": 0.9013,
+                          "Y": 0.7579
+                        },
+                        "LeftMargin": 6.8008,
+                        "RightMargin": 8.1992,
+                        "TopMargin": 38.865,
+                        "BottomMargin": 7.135,
+                        "Tag": 109,
+                        "ActionTag": -1080572637,
+                        "Size": {
+                          "X": 137.0,
+                          "Y": 144.0
+                        },
+                        "Name": "icon",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -1837470896,
+                    "Size": {
+                      "X": 152.0,
+                      "Y": 190.0
+                    },
+                    "Name": "item",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -1971630989,
+                "Size": {
+                  "X": 732.0,
+                  "Y": 1220.0
+                },
+                "Name": "content_event_3",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -574010834,
+            "Size": {
+              "X": 750.0,
+              "Y": 1334.0
+            },
+            "Name": "root",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 750.0,
+          "Y": 1334.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../event_page/banner_top_dailyevent_en.png",
+        "../../event_page/banner_top_firstpurchase.png",
+        "../../event_page/btn_craft.png",
+        "../../event_page/event_F_BG.png",
+        "../../event_page/ico_event_ice_cream_with_glow.png",
+        "../../event_page/pnl_summer_event.png",
+        "../../event_page/pnl_summer_event_bg.png",
+        "../../event_page/summer_event_banner.png",
+        "../../font/cam_stroke_32-export.fnt",
+        "../../font/cam_stroke_32-export.png",
+        "../../font/UTMBienvenue_none_32-export.fnt",
+        "../../font/UTMBienvenue_none_32-export.png",
+        "../../font/UTMBienvenue_stroke_32-export.fnt",
+        "../../font/UTMBienvenue_stroke_32-export.png",
+        "../button.plist",
+        "../button.png",
+        "../event_pack.plist",
+        "../event_pack.png",
+        "../patch9_1.plist",
+        "../patch9_1.png",
+        "../patch9_5.plist",
+        "../patch9_5.png",
+        "../patch9_8.plist",
+        "../patch9_8.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

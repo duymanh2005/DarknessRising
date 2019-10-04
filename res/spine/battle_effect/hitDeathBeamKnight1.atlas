@@ -1,0 +1,48 @@
+
+hitDeathBeamKnight.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fire light
+  rotate: false
+  xy: 166, 104
+  size: 137, 137
+  orig: 137, 137
+  offset: 0, 0
+  index: -1
+hit fx
+  rotate: false
+  xy: 166, 2
+  size: 111, 100
+  orig: 111, 100
+  offset: 0, 0
+  index: -1
+lighting bubble
+  rotate: false
+  xy: 2, 79
+  size: 162, 162
+  orig: 162, 162
+  offset: 0, 0
+  index: -1
+lighting circle
+  rotate: false
+  xy: 305, 104
+  size: 137, 137
+  orig: 137, 137
+  offset: 0, 0
+  index: -1
+meteor circle
+  rotate: true
+  xy: 444, 127
+  size: 114, 53
+  orig: 114, 53
+  offset: 0, 0
+  index: -1
+scratch round
+  rotate: true
+  xy: 2, 5
+  size: 72, 137
+  orig: 72, 137
+  offset: 0, 0
+  index: -1

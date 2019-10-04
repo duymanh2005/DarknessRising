@@ -1,0 +1,524 @@
+
+SacredFireFighter.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm L
+  rotate: true
+  xy: 851, 305
+  size: 62, 75
+  orig: 62, 75
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: false
+  xy: 777, 82
+  size: 64, 74
+  orig: 64, 74
+  offset: 0, 0
+  index: -1
+belt
+  rotate: true
+  xy: 770, 281
+  size: 61, 40
+  orig: 61, 40
+  offset: 0, 0
+  index: -1
+boot L
+  rotate: true
+  xy: 958, 273
+  size: 27, 48
+  orig: 27, 48
+  offset: 0, 0
+  index: -1
+boot R
+  rotate: true
+  xy: 811, 763
+  size: 35, 40
+  orig: 35, 40
+  offset: 0, 0
+  index: -1
+cape/cape 1
+  rotate: true
+  xy: 344, 390
+  size: 178, 215
+  orig: 178, 215
+  offset: 0, 0
+  index: -1
+cape/cape 2
+  rotate: false
+  xy: 677, 800
+  size: 241, 222
+  orig: 241, 222
+  offset: 0, 0
+  index: -1
+cape/cape 3
+  rotate: false
+  xy: 2, 392
+  size: 340, 284
+  orig: 340, 284
+  offset: 0, 0
+  index: -1
+cape/gear 1
+  rotate: false
+  xy: 347, 570
+  size: 256, 191
+  orig: 256, 191
+  offset: 0, 0
+  index: -1
+cape/gear 2
+  rotate: false
+  xy: 2, 160
+  size: 328, 230
+  orig: 328, 230
+  offset: 0, 0
+  index: -1
+cape/gear 3
+  rotate: false
+  xy: 347, 763
+  size: 328, 259
+  orig: 328, 259
+  offset: 0, 0
+  index: -1
+cape/infinity stone
+  rotate: true
+  xy: 605, 560
+  size: 34, 141
+  orig: 34, 141
+  offset: 0, 0
+  index: -1
+effect/body fx
+  rotate: false
+  xy: 895, 76
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+effect/fist 1
+  rotate: false
+  xy: 804, 235
+  size: 50, 22
+  orig: 50, 22
+  offset: 0, 0
+  index: -1
+effect/fist 2
+  rotate: false
+  xy: 856, 235
+  size: 50, 22
+  orig: 50, 22
+  offset: 0, 0
+  index: -1
+effect/fist 3
+  rotate: false
+  xy: 843, 79
+  size: 50, 22
+  orig: 50, 22
+  offset: 0, 0
+  index: -1
+effect/fist 4
+  rotate: false
+  xy: 908, 246
+  size: 50, 22
+  orig: 50, 22
+  offset: 0, 0
+  index: -1
+effect/fist a
+  rotate: true
+  xy: 928, 306
+  size: 58, 33
+  orig: 58, 33
+  offset: 0, 0
+  index: -1
+effect/fist b
+  rotate: false
+  xy: 963, 302
+  size: 58, 33
+  orig: 58, 33
+  offset: 0, 0
+  index: -1
+effect/fist c
+  rotate: true
+  xy: 895, 108
+  size: 58, 33
+  orig: 58, 33
+  offset: 0, 0
+  index: -1
+effect/fist d
+  rotate: false
+  xy: 898, 270
+  size: 58, 33
+  orig: 58, 33
+  offset: 0, 0
+  index: -1
+effect/light fx
+  rotate: false
+  xy: 920, 780
+  size: 102, 242
+  orig: 102, 242
+  offset: 0, 0
+  index: -1
+effect/magic circl LV3-3
+  rotate: false
+  xy: 497, 72
+  size: 133, 138
+  orig: 133, 138
+  offset: 0, 0
+  index: -1
+eyes attack
+  rotate: true
+  xy: 777, 158
+  size: 75, 61
+  orig: 75, 61
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: true
+  xy: 969, 337
+  size: 62, 53
+  orig: 62, 53
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 812, 259
+  size: 84, 44
+  orig: 84, 44
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: true
+  xy: 969, 401
+  size: 75, 53
+  orig: 75, 53
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 736, 449
+  size: 92, 106
+  orig: 92, 106
+  offset: 0, 0
+  index: -1
+fire chasm
+  rotate: true
+  xy: 195, 10
+  size: 148, 165
+  orig: 148, 165
+  offset: 0, 0
+  index: -1
+fire chasm glow
+  rotate: false
+  xy: 605, 596
+  size: 148, 165
+  orig: 148, 165
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 1002, 531
+  size: 31, 20
+  orig: 31, 20
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 1002, 503
+  size: 20, 26
+  orig: 20, 26
+  offset: 0, 0
+  index: -1
+gaunlet L back
+  rotate: false
+  xy: 830, 455
+  size: 86, 100
+  orig: 86, 100
+  offset: 0, 0
+  index: -1
+gaunlet L back 3
+  rotate: true
+  xy: 894, 564
+  size: 116, 124
+  orig: 116, 124
+  offset: 0, 0
+  index: -1
+gaunlet L front
+  rotate: false
+  xy: 918, 478
+  size: 82, 84
+  orig: 82, 84
+  offset: 0, 0
+  index: -1
+gaunlet L front 2
+  rotate: false
+  xy: 851, 369
+  size: 82, 84
+  orig: 82, 84
+  offset: 0, 0
+  index: -1
+gaunlet L front 3
+  rotate: false
+  xy: 574, 313
+  size: 112, 109
+  orig: 112, 109
+  offset: 0, 0
+  index: -1
+gaunlet R
+  rotate: false
+  xy: 2, 2
+  size: 98, 156
+  orig: 98, 156
+  offset: 0, 0
+  index: -1
+gaunlet R 2
+  rotate: false
+  xy: 461, 212
+  size: 111, 176
+  orig: 111, 176
+  offset: 0, 0
+  index: -1
+gaunlet R 3
+  rotate: false
+  xy: 332, 201
+  size: 127, 187
+  orig: 127, 187
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 678
+  size: 343, 344
+  orig: 343, 344
+  offset: 0, 0
+  index: -1
+helmet
+  rotate: false
+  xy: 362, 55
+  size: 133, 144
+  orig: 133, 144
+  offset: 0, 0
+  index: -1
+leg L
+  rotate: false
+  xy: 636, 30
+  size: 49, 40
+  orig: 49, 40
+  offset: 0, 0
+  index: -1
+leg R
+  rotate: false
+  xy: 756, 235
+  size: 46, 44
+  orig: 46, 44
+  offset: 0, 0
+  index: -1
+light column
+  rotate: false
+  xy: 102, 2
+  size: 91, 156
+  orig: 91, 156
+  offset: 0, 0
+  index: -1
+light wall
+  rotate: false
+  xy: 894, 682
+  size: 128, 96
+  orig: 128, 96
+  offset: 0, 0
+  index: -1
+lighting circle
+  rotate: false
+  xy: 755, 624
+  size: 137, 137
+  orig: 137, 137
+  offset: 0, 0
+  index: -1
+mana shield
+  rotate: false
+  xy: 600, 424
+  size: 134, 134
+  orig: 134, 134
+  offset: 0, 0
+  index: -1
+rock1
+  rotate: true
+  xy: 960, 246
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+rock2
+  rotate: true
+  xy: 632, 2
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+rock3
+  rotate: false
+  xy: 332, 170
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+rock4
+  rotate: true
+  xy: 706, 71
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 853, 788
+  size: 51, 10
+  orig: 51, 10
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 840, 168
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 681, 225
+  size: 73, 66
+  orig: 73, 66
+  offset: 0, 0
+  index: -1
+silk
+  rotate: false
+  xy: 843, 103
+  size: 50, 63
+  orig: 50, 63
+  offset: 0, 0
+  index: -1
+smoke/ground smoke 1
+  rotate: true
+  xy: 740, 104
+  size: 119, 35
+  orig: 119, 35
+  offset: 0, 0
+  index: -1
+smoke/ground smoke 2
+  rotate: true
+  xy: 730, 293
+  size: 129, 38
+  orig: 129, 38
+  offset: 0, 0
+  index: -1
+smoke/ground smoke 3
+  rotate: true
+  xy: 632, 72
+  size: 138, 38
+  orig: 138, 38
+  offset: 0, 0
+  index: -1
+smoke/ground smoke 4
+  rotate: true
+  xy: 815, 339
+  size: 108, 34
+  orig: 108, 34
+  offset: 0, 0
+  index: -1
+smoke/ground smoke 5
+  rotate: false
+  xy: 677, 763
+  size: 132, 35
+  orig: 132, 35
+  offset: 0, 0
+  index: -1
+smoke/ground smoke 6
+  rotate: true
+  xy: 688, 293
+  size: 129, 40
+  orig: 129, 40
+  offset: 0, 0
+  index: -1
+smoke/ground smoke 7
+  rotate: true
+  xy: 706, 100
+  size: 123, 32
+  orig: 123, 32
+  offset: 0, 0
+  index: -1
+smoke/ground smoke 8
+  rotate: true
+  xy: 935, 366
+  size: 110, 32
+  orig: 110, 32
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back 1
+  rotate: false
+  xy: 362, 8
+  size: 135, 45
+  orig: 135, 45
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back 2
+  rotate: true
+  xy: 770, 344
+  size: 103, 43
+  orig: 103, 43
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back 3
+  rotate: false
+  xy: 748, 557
+  size: 135, 30
+  orig: 135, 30
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back 4
+  rotate: true
+  xy: 672, 75
+  size: 135, 32
+  orig: 135, 32
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back 5
+  rotate: false
+  xy: 499, 3
+  size: 131, 28
+  orig: 131, 28
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back 6
+  rotate: false
+  xy: 755, 589
+  size: 136, 33
+  orig: 136, 33
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back 7
+  rotate: true
+  xy: 561, 427
+  size: 141, 37
+  orig: 141, 37
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back 8
+  rotate: false
+  xy: 499, 33
+  size: 135, 37
+  orig: 135, 37
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 574, 212
+  size: 99, 105
+  orig: 99, 105
+  offset: 0, 0
+  index: -1
+waist armor L
+  rotate: true
+  xy: 812, 305
+  size: 32, 37
+  orig: 32, 37
+  offset: 0, 0
+  index: -1

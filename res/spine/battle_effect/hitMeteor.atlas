@@ -1,0 +1,111 @@
+
+hitMeteor.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/light fx
+  rotate: true
+  xy: 2, 24
+  size: 102, 280
+  orig: 102, 280
+  offset: 0, 0
+  index: -1
+fire ring circle spiral/fire ring circle spiral
+  rotate: false
+  xy: 411, 96
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 1
+  rotate: false
+  xy: 390, 2
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 10
+  rotate: true
+  xy: 203, 3
+  size: 19, 34
+  orig: 19, 34
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 11
+  rotate: true
+  xy: 165, 3
+  size: 19, 36
+  orig: 19, 36
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 12
+  rotate: true
+  xy: 126, 3
+  size: 19, 37
+  orig: 19, 37
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 2
+  rotate: true
+  xy: 45, 2
+  size: 20, 36
+  orig: 20, 36
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 3
+  rotate: true
+  xy: 443, 107
+  size: 19, 39
+  orig: 19, 39
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 4
+  rotate: true
+  xy: 83, 3
+  size: 19, 41
+  orig: 19, 41
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 5
+  rotate: false
+  xy: 390, 84
+  size: 19, 42
+  orig: 19, 42
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 6
+  rotate: false
+  xy: 390, 42
+  size: 19, 40
+  orig: 19, 40
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 7
+  rotate: false
+  xy: 411, 54
+  size: 19, 40
+  orig: 19, 40
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 8
+  rotate: true
+  xy: 2, 2
+  size: 20, 41
+  orig: 20, 41
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 9
+  rotate: false
+  xy: 411, 16
+  size: 19, 36
+  orig: 19, 36
+  offset: 0, 0
+  index: -1
+fireball meteor/fireball
+  rotate: false
+  xy: 284, 22
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1

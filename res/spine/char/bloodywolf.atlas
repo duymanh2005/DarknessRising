@@ -1,0 +1,181 @@
+
+bloodywolf.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body low
+  rotate: false
+  xy: 766, 164
+  size: 88, 69
+  orig: 88, 69
+  offset: 0, 0
+  index: -1
+body up
+  rotate: false
+  xy: 630, 160
+  size: 134, 152
+  orig: 134, 152
+  offset: 0, 0
+  index: -1
+eye 2
+  rotate: false
+  xy: 689, 19
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+eye 3
+  rotate: true
+  xy: 636, 4
+  size: 48, 51
+  orig: 48, 51
+  offset: 0, 0
+  index: -1
+eyes stun
+  rotate: false
+  xy: 636, 54
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+fly line
+  rotate: false
+  xy: 462, 137
+  size: 166, 175
+  orig: 166, 175
+  offset: 0, 0
+  index: -1
+foot RF
+  rotate: true
+  xy: 998, 484
+  size: 26, 18
+  orig: 26, 18
+  offset: 0, 0
+  index: -1
+gloriole
+  rotate: false
+  xy: 660, 343
+  size: 167, 167
+  orig: 167, 167
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 51
+  size: 458, 459
+  orig: 458, 459
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 462, 4
+  size: 172, 131
+  orig: 172, 131
+  offset: 0, 0
+  index: -1
+horn
+  rotate: true
+  xy: 267, 2
+  size: 47, 54
+  orig: 47, 54
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: true
+  xy: 766, 235
+  size: 68, 55
+  orig: 68, 55
+  offset: 0, 0
+  index: -1
+leg RB cen
+  rotate: true
+  xy: 856, 164
+  size: 46, 26
+  orig: 46, 26
+  offset: 0, 0
+  index: -1
+leg RB up
+  rotate: true
+  xy: 323, 7
+  size: 42, 57
+  orig: 42, 57
+  offset: 0, 0
+  index: -1
+leg RF cen
+  rotate: true
+  xy: 382, 4
+  size: 45, 53
+  orig: 45, 53
+  offset: 0, 0
+  index: -1
+leg RF low
+  rotate: true
+  xy: 766, 305
+  size: 36, 61
+  orig: 36, 61
+  offset: 0, 0
+  index: -1
+ray
+  rotate: true
+  xy: 2, 4
+  size: 45, 263
+  orig: 45, 263
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 462, 314
+  size: 196, 196
+  orig: 196, 196
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: true
+  xy: 813, 25
+  size: 54, 63
+  orig: 54, 63
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 813, 81
+  size: 66, 81
+  orig: 66, 81
+  offset: 0, 0
+  index: -1
+star1
+  rotate: true
+  xy: 823, 235
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 856, 212
+  size: 60, 54
+  orig: 60, 54
+  offset: 0, 0
+  index: -1
+teeth on
+  rotate: false
+  xy: 829, 268
+  size: 182, 103
+  orig: 182, 103
+  offset: 0, 0
+  index: -1
+teeth under
+  rotate: true
+  xy: 742, 45
+  size: 113, 69
+  orig: 113, 69
+  offset: 0, 0
+  index: -1
+up fx
+  rotate: false
+  xy: 829, 373
+  size: 167, 137
+  orig: 167, 137
+  offset: 0, 0
+  index: -1

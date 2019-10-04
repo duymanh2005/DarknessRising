@@ -1,0 +1,242 @@
+/**
+ * Created by longnguyen on 12/23/2016.
+ *
+ */
+
+
+/*center dialog*/
+body {
+    height: 500px;
+    width: 200px;
+}
+
+.modal {
+    text-align: center;
+    padding: 0!important;
+}
+
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.nav-tab-no-border {
+    border-bottom : 0px;
+}
+
+.li-custom {
+    width: 50%;
+    height: 100%;
+}
+
+
+/* */
+
+.modal-body.no-margin-padding-border {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px !important;
+    border: none;
+}
+
+.modal-login {
+    max-width: 99%;
+    margin: 0 auto;
+}
+
+.modal-content-info {
+    display: table;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+.login-register-form-section {
+    max-width: 94%;
+    margin: 0 auto;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.login-register-form-section i {
+    width: 10px;
+}
+
+.login-register-form-section .nav-tabs>li>a {
+    color: #c00000;
+}
+
+.login-register-form-section .nav-tabs>li.active>a {
+    background-color: #c00000;
+    border-color: #c00000;
+    color: white;
+}
+
+.login-register-form-section .nav-tabs>li>a, .login-register-form-section .nav-tabs>li.active>a {
+    min-width: 0px;
+    text-align: center;
+    border-radius: 0;
+}
+
+.login-register-form-section .form-group {
+    max-width: 100%;
+    margin-left: 0px;
+}
+
+.login-register-form-section .btn-custom {
+    width: 44%;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #c00000;
+    border-color: #c00000;
+    margin-bottom: 0.5em;
+    border-radius: 0;
+    height: 45px;
+}
+
+.login-register-form-section .btn-custom:hover {
+    width: 44%;
+    background-color: #b00000;
+    border-color: #c00000;
+}
+
+.login-register-form-section .btn-custom-large {
+    @extends .btn-custom;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.login-register-form-section .btn-custom-large:hover {
+    @extends .btn-custom: hover;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.login-register-form-section .btn-custom-green {
+    @extends .btn-custom;
+    background-color: #00c000;
+    border-color: #00c000;
+}
+
+.login-register-form-section .btn-custom-green:hover {
+    @extends .btn-custom: hover;
+    background-color: #00b000;
+    border-color: #00c000;
+}
+
+.login-register-form-section .btn-custom-facebook {
+@extends .btn-custom;
+    background-color: #4060A5;
+    border-color: #4060A5;
+}
+
+.login-register-form-section .btn-custom-facebook:hover {
+@extends .btn-custom: hover;
+    background-color: #4050A5;
+    border-color: #4050A5;
+}
+
+.modal-backdrop {
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.modal-backdrop.in {
+    opacity: .7;
+}
+
+.flag {
+    width: 25px;
+    height: 15px;
+    display: inline-block;
+    background: url("../img/flags.png") no-repeat;
+}
+
+.flag.flag-vn {
+    background-position: -25px 0px;
+}
+
+.flag.flag-gb {
+    background-position: 0px 0px;
+}
+
+.panel {
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.075);
+    border-radius: 0;
+    border: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+.scale-width-with-parent {
+    display: table-cell;
+    width: 1%;
+}
+
+.widget-header {
+    min-height: 125px;
+    background-color: #c00000;
+    position: relative;
+    overflow: hidden;
+}
+
+.panel .panel-footer, .panel>:last-child {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.widget-body {
+    padding: 50px 15px 15px;
+    position: relative;
+}
+
+.panel-body {
+    padding: 25px 20px;
+}
+
+.pad-all {
+    padding: 15px;
+}
+
+.widget-img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 50%;
+    margin-left: -32px;
+    top: -32px;
+}
+
+.img-md {
+    width: 64px;
+    height: 64px;
+}
+
+.widget-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.img-border-light {
+    box-shadow: 0 0 0 4px #fff;
+}
+
+.img-border {
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1);
+}

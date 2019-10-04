@@ -1,0 +1,419 @@
+
+zaikan.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Unicorn Staff
+  rotate: false
+  xy: 462, 927
+  size: 429, 95
+  orig: 429, 95
+  offset: 0, 0
+  index: -1
+Unicorn Staff glow
+  rotate: true
+  xy: 2, 62
+  size: 499, 177
+  orig: 499, 177
+  offset: 0, 0
+  index: -1
+Unicorn Staff head
+  rotate: false
+  xy: 181, 384
+  size: 260, 177
+  orig: 260, 177
+  offset: 0, 0
+  index: -1
+arm low L
+  rotate: false
+  xy: 985, 721
+  size: 86, 121
+  orig: 86, 121
+  offset: 0, 0
+  index: -1
+arm low R
+  rotate: true
+  xy: 1859, 918
+  size: 104, 136
+  orig: 104, 136
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: false
+  xy: 1250, 748
+  size: 95, 102
+  orig: 95, 102
+  offset: 0, 0
+  index: -1
+armor leg L
+  rotate: true
+  xy: 380, 346
+  size: 36, 42
+  orig: 36, 42
+  offset: 0, 0
+  index: -1
+armor leg R
+  rotate: false
+  xy: 1187, 690
+  size: 40, 49
+  orig: 40, 49
+  offset: 0, 0
+  index: -1
+body low
+  rotate: true
+  xy: 1145, 682
+  size: 55, 40
+  orig: 55, 40
+  offset: 0, 0
+  index: -1
+body up
+  rotate: false
+  xy: 462, 544
+  size: 197, 163
+  orig: 197, 163
+  offset: 0, 0
+  index: -1
+explosion beam1
+  rotate: false
+  xy: 871, 433
+  size: 61, 76
+  orig: 61, 76
+  offset: 0, 0
+  index: -1
+explosion beam2
+  rotate: true
+  xy: 879, 652
+  size: 84, 97
+  orig: 84, 97
+  offset: 0, 0
+  index: -1
+explosion beam3
+  rotate: false
+  xy: 1073, 739
+  size: 101, 106
+  orig: 101, 106
+  offset: 0, 0
+  index: -1
+explosion beam4
+  rotate: false
+  xy: 637, 224
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+explosion beam5
+  rotate: false
+  xy: 441, 64
+  size: 112, 96
+  orig: 112, 96
+  offset: 0, 0
+  index: -1
+explosion beam6
+  rotate: true
+  xy: 751, 222
+  size: 112, 81
+  orig: 112, 81
+  offset: 0, 0
+  index: -1
+eye 3
+  rotate: false
+  xy: 564, 162
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+eyes 2
+  rotate: true
+  xy: 301, 39
+  size: 23, 16
+  orig: 23, 16
+  offset: 0, 0
+  index: -1
+eyes stun
+  rotate: false
+  xy: 879, 738
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+fire chasm
+  rotate: false
+  xy: 181, 162
+  size: 197, 220
+  orig: 197, 220
+  offset: 0, 0
+  index: -1
+fire chasm glow
+  rotate: false
+  xy: 680, 705
+  size: 197, 220
+  orig: 197, 220
+  offset: 0, 0
+  index: -1
+fire light
+  rotate: false
+  xy: 380, 162
+  size: 182, 182
+  orig: 182, 182
+  offset: 0, 0
+  index: -1
+fly line
+  rotate: false
+  xy: 1073, 847
+  size: 166, 175
+  orig: 166, 175
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 424, 346
+  size: 36, 17
+  orig: 36, 17
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 555, 140
+  size: 24, 20
+  orig: 24, 20
+  offset: 0, 0
+  index: -1
+gem AR
+  rotate: true
+  xy: 860, 511
+  size: 51, 75
+  orig: 51, 75
+  offset: 0, 0
+  index: -1
+gem BU
+  rotate: false
+  xy: 244, 8
+  size: 55, 54
+  orig: 55, 54
+  offset: 0, 0
+  index: -1
+gem H
+  rotate: true
+  xy: 186, 2
+  size: 60, 56
+  orig: 60, 56
+  offset: 0, 0
+  index: -1
+gem LL
+  rotate: false
+  xy: 1347, 805
+  size: 31, 45
+  orig: 31, 45
+  offset: 0, 0
+  index: -1
+gem LR
+  rotate: true
+  xy: 830, 343
+  size: 33, 41
+  orig: 33, 41
+  offset: 0, 0
+  index: -1
+gem SL
+  rotate: true
+  xy: 181, 64
+  size: 96, 136
+  orig: 96, 136
+  offset: 0, 0
+  index: -1
+gem SR
+  rotate: false
+  xy: 1583, 892
+  size: 134, 130
+  orig: 134, 130
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 563
+  size: 458, 459
+  orig: 458, 459
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 1074, 667
+  size: 69, 70
+  orig: 69, 70
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 860, 564
+  size: 84, 86
+  orig: 84, 86
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 1719, 906
+  size: 116, 138
+  orig: 116, 138
+  offset: 0, 0
+  index: -1
+leg low L
+  rotate: false
+  xy: 946, 593
+  size: 41, 57
+  orig: 41, 57
+  offset: 0, 0
+  index: -1
+leg low R
+  rotate: true
+  xy: 871, 389
+  size: 42, 59
+  orig: 42, 59
+  offset: 0, 0
+  index: -1
+leg up L
+  rotate: false
+  xy: 989, 606
+  size: 50, 47
+  orig: 50, 47
+  offset: 0, 0
+  index: -1
+leg up R
+  rotate: false
+  xy: 141, 2
+  size: 43, 58
+  orig: 43, 58
+  offset: 0, 0
+  index: -1
+light wall
+  rotate: false
+  xy: 1241, 893
+  size: 170, 129
+  orig: 170, 129
+  offset: 0, 0
+  index: -1
+lighting bubble
+  rotate: false
+  xy: 462, 709
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+magic circle LV5-9
+  rotate: false
+  xy: 661, 506
+  size: 197, 197
+  orig: 197, 197
+  offset: 0, 0
+  index: -1
+mana shield
+  rotate: false
+  xy: 893, 844
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+meteor circle
+  rotate: true
+  xy: 564, 192
+  size: 152, 71
+  orig: 152, 71
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 443, 346
+  size: 196, 196
+  orig: 196, 196
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: true
+  xy: 1413, 901
+  size: 121, 168
+  orig: 121, 168
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 641, 336
+  size: 187, 168
+  orig: 187, 168
+  offset: 0, 0
+  index: -1
+shoulder back L
+  rotate: true
+  xy: 978, 655
+  size: 64, 94
+  orig: 64, 94
+  offset: 0, 0
+  index: -1
+shoulder lock L
+  rotate: false
+  xy: 1369, 852
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: -1
+shoulder lock R
+  rotate: false
+  xy: 1369, 852
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: -1
+spark smash1
+  rotate: false
+  xy: 637, 194
+  size: 93, 28
+  orig: 93, 28
+  offset: 0, 0
+  index: -1
+spark smash2
+  rotate: true
+  xy: 1997, 908
+  size: 114, 41
+  orig: 114, 41
+  offset: 0, 0
+  index: -1
+spark smash3
+  rotate: false
+  xy: 2, 13
+  size: 137, 47
+  orig: 137, 47
+  offset: 0, 0
+  index: -1
+spark smash4
+  rotate: false
+  xy: 1241, 852
+  size: 126, 39
+  orig: 126, 39
+  offset: 0, 0
+  index: -1
+spark smash5
+  rotate: true
+  xy: 830, 378
+  size: 126, 39
+  orig: 126, 39
+  offset: 0, 0
+  index: -1
+star1
+  rotate: false
+  xy: 1041, 623
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 319, 58
+  size: 102, 120
+  orig: 102, 120
+  offset: 0, 0
+  index: -1
+up
+  rotate: true
+  xy: 1176, 741
+  size: 104, 72
+  orig: 104, 72
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,160 @@
+
+eliterabbit.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm L
+  rotate: true
+  xy: 1905, 183
+  size: 69, 86
+  orig: 69, 86
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: true
+  xy: 1814, 181
+  size: 71, 89
+  orig: 71, 89
+  offset: 0, 0
+  index: -1
+arrow_fx_d
+  rotate: false
+  xy: 446, 16
+  size: 67, 67
+  orig: 67, 67
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 813, 83
+  size: 174, 169
+  orig: 174, 169
+  offset: 0, 0
+  index: -1
+bow
+  rotate: false
+  xy: 111, 4
+  size: 73, 42
+  orig: 73, 42
+  offset: 0, 0
+  index: -1
+carrot lance
+  rotate: true
+  xy: 562, 158
+  size: 94, 249
+  orig: 94, 249
+  offset: 0, 0
+  index: -1
+carrot lance holder
+  rotate: false
+  xy: 1295, 149
+  size: 151, 103
+  orig: 151, 103
+  offset: 0, 0
+  index: -1
+circle fx
+  rotate: false
+  xy: 1448, 140
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ear L
+  rotate: true
+  xy: 1562, 195
+  size: 57, 136
+  orig: 57, 136
+  offset: 0, 0
+  index: -1
+ear R
+  rotate: false
+  xy: 1141, 119
+  size: 152, 133
+  orig: 152, 133
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 1700, 193
+  size: 112, 59
+  orig: 112, 59
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: false
+  xy: 562, 98
+  size: 89, 9
+  orig: 89, 9
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 1562, 154
+  size: 98, 39
+  orig: 98, 39
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 1993, 187
+  size: 65, 41
+  orig: 65, 41
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: true
+  xy: 515, 26
+  size: 57, 43
+  orig: 57, 43
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 371, 85
+  size: 189, 167
+  orig: 189, 167
+  offset: 0, 0
+  index: -1
+light fx
+  rotate: true
+  xy: 2, 48
+  size: 204, 367
+  orig: 204, 367
+  offset: 0, 0
+  index: -1
+magic ring
+  rotate: false
+  xy: 989, 102
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+mouth  2
+  rotate: true
+  xy: 2, 2
+  size: 44, 107
+  orig: 44, 107
+  offset: 0, 0
+  index: -1
+mouth 1
+  rotate: false
+  xy: 186, 16
+  size: 47, 30
+  orig: 47, 30
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 562, 109
+  size: 245, 47
+  orig: 245, 47
+  offset: 0, 0
+  index: -1
+tail
+  rotate: true
+  xy: 371, 12
+  size: 71, 73
+  orig: 71, 73
+  offset: 0, 0
+  index: -1

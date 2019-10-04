@@ -1,0 +1,384 @@
+
+statueofglory.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+archangel_sword
+  rotate: false
+  xy: 333, 241
+  size: 159, 378
+  orig: 159, 378
+  offset: 0, 0
+  index: -1
+archangel_sword_front
+  rotate: false
+  xy: 711, 644
+  size: 159, 378
+  orig: 159, 378
+  offset: 0, 0
+  index: -1
+archangel_sword_front_glow
+  rotate: false
+  xy: 333, 621
+  size: 187, 401
+  orig: 187, 401
+  offset: 0, 0
+  index: -1
+archangel_sword_glow
+  rotate: false
+  xy: 522, 621
+  size: 187, 401
+  orig: 187, 401
+  offset: 0, 0
+  index: -1
+arms_a
+  rotate: true
+  xy: 1142, 28
+  size: 214, 90
+  orig: 214, 90
+  offset: 0, 0
+  index: -1
+arms_a_glow
+  rotate: false
+  xy: 774, 300
+  size: 239, 118
+  orig: 239, 118
+  offset: 0, 0
+  index: -1
+arms_b
+  rotate: true
+  xy: 1234, 34
+  size: 214, 90
+  orig: 214, 90
+  offset: 0, 0
+  index: -1
+arms_b_glow
+  rotate: false
+  xy: 718, 180
+  size: 239, 118
+  orig: 239, 118
+  offset: 0, 0
+  index: -1
+arms_c
+  rotate: true
+  xy: 1326, 34
+  size: 214, 90
+  orig: 214, 90
+  offset: 0, 0
+  index: -1
+arms_c_glow
+  rotate: false
+  xy: 718, 60
+  size: 239, 118
+  orig: 239, 118
+  offset: 0, 0
+  index: -1
+bg light
+  rotate: false
+  xy: 872, 775
+  size: 247, 247
+  orig: 247, 247
+  offset: 0, 0
+  index: -1
+body_a
+  rotate: false
+  xy: 181, 582
+  size: 150, 440
+  orig: 150, 440
+  offset: 0, 0
+  index: -1
+body_a_glow
+  rotate: false
+  xy: 2, 559
+  size: 177, 463
+  orig: 177, 463
+  offset: 0, 0
+  index: -1
+body_b
+  rotate: false
+  xy: 181, 150
+  size: 150, 430
+  orig: 150, 430
+  offset: 0, 0
+  index: -1
+body_b_glow
+  rotate: false
+  xy: 2, 103
+  size: 177, 454
+  orig: 177, 454
+  offset: 0, 0
+  index: -1
+body_c
+  rotate: true
+  xy: 872, 634
+  size: 139, 320
+  orig: 139, 320
+  offset: 0, 0
+  index: -1
+body_c_glow
+  rotate: false
+  xy: 494, 277
+  size: 167, 342
+  orig: 167, 342
+  offset: 0, 0
+  index: -1
+broken
+  rotate: false
+  xy: 959, 57
+  size: 43, 241
+  orig: 43, 241
+  offset: 0, 0
+  index: -1
+bs sword_glow
+  rotate: false
+  xy: 663, 341
+  size: 109, 278
+  orig: 109, 278
+  offset: 0, 0
+  index: -1
+explosion1
+  rotate: false
+  xy: 1015, 244
+  size: 190, 154
+  orig: 190, 154
+  offset: 0, 0
+  index: -1
+explosion2
+  rotate: true
+  xy: 1017, 400
+  size: 232, 199
+  orig: 232, 199
+  offset: 0, 0
+  index: -1
+explosion3
+  rotate: false
+  xy: 774, 420
+  size: 241, 212
+  orig: 241, 212
+  offset: 0, 0
+  index: -1
+explosion4
+  rotate: false
+  xy: 1368, 795
+  size: 251, 227
+  orig: 251, 227
+  offset: 0, 0
+  index: -1
+explosion5
+  rotate: true
+  xy: 1868, 780
+  size: 242, 177
+  orig: 242, 177
+  offset: 0, 0
+  index: -1
+explosion6
+  rotate: false
+  xy: 1621, 804
+  size: 245, 218
+  orig: 245, 218
+  offset: 0, 0
+  index: -1
+explosion7
+  rotate: false
+  xy: 1385, 444
+  size: 216, 144
+  orig: 216, 144
+  offset: 0, 0
+  index: -1
+explosion8
+  rotate: false
+  xy: 1194, 635
+  size: 203, 140
+  orig: 203, 140
+  offset: 0, 0
+  index: -1
+explosion9
+  rotate: false
+  xy: 1765, 535
+  size: 123, 118
+  orig: 123, 118
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: true
+  xy: 664, 15
+  size: 61, 36
+  orig: 61, 36
+  offset: 0, 0
+  index: -1
+flash
+  rotate: false
+  xy: 1399, 590
+  size: 203, 203
+  orig: 203, 203
+  offset: 0, 0
+  index: -1
+gem
+  rotate: false
+  xy: 432, 44
+  size: 50, 117
+  orig: 50, 117
+  offset: 0, 0
+  index: -1
+gem_glow
+  rotate: true
+  xy: 333, 163
+  size: 76, 141
+  orig: 76, 141
+  offset: 0, 0
+  index: -1
+glance light
+  rotate: false
+  xy: 1573, 304
+  size: 28, 138
+  orig: 28, 138
+  offset: 0, 0
+  index: -1
+glance light2
+  rotate: true
+  xy: 2, 6
+  size: 28, 138
+  orig: 28, 138
+  offset: 0, 0
+  index: -1
+gloriole
+  rotate: false
+  xy: 1740, 296
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 1624, 659
+  size: 143, 143
+  orig: 143, 143
+  offset: 0, 0
+  index: -1
+light wall
+  rotate: true
+  xy: 2, 36
+  size: 65, 160
+  orig: 65, 160
+  offset: 0, 0
+  index: -1
+lighting bubble
+  rotate: false
+  xy: 1603, 381
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+lighting bubble2
+  rotate: false
+  xy: 1603, 244
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+lighting circle
+  rotate: false
+  xy: 1890, 539
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+lighting circle2
+  rotate: false
+  xy: 1740, 402
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+magic circle
+  rotate: true
+  xy: 1858, 655
+  size: 123, 124
+  orig: 123, 124
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1121, 777
+  size: 245, 245
+  orig: 245, 245
+  offset: 0, 0
+  index: -1
+shoulders_a
+  rotate: true
+  xy: 181, 2
+  size: 146, 249
+  orig: 146, 249
+  offset: 0, 0
+  index: -1
+shoulders_a_glow
+  rotate: false
+  xy: 494, 2
+  size: 168, 273
+  orig: 168, 273
+  offset: 0, 0
+  index: -1
+shoulders_b
+  rotate: true
+  xy: 1207, 250
+  size: 143, 217
+  orig: 143, 217
+  offset: 0, 0
+  index: -1
+shoulders_b_glow
+  rotate: false
+  xy: 1218, 395
+  size: 165, 238
+  orig: 165, 238
+  offset: 0, 0
+  index: -1
+shoulders_c
+  rotate: false
+  xy: 1004, 73
+  size: 136, 169
+  orig: 136, 169
+  offset: 0, 0
+  index: -1
+shoulders_c_glow
+  rotate: false
+  xy: 1426, 273
+  size: 145, 169
+  orig: 145, 169
+  offset: 0, 0
+  index: -1
+shoulders_lock
+  rotate: false
+  xy: 1984, 716
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+shoulders_lock_glow
+  rotate: false
+  xy: 1769, 715
+  size: 87, 87
+  orig: 87, 87
+  offset: 0, 0
+  index: -1
+spark light fx
+  rotate: false
+  xy: 1604, 587
+  size: 18, 206
+  orig: 18, 206
+  offset: 0, 0
+  index: -1
+tail light
+  rotate: false
+  xy: 664, 78
+  size: 52, 261
+  orig: 52, 261
+  offset: 0, 0
+  index: -1
+vortex
+  rotate: false
+  xy: 1624, 518
+  size: 139, 139
+  orig: 139, 139
+  offset: 0, 0
+  index: -1

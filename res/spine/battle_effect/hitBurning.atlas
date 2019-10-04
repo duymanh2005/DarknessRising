@@ -1,0 +1,90 @@
+
+hitBurning.png
+size: 1024,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fire 1
+  rotate: true
+  xy: 338, 4
+  size: 25, 51
+  orig: 25, 51
+  offset: 0, 0
+  index: -1
+fire 10
+  rotate: true
+  xy: 595, 4
+  size: 25, 46
+  orig: 25, 46
+  offset: 0, 0
+  index: -1
+fire 11
+  rotate: true
+  xy: 545, 4
+  size: 25, 48
+  orig: 25, 48
+  offset: 0, 0
+  index: -1
+fire 12
+  rotate: true
+  xy: 391, 4
+  size: 25, 50
+  orig: 25, 50
+  offset: 0, 0
+  index: -1
+fire 2
+  rotate: true
+  xy: 443, 2
+  size: 27, 49
+  orig: 27, 49
+  offset: 0, 0
+  index: -1
+fire 3
+  rotate: true
+  xy: 284, 4
+  size: 25, 52
+  orig: 25, 52
+  offset: 0, 0
+  index: -1
+fire 4
+  rotate: true
+  xy: 60, 4
+  size: 25, 55
+  orig: 25, 55
+  offset: 0, 0
+  index: -1
+fire 5
+  rotate: true
+  xy: 2, 4
+  size: 25, 56
+  orig: 25, 56
+  offset: 0, 0
+  index: -1
+fire 6
+  rotate: true
+  xy: 229, 3
+  size: 26, 53
+  orig: 26, 53
+  offset: 0, 0
+  index: -1
+fire 7
+  rotate: true
+  xy: 117, 3
+  size: 26, 54
+  orig: 26, 54
+  offset: 0, 0
+  index: -1
+fire 8
+  rotate: true
+  xy: 173, 2
+  size: 27, 54
+  orig: 27, 54
+  offset: 0, 0
+  index: -1
+fire 9
+  rotate: true
+  xy: 494, 4
+  size: 25, 49
+  orig: 25, 49
+  offset: 0, 0
+  index: -1

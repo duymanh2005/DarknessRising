@@ -1,0 +1,55 @@
+
+hitFreeze.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+IceBroken
+  rotate: false
+  xy: 231, 10
+  size: 187, 242
+  orig: 187, 242
+  offset: 0, 0
+  index: -1
+dust
+  rotate: false
+  xy: 2, 2
+  size: 227, 250
+  orig: 227, 250
+  offset: 0, 0
+  index: -1
+icewall1
+  rotate: false
+  xy: 779, 119
+  size: 213, 133
+  orig: 213, 133
+  offset: 0, 0
+  index: -1
+icewall_small
+  rotate: true
+  xy: 609, 58
+  size: 194, 168
+  orig: 194, 168
+  offset: 0, 0
+  index: -1
+lightC
+  rotate: true
+  xy: 779, 18
+  size: 99, 140
+  orig: 99, 140
+  offset: 0, 0
+  index: -1
+light_ringA
+  rotate: false
+  xy: 420, 65
+  size: 187, 187
+  orig: 187, 187
+  offset: 0, 0
+  index: -1
+spark_light
+  rotate: true
+  xy: 921, 11
+  size: 106, 87
+  orig: 106, 87
+  offset: 0, 0
+  index: -1

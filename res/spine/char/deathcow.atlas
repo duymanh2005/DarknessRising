@@ -1,0 +1,230 @@
+
+deathcow.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Leg up L
+  rotate: true
+  xy: 944, 164
+  size: 45, 56
+  orig: 45, 56
+  offset: 0, 0
+  index: -1
+arm low R
+  rotate: true
+  xy: 944, 211
+  size: 43, 76
+  orig: 43, 76
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: false
+  xy: 469, 17
+  size: 85, 60
+  orig: 85, 60
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: true
+  xy: 304, 6
+  size: 71, 70
+  orig: 71, 70
+  offset: 0, 0
+  index: -1
+belly
+  rotate: true
+  xy: 857, 22
+  size: 88, 48
+  orig: 88, 48
+  offset: 0, 0
+  index: -1
+body low
+  rotate: true
+  xy: 967, 84
+  size: 26, 48
+  orig: 26, 48
+  offset: 0, 0
+  index: -1
+body up
+  rotate: true
+  xy: 707, 3
+  size: 102, 86
+  orig: 102, 86
+  offset: 0, 0
+  index: -1
+cloth
+  rotate: false
+  xy: 430, 13
+  size: 37, 64
+  orig: 37, 64
+  offset: 0, 0
+  index: -1
+cloth lock
+  rotate: false
+  xy: 580, 82
+  size: 42, 18
+  orig: 42, 18
+  offset: 0, 0
+  index: -1
+eyes 2
+  rotate: false
+  xy: 624, 85
+  size: 44, 15
+  orig: 44, 15
+  offset: 0, 0
+  index: -1
+eyes 3
+  rotate: true
+  xy: 376, 7
+  size: 70, 29
+  orig: 70, 29
+  offset: 0, 0
+  index: -1
+eyes stun
+  rotate: false
+  xy: 587, 2
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+fly line
+  rotate: false
+  xy: 818, 123
+  size: 124, 131
+  orig: 124, 131
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 940, 61
+  size: 25, 49
+  orig: 25, 49
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: true
+  xy: 944, 112
+  size: 50, 52
+  orig: 50, 52
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 190, 2
+  size: 52, 61
+  orig: 52, 61
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 580, 102
+  size: 152, 87
+  orig: 152, 87
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: false
+  xy: 244, 6
+  size: 58, 65
+  orig: 58, 65
+  offset: 0, 0
+  index: -1
+leg low L
+  rotate: false
+  xy: 907, 2
+  size: 36, 31
+  orig: 36, 31
+  offset: 0, 0
+  index: -1
+neck
+  rotate: true
+  xy: 556, 18
+  size: 59, 29
+  orig: 59, 29
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 669, 107
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+smash fx1
+  rotate: true
+  xy: 219, 73
+  size: 181, 34
+  orig: 181, 34
+  offset: 0, 0
+  index: -1
+smash fx2
+  rotate: false
+  xy: 2, 3
+  size: 186, 56
+  orig: 186, 56
+  offset: 0, 0
+  index: -1
+smash fx3
+  rotate: true
+  xy: 2, 61
+  size: 193, 81
+  orig: 193, 81
+  offset: 0, 0
+  index: -1
+smash grond
+  rotate: false
+  xy: 85, 65
+  size: 132, 189
+  orig: 132, 189
+  offset: 0, 0
+  index: -1
+spark smash1
+  rotate: true
+  xy: 407, 7
+  size: 70, 21
+  orig: 70, 21
+  offset: 0, 0
+  index: -1
+spark smash2
+  rotate: true
+  xy: 907, 35
+  size: 86, 31
+  orig: 86, 31
+  offset: 0, 0
+  index: -1
+spark smash3
+  rotate: true
+  xy: 670, 2
+  size: 103, 35
+  orig: 103, 35
+  offset: 0, 0
+  index: -1
+spark smash4
+  rotate: true
+  xy: 795, 11
+  size: 94, 29
+  orig: 94, 29
+  offset: 0, 0
+  index: -1
+spark smash5
+  rotate: true
+  xy: 826, 27
+  size: 94, 29
+  orig: 94, 29
+  offset: 0, 0
+  index: -1
+star1
+  rotate: true
+  xy: 826, 2
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+war hammer
+  rotate: false
+  xy: 255, 79
+  size: 323, 175
+  orig: 323, 175
+  offset: 0, 0
+  index: -1

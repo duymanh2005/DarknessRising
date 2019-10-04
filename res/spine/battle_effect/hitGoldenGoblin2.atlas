@@ -1,0 +1,188 @@
+
+hitGoldenGoblin.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bome
+  rotate: false
+  xy: 291, 20
+  size: 89, 94
+  orig: 89, 94
+  offset: 0, 0
+  index: -1
+bome_skill
+  rotate: false
+  xy: 1715, 90
+  size: 89, 94
+  orig: 89, 94
+  offset: 0, 0
+  index: -1
+bulleyes
+  rotate: false
+  xy: 753, 7
+  size: 203, 203
+  orig: 203, 203
+  offset: 0, 0
+  index: -1
+cut fx
+  rotate: true
+  xy: 2, 116
+  size: 59, 412
+  orig: 59, 412
+  offset: 0, 0
+  index: -1
+explosion beam1
+  rotate: false
+  xy: 958, 20
+  size: 160, 190
+  orig: 160, 190
+  offset: 0, 0
+  index: -1
+explosion beam2
+  rotate: true
+  xy: 1363, 54
+  size: 204, 242
+  orig: 204, 242
+  offset: 0, 0
+  index: -1
+explosion beam3
+  rotate: false
+  xy: 1363, 260
+  size: 257, 250
+  orig: 257, 250
+  offset: 0, 0
+  index: -1
+explosion beam4
+  rotate: false
+  xy: 753, 212
+  size: 320, 298
+  orig: 320, 298
+  offset: 0, 0
+  index: -1
+explosion beam5
+  rotate: false
+  xy: 374, 192
+  size: 377, 318
+  orig: 377, 318
+  offset: 0, 0
+  index: -1
+explosion1
+  rotate: false
+  xy: 673, 151
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+explosion2
+  rotate: true
+  xy: 1806, 141
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+explosion3
+  rotate: true
+  xy: 2005, 422
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+explosion4
+  rotate: false
+  xy: 673, 110
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+explosion5
+  rotate: true
+  xy: 1806, 96
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+explosion6
+  rotate: true
+  xy: 2005, 467
+  size: 43, 40
+  orig: 43, 40
+  offset: 0, 0
+  index: -1
+explosion7
+  rotate: true
+  xy: 2005, 377
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+explosion8
+  rotate: true
+  xy: 2005, 332
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+gloriole
+  rotate: false
+  xy: 1120, 12
+  size: 209, 209
+  orig: 209, 209
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 1075, 223
+  size: 286, 287
+  orig: 286, 287
+  offset: 0, 0
+  index: -1
+hit fx
+  rotate: false
+  xy: 2, 177
+  size: 370, 333
+  orig: 370, 333
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1622, 265
+  size: 245, 245
+  orig: 245, 245
+  offset: 0, 0
+  index: -1
+spark smash1
+  rotate: false
+  xy: 1715, 186
+  size: 133, 77
+  orig: 133, 77
+  offset: 0, 0
+  index: -1
+spark smash2
+  rotate: true
+  xy: 1607, 78
+  size: 180, 106
+  orig: 180, 106
+  offset: 0, 0
+  index: -1
+spark smash3
+  rotate: true
+  xy: 1869, 236
+  size: 274, 134
+  orig: 274, 134
+  offset: 0, 0
+  index: -1
+spark smash4
+  rotate: false
+  xy: 2, 2
+  size: 287, 112
+  orig: 287, 112
+  offset: 0, 0
+  index: -1
+spark smash5
+  rotate: false
+  xy: 416, 84
+  size: 255, 106
+  orig: 255, 106
+  offset: 0, 0
+  index: -1

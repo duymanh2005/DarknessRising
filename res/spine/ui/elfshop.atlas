@@ -1,0 +1,125 @@
+
+elfshop.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm L
+  rotate: false
+  xy: 104, 6
+  size: 73, 70
+  orig: 73, 70
+  offset: 0, 0
+  index: -1
+arm L back
+  rotate: false
+  xy: 276, 71
+  size: 61, 60
+  orig: 61, 60
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: true
+  xy: 189, 77
+  size: 54, 85
+  orig: 54, 85
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 189, 133
+  size: 200, 121
+  orig: 200, 121
+  offset: 0, 0
+  index: -1
+boobs
+  rotate: false
+  xy: 910, 198
+  size: 86, 56
+  orig: 86, 56
+  offset: 0, 0
+  index: -1
+ear L
+  rotate: false
+  xy: 215, 37
+  size: 39, 38
+  orig: 39, 38
+  offset: 0, 0
+  index: -1
+ear R
+  rotate: true
+  xy: 179, 2
+  size: 67, 34
+  orig: 67, 34
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: false
+  xy: 820, 198
+  size: 88, 56
+  orig: 88, 56
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: false
+  xy: 718, 199
+  size: 100, 55
+  orig: 100, 55
+  offset: 0, 0
+  index: -1
+eyes happy
+  rotate: false
+  xy: 626, 182
+  size: 90, 72
+  orig: 90, 72
+  offset: 0, 0
+  index: -1
+eyes no money
+  rotate: false
+  xy: 2, 4
+  size: 100, 72
+  orig: 100, 72
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 391, 130
+  size: 124, 154
+  orig: 124, 154
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 2, 78
+  size: 185, 176
+  orig: 185, 176
+  offset: 0, 0
+  index: -1
+hair tail
+  rotate: false
+  xy: 547, 151
+  size: 77, 103
+  orig: 77, 103
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 381, 92
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 626, 155
+  size: 45, 25
+  orig: 45, 25
+  offset: 0, 0
+  index: -1
+light beam
+  rotate: false
+  xy: 339, 91
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1

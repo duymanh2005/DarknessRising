@@ -1,0 +1,181 @@
+
+ironwheel.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Goldwing Crossbow
+  rotate: false
+  xy: 690, 58
+  size: 181, 72
+  orig: 181, 72
+  offset: 0, 0
+  index: -1
+arm low L
+  rotate: false
+  xy: 1368, 60
+  size: 39, 35
+  orig: 39, 35
+  offset: 0, 0
+  index: -1
+arm low R
+  rotate: false
+  xy: 873, 59
+  size: 45, 27
+  orig: 45, 27
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: false
+  xy: 1409, 102
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: false
+  xy: 1212, 2
+  size: 30, 36
+  orig: 30, 36
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 1262, 55
+  size: 104, 79
+  orig: 104, 79
+  offset: 0, 0
+  index: -1
+body low
+  rotate: false
+  xy: 1075, 25
+  size: 92, 108
+  orig: 92, 108
+  offset: 0, 0
+  index: -1
+eyes 2
+  rotate: true
+  xy: 2021, 172
+  size: 35, 22
+  orig: 35, 22
+  offset: 0, 0
+  index: -1
+eyes 3
+  rotate: true
+  xy: 2021, 209
+  size: 45, 25
+  orig: 45, 25
+  offset: 0, 0
+  index: -1
+eyes stun
+  rotate: false
+  xy: 942, 2
+  size: 131, 131
+  orig: 131, 131
+  offset: 0, 0
+  index: -1
+fly line
+  rotate: false
+  xy: 481, 35
+  size: 207, 219
+  orig: 207, 219
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 249, 23
+  size: 230, 231
+  orig: 230, 231
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 690, 39
+  size: 30, 17
+  orig: 30, 17
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1169, 40
+  size: 91, 94
+  orig: 91, 94
+  offset: 0, 0
+  index: -1
+horn wheel
+  rotate: false
+  xy: 1123, 136
+  size: 179, 118
+  orig: 179, 118
+  offset: 0, 0
+  index: -1
+horn wheel2
+  rotate: false
+  xy: 1304, 136
+  size: 178, 118
+  orig: 178, 118
+  offset: 0, 0
+  index: -1
+horn wheel3
+  rotate: false
+  xy: 1844, 149
+  size: 175, 105
+  orig: 175, 105
+  offset: 0, 0
+  index: -1
+horn wheel4
+  rotate: false
+  xy: 1664, 145
+  size: 178, 109
+  orig: 178, 109
+  offset: 0, 0
+  index: -1
+horn wheel5
+  rotate: false
+  xy: 942, 135
+  size: 179, 119
+  orig: 179, 119
+  offset: 0, 0
+  index: -1
+magic arrow
+  rotate: false
+  xy: 690, 132
+  size: 250, 122
+  orig: 250, 122
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 9
+  size: 245, 245
+  orig: 245, 245
+  offset: 0, 0
+  index: -1
+sholder L
+  rotate: true
+  xy: 1169, 2
+  size: 36, 41
+  orig: 36, 41
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 873, 88
+  size: 47, 42
+  orig: 47, 42
+  offset: 0, 0
+  index: -1
+star1
+  rotate: false
+  xy: 1368, 97
+  size: 39, 37
+  orig: 39, 37
+  offset: 0, 0
+  index: -1
+wheel
+  rotate: false
+  xy: 1484, 139
+  size: 178, 115
+  orig: 178, 115
+  offset: 0, 0
+  index: -1

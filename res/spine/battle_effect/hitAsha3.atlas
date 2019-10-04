@@ -1,0 +1,125 @@
+
+hitAsha.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cut fx
+  rotate: true
+  xy: 498, 72
+  size: 29, 206
+  orig: 29, 206
+  offset: 0, 0
+  index: -1
+explosion beam1
+  rotate: false
+  xy: 416, 6
+  size: 80, 95
+  orig: 80, 95
+  offset: 0, 0
+  index: -1
+explosion beam2
+  rotate: false
+  xy: 794, 131
+  size: 102, 121
+  orig: 102, 121
+  offset: 0, 0
+  index: -1
+explosion beam3
+  rotate: true
+  xy: 667, 124
+  size: 128, 125
+  orig: 128, 125
+  offset: 0, 0
+  index: -1
+explosion beam4
+  rotate: false
+  xy: 360, 103
+  size: 160, 149
+  orig: 160, 149
+  offset: 0, 0
+  index: -1
+explosion beam5
+  rotate: false
+  xy: 170, 93
+  size: 188, 159
+  orig: 188, 159
+  offset: 0, 0
+  index: -1
+flash
+  rotate: false
+  xy: 898, 150
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+gloriole
+  rotate: false
+  xy: 822, 25
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 522, 109
+  size: 143, 143
+  orig: 143, 143
+  offset: 0, 0
+  index: -1
+hit fx
+  rotate: true
+  xy: 2, 67
+  size: 185, 166
+  orig: 185, 166
+  offset: 0, 0
+  index: -1
+lighting circle
+  rotate: false
+  xy: 706, 8
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+spark light fx
+  rotate: true
+  xy: 2, 2
+  size: 5, 52
+  orig: 5, 52
+  offset: 0, 0
+  index: -1
+spark smash1
+  rotate: true
+  xy: 590, 4
+  size: 66, 38
+  orig: 66, 38
+  offset: 0, 0
+  index: -1
+spark smash2
+  rotate: false
+  xy: 498, 17
+  size: 90, 53
+  orig: 90, 53
+  offset: 0, 0
+  index: -1
+spark smash3
+  rotate: false
+  xy: 277, 24
+  size: 137, 67
+  orig: 137, 67
+  offset: 0, 0
+  index: -1
+spark smash4
+  rotate: false
+  xy: 2, 9
+  size: 144, 56
+  orig: 144, 56
+  offset: 0, 0
+  index: -1
+spark smash5
+  rotate: false
+  xy: 148, 12
+  size: 127, 53
+  orig: 127, 53
+  offset: 0, 0
+  index: -1

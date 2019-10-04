@@ -1,0 +1,27 @@
+
+hitArrowGN1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arrow
+  rotate: false
+  xy: 209, 171
+  size: 271, 67
+  orig: 271, 67
+  offset: 0, 0
+  index: -1
+impact3
+  rotate: true
+  xy: 209, 2
+  size: 167, 198
+  orig: 167, 198
+  offset: 0, 0
+  index: -1
+shoot_wind
+  rotate: false
+  xy: 2, 33
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1

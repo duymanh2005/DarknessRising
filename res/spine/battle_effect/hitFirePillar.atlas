@@ -1,0 +1,146 @@
+
+hitFirePillar.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fireskill/fire_expl_01
+  rotate: false
+  xy: 438, 470
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fireskill/fire_expl_03
+  rotate: false
+  xy: 198, 42
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fireskill/fire_expl_05
+  rotate: false
+  xy: 238, 42
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fireskill/fire_expl_07
+  rotate: false
+  xy: 278, 42
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fireskill/fire_expl_09
+  rotate: false
+  xy: 364, 146
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fireskill/fire_expl_11
+  rotate: false
+  xy: 198, 2
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fireskill/fire_expl_13
+  rotate: false
+  xy: 238, 2
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fireskill/fire_expl_15
+  rotate: false
+  xy: 278, 2
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fireskill/fire_expl_17
+  rotate: false
+  xy: 404, 146
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fireskill/flame1_01
+  rotate: false
+  xy: 132, 82
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fireskill/flame1_03
+  rotate: false
+  xy: 364, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fireskill/flame1_05
+  rotate: false
+  xy: 198, 82
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fireskill/flame1_07
+  rotate: false
+  xy: 364, 318
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fireskill/flame1_09
+  rotate: false
+  xy: 264, 82
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fireskill/flame1_11
+  rotate: false
+  xy: 364, 252
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fireskill/flame1_13
+  rotate: false
+  xy: 364, 186
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fireskill/flame1_15
+  rotate: false
+  xy: 132, 16
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fireskill/hit effect circle glowing
+  rotate: false
+  xy: 364, 450
+  size: 72, 58
+  orig: 72, 58
+  offset: 0, 0
+  index: -1
+fireskill/lightning2
+  rotate: false
+  xy: 2, 18
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+fireskill/magic_circle3
+  rotate: false
+  xy: 2, 148
+  size: 360, 360
+  orig: 360, 360
+  offset: 0, 0
+  index: -1

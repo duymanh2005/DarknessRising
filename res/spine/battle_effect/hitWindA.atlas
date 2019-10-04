@@ -1,0 +1,55 @@
+
+hitWindA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SF4_0178
+  rotate: false
+  xy: 690, 741
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+canying01
+  rotate: false
+  xy: 2, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+impact3
+  rotate: true
+  xy: 384, 548
+  size: 167, 198
+  orig: 167, 198
+  offset: 0, 0
+  index: -1
+wind1
+  rotate: false
+  xy: 384, 717
+  size: 304, 280
+  orig: 304, 280
+  offset: 0, 0
+  index: -1
+wind2
+  rotate: false
+  xy: 2, 621
+  size: 380, 376
+  orig: 380, 376
+  offset: 0, 0
+  index: -1
+wind3
+  rotate: false
+  xy: 2, 132
+  size: 322, 249
+  orig: 322, 249
+  offset: 0, 0
+  index: -1
+wind4
+  rotate: false
+  xy: 2, 383
+  size: 365, 236
+  orig: 365, 236
+  offset: 0, 0
+  index: -1

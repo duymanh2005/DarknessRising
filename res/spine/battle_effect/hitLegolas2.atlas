@@ -1,0 +1,48 @@
+
+hitLegolas.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FX/SlashLine
+  rotate: false
+  xy: 2, 129
+  size: 222, 125
+  orig: 222, 125
+  offset: 0, 0
+  index: -1
+FX/hit effect circle glowing
+  rotate: false
+  xy: 205, 80
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+FX/impact 1
+  rotate: false
+  xy: 2, 9
+  size: 117, 118
+  orig: 117, 118
+  offset: 0, 0
+  index: -1
+FX/leaf
+  rotate: false
+  xy: 163, 24
+  size: 24, 18
+  orig: 24, 18
+  offset: 0, 0
+  index: -1
+FX/light beam
+  rotate: false
+  xy: 121, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+FX/shock wave
+  rotate: false
+  xy: 121, 44
+  size: 82, 83
+  orig: 82, 83
+  offset: 0, 0
+  index: -1

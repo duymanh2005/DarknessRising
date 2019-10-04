@@ -1,0 +1,286 @@
+
+lizardking.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Resurrection Staff
+  rotate: true
+  xy: 2, 368
+  size: 132, 511
+  orig: 132, 511
+  offset: 0, 0
+  index: -1
+anten 2
+  rotate: true
+  xy: 2, 72
+  size: 130, 111
+  orig: 130, 111
+  offset: 0, 0
+  index: -1
+arm low L
+  rotate: false
+  xy: 729, 385
+  size: 72, 34
+  orig: 72, 34
+  offset: 0, 0
+  index: -1
+arm low R
+  rotate: false
+  xy: 657, 401
+  size: 70, 99
+  orig: 70, 99
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: false
+  xy: 245, 279
+  size: 80, 87
+  orig: 80, 87
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: false
+  xy: 970, 419
+  size: 43, 81
+  orig: 43, 81
+  offset: 0, 0
+  index: -1
+belly
+  rotate: false
+  xy: 199, 12
+  size: 43, 30
+  orig: 43, 30
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 515, 385
+  size: 140, 115
+  orig: 140, 115
+  offset: 0, 0
+  index: -1
+eye 1
+  rotate: false
+  xy: 244, 4
+  size: 40, 38
+  orig: 40, 38
+  offset: 0, 0
+  index: -1
+eye 2
+  rotate: true
+  xy: 506, 228
+  size: 62, 46
+  orig: 62, 46
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 657, 376
+  size: 36, 23
+  orig: 36, 23
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 656, 344
+  size: 35, 30
+  orig: 35, 30
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 115, 18
+  size: 53, 44
+  orig: 53, 44
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 555, 291
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 204
+  size: 122, 162
+  orig: 122, 162
+  offset: 0, 0
+  index: -1
+leg cen L
+  rotate: false
+  xy: 695, 366
+  size: 27, 33
+  orig: 27, 33
+  offset: 0, 0
+  index: -1
+leg cen R
+  rotate: true
+  xy: 589, 253
+  size: 36, 23
+  orig: 36, 23
+  offset: 0, 0
+  index: -1
+leg low L
+  rotate: true
+  xy: 608, 348
+  size: 35, 46
+  orig: 35, 46
+  offset: 0, 0
+  index: -1
+leg low R
+  rotate: false
+  xy: 170, 16
+  size: 27, 46
+  orig: 27, 46
+  offset: 0, 0
+  index: -1
+leg up L
+  rotate: false
+  xy: 555, 339
+  size: 51, 44
+  orig: 51, 44
+  offset: 0, 0
+  index: -1
+leg up R
+  rotate: false
+  xy: 554, 236
+  size: 33, 53
+  orig: 33, 53
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 354, 204
+  size: 51, 10
+  orig: 51, 10
+  offset: 0, 0
+  index: -1
+sholder R
+  rotate: false
+  xy: 126, 272
+  size: 117, 94
+  orig: 117, 94
+  offset: 0, 0
+  index: -1
+stomach
+  rotate: false
+  xy: 729, 421
+  size: 87, 79
+  orig: 87, 79
+  offset: 0, 0
+  index: -1
+tail cen
+  rotate: true
+  xy: 90, 14
+  size: 56, 23
+  orig: 56, 23
+  offset: 0, 0
+  index: -1
+tail low
+  rotate: false
+  xy: 115, 64
+  size: 84, 54
+  orig: 84, 54
+  offset: 0, 0
+  index: -1
+tail up
+  rotate: false
+  xy: 2, 2
+  size: 86, 68
+  orig: 86, 68
+  offset: 0, 0
+  index: -1
+thunder/0
+  rotate: false
+  xy: 327, 292
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+thunder/1
+  rotate: false
+  xy: 818, 426
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+thunder/10
+  rotate: false
+  xy: 354, 216
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+thunder/11
+  rotate: false
+  xy: 430, 216
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+thunder/12
+  rotate: false
+  xy: 479, 292
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+thunder/2
+  rotate: false
+  xy: 403, 292
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+thunder/3
+  rotate: false
+  xy: 894, 426
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+thunder/4
+  rotate: false
+  xy: 126, 196
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+thunder/5
+  rotate: false
+  xy: 115, 120
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+thunder/6
+  rotate: false
+  xy: 202, 196
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+thunder/7
+  rotate: false
+  xy: 191, 120
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+thunder/8
+  rotate: false
+  xy: 201, 44
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+thunder/9
+  rotate: false
+  xy: 278, 203
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1

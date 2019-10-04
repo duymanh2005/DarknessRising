@@ -1,0 +1,20 @@
+
+hitStun.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fly line
+  rotate: false
+  xy: 2, 34
+  size: 167, 175
+  orig: 167, 175
+  offset: 0, 0
+  index: -1
+star1
+  rotate: false
+  xy: 2, 2
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1

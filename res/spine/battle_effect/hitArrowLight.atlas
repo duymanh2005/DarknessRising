@@ -1,0 +1,69 @@
+
+hitArrowLight.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ImpactPart1
+  rotate: false
+  xy: 115, 68
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+ImpactPart2
+  rotate: true
+  xy: 63, 2
+  size: 59, 55
+  orig: 59, 55
+  offset: 0, 0
+  index: -1
+ImpactPart3
+  rotate: false
+  xy: 256, 53
+  size: 78, 73
+  orig: 78, 73
+  offset: 0, 0
+  index: -1
+ImpactPart4
+  rotate: false
+  xy: 336, 75
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+ImpactPart5
+  rotate: false
+  xy: 2, 2
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+SlashLine
+  rotate: false
+  xy: 2, 63
+  size: 111, 63
+  orig: 111, 63
+  offset: 0, 0
+  index: -1
+arrowS
+  rotate: false
+  xy: 336, 62
+  size: 50, 11
+  orig: 50, 11
+  offset: 0, 0
+  index: -1
+effect_light
+  rotate: false
+  xy: 175, 49
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: -1
+gold stars
+  rotate: false
+  xy: 389, 96
+  size: 59, 30
+  orig: 59, 30
+  offset: 0, 0
+  index: -1

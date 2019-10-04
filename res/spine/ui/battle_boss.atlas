@@ -1,0 +1,145 @@
+
+battle_boss.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eyes
+  rotate: false
+  xy: 2, 106
+  size: 450, 309
+  orig: 450, 309
+  offset: 0, 0
+  index: -1
+fire/1
+  rotate: false
+  xy: 762, 862
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+fire/10
+  rotate: false
+  xy: 783, 52
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+fire/2
+  rotate: false
+  xy: 762, 700
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+fire/3
+  rotate: false
+  xy: 762, 538
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+fire/4
+  rotate: false
+  xy: 621, 255
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+fire/7
+  rotate: false
+  xy: 621, 93
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+fire/8
+  rotate: false
+  xy: 783, 376
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+fire/9
+  rotate: false
+  xy: 783, 214
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+pnl_gate
+  rotate: false
+  xy: 2, 417
+  size: 758, 605
+  orig: 758, 605
+  offset: 0, 0
+  index: -1
+pnl_stonename
+  rotate: true
+  xy: 454, 2
+  size: 413, 165
+  orig: 413, 165
+  offset: 0, 0
+  index: -1
+
+battle_boss2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_circle
+  rotate: false
+  xy: 2, 475
+  size: 492, 420
+  orig: 492, 420
+  offset: 0, 0
+  index: -1
+fire/11
+  rotate: false
+  xy: 496, 735
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+fire/12
+  rotate: false
+  xy: 2, 2
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+fire/13
+  rotate: false
+  xy: 496, 573
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+fire/14
+  rotate: false
+  xy: 658, 735
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+fire/15
+  rotate: false
+  xy: 164, 2
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+fire/16
+  rotate: false
+  xy: 658, 573
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+pnl_Skull
+  rotate: false
+  xy: 2, 164
+  size: 450, 309
+  orig: 450, 309
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,43 @@
+{
+  "skeleton": {
+    "hash": "V4f7qfzx7PSrgtkrnsfeGI4s4CU",
+    "spine": "3.6.48",
+    "width": 751,
+    "height": 874
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "back#b_firefly#1",
+      "parent": "root",
+      "x": 381.15,
+      "y": 772.17
+    },
+    {
+      "name": "center#c_rainlanding#1",
+      "parent": "root",
+      "x": 368.98,
+      "y": 373.94
+    },
+    {
+      "name": "front#f_rain#1",
+      "parent": "root",
+      "x": 391.59,
+      "y": 869.56
+    }
+  ],
+  "slots": [
+    {
+      "name": "BACK_LORIEN_DAY",
+      "bone": "root"
+    }
+  ],
+  "skins": {
+    "default": {}
+  },
+  "animations": {
+    "loren2_rain": {}
+  }
+}

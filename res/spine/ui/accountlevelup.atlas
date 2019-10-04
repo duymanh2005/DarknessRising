@@ -1,0 +1,195 @@
+
+accountlevelup.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+icon-text/ico_hero
+  rotate: false
+  xy: 853, 853
+  size: 138, 138
+  orig: 138, 138
+  offset: 0, 0
+  index: -1
+icon-text/ico_king
+  rotate: false
+  xy: 495, 529
+  size: 138, 138
+  orig: 138, 138
+  offset: 0, 0
+  index: -1
+icon-text/ico_legend
+  rotate: false
+  xy: 318, 352
+  size: 138, 138
+  orig: 138, 138
+  offset: 0, 0
+  index: -1
+icon-text/ico_master
+  rotate: false
+  xy: 635, 529
+  size: 138, 138
+  orig: 138, 138
+  offset: 0, 0
+  index: -1
+icon-text/ico_novice
+  rotate: false
+  xy: 775, 534
+  size: 138, 138
+  orig: 138, 138
+  offset: 0, 0
+  index: -1
+icon-text/ico_titan
+  rotate: false
+  xy: 172, 99
+  size: 138, 138
+  orig: 138, 138
+  offset: 0, 0
+  index: -1
+icon-text/txt_Rankdown
+  rotate: false
+  xy: 369, 720
+  size: 356, 49
+  orig: 356, 49
+  offset: 0, 0
+  index: -1
+icon-text/txt_Rankup
+  rotate: false
+  xy: 369, 669
+  size: 356, 49
+  orig: 356, 49
+  offset: 0, 0
+  index: -1
+images/Sparkle
+  rotate: false
+  xy: 2, 675
+  size: 365, 316
+  orig: 365, 316
+  offset: 0, 0
+  index: -1
+images/Star
+  rotate: false
+  xy: 727, 674
+  size: 122, 115
+  orig: 122, 115
+  offset: 0, 0
+  index: -1
+images/UI_Lose_Blueeffect
+  rotate: false
+  xy: 2, 239
+  size: 231, 200
+  orig: 231, 200
+  offset: 0, 0
+  index: -1
+images/UI_Win_Yelloweffect
+  rotate: false
+  xy: 620, 791
+  size: 231, 200
+  orig: 231, 200
+  offset: 0, 0
+  index: -1
+images/Whiteray
+  rotate: false
+  xy: 318, 492
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+images/ico_lvup
+  rotate: false
+  xy: 2, 2
+  size: 168, 235
+  orig: 168, 235
+  offset: 0, 0
+  index: -1
+images/losedwing_left
+  rotate: false
+  xy: 2, 441
+  size: 263, 232
+  orig: 263, 232
+  offset: 0, 0
+  index: -1
+images/lvup_0
+  rotate: false
+  xy: 853, 805
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+images/lvup_1
+  rotate: false
+  xy: 172, 51
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+images/lvup_2
+  rotate: false
+  xy: 891, 805
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+images/lvup_3
+  rotate: false
+  xy: 172, 3
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+images/lvup_4
+  rotate: false
+  xy: 210, 51
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+images/lvup_5
+  rotate: false
+  xy: 929, 805
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+images/lvup_6
+  rotate: false
+  xy: 210, 3
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+images/lvup_7
+  rotate: false
+  xy: 248, 51
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+images/lvup_8
+  rotate: false
+  xy: 248, 3
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+images/lvup_9
+  rotate: true
+  xy: 495, 491
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+images/txt_Lvup
+  rotate: true
+  xy: 267, 375
+  size: 298, 49
+  orig: 298, 49
+  offset: 0, 0
+  index: -1
+images/winniedwing_left
+  rotate: false
+  xy: 369, 771
+  size: 249, 220
+  orig: 249, 220
+  offset: 0, 0
+  index: -1

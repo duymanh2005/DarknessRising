@@ -1,0 +1,384 @@
+
+TwistDragonKnight.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Default
+  rotate: false
+  xy: 160, 380
+  size: 147, 320
+  orig: 147, 320
+  offset: 0, 0
+  index: -1
+Default fx
+  rotate: false
+  xy: 309, 380
+  size: 147, 320
+  orig: 147, 320
+  offset: 0, 0
+  index: -1
+DefaultEffect
+  rotate: false
+  xy: 2, 702
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 458, 437
+  size: 157, 156
+  orig: 157, 156
+  offset: 0, 0
+  index: -1
+Head1
+  rotate: true
+  xy: 458, 596
+  size: 161, 156
+  orig: 161, 156
+  offset: 0, 0
+  index: -1
+L arm
+  rotate: false
+  xy: 657, 46
+  size: 49, 44
+  orig: 49, 44
+  offset: 0, 0
+  index: -1
+L arm copy
+  rotate: true
+  xy: 976, 644
+  size: 47, 46
+  orig: 47, 46
+  offset: 0, 0
+  index: -1
+L boot
+  rotate: true
+  xy: 365, 47
+  size: 47, 64
+  orig: 47, 64
+  offset: 0, 0
+  index: -1
+L bracer
+  rotate: true
+  xy: 574, 2
+  size: 39, 30
+  orig: 39, 30
+  offset: 0, 0
+  index: -1
+L bracer copy
+  rotate: false
+  xy: 616, 442
+  size: 40, 28
+  orig: 40, 28
+  offset: 0, 0
+  index: -1
+L leg
+  rotate: false
+  xy: 523, 52
+  size: 68, 56
+  orig: 68, 56
+  offset: 0, 0
+  index: -1
+L palm
+  rotate: true
+  xy: 523, 2
+  size: 48, 49
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+L palm copy
+  rotate: false
+  xy: 657, 92
+  size: 48, 49
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+L waist
+  rotate: false
+  xy: 606, 3
+  size: 56, 38
+  orig: 56, 38
+  offset: 0, 0
+  index: -1
+R boot
+  rotate: false
+  xy: 593, 43
+  size: 62, 65
+  orig: 62, 65
+  offset: 0, 0
+  index: -1
+R leg
+  rotate: false
+  xy: 448, 51
+  size: 73, 61
+  orig: 73, 61
+  offset: 0, 0
+  index: -1
+R palm
+  rotate: true
+  xy: 432, 2
+  size: 47, 50
+  orig: 47, 50
+  offset: 0, 0
+  index: -1
+R shoulder
+  rotate: true
+  xy: 649, 143
+  size: 63, 58
+  orig: 63, 58
+  offset: 0, 0
+  index: -1
+R waist
+  rotate: false
+  xy: 608, 310
+  size: 55, 38
+  orig: 55, 38
+  offset: 0, 0
+  index: -1
+eye1
+  rotate: false
+  xy: 366, 10
+  size: 64, 35
+  orig: 64, 35
+  offset: 0, 0
+  index: -1
+eye2
+  rotate: false
+  xy: 625, 244
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+eye3
+  rotate: false
+  xy: 625, 208
+  size: 64, 34
+  orig: 64, 34
+  offset: 0, 0
+  index: -1
+eye4
+  rotate: false
+  xy: 324, 702
+  size: 112, 55
+  orig: 112, 55
+  offset: 0, 0
+  index: -1
+eye5
+  rotate: true
+  xy: 636, 382
+  size: 58, 35
+  orig: 58, 35
+  offset: 0, 0
+  index: -1
+fire_circle_ground
+  rotate: false
+  xy: 616, 650
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1
+fireslashwave1
+  rotate: true
+  xy: 452, 114
+  size: 78, 97
+  orig: 78, 97
+  offset: 0, 0
+  index: -1
+fireslashwave2
+  rotate: true
+  xy: 338, 307
+  size: 71, 90
+  orig: 71, 90
+  offset: 0, 0
+  index: -1
+light_circle_effect1A
+  rotate: true
+  xy: 2, 304
+  size: 396, 156
+  orig: 396, 156
+  offset: 0, 0
+  index: -1
+light_circle_effect1B
+  rotate: true
+  xy: 983, 693
+  size: 79, 31
+  orig: 79, 31
+  offset: 0, 0
+  index: -1
+light_circle_effect1C
+  rotate: false
+  xy: 367, 96
+  size: 79, 31
+  orig: 79, 31
+  offset: 0, 0
+  index: -1
+lightning fx/thunder1
+  rotate: false
+  xy: 541, 208
+  size: 82, 100
+  orig: 82, 100
+  offset: 0, 0
+  index: -1
+lightning fx/thunder10
+  rotate: false
+  xy: 410, 129
+  size: 40, 176
+  orig: 40, 176
+  offset: 0, 0
+  index: -1
+lightning fx/thunder11
+  rotate: true
+  xy: 430, 310
+  size: 38, 176
+  orig: 38, 176
+  offset: 0, 0
+  index: -1
+lightning fx/thunder2
+  rotate: false
+  xy: 684, 470
+  size: 63, 178
+  orig: 63, 178
+  offset: 0, 0
+  index: -1
+lightning fx/thunder4
+  rotate: false
+  xy: 616, 472
+  size: 66, 176
+  orig: 66, 176
+  offset: 0, 0
+  index: -1
+lightning fx/thunder5
+  rotate: true
+  xy: 244, 41
+  size: 73, 119
+  orig: 73, 119
+  offset: 0, 0
+  index: -1
+lightning fx/thunder6
+  rotate: true
+  xy: 160, 306
+  size: 72, 176
+  orig: 72, 176
+  offset: 0, 0
+  index: -1
+lightning fx/thunder7
+  rotate: true
+  xy: 458, 350
+  size: 41, 176
+  orig: 41, 176
+  offset: 0, 0
+  index: -1
+lightning fx/thunder8
+  rotate: true
+  xy: 458, 393
+  size: 42, 176
+  orig: 42, 176
+  offset: 0, 0
+  index: -1
+lightning fx/thunder9
+  rotate: false
+  xy: 367, 129
+  size: 41, 176
+  orig: 41, 176
+  offset: 0, 0
+  index: -1
+precast/Light_SparkA
+  rotate: true
+  xy: 748, 689
+  size: 91, 44
+  orig: 91, 44
+  offset: 0, 0
+  index: -1
+precast/Light_circleA
+  rotate: false
+  xy: 568, 782
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+precast/Light_lineA
+  rotate: false
+  xy: 207, 5
+  size: 157, 34
+  orig: 157, 34
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 22
+  size: 203, 38
+  orig: 203, 38
+  offset: 0, 0
+  index: -1
+silk
+  rotate: true
+  xy: 892, 652
+  size: 44, 82
+  orig: 44, 82
+  offset: 0, 0
+  index: -1
+slash
+  rotate: false
+  xy: 2, 62
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+swelllife/light_PNG14408
+  rotate: false
+  xy: 551, 110
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+swelllife/light_growA
+  rotate: false
+  xy: 892, 698
+  size: 89, 74
+  orig: 89, 74
+  offset: 0, 0
+  index: -1
+swelllife/light_ringbold
+  rotate: false
+  xy: 794, 676
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+swelllife/speedlight_effect
+  rotate: false
+  xy: 438, 725
+  size: 2, 32
+  orig: 2, 32
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 452, 194
+  size: 87, 114
+  orig: 87, 114
+  offset: 0, 0
+  index: -1
+wings/level 1
+  rotate: true
+  xy: 244, 116
+  size: 188, 121
+  orig: 188, 121
+  offset: 0, 0
+  index: -1
+wings/level 2
+  rotate: false
+  xy: 810, 774
+  size: 211, 248
+  orig: 211, 248
+  offset: 0, 0
+  index: -1
+wings/level 3
+  rotate: false
+  xy: 324, 759
+  size: 242, 263
+  orig: 242, 263
+  offset: 0, 0
+  index: -1

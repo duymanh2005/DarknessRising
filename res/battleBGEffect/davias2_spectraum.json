@@ -1,0 +1,61 @@
+{
+  "skeleton": {
+    "hash": "E0vlQXgEj+hB5QE8AFqwUPxgig8",
+    "spine": "3.6.48",
+    "width": 751,
+    "height": 874
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "back#b_crystalglow#1",
+      "parent": "root",
+      "x": 222.9,
+      "y": 641.75
+    },
+    {
+      "name": "back#b_crystalglow#2",
+      "parent": "root",
+      "x": 699.39,
+      "y": 596.53
+    },
+    {
+      "name": "back#b_crystalglow#3",
+      "parent": "root",
+      "x": 579.4,
+      "y": 714.79
+    },
+    {
+      "name": "back#b_crystalglow#4",
+      "parent": "root",
+      "x": 169,
+      "y": 740.87
+    },
+    {
+      "name": "back#b_crystalglow#5",
+      "parent": "root",
+      "x": 50.74,
+      "y": 600.01
+    },
+    {
+      "name": "front#f_lightspectraum#1",
+      "parent": "root",
+      "x": 384.63,
+      "y": 853.91
+    }
+  ],
+  "slots": [
+    {
+      "name": "BACK_LORIEN_DAY",
+      "bone": "root"
+    }
+  ],
+  "skins": {
+    "default": {}
+  },
+  "animations": {
+    "davias2_spectraum": {}
+  }
+}

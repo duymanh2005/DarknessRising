@@ -1,0 +1,552 @@
+
+gorgon.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gorgon staff
+  rotate: true
+  xy: 361, 889
+  size: 133, 442
+  orig: 133, 442
+  offset: 0, 0
+  index: -1
+Gorgon staff fx
+  rotate: false
+  xy: 2, 235
+  size: 153, 459
+  orig: 153, 459
+  offset: 0, 0
+  index: -1
+Magic gem
+  rotate: true
+  xy: 533, 228
+  size: 60, 79
+  orig: 60, 79
+  offset: 0, 0
+  index: -1
+arm low L
+  rotate: true
+  xy: 904, 757
+  size: 123, 100
+  orig: 123, 100
+  offset: 0, 0
+  index: -1
+arm low R
+  rotate: false
+  xy: 633, 738
+  size: 122, 149
+  orig: 122, 149
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: false
+  xy: 157, 101
+  size: 103, 165
+  orig: 103, 165
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: true
+  xy: 387, 402
+  size: 80, 170
+  orig: 80, 170
+  offset: 0, 0
+  index: -1
+armor belly L
+  rotate: true
+  xy: 157, 43
+  size: 56, 114
+  orig: 56, 114
+  offset: 0, 0
+  index: -1
+armor belly R
+  rotate: false
+  xy: 262, 132
+  size: 111, 134
+  orig: 111, 134
+  offset: 0, 0
+  index: -1
+belly
+  rotate: true
+  xy: 461, 151
+  size: 79, 70
+  orig: 79, 70
+  offset: 0, 0
+  index: -1
+body low
+  rotate: false
+  xy: 716, 604
+  size: 111, 130
+  orig: 111, 130
+  offset: 0, 0
+  index: -1
+body up
+  rotate: false
+  xy: 2, 696
+  size: 357, 326
+  orig: 357, 326
+  offset: 0, 0
+  index: -1
+dot
+  rotate: false
+  xy: 559, 399
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+explosion1
+  rotate: false
+  xy: 930, 515
+  size: 31, 38
+  orig: 31, 38
+  offset: 0, 0
+  index: -1
+explosion2
+  rotate: false
+  xy: 654, 188
+  size: 42, 49
+  orig: 42, 49
+  offset: 0, 0
+  index: -1
+explosion3
+  rotate: false
+  xy: 602, 166
+  size: 50, 53
+  orig: 50, 53
+  offset: 0, 0
+  index: -1
+explosion4
+  rotate: false
+  xy: 475, 238
+  size: 56, 55
+  orig: 56, 55
+  offset: 0, 0
+  index: -1
+explosion5
+  rotate: true
+  xy: 477, 2
+  size: 56, 48
+  orig: 56, 48
+  offset: 0, 0
+  index: -1
+explosion6
+  rotate: true
+  xy: 527, 2
+  size: 56, 41
+  orig: 56, 41
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: true
+  xy: 683, 545
+  size: 56, 31
+  orig: 56, 31
+  offset: 0, 0
+  index: -1
+eyes stun
+  rotate: false
+  xy: 652, 239
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+eyes2
+  rotate: true
+  xy: 614, 221
+  size: 67, 36
+  orig: 67, 36
+  offset: 0, 0
+  index: -1
+fly line
+  rotate: false
+  xy: 375, 143
+  size: 84, 87
+  orig: 84, 87
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 768, 490
+  size: 44, 35
+  orig: 44, 35
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: true
+  xy: 889, 515
+  size: 38, 39
+  orig: 38, 39
+  offset: 0, 0
+  index: -1
+gem ABL
+  rotate: false
+  xy: 829, 563
+  size: 63, 53
+  orig: 63, 53
+  offset: 0, 0
+  index: -1
+gem ABR
+  rotate: true
+  xy: 829, 618
+  size: 116, 63
+  orig: 116, 63
+  offset: 0, 0
+  index: -1
+gem ALR
+  rotate: true
+  xy: 394, 10
+  size: 49, 81
+  orig: 49, 81
+  offset: 0, 0
+  index: -1
+gem BU
+  rotate: false
+  xy: 618, 484
+  size: 63, 91
+  orig: 63, 91
+  offset: 0, 0
+  index: -1
+gem H
+  rotate: false
+  xy: 683, 499
+  size: 31, 44
+  orig: 31, 44
+  offset: 0, 0
+  index: -1
+gem MG
+  rotate: false
+  xy: 645, 293
+  size: 72, 104
+  orig: 72, 104
+  offset: 0, 0
+  index: -1
+gem SL
+  rotate: true
+  xy: 757, 776
+  size: 104, 145
+  orig: 104, 145
+  offset: 0, 0
+  index: -1
+gem SR
+  rotate: true
+  xy: 2, 47
+  size: 186, 153
+  orig: 186, 153
+  offset: 0, 0
+  index: -1
+glance light
+  rotate: false
+  xy: 618, 577
+  size: 37, 136
+  orig: 37, 136
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 387, 484
+  size: 229, 229
+  orig: 229, 229
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 394, 61
+  size: 76, 80
+  orig: 76, 80
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 900, 656
+  size: 102, 99
+  orig: 102, 99
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 157, 268
+  size: 151, 153
+  orig: 151, 153
+  offset: 0, 0
+  index: -1
+head back
+  rotate: false
+  xy: 533, 154
+  size: 67, 72
+  orig: 67, 72
+  offset: 0, 0
+  index: -1
+horn
+  rotate: false
+  xy: 383, 295
+  size: 151, 105
+  orig: 151, 105
+  offset: 0, 0
+  index: -1
+leg low L
+  rotate: true
+  xy: 73, 4
+  size: 41, 78
+  orig: 41, 78
+  offset: 0, 0
+  index: -1
+leg low R
+  rotate: false
+  xy: 644, 399
+  size: 48, 83
+  orig: 48, 83
+  offset: 0, 0
+  index: -1
+leg up  L
+  rotate: false
+  xy: 541, 84
+  size: 47, 68
+  orig: 47, 68
+  offset: 0, 0
+  index: -1
+leg up R
+  rotate: true
+  xy: 2, 2
+  size: 43, 69
+  orig: 43, 69
+  offset: 0, 0
+  index: -1
+light column
+  rotate: false
+  xy: 657, 603
+  size: 57, 133
+  orig: 57, 133
+  offset: 0, 0
+  index: -1
+lighting cicrle
+  rotate: false
+  xy: 273, 11
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+magic circle
+  rotate: false
+  xy: 894, 555
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+mana shield
+  rotate: false
+  xy: 536, 290
+  size: 107, 107
+  orig: 107, 107
+  offset: 0, 0
+  index: -1
+neck
+  rotate: true
+  xy: 310, 280
+  size: 141, 71
+  orig: 141, 71
+  offset: 0, 0
+  index: -1
+rock1
+  rotate: true
+  xy: 310, 268
+  size: 10, 11
+  orig: 10, 11
+  offset: 0, 0
+  index: -1
+rock2
+  rotate: false
+  xy: 706, 278
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+rock3
+  rotate: false
+  xy: 683, 484
+  size: 12, 13
+  orig: 12, 13
+  offset: 0, 0
+  index: -1
+rock4
+  rotate: false
+  xy: 679, 173
+  size: 12, 13
+  orig: 12, 13
+  offset: 0, 0
+  index: -1
+sholuder L
+  rotate: true
+  xy: 361, 715
+  size: 172, 270
+  orig: 172, 270
+  offset: 0, 0
+  index: -1
+shoulder L back
+  rotate: true
+  xy: 805, 920
+  size: 102, 208
+  orig: 102, 208
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 157, 423
+  size: 228, 271
+  orig: 228, 271
+  offset: 0, 0
+  index: -1
+smoke 1
+  rotate: false
+  xy: 633, 716
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+smoke 2
+  rotate: false
+  xy: 541, 63
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+smoke 3
+  rotate: false
+  xy: 654, 163
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+smoke 4
+  rotate: false
+  xy: 657, 577
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+smoke 5
+  rotate: false
+  xy: 963, 528
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+smoke 6
+  rotate: false
+  xy: 995, 537
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+smoke 7
+  rotate: false
+  xy: 243, 13
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+smoke 8
+  rotate: false
+  xy: 982, 888
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+star1
+  rotate: false
+  xy: 361, 698
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+thorn cirrus
+  rotate: true
+  xy: 805, 882
+  size: 36, 175
+  orig: 36, 175
+  offset: 0, 0
+  index: -1
+thunder1
+  rotate: true
+  xy: 716, 493
+  size: 41, 50
+  orig: 41, 50
+  offset: 0, 0
+  index: -1
+thunder10
+  rotate: true
+  xy: 716, 536
+  size: 20, 88
+  orig: 20, 88
+  offset: 0, 0
+  index: -1
+thunder11
+  rotate: false
+  xy: 806, 514
+  size: 19, 88
+  orig: 19, 88
+  offset: 0, 0
+  index: -1
+thunder2
+  rotate: false
+  xy: 507, 60
+  size: 32, 89
+  orig: 32, 89
+  offset: 0, 0
+  index: -1
+thunder3
+  rotate: true
+  xy: 383, 232
+  size: 61, 90
+  orig: 61, 90
+  offset: 0, 0
+  index: -1
+thunder4
+  rotate: false
+  xy: 472, 61
+  size: 33, 88
+  orig: 33, 88
+  offset: 0, 0
+  index: -1
+thunder5
+  rotate: true
+  xy: 827, 524
+  size: 37, 60
+  orig: 37, 60
+  offset: 0, 0
+  index: -1
+thunder6
+  rotate: true
+  xy: 153, 5
+  size: 36, 88
+  orig: 36, 88
+  offset: 0, 0
+  index: -1
+thunder7
+  rotate: false
+  xy: 995, 566
+  size: 20, 88
+  orig: 20, 88
+  offset: 0, 0
+  index: -1
+thunder8
+  rotate: true
+  xy: 716, 581
+  size: 21, 88
+  orig: 21, 88
+  offset: 0, 0
+  index: -1
+thunder9
+  rotate: true
+  xy: 716, 558
+  size: 21, 88
+  orig: 21, 88
+  offset: 0, 0
+  index: -1
+wave
+  rotate: true
+  xy: 757, 736
+  size: 38, 141
+  orig: 38, 141
+  offset: 0, 0
+  index: -1

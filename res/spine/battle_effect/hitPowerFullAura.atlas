@@ -1,0 +1,118 @@
+
+hitPowerFullAura.png
+size: 4096,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ground smoke 1
+  rotate: false
+  xy: 2156, 15
+  size: 159, 47
+  orig: 159, 47
+  offset: 0, 0
+  index: -1
+ground smoke 2
+  rotate: false
+  xy: 1466, 11
+  size: 172, 51
+  orig: 172, 51
+  offset: 0, 0
+  index: -1
+ground smoke 3
+  rotate: false
+  xy: 373, 11
+  size: 183, 51
+  orig: 183, 51
+  offset: 0, 0
+  index: -1
+ground smoke 4
+  rotate: false
+  xy: 2466, 17
+  size: 144, 45
+  orig: 144, 45
+  offset: 0, 0
+  index: -1
+ground smoke 5
+  rotate: false
+  xy: 1289, 15
+  size: 175, 47
+  orig: 175, 47
+  offset: 0, 0
+  index: -1
+ground smoke 6
+  rotate: false
+  xy: 1640, 9
+  size: 172, 53
+  orig: 172, 53
+  offset: 0, 0
+  index: -1
+ground smoke 7
+  rotate: false
+  xy: 1990, 20
+  size: 164, 42
+  orig: 164, 42
+  offset: 0, 0
+  index: -1
+ground smoke 8
+  rotate: false
+  xy: 2317, 19
+  size: 147, 43
+  orig: 147, 43
+  offset: 0, 0
+  index: -1
+ground smoke back 1
+  rotate: false
+  xy: 2, 2
+  size: 179, 60
+  orig: 179, 60
+  offset: 0, 0
+  index: -1
+ground smoke back 2
+  rotate: false
+  xy: 2612, 4
+  size: 137, 58
+  orig: 137, 58
+  offset: 0, 0
+  index: -1
+ground smoke back 3
+  rotate: false
+  xy: 1106, 21
+  size: 181, 41
+  orig: 181, 41
+  offset: 0, 0
+  index: -1
+ground smoke back 4
+  rotate: false
+  xy: 924, 19
+  size: 180, 43
+  orig: 180, 43
+  offset: 0, 0
+  index: -1
+ground smoke back 5
+  rotate: false
+  xy: 1814, 24
+  size: 174, 38
+  orig: 174, 38
+  offset: 0, 0
+  index: -1
+ground smoke back 6
+  rotate: false
+  xy: 740, 18
+  size: 182, 44
+  orig: 182, 44
+  offset: 0, 0
+  index: -1
+ground smoke back 7
+  rotate: false
+  xy: 183, 13
+  size: 188, 49
+  orig: 188, 49
+  offset: 0, 0
+  index: -1
+ground smoke back 8
+  rotate: false
+  xy: 558, 12
+  size: 180, 50
+  orig: 180, 50
+  offset: 0, 0
+  index: -1

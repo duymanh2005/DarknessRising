@@ -1,0 +1,34 @@
+
+hitClawBlue.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/SlashLine
+  rotate: false
+  xy: 2, 122
+  size: 222, 125
+  orig: 222, 125
+  offset: 0, 0
+  index: -1
+images/hit effect circle glowing
+  rotate: false
+  xy: 205, 73
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+images/impact 1
+  rotate: false
+  xy: 2, 2
+  size: 117, 118
+  orig: 117, 118
+  offset: 0, 0
+  index: -1
+images/shock wave
+  rotate: false
+  xy: 121, 37
+  size: 82, 83
+  orig: 82, 83
+  offset: 0, 0
+  index: -1

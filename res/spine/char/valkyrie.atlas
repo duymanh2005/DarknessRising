@@ -1,0 +1,125 @@
+
+valkyrie.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm L
+  rotate: true
+  xy: 2, 2
+  size: 64, 94
+  orig: 64, 94
+  offset: 0, 0
+  index: -1
+arm low R
+  rotate: false
+  xy: 98, 23
+  size: 36, 43
+  orig: 36, 43
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: false
+  xy: 450, 186
+  size: 53, 68
+  orig: 53, 68
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 99
+  size: 156, 155
+  orig: 156, 155
+  offset: 0, 0
+  index: -1
+eye cry
+  rotate: true
+  xy: 325, 89
+  size: 70, 50
+  orig: 70, 50
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 325, 19
+  size: 29, 31
+  orig: 29, 31
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 136, 31
+  size: 21, 35
+  orig: 21, 35
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 160, 161
+  size: 202, 93
+  orig: 202, 93
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 358, 15
+  size: 33, 29
+  orig: 33, 29
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 160, 29
+  size: 130, 163
+  orig: 130, 163
+  offset: 0, 0
+  index: -1
+leg low L
+  rotate: false
+  xy: 480, 170
+  size: 24, 14
+  orig: 24, 14
+  offset: 0, 0
+  index: -1
+leg low R
+  rotate: true
+  xy: 98, 4
+  size: 17, 25
+  orig: 17, 25
+  offset: 0, 0
+  index: -1
+leg up L
+  rotate: false
+  xy: 325, 50
+  size: 32, 37
+  orig: 32, 37
+  offset: 0, 0
+  index: -1
+leg up R
+  rotate: false
+  xy: 359, 46
+  size: 24, 41
+  orig: 24, 41
+  offset: 0, 0
+  index: -1
+light fx
+  rotate: false
+  xy: 364, 175
+  size: 84, 79
+  orig: 84, 79
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 68
+  size: 152, 29
+  orig: 152, 29
+  offset: 0, 0
+  index: -1
+waist
+  rotate: false
+  xy: 450, 161
+  size: 28, 23
+  orig: 28, 23
+  offset: 0, 0
+  index: -1

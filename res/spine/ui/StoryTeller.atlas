@@ -1,0 +1,174 @@
+
+StoryTeller.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+accesary
+  rotate: false
+  xy: 374, 167
+  size: 62, 30
+  orig: 62, 30
+  offset: 0, 0
+  index: -1
+arm L
+  rotate: false
+  xy: 304, 87
+  size: 58, 35
+  orig: 58, 35
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: false
+  xy: 296, 124
+  size: 67, 39
+  orig: 67, 39
+  offset: 0, 0
+  index: -1
+ear back
+  rotate: false
+  xy: 438, 166
+  size: 47, 31
+  orig: 47, 31
+  offset: 0, 0
+  index: -1
+ear front
+  rotate: false
+  xy: 374, 138
+  size: 51, 27
+  orig: 51, 27
+  offset: 0, 0
+  index: -1
+eyebrown default
+  rotate: false
+  xy: 465, 200
+  size: 11, 4
+  orig: 11, 4
+  offset: 0, 0
+  index: -1
+eyebrown scared
+  rotate: true
+  xy: 2, 2
+  size: 10, 12
+  orig: 10, 12
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: false
+  xy: 427, 138
+  size: 51, 26
+  orig: 51, 26
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: false
+  xy: 304, 32
+  size: 55, 26
+  orig: 55, 26
+  offset: 0, 0
+  index: -1
+eyes laugh
+  rotate: false
+  xy: 365, 111
+  size: 51, 25
+  orig: 51, 25
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 296, 165
+  size: 76, 89
+  orig: 76, 89
+  offset: 0, 0
+  index: -1
+hair back
+  rotate: false
+  xy: 247, 32
+  size: 55, 85
+  orig: 55, 85
+  offset: 0, 0
+  index: -1
+hair front
+  rotate: false
+  xy: 152, 119
+  size: 142, 135
+  orig: 142, 135
+  offset: 0, 0
+  index: -1
+leg L
+  rotate: true
+  xy: 152, 2
+  size: 38, 47
+  orig: 38, 47
+  offset: 0, 0
+  index: -1
+leg R
+  rotate: true
+  xy: 304, 60
+  size: 25, 58
+  orig: 25, 58
+  offset: 0, 0
+  index: -1
+light fx
+  rotate: true
+  xy: 487, 180
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1
+mouth default
+  rotate: false
+  xy: 480, 160
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+mouth scared
+  rotate: false
+  xy: 487, 169
+  size: 12, 9
+  orig: 12, 9
+  offset: 0, 0
+  index: -1
+mouth talk
+  rotate: false
+  xy: 201, 31
+  size: 14, 9
+  orig: 14, 9
+  offset: 0, 0
+  index: -1
+silk
+  rotate: false
+  xy: 152, 42
+  size: 93, 75
+  orig: 93, 75
+  offset: 0, 0
+  index: -1
+skirt
+  rotate: false
+  xy: 374, 199
+  size: 89, 55
+  orig: 89, 55
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 465, 206
+  size: 48, 45
+  orig: 48, 45
+  offset: 0, 0
+  index: -1
+wing a
+  rotate: false
+  xy: 2, 111
+  size: 148, 143
+  orig: 148, 143
+  offset: 0, 0
+  index: -1
+wing b
+  rotate: true
+  xy: 2, 14
+  size: 95, 148
+  orig: 95, 148
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,293 @@
+
+hydra.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back fin
+  rotate: false
+  xy: 589, 850
+  size: 188, 172
+  orig: 188, 172
+  offset: 0, 0
+  index: -1
+back fin glow
+  rotate: false
+  xy: 779, 850
+  size: 188, 172
+  orig: 188, 172
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2, 331
+  size: 345, 227
+  orig: 345, 227
+  offset: 0, 0
+  index: -1
+chasm
+  rotate: true
+  xy: 332, 529
+  size: 147, 55
+  orig: 147, 55
+  offset: 0, 0
+  index: -1
+dra body
+  rotate: false
+  xy: 231, 439
+  size: 99, 237
+  orig: 99, 237
+  offset: 0, 0
+  index: -1
+dra eye
+  rotate: false
+  xy: 471, 334
+  size: 17, 12
+  orig: 17, 12
+  offset: 0, 0
+  index: -1
+dra eye cry
+  rotate: false
+  xy: 969, 850
+  size: 30, 18
+  orig: 30, 18
+  offset: 0, 0
+  index: -1
+dra fin
+  rotate: false
+  xy: 436, 152
+  size: 94, 61
+  orig: 94, 61
+  offset: 0, 0
+  index: -1
+dra fin glow
+  rotate: true
+  xy: 332, 456
+  size: 71, 28
+  orig: 71, 28
+  offset: 0, 0
+  index: -1
+dra fin head
+  rotate: true
+  xy: 525, 257
+  size: 89, 46
+  orig: 89, 46
+  offset: 0, 0
+  index: -1
+dra head
+  rotate: false
+  xy: 138, 46
+  size: 125, 69
+  orig: 125, 69
+  offset: 0, 0
+  index: -1
+dra head fin glow
+  rotate: true
+  xy: 515, 64
+  size: 86, 25
+  orig: 86, 25
+  offset: 0, 0
+  index: -1
+dra jaw
+  rotate: true
+  xy: 969, 870
+  size: 47, 41
+  orig: 47, 41
+  offset: 0, 0
+  index: -1
+dra joint
+  rotate: true
+  xy: 471, 348
+  size: 97, 87
+  orig: 97, 87
+  offset: 0, 0
+  index: -1
+eyes stun
+  rotate: false
+  xy: 510, 476
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+fin
+  rotate: false
+  xy: 589, 747
+  size: 195, 101
+  orig: 195, 101
+  offset: 0, 0
+  index: -1
+fin glow
+  rotate: false
+  xy: 786, 745
+  size: 195, 103
+  orig: 195, 103
+  offset: 0, 0
+  index: -1
+fly line
+  rotate: false
+  xy: 389, 556
+  size: 124, 131
+  orig: 124, 131
+  offset: 0, 0
+  index: -1
+gem B
+  rotate: true
+  xy: 274, 37
+  size: 131, 155
+  orig: 131, 155
+  offset: 0, 0
+  index: -1
+gem DH
+  rotate: false
+  xy: 98, 20
+  size: 31, 26
+  orig: 31, 26
+  offset: 0, 0
+  index: -1
+gem DJ
+  rotate: true
+  xy: 431, 2
+  size: 51, 76
+  orig: 51, 76
+  offset: 0, 0
+  index: -1
+gem J
+  rotate: false
+  xy: 431, 55
+  size: 82, 95
+  orig: 82, 95
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 678
+  size: 343, 344
+  orig: 343, 344
+  offset: 0, 0
+  index: -1
+hole
+  rotate: false
+  xy: 354, 334
+  size: 115, 111
+  orig: 115, 111
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: true
+  xy: 2, 48
+  size: 281, 134
+  orig: 281, 134
+  offset: 0, 0
+  index: -1
+jaw in
+  rotate: false
+  xy: 347, 828
+  size: 240, 194
+  orig: 240, 194
+  offset: 0, 0
+  index: -1
+lighting bubble
+  rotate: false
+  xy: 274, 170
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+magic circle LV5
+  rotate: false
+  xy: 561, 597
+  size: 148, 148
+  orig: 148, 148
+  offset: 0, 0
+  index: -1
+mana shield
+  rotate: false
+  xy: 860, 609
+  size: 134, 134
+  orig: 134, 134
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 711, 596
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+spark smash1
+  rotate: true
+  xy: 561, 756
+  size: 70, 21
+  orig: 70, 21
+  offset: 0, 0
+  index: -1
+spark smash2
+  rotate: false
+  xy: 860, 576
+  size: 86, 31
+  orig: 86, 31
+  offset: 0, 0
+  index: -1
+spark smash3
+  rotate: true
+  xy: 969, 919
+  size: 103, 35
+  orig: 103, 35
+  offset: 0, 0
+  index: -1
+spark smash4
+  rotate: false
+  xy: 2, 17
+  size: 94, 29
+  orig: 94, 29
+  offset: 0, 0
+  index: -1
+spark smash5
+  rotate: true
+  xy: 515, 593
+  size: 94, 29
+  orig: 94, 29
+  offset: 0, 0
+  index: -1
+star1
+  rotate: false
+  xy: 525, 233
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 138, 117
+  size: 134, 212
+  orig: 134, 212
+  offset: 0, 0
+  index: -1
+tail glow
+  rotate: true
+  xy: 347, 689
+  size: 137, 212
+  orig: 137, 212
+  offset: 0, 0
+  index: -1
+up fx
+  rotate: true
+  xy: 389, 447
+  size: 107, 119
+  orig: 107, 119
+  offset: 0, 0
+  index: -1
+up fx2
+  rotate: true
+  xy: 231, 332
+  size: 105, 121
+  orig: 105, 121
+  offset: 0, 0
+  index: -1
+up fx3
+  rotate: true
+  xy: 436, 215
+  size: 117, 87
+  orig: 117, 87
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,540 @@
+{
+  "ID": "da3374aa-4397-4b34-8de1-8e95aea345a6",
+  "Version": "3.10.0.0",
+  "Name": "UserNameDialog",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 70,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 667.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.6667,
+              "Y": 0.3399
+            },
+            "LeftMargin": 124.9875,
+            "RightMargin": 124.9875,
+            "TopMargin": 440.2867,
+            "BottomMargin": 440.2867,
+            "Tag": 357,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/pnl_Popup.png",
+                  "Plist": "json/patch9_6.plist"
+                },
+                "Scale9OriginX": 119,
+                "Scale9OriginY": 120,
+                "Scale9Width": 123,
+                "Scale9Height": 126,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 250.0125,
+                  "Y": 226.7133
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.042,
+                  "Y": 1.0072
+                },
+                "LeftMargin": -10.5005,
+                "RightMargin": -10.5005,
+                "TopMargin": -1.6324,
+                "BottomMargin": -1.6323,
+                "Tag": 32,
+                "ActionTag": -2073332656,
+                "Size": {
+                  "X": 521.0261,
+                  "Y": 456.6913
+                },
+                "Name": "brk",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 58.0062,
+                  "Y": 370.7778
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.116,
+                  "Y": 0.8177
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 58.0062,
+                "RightMargin": 442.0188,
+                "TopMargin": 82.6487,
+                "BottomMargin": 370.7778,
+                "Tag": 28,
+                "ActionTag": 243052183,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeSpine",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "LabelText": "User Name",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/cam_stroke_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 250.0125,
+                  "Y": 411.9369
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9085
+                },
+                "PreSize": {
+                  "X": 0.356,
+                  "Y": 0.0882
+                },
+                "LeftMargin": 161.0125,
+                "RightMargin": 161.0125,
+                "TopMargin": 21.4897,
+                "BottomMargin": 391.9369,
+                "Tag": 22,
+                "ActionTag": -589606368,
+                "Size": {
+                  "X": 178.0,
+                  "Y": 40.0
+                },
+                "Name": "lblTitle",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "My Hero, please tell me your name",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/cam_stroke_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 250.0125,
+                  "Y": 350.937
+                },
+                "Scale": {
+                  "ScaleX": 0.75,
+                  "ScaleY": 0.75
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.774
+                },
+                "PreSize": {
+                  "X": 1.0899,
+                  "Y": 0.0882
+                },
+                "LeftMargin": -22.4875,
+                "RightMargin": -22.4875,
+                "TopMargin": 82.4896,
+                "BottomMargin": 330.937,
+                "Tag": 23,
+                "ActionTag": -1758358469,
+                "Size": {
+                  "X": 545.0,
+                  "Y": 40.0
+                },
+                "Name": "lblDes1",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "(Maximum 15 character)",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/cam_stroke_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 250.0125,
+                  "Y": 304.937
+                },
+                "Scale": {
+                  "ScaleX": 0.75,
+                  "ScaleY": 0.75
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6725
+                },
+                "PreSize": {
+                  "X": 0.772,
+                  "Y": 0.0882
+                },
+                "LeftMargin": 57.0125,
+                "RightMargin": 57.0125,
+                "TopMargin": 128.4896,
+                "BottomMargin": 284.937,
+                "Tag": 24,
+                "ActionTag": -1083216795,
+                "Size": {
+                  "X": 386.0,
+                  "Y": 40.0
+                },
+                "Name": "lblDes2",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "Your name is unchanable!",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/cam_stroke_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 246.0123,
+                  "Y": 167.937
+                },
+                "Scale": {
+                  "ScaleX": 0.75,
+                  "ScaleY": 0.75
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.492,
+                  "Y": 0.3704
+                },
+                "PreSize": {
+                  "X": 0.818,
+                  "Y": 0.0882
+                },
+                "LeftMargin": 41.5123,
+                "RightMargin": 49.5127,
+                "TopMargin": 265.4896,
+                "BottomMargin": 147.937,
+                "Tag": 25,
+                "ActionTag": -537965829,
+                "Size": {
+                  "X": 409.0,
+                  "Y": 40.0
+                },
+                "Name": "lblDes3",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/Map_Tittle_Name.png",
+                  "Plist": "json/patch9_1.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 63,
+                "Scale9OriginY": 17,
+                "Scale9Width": 66,
+                "Scale9Height": 18,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 46.95,
+                  "Y": 202.2342
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0939,
+                  "Y": 0.446
+                },
+                "PreSize": {
+                  "X": 0.682,
+                  "Y": 0.1147
+                },
+                "LeftMargin": 46.95,
+                "RightMargin": 112.055,
+                "TopMargin": 199.1824,
+                "BottomMargin": 202.2342,
+                "Tag": 29,
+                "ActionTag": 946703240,
+                "Size": {
+                  "X": 341.02,
+                  "Y": 52.01
+                },
+                "Name": "brkTxt",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "icon/ico_dice.png",
+                  "Plist": "json/icon.plist"
+                },
+                "Scale9OriginX": 16,
+                "Scale9OriginY": 16,
+                "Scale9Width": 17,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 427.4761,
+                  "Y": 230.7613
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8549,
+                  "Y": 0.5089
+                },
+                "PreSize": {
+                  "X": 0.098,
+                  "Y": 0.1081
+                },
+                "LeftMargin": 402.9761,
+                "RightMargin": 48.0489,
+                "TopMargin": 198.1653,
+                "BottomMargin": 206.2613,
+                "Tag": 30,
+                "ActionTag": -844533923,
+                "Size": {
+                  "X": 49.0,
+                  "Y": 49.0
+                },
+                "Name": "btnDice",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "button/Orange_Round.png",
+                  "Plist": "json/button.plist"
+                },
+                "Scale9OriginX": 72,
+                "Scale9OriginY": 25,
+                "Scale9Width": 75,
+                "Scale9Height": 28,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 142.5071,
+                  "Y": 84.0199
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.285,
+                  "Y": 0.1853
+                },
+                "PreSize": {
+                  "X": 0.438,
+                  "Y": 0.172
+                },
+                "LeftMargin": 33.0071,
+                "RightMargin": 248.0179,
+                "TopMargin": 330.4066,
+                "BottomMargin": 45.0199,
+                "Tag": 26,
+                "ActionTag": -330684258,
+                "Size": {
+                  "X": 219.0,
+                  "Y": 78.0
+                },
+                "Name": "btnReset",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "button/Blue_Button.png",
+                  "Plist": "json/button.plist"
+                },
+                "Scale9OriginX": 72,
+                "Scale9OriginY": 25,
+                "Scale9Width": 75,
+                "Scale9Height": 28,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 357.5179,
+                  "Y": 84.0199
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.715,
+                  "Y": 0.1853
+                },
+                "PreSize": {
+                  "X": 0.438,
+                  "Y": 0.172
+                },
+                "LeftMargin": 248.0179,
+                "RightMargin": 33.0071,
+                "TopMargin": 330.4066,
+                "BottomMargin": 45.0199,
+                "Tag": 27,
+                "ActionTag": -332191949,
+                "Size": {
+                  "X": 219.0,
+                  "Y": 78.0
+                },
+                "Name": "btnOk",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -652584757,
+            "Size": {
+              "X": 500.025,
+              "Y": 453.4266
+            },
+            "Name": "root",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 750.0,
+          "Y": 1334.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../font/cam_stroke_32-export.fnt",
+        "../../font/cam_stroke_32-export.png",
+        "../button.plist",
+        "../button.png",
+        "../icon.plist",
+        "../icon.png",
+        "../patch9_1.plist",
+        "../patch9_1.png",
+        "../patch9_6.plist",
+        "../patch9_6.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

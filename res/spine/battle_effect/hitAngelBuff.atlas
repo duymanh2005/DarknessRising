@@ -1,0 +1,41 @@
+
+hitAngelBuff.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/fairy
+  rotate: false
+  xy: 260, 320
+  size: 38, 59
+  orig: 38, 59
+  offset: 0, 0
+  index: -1
+images/fairy 2
+  rotate: false
+  xy: 2, 2
+  size: 38, 59
+  orig: 38, 59
+  offset: 0, 0
+  index: -1
+images/fairy wing
+  rotate: false
+  xy: 2, 63
+  size: 48, 58
+  orig: 48, 58
+  offset: 0, 0
+  index: -1
+images/grow_light
+  rotate: false
+  xy: 2, 123
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+images/light fx
+  rotate: false
+  xy: 52, 98
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+manashield.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bubble_Sphere
+  rotate: false
+  xy: 2, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+magic_circle3
+  rotate: false
+  xy: 304, 76
+  size: 226, 226
+  orig: 226, 226
+  offset: 0, 0
+  index: -1

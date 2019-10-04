@@ -1,0 +1,27 @@
+
+hitRed3.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+impactB_Red
+  rotate: false
+  xy: 325, 10
+  size: 156, 175
+  orig: 156, 175
+  offset: 0, 0
+  index: -1
+impactC_Red
+  rotate: false
+  xy: 167, 10
+  size: 156, 175
+  orig: 156, 175
+  offset: 0, 0
+  index: -1
+light_ring2
+  rotate: false
+  xy: 2, 2
+  size: 163, 183
+  orig: 163, 183
+  offset: 0, 0
+  index: -1

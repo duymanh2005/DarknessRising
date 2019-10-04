@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>patch9/Large_Panel.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{4,529},{292,279}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{292,279}</string>
+			</dict>
+			<key>patch9/Pop_up_Panel.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{735,4},{216,179}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{216,179}</string>
+			</dict>
+			<key>patch9/Formation_Panel.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{735,191},{131,105}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{131,105}</string>
+			</dict>
+			<key>patch9/Long_Panel.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{4,816},{673,113}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{673,113}</string>
+			</dict>
+			<key>patch9/Skill_Panel.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{4,937},{694,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{694,80}</string>
+			</dict>
+			<key>patch9/text_field_panel.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{304,716},{336,49}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{336,49}</string>
+			</dict>
+			<key>patch9/hor_layout_panel.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{304,612},{494,96}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{494,96}</string>
+			</dict>
+			<key>patch9/gradian_black.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{304,529},{671,75}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{671,75}</string>
+			</dict>
+			<key>patch9/pnl_Guild_bottom.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{4,4},{723,517}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{723,517}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>patch9_3.png</string>
+			<key>realTextureFileName</key>
+			<string>patch9_3.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

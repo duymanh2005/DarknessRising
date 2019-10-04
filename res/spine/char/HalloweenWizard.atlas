@@ -1,0 +1,314 @@
+
+HalloweenWizard.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm R
+  rotate: false
+  xy: 1958, 151
+  size: 26, 37
+  orig: 26, 37
+  offset: 0, 0
+  index: -1
+bat
+  rotate: true
+  xy: 1348, 90
+  size: 57, 43
+  orig: 57, 43
+  offset: 0, 0
+  index: -1
+boobs
+  rotate: false
+  xy: 1647, 96
+  size: 42, 24
+  orig: 42, 24
+  offset: 0, 0
+  index: -1
+broomhead
+  rotate: false
+  xy: 1081, 94
+  size: 133, 96
+  orig: 133, 96
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: true
+  xy: 1988, 180
+  size: 74, 58
+  orig: 74, 58
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 397, 17
+  size: 92, 67
+  orig: 92, 67
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: true
+  xy: 1216, 102
+  size: 88, 49
+  orig: 88, 49
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 1271, 149
+  size: 105, 122
+  orig: 105, 122
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: true
+  xy: 90, 8
+  size: 17, 28
+  orig: 17, 28
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 138, 79
+  size: 172, 175
+  orig: 172, 175
+  offset: 0, 0
+  index: -1
+hair back
+  rotate: true
+  xy: 1517, 118
+  size: 34, 86
+  orig: 34, 86
+  offset: 0, 0
+  index: -1
+hair front
+  rotate: false
+  xy: 1902, 190
+  size: 84, 64
+  orig: 84, 64
+  offset: 0, 0
+  index: -1
+hair tail
+  rotate: true
+  xy: 914, 108
+  size: 146, 165
+  orig: 146, 165
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 1605, 85
+  size: 40, 35
+  orig: 40, 35
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 1986, 154
+  size: 24, 39
+  orig: 24, 39
+  offset: 0, 0
+  index: -1
+hand cast
+  rotate: false
+  xy: 1605, 122
+  size: 86, 30
+  orig: 86, 30
+  offset: 0, 0
+  index: -1
+hat
+  rotate: false
+  xy: 734, 120
+  size: 178, 134
+  orig: 178, 134
+  offset: 0, 0
+  index: -1
+hit/SlashLine
+  rotate: false
+  xy: 312, 129
+  size: 222, 125
+  orig: 222, 125
+  offset: 0, 0
+  index: -1
+hit/glowing sparkle
+  rotate: false
+  xy: 1517, 154
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+hit/hit effect circle glowing
+  rotate: false
+  xy: 1514, 69
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+hit/light column
+  rotate: false
+  xy: 2, 27
+  size: 134, 227
+  orig: 134, 227
+  offset: 0, 0
+  index: -1
+hit/light_beam
+  rotate: false
+  xy: 1563, 76
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+hit/magic ring
+  rotate: false
+  xy: 1619, 154
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+hit/shock wave
+  rotate: true
+  xy: 312, 2
+  size: 82, 83
+  orig: 82, 83
+  offset: 0, 0
+  index: -1
+hit/tail light
+  rotate: true
+  xy: 312, 86
+  size: 41, 209
+  orig: 41, 209
+  offset: 0, 0
+  index: -1
+hit/vortex
+  rotate: false
+  xy: 1819, 169
+  size: 81, 85
+  orig: 81, 85
+  offset: 0, 0
+  index: -1
+leg L
+  rotate: true
+  xy: 1902, 149
+  size: 39, 54
+  orig: 39, 54
+  offset: 0, 0
+  index: -1
+leg R
+  rotate: true
+  xy: 245, 25
+  size: 52, 61
+  orig: 52, 61
+  offset: 0, 0
+  index: -1
+magic broom
+  rotate: false
+  xy: 1081, 192
+  size: 188, 62
+  orig: 188, 62
+  offset: 0, 0
+  index: -1
+magic circle
+  rotate: false
+  xy: 1395, 134
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+mark
+  rotate: false
+  xy: 1267, 179
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 397, 2
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+mouth#2
+  rotate: true
+  xy: 1267, 183
+  size: 7, 2
+  orig: 7, 2
+  offset: 0, 0
+  index: -1
+mouth#3
+  rotate: false
+  xy: 1216, 96
+  size: 11, 4
+  orig: 11, 4
+  offset: 0, 0
+  index: -1
+nose
+  rotate: false
+  xy: 308, 72
+  size: 2, 5
+  orig: 2, 5
+  offset: 0, 0
+  index: -1
+particles/light_explotion
+  rotate: false
+  xy: 1721, 158
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+pumpkin
+  rotate: true
+  xy: 491, 23
+  size: 61, 48
+  orig: 61, 48
+  offset: 0, 0
+  index: -1
+ribbon
+  rotate: false
+  xy: 536, 141
+  size: 196, 113
+  orig: 196, 113
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 9
+  size: 86, 16
+  orig: 86, 16
+  offset: 0, 0
+  index: -1
+skirt
+  rotate: false
+  xy: 1469, 95
+  size: 43, 37
+  orig: 43, 37
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 1267, 86
+  size: 61, 79
+  orig: 61, 79
+  offset: 0, 0
+  index: -1
+upper arm R
+  rotate: false
+  xy: 1693, 123
+  size: 17, 29
+  orig: 17, 29
+  offset: 0, 0
+  index: -1
+wing L
+  rotate: false
+  xy: 1393, 94
+  size: 74, 38
+  orig: 74, 38
+  offset: 0, 0
+  index: -1
+wing R
+  rotate: false
+  xy: 138, 33
+  size: 105, 44
+  orig: 105, 44
+  offset: 0, 0
+  index: -1

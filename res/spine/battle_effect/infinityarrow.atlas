@@ -1,0 +1,62 @@
+
+infinityarrow.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Light fx
+  rotate: false
+  xy: 247, 3
+  size: 242, 242
+  orig: 242, 242
+  offset: 0, 0
+  index: -1
+circle fx
+  rotate: false
+  xy: 504, 455
+  size: 187, 187
+  orig: 187, 187
+  offset: 0, 0
+  index: -1
+energy line
+  rotate: false
+  xy: 2, 355
+  size: 500, 287
+  orig: 500, 287
+  offset: 0, 0
+  index: -1
+gold stars
+  rotate: false
+  xy: 2, 644
+  size: 590, 300
+  orig: 590, 300
+  offset: 0, 0
+  index: -1
+grow_light
+  rotate: false
+  xy: 594, 688
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+light beam
+  rotate: false
+  xy: 852, 845
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+light dust  fx
+  rotate: false
+  xy: 2, 2
+  size: 243, 243
+  orig: 243, 243
+  offset: 0, 0
+  index: -1
+skill eff
+  rotate: false
+  xy: 2, 247
+  size: 462, 106
+  orig: 462, 106
+  offset: 0, 0
+  index: -1

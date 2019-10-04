@@ -1,0 +1,349 @@
+
+skeletonking.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Scythe
+  rotate: false
+  xy: 2, 454
+  size: 380, 563
+  orig: 380, 563
+  offset: 0, 0
+  index: -1
+Scythe fx
+  rotate: true
+  xy: 125, 2
+  size: 85, 119
+  orig: 85, 119
+  offset: 0, 0
+  index: -1
+Scythe plug down
+  rotate: true
+  xy: 878, 758
+  size: 76, 115
+  orig: 76, 115
+  offset: 0, 0
+  index: -1
+Scythe plug down fx
+  rotate: true
+  xy: 2, 3
+  size: 84, 121
+  orig: 84, 121
+  offset: 0, 0
+  index: -1
+arm lower L
+  rotate: true
+  xy: 878, 836
+  size: 181, 109
+  orig: 181, 109
+  offset: 0, 0
+  index: -1
+arm lower R
+  rotate: true
+  xy: 351, 71
+  size: 150, 157
+  orig: 150, 157
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: true
+  xy: 735, 544
+  size: 91, 140
+  orig: 91, 140
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: false
+  xy: 735, 637
+  size: 130, 127
+  orig: 130, 127
+  offset: 0, 0
+  index: -1
+belly
+  rotate: false
+  xy: 877, 558
+  size: 109, 101
+  orig: 109, 101
+  offset: 0, 0
+  index: -1
+body low
+  rotate: true
+  xy: 582, 225
+  size: 24, 42
+  orig: 24, 42
+  offset: 0, 0
+  index: -1
+body up
+  rotate: true
+  xy: 384, 478
+  size: 268, 240
+  orig: 268, 240
+  offset: 0, 0
+  index: -1
+cloak
+  rotate: false
+  xy: 2, 89
+  size: 347, 363
+  orig: 347, 363
+  offset: 0, 0
+  index: -1
+crown
+  rotate: false
+  xy: 733, 423
+  size: 132, 119
+  orig: 132, 119
+  offset: 0, 0
+  index: -1
+crown back
+  rotate: false
+  xy: 458, 8
+  size: 104, 61
+  orig: 104, 61
+  offset: 0, 0
+  index: -1
+cut fx
+  rotate: true
+  xy: 384, 458
+  size: 18, 124
+  orig: 18, 124
+  offset: 0, 0
+  index: -1
+eyes 1
+  rotate: true
+  xy: 747, 74
+  size: 64, 32
+  orig: 64, 32
+  offset: 0, 0
+  index: -1
+eyes 2
+  rotate: true
+  xy: 781, 74
+  size: 64, 30
+  orig: 64, 30
+  offset: 0, 0
+  index: -1
+eyes 3
+  rotate: false
+  xy: 708, 274
+  size: 70, 40
+  orig: 70, 40
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 747, 17
+  size: 55, 39
+  orig: 55, 39
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 780, 275
+  size: 45, 39
+  orig: 45, 39
+  offset: 0, 0
+  index: -1
+gem BU
+  rotate: false
+  xy: 989, 867
+  size: 11, 15
+  orig: 11, 15
+  offset: 0, 0
+  index: -1
+gem C
+  rotate: false
+  xy: 648, 748
+  size: 28, 16
+  orig: 28, 16
+  offset: 0, 0
+  index: -1
+gem S
+  rotate: false
+  xy: 867, 648
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+gem SL
+  rotate: false
+  xy: 877, 278
+  size: 37, 45
+  orig: 37, 45
+  offset: 0, 0
+  index: -1
+gem SR
+  rotate: false
+  xy: 827, 277
+  size: 48, 46
+  orig: 48, 46
+  offset: 0, 0
+  index: -1
+glance light
+  rotate: false
+  xy: 989, 884
+  size: 23, 133
+  orig: 23, 133
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 351, 223
+  size: 229, 229
+  orig: 229, 229
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 646, 20
+  size: 99, 103
+  orig: 99, 103
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 626, 469
+  size: 105, 97
+  orig: 105, 97
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 510, 71
+  size: 134, 150
+  orig: 134, 150
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: false
+  xy: 564, 5
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+leg armor L
+  rotate: false
+  xy: 911, 330
+  size: 74, 86
+  orig: 74, 86
+  offset: 0, 0
+  index: -1
+leg armor R
+  rotate: true
+  xy: 246, 6
+  size: 81, 94
+  orig: 81, 94
+  offset: 0, 0
+  index: -1
+leg low L
+  rotate: false
+  xy: 742, 197
+  size: 46, 55
+  orig: 46, 55
+  offset: 0, 0
+  index: -1
+leg low R
+  rotate: true
+  xy: 742, 140
+  size: 55, 54
+  orig: 55, 54
+  offset: 0, 0
+  index: -1
+leg up L
+  rotate: false
+  xy: 916, 280
+  size: 30, 48
+  orig: 30, 48
+  offset: 0, 0
+  index: -1
+leg up R
+  rotate: false
+  xy: 993, 707
+  size: 29, 49
+  orig: 29, 49
+  offset: 0, 0
+  index: -1
+light column
+  rotate: true
+  xy: 342, 4
+  size: 65, 114
+  orig: 65, 114
+  offset: 0, 0
+  index: -1
+lighting circle
+  rotate: false
+  xy: 582, 348
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+mana shield
+  rotate: false
+  xy: 708, 316
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+moon slash1
+  rotate: false
+  xy: 582, 251
+  size: 124, 95
+  orig: 124, 95
+  offset: 0, 0
+  index: -1
+moon slash2
+  rotate: true
+  xy: 646, 125
+  size: 124, 94
+  orig: 124, 94
+  offset: 0, 0
+  index: -1
+moon slash3
+  rotate: false
+  xy: 867, 661
+  size: 124, 95
+  orig: 124, 95
+  offset: 0, 0
+  index: -1
+moon slash4
+  rotate: true
+  xy: 867, 418
+  size: 124, 94
+  orig: 124, 94
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 708, 254
+  size: 79, 18
+  orig: 79, 18
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 384, 748
+  size: 262, 269
+  orig: 262, 269
+  offset: 0, 0
+  index: -1
+shoulder L back
+  rotate: false
+  xy: 626, 568
+  size: 107, 178
+  orig: 107, 178
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 648, 766
+  size: 228, 251
+  orig: 228, 251
+  offset: 0, 0
+  index: -1
+slash
+  rotate: false
+  xy: 815, 325
+  size: 94, 91
+  orig: 94, 91
+  offset: 0, 0
+  index: -1

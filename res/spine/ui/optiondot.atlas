@@ -1,0 +1,20 @@
+
+optiondot.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+soul_border
+  rotate: false
+  xy: 2, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+soul_noborder
+  rotate: false
+  xy: 54, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,34 @@
+
+hitVapare.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ball
+  rotate: false
+  xy: 224, 25
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+glowing light circle radial
+  rotate: false
+  xy: 2, 2
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+hit effect circle glowing
+  rotate: false
+  xy: 224, 63
+  size: 72, 58
+  orig: 72, 58
+  offset: 0, 0
+  index: -1
+light beam
+  rotate: false
+  xy: 123, 22
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1

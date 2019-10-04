@@ -1,0 +1,335 @@
+
+hitWhiteWizardEvilHand.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm low
+  rotate: false
+  xy: 424, 2
+  size: 85, 49
+  orig: 85, 49
+  offset: 0, 0
+  index: -1
+explosion beam1
+  rotate: true
+  xy: 984, 223
+  size: 31, 38
+  orig: 31, 38
+  offset: 0, 0
+  index: -1
+explosion beam2
+  rotate: false
+  xy: 980, 172
+  size: 42, 49
+  orig: 42, 49
+  offset: 0, 0
+  index: -1
+explosion beam3
+  rotate: false
+  xy: 511, 2
+  size: 50, 53
+  orig: 50, 53
+  offset: 0, 0
+  index: -1
+explosion beam4
+  rotate: false
+  xy: 760, 110
+  size: 56, 55
+  orig: 56, 55
+  offset: 0, 0
+  index: -1
+explosion beam5
+  rotate: true
+  xy: 710, 113
+  size: 56, 48
+  orig: 56, 48
+  offset: 0, 0
+  index: -1
+explosion beam6
+  rotate: false
+  xy: 853, 98
+  size: 56, 41
+  orig: 56, 41
+  offset: 0, 0
+  index: -1
+finger down
+  rotate: true
+  xy: 606, 2
+  size: 19, 56
+  orig: 19, 56
+  offset: 0, 0
+  index: -1
+finger on
+  rotate: false
+  xy: 980, 129
+  size: 42, 41
+  orig: 42, 41
+  offset: 0, 0
+  index: -1
+glance light
+  rotate: true
+  xy: 763, 231
+  size: 23, 123
+  orig: 23, 123
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 25
+  size: 229, 229
+  orig: 229, 229
+  offset: 0, 0
+  index: -1
+ground smoke 1
+  rotate: false
+  xy: 342, 26
+  size: 80, 23
+  orig: 80, 23
+  offset: 0, 0
+  index: -1
+ground smoke 2
+  rotate: false
+  xy: 888, 141
+  size: 86, 25
+  orig: 86, 25
+  offset: 0, 0
+  index: -1
+ground smoke 3
+  rotate: false
+  xy: 354, 127
+  size: 92, 25
+  orig: 92, 25
+  offset: 0, 0
+  index: -1
+ground smoke 4
+  rotate: true
+  xy: 421, 53
+  size: 72, 23
+  orig: 72, 23
+  offset: 0, 0
+  index: -1
+ground smoke 5
+  rotate: false
+  xy: 763, 167
+  size: 88, 24
+  orig: 88, 24
+  offset: 0, 0
+  index: -1
+ground smoke 6
+  rotate: false
+  xy: 446, 83
+  size: 86, 27
+  orig: 86, 27
+  offset: 0, 0
+  index: -1
+ground smoke 7
+  rotate: false
+  xy: 534, 88
+  size: 82, 21
+  orig: 82, 21
+  offset: 0, 0
+  index: -1
+ground smoke 8
+  rotate: false
+  xy: 326, 2
+  size: 74, 22
+  orig: 74, 22
+  offset: 0, 0
+  index: -1
+ground smoke back 1
+  rotate: false
+  xy: 556, 155
+  size: 90, 30
+  orig: 90, 30
+  offset: 0, 0
+  index: -1
+ground smoke back 2
+  rotate: false
+  xy: 535, 57
+  size: 69, 29
+  orig: 69, 29
+  offset: 0, 0
+  index: -1
+ground smoke back 3
+  rotate: false
+  xy: 671, 171
+  size: 90, 20
+  orig: 90, 20
+  offset: 0, 0
+  index: -1
+ground smoke back 4
+  rotate: false
+  xy: 2, 2
+  size: 90, 21
+  orig: 90, 21
+  offset: 0, 0
+  index: -1
+ground smoke back 5
+  rotate: false
+  xy: 446, 62
+  size: 87, 19
+  orig: 87, 19
+  offset: 0, 0
+  index: -1
+ground smoke back 6
+  rotate: false
+  xy: 233, 2
+  size: 91, 22
+  orig: 91, 22
+  offset: 0, 0
+  index: -1
+ground smoke back 7
+  rotate: false
+  xy: 888, 229
+  size: 94, 25
+  orig: 94, 25
+  offset: 0, 0
+  index: -1
+ground smoke back 8
+  rotate: false
+  xy: 888, 168
+  size: 90, 25
+  orig: 90, 25
+  offset: 0, 0
+  index: -1
+hand down
+  rotate: false
+  xy: 818, 97
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+hand on
+  rotate: false
+  xy: 818, 131
+  size: 33, 34
+  orig: 33, 34
+  offset: 0, 0
+  index: -1
+hole
+  rotate: false
+  xy: 342, 51
+  size: 77, 74
+  orig: 77, 74
+  offset: 0, 0
+  index: -1
+light column
+  rotate: true
+  xy: 556, 187
+  size: 67, 113
+  orig: 67, 113
+  offset: 0, 0
+  index: -1
+lighting circle
+  rotate: false
+  xy: 233, 135
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+magic circle LV5
+  rotate: false
+  xy: 354, 154
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+mana shield
+  rotate: false
+  xy: 233, 26
+  size: 107, 107
+  orig: 107, 107
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 456, 156
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: -1
+thumb on
+  rotate: false
+  xy: 606, 23
+  size: 20, 63
+  orig: 20, 63
+  offset: 0, 0
+  index: -1
+thunder1
+  rotate: false
+  xy: 563, 5
+  size: 41, 50
+  orig: 41, 50
+  offset: 0, 0
+  index: -1
+thunder10
+  rotate: true
+  xy: 448, 112
+  size: 20, 88
+  orig: 20, 88
+  offset: 0, 0
+  index: -1
+thunder11
+  rotate: true
+  xy: 538, 111
+  size: 19, 88
+  orig: 19, 88
+  offset: 0, 0
+  index: -1
+thunder2
+  rotate: true
+  xy: 888, 195
+  size: 32, 89
+  orig: 32, 89
+  offset: 0, 0
+  index: -1
+thunder3
+  rotate: true
+  xy: 671, 193
+  size: 61, 90
+  orig: 61, 90
+  offset: 0, 0
+  index: -1
+thunder4
+  rotate: false
+  xy: 853, 141
+  size: 33, 88
+  orig: 33, 88
+  offset: 0, 0
+  index: -1
+thunder5
+  rotate: true
+  xy: 648, 132
+  size: 37, 60
+  orig: 37, 60
+  offset: 0, 0
+  index: -1
+thunder6
+  rotate: true
+  xy: 763, 193
+  size: 36, 88
+  orig: 36, 88
+  offset: 0, 0
+  index: -1
+thunder7
+  rotate: true
+  xy: 456, 134
+  size: 20, 88
+  orig: 20, 88
+  offset: 0, 0
+  index: -1
+thunder8
+  rotate: true
+  xy: 94, 2
+  size: 21, 88
+  orig: 21, 88
+  offset: 0, 0
+  index: -1
+thunder9
+  rotate: true
+  xy: 546, 132
+  size: 21, 88
+  orig: 21, 88
+  offset: 0, 0
+  index: -1

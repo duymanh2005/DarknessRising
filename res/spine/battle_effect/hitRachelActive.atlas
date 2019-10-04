@@ -1,0 +1,118 @@
+
+hitRachelActive.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hit/hit effect circle glowing
+  rotate: false
+  xy: 137, 14
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+hit/light beam
+  rotate: false
+  xy: 643, 63
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+hit/light fx
+  rotate: true
+  xy: 2, 52
+  size: 74, 200
+  orig: 74, 200
+  offset: 0, 0
+  index: -1
+hit/magic ring
+  rotate: false
+  xy: 338, 2
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+hit/magic ring 2
+  rotate: false
+  xy: 581, 33
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+hit/starsparkle
+  rotate: false
+  xy: 174, 24
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder1
+  rotate: true
+  xy: 412, 12
+  size: 62, 75
+  orig: 62, 75
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder10
+  rotate: true
+  xy: 874, 96
+  size: 30, 132
+  orig: 30, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder11
+  rotate: true
+  xy: 204, 42
+  size: 28, 132
+  orig: 28, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder2
+  rotate: true
+  xy: 2, 3
+  size: 47, 133
+  orig: 47, 133
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder4
+  rotate: true
+  xy: 338, 76
+  size: 50, 132
+  orig: 50, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder5
+  rotate: true
+  xy: 489, 38
+  size: 55, 90
+  orig: 55, 90
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder6
+  rotate: true
+  xy: 204, 72
+  size: 54, 132
+  orig: 54, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder7
+  rotate: true
+  xy: 740, 96
+  size: 30, 132
+  orig: 30, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder8
+  rotate: true
+  xy: 472, 95
+  size: 31, 132
+  orig: 31, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder9
+  rotate: true
+  xy: 606, 95
+  size: 31, 132
+  orig: 31, 132
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,442 @@
+{
+  "ID": "9534fc74-eae3-44b2-85d0-6d933a0c3664",
+  "Version": "3.10.0.0",
+  "Name": "RulesDialog",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 189,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 667.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 216,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/pnl_Popup.png",
+                  "Plist": "json/patch9_6.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 119,
+                "Scale9OriginY": 120,
+                "Scale9Width": 123,
+                "Scale9Height": 126,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 375.0,
+                  "Y": 667.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.9,
+                  "Y": 0.7
+                },
+                "LeftMargin": 37.5,
+                "RightMargin": 37.5,
+                "TopMargin": 200.1,
+                "BottomMargin": 200.1,
+                "Tag": 217,
+                "Children": [
+                  {
+                    "DirectionType": "Vertical",
+                    "HorizontalType": "Align_HorizontalCenter",
+                    "ScrollDirectionType": 0,
+                    "ClipAble": true,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 150
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 150
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 337.5,
+                      "Y": 407.7904
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4367
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.9,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 33.75,
+                    "RightMargin": 33.75,
+                    "TopMargin": 152.4896,
+                    "BottomMargin": 34.2704,
+                    "Tag": 454,
+                    "ActionTag": 1290133151,
+                    "Size": {
+                      "X": 607.5,
+                      "Y": 747.04
+                    },
+                    "Name": "list_view",
+                    "ctype": "ListViewObjectData"
+                  }
+                ],
+                "ActionTag": -1882979964,
+                "Size": {
+                  "X": 675.0,
+                  "Y": 933.8
+                },
+                "Name": "brk",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "LabelText": "Rules",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/cam_stroke_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 379.8,
+                  "Y": 1073.1748
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5064,
+                  "Y": 0.8045
+                },
+                "PreSize": {
+                  "X": 0.1227,
+                  "Y": 0.03
+                },
+                "LeftMargin": 333.8,
+                "RightMargin": 324.2,
+                "TopMargin": 240.8252,
+                "BottomMargin": 1053.1748,
+                "Tag": 49,
+                "ActionTag": 490240503,
+                "Size": {
+                  "X": 92.0,
+                  "Y": 40.0
+                },
+                "Name": "lblDialogTitle",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/sep_header_pattern.png",
+                  "Plist": "json/patch9_8.plist"
+                },
+                "Scale9OriginX": 79,
+                "Scale9OriginY": 5,
+                "Scale9Width": 82,
+                "Scale9Height": 8,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 375.0,
+                  "Y": 1021.5713
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7658
+                },
+                "PreSize": {
+                  "X": 0.32,
+                  "Y": 0.0135
+                },
+                "LeftMargin": 255.0,
+                "RightMargin": 255.0,
+                "TopMargin": 303.4287,
+                "BottomMargin": 1012.5713,
+                "Tag": 50,
+                "ActionTag": -1469119629,
+                "Size": {
+                  "X": 240.0,
+                  "Y": 18.0
+                },
+                "Name": "seperator",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "button/quit_button.png",
+                  "Plist": "json/button.plist"
+                },
+                "Scale9OriginX": 27,
+                "Scale9OriginY": 27,
+                "Scale9Width": 18,
+                "Scale9Height": 22,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 674.475,
+                  "Y": 1093.6133
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.8993,
+                  "Y": 0.8198
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.096,
+                  "Y": 0.057
+                },
+                "LeftMargin": 638.475,
+                "RightMargin": 39.525,
+                "TopMargin": 202.3677,
+                "BottomMargin": 1055.5942,
+                "Tag": 453,
+                "ActionTag": 845587155,
+                "Size": {
+                  "X": 72.0,
+                  "Y": 76.038
+                },
+                "Name": "btnExit",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "LabelText": "CEO",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/UTMBienvenue_stroke_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 375.0,
+                  "Y": 849.0099
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6364
+                },
+                "PreSize": {
+                  "X": 0.1107,
+                  "Y": 0.03
+                },
+                "LeftMargin": 333.5,
+                "RightMargin": 333.5,
+                "TopMargin": 464.9901,
+                "BottomMargin": 829.0099,
+                "Tag": 455,
+                "ActionTag": -141167136,
+                "Size": {
+                  "X": 83.0,
+                  "Y": 40.0
+                },
+                "VisibleForFrame": false,
+                "Name": "title",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "@Creants",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/UTMBienvenue_stroke_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 375.0,
+                  "Y": 620.076
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4648
+                },
+                "PreSize": {
+                  "X": 0.236,
+                  "Y": 0.03
+                },
+                "LeftMargin": 286.5,
+                "RightMargin": 286.5,
+                "TopMargin": 693.924,
+                "BottomMargin": 600.076,
+                "Tag": 456,
+                "ActionTag": -2101669372,
+                "Size": {
+                  "X": 177.0,
+                  "Y": 40.0
+                },
+                "VisibleForFrame": false,
+                "Name": "content",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": 591370460,
+            "Size": {
+              "X": 750.0,
+              "Y": 1334.0
+            },
+            "Name": "root",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 750.0,
+          "Y": 1334.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../font/cam_stroke_32-export.fnt",
+        "../../font/cam_stroke_32-export.png",
+        "../../font/UTMBienvenue_stroke_32-export.fnt",
+        "../../font/UTMBienvenue_stroke_32-export.png",
+        "../button.plist",
+        "../button.png",
+        "../patch9_6.plist",
+        "../patch9_6.png",
+        "../patch9_8.plist",
+        "../patch9_8.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

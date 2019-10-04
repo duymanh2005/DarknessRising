@@ -1,0 +1,41 @@
+
+hitHeal.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Circle_A_small
+  rotate: false
+  xy: 2, 166
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+Light_circleA_small
+  rotate: false
+  xy: 324, 246
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+Shine
+  rotate: false
+  xy: 324, 214
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+ShineB_small
+  rotate: false
+  xy: 566, 452
+  size: 26, 34
+  orig: 26, 34
+  offset: 0, 0
+  index: -1
+speedlight_effect
+  rotate: false
+  xy: 2, 2
+  size: 11, 162
+  orig: 11, 162
+  offset: 0, 0
+  index: -1

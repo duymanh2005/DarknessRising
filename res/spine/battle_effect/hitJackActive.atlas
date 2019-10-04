@@ -1,0 +1,174 @@
+
+hitJackActive.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hit/glowing sparkle
+  rotate: false
+  xy: 2, 52
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+hit/hit effect circle glowing
+  rotate: false
+  xy: 226, 77
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+hit/light column
+  rotate: true
+  xy: 154, 153
+  size: 101, 170
+  orig: 101, 170
+  offset: 0, 0
+  index: -1
+hit/lightbeam
+  rotate: false
+  xy: 326, 147
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+hit/magic ring
+  rotate: false
+  xy: 79, 52
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+hit/smoke ball
+  rotate: false
+  xy: 2, 129
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+hit/tail light
+  rotate: true
+  xy: 326, 223
+  size: 31, 156
+  orig: 31, 156
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 1
+  rotate: false
+  xy: 71, 11
+  size: 60, 18
+  orig: 60, 18
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 2
+  rotate: false
+  xy: 156, 112
+  size: 65, 19
+  orig: 65, 19
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 3
+  rotate: false
+  xy: 70, 31
+  size: 69, 19
+  orig: 69, 19
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 4
+  rotate: false
+  xy: 227, 115
+  size: 54, 17
+  orig: 54, 17
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 5
+  rotate: false
+  xy: 156, 92
+  size: 66, 18
+  orig: 66, 18
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 6
+  rotate: false
+  xy: 402, 155
+  size: 65, 20
+  orig: 65, 20
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 7
+  rotate: false
+  xy: 402, 137
+  size: 62, 16
+  orig: 62, 16
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 8
+  rotate: false
+  xy: 156, 41
+  size: 55, 16
+  orig: 55, 16
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 1
+  rotate: false
+  xy: 402, 198
+  size: 67, 23
+  orig: 67, 23
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 2
+  rotate: true
+  xy: 484, 202
+  size: 52, 22
+  orig: 52, 22
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 3
+  rotate: false
+  xy: 156, 75
+  size: 68, 15
+  orig: 68, 15
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 4
+  rotate: false
+  xy: 2, 2
+  size: 67, 16
+  orig: 67, 16
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 5
+  rotate: false
+  xy: 156, 59
+  size: 65, 14
+  orig: 65, 14
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 6
+  rotate: false
+  xy: 227, 134
+  size: 68, 17
+  orig: 68, 17
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 7
+  rotate: false
+  xy: 154, 133
+  size: 71, 18
+  orig: 71, 18
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 8
+  rotate: false
+  xy: 402, 177
+  size: 68, 19
+  orig: 68, 19
+  offset: 0, 0
+  index: -1
+weapon/ghost soul
+  rotate: true
+  xy: 2, 20
+  size: 30, 66
+  orig: 30, 66
+  offset: 0, 0
+  index: -1

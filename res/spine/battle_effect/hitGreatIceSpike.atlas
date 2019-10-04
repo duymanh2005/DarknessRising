@@ -1,0 +1,83 @@
+
+hitGreatIceSpike.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 1396, 63
+  size: 187, 187
+  orig: 187, 187
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 2, 2
+  size: 248, 261
+  orig: 248, 261
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 748, 63
+  size: 187, 242
+  orig: 187, 242
+  offset: 0, 0
+  index: -1
+5
+  rotate: true
+  xy: 265, 23
+  size: 227, 250
+  orig: 227, 250
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 517, 21
+  size: 229, 229
+  orig: 229, 229
+  offset: 0, 0
+  index: -1
+Eff
+  rotate: false
+  xy: 1781, 28
+  size: 106, 87
+  orig: 106, 87
+  offset: 0, 0
+  index: -1
+Effect/ice_00
+  rotate: false
+  xy: 1889, 51
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Effect/water_magic_circle
+  rotate: false
+  xy: 992, 50
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+Effect/water_magic_ring
+  rotate: false
+  xy: 1194, 50
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ice effect 1 copy
+  rotate: false
+  xy: 1781, 117
+  size: 213, 133
+  orig: 213, 133
+  offset: 0, 0
+  index: -1
+ice effect 2 copy
+  rotate: false
+  xy: 1585, 82
+  size: 194, 168
+  orig: 194, 168
+  offset: 0, 0
+  index: -1

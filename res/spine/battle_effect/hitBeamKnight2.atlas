@@ -1,0 +1,111 @@
+
+hitBeamKnight.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+explosion beam1
+  rotate: false
+  xy: 666, 133
+  size: 77, 95
+  orig: 77, 95
+  offset: 0, 0
+  index: -1
+explosion beam2
+  rotate: false
+  xy: 559, 106
+  size: 105, 122
+  orig: 105, 122
+  offset: 0, 0
+  index: -1
+explosion beam3
+  rotate: false
+  xy: 327, 104
+  size: 126, 133
+  orig: 126, 133
+  offset: 0, 0
+  index: -1
+explosion beam4
+  rotate: false
+  xy: 803, 371
+  size: 141, 138
+  orig: 141, 138
+  offset: 0, 0
+  index: -1
+explosion beam5
+  rotate: false
+  xy: 803, 249
+  size: 141, 120
+  orig: 141, 120
+  offset: 0, 0
+  index: -1
+explosion beam6
+  rotate: true
+  xy: 455, 96
+  size: 141, 102
+  orig: 141, 102
+  offset: 0, 0
+  index: -1
+fire light
+  rotate: false
+  xy: 573, 281
+  size: 228, 228
+  orig: 228, 228
+  offset: 0, 0
+  index: -1
+gloriole
+  rotate: false
+  xy: 2, 2
+  size: 209, 209
+  orig: 209, 209
+  offset: 0, 0
+  index: -1
+lighting bubble
+  rotate: false
+  xy: 301, 239
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+sound wave
+  rotate: false
+  xy: 2, 213
+  size: 297, 296
+  orig: 297, 296
+  offset: 0, 0
+  index: -1
+spark smash1
+  rotate: false
+  xy: 327, 67
+  size: 116, 35
+  orig: 116, 35
+  offset: 0, 0
+  index: -1
+spark smash2
+  rotate: true
+  xy: 274, 68
+  size: 143, 51
+  orig: 143, 51
+  offset: 0, 0
+  index: -1
+spark smash3
+  rotate: true
+  xy: 213, 39
+  size: 172, 59
+  orig: 172, 59
+  offset: 0, 0
+  index: -1
+spark smash4
+  rotate: true
+  xy: 946, 352
+  size: 157, 49
+  orig: 157, 49
+  offset: 0, 0
+  index: -1
+spark smash5
+  rotate: false
+  xy: 573, 230
+  size: 157, 49
+  orig: 157, 49
+  offset: 0, 0
+  index: -1

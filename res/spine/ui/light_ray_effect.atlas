@@ -1,0 +1,13 @@
+
+light_ray_effect.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+UI_Win_Yelloweffect_small
+  rotate: false
+  xy: 2, 2
+  size: 352, 352
+  orig: 352, 352
+  offset: 0, 0
+  index: -1

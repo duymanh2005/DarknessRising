@@ -1,0 +1,20 @@
+
+chaos_stone.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chaos stone
+  rotate: true
+  xy: 2, 2
+  size: 302, 422
+  orig: 302, 422
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 2, 306
+  size: 672, 670
+  orig: 672, 670
+  offset: 0, 0
+  index: -1

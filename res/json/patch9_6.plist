@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>patch9/pnl_Popup.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{656,1},{355,361}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{361,366}</string>
+			</dict>
+			<key>patch9/pnl_talking.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,488},{729,205}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{729,205}</string>
+			</dict>
+			<key>patch9/pnl_mailnumber.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{831,479},{137,63}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{139,65}</string>
+			</dict>
+			<key>patch9/pnl_eventname.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{831,424},{192,53}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{192,54}</string>
+			</dict>
+			<key>patch9/pnl_Rating.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{653,450}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{669,462}</string>
+			</dict>
+			<key>patch9/pnl_content.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{656,364},{239,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{239,65}</string>
+			</dict>
+			<key>patch9/pnl_number_small.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{656,424},{173,62}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{173,62}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>patch9_6.png</string>
+			<key>realTextureFileName</key>
+			<string>patch9_6.png</string>
+			<key>size</key>
+			<string>{1024,694}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>694</integer>
+		</dict>
+	</dict>
+</plist>

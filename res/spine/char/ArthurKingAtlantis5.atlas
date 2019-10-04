@@ -1,0 +1,489 @@
+
+ArthurKingAtlantis.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+angry_mouth
+  rotate: true
+  xy: 479, 142
+  size: 21, 14
+  orig: 21, 14
+  offset: 0, 0
+  index: -1
+arm_left
+  rotate: true
+  xy: 495, 312
+  size: 71, 79
+  orig: 71, 79
+  offset: 0, 0
+  index: -1
+arm_right
+  rotate: true
+  xy: 577, 378
+  size: 57, 66
+  orig: 57, 66
+  offset: 0, 0
+  index: -1
+belt
+  rotate: false
+  xy: 110, 4
+  size: 73, 30
+  orig: 73, 30
+  offset: 0, 0
+  index: -1
+brace_left
+  rotate: true
+  xy: 676, 256
+  size: 62, 40
+  orig: 62, 40
+  offset: 0, 0
+  index: -1
+brace_left_armor
+  rotate: false
+  xy: 643, 320
+  size: 79, 41
+  orig: 79, 41
+  offset: 0, 0
+  index: -1
+brace_right
+  rotate: false
+  xy: 321, 134
+  size: 55, 39
+  orig: 55, 39
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 311, 108
+  size: 63, 24
+  orig: 63, 24
+  offset: 0, 0
+  index: -1
+eyes_brow
+  rotate: false
+  xy: 376, 104
+  size: 63, 21
+  orig: 63, 21
+  offset: 0, 0
+  index: -1
+eyes_close
+  rotate: false
+  xy: 536, 202
+  size: 52, 19
+  orig: 52, 19
+  offset: 0, 0
+  index: -1
+eyes_cry
+  rotate: false
+  xy: 121, 104
+  size: 106, 38
+  orig: 106, 38
+  offset: 0, 0
+  index: -1
+foot_left
+  rotate: false
+  xy: 800, 229
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+foot_right
+  rotate: false
+  xy: 676, 230
+  size: 40, 24
+  orig: 40, 24
+  offset: 0, 0
+  index: -1
+fx/DotSparkA
+  rotate: false
+  xy: 316, 55
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+fx/SlashLine
+  rotate: false
+  xy: 225, 385
+  size: 222, 125
+  orig: 222, 125
+  offset: 0, 0
+  index: -1
+fx/arm_fx
+  rotate: false
+  xy: 449, 385
+  size: 126, 50
+  orig: 126, 50
+  offset: 0, 0
+  index: -1
+fx/chasm
+  rotate: false
+  xy: 449, 437
+  size: 196, 73
+  orig: 196, 73
+  offset: 0, 0
+  index: -1
+fx/circle_glowing_fx
+  rotate: false
+  xy: 316, 6
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+fx/explode_circle
+  rotate: true
+  xy: 378, 127
+  size: 36, 61
+  orig: 36, 61
+  offset: 0, 0
+  index: -1
+fx/firespark
+  rotate: false
+  xy: 938, 313
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+fx/impact 1
+  rotate: false
+  xy: 379, 187
+  size: 117, 118
+  orig: 117, 118
+  offset: 0, 0
+  index: -1
+fx/light_beam
+  rotate: false
+  xy: 718, 216
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+fx/precast fx
+  rotate: false
+  xy: 892, 363
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+fx/rotate_fx
+  rotate: false
+  xy: 229, 103
+  size: 80, 43
+  orig: 80, 43
+  offset: 0, 0
+  index: -1
+fx/slash/slash2#1
+  rotate: false
+  xy: 110, 36
+  size: 63, 66
+  orig: 63, 66
+  offset: 0, 0
+  index: -1
+fx/slash/slash2#2
+  rotate: true
+  xy: 576, 313
+  size: 63, 65
+  orig: 63, 65
+  offset: 0, 0
+  index: -1
+fx/slash/slash2#3
+  rotate: false
+  xy: 226, 41
+  size: 61, 60
+  orig: 61, 60
+  offset: 0, 0
+  index: -1
+fx/slash/slash2#4
+  rotate: false
+  xy: 226, 2
+  size: 61, 37
+  orig: 61, 37
+  offset: 0, 0
+  index: -1
+fx/slash/slash2#5
+  rotate: false
+  xy: 369, 65
+  size: 61, 37
+  orig: 61, 37
+  offset: 0, 0
+  index: -1
+fx/trident_gold
+  rotate: false
+  xy: 498, 202
+  size: 36, 108
+  orig: 36, 108
+  offset: 0, 0
+  index: -1
+fx/trident_gold_fx_2
+  rotate: false
+  xy: 536, 223
+  size: 36, 87
+  orig: 36, 87
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 225, 175
+  size: 152, 130
+  orig: 152, 130
+  offset: 0, 0
+  index: -1
+hair_back
+  rotate: false
+  xy: 647, 395
+  size: 150, 115
+  orig: 150, 115
+  offset: 0, 0
+  index: -1
+hand_R_back
+  rotate: false
+  xy: 471, 165
+  size: 25, 20
+  orig: 25, 20
+  offset: 0, 0
+  index: -1
+hand_R_front
+  rotate: false
+  xy: 988, 321
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+hand_left
+  rotate: true
+  xy: 760, 216
+  size: 40, 38
+  orig: 40, 38
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 799, 410
+  size: 100, 138
+  orig: 100, 138
+  offset: 0, 0
+  index: -1
+hip
+  rotate: false
+  xy: 737, 354
+  size: 59, 39
+  orig: 59, 39
+  offset: 0, 0
+  index: -1
+leg_left
+  rotate: false
+  xy: 441, 106
+  size: 36, 57
+  orig: 36, 57
+  offset: 0, 0
+  index: -1
+leg_right
+  rotate: true
+  xy: 890, 330
+  size: 31, 46
+  orig: 31, 46
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 225, 307
+  size: 213, 76
+  orig: 213, 76
+  offset: 0, 0
+  index: -1
+shoulder_armor_left
+  rotate: false
+  xy: 440, 307
+  size: 53, 76
+  orig: 53, 76
+  offset: 0, 0
+  index: -1
+shoulder_armor_left_back
+  rotate: false
+  xy: 498, 183
+  size: 31, 17
+  orig: 31, 17
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 1
+  rotate: true
+  xy: 651, 238
+  size: 80, 23
+  orig: 80, 23
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 2
+  rotate: true
+  xy: 624, 225
+  size: 86, 25
+  orig: 86, 25
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 3
+  rotate: true
+  xy: 289, 9
+  size: 92, 25
+  orig: 92, 25
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 4
+  rotate: false
+  xy: 789, 261
+  size: 72, 23
+  orig: 72, 23
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 5
+  rotate: false
+  xy: 798, 310
+  size: 88, 24
+  orig: 88, 24
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 6
+  rotate: true
+  xy: 595, 225
+  size: 86, 27
+  orig: 86, 27
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 7
+  rotate: false
+  xy: 939, 358
+  size: 82, 21
+  orig: 82, 21
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke 8
+  rotate: false
+  xy: 798, 286
+  size: 74, 22
+  orig: 74, 22
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 1
+  rotate: false
+  xy: 645, 363
+  size: 90, 30
+  orig: 90, 30
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 2
+  rotate: false
+  xy: 718, 258
+  size: 69, 29
+  orig: 69, 29
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 3
+  rotate: false
+  xy: 379, 165
+  size: 90, 20
+  orig: 90, 20
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 4
+  rotate: false
+  xy: 798, 336
+  size: 90, 21
+  orig: 90, 21
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 5
+  rotate: true
+  xy: 574, 223
+  size: 87, 19
+  orig: 87, 19
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 6
+  rotate: false
+  xy: 799, 386
+  size: 91, 22
+  orig: 91, 22
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 7
+  rotate: false
+  xy: 225, 148
+  size: 94, 25
+  orig: 94, 25
+  offset: 0, 0
+  index: -1
+smoke underground/ground smoke back 8
+  rotate: false
+  xy: 798, 359
+  size: 90, 25
+  orig: 90, 25
+  offset: 0, 0
+  index: -1
+tee_back_left
+  rotate: true
+  xy: 939, 381
+  size: 29, 83
+  orig: 29, 83
+  offset: 0, 0
+  index: -1
+tee_back_right
+  rotate: true
+  xy: 718, 289
+  size: 22, 78
+  orig: 22, 78
+  offset: 0, 0
+  index: -1
+thifh_right
+  rotate: true
+  xy: 724, 313
+  size: 39, 72
+  orig: 39, 72
+  offset: 0, 0
+  index: -1
+thigh_armor_left
+  rotate: false
+  xy: 185, 4
+  size: 39, 31
+  orig: 39, 31
+  offset: 0, 0
+  index: -1
+thigh_armor_right
+  rotate: false
+  xy: 833, 234
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+thigh_left
+  rotate: false
+  xy: 175, 37
+  size: 49, 65
+  orig: 49, 65
+  offset: 0, 0
+  index: -1
+tiara
+  rotate: true
+  xy: 939, 412
+  size: 98, 75
+  orig: 98, 75
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 2, 9
+  size: 94, 106
+  orig: 94, 106
+  offset: 0, 0
+  index: -1
+trident_gold
+  rotate: false
+  xy: 2, 105
+  size: 117, 405
+  orig: 117, 405
+  offset: 0, 0
+  index: -1
+trident_silver
+  rotate: false
+  xy: 121, 144
+  size: 102, 366
+  orig: 102, 366
+  offset: 0, 0
+  index: -1

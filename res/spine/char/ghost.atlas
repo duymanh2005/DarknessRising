@@ -1,0 +1,132 @@
+
+ghost.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm L
+  rotate: false
+  xy: 466, 127
+  size: 89, 116
+  orig: 89, 116
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: false
+  xy: 116, 10
+  size: 62, 129
+  orig: 62, 129
+  offset: 0, 0
+  index: -1
+boost fx
+  rotate: true
+  xy: 466, 64
+  size: 61, 66
+  orig: 61, 66
+  offset: 0, 0
+  index: -1
+claw L
+  rotate: false
+  xy: 649, 119
+  size: 77, 93
+  orig: 77, 93
+  offset: 0, 0
+  index: -1
+claw R
+  rotate: true
+  xy: 919, 186
+  size: 57, 97
+  orig: 57, 97
+  offset: 0, 0
+  index: -1
+claw fx 1
+  rotate: false
+  xy: 180, 56
+  size: 90, 83
+  orig: 90, 83
+  offset: 0, 0
+  index: -1
+claw fx 2
+  rotate: false
+  xy: 557, 129
+  size: 90, 83
+  orig: 90, 83
+  offset: 0, 0
+  index: -1
+claw fx 3
+  rotate: false
+  xy: 728, 160
+  size: 90, 83
+  orig: 90, 83
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: true
+  xy: 534, 60
+  size: 65, 46
+  orig: 65, 46
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: false
+  xy: 582, 81
+  size: 65, 46
+  orig: 65, 46
+  offset: 0, 0
+  index: -1
+eyes hit
+  rotate: false
+  xy: 728, 107
+  size: 80, 51
+  orig: 80, 51
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 284, 94
+  size: 149, 180
+  orig: 149, 180
+  offset: 0, 0
+  index: -1
+light fx
+  rotate: true
+  xy: 2, 141
+  size: 102, 280
+  orig: 102, 280
+  offset: 0, 0
+  index: -1
+magic ring
+  rotate: false
+  xy: 649, 72
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 557, 214
+  size: 152, 29
+  orig: 152, 29
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: true
+  xy: 180, 2
+  size: 52, 109
+  orig: 52, 109
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: true
+  xy: 820, 174
+  size: 69, 97
+  orig: 69, 97
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 2, 8
+  size: 112, 131
+  orig: 112, 131
+  offset: 0, 0
+  index: -1

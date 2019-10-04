@@ -1,0 +1,103 @@
+{
+  "skeleton": {
+    "hash": "uhGrG23WsnTNFRzP+gM54mLG2oI",
+    "spine": "3.6.48",
+    "width": 751,
+    "height": 874
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "back#b_magmacolbig#1",
+      "parent": "root",
+      "x": 364.41,
+      "y": 780.72
+    },
+    {
+      "name": "back#b_magmarowbig#1",
+      "parent": "root",
+      "x": 367.22,
+      "y": 676.83
+    },
+    {
+      "name": "back#f_fireidle_tiny#9",
+      "parent": "root",
+      "x": 353.33,
+      "y": 513.06
+    },
+    {
+      "name": "back#f_fireidle_tiny#10",
+      "parent": "root",
+      "x": 127.26,
+      "y": 506.11
+    },
+    {
+      "name": "front#f_fireheat#1",
+      "parent": "root",
+      "x": 372.82,
+      "y": 377.23
+    },
+    {
+      "name": "front#f_fireidle_tiny#1",
+      "parent": "root",
+      "x": 647.22,
+      "y": 106.14
+    },
+    {
+      "name": "front#f_fireidle_tiny#2",
+      "parent": "root",
+      "x": 189.86,
+      "y": 99.18
+    },
+    {
+      "name": "front#f_fireidle_tiny#3",
+      "parent": "root",
+      "x": 511.58,
+      "y": 118.31
+    },
+    {
+      "name": "front#f_fireidle_tiny#4",
+      "parent": "root",
+      "x": 676.78,
+      "y": 182.65
+    },
+    {
+      "name": "front#f_fireidle_tiny#5",
+      "parent": "root",
+      "x": 395.07,
+      "y": 36.58
+    },
+    {
+      "name": "front#f_fireidle_tiny#6",
+      "parent": "root",
+      "x": 375.94,
+      "y": 85.27
+    },
+    {
+      "name": "front#f_fireidle_tiny#7",
+      "parent": "root",
+      "x": 175.95,
+      "y": 146.13
+    },
+    {
+      "name": "front#f_fireidle_tiny#8",
+      "parent": "root",
+      "x": 325.51,
+      "y": 168.74
+    }
+  ],
+  "slots": [
+    {
+      "name": "BACK_LORIEN_DAY",
+      "bone": "root"
+    }
+  ],
+  "skins": {
+    "default": {}
+  },
+  "animations": {
+    "losttower1_heat": {}
+  }
+}

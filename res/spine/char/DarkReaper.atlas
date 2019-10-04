@@ -1,0 +1,223 @@
+
+DarkReaper.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Default
+  rotate: false
+  xy: 314, 74
+  size: 310, 180
+  orig: 310, 180
+  offset: 0, 0
+  index: -1
+DefaultOverlay
+  rotate: false
+  xy: 2, 74
+  size: 310, 180
+  orig: 310, 180
+  offset: 0, 0
+  index: -1
+Head 1
+  rotate: true
+  xy: 808, 120
+  size: 134, 181
+  orig: 134, 181
+  offset: 0, 0
+  index: -1
+Head 2
+  rotate: true
+  xy: 991, 120
+  size: 134, 181
+  orig: 134, 181
+  offset: 0, 0
+  index: -1
+Head 3
+  rotate: true
+  xy: 1174, 120
+  size: 134, 181
+  orig: 134, 181
+  offset: 0, 0
+  index: -1
+Head 4
+  rotate: true
+  xy: 1357, 120
+  size: 134, 181
+  orig: 134, 181
+  offset: 0, 0
+  index: -1
+Head 5
+  rotate: true
+  xy: 1540, 120
+  size: 134, 181
+  orig: 134, 181
+  offset: 0, 0
+  index: -1
+L arm
+  rotate: false
+  xy: 384, 39
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+L boot
+  rotate: true
+  xy: 2004, 229
+  size: 25, 42
+  orig: 25, 42
+  offset: 0, 0
+  index: -1
+L bracer
+  rotate: false
+  xy: 497, 47
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+L leg
+  rotate: false
+  xy: 294, 28
+  size: 50, 44
+  orig: 50, 44
+  offset: 0, 0
+  index: -1
+L palm
+  rotate: false
+  xy: 346, 36
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+L waist
+  rotate: true
+  xy: 130, 10
+  size: 31, 21
+  orig: 31, 21
+  offset: 0, 0
+  index: -1
+Light-circle
+  rotate: false
+  xy: 1723, 179
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+R arm
+  rotate: false
+  xy: 422, 41
+  size: 38, 31
+  orig: 38, 31
+  offset: 0, 0
+  index: -1
+R boot
+  rotate: false
+  xy: 49, 2
+  size: 40, 39
+  orig: 40, 39
+  offset: 0, 0
+  index: -1
+R bracer
+  rotate: true
+  xy: 2004, 206
+  size: 21, 30
+  orig: 21, 30
+  offset: 0, 0
+  index: -1
+R leg
+  rotate: true
+  xy: 1943, 203
+  size: 51, 59
+  orig: 51, 59
+  offset: 0, 0
+  index: -1
+R palm
+  rotate: false
+  xy: 91, 2
+  size: 37, 39
+  orig: 37, 39
+  offset: 0, 0
+  index: -1
+R shoulder
+  rotate: false
+  xy: 2, 2
+  size: 45, 39
+  orig: 45, 39
+  offset: 0, 0
+  index: -1
+R waist
+  rotate: false
+  xy: 462, 47
+  size: 33, 25
+  orig: 33, 25
+  offset: 0, 0
+  index: -1
+TorsoB
+  rotate: true
+  xy: 1723, 121
+  size: 56, 65
+  orig: 56, 65
+  offset: 0, 0
+  index: -1
+circle_02
+  rotate: false
+  xy: 2036, 217
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+fire_slashA
+  rotate: false
+  xy: 1878, 199
+  size: 63, 55
+  orig: 63, 55
+  offset: 0, 0
+  index: -1
+light_circle_effect1A
+  rotate: false
+  xy: 928, 95
+  size: 59, 23
+  orig: 59, 23
+  offset: 0, 0
+  index: -1
+precast/Light_SparkA
+  rotate: false
+  xy: 156, 39
+  size: 69, 33
+  orig: 69, 33
+  offset: 0, 0
+  index: -1
+precast/Light_circleA
+  rotate: false
+  xy: 626, 74
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+precast/Light_lineA
+  rotate: false
+  xy: 808, 92
+  size: 118, 26
+  orig: 118, 26
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 43
+  size: 152, 29
+  orig: 152, 29
+  offset: 0, 0
+  index: -1
+silk
+  rotate: true
+  xy: 227, 36
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 1800, 187
+  size: 67, 76
+  orig: 67, 76
+  offset: 0, 0
+  index: -1

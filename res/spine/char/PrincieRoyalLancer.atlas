@@ -1,0 +1,587 @@
+
+PrincieRoyalLancer.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm L
+  rotate: false
+  xy: 580, 101
+  size: 26, 32
+  orig: 26, 32
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: true
+  xy: 2, 2
+  size: 16, 37
+  orig: 16, 37
+  offset: 0, 0
+  index: -1
+boot L
+  rotate: false
+  xy: 2024, 290
+  size: 22, 31
+  orig: 22, 31
+  offset: 0, 0
+  index: -1
+boot R
+  rotate: false
+  xy: 2024, 257
+  size: 22, 31
+  orig: 22, 31
+  offset: 0, 0
+  index: -1
+bow
+  rotate: true
+  xy: 1513, 90
+  size: 127, 64
+  orig: 127, 64
+  offset: 0, 0
+  index: -1
+dust smoke/dust 1
+  rotate: false
+  xy: 958, 140
+  size: 63, 17
+  orig: 63, 17
+  offset: 0, 0
+  index: -1
+dust smoke/dust 2
+  rotate: true
+  xy: 2023, 449
+  size: 61, 23
+  orig: 61, 23
+  offset: 0, 0
+  index: -1
+dust smoke/dust 3
+  rotate: false
+  xy: 504, 46
+  size: 53, 31
+  orig: 53, 31
+  offset: 0, 0
+  index: -1
+dust smoke/dust 4
+  rotate: true
+  xy: 369, 15
+  size: 46, 36
+  orig: 46, 36
+  offset: 0, 0
+  index: -1
+dust smoke/dust 5
+  rotate: false
+  xy: 460, 15
+  size: 39, 34
+  orig: 39, 34
+  offset: 0, 0
+  index: -1
+dust smoke/dust 6
+  rotate: true
+  xy: 608, 94
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+dust smoke/dust 7
+  rotate: false
+  xy: 1823, 92
+  size: 24, 38
+  orig: 24, 38
+  offset: 0, 0
+  index: -1
+dust smoke/dust 8
+  rotate: false
+  xy: 535, 16
+  size: 25, 28
+  orig: 25, 28
+  offset: 0, 0
+  index: -1
+eyes attack
+  rotate: false
+  xy: 305, 11
+  size: 62, 50
+  orig: 62, 50
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: false
+  xy: 240, 2
+  size: 63, 47
+  orig: 63, 47
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 504, 79
+  size: 74, 54
+  orig: 74, 54
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: false
+  xy: 683, 116
+  size: 64, 47
+  orig: 64, 47
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 412, 51
+  size: 81, 90
+  orig: 81, 90
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 1
+  rotate: true
+  xy: 1717, 335
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+fireball meteor/fire ring circle spiral
+  rotate: false
+  xy: 1717, 179
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+fireball meteor/fireball
+  rotate: false
+  xy: 289, 133
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 266, 217
+  size: 14, 20
+  orig: 14, 20
+  offset: 0, 0
+  index: -1
+foot L side view
+  rotate: false
+  xy: 1305, 96
+  size: 27, 15
+  orig: 27, 15
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: true
+  xy: 1757, 340
+  size: 14, 20
+  orig: 14, 20
+  offset: 0, 0
+  index: -1
+gaunlet L
+  rotate: false
+  xy: 749, 131
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+gaunlet R
+  rotate: false
+  xy: 646, 99
+  size: 35, 30
+  orig: 35, 30
+  offset: 0, 0
+  index: -1
+hair back
+  rotate: false
+  xy: 1050, 233
+  size: 29, 77
+  orig: 29, 77
+  offset: 0, 0
+  index: -1
+hair front
+  rotate: true
+  xy: 1202, 96
+  size: 133, 101
+  orig: 133, 101
+  offset: 0, 0
+  index: -1
+hair tail
+  rotate: false
+  xy: 908, 312
+  size: 184, 198
+  orig: 184, 198
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 2024, 232
+  size: 22, 23
+  orig: 22, 23
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 2024, 207
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+knee guard L
+  rotate: false
+  xy: 2023, 387
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+knee guard R
+  rotate: false
+  xy: 2023, 362
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+lance
+  rotate: false
+  xy: 887, 159
+  size: 161, 151
+  orig: 161, 151
+  offset: 0, 0
+  index: -1
+lance holder
+  rotate: false
+  xy: 1767, 85
+  size: 54, 45
+  orig: 54, 45
+  offset: 0, 0
+  index: -1
+light beam underground
+  rotate: true
+  xy: 395, 134
+  size: 103, 101
+  orig: 103, 101
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 1
+  rotate: true
+  xy: 1545, 356
+  size: 15, 34
+  orig: 15, 34
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 2
+  rotate: true
+  xy: 41, 2
+  size: 16, 35
+  orig: 16, 35
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 3
+  rotate: true
+  xy: 1975, 180
+  size: 15, 34
+  orig: 15, 34
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 4
+  rotate: true
+  xy: 501, 2
+  size: 12, 28
+  orig: 12, 28
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 5
+  rotate: false
+  xy: 1081, 293
+  size: 10, 17
+  orig: 10, 17
+  offset: 0, 0
+  index: -1
+partical/circle fx
+  rotate: false
+  xy: 1709, 74
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+partical/light beam underground
+  rotate: true
+  xy: 784, 137
+  size: 103, 101
+  orig: 103, 101
+  offset: 0, 0
+  index: -1
+partical/light fx
+  rotate: true
+  xy: 1094, 408
+  size: 102, 280
+  orig: 102, 280
+  offset: 0, 0
+  index: -1
+partical/magic circl LV3-3
+  rotate: true
+  xy: 1373, 84
+  size: 133, 138
+  orig: 133, 138
+  offset: 0, 0
+  index: -1
+partical/partical circle #1
+  rotate: true
+  xy: 1968, 352
+  size: 158, 53
+  orig: 158, 53
+  offset: 0, 0
+  index: -1
+partical/partical circle #2
+  rotate: true
+  xy: 1975, 197
+  size: 153, 47
+  orig: 153, 47
+  offset: 0, 0
+  index: -1
+partical/partical circle #3
+  rotate: true
+  xy: 240, 64
+  size: 151, 47
+  orig: 151, 47
+  offset: 0, 0
+  index: -1
+partical/partical circle #4
+  rotate: false
+  xy: 633, 193
+  size: 149, 47
+  orig: 149, 47
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 633, 165
+  size: 134, 26
+  orig: 134, 26
+  offset: 0, 0
+  index: -1
+shield
+  rotate: false
+  xy: 1305, 113
+  size: 66, 121
+  orig: 66, 121
+  offset: 0, 0
+  index: -1
+shield back
+  rotate: true
+  xy: 289, 63
+  size: 68, 121
+  orig: 68, 121
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 501, 16
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 1851, 152
+  size: 24, 25
+  orig: 24, 25
+  offset: 0, 0
+  index: -1
+silk
+  rotate: false
+  xy: 1649, 82
+  size: 58, 43
+  orig: 58, 43
+  offset: 0, 0
+  index: -1
+silk cape
+  rotate: false
+  xy: 1649, 127
+  size: 57, 95
+  orig: 57, 95
+  offset: 0, 0
+  index: -1
+silk cape 2
+  rotate: true
+  xy: 498, 135
+  size: 28, 108
+  orig: 28, 108
+  offset: 0, 0
+  index: -1
+slash/slash #1
+  rotate: false
+  xy: 1584, 356
+  size: 198, 154
+  orig: 198, 154
+  offset: 0, 0
+  index: -1
+slash/slash #2
+  rotate: false
+  xy: 1373, 219
+  size: 170, 152
+  orig: 170, 152
+  offset: 0, 0
+  index: -1
+slash/slash #3
+  rotate: false
+  xy: 1545, 224
+  size: 170, 130
+  orig: 170, 130
+  offset: 0, 0
+  index: -1
+slash/slash #4
+  rotate: true
+  xy: 1278, 236
+  size: 170, 93
+  orig: 170, 93
+  offset: 0, 0
+  index: -1
+thigh L
+  rotate: false
+  xy: 1023, 120
+  size: 25, 37
+  orig: 25, 37
+  offset: 0, 0
+  index: -1
+thigh R
+  rotate: false
+  xy: 2024, 323
+  size: 22, 37
+  orig: 22, 37
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 1708, 132
+  size: 45, 72
+  orig: 45, 72
+  offset: 0, 0
+  index: -1
+waist
+  rotate: true
+  xy: 2023, 412
+  size: 35, 23
+  orig: 35, 23
+  offset: 0, 0
+  index: -1
+weapon effect/fire lance fx
+  rotate: false
+  xy: 696, 312
+  size: 210, 198
+  orig: 210, 198
+  offset: 0, 0
+  index: -1
+weapon effect/fire tornado fx #1
+  rotate: true
+  xy: 1873, 180
+  size: 153, 100
+  orig: 153, 100
+  offset: 0, 0
+  index: -1
+weapon effect/fire tornado fx #2
+  rotate: false
+  xy: 1050, 122
+  size: 150, 107
+  orig: 150, 107
+  offset: 0, 0
+  index: -1
+weapon effect/fire tornado fx 2
+  rotate: false
+  xy: 498, 165
+  size: 133, 75
+  orig: 133, 75
+  offset: 0, 0
+  index: -1
+weapon effect/lance head fx
+  rotate: false
+  xy: 696, 242
+  size: 189, 68
+  orig: 189, 68
+  offset: 0, 0
+  index: -1
+weapon effect/partical 1
+  rotate: false
+  xy: 887, 139
+  size: 69, 18
+  orig: 69, 18
+  offset: 0, 0
+  index: -1
+weapon effect/partical 2
+  rotate: false
+  xy: 608, 131
+  size: 73, 32
+  orig: 73, 32
+  offset: 0, 0
+  index: -1
+weapon effect/partical 3
+  rotate: false
+  xy: 1782, 132
+  size: 67, 45
+  orig: 67, 45
+  offset: 0, 0
+  index: -1
+weapon effect/partical 4
+  rotate: false
+  xy: 407, 20
+  size: 51, 29
+  orig: 51, 29
+  offset: 0, 0
+  index: -1
+weapon effect/partical 5
+  rotate: true
+  xy: 769, 165
+  size: 26, 9
+  orig: 26, 9
+  offset: 0, 0
+  index: -1
+weapon effect/shield fx
+  rotate: false
+  xy: 1579, 97
+  size: 68, 125
+  orig: 68, 125
+  offset: 0, 0
+  index: -1
+wing capes/cape level 1
+  rotate: false
+  xy: 489, 242
+  size: 205, 268
+  orig: 205, 268
+  offset: 0, 0
+  index: -1
+wing capes/cape level 2
+  rotate: false
+  xy: 266, 239
+  size: 221, 271
+  orig: 221, 271
+  offset: 0, 0
+  index: -1
+wing capes/cape level 3
+  rotate: false
+  xy: 2, 20
+  size: 236, 195
+  orig: 236, 195
+  offset: 0, 0
+  index: -1
+wing capes/cape level 3 #2
+  rotate: false
+  xy: 1376, 373
+  size: 206, 137
+  orig: 206, 137
+  offset: 0, 0
+  index: -1
+wing capes/circle level 1
+  rotate: true
+  xy: 1784, 335
+  size: 175, 182
+  orig: 175, 182
+  offset: 0, 0
+  index: -1
+wing capes/circle level 2
+  rotate: true
+  xy: 1094, 231
+  size: 175, 182
+  orig: 175, 182
+  offset: 0, 0
+  index: -1
+wing capes/circle level 3
+  rotate: false
+  xy: 2, 217
+  size: 262, 293
+  orig: 262, 293
+  offset: 0, 0
+  index: -1

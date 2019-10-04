@@ -1,0 +1,251 @@
+
+spiritsorcerer.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+amor arm R front
+  rotate: true
+  xy: 358, 2
+  size: 15, 24
+  orig: 15, 24
+  offset: 0, 0
+  index: -1
+amor arm R front_glow
+  rotate: true
+  xy: 436, 72
+  size: 29, 38
+  orig: 29, 38
+  offset: 0, 0
+  index: -1
+arm low L
+  rotate: false
+  xy: 954, 229
+  size: 52, 25
+  orig: 52, 25
+  offset: 0, 0
+  index: -1
+arm low L_glow
+  rotate: false
+  xy: 847, 212
+  size: 60, 42
+  orig: 60, 42
+  offset: 0, 0
+  index: -1
+arm low R
+  rotate: true
+  xy: 357, 19
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+arm low R_glow
+  rotate: true
+  xy: 249, 10
+  size: 47, 51
+  orig: 47, 51
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: true
+  xy: 446, 103
+  size: 29, 41
+  orig: 29, 41
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: true
+  xy: 489, 103
+  size: 29, 41
+  orig: 29, 41
+  offset: 0, 0
+  index: -1
+armor arm R
+  rotate: true
+  xy: 504, 81
+  size: 20, 22
+  orig: 20, 22
+  offset: 0, 0
+  index: -1
+armor leg
+  rotate: false
+  xy: 833, 190
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+belly
+  rotate: false
+  xy: 476, 80
+  size: 26, 21
+  orig: 26, 21
+  offset: 0, 0
+  index: -1
+chest
+  rotate: false
+  xy: 779, 208
+  size: 66, 46
+  orig: 66, 46
+  offset: 0, 0
+  index: -1
+cloak
+  rotate: false
+  xy: 660, 135
+  size: 117, 119
+  orig: 117, 119
+  offset: 0, 0
+  index: -1
+clother
+  rotate: false
+  xy: 394, 134
+  size: 137, 120
+  orig: 137, 120
+  offset: 0, 0
+  index: -1
+eye 1
+  rotate: false
+  xy: 779, 135
+  size: 41, 16
+  orig: 41, 16
+  offset: 0, 0
+  index: -1
+eye 2
+  rotate: true
+  xy: 302, 16
+  size: 41, 16
+  orig: 41, 16
+  offset: 0, 0
+  index: -1
+eye 3
+  rotate: false
+  xy: 394, 108
+  size: 50, 24
+  orig: 50, 24
+  offset: 0, 0
+  index: -1
+eyes_glow
+  rotate: false
+  xy: 249, 59
+  size: 74, 50
+  orig: 74, 50
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 380, 57
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 822, 141
+  size: 9, 10
+  orig: 9, 10
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 249, 111
+  size: 143, 143
+  orig: 143, 143
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: true
+  xy: 574, 94
+  size: 35, 39
+  orig: 35, 39
+  offset: 0, 0
+  index: -1
+hand L_glow
+  rotate: false
+  xy: 779, 153
+  size: 52, 53
+  orig: 52, 53
+  offset: 0, 0
+  index: -1
+hand L_glowin
+  rotate: true
+  xy: 615, 94
+  size: 35, 39
+  orig: 35, 39
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 320, 19
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+hand R_glow
+  rotate: true
+  xy: 325, 57
+  size: 52, 53
+  orig: 52, 53
+  offset: 0, 0
+  index: -1
+hand R_glowin
+  rotate: false
+  xy: 380, 70
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 533, 131
+  size: 125, 123
+  orig: 125, 123
+  offset: 0, 0
+  index: -1
+leg low L
+  rotate: false
+  xy: 1008, 232
+  size: 13, 22
+  orig: 13, 22
+  offset: 0, 0
+  index: -1
+leg low R
+  rotate: true
+  xy: 384, 2
+  size: 15, 19
+  orig: 15, 19
+  offset: 0, 0
+  index: -1
+leg up L
+  rotate: true
+  xy: 320, 2
+  size: 15, 36
+  orig: 15, 36
+  offset: 0, 0
+  index: -1
+leg up R
+  rotate: false
+  xy: 417, 71
+  size: 17, 35
+  orig: 17, 35
+  offset: 0, 0
+  index: -1
+pendant
+  rotate: true
+  xy: 909, 219
+  size: 35, 43
+  orig: 35, 43
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 9
+  size: 245, 245
+  orig: 245, 245
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 532, 91
+  size: 40, 38
+  orig: 40, 38
+  offset: 0, 0
+  index: -1

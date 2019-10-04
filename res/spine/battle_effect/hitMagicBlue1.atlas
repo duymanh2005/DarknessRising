@@ -1,0 +1,34 @@
+
+hitMagicBlue.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/hit effect circle glowing
+  rotate: false
+  xy: 213, 73
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+images/impact 1
+  rotate: false
+  xy: 2, 2
+  size: 117, 118
+  orig: 117, 118
+  offset: 0, 0
+  index: -1
+images/light beam
+  rotate: false
+  xy: 213, 31
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+images/magic ring
+  rotate: false
+  xy: 121, 30
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1

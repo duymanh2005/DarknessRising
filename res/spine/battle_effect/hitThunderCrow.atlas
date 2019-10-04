@@ -1,0 +1,111 @@
+
+hitThunderCrow.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/lightning fx/thunder1
+  rotate: false
+  xy: 585, 2
+  size: 82, 100
+  orig: 82, 100
+  offset: 0, 0
+  index: -1
+images/lightning fx/thunder10
+  rotate: true
+  xy: 2, 2
+  size: 40, 176
+  orig: 40, 176
+  offset: 0, 0
+  index: -1
+images/lightning fx/thunder11
+  rotate: true
+  xy: 180, 4
+  size: 38, 176
+  orig: 38, 176
+  offset: 0, 0
+  index: -1
+images/lightning fx/thunder2
+  rotate: true
+  xy: 585, 191
+  size: 63, 178
+  orig: 63, 178
+  offset: 0, 0
+  index: -1
+images/lightning fx/thunder4
+  rotate: false
+  xy: 517, 78
+  size: 66, 176
+  orig: 66, 176
+  offset: 0, 0
+  index: -1
+images/lightning fx/thunder5
+  rotate: true
+  xy: 669, 29
+  size: 73, 119
+  orig: 73, 119
+  offset: 0, 0
+  index: -1
+images/lightning fx/thunder6
+  rotate: false
+  xy: 443, 78
+  size: 72, 176
+  orig: 72, 176
+  offset: 0, 0
+  index: -1
+images/lightning fx/thunder7
+  rotate: true
+  xy: 765, 213
+  size: 41, 176
+  orig: 41, 176
+  offset: 0, 0
+  index: -1
+images/lightning fx/thunder8
+  rotate: true
+  xy: 585, 147
+  size: 42, 176
+  orig: 42, 176
+  offset: 0, 0
+  index: -1
+images/lightning fx/thunder9
+  rotate: true
+  xy: 585, 104
+  size: 41, 176
+  orig: 41, 176
+  offset: 0, 0
+  index: -1
+images/particles/DotSparkA
+  rotate: false
+  xy: 443, 25
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+images/particles/hit effect circle glowing
+  rotate: false
+  xy: 943, 196
+  size: 72, 58
+  orig: 72, 58
+  offset: 0, 0
+  index: -1
+images/particles/light beam
+  rotate: false
+  xy: 358, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+images/particles/shockwave2
+  rotate: false
+  xy: 496, 25
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+images/weapon
+  rotate: true
+  xy: 2, 44
+  size: 210, 439
+  orig: 210, 439
+  offset: 0, 0
+  index: -1

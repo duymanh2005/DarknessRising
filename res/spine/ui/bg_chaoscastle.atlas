@@ -1,0 +1,97 @@
+
+bg_chaoscastle.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_chaoscastle_01
+  rotate: false
+  xy: 2, 416
+  size: 812, 589
+  orig: 812, 589
+  offset: 0, 0
+  index: -1
+bg_chaoscastle_02
+  rotate: false
+  xy: 816, 416
+  size: 812, 589
+  orig: 812, 589
+  offset: 0, 0
+  index: -1
+bg_chaoscastle_03
+  rotate: false
+  xy: 1630, 416
+  size: 812, 589
+  orig: 812, 589
+  offset: 0, 0
+  index: -1
+bg_chaoscastle_04
+  rotate: false
+  xy: 2444, 416
+  size: 812, 589
+  orig: 812, 589
+  offset: 0, 0
+  index: -1
+chaosstone
+  rotate: false
+  xy: 97, 202
+  size: 105, 212
+  orig: 105, 212
+  offset: 0, 0
+  index: -1
+chaosstone_effect
+  rotate: false
+  xy: 3258, 763
+  size: 135, 242
+  orig: 135, 242
+  offset: 0, 0
+  index: -1
+firetourch
+  rotate: false
+  xy: 2, 2
+  size: 70, 87
+  orig: 70, 87
+  offset: 0, 0
+  index: -1
+flag1
+  rotate: false
+  xy: 97, 109
+  size: 49, 91
+  orig: 49, 91
+  offset: 0, 0
+  index: -1
+flag2
+  rotate: false
+  xy: 3258, 498
+  size: 40, 85
+  orig: 40, 85
+  offset: 0, 0
+  index: -1
+grow_light
+  rotate: false
+  xy: 204, 286
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+water3
+  rotate: false
+  xy: 2, 91
+  size: 93, 323
+  orig: 93, 323
+  offset: 0, 0
+  index: -1
+wolf1
+  rotate: false
+  xy: 3395, 870
+  size: 176, 135
+  orig: 176, 135
+  offset: 0, 0
+  index: -1
+wolf2
+  rotate: true
+  xy: 3258, 585
+  size: 176, 135
+  orig: 176, 135
+  offset: 0, 0
+  index: -1

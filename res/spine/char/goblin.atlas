@@ -1,0 +1,160 @@
+
+goblin.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm L low
+  rotate: false
+  xy: 188, 45
+  size: 54, 45
+  orig: 54, 45
+  offset: 0, 0
+  index: -1
+arm L up
+  rotate: false
+  xy: 95, 18
+  size: 39, 72
+  orig: 39, 72
+  offset: 0, 0
+  index: -1
+arm R low
+  rotate: true
+  xy: 344, 93
+  size: 38, 63
+  orig: 38, 63
+  offset: 0, 0
+  index: -1
+arm R up
+  rotate: false
+  xy: 872, 206
+  size: 70, 47
+  orig: 70, 47
+  offset: 0, 0
+  index: -1
+axe
+  rotate: false
+  xy: 623, 114
+  size: 143, 139
+  orig: 143, 139
+  offset: 0, 0
+  index: -1
+body up
+  rotate: true
+  xy: 441, 138
+  size: 115, 180
+  orig: 115, 180
+  offset: 0, 0
+  index: -1
+bodydown
+  rotate: false
+  xy: 2, 2
+  size: 91, 88
+  orig: 91, 88
+  offset: 0, 0
+  index: -1
+eye 1
+  rotate: false
+  xy: 768, 126
+  size: 73, 23
+  orig: 73, 23
+  offset: 0, 0
+  index: -1
+eye 2
+  rotate: false
+  xy: 768, 101
+  size: 73, 23
+  orig: 73, 23
+  offset: 0, 0
+  index: -1
+eye 3
+  rotate: false
+  xy: 250, 93
+  size: 92, 38
+  orig: 92, 38
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 136, 10
+  size: 47, 26
+  orig: 47, 26
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: true
+  xy: 409, 94
+  size: 37, 24
+  orig: 37, 24
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 944, 207
+  size: 54, 46
+  orig: 54, 46
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 843, 99
+  size: 48, 50
+  orig: 48, 50
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 92
+  size: 246, 161
+  orig: 246, 161
+  offset: 0, 0
+  index: -1
+leg L low
+  rotate: true
+  xy: 435, 84
+  size: 37, 40
+  orig: 37, 40
+  offset: 0, 0
+  index: -1
+leg L up
+  rotate: false
+  xy: 136, 38
+  size: 50, 52
+  orig: 50, 52
+  offset: 0, 0
+  index: -1
+leg R low
+  rotate: true
+  xy: 893, 109
+  size: 47, 38
+  orig: 47, 38
+  offset: 0, 0
+  index: -1
+leg R up
+  rotate: true
+  xy: 872, 158
+  size: 46, 63
+  orig: 46, 63
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 441, 123
+  size: 68, 13
+  orig: 68, 13
+  offset: 0, 0
+  index: -1
+slash
+  rotate: false
+  xy: 768, 151
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+small axe
+  rotate: true
+  xy: 250, 133
+  size: 120, 189
+  orig: 120, 189
+  offset: 0, 0
+  index: -1

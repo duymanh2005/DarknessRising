@@ -1,0 +1,132 @@
+
+lich.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Serpent Lance
+  rotate: true
+  xy: 2, 154
+  size: 100, 258
+  orig: 100, 258
+  offset: 0, 0
+  index: -1
+arm low L
+  rotate: false
+  xy: 382, 167
+  size: 74, 87
+  orig: 74, 87
+  offset: 0, 0
+  index: -1
+arm low R
+  rotate: false
+  xy: 458, 149
+  size: 38, 105
+  orig: 38, 105
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: true
+  xy: 243, 2
+  size: 34, 57
+  orig: 34, 57
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: false
+  xy: 458, 91
+  size: 38, 56
+  orig: 38, 56
+  offset: 0, 0
+  index: -1
+belly
+  rotate: false
+  xy: 441, 41
+  size: 56, 48
+  orig: 56, 48
+  offset: 0, 0
+  index: -1
+chest
+  rotate: false
+  xy: 262, 155
+  size: 118, 99
+  orig: 118, 99
+  offset: 0, 0
+  index: -1
+eye 1
+  rotate: false
+  xy: 261, 56
+  size: 58, 20
+  orig: 58, 20
+  offset: 0, 0
+  index: -1
+eye 2
+  rotate: false
+  xy: 381, 69
+  size: 58, 20
+  orig: 58, 20
+  offset: 0, 0
+  index: -1
+eye 3
+  rotate: false
+  xy: 161, 2
+  size: 80, 34
+  orig: 80, 34
+  offset: 0, 0
+  index: -1
+glowing sparkle
+  rotate: false
+  xy: 262, 78
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: true
+  xy: 339, 69
+  size: 43, 40
+  orig: 43, 40
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 339, 114
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 2, 22
+  size: 130, 157
+  orig: 130, 157
+  offset: 0, 0
+  index: -1
+hit effect circle glowing
+  rotate: false
+  xy: 321, 23
+  size: 54, 44
+  orig: 54, 44
+  offset: 0, 0
+  index: -1
+light beam
+  rotate: false
+  xy: 382, 91
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+low body
+  rotate: true
+  xy: 161, 38
+  size: 114, 98
+  orig: 114, 98
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 10
+  size: 51, 10
+  orig: 51, 10
+  offset: 0, 0
+  index: -1

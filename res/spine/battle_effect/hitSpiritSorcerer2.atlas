@@ -1,0 +1,181 @@
+
+hitSpiritSorcerer.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+black hole
+  rotate: false
+  xy: 277, 104
+  size: 161, 150
+  orig: 161, 150
+  offset: 0, 0
+  index: -1
+cut fx
+  rotate: true
+  xy: 2, 2
+  size: 35, 247
+  orig: 35, 247
+  offset: 0, 0
+  index: -1
+electric stun
+  rotate: false
+  xy: 390, 3
+  size: 81, 99
+  orig: 81, 99
+  offset: 0, 0
+  index: -1
+electric stun2
+  rotate: false
+  xy: 473, 7
+  size: 96, 97
+  orig: 96, 97
+  offset: 0, 0
+  index: -1
+electric stun3
+  rotate: true
+  xy: 1082, 168
+  size: 86, 91
+  orig: 86, 91
+  offset: 0, 0
+  index: -1
+electric stun4
+  rotate: true
+  xy: 814, 61
+  size: 87, 101
+  orig: 87, 101
+  offset: 0, 0
+  index: -1
+explosion beam1
+  rotate: false
+  xy: 1263, 197
+  size: 48, 57
+  orig: 48, 57
+  offset: 0, 0
+  index: -1
+explosion beam2
+  rotate: false
+  xy: 650, 9
+  size: 61, 73
+  orig: 61, 73
+  offset: 0, 0
+  index: -1
+explosion beam3
+  rotate: false
+  xy: 571, 7
+  size: 77, 75
+  orig: 77, 75
+  offset: 0, 0
+  index: -1
+explosion beam4
+  rotate: false
+  xy: 984, 165
+  size: 96, 89
+  orig: 96, 89
+  offset: 0, 0
+  index: -1
+explosion beam5
+  rotate: true
+  xy: 717, 96
+  size: 113, 95
+  orig: 113, 95
+  offset: 0, 0
+  index: -1
+gloriole
+  rotate: false
+  xy: 590, 84
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 1175, 168
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+hit fx
+  rotate: false
+  xy: 277, 2
+  size: 111, 100
+  orig: 111, 100
+  offset: 0, 0
+  index: -1
+lighting bubble
+  rotate: false
+  xy: 115, 94
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+magic circle LV5-10
+  rotate: false
+  xy: 440, 106
+  size: 148, 148
+  orig: 148, 148
+  offset: 0, 0
+  index: -1
+shadow thorn
+  rotate: true
+  xy: 814, 150
+  size: 68, 141
+  orig: 68, 141
+  offset: 0, 0
+  index: -1
+spark smash1
+  rotate: true
+  xy: 957, 178
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+spark smash2
+  rotate: false
+  xy: 1313, 222
+  size: 54, 32
+  orig: 54, 32
+  offset: 0, 0
+  index: -1
+spark smash3
+  rotate: false
+  xy: 115, 52
+  size: 82, 40
+  orig: 82, 40
+  offset: 0, 0
+  index: -1
+spark smash4
+  rotate: true
+  xy: 917, 62
+  size: 86, 33
+  orig: 86, 33
+  offset: 0, 0
+  index: -1
+spark smash5
+  rotate: false
+  xy: 199, 60
+  size: 76, 32
+  orig: 76, 32
+  offset: 0, 0
+  index: -1
+thunder storm7
+  rotate: false
+  xy: 2, 39
+  size: 111, 215
+  orig: 111, 215
+  offset: 0, 0
+  index: -1
+thunder storm8
+  rotate: true
+  xy: 590, 211
+  size: 43, 218
+  orig: 43, 218
+  offset: 0, 0
+  index: -1
+thunder storm9
+  rotate: true
+  xy: 810, 220
+  size: 34, 172
+  orig: 34, 172
+  offset: 0, 0
+  index: -1

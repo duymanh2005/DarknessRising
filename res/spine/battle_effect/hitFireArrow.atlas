@@ -1,0 +1,83 @@
+
+hitFireArrow.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arrow skill fx
+  rotate: false
+  xy: 2, 88
+  size: 184, 32
+  orig: 184, 32
+  offset: 0, 0
+  index: -1
+fire_expl_01
+  rotate: false
+  xy: 76, 48
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fire_expl_03
+  rotate: false
+  xy: 116, 48
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fire_expl_05
+  rotate: false
+  xy: 188, 82
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fire_expl_07
+  rotate: false
+  xy: 76, 8
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fire_expl_09
+  rotate: false
+  xy: 116, 8
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fire_expl_11
+  rotate: false
+  xy: 156, 42
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fire_expl_13
+  rotate: false
+  xy: 156, 2
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fire_expl_15
+  rotate: false
+  xy: 196, 42
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fire_expl_17
+  rotate: false
+  xy: 196, 2
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+hit effect circle glowing
+  rotate: false
+  xy: 2, 28
+  size: 72, 58
+  orig: 72, 58
+  offset: 0, 0
+  index: -1

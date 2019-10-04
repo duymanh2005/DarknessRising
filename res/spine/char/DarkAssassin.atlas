@@ -1,0 +1,167 @@
+
+DarkAssassin.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 244, 58
+  size: 191, 195
+  orig: 191, 195
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 437, 58
+  size: 191, 195
+  orig: 191, 195
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 630, 58
+  size: 191, 195
+  orig: 191, 195
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 823, 58
+  size: 191, 195
+  orig: 191, 195
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 1016, 58
+  size: 191, 195
+  orig: 191, 195
+  offset: 0, 0
+  index: -1
+L arm
+  rotate: true
+  xy: 1583, 110
+  size: 58, 74
+  orig: 58, 74
+  offset: 0, 0
+  index: -1
+L boot
+  rotate: true
+  xy: 698, 21
+  size: 35, 58
+  orig: 35, 58
+  offset: 0, 0
+  index: -1
+L gaunlet
+  rotate: false
+  xy: 1520, 170
+  size: 143, 83
+  orig: 143, 83
+  offset: 0, 0
+  index: -1
+L leg
+  rotate: false
+  xy: 1505, 103
+  size: 76, 65
+  orig: 76, 65
+  offset: 0, 0
+  index: -1
+R arm
+  rotate: false
+  xy: 1343, 118
+  size: 81, 63
+  orig: 81, 63
+  offset: 0, 0
+  index: -1
+R boot
+  rotate: false
+  xy: 758, 2
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+R gaunlet
+  rotate: true
+  xy: 1665, 144
+  size: 109, 123
+  orig: 109, 123
+  offset: 0, 0
+  index: -1
+R leg
+  rotate: false
+  xy: 1426, 109
+  size: 77, 72
+  orig: 77, 72
+  offset: 0, 0
+  index: -1
+R shoulder
+  rotate: false
+  xy: 1894, 171
+  size: 102, 82
+  orig: 102, 82
+  offset: 0, 0
+  index: -1
+claw_effect_01
+  rotate: false
+  xy: 1209, 55
+  size: 96, 64
+  orig: 96, 64
+  offset: 0, 0
+  index: -1
+claw_effect_skill
+  rotate: false
+  xy: 1343, 183
+  size: 175, 70
+  orig: 175, 70
+  offset: 0, 0
+  index: -1
+glow314
+  rotate: false
+  xy: 1790, 151
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+precast/Light_SparkA
+  rotate: true
+  xy: 1998, 162
+  size: 91, 44
+  orig: 91, 44
+  offset: 0, 0
+  index: -1
+precast/Light_circleA
+  rotate: false
+  xy: 2, 13
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+precast/Light_lineA
+  rotate: false
+  xy: 449, 22
+  size: 157, 34
+  orig: 157, 34
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 244, 18
+  size: 203, 38
+  orig: 203, 38
+  offset: 0, 0
+  index: -1
+silk
+  rotate: true
+  xy: 608, 17
+  size: 39, 88
+  orig: 39, 88
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 1209, 121
+  size: 132, 132
+  orig: 132, 132
+  offset: 0, 0
+  index: -1

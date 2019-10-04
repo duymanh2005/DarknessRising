@@ -1,0 +1,146 @@
+
+hellspider.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 52
+  size: 270, 190
+  orig: 270, 190
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 928, 198
+  size: 76, 44
+  orig: 76, 44
+  offset: 0, 0
+  index: -1
+legs inside L1
+  rotate: true
+  xy: 357, 48
+  size: 23, 50
+  orig: 23, 50
+  offset: 0, 0
+  index: -1
+legs inside L2
+  rotate: true
+  xy: 841, 206
+  size: 36, 85
+  orig: 36, 85
+  offset: 0, 0
+  index: -1
+legs inside L3
+  rotate: true
+  xy: 750, 212
+  size: 30, 89
+  orig: 30, 89
+  offset: 0, 0
+  index: -1
+legs inside L4
+  rotate: true
+  xy: 274, 40
+  size: 31, 81
+  orig: 31, 81
+  offset: 0, 0
+  index: -1
+legs inside R1
+  rotate: false
+  xy: 328, 16
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+legs inside R2
+  rotate: false
+  xy: 510, 114
+  size: 24, 59
+  orig: 24, 59
+  offset: 0, 0
+  index: -1
+legs inside R3
+  rotate: true
+  xy: 404, 99
+  size: 28, 67
+  orig: 28, 67
+  offset: 0, 0
+  index: -1
+legs inside R4
+  rotate: true
+  xy: 397, 74
+  size: 23, 66
+  orig: 23, 66
+  offset: 0, 0
+  index: -1
+legs outside L1
+  rotate: true
+  xy: 258, 4
+  size: 34, 68
+  orig: 34, 68
+  offset: 0, 0
+  index: -1
+legs outside L2
+  rotate: true
+  xy: 404, 175
+  size: 33, 134
+  orig: 33, 134
+  offset: 0, 0
+  index: -1
+legs outside L3
+  rotate: true
+  xy: 404, 210
+  size: 32, 144
+  orig: 32, 144
+  offset: 0, 0
+  index: -1
+legs outside L4
+  rotate: true
+  xy: 274, 73
+  size: 39, 121
+  orig: 39, 121
+  offset: 0, 0
+  index: -1
+legs outside R1
+  rotate: true
+  xy: 409, 50
+  size: 22, 50
+  orig: 22, 50
+  offset: 0, 0
+  index: -1
+legs outside R2
+  rotate: true
+  xy: 404, 129
+  size: 44, 104
+  orig: 44, 104
+  offset: 0, 0
+  index: -1
+legs outside R3
+  rotate: true
+  xy: 550, 215
+  size: 27, 103
+  orig: 27, 103
+  offset: 0, 0
+  index: -1
+legs outside R4
+  rotate: true
+  xy: 655, 209
+  size: 33, 93
+  orig: 33, 93
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 254, 48
+  orig: 254, 48
+  offset: 0, 0
+  index: -1
+slash1
+  rotate: false
+  xy: 274, 114
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

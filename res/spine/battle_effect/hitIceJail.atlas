@@ -1,0 +1,55 @@
+
+hitIceJail.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cracked_Earth_1
+  rotate: true
+  xy: 473, 194
+  size: 52, 32
+  orig: 52, 32
+  offset: 0, 0
+  index: -1
+FX/ice spike2
+  rotate: true
+  xy: 2, 2
+  size: 75, 138
+  orig: 75, 138
+  offset: 0, 0
+  index: -1
+FX/light_explotion
+  rotate: false
+  xy: 305, 50
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+FX/smoke ball
+  rotate: false
+  xy: 2, 79
+  size: 200, 167
+  orig: 200, 167
+  offset: 0, 0
+  index: -1
+hit/light fx
+  rotate: true
+  xy: 204, 148
+  size: 98, 267
+  orig: 98, 267
+  offset: 0, 0
+  index: -1
+hit/lightbeam
+  rotate: false
+  xy: 204, 47
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+hit/precast fx
+  rotate: false
+  xy: 142, 32
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1

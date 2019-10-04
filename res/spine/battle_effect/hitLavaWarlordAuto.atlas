@@ -1,0 +1,125 @@
+
+hitLavaWarlordAuto.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hit/SlashLine
+  rotate: false
+  xy: 2, 63
+  size: 277, 157
+  orig: 277, 157
+  offset: 0, 0
+  index: -1
+hit/fire_expl_01
+  rotate: false
+  xy: 622, 172
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+hit/fire_expl_03
+  rotate: false
+  xy: 175, 13
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+hit/fire_expl_05
+  rotate: false
+  xy: 672, 172
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+hit/fire_expl_11
+  rotate: false
+  xy: 225, 13
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+hit/fire_expl_13
+  rotate: false
+  xy: 722, 172
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+hit/fire_expl_15
+  rotate: false
+  xy: 772, 172
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+hit/fire_expl_17
+  rotate: false
+  xy: 822, 172
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+hit/hit effect circle glowing
+  rotate: false
+  xy: 2, 2
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+hit/light beam
+  rotate: false
+  xy: 123, 11
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+hit/magic ring
+  rotate: false
+  xy: 281, 107
+  size: 113, 113
+  orig: 113, 113
+  offset: 0, 0
+  index: -1
+hit/shock wave
+  rotate: false
+  xy: 396, 116
+  size: 103, 104
+  orig: 103, 104
+  offset: 0, 0
+  index: -1
+hit/slash#1
+  rotate: false
+  xy: 501, 170
+  size: 59, 50
+  orig: 59, 50
+  offset: 0, 0
+  index: -1
+hit/slash#2
+  rotate: false
+  xy: 63, 11
+  size: 58, 50
+  orig: 58, 50
+  offset: 0, 0
+  index: -1
+hit/slash#3
+  rotate: false
+  xy: 501, 119
+  size: 58, 49
+  orig: 58, 49
+  offset: 0, 0
+  index: -1
+hit/slash#4
+  rotate: false
+  xy: 562, 171
+  size: 58, 49
+  orig: 58, 49
+  offset: 0, 0
+  index: -1
+hit/starsparkle
+  rotate: false
+  xy: 872, 176
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1

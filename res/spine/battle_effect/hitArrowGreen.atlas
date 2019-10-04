@@ -1,0 +1,62 @@
+
+hitArrowGreen.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ImpactPart1
+  rotate: false
+  xy: 362, 59
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+ImpactPart2
+  rotate: false
+  xy: 422, 62
+  size: 59, 55
+  orig: 59, 55
+  offset: 0, 0
+  index: -1
+ImpactPart3
+  rotate: false
+  xy: 221, 44
+  size: 78, 73
+  orig: 78, 73
+  offset: 0, 0
+  index: -1
+ImpactPart4
+  rotate: false
+  xy: 301, 5
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+ImpactPart5
+  rotate: false
+  xy: 301, 58
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+SlashLine
+  rotate: false
+  xy: 2, 2
+  size: 111, 63
+  orig: 111, 63
+  offset: 0, 0
+  index: -1
+arrowS
+  rotate: false
+  xy: 2, 67
+  size: 136, 50
+  orig: 136, 50
+  offset: 0, 0
+  index: -1
+effect_light
+  rotate: false
+  xy: 140, 40
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: -1

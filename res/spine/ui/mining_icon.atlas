@@ -1,0 +1,48 @@
+
+mining_icon.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Shine
+  rotate: false
+  xy: 171, 40
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+gold1
+  rotate: false
+  xy: 415, 163
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+gold2
+  rotate: false
+  xy: 323, 62
+  size: 43, 25
+  orig: 43, 25
+  offset: 0, 0
+  index: -1
+gold3
+  rotate: false
+  xy: 2, 2
+  size: 56, 25
+  orig: 56, 25
+  offset: 0, 0
+  index: -1
+ico_hammer
+  rotate: false
+  xy: 323, 89
+  size: 90, 101
+  orig: 90, 101
+  offset: 0, 0
+  index: -1
+pnl_khung tron
+  rotate: false
+  xy: 2, 29
+  size: 167, 161
+  orig: 167, 161
+  offset: 0, 0
+  index: -1

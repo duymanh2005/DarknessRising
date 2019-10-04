@@ -1,0 +1,272 @@
+
+poisonbull.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm low L
+  rotate: true
+  xy: 1586, 412
+  size: 98, 107
+  orig: 98, 107
+  offset: 0, 0
+  index: -1
+arm low R
+  rotate: true
+  xy: 425, 81
+  size: 93, 139
+  orig: 93, 139
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: true
+  xy: 433, 4
+  size: 75, 102
+  orig: 75, 102
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: false
+  xy: 1361, 360
+  size: 116, 150
+  orig: 116, 150
+  offset: 0, 0
+  index: -1
+body low
+  rotate: false
+  xy: 580, 277
+  size: 194, 233
+  orig: 194, 233
+  offset: 0, 0
+  index: -1
+cloth
+  rotate: true
+  xy: 1819, 435
+  size: 75, 123
+  orig: 75, 123
+  offset: 0, 0
+  index: -1
+crack fx 1
+  rotate: true
+  xy: 981, 299
+  size: 42, 123
+  orig: 42, 123
+  offset: 0, 0
+  index: -1
+crack fx 2
+  rotate: true
+  xy: 1106, 299
+  size: 42, 123
+  orig: 42, 123
+  offset: 0, 0
+  index: -1
+crack fx 3
+  rotate: true
+  xy: 1231, 299
+  size: 42, 123
+  orig: 42, 123
+  offset: 0, 0
+  index: -1
+crack fx 4
+  rotate: true
+  xy: 1819, 391
+  size: 42, 123
+  orig: 42, 123
+  offset: 0, 0
+  index: -1
+crack fx 5
+  rotate: true
+  xy: 256, 15
+  size: 42, 123
+  orig: 42, 123
+  offset: 0, 0
+  index: -1
+crack fx 6
+  rotate: true
+  xy: 776, 259
+  size: 42, 123
+  orig: 42, 123
+  offset: 0, 0
+  index: -1
+crack fx 7
+  rotate: true
+  xy: 1479, 360
+  size: 42, 123
+  orig: 42, 123
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: true
+  xy: 863, 153
+  size: 104, 36
+  orig: 104, 36
+  offset: 0, 0
+  index: -1
+eyes fx
+  rotate: false
+  xy: 2, 3
+  size: 75, 25
+  orig: 75, 25
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 901, 162
+  size: 47, 51
+  orig: 47, 51
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 381, 2
+  size: 50, 55
+  orig: 50, 55
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: true
+  xy: 1604, 324
+  size: 86, 89
+  orig: 86, 89
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 976, 205
+  size: 92, 97
+  orig: 92, 97
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 30
+  size: 252, 144
+  orig: 252, 144
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: false
+  xy: 1479, 404
+  size: 105, 106
+  orig: 105, 106
+  offset: 0, 0
+  index: -1
+leg L
+  rotate: true
+  xy: 755, 172
+  size: 85, 106
+  orig: 85, 106
+  offset: 0, 0
+  index: -1
+leg R
+  rotate: true
+  xy: 1695, 432
+  size: 78, 122
+  orig: 78, 122
+  offset: 0, 0
+  index: -1
+leg cab L
+  rotate: false
+  xy: 901, 215
+  size: 73, 86
+  orig: 73, 86
+  offset: 0, 0
+  index: -1
+leg cab R
+  rotate: false
+  xy: 1075, 206
+  size: 82, 91
+  orig: 82, 91
+  offset: 0, 0
+  index: -1
+light fx 1
+  rotate: false
+  xy: 776, 343
+  size: 115, 167
+  orig: 115, 167
+  offset: 0, 0
+  index: -1
+light fx 2
+  rotate: true
+  xy: 256, 59
+  size: 115, 167
+  orig: 115, 167
+  offset: 0, 0
+  index: -1
+light fx 3
+  rotate: false
+  xy: 893, 343
+  size: 115, 167
+  orig: 115, 167
+  offset: 0, 0
+  index: -1
+light fx 4
+  rotate: false
+  xy: 1010, 343
+  size: 115, 167
+  orig: 115, 167
+  offset: 0, 0
+  index: -1
+light fx 5
+  rotate: false
+  xy: 1127, 343
+  size: 115, 167
+  orig: 115, 167
+  offset: 0, 0
+  index: -1
+light fx 6
+  rotate: false
+  xy: 1244, 343
+  size: 115, 167
+  orig: 115, 167
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 1799, 338
+  size: 111, 51
+  orig: 111, 51
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 776, 303
+  size: 203, 38
+  orig: 203, 38
+  offset: 0, 0
+  index: -1
+slash1
+  rotate: false
+  xy: 1944, 408
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+slash2
+  rotate: false
+  xy: 1944, 304
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+slash3
+  rotate: false
+  xy: 1695, 328
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+waist
+  rotate: false
+  xy: 580, 192
+  size: 173, 83
+  orig: 173, 83
+  offset: 0, 0
+  index: -1
+war hammer
+  rotate: false
+  xy: 2, 176
+  size: 576, 334
+  orig: 576, 334
+  offset: 0, 0
+  index: -1

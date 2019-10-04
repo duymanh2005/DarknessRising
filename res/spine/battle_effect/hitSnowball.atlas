@@ -1,0 +1,83 @@
+
+hitSnowball.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+explosion beam1
+  rotate: false
+  xy: 772, 259
+  size: 61, 76
+  orig: 61, 76
+  offset: 0, 0
+  index: -1
+explosion beam2
+  rotate: true
+  xy: 673, 251
+  size: 84, 97
+  orig: 84, 97
+  offset: 0, 0
+  index: -1
+explosion beam3
+  rotate: true
+  xy: 337, 246
+  size: 101, 106
+  orig: 101, 106
+  offset: 0, 0
+  index: -1
+explosion beam4
+  rotate: false
+  xy: 823, 360
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+explosion beam5
+  rotate: false
+  xy: 223, 251
+  size: 112, 96
+  orig: 112, 96
+  offset: 0, 0
+  index: -1
+explosion beam6
+  rotate: true
+  xy: 937, 358
+  size: 112, 81
+  orig: 112, 81
+  offset: 0, 0
+  index: -1
+hit fx2
+  rotate: false
+  xy: 673, 337
+  size: 148, 133
+  orig: 148, 133
+  offset: 0, 0
+  index: -1
+smash fx3
+  rotate: false
+  xy: 223, 349
+  size: 259, 121
+  orig: 259, 121
+  offset: 0, 0
+  index: -1
+smash grond
+  rotate: false
+  xy: 2, 2
+  size: 168, 249
+  orig: 168, 249
+  offset: 0, 0
+  index: -1
+snowball
+  rotate: false
+  xy: 484, 285
+  size: 187, 185
+  orig: 187, 185
+  offset: 0, 0
+  index: -1
+snowball glow
+  rotate: false
+  xy: 2, 253
+  size: 219, 217
+  orig: 219, 217
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,34 @@
+
+luckywheel_panel_idle.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ico_obj
+  rotate: false
+  xy: 2, 369
+  size: 780, 293
+  orig: 780, 293
+  offset: 0, 0
+  index: -1
+ico_obj_effect
+  rotate: false
+  xy: 2, 74
+  size: 780, 293
+  orig: 780, 293
+  offset: 0, 0
+  index: -1
+kim
+  rotate: false
+  xy: 784, 401
+  size: 132, 261
+  orig: 132, 261
+  offset: 0, 0
+  index: -1
+shine_light
+  rotate: false
+  xy: 2, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1

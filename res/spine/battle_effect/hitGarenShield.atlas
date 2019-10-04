@@ -1,0 +1,83 @@
+
+hitGarenShield.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hit/shield
+  rotate: true
+  xy: 200, 8
+  size: 69, 86
+  orig: 69, 86
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder1
+  rotate: false
+  xy: 136, 2
+  size: 62, 75
+  orig: 62, 75
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder10
+  rotate: true
+  xy: 673, 96
+  size: 30, 132
+  orig: 30, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder11
+  rotate: true
+  xy: 807, 98
+  size: 28, 132
+  orig: 28, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder2
+  rotate: true
+  xy: 136, 79
+  size: 47, 133
+  orig: 47, 133
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder4
+  rotate: true
+  xy: 2, 20
+  size: 50, 132
+  orig: 50, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder5
+  rotate: true
+  xy: 288, 38
+  size: 55, 90
+  orig: 55, 90
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder6
+  rotate: true
+  xy: 2, 72
+  size: 54, 132
+  orig: 54, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder7
+  rotate: true
+  xy: 539, 96
+  size: 30, 132
+  orig: 30, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder8
+  rotate: true
+  xy: 271, 95
+  size: 31, 132
+  orig: 31, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder9
+  rotate: true
+  xy: 405, 95
+  size: 31, 132
+  orig: 31, 132
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>sprite/shadow.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{345,666},{199,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{199,59}</string>
+			</dict>
+			<key>sprite/Purplestar1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{345,543},{122,115}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{122,115}</string>
+			</dict>
+			<key>sprite/Purplestar2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{532,733},{102,95}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{102,95}</string>
+			</dict>
+			<key>sprite/Purplestar3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{605,543},{102,95}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{102,95}</string>
+			</dict>
+			<key>sprite/Star.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{475,543},{122,115}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{122,115}</string>
+			</dict>
+			<key>sprite/Unavailable_Star.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{532,836},{102,95}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{102,95}</string>
+			</dict>
+			<key>sprite/winniedwing_left.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{275,786},{249,220}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{249,220}</string>
+			</dict>
+			<key>sprite/losewing_left.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{4,786},{263,232}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{263,232}</string>
+			</dict>
+			<key>sprite/UI_Shop_Chara.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{4,419},{333,359}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{333,359}</string>
+			</dict>
+			<key>sprite/char_goblin.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{4,4},{379,407}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{379,407}</string>
+			</dict>
+			<key>sprite/Standing_Platform.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{345,419},{332,116}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{332,116}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>sprite.png</string>
+			<key>realTextureFileName</key>
+			<string>sprite.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

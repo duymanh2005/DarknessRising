@@ -1,0 +1,209 @@
+
+cursedwizard.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Back silk
+  rotate: false
+  xy: 693, 283
+  size: 100, 103
+  orig: 100, 103
+  offset: 0, 0
+  index: -1
+Head 1
+  rotate: false
+  xy: 684, 388
+  size: 124, 122
+  orig: 124, 122
+  offset: 0, 0
+  index: -1
+Head 2
+  rotate: false
+  xy: 308, 384
+  size: 122, 126
+  orig: 122, 126
+  offset: 0, 0
+  index: -1
+Head 3
+  rotate: false
+  xy: 432, 387
+  size: 124, 123
+  orig: 124, 123
+  offset: 0, 0
+  index: -1
+Head 4
+  rotate: false
+  xy: 558, 387
+  size: 124, 123
+  orig: 124, 123
+  offset: 0, 0
+  index: -1
+Head 5
+  rotate: false
+  xy: 810, 388
+  size: 124, 122
+  orig: 124, 122
+  offset: 0, 0
+  index: -1
+Hhair
+  rotate: true
+  xy: 308, 267
+  size: 115, 123
+  orig: 115, 123
+  offset: 0, 0
+  index: -1
+L arm
+  rotate: true
+  xy: 273, 201
+  size: 37, 33
+  orig: 37, 33
+  offset: 0, 0
+  index: -1
+L boot
+  rotate: true
+  xy: 195, 2
+  size: 21, 37
+  orig: 21, 37
+  offset: 0, 0
+  index: -1
+L bracer
+  rotate: false
+  xy: 244, 123
+  size: 29, 24
+  orig: 29, 24
+  offset: 0, 0
+  index: -1
+L leg
+  rotate: true
+  xy: 893, 336
+  size: 50, 44
+  orig: 50, 44
+  offset: 0, 0
+  index: -1
+L palm
+  rotate: false
+  xy: 156, 20
+  size: 37, 36
+  orig: 37, 36
+  offset: 0, 0
+  index: -1
+R arm
+  rotate: true
+  xy: 274, 240
+  size: 38, 30
+  orig: 38, 30
+  offset: 0, 0
+  index: -1
+R boot
+  rotate: false
+  xy: 195, 25
+  size: 37, 31
+  orig: 37, 31
+  offset: 0, 0
+  index: -1
+R bracer
+  rotate: true
+  xy: 2, 3
+  size: 22, 30
+  orig: 22, 30
+  offset: 0, 0
+  index: -1
+R leg
+  rotate: false
+  xy: 936, 390
+  size: 50, 56
+  orig: 50, 56
+  offset: 0, 0
+  index: -1
+R palm
+  rotate: false
+  xy: 893, 296
+  size: 36, 38
+  orig: 36, 38
+  offset: 0, 0
+  index: -1
+R shoulder
+  rotate: false
+  xy: 244, 149
+  size: 31, 35
+  orig: 31, 35
+  offset: 0, 0
+  index: -1
+Shield
+  rotate: true
+  xy: 433, 284
+  size: 101, 139
+  orig: 101, 139
+  offset: 0, 0
+  index: -1
+Silk
+  rotate: false
+  xy: 244, 186
+  size: 27, 52
+  orig: 27, 52
+  offset: 0, 0
+  index: -1
+Torso
+  rotate: false
+  xy: 936, 448
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+Weapon
+  rotate: true
+  xy: 2, 58
+  size: 180, 240
+  orig: 180, 240
+  offset: 0, 0
+  index: -1
+circle_02
+  rotate: false
+  xy: 939, 340
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+effect_light
+  rotate: false
+  xy: 574, 271
+  size: 117, 114
+  orig: 117, 114
+  offset: 0, 0
+  index: -1
+effect_line
+  rotate: false
+  xy: 274, 280
+  size: 32, 230
+  orig: 32, 230
+  offset: 0, 0
+  index: -1
+effect_speedline.
+  rotate: false
+  xy: 1004, 472
+  size: 18, 38
+  orig: 18, 38
+  offset: 0, 0
+  index: -1
+lightning2
+  rotate: false
+  xy: 795, 290
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+magic_circle3
+  rotate: false
+  xy: 2, 240
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 27
+  size: 152, 29
+  orig: 152, 29
+  offset: 0, 0
+  index: -1

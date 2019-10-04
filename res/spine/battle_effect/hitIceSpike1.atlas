@@ -1,0 +1,41 @@
+
+hitIceSpike1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+IceBroken
+  rotate: false
+  xy: 378, 75
+  size: 187, 243
+  orig: 187, 243
+  offset: 0, 0
+  index: -1
+dust
+  rotate: false
+  xy: 2, 378
+  size: 455, 499
+  orig: 455, 499
+  offset: 0, 0
+  index: -1
+icewall_small
+  rotate: false
+  xy: 459, 540
+  size: 387, 337
+  orig: 387, 337
+  offset: 0, 0
+  index: -1
+light_ringA
+  rotate: false
+  xy: 2, 2
+  size: 374, 374
+  orig: 374, 374
+  offset: 0, 0
+  index: -1
+spark_light
+  rotate: false
+  xy: 459, 320
+  size: 265, 218
+  orig: 265, 218
+  offset: 0, 0
+  index: -1

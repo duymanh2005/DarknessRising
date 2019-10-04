@@ -1,0 +1,34 @@
+
+home_elements_1.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BACK_HOME_ITEM_night
+  rotate: false
+  xy: 1040, 328
+  size: 396, 381
+  orig: 396, 381
+  offset: 0, 0
+  index: -1
+BACK_HOME_NIGHT_4
+  rotate: true
+  xy: 2, 260
+  size: 759, 1036
+  orig: 759, 1036
+  offset: 0, 0
+  index: -1
+DECOR1
+  rotate: false
+  xy: 1040, 711
+  size: 754, 308
+  orig: 754, 308
+  offset: 0, 0
+  index: -1
+DECOR2
+  rotate: false
+  xy: 2, 2
+  size: 759, 256
+  orig: 759, 256
+  offset: 0, 0
+  index: -1

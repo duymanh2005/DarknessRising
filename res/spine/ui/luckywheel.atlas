@@ -1,0 +1,20 @@
+
+luckywheel.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pnl_wheel_1
+  rotate: false
+  xy: 2, 263
+  size: 696, 696
+  orig: 696, 696
+  offset: 0, 0
+  index: -1
+pnl_wheel_selected
+  rotate: false
+  xy: 2, 2
+  size: 234, 259
+  orig: 234, 259
+  offset: 0, 0
+  index: -1

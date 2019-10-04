@@ -1,0 +1,167 @@
+
+beetle.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm L
+  rotate: false
+  xy: 1094, 136
+  size: 75, 152
+  orig: 75, 152
+  offset: 0, 0
+  index: -1
+arm R low
+  rotate: true
+  xy: 271, 7
+  size: 33, 40
+  orig: 33, 40
+  offset: 0, 0
+  index: -1
+arm R up
+  rotate: false
+  xy: 1675, 358
+  size: 86, 43
+  orig: 86, 43
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 890, 120
+  size: 168, 202
+  orig: 168, 202
+  offset: 0, 0
+  index: -1
+body low
+  rotate: false
+  xy: 1987, 440
+  size: 58, 69
+  orig: 58, 69
+  offset: 0, 0
+  index: -1
+charge
+  rotate: false
+  xy: 2, 42
+  size: 646, 467
+  orig: 646, 467
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 1171, 217
+  size: 97, 71
+  orig: 97, 71
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 1440, 301
+  size: 37, 45
+  orig: 37, 45
+  offset: 0, 0
+  index: -1
+foot R copy
+  rotate: false
+  xy: 1836, 351
+  size: 30, 50
+  orig: 30, 50
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 1274, 298
+  size: 48, 88
+  orig: 48, 88
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 650, 104
+  size: 238, 184
+  orig: 238, 184
+  offset: 0, 0
+  index: -1
+leg R low
+  rotate: false
+  xy: 829, 62
+  size: 57, 40
+  orig: 57, 40
+  offset: 0, 0
+  index: -1
+leg R low copy
+  rotate: false
+  xy: 207, 14
+  size: 62, 26
+  orig: 62, 26
+  offset: 0, 0
+  index: -1
+leg R up
+  rotate: true
+  xy: 1763, 346
+  size: 55, 71
+  orig: 55, 71
+  offset: 0, 0
+  index: -1
+leg R up copy
+  rotate: false
+  xy: 1364, 296
+  size: 74, 50
+  orig: 74, 50
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 203, 38
+  orig: 203, 38
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 1171, 140
+  size: 79, 75
+  orig: 79, 75
+  offset: 0, 0
+  index: -1
+spear
+  rotate: false
+  xy: 650, 290
+  size: 622, 219
+  orig: 622, 219
+  offset: 0, 0
+  index: -1
+stab fx
+  rotate: false
+  xy: 1874, 414
+  size: 111, 95
+  orig: 111, 95
+  offset: 0, 0
+  index: -1
+wing L low
+  rotate: true
+  xy: 1675, 403
+  size: 106, 197
+  orig: 106, 197
+  offset: 0, 0
+  index: -1
+wing L up
+  rotate: true
+  xy: 650, 54
+  size: 48, 177
+  orig: 48, 177
+  offset: 0, 0
+  index: -1
+wing R low
+  rotate: false
+  xy: 1274, 348
+  size: 218, 161
+  orig: 218, 161
+  offset: 0, 0
+  index: -1
+wing R up
+  rotate: true
+  xy: 1494, 358
+  size: 151, 179
+  orig: 151, 179
+  offset: 0, 0
+  index: -1

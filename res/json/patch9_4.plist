@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>patch9/Large_Panel_Stage.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1421,1},{322,319}}</string>
+				<key>offset</key>
+				<string>{1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{338,336}</string>
+			</dict>
+			<key>patch9/chaoscastle_undermenu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,917},{750,85}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{760,90}</string>
+			</dict>
+			<key>patch9/vspanel.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{731,344}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{749,346}</string>
+			</dict>
+			<key>patch9/pnl_talkingbubble.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1745,1},{447,220}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{447,220}</string>
+			</dict>
+			<key>patch9/pnl_bless_shop.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{347,1},{482,358}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{482,358}</string>
+			</dict>
+			<key>patch9/pnl_pop_up_circle_star.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{347,485},{666,174}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{668,176}</string>
+			</dict>
+			<key>patch9/pnl_sale.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{347,661},{109,36}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{111,38}</string>
+			</dict>
+			<key>patch9/pnl_gift_shop_under.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,734},{750,181}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{752,183}</string>
+			</dict>
+			<key>patch9/pnl_pop_up.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{753,661},{666,174}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{668,176}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>patch9_4.png</string>
+			<key>realTextureFileName</key>
+			<string>patch9_4.png</string>
+			<key>size</key>
+			<string>{1966,1003}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1966</integer>
+			<key>height</key>
+			<integer>1003</integer>
+		</dict>
+	</dict>
+</plist>

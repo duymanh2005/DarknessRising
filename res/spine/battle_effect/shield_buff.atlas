@@ -1,0 +1,27 @@
+
+shield_buff.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skill/DotSparkA
+  rotate: false
+  xy: 324, 15
+  size: 307, 307
+  orig: 307, 307
+  offset: 0, 0
+  index: -1
+skill/LightCircleA
+  rotate: false
+  xy: 633, 66
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+skill/shield_guardian
+  rotate: false
+  xy: 2, 2
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1

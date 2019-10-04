@@ -1,0 +1,258 @@
+
+GuardianFairyElf.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Light fx
+  rotate: false
+  xy: 196, 163
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+arm L
+  rotate: false
+  xy: 714, 226
+  size: 40, 19
+  orig: 40, 19
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: false
+  xy: 435, 219
+  size: 39, 16
+  orig: 39, 16
+  offset: 0, 0
+  index: -1
+arrow circle fx
+  rotate: true
+  xy: 968, 210
+  size: 60, 39
+  orig: 60, 39
+  offset: 0, 0
+  index: -1
+boot L
+  rotate: true
+  xy: 199, 213
+  size: 22, 62
+  orig: 22, 62
+  offset: 0, 0
+  index: -1
+boot R
+  rotate: true
+  xy: 649, 222
+  size: 23, 63
+  orig: 23, 63
+  offset: 0, 0
+  index: -1
+bow
+  rotate: true
+  xy: 579, 397
+  size: 111, 332
+  orig: 111, 332
+  offset: 0, 0
+  index: -1
+bow string
+  rotate: true
+  xy: 579, 370
+  size: 25, 288
+  orig: 25, 288
+  offset: 0, 0
+  index: -1
+bracer L
+  rotate: false
+  xy: 196, 134
+  size: 37, 27
+  orig: 37, 27
+  offset: 0, 0
+  index: -1
+bracer R
+  rotate: false
+  xy: 395, 210
+  size: 38, 25
+  orig: 38, 25
+  offset: 0, 0
+  index: -1
+circle fx
+  rotate: false
+  xy: 356, 198
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+energy line
+  rotate: false
+  xy: 913, 390
+  size: 100, 57
+  orig: 100, 57
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: true
+  xy: 122, 2
+  size: 69, 59
+  orig: 69, 59
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 913, 449
+  size: 99, 59
+  orig: 99, 59
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: false
+  xy: 898, 329
+  size: 91, 59
+  orig: 91, 59
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 756, 245
+  size: 140, 123
+  orig: 140, 123
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 756, 225
+  size: 19, 18
+  orig: 19, 18
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 777, 225
+  size: 19, 18
+  orig: 19, 18
+  offset: 0, 0
+  index: -1
+gold stars
+  rotate: false
+  xy: 2, 11
+  size: 118, 60
+  orig: 118, 60
+  offset: 0, 0
+  index: -1
+hair back
+  rotate: false
+  xy: 2, 233
+  size: 195, 275
+  orig: 195, 275
+  offset: 0, 0
+  index: -1
+hair front
+  rotate: false
+  xy: 2, 73
+  size: 167, 158
+  orig: 167, 158
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: true
+  xy: 203, 100
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 263, 201
+  size: 46, 34
+  orig: 46, 34
+  offset: 0, 0
+  index: -1
+helmet
+  rotate: false
+  xy: 579, 247
+  size: 175, 121
+  orig: 175, 121
+  offset: 0, 0
+  index: -1
+leg L
+  rotate: false
+  xy: 991, 333
+  size: 31, 55
+  orig: 31, 55
+  offset: 0, 0
+  index: -1
+leg R
+  rotate: false
+  xy: 171, 75
+  size: 30, 55
+  orig: 30, 55
+  offset: 0, 0
+  index: -1
+light beam
+  rotate: false
+  xy: 203, 78
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 579, 232
+  size: 68, 13
+  orig: 68, 13
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 311, 203
+  size: 43, 32
+  orig: 43, 32
+  offset: 0, 0
+  index: -1
+silk
+  rotate: true
+  xy: 898, 221
+  size: 49, 68
+  orig: 49, 68
+  offset: 0, 0
+  index: -1
+skill eff
+  rotate: true
+  xy: 171, 132
+  size: 99, 23
+  orig: 99, 23
+  offset: 0, 0
+  index: -1
+smoke fx
+  rotate: false
+  xy: 869, 374
+  size: 27, 21
+  orig: 27, 21
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 183, 6
+  size: 52, 67
+  orig: 52, 67
+  offset: 0, 0
+  index: -1
+waist
+  rotate: false
+  xy: 898, 272
+  size: 87, 55
+  orig: 87, 55
+  offset: 0, 0
+  index: -1
+wing
+  rotate: false
+  xy: 199, 237
+  size: 188, 271
+  orig: 188, 271
+  offset: 0, 0
+  index: -1
+wing copy
+  rotate: false
+  xy: 389, 237
+  size: 188, 271
+  orig: 188, 271
+  offset: 0, 0
+  index: -1

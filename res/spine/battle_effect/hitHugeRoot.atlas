@@ -1,0 +1,132 @@
+
+hitHugeRoot.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fly line
+  rotate: false
+  xy: 838, 79
+  size: 167, 175
+  orig: 167, 175
+  offset: 0, 0
+  index: -1
+light column
+  rotate: true
+  xy: 2, 67
+  size: 114, 265
+  orig: 114, 265
+  offset: 0, 0
+  index: -1
+magic circle
+  rotate: false
+  xy: 639, 57
+  size: 197, 197
+  orig: 197, 197
+  offset: 0, 0
+  index: -1
+rock1
+  rotate: false
+  xy: 332, 158
+  size: 19, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+rock2
+  rotate: true
+  xy: 214, 2
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+rock3
+  rotate: false
+  xy: 913, 51
+  size: 24, 26
+  orig: 24, 26
+  offset: 0, 0
+  index: -1
+rock4
+  rotate: false
+  xy: 939, 52
+  size: 24, 25
+  orig: 24, 25
+  offset: 0, 0
+  index: -1
+smoke 1
+  rotate: false
+  xy: 214, 26
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+smoke 2
+  rotate: false
+  xy: 838, 39
+  size: 40, 38
+  orig: 40, 38
+  offset: 0, 0
+  index: -1
+smoke 3
+  rotate: false
+  xy: 166, 19
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+smoke 4
+  rotate: false
+  xy: 116, 17
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+smoke 5
+  rotate: false
+  xy: 269, 69
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+smoke 6
+  rotate: false
+  xy: 61, 12
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: -1
+smoke 7
+  rotate: false
+  xy: 2, 8
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+smoke 8
+  rotate: false
+  xy: 269, 121
+  size: 61, 60
+  orig: 61, 60
+  offset: 0, 0
+  index: -1
+star1
+  rotate: false
+  xy: 880, 47
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+thorn cirrus
+  rotate: true
+  xy: 2, 183
+  size: 71, 351
+  orig: 71, 351
+  offset: 0, 0
+  index: -1
+wave
+  rotate: true
+  xy: 355, 178
+  size: 76, 282
+  orig: 76, 282
+  offset: 0, 0
+  index: -1

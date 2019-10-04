@@ -1,0 +1,62 @@
+
+DarkFuryDragonHit.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effect/glow fx
+  rotate: false
+  xy: 2, 162
+  size: 343, 344
+  orig: 343, 344
+  offset: 0, 0
+  index: -1
+Effect/sword arch
+  rotate: false
+  xy: 347, 363
+  size: 101, 143
+  orig: 101, 143
+  offset: 0, 0
+  index: -1
+SlashLine
+  rotate: false
+  xy: 2, 66
+  size: 166, 94
+  orig: 166, 94
+  offset: 0, 0
+  index: -1
+hit effect circle glowing
+  rotate: false
+  xy: 347, 325
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+impact 1
+  rotate: false
+  xy: 170, 72
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+light beam
+  rotate: false
+  xy: 450, 476
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+light circle
+  rotate: false
+  xy: 260, 145
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+shock wave
+  rotate: false
+  xy: 2, 2
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1

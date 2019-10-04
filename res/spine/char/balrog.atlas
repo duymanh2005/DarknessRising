@@ -1,0 +1,461 @@
+
+balrog.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm L
+  rotate: true
+  xy: 619, 4
+  size: 41, 78
+  orig: 41, 78
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: false
+  xy: 905, 96
+  size: 63, 86
+  orig: 63, 86
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 1133, 345
+  size: 149, 165
+  orig: 149, 165
+  offset: 0, 0
+  index: -1
+bracer L
+  rotate: false
+  xy: 1461, 367
+  size: 67, 58
+  orig: 67, 58
+  offset: 0, 0
+  index: -1
+bracer L horn
+  rotate: true
+  xy: 1530, 372
+  size: 53, 66
+  orig: 53, 66
+  offset: 0, 0
+  index: -1
+bracer R
+  rotate: true
+  xy: 785, 84
+  size: 98, 118
+  orig: 98, 118
+  offset: 0, 0
+  index: -1
+circle slash
+  rotate: false
+  xy: 972, 177
+  size: 137, 135
+  orig: 137, 135
+  offset: 0, 0
+  index: -1
+dust smoke/dust 1
+  rotate: false
+  xy: 1133, 320
+  size: 85, 23
+  orig: 85, 23
+  offset: 0, 0
+  index: -1
+dust smoke/dust 2
+  rotate: false
+  xy: 658, 47
+  size: 81, 31
+  orig: 81, 31
+  offset: 0, 0
+  index: -1
+dust smoke/dust 3
+  rotate: false
+  xy: 1284, 290
+  size: 70, 41
+  orig: 70, 41
+  offset: 0, 0
+  index: -1
+dust smoke/dust 4
+  rotate: false
+  xy: 1220, 295
+  size: 62, 48
+  orig: 62, 48
+  offset: 0, 0
+  index: -1
+dust smoke/dust 5
+  rotate: false
+  xy: 1138, 222
+  size: 52, 45
+  orig: 52, 45
+  offset: 0, 0
+  index: -1
+dust smoke/dust 6
+  rotate: true
+  xy: 1220, 207
+  size: 46, 48
+  orig: 46, 48
+  offset: 0, 0
+  index: -1
+dust smoke/dust 7
+  rotate: true
+  xy: 741, 46
+  size: 32, 51
+  orig: 32, 51
+  offset: 0, 0
+  index: -1
+dust smoke/dust 8
+  rotate: false
+  xy: 786, 2
+  size: 33, 37
+  orig: 33, 37
+  offset: 0, 0
+  index: -1
+effects/Cracked_Earth_1
+  rotate: false
+  xy: 1277, 256
+  size: 52, 32
+  orig: 52, 32
+  offset: 0, 0
+  index: -1
+effects/Skill shadow clone
+  rotate: false
+  xy: 1720, 387
+  size: 63, 44
+  orig: 63, 44
+  offset: 0, 0
+  index: -1
+effects/Skill shadow clone fx
+  rotate: false
+  xy: 1461, 427
+  size: 193, 83
+  orig: 193, 83
+  offset: 0, 0
+  index: -1
+effects/circle fx
+  rotate: false
+  xy: 1364, 327
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+effects/dust smoke
+  rotate: true
+  xy: 1331, 256
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+effects/light beam underground
+  rotate: false
+  xy: 519, 47
+  size: 137, 135
+  orig: 137, 135
+  offset: 0, 0
+  index: -1
+effects/light fx
+  rotate: true
+  xy: 2, 5
+  size: 136, 374
+  orig: 136, 374
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: true
+  xy: 893, 67
+  size: 15, 8
+  orig: 15, 8
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: false
+  xy: 1111, 186
+  size: 19, 11
+  orig: 19, 11
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 1220, 255
+  size: 55, 38
+  orig: 55, 38
+  offset: 0, 0
+  index: -1
+fire armor fx
+  rotate: true
+  xy: 1284, 333
+  size: 69, 78
+  orig: 69, 78
+  offset: 0, 0
+  index: -1
+fire ring circle spiral/fire ring circle
+  rotate: true
+  xy: 1058, 101
+  size: 74, 70
+  orig: 74, 70
+  offset: 0, 0
+  index: -1
+fire ring circle spiral/fire ring circle spiral
+  rotate: false
+  xy: 1488, 325
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 1
+  rotate: true
+  xy: 1577, 345
+  size: 25, 51
+  orig: 25, 51
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 10
+  rotate: false
+  xy: 1785, 385
+  size: 25, 46
+  orig: 25, 46
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 11
+  rotate: false
+  xy: 1839, 389
+  size: 25, 48
+  orig: 25, 48
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 12
+  rotate: false
+  xy: 1812, 387
+  size: 25, 50
+  orig: 25, 50
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 2
+  rotate: true
+  xy: 1426, 295
+  size: 27, 49
+  orig: 27, 49
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 3
+  rotate: true
+  xy: 1138, 195
+  size: 25, 52
+  orig: 25, 52
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 4
+  rotate: false
+  xy: 1111, 199
+  size: 25, 55
+  orig: 25, 55
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 5
+  rotate: false
+  xy: 1111, 256
+  size: 25, 56
+  orig: 25, 56
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 6
+  rotate: false
+  xy: 1192, 265
+  size: 26, 53
+  orig: 26, 53
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 7
+  rotate: false
+  xy: 1192, 209
+  size: 26, 54
+  orig: 26, 54
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 8
+  rotate: true
+  xy: 905, 67
+  size: 27, 54
+  orig: 27, 54
+  offset: 0, 0
+  index: -1
+fireball meteor/fire 9
+  rotate: true
+  xy: 1426, 268
+  size: 25, 49
+  orig: 25, 49
+  offset: 0, 0
+  index: -1
+fireball meteor/fireball
+  rotate: false
+  xy: 378, 2
+  size: 139, 139
+  orig: 139, 139
+  offset: 0, 0
+  index: -1
+foot lower R
+  rotate: false
+  xy: 1356, 276
+  size: 68, 49
+  orig: 68, 49
+  offset: 0, 0
+  index: -1
+foot upper R
+  rotate: true
+  xy: 1866, 378
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 844, 35
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 1138, 269
+  size: 52, 49
+  orig: 52, 49
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 972, 314
+  size: 159, 196
+  orig: 159, 196
+  offset: 0, 0
+  index: -1
+horse body
+  rotate: false
+  xy: 1284, 404
+  size: 175, 106
+  orig: 175, 106
+  offset: 0, 0
+  index: -1
+leg lower front R
+  rotate: true
+  xy: 893, 33
+  size: 32, 47
+  orig: 32, 47
+  offset: 0, 0
+  index: -1
+leg upper front R
+  rotate: true
+  xy: 1656, 433
+  size: 77, 145
+  orig: 77, 145
+  offset: 0, 0
+  index: -1
+scythe
+  rotate: true
+  xy: 516, 184
+  size: 326, 454
+  orig: 326, 454
+  offset: 0, 0
+  index: -1
+scythe fx
+  rotate: true
+  xy: 2, 143
+  size: 367, 512
+  orig: 367, 512
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 519, 13
+  size: 98, 32
+  orig: 98, 32
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: true
+  xy: 970, 97
+  size: 78, 86
+  orig: 78, 86
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 658, 80
+  size: 125, 102
+  orig: 125, 102
+  offset: 0, 0
+  index: -1
+silk
+  rotate: true
+  xy: 1803, 439
+  size: 71, 132
+  orig: 71, 132
+  offset: 0, 0
+  index: -1
+slash strike/slash 1
+  rotate: false
+  xy: 736, 3
+  size: 48, 41
+  orig: 48, 41
+  offset: 0, 0
+  index: -1
+slash strike/slash 2
+  rotate: false
+  xy: 1441, 324
+  size: 45, 41
+  orig: 45, 41
+  offset: 0, 0
+  index: -1
+slash strike/slash 3
+  rotate: false
+  xy: 1530, 335
+  size: 45, 35
+  orig: 45, 35
+  offset: 0, 0
+  index: -1
+slash strike/slash 4
+  rotate: false
+  xy: 1866, 412
+  size: 45, 25
+  orig: 45, 25
+  offset: 0, 0
+  index: -1
+slash strike/slash skill
+  rotate: false
+  xy: 794, 41
+  size: 48, 41
+  orig: 48, 41
+  offset: 0, 0
+  index: -1
+tail 1
+  rotate: false
+  xy: 1937, 421
+  size: 102, 89
+  orig: 102, 89
+  offset: 0, 0
+  index: -1
+tail 2
+  rotate: false
+  xy: 1658, 380
+  size: 60, 51
+  orig: 60, 51
+  offset: 0, 0
+  index: -1
+tail 3
+  rotate: false
+  xy: 699, 2
+  size: 35, 43
+  orig: 35, 43
+  offset: 0, 0
+  index: -1
+tail 4
+  rotate: true
+  xy: 821, 2
+  size: 29, 44
+  orig: 29, 44
+  offset: 0, 0
+  index: -1
+thigh back R
+  rotate: true
+  xy: 1598, 372
+  size: 53, 58
+  orig: 53, 58
+  offset: 0, 0
+  index: -1

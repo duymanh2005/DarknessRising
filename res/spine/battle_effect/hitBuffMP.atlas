@@ -1,0 +1,111 @@
+
+hitBuffMP.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ATK/ATK
+  rotate: false
+  xy: 327, 46
+  size: 179, 295
+  orig: 179, 295
+  offset: 0, 0
+  index: -1
+ATK/lighting circle
+  rotate: false
+  xy: 2, 668
+  size: 323, 323
+  orig: 323, 323
+  offset: 0, 0
+  index: -1
+ATK/spark light fx
+  rotate: true
+  xy: 2, 2
+  size: 14, 164
+  orig: 14, 164
+  offset: 0, 0
+  index: -1
+DEF/DEF
+  rotate: false
+  xy: 704, 245
+  size: 215, 234
+  orig: 215, 234
+  offset: 0, 0
+  index: -1
+DEF/lighting circle
+  rotate: false
+  xy: 327, 343
+  size: 323, 323
+  orig: 323, 323
+  offset: 0, 0
+  index: -1
+DEF/spark light fx
+  rotate: true
+  xy: 704, 229
+  size: 14, 164
+  orig: 14, 164
+  offset: 0, 0
+  index: -1
+HP/HP
+  rotate: false
+  xy: 652, 481
+  size: 233, 233
+  orig: 233, 233
+  offset: 0, 0
+  index: -1
+HP/lighting circle
+  rotate: false
+  xy: 2, 18
+  size: 323, 323
+  orig: 323, 323
+  offset: 0, 0
+  index: -1
+HP/spark light fx
+  rotate: true
+  xy: 508, 84
+  size: 14, 164
+  orig: 14, 164
+  offset: 0, 0
+  index: -1
+MAG/MAG
+  rotate: false
+  xy: 652, 716
+  size: 219, 275
+  orig: 219, 275
+  offset: 0, 0
+  index: -1
+MAG/lighting circle
+  rotate: false
+  xy: 2, 343
+  size: 323, 323
+  orig: 323, 323
+  offset: 0, 0
+  index: -1
+MAG/spark light fx
+  rotate: true
+  xy: 327, 30
+  size: 14, 164
+  orig: 14, 164
+  offset: 0, 0
+  index: -1
+MP/MP
+  rotate: false
+  xy: 508, 100
+  size: 194, 241
+  orig: 194, 241
+  offset: 0, 0
+  index: -1
+MP/lighting circle
+  rotate: false
+  xy: 327, 668
+  size: 323, 323
+  orig: 323, 323
+  offset: 0, 0
+  index: -1
+MP/spark light fx
+  rotate: false
+  xy: 873, 827
+  size: 14, 164
+  orig: 14, 164
+  offset: 0, 0
+  index: -1

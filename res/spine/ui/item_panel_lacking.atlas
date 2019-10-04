@@ -1,0 +1,13 @@
+
+item_panel_lacking.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lacking_items
+  rotate: false
+  xy: 2, 2
+  size: 157, 154
+  orig: 157, 154
+  offset: 0, 0
+  index: -1

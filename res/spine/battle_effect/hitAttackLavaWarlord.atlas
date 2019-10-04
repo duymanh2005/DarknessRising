@@ -1,0 +1,48 @@
+
+hitAttackLavaWarlord.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SlashLine
+  rotate: false
+  xy: 2, 97
+  size: 277, 157
+  orig: 277, 157
+  offset: 0, 0
+  index: -1
+hit effect circle glowing
+  rotate: false
+  xy: 429, 195
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+impact 1
+  rotate: false
+  xy: 281, 107
+  size: 146, 147
+  orig: 146, 147
+  offset: 0, 0
+  index: -1
+light beam
+  rotate: false
+  xy: 2, 45
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+light circle
+  rotate: false
+  xy: 387, 80
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+shock wave
+  rotate: true
+  xy: 281, 2
+  size: 103, 104
+  orig: 103, 104
+  offset: 0, 0
+  index: -1

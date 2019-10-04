@@ -1,0 +1,279 @@
+
+RobustLancer.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm R
+  rotate: false
+  xy: 898, 308
+  size: 15, 50
+  orig: 15, 50
+  offset: 0, 0
+  index: -1
+arm cloth  L
+  rotate: true
+  xy: 774, 148
+  size: 28, 39
+  orig: 28, 39
+  offset: 0, 0
+  index: -1
+arm cloth R
+  rotate: false
+  xy: 567, 7
+  size: 33, 38
+  orig: 33, 38
+  offset: 0, 0
+  index: -1
+boot  L
+  rotate: true
+  xy: 737, 252
+  size: 29, 69
+  orig: 29, 69
+  offset: 0, 0
+  index: -1
+boot R
+  rotate: true
+  xy: 435, 2
+  size: 42, 72
+  orig: 42, 72
+  offset: 0, 0
+  index: -1
+bracer  L
+  rotate: false
+  xy: 953, 308
+  size: 34, 31
+  orig: 34, 31
+  offset: 0, 0
+  index: -1
+bracer R
+  rotate: true
+  xy: 518, 342
+  size: 25, 34
+  orig: 25, 34
+  offset: 0, 0
+  index: -1
+cape
+  rotate: false
+  xy: 748, 360
+  size: 165, 150
+  orig: 165, 150
+  offset: 0, 0
+  index: -1
+circle fx
+  rotate: false
+  xy: 748, 283
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+dust01
+  rotate: true
+  xy: 898, 287
+  size: 19, 15
+  orig: 19, 15
+  offset: 0, 0
+  index: -1
+dust02
+  rotate: false
+  xy: 499, 158
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+dust03
+  rotate: true
+  xy: 214, 2
+  size: 12, 10
+  orig: 12, 10
+  offset: 0, 0
+  index: -1
+eyes attack
+  rotate: true
+  xy: 710, 144
+  size: 91, 62
+  orig: 91, 62
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: true
+  xy: 614, 46
+  size: 81, 59
+  orig: 81, 59
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: true
+  xy: 638, 136
+  size: 99, 70
+  orig: 99, 70
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: false
+  xy: 915, 341
+  size: 93, 59
+  orig: 93, 59
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 518, 214
+  size: 112, 126
+  orig: 112, 126
+  offset: 0, 0
+  index: -1
+hair back
+  rotate: true
+  xy: 577, 342
+  size: 168, 169
+  orig: 168, 169
+  offset: 0, 0
+  index: -1
+hair front
+  rotate: false
+  xy: 2, 3
+  size: 210, 162
+  orig: 210, 162
+  offset: 0, 0
+  index: -1
+hair front 2 a
+  rotate: true
+  xy: 915, 402
+  size: 108, 99
+  orig: 108, 99
+  offset: 0, 0
+  index: -1
+hair front 2 b
+  rotate: false
+  xy: 214, 16
+  size: 131, 149
+  orig: 131, 149
+  offset: 0, 0
+  index: -1
+hand  L
+  rotate: false
+  xy: 780, 96
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 780, 121
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: -1
+lance
+  rotate: false
+  xy: 347, 369
+  size: 228, 141
+  orig: 228, 141
+  offset: 0, 0
+  index: -1
+lance holder
+  rotate: true
+  xy: 675, 51
+  size: 83, 45
+  orig: 83, 45
+  offset: 0, 0
+  index: -1
+leg  L
+  rotate: false
+  xy: 774, 178
+  size: 41, 57
+  orig: 41, 57
+  offset: 0, 0
+  index: -1
+leg R
+  rotate: true
+  xy: 509, 2
+  size: 43, 56
+  orig: 43, 56
+  offset: 0, 0
+  index: -1
+light beam
+  rotate: false
+  xy: 825, 287
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 737, 237
+  size: 68, 13
+  orig: 68, 13
+  offset: 0, 0
+  index: -1
+shield
+  rotate: false
+  xy: 347, 48
+  size: 150, 128
+  orig: 150, 128
+  offset: 0, 0
+  index: -1
+silk
+  rotate: false
+  xy: 347, 2
+  size: 86, 44
+  orig: 86, 44
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 722, 59
+  size: 56, 83
+  orig: 56, 83
+  offset: 0, 0
+  index: -1
+waist armor L
+  rotate: true
+  xy: 915, 306
+  size: 33, 36
+  orig: 33, 36
+  offset: 0, 0
+  index: -1
+waist armor R
+  rotate: true
+  xy: 675, 2
+  size: 47, 37
+  orig: 47, 37
+  offset: 0, 0
+  index: -1
+water energy fx
+  rotate: false
+  xy: 518, 129
+  size: 118, 83
+  orig: 118, 83
+  offset: 0, 0
+  index: -1
+water fx
+  rotate: false
+  xy: 347, 178
+  size: 169, 189
+  orig: 169, 189
+  offset: 0, 0
+  index: -1
+water pillar
+  rotate: false
+  xy: 632, 237
+  size: 103, 103
+  orig: 103, 103
+  offset: 0, 0
+  index: -1
+water skill
+  rotate: false
+  xy: 499, 47
+  size: 113, 80
+  orig: 113, 80
+  offset: 0, 0
+  index: -1
+water splash
+  rotate: false
+  xy: 2, 167
+  size: 343, 343
+  orig: 343, 343
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,132 @@
+
+hitPoisonSkull.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dot
+  rotate: false
+  xy: 864, 128
+  size: 167, 167
+  orig: 167, 167
+  offset: 0, 0
+  index: -1
+explosion1
+  rotate: false
+  xy: 679, 32
+  size: 61, 76
+  orig: 61, 76
+  offset: 0, 0
+  index: -1
+explosion2
+  rotate: false
+  xy: 1193, 413
+  size: 84, 97
+  orig: 84, 97
+  offset: 0, 0
+  index: -1
+explosion3
+  rotate: false
+  xy: 462, 2
+  size: 101, 106
+  orig: 101, 106
+  offset: 0, 0
+  index: -1
+explosion4
+  rotate: false
+  xy: 1079, 400
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+explosion5
+  rotate: false
+  xy: 565, 12
+  size: 112, 96
+  orig: 112, 96
+  offset: 0, 0
+  index: -1
+explosion6
+  rotate: false
+  xy: 1079, 317
+  size: 112, 81
+  orig: 112, 81
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 2, 51
+  size: 458, 459
+  orig: 458, 459
+  offset: 0, 0
+  index: -1
+mana shield
+  rotate: false
+  xy: 864, 297
+  size: 213, 213
+  orig: 213, 213
+  offset: 0, 0
+  index: -1
+skull effect
+  rotate: false
+  xy: 462, 110
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+smoke 1
+  rotate: false
+  xy: 1033, 256
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+smoke 2
+  rotate: false
+  xy: 1279, 413
+  size: 40, 38
+  orig: 40, 38
+  offset: 0, 0
+  index: -1
+smoke 3
+  rotate: false
+  xy: 2, 3
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+smoke 4
+  rotate: false
+  xy: 797, 60
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+smoke 5
+  rotate: false
+  xy: 1338, 460
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+smoke 6
+  rotate: false
+  xy: 742, 55
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: -1
+smoke 7
+  rotate: false
+  xy: 1279, 453
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+smoke 8
+  rotate: false
+  xy: 1193, 351
+  size: 61, 60
+  orig: 61, 60
+  offset: 0, 0
+  index: -1

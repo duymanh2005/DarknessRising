@@ -1,0 +1,44 @@
+{
+  "en": [
+    {
+      "header": "Boss Rules",
+      "content": [
+        "- Each player has 2 Fights per day",
+        "- Each Hero can battle once per day",
+        "- Battle result with Guild Boss is Finish, not Win or Lose.",
+        "- Battle is completed by finishing battle time",
+        "- A Battle is 3 minutes long",
+        "- Player can use items in Battle"
+      ]
+    },
+    {
+      "header": "Rewards",
+      "content": [
+        "You will receive one of following rewards:",
+        "- Random rewards from Boss after each fight",
+        "- Rewards according to the percentage of Boss Hp"
+      ]
+    }
+  ],
+  "vi": [
+    {
+      "header": "Luật Chơi",
+      "content": [
+        "- Mỗi người chơi có 2 lần đánh mỗi ngày",
+        "- Mỗi tướng được tham gia đánh boss 1 lần sẽ không được tham gia lần sau nữa (như Hỗn Nguyên Lâu)",
+        "- Trận chiến với Boss chỉ có khái niệm Hoàn Thành và không có khái niệm Thắng/Thua",
+        "- Lượt đánh Hoàn Thành khi hết thời gian của lượt đánh",
+        "- Mỗi trận đánh có 3 phút, hết thời gian xem như Kết Thúc",
+        "- Người chơi được tự do sử dụng vật phẩm"
+      ]
+    },
+    {
+      "header": "Rewards",
+      "content": [
+        "Bạn sẽ nhận được một trong các loại phần thưởng sau:",
+        "- Phần thưởng ngẫu nhiên từ Boss sau mỗi lượt đánh",
+        "- Phần thưởng theo mốc phần trăm máu của Boss"
+      ]
+    }
+  ]
+}

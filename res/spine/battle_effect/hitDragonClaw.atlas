@@ -1,0 +1,20 @@
+
+hitDragonClaw.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cut fx
+  rotate: true
+  xy: 2, 2
+  size: 36, 248
+  orig: 36, 248
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 40
+  size: 458, 459
+  orig: 458, 459
+  offset: 0, 0
+  index: -1

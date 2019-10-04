@@ -1,0 +1,923 @@
+{
+  "ID": "f91f1b76-3d42-43a6-94a3-47ad7eec61e4",
+  "Version": "3.10.0.0",
+  "Name": "FormationLayout",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 169,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -750.0,
+            "TopMargin": -422.0,
+            "Tag": 170,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/Undo_Panel.png",
+                  "Plist": "json/patch9_2.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 40,
+                "Scale9OriginY": 16,
+                "Scale9Width": 57,
+                "Scale9Height": 112,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 212.1694,
+                  "Y": 255.6758
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2829,
+                  "Y": 0.6059
+                },
+                "PercentWidthEnable": true,
+                "PercentWidthEnabled": true,
+                "PreSize": {
+                  "X": 0.5053,
+                  "Y": 0.991
+                },
+                "LeftMargin": 22.6819,
+                "RightMargin": 348.3431,
+                "TopMargin": -42.7758,
+                "BottomMargin": 46.5758,
+                "Tag": 198,
+                "Children": [
+                  {
+                    "LabelText": "Formation",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/UTMBienvenue_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 189.4875,
+                      "Y": 388.926
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.93
+                    },
+                    "PreSize": {
+                      "X": 0.4169,
+                      "Y": 0.0956
+                    },
+                    "LeftMargin": 110.4875,
+                    "RightMargin": 110.4875,
+                    "TopMargin": 9.274,
+                    "BottomMargin": 368.926,
+                    "Tag": 200,
+                    "ActionTag": -676602687,
+                    "Size": {
+                      "X": 158.0,
+                      "Y": 40.0
+                    },
+                    "Name": "lblFormation",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "ATK",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/cam_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 22.2837,
+                      "Y": 329.8344
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.75
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0588,
+                      "Y": 0.7887
+                    },
+                    "PreSize": {
+                      "X": 0.2111,
+                      "Y": 0.11
+                    },
+                    "LeftMargin": 22.2837,
+                    "RightMargin": 276.6913,
+                    "TopMargin": 65.3657,
+                    "BottomMargin": 306.8344,
+                    "Tag": 201,
+                    "ActionTag": -2068198640,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 46.0
+                    },
+                    "Name": "lblATK",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "12,000",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/cam_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 96.4112,
+                      "Y": 329.8344
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.75
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2544,
+                      "Y": 0.7887
+                    },
+                    "PreSize": {
+                      "X": 0.2744,
+                      "Y": 0.11
+                    },
+                    "LeftMargin": 96.4112,
+                    "RightMargin": 178.5637,
+                    "TopMargin": 65.3657,
+                    "BottomMargin": 306.8344,
+                    "Tag": 202,
+                    "ActionTag": 1618915978,
+                    "Size": {
+                      "X": 104.0,
+                      "Y": 46.0
+                    },
+                    "Name": "lblNumATK",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "DEF",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/cam_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 199.1893,
+                      "Y": 329.8344
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.75
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5256,
+                      "Y": 0.7887
+                    },
+                    "PreSize": {
+                      "X": 0.1979,
+                      "Y": 0.11
+                    },
+                    "LeftMargin": 199.1893,
+                    "RightMargin": 104.7857,
+                    "TopMargin": 65.3657,
+                    "BottomMargin": 306.8344,
+                    "Tag": 203,
+                    "ActionTag": 556116801,
+                    "Size": {
+                      "X": 75.0,
+                      "Y": 46.0
+                    },
+                    "Name": "lblDEF",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "12,000",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/cam_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 273.3168,
+                      "Y": 329.8344
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.75
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.7212,
+                      "Y": 0.7887
+                    },
+                    "PreSize": {
+                      "X": 0.2744,
+                      "Y": 0.11
+                    },
+                    "LeftMargin": 273.3168,
+                    "RightMargin": 1.6582,
+                    "TopMargin": 65.3657,
+                    "BottomMargin": 306.8344,
+                    "Tag": 204,
+                    "ActionTag": 1693203303,
+                    "Size": {
+                      "X": 104.0,
+                      "Y": 46.0
+                    },
+                    "Name": "lblNumDEF",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "HP",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/cam_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 22.2837,
+                      "Y": 283.9996
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.75
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0588,
+                      "Y": 0.6791
+                    },
+                    "PreSize": {
+                      "X": 0.1372,
+                      "Y": 0.11
+                    },
+                    "LeftMargin": 22.2837,
+                    "RightMargin": 304.6913,
+                    "TopMargin": 111.2004,
+                    "BottomMargin": 260.9996,
+                    "Tag": 205,
+                    "ActionTag": -1145528029,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 46.0
+                    },
+                    "Name": "lblHP",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "12,000",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/cam_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 93.2279,
+                      "Y": 283.9996
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.75
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.246,
+                      "Y": 0.6791
+                    },
+                    "PreSize": {
+                      "X": 0.2744,
+                      "Y": 0.11
+                    },
+                    "LeftMargin": 93.2279,
+                    "RightMargin": 181.7471,
+                    "TopMargin": 111.2004,
+                    "BottomMargin": 260.9996,
+                    "Tag": 206,
+                    "ActionTag": -1080133648,
+                    "Size": {
+                      "X": 104.0,
+                      "Y": 46.0
+                    },
+                    "Name": "lblNumHP",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "REC",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/cam_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 197.6355,
+                      "Y": 283.9996
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.75
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5215,
+                      "Y": 0.6791
+                    },
+                    "PreSize": {
+                      "X": 0.1979,
+                      "Y": 0.11
+                    },
+                    "LeftMargin": 197.6355,
+                    "RightMargin": 106.3395,
+                    "TopMargin": 111.2004,
+                    "BottomMargin": 260.9996,
+                    "Tag": 207,
+                    "ActionTag": 487018859,
+                    "Size": {
+                      "X": 75.0,
+                      "Y": 46.0
+                    },
+                    "Name": "lblREC",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "12,000",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/cam_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 271.7251,
+                      "Y": 283.9996
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.75
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.717,
+                      "Y": 0.6791
+                    },
+                    "PreSize": {
+                      "X": 0.2744,
+                      "Y": 0.11
+                    },
+                    "LeftMargin": 271.7251,
+                    "RightMargin": 3.2499,
+                    "TopMargin": 111.2004,
+                    "BottomMargin": 260.9996,
+                    "Tag": 208,
+                    "ActionTag": -934501258,
+                    "Size": {
+                      "X": 104.0,
+                      "Y": 46.0
+                    },
+                    "Name": "lblNumREC",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "Leader skill",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/cam_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 22.2837,
+                      "Y": 197.3486
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.75
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0588,
+                      "Y": 0.4719
+                    },
+                    "PreSize": {
+                      "X": 0.5462,
+                      "Y": 0.11
+                    },
+                    "LeftMargin": 22.2837,
+                    "RightMargin": 149.6912,
+                    "TopMargin": 197.8514,
+                    "BottomMargin": 174.3486,
+                    "Tag": 209,
+                    "ActionTag": -1202137777,
+                    "Size": {
+                      "X": 207.0,
+                      "Y": 46.0
+                    },
+                    "Name": "lblLeader",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "All alies increase 30% ATK",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/cam_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 22.2837,
+                      "Y": 156.4068
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.75
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0588,
+                      "Y": 0.374
+                    },
+                    "PreSize": {
+                      "X": 1.2191,
+                      "Y": 0.11
+                    },
+                    "LeftMargin": 22.2837,
+                    "RightMargin": -105.3087,
+                    "TopMargin": 238.7932,
+                    "BottomMargin": 133.4068,
+                    "Tag": 210,
+                    "ActionTag": -690738527,
+                    "Size": {
+                      "X": 462.0,
+                      "Y": 46.0
+                    },
+                    "Name": "lblInfo",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "button/Green_Round.png",
+                      "Plist": "json/button.plist"
+                    },
+                    "Scale9OriginX": 72,
+                    "Scale9OriginY": 25,
+                    "Scale9Width": 75,
+                    "Scale9Height": 28,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 189.4875,
+                      "Y": 56.9999
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.75
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.1363
+                    },
+                    "PreSize": {
+                      "X": 0.5779,
+                      "Y": 0.1865
+                    },
+                    "LeftMargin": 79.9875,
+                    "RightMargin": 79.9875,
+                    "TopMargin": 322.2001,
+                    "BottomMargin": 17.9999,
+                    "Tag": 275,
+                    "ActionTag": -966704094,
+                    "Size": {
+                      "X": 219.0,
+                      "Y": 78.0
+                    },
+                    "Name": "btnOk",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1519303646,
+                "Size": {
+                  "X": 378.975,
+                  "Y": 418.2
+                },
+                "Name": "panelnfo",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 600.0,
+                  "Y": 211.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.8,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 600.0,
+                "RightMargin": 150.0,
+                "TopMargin": 211.0,
+                "BottomMargin": 211.0,
+                "Tag": 226,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "patch9/Formation_Panel.png",
+                      "Plist": "json/patch9_3.plist"
+                    },
+                    "Scale9OriginX": 43,
+                    "Scale9OriginY": 34,
+                    "Scale9Width": 45,
+                    "Scale9Height": 37,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -84.1726,
+                      "Y": -18.2497
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -149.6726,
+                    "RightMargin": 18.6726,
+                    "TopMargin": -34.2503,
+                    "BottomMargin": -70.7497,
+                    "Tag": 227,
+                    "ActionTag": -29851762,
+                    "Size": {
+                      "X": 131.0,
+                      "Y": 105.0
+                    },
+                    "Name": "2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "patch9/Formation_Panel.png",
+                      "Plist": "json/patch9_3.plist"
+                    },
+                    "Scale9OriginX": 43,
+                    "Scale9OriginY": 34,
+                    "Scale9Width": 45,
+                    "Scale9Height": 37,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -51.303,
+                      "Y": 164.6188
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -116.803,
+                    "RightMargin": -14.197,
+                    "TopMargin": -217.1188,
+                    "BottomMargin": 112.1188,
+                    "Tag": 228,
+                    "ActionTag": -1323033400,
+                    "Size": {
+                      "X": 131.0,
+                      "Y": 105.0
+                    },
+                    "Name": "3",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "patch9/Formation_Panel.png",
+                      "Plist": "json/patch9_3.plist"
+                    },
+                    "Scale9OriginX": 43,
+                    "Scale9OriginY": 34,
+                    "Scale9Width": 45,
+                    "Scale9Height": 37,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 75.0549,
+                      "Y": 69.6628
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 9.5549,
+                    "RightMargin": -140.5549,
+                    "TopMargin": -122.1628,
+                    "BottomMargin": 17.1628,
+                    "Tag": 229,
+                    "ActionTag": 81893922,
+                    "Size": {
+                      "X": 131.0,
+                      "Y": 105.0
+                    },
+                    "Name": "4",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "patch9/Formation_Panel.png",
+                      "Plist": "json/patch9_3.plist"
+                    },
+                    "Scale9OriginX": 43,
+                    "Scale9OriginY": 34,
+                    "Scale9Width": 45,
+                    "Scale9Height": 37,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 52.2267,
+                      "Y": -88.8393
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -13.2733,
+                    "RightMargin": -117.7267,
+                    "TopMargin": 36.3393,
+                    "BottomMargin": -141.3393,
+                    "Tag": 276,
+                    "ActionTag": 2035107979,
+                    "Size": {
+                      "X": 131.0,
+                      "Y": 105.0
+                    },
+                    "Name": "5",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "patch9/Formation_Panel.png",
+                      "Plist": "json/patch9_3.plist"
+                    },
+                    "Scale9OriginX": 43,
+                    "Scale9OriginY": 34,
+                    "Scale9Width": 45,
+                    "Scale9Height": 37,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -54.0135,
+                      "Y": -203.9469
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -119.5135,
+                    "RightMargin": -11.4865,
+                    "TopMargin": 151.4469,
+                    "BottomMargin": -256.4469,
+                    "Tag": 230,
+                    "ActionTag": 2042810948,
+                    "Size": {
+                      "X": 131.0,
+                      "Y": 105.0
+                    },
+                    "Name": "1",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -1766772409,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeFormaion5",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": -1893087695,
+            "Size": {
+              "X": 750.0,
+              "Y": 422.0
+            },
+            "Name": "root",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../font/cam_stroke_32-export.fnt",
+        "../../font/cam_stroke_32-export.png",
+        "../../font/UTMBienvenue_stroke_32-export.fnt",
+        "../../font/UTMBienvenue_stroke_32-export.png",
+        "../button.plist",
+        "../button.png",
+        "../patch9_2.plist",
+        "../patch9_2.png",
+        "../patch9_3.plist",
+        "../patch9_3.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

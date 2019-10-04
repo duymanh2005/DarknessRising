@@ -1,0 +1,153 @@
+
+beamknight.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm low R
+  rotate: false
+  xy: 970, 390
+  size: 37, 59
+  orig: 37, 59
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: true
+  xy: 462, 50
+  size: 22, 41
+  orig: 22, 41
+  offset: 0, 0
+  index: -1
+body low
+  rotate: false
+  xy: 970, 451
+  size: 50, 58
+  orig: 50, 58
+  offset: 0, 0
+  index: -1
+body up
+  rotate: false
+  xy: 839, 214
+  size: 128, 113
+  orig: 128, 113
+  offset: 0, 0
+  index: -1
+eyes 2
+  rotate: false
+  xy: 660, 244
+  size: 30, 26
+  orig: 30, 26
+  offset: 0, 0
+  index: -1
+eyes 3
+  rotate: false
+  xy: 55, 6
+  size: 51, 42
+  orig: 51, 42
+  offset: 0, 0
+  index: -1
+eyes stun
+  rotate: false
+  xy: 660, 108
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+fly line
+  rotate: false
+  xy: 701, 334
+  size: 166, 175
+  orig: 166, 175
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 970, 371
+  size: 8, 17
+  orig: 8, 17
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 50
+  size: 458, 459
+  orig: 458, 459
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: true
+  xy: 108, 7
+  size: 41, 43
+  orig: 41, 43
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 2, 2
+  size: 46, 51
+  orig: 46, 51
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 701, 214
+  size: 118, 136
+  orig: 118, 136
+  offset: 0, 0
+  index: -1
+leg low R
+  rotate: false
+  xy: 943, 193
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+leg up R
+  rotate: false
+  xy: 766, 113
+  size: 15, 29
+  orig: 15, 29
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 462, 74
+  size: 196, 196
+  orig: 196, 196
+  offset: 0, 0
+  index: -1
+shouler L
+  rotate: false
+  xy: 860, 144
+  size: 81, 68
+  orig: 81, 68
+  offset: 0, 0
+  index: -1
+shouler R
+  rotate: false
+  xy: 766, 144
+  size: 92, 68
+  orig: 92, 68
+  offset: 0, 0
+  index: -1
+sound wave
+  rotate: false
+  xy: 462, 272
+  size: 237, 237
+  orig: 237, 237
+  offset: 0, 0
+  index: -1
+star1
+  rotate: false
+  xy: 660, 76
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+wing
+  rotate: true
+  xy: 869, 329
+  size: 180, 99
+  orig: 180, 99
+  offset: 0, 0
+  index: -1

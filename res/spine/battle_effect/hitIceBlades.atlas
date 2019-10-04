@@ -1,0 +1,41 @@
+
+hitIceBlades.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FX/SlashLine
+  rotate: false
+  xy: 2, 103
+  size: 222, 125
+  orig: 222, 125
+  offset: 0, 0
+  index: -1
+FX/blue_light_fx
+  rotate: false
+  xy: 103, 21
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+frostblade
+  rotate: true
+  xy: 226, 196
+  size: 32, 157
+  orig: 32, 157
+  offset: 0, 0
+  index: -1
+hit/hit effect circle glowing
+  rotate: false
+  xy: 226, 147
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+hit/lightbeam
+  rotate: false
+  xy: 2, 2
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1

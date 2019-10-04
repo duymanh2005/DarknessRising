@@ -1,0 +1,118 @@
+
+hitAura.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lightning fx/thunder1
+  rotate: true
+  xy: 538, 2
+  size: 82, 100
+  orig: 82, 100
+  offset: 0, 0
+  index: -1
+lightning fx/thunder10
+  rotate: true
+  xy: 538, 86
+  size: 40, 176
+  orig: 40, 176
+  offset: 0, 0
+  index: -1
+lightning fx/thunder11
+  rotate: true
+  xy: 716, 88
+  size: 38, 176
+  orig: 38, 176
+  offset: 0, 0
+  index: -1
+lightning fx/thunder2
+  rotate: true
+  xy: 358, 63
+  size: 63, 178
+  orig: 63, 178
+  offset: 0, 0
+  index: -1
+lightning fx/thunder4
+  rotate: true
+  xy: 180, 60
+  size: 66, 176
+  orig: 66, 176
+  offset: 0, 0
+  index: -1
+lightning fx/thunder5
+  rotate: true
+  xy: 894, 53
+  size: 73, 119
+  orig: 73, 119
+  offset: 0, 0
+  index: -1
+lightning fx/thunder6
+  rotate: true
+  xy: 2, 54
+  size: 72, 176
+  orig: 72, 176
+  offset: 0, 0
+  index: -1
+lightning fx/thunder7
+  rotate: true
+  xy: 180, 17
+  size: 41, 176
+  orig: 41, 176
+  offset: 0, 0
+  index: -1
+lightning fx/thunder8
+  rotate: true
+  xy: 2, 10
+  size: 42, 176
+  orig: 42, 176
+  offset: 0, 0
+  index: -1
+lightning fx/thunder9
+  rotate: true
+  xy: 358, 20
+  size: 41, 176
+  orig: 41, 176
+  offset: 0, 0
+  index: -1
+particles/DotSparkA
+  rotate: false
+  xy: 716, 35
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+particles/Light_circleA
+  rotate: false
+  xy: 822, 46
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+particles/hit effect circle glowing
+  rotate: false
+  xy: 640, 26
+  size: 72, 58
+  orig: 72, 58
+  offset: 0, 0
+  index: -1
+particles/light beam
+  rotate: false
+  xy: 822, 4
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+particles/light line
+  rotate: false
+  xy: 2, 3
+  size: 57, 5
+  orig: 57, 5
+  offset: 0, 0
+  index: -1
+particles/shockwave2
+  rotate: false
+  xy: 769, 35
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1

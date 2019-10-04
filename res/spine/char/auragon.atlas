@@ -1,0 +1,153 @@
+
+auragon.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm low R
+  rotate: true
+  xy: 612, 69
+  size: 71, 73
+  orig: 71, 73
+  offset: 0, 0
+  index: -1
+arm low R glow
+  rotate: true
+  xy: 794, 80
+  size: 103, 101
+  orig: 103, 101
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: false
+  xy: 769, 37
+  size: 18, 40
+  orig: 18, 40
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 462, 93
+  size: 219, 148
+  orig: 219, 148
+  offset: 0, 0
+  index: -1
+eyes 2
+  rotate: true
+  xy: 2, 2
+  size: 15, 9
+  orig: 15, 9
+  offset: 0, 0
+  index: -1
+eyes 3
+  rotate: false
+  xy: 559, 47
+  size: 24, 21
+  orig: 24, 21
+  offset: 0, 0
+  index: -1
+eyes stun
+  rotate: false
+  xy: 688, 79
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+feather R
+  rotate: false
+  xy: 462, 31
+  size: 95, 60
+  orig: 95, 60
+  offset: 0, 0
+  index: -1
+fly line
+  rotate: false
+  xy: 660, 335
+  size: 166, 175
+  orig: 166, 175
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 51
+  size: 458, 459
+  orig: 458, 459
+  offset: 0, 0
+  index: -1
+hit fx
+  rotate: true
+  xy: 688, 185
+  size: 148, 133
+  orig: 148, 133
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: true
+  xy: 994, 468
+  size: 42, 23
+  orig: 42, 23
+  offset: 0, 0
+  index: -1
+jaw front
+  rotate: false
+  xy: 559, 70
+  size: 38, 21
+  orig: 38, 21
+  offset: 0, 0
+  index: -1
+leg cen R
+  rotate: true
+  xy: 994, 434
+  size: 32, 20
+  orig: 32, 20
+  offset: 0, 0
+  index: -1
+leg low R
+  rotate: false
+  xy: 61, 28
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+leg up R
+  rotate: false
+  xy: 35, 23
+  size: 24, 26
+  orig: 24, 26
+  offset: 0, 0
+  index: -1
+moon slash
+  rotate: false
+  xy: 828, 341
+  size: 164, 169
+  orig: 164, 169
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 462, 314
+  size: 196, 196
+  orig: 196, 196
+  offset: 0, 0
+  index: -1
+smash line
+  rotate: false
+  xy: 612, 142
+  size: 74, 170
+  orig: 74, 170
+  offset: 0, 0
+  index: -1
+star1
+  rotate: false
+  xy: 2, 19
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+wing R
+  rotate: false
+  xy: 687, 24
+  size: 80, 53
+  orig: 80, 53
+  offset: 0, 0
+  index: -1

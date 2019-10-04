@@ -1,0 +1,13 @@
+
+loading_fairy.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+loading_fairy
+  rotate: false
+  xy: 2, 2
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1

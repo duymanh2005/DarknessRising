@@ -1,0 +1,244 @@
+
+RageFighter.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L arm
+  rotate: true
+  xy: 1398, 291
+  size: 61, 73
+  orig: 61, 73
+  offset: 0, 0
+  index: -1
+L boot
+  rotate: true
+  xy: 398, 131
+  size: 37, 61
+  orig: 37, 61
+  offset: 0, 0
+  index: -1
+L gaunlet
+  rotate: false
+  xy: 1082, 286
+  size: 126, 88
+  orig: 126, 88
+  offset: 0, 0
+  index: -1
+L gaunletFX
+  rotate: false
+  xy: 1259, 367
+  size: 138, 98
+  orig: 138, 98
+  offset: 0, 0
+  index: -1
+L leg
+  rotate: true
+  xy: 871, 186
+  size: 77, 64
+  orig: 77, 64
+  offset: 0, 0
+  index: -1
+R arm
+  rotate: false
+  xy: 937, 198
+  size: 71, 74
+  orig: 71, 74
+  offset: 0, 0
+  index: -1
+R boot
+  rotate: false
+  xy: 316, 72
+  size: 56, 54
+  orig: 56, 54
+  offset: 0, 0
+  index: -1
+R gaunlet
+  rotate: true
+  xy: 585, 227
+  size: 140, 105
+  orig: 140, 105
+  offset: 0, 0
+  index: -1
+R leg
+  rotate: false
+  xy: 1259, 292
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+R shoulder
+  rotate: true
+  xy: 1399, 354
+  size: 111, 85
+  orig: 111, 85
+  offset: 0, 0
+  index: -1
+RgaunletFX
+  rotate: false
+  xy: 936, 274
+  size: 144, 109
+  orig: 144, 109
+  offset: 0, 0
+  index: -1
+circle fx
+  rotate: false
+  xy: 794, 188
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+circle_02
+  rotate: false
+  xy: 1944, 441
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+effect_light
+  rotate: false
+  xy: 2, 2
+  size: 156, 152
+  orig: 156, 152
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 1119, 376
+  size: 129, 138
+  orig: 129, 138
+  offset: 0, 0
+  index: -1
+face attack
+  rotate: true
+  xy: 1010, 198
+  size: 74, 62
+  orig: 74, 62
+  offset: 0, 0
+  index: -1
+face close eyes
+  rotate: false
+  xy: 1716, 450
+  size: 74, 55
+  orig: 74, 55
+  offset: 0, 0
+  index: -1
+face cry
+  rotate: true
+  xy: 1334, 282
+  size: 83, 62
+  orig: 83, 62
+  offset: 0, 0
+  index: -1
+face default
+  rotate: false
+  xy: 1792, 450
+  size: 74, 55
+  orig: 74, 55
+  offset: 0, 0
+  index: -1
+face flip default
+  rotate: false
+  xy: 1868, 450
+  size: 74, 55
+  orig: 74, 55
+  offset: 0, 0
+  index: -1
+fist fx
+  rotate: false
+  xy: 585, 163
+  size: 105, 62
+  orig: 105, 62
+  offset: 0, 0
+  index: -1
+glow314
+  rotate: false
+  xy: 1486, 367
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 318, 170
+  size: 265, 197
+  orig: 265, 197
+  offset: 0, 0
+  index: -1
+helmet
+  rotate: false
+  xy: 936, 385
+  size: 181, 120
+  orig: 181, 120
+  offset: 0, 0
+  index: -1
+light fx
+  rotate: true
+  xy: 318, 369
+  size: 136, 374
+  orig: 136, 374
+  offset: 0, 0
+  index: -1
+magic ring
+  rotate: false
+  xy: 692, 163
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+pose_fx
+  rotate: false
+  xy: 2, 156
+  size: 314, 349
+  orig: 314, 349
+  offset: 0, 0
+  index: -1
+precast/Light_SparkA
+  rotate: false
+  xy: 1623, 461
+  size: 91, 44
+  orig: 91, 44
+  offset: 0, 0
+  index: -1
+precast/Light_circleA
+  rotate: false
+  xy: 694, 265
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+precast/Light_lineA
+  rotate: false
+  xy: 1464, 471
+  size: 157, 34
+  orig: 157, 34
+  offset: 0, 0
+  index: -1
+punch_effect
+  rotate: false
+  xy: 318, 128
+  size: 78, 40
+  orig: 78, 40
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1259, 467
+  size: 203, 38
+  orig: 203, 38
+  offset: 0, 0
+  index: -1
+silk
+  rotate: false
+  xy: 1210, 285
+  size: 47, 89
+  orig: 47, 89
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 160, 11
+  size: 143, 154
+  orig: 143, 154
+  offset: 0, 0
+  index: -1

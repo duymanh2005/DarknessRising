@@ -1,0 +1,545 @@
+
+LightGuardianLancer.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm L
+  rotate: true
+  xy: 956, 144
+  size: 35, 22
+  orig: 35, 22
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: false
+  xy: 973, 380
+  size: 14, 38
+  orig: 14, 38
+  offset: 0, 0
+  index: -1
+boot L
+  rotate: true
+  xy: 973, 343
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+boot R
+  rotate: false
+  xy: 782, 2
+  size: 26, 32
+  orig: 26, 32
+  offset: 0, 0
+  index: -1
+capes/cape level 1
+  rotate: false
+  xy: 225, 242
+  size: 205, 268
+  orig: 205, 268
+  offset: 0, 0
+  index: -1
+capes/cape level 2
+  rotate: false
+  xy: 2, 239
+  size: 221, 271
+  orig: 221, 271
+  offset: 0, 0
+  index: -1
+capes/circle level 1
+  rotate: false
+  xy: 432, 328
+  size: 175, 182
+  orig: 175, 182
+  offset: 0, 0
+  index: -1
+capes/circle level 2
+  rotate: false
+  xy: 2, 55
+  size: 175, 182
+  orig: 175, 182
+  offset: 0, 0
+  index: -1
+earing R
+  rotate: true
+  xy: 254, 72
+  size: 57, 111
+  orig: 57, 111
+  offset: 0, 0
+  index: -1
+eyes attack
+  rotate: false
+  xy: 183, 16
+  size: 69, 50
+  orig: 69, 50
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: true
+  xy: 324, 3
+  size: 67, 43
+  orig: 67, 43
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 2, 2
+  size: 74, 51
+  orig: 74, 51
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: false
+  xy: 843, 135
+  size: 71, 43
+  orig: 71, 43
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 906, 420
+  size: 81, 90
+  orig: 81, 90
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 691, 138
+  size: 14, 20
+  orig: 14, 20
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 557, 198
+  size: 14, 20
+  orig: 14, 20
+  offset: 0, 0
+  index: -1
+gaunlet L
+  rotate: true
+  xy: 729, 2
+  size: 34, 27
+  orig: 34, 27
+  offset: 0, 0
+  index: -1
+gaunlet R
+  rotate: false
+  xy: 941, 56
+  size: 33, 28
+  orig: 33, 28
+  offset: 0, 0
+  index: -1
+ground smoke 1
+  rotate: true
+  xy: 866, 180
+  size: 119, 35
+  orig: 119, 35
+  offset: 0, 0
+  index: -1
+ground smoke 2
+  rotate: false
+  xy: 709, 175
+  size: 129, 38
+  orig: 129, 38
+  offset: 0, 0
+  index: -1
+ground smoke 3
+  rotate: false
+  xy: 738, 301
+  size: 138, 38
+  orig: 138, 38
+  offset: 0, 0
+  index: -1
+ground smoke 4
+  rotate: false
+  xy: 677, 38
+  size: 108, 34
+  orig: 108, 34
+  offset: 0, 0
+  index: -1
+ground smoke 5
+  rotate: false
+  xy: 709, 138
+  size: 132, 35
+  orig: 132, 35
+  offset: 0, 0
+  index: -1
+ground smoke 6
+  rotate: true
+  xy: 575, 128
+  size: 129, 40
+  orig: 129, 40
+  offset: 0, 0
+  index: -1
+ground smoke 7
+  rotate: false
+  xy: 560, 79
+  size: 123, 32
+  orig: 123, 32
+  offset: 0, 0
+  index: -1
+ground smoke 8
+  rotate: false
+  xy: 544, 15
+  size: 110, 32
+  orig: 110, 32
+  offset: 0, 0
+  index: -1
+ground smoke back 1
+  rotate: false
+  xy: 729, 254
+  size: 135, 45
+  orig: 135, 45
+  offset: 0, 0
+  index: -1
+ground smoke back 2
+  rotate: false
+  xy: 78, 10
+  size: 103, 43
+  orig: 103, 43
+  offset: 0, 0
+  index: -1
+ground smoke back 3
+  rotate: false
+  xy: 423, 87
+  size: 135, 30
+  orig: 135, 30
+  offset: 0, 0
+  index: -1
+ground smoke back 4
+  rotate: false
+  xy: 691, 104
+  size: 135, 32
+  orig: 135, 32
+  offset: 0, 0
+  index: -1
+ground smoke back 5
+  rotate: false
+  xy: 544, 49
+  size: 131, 28
+  orig: 131, 28
+  offset: 0, 0
+  index: -1
+ground smoke back 6
+  rotate: true
+  xy: 989, 374
+  size: 136, 33
+  orig: 136, 33
+  offset: 0, 0
+  index: -1
+ground smoke back 7
+  rotate: false
+  xy: 432, 220
+  size: 141, 37
+  orig: 141, 37
+  offset: 0, 0
+  index: -1
+ground smoke back 8
+  rotate: false
+  xy: 729, 215
+  size: 135, 37
+  orig: 135, 37
+  offset: 0, 0
+  index: -1
+hair back
+  rotate: true
+  xy: 656, 4
+  size: 32, 71
+  orig: 32, 71
+  offset: 0, 0
+  index: -1
+hair front
+  rotate: false
+  xy: 254, 131
+  size: 111, 109
+  orig: 111, 109
+  offset: 0, 0
+  index: -1
+hair tail
+  rotate: false
+  xy: 609, 329
+  size: 127, 181
+  orig: 127, 181
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 995, 318
+  size: 21, 23
+  orig: 21, 23
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 810, 2
+  size: 20, 24
+  orig: 20, 24
+  offset: 0, 0
+  index: -1
+hit/SlashLine
+  rotate: false
+  xy: 738, 416
+  size: 166, 94
+  orig: 166, 94
+  offset: 0, 0
+  index: -1
+hit/glow fx
+  rotate: false
+  xy: 617, 217
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+hit/hit effect circle glowing
+  rotate: false
+  xy: 787, 36
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+hit/light beam
+  rotate: false
+  xy: 980, 149
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+hit/magic ring
+  rotate: false
+  xy: 254, 2
+  size: 68, 68
+  orig: 68, 68
+  offset: 0, 0
+  index: -1
+hit/shock wave
+  rotate: false
+  xy: 828, 71
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+knee guard L
+  rotate: false
+  xy: 978, 181
+  size: 22, 26
+  orig: 22, 26
+  offset: 0, 0
+  index: -1
+knee guard R
+  rotate: false
+  xy: 840, 187
+  size: 24, 26
+  orig: 24, 26
+  offset: 0, 0
+  index: -1
+lance
+  rotate: true
+  xy: 432, 259
+  size: 67, 183
+  orig: 67, 183
+  offset: 0, 0
+  index: -1
+lance gear
+  rotate: false
+  xy: 521, 2
+  size: 43, 11
+  orig: 43, 11
+  offset: 0, 0
+  index: -1
+lance stick
+  rotate: true
+  xy: 410, 12
+  size: 7, 109
+  orig: 7, 109
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder1
+  rotate: false
+  xy: 909, 343
+  size: 62, 75
+  orig: 62, 75
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder10
+  rotate: false
+  xy: 963, 209
+  size: 30, 132
+  orig: 30, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder11
+  rotate: true
+  xy: 685, 74
+  size: 28, 132
+  orig: 28, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder2
+  rotate: true
+  xy: 423, 119
+  size: 47, 133
+  orig: 47, 133
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder4
+  rotate: true
+  xy: 423, 168
+  size: 50, 132
+  orig: 50, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder5
+  rotate: true
+  xy: 617, 160
+  size: 55, 90
+  orig: 55, 90
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder6
+  rotate: false
+  xy: 367, 108
+  size: 54, 132
+  orig: 54, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder7
+  rotate: false
+  xy: 931, 209
+  size: 30, 132
+  orig: 30, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder8
+  rotate: true
+  xy: 410, 54
+  size: 31, 132
+  orig: 31, 132
+  offset: 0, 0
+  index: -1
+lightning fx 5s/thunder9
+  rotate: true
+  xy: 410, 21
+  size: 31, 132
+  orig: 31, 132
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 903, 205
+  size: 134, 26
+  orig: 134, 26
+  offset: 0, 0
+  index: -1
+shield
+  rotate: true
+  xy: 738, 341
+  size: 73, 169
+  orig: 73, 169
+  offset: 0, 0
+  index: -1
+shield back
+  rotate: false
+  xy: 179, 68
+  size: 73, 169
+  orig: 73, 169
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 916, 135
+  size: 38, 43
+  orig: 38, 43
+  offset: 0, 0
+  index: -1
+shoulder R back
+  rotate: true
+  xy: 941, 28
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+shoulder R front
+  rotate: false
+  xy: 758, 2
+  size: 22, 34
+  orig: 22, 34
+  offset: 0, 0
+  index: -1
+slash/1
+  rotate: false
+  xy: 892, 86
+  size: 41, 47
+  orig: 41, 47
+  offset: 0, 0
+  index: -1
+slash/2
+  rotate: true
+  xy: 824, 28
+  size: 41, 47
+  orig: 41, 47
+  offset: 0, 0
+  index: -1
+slash/3
+  rotate: false
+  xy: 935, 86
+  size: 41, 47
+  orig: 41, 47
+  offset: 0, 0
+  index: -1
+slash/4
+  rotate: true
+  xy: 892, 43
+  size: 41, 47
+  orig: 41, 47
+  offset: 0, 0
+  index: -1
+thigh L
+  rotate: false
+  xy: 878, 302
+  size: 23, 37
+  orig: 23, 37
+  offset: 0, 0
+  index: -1
+thigh R
+  rotate: true
+  xy: 941, 181
+  size: 26, 35
+  orig: 26, 35
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 617, 113
+  size: 45, 72
+  orig: 45, 72
+  offset: 0, 0
+  index: -1
+waist
+  rotate: false
+  xy: 903, 180
+  size: 36, 23
+  orig: 36, 23
+  offset: 0, 0
+  index: -1
+waist armor L
+  rotate: true
+  xy: 832, 6
+  size: 20, 29
+  orig: 20, 29
+  offset: 0, 0
+  index: -1
+waist armor R
+  rotate: true
+  xy: 560, 113
+  size: 13, 25
+  orig: 13, 25
+  offset: 0, 0
+  index: -1
+weapon fx/lance fx
+  rotate: false
+  xy: 369, 9
+  size: 39, 97
+  orig: 39, 97
+  offset: 0, 0
+  index: -1

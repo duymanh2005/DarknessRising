@@ -1,0 +1,265 @@
+
+drakion.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armL low
+  rotate: true
+  xy: 994, 475
+  size: 35, 28
+  orig: 35, 28
+  offset: 0, 0
+  index: -1
+armL up
+  rotate: true
+  xy: 919, 472
+  size: 38, 73
+  orig: 38, 73
+  offset: 0, 0
+  index: -1
+armL up glow
+  rotate: false
+  xy: 860, 374
+  size: 42, 66
+  orig: 42, 66
+  offset: 0, 0
+  index: -1
+armR low
+  rotate: true
+  xy: 919, 431
+  size: 39, 44
+  orig: 39, 44
+  offset: 0, 0
+  index: -1
+armR up
+  rotate: false
+  xy: 819, 367
+  size: 39, 73
+  orig: 39, 73
+  offset: 0, 0
+  index: -1
+armR up glow
+  rotate: false
+  xy: 157, 34
+  size: 43, 60
+  orig: 43, 60
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 572, 359
+  size: 122, 151
+  orig: 122, 151
+  offset: 0, 0
+  index: -1
+body glow
+  rotate: false
+  xy: 696, 359
+  size: 121, 151
+  orig: 121, 151
+  offset: 0, 0
+  index: -1
+eyes 2
+  rotate: false
+  xy: 2, 2
+  size: 19, 9
+  orig: 19, 9
+  offset: 0, 0
+  index: -1
+eyes 3
+  rotate: false
+  xy: 994, 456
+  size: 28, 17
+  orig: 28, 17
+  offset: 0, 0
+  index: -1
+fingerL I
+  rotate: false
+  xy: 200, 139
+  size: 17, 22
+  orig: 17, 22
+  offset: 0, 0
+  index: -1
+fingerL I glow
+  rotate: false
+  xy: 200, 115
+  size: 17, 22
+  orig: 17, 22
+  offset: 0, 0
+  index: -1
+fingerL II
+  rotate: false
+  xy: 101, 2
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+fingerL II glow
+  rotate: false
+  xy: 124, 2
+  size: 18, 20
+  orig: 18, 20
+  offset: 0, 0
+  index: -1
+fingerR I
+  rotate: true
+  xy: 993, 433
+  size: 21, 27
+  orig: 21, 27
+  offset: 0, 0
+  index: -1
+fingerR I glow
+  rotate: false
+  xy: 200, 240
+  size: 21, 27
+  orig: 21, 27
+  offset: 0, 0
+  index: -1
+fingerR II
+  rotate: false
+  xy: 200, 214
+  size: 21, 24
+  orig: 21, 24
+  offset: 0, 0
+  index: -1
+fingerR II glow
+  rotate: false
+  xy: 200, 188
+  size: 22, 24
+  orig: 22, 24
+  offset: 0, 0
+  index: -1
+fly line
+  rotate: false
+  xy: 404, 335
+  size: 166, 175
+  orig: 166, 175
+  offset: 0, 0
+  index: -1
+glance light
+  rotate: true
+  xy: 572, 312
+  size: 45, 220
+  orig: 45, 220
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 13
+  size: 97, 81
+  orig: 97, 81
+  offset: 0, 0
+  index: -1
+head glow
+  rotate: false
+  xy: 819, 442
+  size: 98, 68
+  orig: 98, 68
+  offset: 0, 0
+  index: -1
+horn
+  rotate: false
+  xy: 821, 321
+  size: 21, 44
+  orig: 21, 44
+  offset: 0, 0
+  index: -1
+horn glow
+  rotate: false
+  xy: 794, 310
+  size: 25, 47
+  orig: 25, 47
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: false
+  xy: 282, 277
+  size: 55, 49
+  orig: 55, 49
+  offset: 0, 0
+  index: -1
+jaw back
+  rotate: false
+  xy: 220, 282
+  size: 60, 44
+  orig: 60, 44
+  offset: 0, 0
+  index: -1
+jaw back glow
+  rotate: true
+  xy: 965, 434
+  size: 36, 26
+  orig: 36, 26
+  offset: 0, 0
+  index: -1
+jaw glow
+  rotate: false
+  xy: 339, 275
+  size: 55, 51
+  orig: 55, 51
+  offset: 0, 0
+  index: -1
+lighting bubble
+  rotate: false
+  xy: 2, 294
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+lighting circle
+  rotate: false
+  xy: 220, 328
+  size: 182, 182
+  orig: 182, 182
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 101, 24
+  size: 54, 70
+  orig: 54, 70
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 96
+  size: 196, 196
+  orig: 196, 196
+  offset: 0, 0
+  index: -1
+star1
+  rotate: false
+  xy: 157, 2
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+thumbL
+  rotate: false
+  xy: 844, 346
+  size: 16, 19
+  orig: 16, 19
+  offset: 0, 0
+  index: -1
+thumbL glow
+  rotate: false
+  xy: 844, 325
+  size: 15, 19
+  orig: 15, 19
+  offset: 0, 0
+  index: -1
+thumbR
+  rotate: false
+  xy: 200, 269
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+thumbR glow
+  rotate: false
+  xy: 200, 163
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1

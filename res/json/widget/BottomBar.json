@@ -1,0 +1,562 @@
+{
+  "ID": "031bfb54-a903-4ce1-bbb2-3c713c7affb0",
+  "Version": "3.10.0.0",
+  "Name": "BottomBar",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 177,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "bar/Items_Menu.png",
+              "Plist": "json/bar.plist"
+            },
+            "Scale9OriginX": 248,
+            "Scale9OriginY": 48,
+            "Scale9Width": 265,
+            "Scale9Height": 20,
+            "AnchorPoint": {
+              "ScaleX": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -380.5,
+            "RightMargin": -380.5,
+            "TopMargin": -116.0,
+            "Tag": 178,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 95.125,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.125,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1708,
+                  "Y": 1.681
+                },
+                "LeftMargin": 30.125,
+                "RightMargin": 600.875,
+                "TopMargin": -79.0,
+                "Tag": 239,
+                "Children": [
+                  {
+                    "LabelText": "Home",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/cam_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 66.0,
+                      "Y": 47.0503
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5077,
+                      "Y": 0.2413
+                    },
+                    "PreSize": {
+                      "X": 0.7,
+                      "Y": 0.2051
+                    },
+                    "LeftMargin": 20.5,
+                    "RightMargin": 18.5,
+                    "TopMargin": 127.9497,
+                    "BottomMargin": 27.0503,
+                    "Tag": 181,
+                    "ActionTag": 2100191332,
+                    "Size": {
+                      "X": 91.0,
+                      "Y": 40.0
+                    },
+                    "Name": "BitmapFontLabel_1",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -2126630844,
+                "Size": {
+                  "X": 130.0,
+                  "Y": 195.0
+                },
+                "Name": "widgetHome",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 239.715,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.315,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1708,
+                  "Y": 1.681
+                },
+                "LeftMargin": 174.715,
+                "RightMargin": 456.285,
+                "TopMargin": -79.0,
+                "Tag": 240,
+                "Children": [
+                  {
+                    "LabelText": "Hero",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/cam_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 66.0002,
+                      "Y": 47.0503
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5077,
+                      "Y": 0.2413
+                    },
+                    "PreSize": {
+                      "X": 0.6,
+                      "Y": 0.2051
+                    },
+                    "LeftMargin": 27.0002,
+                    "RightMargin": 24.9998,
+                    "TopMargin": 127.9497,
+                    "BottomMargin": 27.0503,
+                    "Tag": 260,
+                    "ActionTag": -1608372222,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 40.0
+                    },
+                    "Name": "BitmapFontLabel_1",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -94758047,
+                "Size": {
+                  "X": 130.0,
+                  "Y": 195.0
+                },
+                "Name": "widgetHero",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 528.895,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.695,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1708,
+                  "Y": 1.681
+                },
+                "LeftMargin": 463.895,
+                "RightMargin": 167.105,
+                "TopMargin": -79.0,
+                "Tag": 241,
+                "Children": [
+                  {
+                    "LabelText": "Summon",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/cam_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 66.0002,
+                      "Y": 47.0503
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5077,
+                      "Y": 0.2413
+                    },
+                    "PreSize": {
+                      "X": 1.0538,
+                      "Y": 0.2051
+                    },
+                    "LeftMargin": -2.4998,
+                    "RightMargin": -4.5002,
+                    "TopMargin": 127.9497,
+                    "BottomMargin": 27.0503,
+                    "Tag": 263,
+                    "ActionTag": 892305601,
+                    "Size": {
+                      "X": 137.0,
+                      "Y": 40.0
+                    },
+                    "Name": "BitmapFontLabel_1",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 625179384,
+                "Size": {
+                  "X": 130.0,
+                  "Y": 195.0
+                },
+                "Name": "widgetSummon",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 380.5,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1708,
+                  "Y": 1.681
+                },
+                "LeftMargin": 315.5,
+                "RightMargin": 315.5,
+                "TopMargin": -79.0,
+                "Tag": 242,
+                "Children": [
+                  {
+                    "LabelText": "Shop",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/cam_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 66.006,
+                      "Y": 47.0503
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5077,
+                      "Y": 0.2413
+                    },
+                    "PreSize": {
+                      "X": 0.5923,
+                      "Y": 0.2051
+                    },
+                    "LeftMargin": 27.506,
+                    "RightMargin": 25.494,
+                    "TopMargin": 127.9497,
+                    "BottomMargin": 27.0503,
+                    "Tag": 266,
+                    "ActionTag": 1060289610,
+                    "Size": {
+                      "X": 77.0,
+                      "Y": 40.0
+                    },
+                    "Name": "BitmapFontLabel_1",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -580185468,
+                "Size": {
+                  "X": 130.0,
+                  "Y": 195.0
+                },
+                "Name": "widgetShop",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 673.485,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.885,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1708,
+                  "Y": 1.681
+                },
+                "LeftMargin": 608.485,
+                "RightMargin": 22.515,
+                "TopMargin": -79.0,
+                "Tag": 243,
+                "Children": [
+                  {
+                    "LabelText": "Item",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/cam_stroke_32-export.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 66.0,
+                      "Y": 47.0503
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5077,
+                      "Y": 0.2413
+                    },
+                    "PreSize": {
+                      "X": 0.5769,
+                      "Y": 0.2051
+                    },
+                    "LeftMargin": 28.5,
+                    "RightMargin": 26.5,
+                    "TopMargin": 127.9497,
+                    "BottomMargin": 27.0503,
+                    "Tag": 269,
+                    "ActionTag": -788346943,
+                    "Size": {
+                      "X": 75.0,
+                      "Y": 40.0
+                    },
+                    "Name": "BitmapFontLabel_1",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -1769734632,
+                "Size": {
+                  "X": 130.0,
+                  "Y": 195.0
+                },
+                "Name": "widgetItem",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 1755174879,
+            "Size": {
+              "X": 761.0,
+              "Y": 116.0
+            },
+            "Name": "root",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../font/cam_stroke_32-export.fnt",
+        "../../font/cam_stroke_32-export.png",
+        "../bar.plist",
+        "../bar.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

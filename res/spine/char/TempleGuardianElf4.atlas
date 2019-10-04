@@ -1,0 +1,272 @@
+
+TempleGuardianElf.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm L
+  rotate: true
+  xy: 1003, 470
+  size: 40, 19
+  orig: 40, 19
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: false
+  xy: 470, 13
+  size: 39, 16
+  orig: 39, 16
+  offset: 0, 0
+  index: -1
+boot L
+  rotate: true
+  xy: 406, 7
+  size: 22, 62
+  orig: 22, 62
+  offset: 0, 0
+  index: -1
+boot R
+  rotate: true
+  xy: 302, 8
+  size: 23, 63
+  orig: 23, 63
+  offset: 0, 0
+  index: -1
+bow
+  rotate: true
+  xy: 669, 399
+  size: 111, 332
+  orig: 111, 332
+  offset: 0, 0
+  index: -1
+bow fx
+  rotate: false
+  xy: 2, 142
+  size: 146, 368
+  orig: 146, 368
+  offset: 0, 0
+  index: -1
+bow string
+  rotate: true
+  xy: 669, 372
+  size: 25, 288
+  orig: 25, 288
+  offset: 0, 0
+  index: -1
+bracer L
+  rotate: false
+  xy: 367, 2
+  size: 37, 27
+  orig: 37, 27
+  offset: 0, 0
+  index: -1
+bracer R
+  rotate: false
+  xy: 959, 372
+  size: 38, 25
+  orig: 38, 25
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: false
+  xy: 801, 46
+  size: 69, 59
+  orig: 69, 59
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: true
+  xy: 801, 107
+  size: 99, 59
+  orig: 99, 59
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: false
+  xy: 862, 134
+  size: 91, 59
+  orig: 91, 59
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 371, 31
+  size: 140, 123
+  orig: 140, 123
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 1003, 450
+  size: 19, 18
+  orig: 19, 18
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 1003, 430
+  size: 19, 18
+  orig: 19, 18
+  offset: 0, 0
+  index: -1
+hair back
+  rotate: true
+  xy: 392, 315
+  size: 195, 275
+  orig: 195, 275
+  offset: 0, 0
+  index: -1
+hair front
+  rotate: false
+  xy: 632, 48
+  size: 167, 158
+  orig: 167, 158
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 869, 13
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 776, 10
+  size: 46, 34
+  orig: 46, 34
+  offset: 0, 0
+  index: -1
+helmet
+  rotate: true
+  xy: 883, 195
+  size: 175, 121
+  orig: 175, 121
+  offset: 0, 0
+  index: -1
+leg L
+  rotate: true
+  xy: 719, 15
+  size: 31, 55
+  orig: 31, 55
+  offset: 0, 0
+  index: -1
+leg R
+  rotate: true
+  xy: 929, 33
+  size: 30, 55
+  orig: 30, 55
+  offset: 0, 0
+  index: -1
+precast/Light_SparkA
+  rotate: false
+  xy: 626, 2
+  size: 91, 44
+  orig: 91, 44
+  offset: 0, 0
+  index: -1
+precast/Light_circleA
+  rotate: false
+  xy: 150, 270
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+precast/Light_lineA
+  rotate: true
+  xy: 596, 156
+  size: 157, 34
+  orig: 157, 34
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 371, 200
+  size: 68, 13
+  orig: 68, 13
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 824, 12
+  size: 43, 32
+  orig: 43, 32
+  offset: 0, 0
+  index: -1
+silk
+  rotate: false
+  xy: 955, 125
+  size: 49, 68
+  orig: 49, 68
+  offset: 0, 0
+  index: -1
+skill effect/fire arrow fx
+  rotate: false
+  xy: 141, 2
+  size: 159, 83
+  orig: 159, 83
+  offset: 0, 0
+  index: -1
+skill effect/light beam underground
+  rotate: false
+  xy: 2, 5
+  size: 137, 135
+  orig: 137, 135
+  offset: 0, 0
+  index: -1
+skill effect/precast fx
+  rotate: false
+  xy: 929, 65
+  size: 72, 58
+  orig: 72, 58
+  offset: 0, 0
+  index: -1
+skill effect/skill eff
+  rotate: true
+  xy: 632, 221
+  size: 92, 21
+  orig: 92, 21
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 302, 33
+  size: 52, 67
+  orig: 52, 67
+  offset: 0, 0
+  index: -1
+waist
+  rotate: true
+  xy: 872, 45
+  size: 87, 55
+  orig: 87, 55
+  offset: 0, 0
+  index: -1
+wings/level 1
+  rotate: true
+  xy: 513, 29
+  size: 125, 111
+  orig: 125, 111
+  offset: 0, 0
+  index: -1
+wings/level 2
+  rotate: true
+  xy: 669, 208
+  size: 162, 212
+  orig: 162, 212
+  offset: 0, 0
+  index: -1
+wings/level 3
+  rotate: true
+  xy: 392, 156
+  size: 157, 202
+  orig: 157, 202
+  offset: 0, 0
+  index: -1
+wings/level 4
+  rotate: true
+  xy: 150, 87
+  size: 181, 219
+  orig: 181, 219
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,174 @@
+
+poisonshadow.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 347, 169
+  size: 149, 164
+  orig: 149, 164
+  offset: 0, 0
+  index: -1
+body low
+  rotate: true
+  xy: 634, 218
+  size: 108, 89
+  orig: 108, 89
+  offset: 0, 0
+  index: -1
+brust fx
+  rotate: false
+  xy: 347, 335
+  size: 178, 173
+  orig: 178, 173
+  offset: 0, 0
+  index: -1
+eye 2
+  rotate: true
+  xy: 810, 331
+  size: 41, 31
+  orig: 41, 31
+  offset: 0, 0
+  index: -1
+eye 3
+  rotate: false
+  xy: 390, 5
+  size: 47, 38
+  orig: 47, 38
+  offset: 0, 0
+  index: -1
+eyes stun
+  rotate: false
+  xy: 388, 89
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+fly line
+  rotate: false
+  xy: 832, 377
+  size: 124, 131
+  orig: 124, 131
+  offset: 0, 0
+  index: -1
+foot R front
+  rotate: false
+  xy: 390, 45
+  size: 58, 42
+  orig: 58, 42
+  offset: 0, 0
+  index: -1
+glance light
+  rotate: true
+  xy: 527, 328
+  size: 39, 194
+  orig: 39, 194
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 164
+  size: 343, 344
+  orig: 343, 344
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 527, 369
+  size: 167, 139
+  orig: 167, 139
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: false
+  xy: 313, 83
+  size: 73, 79
+  orig: 73, 79
+  offset: 0, 0
+  index: -1
+jaw armor
+  rotate: false
+  xy: 637, 135
+  size: 97, 81
+  orig: 97, 81
+  offset: 0, 0
+  index: -1
+leg R back up
+  rotate: true
+  xy: 313, 16
+  size: 65, 75
+  orig: 65, 75
+  offset: 0, 0
+  index: -1
+leg R front low
+  rotate: false
+  xy: 958, 426
+  size: 56, 82
+  orig: 56, 82
+  offset: 0, 0
+  index: -1
+leg R front up
+  rotate: false
+  xy: 958, 379
+  size: 56, 45
+  orig: 56, 45
+  offset: 0, 0
+  index: -1
+lighting bubble
+  rotate: false
+  xy: 2, 2
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+mana shield
+  rotate: false
+  xy: 696, 374
+  size: 134, 134
+  orig: 134, 134
+  offset: 0, 0
+  index: -1
+scratch round
+  rotate: true
+  xy: 498, 140
+  size: 72, 137
+  orig: 72, 137
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 164, 15
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+shoulder R front
+  rotate: false
+  xy: 498, 214
+  size: 134, 112
+  orig: 134, 112
+  offset: 0, 0
+  index: -1
+star1
+  rotate: false
+  xy: 468, 145
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+tail
+  rotate: true
+  xy: 725, 256
+  size: 116, 83
+  orig: 116, 83
+  offset: 0, 0
+  index: -1
+up fx
+  rotate: true
+  xy: 736, 148
+  size: 106, 84
+  orig: 106, 84
+  offset: 0, 0
+  index: -1

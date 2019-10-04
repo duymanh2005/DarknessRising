@@ -1,0 +1,20 @@
+
+text_upgrade.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+txt_failed
+  rotate: false
+  xy: 2, 2
+  size: 406, 137
+  orig: 406, 137
+  offset: 0, 0
+  index: -1
+txt_success
+  rotate: false
+  xy: 410, 2
+  size: 406, 137
+  orig: 406, 137
+  offset: 0, 0
+  index: -1

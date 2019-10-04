@@ -1,0 +1,661 @@
+{
+  "ID": "9cb80264-171f-4b36-953f-45211597729e",
+  "Version": "3.10.0.0",
+  "Name": "Login",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 55,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -550.0,
+            "TopMargin": -440.0,
+            "Tag": 434,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 442,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/ImageFile.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 143,
+                    "Scale9OriginY": 20,
+                    "Scale9Width": 149,
+                    "Scale9Height": 22,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 275.0,
+                      "Y": 380.028
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.8637
+                    },
+                    "PreSize": {
+                      "X": 0.7909,
+                      "Y": 0.1409
+                    },
+                    "LeftMargin": 57.5,
+                    "RightMargin": 57.5,
+                    "TopMargin": 28.972,
+                    "BottomMargin": 349.028,
+                    "Tag": 446,
+                    "ActionTag": -1270188197,
+                    "Size": {
+                      "X": 435.0,
+                      "Y": 62.0
+                    },
+                    "Name": "brkUser_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "patch9/Password_Panel.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 143,
+                    "Scale9OriginY": 20,
+                    "Scale9Width": 149,
+                    "Scale9Height": 22,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 275.0,
+                      "Y": 282.04
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.641
+                    },
+                    "PreSize": {
+                      "X": 0.7909,
+                      "Y": 0.1409
+                    },
+                    "LeftMargin": 57.5,
+                    "RightMargin": 57.5,
+                    "TopMargin": 126.96,
+                    "BottomMargin": 251.04,
+                    "Tag": 447,
+                    "ActionTag": -1049768402,
+                    "Size": {
+                      "X": 435.0,
+                      "Y": 62.0
+                    },
+                    "Name": "brkUser_0_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "button/Green_Round.png",
+                      "Plist": "json/button.plist"
+                    },
+                    "Scale9OriginX": 72,
+                    "Scale9OriginY": 25,
+                    "Scale9Width": 75,
+                    "Scale9Height": 28,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 275.0,
+                      "Y": 69.608
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.1582
+                    },
+                    "PreSize": {
+                      "X": 0.3982,
+                      "Y": 0.1773
+                    },
+                    "LeftMargin": 165.5,
+                    "RightMargin": 165.5,
+                    "TopMargin": 331.392,
+                    "BottomMargin": 30.608,
+                    "Tag": 448,
+                    "ActionTag": 911638200,
+                    "Size": {
+                      "X": 219.0,
+                      "Y": 78.0
+                    },
+                    "Name": "Image_11_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "patch9/Email_Panel.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 143,
+                    "Scale9OriginY": 20,
+                    "Scale9Width": 149,
+                    "Scale9Height": 22,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 275.0,
+                      "Y": 179.652
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4083
+                    },
+                    "PreSize": {
+                      "X": 0.7909,
+                      "Y": 0.1409
+                    },
+                    "LeftMargin": 57.5,
+                    "RightMargin": 57.5,
+                    "TopMargin": 229.348,
+                    "BottomMargin": 148.652,
+                    "Tag": 449,
+                    "ActionTag": 659436197,
+                    "Size": {
+                      "X": 435.0,
+                      "Y": 62.0
+                    },
+                    "Name": "brkUser_0_0_0",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 209344187,
+                "Size": {
+                  "X": 550.0,
+                  "Y": 440.0
+                },
+                "Name": "panelRegister",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 441,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/ImageFile.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 143,
+                    "Scale9OriginY": 20,
+                    "Scale9Width": 149,
+                    "Scale9Height": 22,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 275.0,
+                      "Y": 390.016
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.8864
+                    },
+                    "PreSize": {
+                      "X": 0.7909,
+                      "Y": 0.1409
+                    },
+                    "LeftMargin": 57.5,
+                    "RightMargin": 57.5,
+                    "TopMargin": 18.984,
+                    "BottomMargin": 359.016,
+                    "Tag": 435,
+                    "ActionTag": -1153310207,
+                    "Size": {
+                      "X": 435.0,
+                      "Y": 62.0
+                    },
+                    "Name": "brkUser",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "patch9/Password_Panel.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 143,
+                    "Scale9OriginY": 20,
+                    "Scale9Width": 149,
+                    "Scale9Height": 22,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 275.0,
+                      "Y": 292.072
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6638
+                    },
+                    "PreSize": {
+                      "X": 0.7909,
+                      "Y": 0.1409
+                    },
+                    "LeftMargin": 57.5,
+                    "RightMargin": 57.5,
+                    "TopMargin": 116.928,
+                    "BottomMargin": 261.072,
+                    "Tag": 436,
+                    "ActionTag": -1191156612,
+                    "Size": {
+                      "X": 435.0,
+                      "Y": 62.0
+                    },
+                    "Name": "brkUser_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "button/Green_Round.png",
+                      "Plist": "json/button.plist"
+                    },
+                    "Scale9OriginX": 72,
+                    "Scale9OriginY": 25,
+                    "Scale9Width": 75,
+                    "Scale9Height": 28,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 143.0,
+                      "Y": 177.584
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.26,
+                      "Y": 0.4036
+                    },
+                    "PreSize": {
+                      "X": 0.3982,
+                      "Y": 0.1773
+                    },
+                    "LeftMargin": 33.5,
+                    "RightMargin": 297.5,
+                    "TopMargin": 223.416,
+                    "BottomMargin": 138.584,
+                    "Tag": 437,
+                    "ActionTag": -2111026981,
+                    "Size": {
+                      "X": 219.0,
+                      "Y": 78.0
+                    },
+                    "Name": "Image_11",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "button/Orange_Round.png",
+                      "Plist": "json/button.plist"
+                    },
+                    "Scale9OriginX": 72,
+                    "Scale9OriginY": 25,
+                    "Scale9Width": 75,
+                    "Scale9Height": 28,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 407.0,
+                      "Y": 177.584
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.74,
+                      "Y": 0.4036
+                    },
+                    "PreSize": {
+                      "X": 0.3982,
+                      "Y": 0.1773
+                    },
+                    "LeftMargin": 297.5,
+                    "RightMargin": 33.5,
+                    "TopMargin": 223.416,
+                    "BottomMargin": 138.584,
+                    "Tag": 438,
+                    "ActionTag": -1203926018,
+                    "Size": {
+                      "X": 219.0,
+                      "Y": 78.0
+                    },
+                    "Name": "Image_11_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/ImageFile.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 72,
+                    "Scale9OriginY": 25,
+                    "Scale9Width": 68,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 143.0,
+                      "Y": 77.396
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.26,
+                      "Y": 0.1759
+                    },
+                    "PreSize": {
+                      "X": 0.3855,
+                      "Y": 0.1545
+                    },
+                    "LeftMargin": 37.0,
+                    "RightMargin": 301.0,
+                    "TopMargin": 328.604,
+                    "BottomMargin": 43.396,
+                    "Tag": 439,
+                    "ActionTag": -1621212903,
+                    "Size": {
+                      "X": 212.0,
+                      "Y": 68.0
+                    },
+                    "Name": "Image_11_0_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/ImageFile.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 72,
+                    "Scale9OriginY": 25,
+                    "Scale9Width": 68,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 407.0,
+                      "Y": 77.396
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.74,
+                      "Y": 0.1759
+                    },
+                    "PreSize": {
+                      "X": 0.3855,
+                      "Y": 0.1545
+                    },
+                    "LeftMargin": 301.0,
+                    "RightMargin": 37.0,
+                    "TopMargin": 328.604,
+                    "BottomMargin": 43.396,
+                    "Tag": 440,
+                    "ActionTag": 456097841,
+                    "Size": {
+                      "X": 212.0,
+                      "Y": 68.0
+                    },
+                    "Name": "Image_11_0_0_0",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -435039451,
+                "Size": {
+                  "X": 550.0,
+                  "Y": 440.0
+                },
+                "Name": "panelLogin",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -909056916,
+            "Size": {
+              "X": 550.0,
+              "Y": 440.0
+            },
+            "Name": "root",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../Default/ImageFile.png",
+        "../../patch9/Email_Panel.png",
+        "../../patch9/Password_Panel.png",
+        "../button.plist",
+        "../button.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

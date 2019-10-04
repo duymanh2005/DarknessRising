@@ -1,0 +1,286 @@
+
+hitLightningGreen.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dot
+  rotate: false
+  xy: 677, 29
+  size: 167, 167
+  orig: 167, 167
+  offset: 0, 0
+  index: -1
+explosion1
+  rotate: false
+  xy: 1072, 127
+  size: 61, 76
+  orig: 61, 76
+  offset: 0, 0
+  index: -1
+explosion2
+  rotate: false
+  xy: 988, 4
+  size: 84, 97
+  orig: 84, 97
+  offset: 0, 0
+  index: -1
+explosion3
+  rotate: true
+  xy: 995, 205
+  size: 101, 106
+  orig: 101, 106
+  offset: 0, 0
+  index: -1
+explosion4
+  rotate: true
+  xy: 883, 208
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+explosion5
+  rotate: true
+  xy: 1229, 319
+  size: 112, 96
+  orig: 112, 96
+  offset: 0, 0
+  index: -1
+explosion6
+  rotate: true
+  xy: 968, 324
+  size: 112, 81
+  orig: 112, 81
+  offset: 0, 0
+  index: -1
+fly line
+  rotate: false
+  xy: 1812, 334
+  size: 167, 175
+  orig: 167, 175
+  offset: 0, 0
+  index: -1
+glance light
+  rotate: true
+  xy: 1338, 434
+  size: 75, 273
+  orig: 75, 273
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 2, 50
+  size: 458, 459
+  orig: 458, 459
+  offset: 0, 0
+  index: -1
+light column
+  rotate: true
+  xy: 701, 322
+  size: 114, 265
+  orig: 114, 265
+  offset: 0, 0
+  index: -1
+lighting cicrle
+  rotate: false
+  xy: 462, 272
+  size: 237, 237
+  orig: 237, 237
+  offset: 0, 0
+  index: -1
+magic circle
+  rotate: false
+  xy: 1613, 312
+  size: 197, 197
+  orig: 197, 197
+  offset: 0, 0
+  index: -1
+mana shield
+  rotate: false
+  xy: 462, 57
+  size: 213, 213
+  orig: 213, 213
+  offset: 0, 0
+  index: -1
+rock1
+  rotate: false
+  xy: 677, 220
+  size: 19, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+rock2
+  rotate: false
+  xy: 677, 245
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+rock3
+  rotate: false
+  xy: 1103, 205
+  size: 24, 26
+  orig: 24, 26
+  offset: 0, 0
+  index: -1
+rock4
+  rotate: false
+  xy: 1845, 307
+  size: 24, 25
+  orig: 24, 25
+  offset: 0, 0
+  index: -1
+smoke 1
+  rotate: false
+  xy: 406, 9
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+smoke 2
+  rotate: true
+  xy: 1190, 191
+  size: 40, 38
+  orig: 40, 38
+  offset: 0, 0
+  index: -1
+smoke 3
+  rotate: false
+  xy: 358, 2
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+smoke 4
+  rotate: false
+  xy: 1135, 128
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+smoke 5
+  rotate: false
+  xy: 1136, 76
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+smoke 6
+  rotate: false
+  xy: 1135, 178
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: -1
+smoke 7
+  rotate: false
+  xy: 1074, 5
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+smoke 8
+  rotate: true
+  xy: 1074, 64
+  size: 61, 60
+  orig: 61, 60
+  offset: 0, 0
+  index: -1
+star1
+  rotate: false
+  xy: 1812, 302
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+thorn cirrus
+  rotate: true
+  xy: 701, 438
+  size: 71, 351
+  orig: 71, 351
+  offset: 0, 0
+  index: -1
+thunder1
+  rotate: false
+  xy: 988, 103
+  size: 82, 100
+  orig: 82, 100
+  offset: 0, 0
+  index: -1
+thunder10
+  rotate: true
+  xy: 1051, 348
+  size: 40, 176
+  orig: 40, 176
+  offset: 0, 0
+  index: -1
+thunder11
+  rotate: true
+  xy: 1051, 308
+  size: 38, 176
+  orig: 38, 176
+  offset: 0, 0
+  index: -1
+thunder2
+  rotate: false
+  xy: 1981, 331
+  size: 63, 178
+  orig: 63, 178
+  offset: 0, 0
+  index: -1
+thunder3
+  rotate: true
+  xy: 701, 198
+  size: 122, 180
+  orig: 122, 180
+  offset: 0, 0
+  index: -1
+thunder4
+  rotate: false
+  xy: 846, 20
+  size: 66, 176
+  orig: 66, 176
+  offset: 0, 0
+  index: -1
+thunder5
+  rotate: true
+  xy: 1103, 233
+  size: 73, 119
+  orig: 73, 119
+  offset: 0, 0
+  index: -1
+thunder6
+  rotate: false
+  xy: 914, 30
+  size: 72, 176
+  orig: 72, 176
+  offset: 0, 0
+  index: -1
+thunder7
+  rotate: true
+  xy: 180, 7
+  size: 41, 176
+  orig: 41, 176
+  offset: 0, 0
+  index: -1
+thunder8
+  rotate: true
+  xy: 2, 6
+  size: 42, 176
+  orig: 42, 176
+  offset: 0, 0
+  index: -1
+thunder9
+  rotate: true
+  xy: 1051, 390
+  size: 41, 176
+  orig: 41, 176
+  offset: 0, 0
+  index: -1
+wave
+  rotate: true
+  xy: 1054, 433
+  size: 76, 282
+  orig: 76, 282
+  offset: 0, 0
+  index: -1

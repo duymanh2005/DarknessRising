@@ -1,0 +1,111 @@
+
+hitDrakion.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+explosion beam1
+  rotate: false
+  xy: 690, 49
+  size: 61, 76
+  orig: 61, 76
+  offset: 0, 0
+  index: -1
+explosion beam2
+  rotate: true
+  xy: 477, 19
+  size: 84, 97
+  orig: 84, 97
+  offset: 0, 0
+  index: -1
+explosion beam3
+  rotate: false
+  xy: 904, 229
+  size: 101, 106
+  orig: 101, 106
+  offset: 0, 0
+  index: -1
+explosion beam4
+  rotate: false
+  xy: 462, 105
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+explosion beam5
+  rotate: false
+  xy: 892, 131
+  size: 112, 96
+  orig: 112, 96
+  offset: 0, 0
+  index: -1
+explosion beam6
+  rotate: false
+  xy: 576, 44
+  size: 112, 81
+  orig: 112, 81
+  offset: 0, 0
+  index: -1
+explosion bubble
+  rotate: false
+  xy: 612, 291
+  size: 213, 213
+  orig: 213, 213
+  offset: 0, 0
+  index: -1
+gloriole
+  rotate: false
+  xy: 827, 337
+  size: 167, 167
+  orig: 167, 167
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 45
+  size: 458, 459
+  orig: 458, 459
+  offset: 0, 0
+  index: -1
+thunder beam
+  rotate: true
+  xy: 612, 175
+  size: 55, 278
+  orig: 55, 278
+  offset: 0, 0
+  index: -1
+thunder beam2
+  rotate: true
+  xy: 2, 2
+  size: 41, 275
+  orig: 41, 275
+  offset: 0, 0
+  index: -1
+thunder beam3
+  rotate: true
+  xy: 279, 8
+  size: 35, 196
+  orig: 35, 196
+  offset: 0, 0
+  index: -1
+thunder storm7
+  rotate: false
+  xy: 462, 217
+  size: 148, 287
+  orig: 148, 287
+  offset: 0, 0
+  index: -1
+thunder storm8
+  rotate: true
+  xy: 612, 232
+  size: 57, 290
+  orig: 57, 290
+  offset: 0, 0
+  index: -1
+thunder storm9
+  rotate: true
+  xy: 576, 127
+  size: 46, 229
+  orig: 46, 229
+  offset: 0, 0
+  index: -1

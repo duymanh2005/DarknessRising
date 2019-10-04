@@ -1,0 +1,13 @@
+
+hitSlient.png
+size: 32,16
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slientsign
+  rotate: false
+  xy: 2, 2
+  size: 15, 10
+  orig: 15, 10
+  offset: 0, 0
+  index: -1

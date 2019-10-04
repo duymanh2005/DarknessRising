@@ -1,0 +1,223 @@
+
+spiritknight.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Spirit Scepter
+  rotate: false
+  xy: 362, 44
+  size: 89, 210
+  orig: 89, 210
+  offset: 0, 0
+  index: -1
+Spirit Scepter glow
+  rotate: false
+  xy: 249, 24
+  size: 111, 230
+  orig: 111, 230
+  offset: 0, 0
+  index: -1
+Spirit Scepter headglow
+  rotate: true
+  xy: 617, 157
+  size: 97, 161
+  orig: 97, 161
+  offset: 0, 0
+  index: -1
+Spirit shield
+  rotate: true
+  xy: 453, 58
+  size: 72, 111
+  orig: 72, 111
+  offset: 0, 0
+  index: -1
+Spirit shield glow
+  rotate: true
+  xy: 780, 161
+  size: 93, 133
+  orig: 93, 133
+  offset: 0, 0
+  index: -1
+arm low L
+  rotate: true
+  xy: 566, 2
+  size: 41, 34
+  orig: 41, 34
+  offset: 0, 0
+  index: -1
+arm low R
+  rotate: false
+  xy: 705, 59
+  size: 56, 45
+  orig: 56, 45
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: true
+  xy: 915, 147
+  size: 39, 61
+  orig: 39, 61
+  offset: 0, 0
+  index: -1
+arm upper R
+  rotate: true
+  xy: 633, 47
+  size: 43, 59
+  orig: 43, 59
+  offset: 0, 0
+  index: -1
+armor leg L
+  rotate: false
+  xy: 602, 9
+  size: 26, 34
+  orig: 26, 34
+  offset: 0, 0
+  index: -1
+armor leg R
+  rotate: false
+  xy: 810, 121
+  size: 33, 38
+  orig: 33, 38
+  offset: 0, 0
+  index: -1
+backpack
+  rotate: false
+  xy: 453, 132
+  size: 162, 122
+  orig: 162, 122
+  offset: 0, 0
+  index: -1
+bell
+  rotate: false
+  xy: 633, 2
+  size: 55, 43
+  orig: 55, 43
+  offset: 0, 0
+  index: -1
+body low
+  rotate: true
+  xy: 978, 138
+  size: 48, 38
+  orig: 48, 38
+  offset: 0, 0
+  index: -1
+body up
+  rotate: true
+  xy: 566, 45
+  size: 85, 65
+  orig: 85, 65
+  offset: 0, 0
+  index: -1
+eye 2
+  rotate: false
+  xy: 278, 2
+  size: 34, 16
+  orig: 34, 16
+  offset: 0, 0
+  index: -1
+eye 3
+  rotate: false
+  xy: 362, 20
+  size: 50, 22
+  orig: 50, 22
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 617, 133
+  size: 22, 14
+  orig: 22, 14
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: true
+  xy: 617, 133
+  size: 22, 14
+  orig: 22, 14
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: true
+  xy: 770, 105
+  size: 50, 38
+  orig: 50, 38
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 915, 188
+  size: 94, 66
+  orig: 94, 66
+  offset: 0, 0
+  index: -1
+helmet back
+  rotate: true
+  xy: 414, 2
+  size: 17, 23
+  orig: 17, 23
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: true
+  xy: 515, 18
+  size: 38, 49
+  orig: 38, 49
+  offset: 0, 0
+  index: -1
+leg low L
+  rotate: true
+  xy: 249, 2
+  size: 20, 27
+  orig: 20, 27
+  offset: 0, 0
+  index: -1
+leg low R
+  rotate: false
+  xy: 870, 132
+  size: 22, 27
+  orig: 22, 27
+  offset: 0, 0
+  index: -1
+leg up L
+  rotate: false
+  xy: 845, 129
+  size: 23, 30
+  orig: 23, 30
+  offset: 0, 0
+  index: -1
+leg up R
+  rotate: true
+  xy: 414, 21
+  size: 21, 30
+  orig: 21, 30
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 9
+  size: 245, 245
+  orig: 245, 245
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: true
+  xy: 453, 2
+  size: 54, 60
+  orig: 54, 60
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 633, 92
+  size: 70, 63
+  orig: 70, 63
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 705, 106
+  size: 63, 49
+  orig: 63, 49
+  offset: 0, 0
+  index: -1

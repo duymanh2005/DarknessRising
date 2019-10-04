@@ -1,0 +1,62 @@
+
+littlerabbit.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 85
+  size: 127, 151
+  orig: 127, 151
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 2, 31
+  size: 50, 29
+  orig: 50, 29
+  offset: 0, 0
+  index: -1
+eyes attack
+  rotate: false
+  xy: 131, 184
+  size: 50, 24
+  orig: 50, 24
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: true
+  xy: 131, 123
+  size: 59, 6
+  orig: 59, 6
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 131, 210
+  size: 65, 26
+  orig: 65, 26
+  offset: 0, 0
+  index: -1
+mouth 1
+  rotate: false
+  xy: 198, 228
+  size: 28, 8
+  orig: 28, 8
+  offset: 0, 0
+  index: -1
+mouth 2
+  rotate: false
+  xy: 2, 2
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 62
+  size: 110, 21
+  orig: 110, 21
+  offset: 0, 0
+  index: -1

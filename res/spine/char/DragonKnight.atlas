@@ -1,0 +1,265 @@
+
+DragonKnight.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Default
+  rotate: true
+  xy: 2, 41
+  size: 147, 320
+  orig: 147, 320
+  offset: 0, 0
+  index: -1
+DefaultEffect
+  rotate: false
+  xy: 2, 190
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+Head1
+  rotate: false
+  xy: 566, 64
+  size: 161, 156
+  orig: 161, 156
+  offset: 0, 0
+  index: -1
+L arm
+  rotate: false
+  xy: 962, 159
+  size: 49, 44
+  orig: 49, 44
+  offset: 0, 0
+  index: -1
+L arm copy
+  rotate: false
+  xy: 943, 62
+  size: 47, 46
+  orig: 47, 46
+  offset: 0, 0
+  index: -1
+L boot
+  rotate: true
+  xy: 650, 15
+  size: 47, 64
+  orig: 47, 64
+  offset: 0, 0
+  index: -1
+L bracer
+  rotate: false
+  xy: 782, 24
+  size: 39, 30
+  orig: 39, 30
+  offset: 0, 0
+  index: -1
+L bracer copy
+  rotate: false
+  xy: 524, 16
+  size: 40, 28
+  orig: 40, 28
+  offset: 0, 0
+  index: -1
+L leg
+  rotate: true
+  xy: 324, 2
+  size: 68, 56
+  orig: 68, 56
+  offset: 0, 0
+  index: -1
+L palm
+  rotate: false
+  xy: 962, 205
+  size: 48, 49
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+L palm copy
+  rotate: false
+  xy: 893, 30
+  size: 48, 49
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+L waist
+  rotate: false
+  xy: 964, 256
+  size: 56, 38
+  orig: 56, 38
+  offset: 0, 0
+  index: -1
+R boot
+  rotate: true
+  xy: 457, 8
+  size: 62, 65
+  orig: 62, 65
+  offset: 0, 0
+  index: -1
+R leg
+  rotate: false
+  xy: 382, 9
+  size: 73, 61
+  orig: 73, 61
+  offset: 0, 0
+  index: -1
+R palm
+  rotate: true
+  xy: 943, 110
+  size: 47, 50
+  orig: 47, 50
+  offset: 0, 0
+  index: -1
+R shoulder
+  rotate: true
+  xy: 964, 447
+  size: 63, 58
+  orig: 63, 58
+  offset: 0, 0
+  index: -1
+R waist
+  rotate: true
+  xy: 903, 115
+  size: 55, 38
+  orig: 55, 38
+  offset: 0, 0
+  index: -1
+eye1
+  rotate: true
+  xy: 529, 46
+  size: 64, 35
+  orig: 64, 35
+  offset: 0, 0
+  index: -1
+eye2
+  rotate: false
+  xy: 827, 15
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+eye3
+  rotate: false
+  xy: 716, 20
+  size: 64, 34
+  orig: 64, 34
+  offset: 0, 0
+  index: -1
+eye4
+  rotate: true
+  xy: 964, 333
+  size: 112, 55
+  orig: 112, 55
+  offset: 0, 0
+  index: -1
+eye5
+  rotate: false
+  xy: 964, 296
+  size: 58, 35
+  orig: 58, 35
+  offset: 0, 0
+  index: -1
+fire_circle_ground
+  rotate: false
+  xy: 566, 222
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1
+light_circle_effect1A
+  rotate: false
+  xy: 324, 354
+  size: 396, 156
+  orig: 396, 156
+  offset: 0, 0
+  index: -1
+light_circle_effect1B
+  rotate: false
+  xy: 161, 8
+  size: 79, 31
+  orig: 79, 31
+  offset: 0, 0
+  index: -1
+light_circle_effect1C
+  rotate: false
+  xy: 242, 8
+  size: 79, 31
+  orig: 79, 31
+  offset: 0, 0
+  index: -1
+precast/Light_SparkA
+  rotate: true
+  xy: 916, 177
+  size: 91, 44
+  orig: 91, 44
+  offset: 0, 0
+  index: -1
+precast/Light_circleA
+  rotate: false
+  xy: 324, 112
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+precast/Light_lineA
+  rotate: false
+  xy: 2, 5
+  size: 157, 34
+  orig: 157, 34
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 324, 72
+  size: 203, 38
+  orig: 203, 38
+  offset: 0, 0
+  index: -1
+silk
+  rotate: true
+  xy: 566, 18
+  size: 44, 82
+  orig: 44, 82
+  offset: 0, 0
+  index: -1
+slash
+  rotate: false
+  xy: 722, 270
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+swelllife/light_PNG14408
+  rotate: false
+  xy: 818, 172
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+swelllife/light_growA
+  rotate: true
+  xy: 827, 81
+  size: 89, 74
+  orig: 89, 74
+  offset: 0, 0
+  index: -1
+swelllife/light_ringbold
+  rotate: false
+  xy: 729, 56
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+swelllife/speedlight_effect
+  rotate: false
+  xy: 823, 22
+  size: 2, 32
+  orig: 2, 32
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 729, 154
+  size: 87, 114
+  orig: 87, 114
+  offset: 0, 0
+  index: -1

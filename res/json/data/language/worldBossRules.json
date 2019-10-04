@@ -1,0 +1,46 @@
+{
+  "en": [
+	{
+	  "header": "Boss Rules",
+	  "content": [
+		"- Each player has 3 Fights per day",
+		"- Each Hero can battle once per day",
+		"- Battle result with World Boss is Finish, not Win or Lose.",
+		"- Player can end battle by choosing End in pop-up Setting",
+		"- A Battle is 3 minutes long",
+		"- Player can use items in Battle"]
+	},
+	{
+	  "header": "Rewards",
+	  "content": [
+		"You will receive one of following rewards:",
+		"- Random rewards from Boss after each fight",
+		"- Reward if you last hit the Boss (100 Bless)",
+		"- Rewards based on total Damage of 3 Fights",
+		"- Rewards based on Ranking of total Damage between players",
+		"(See more details at Ranking section)"]
+	}
+  ],
+  "vi": [
+	{
+	  "header": "Luật Chơi",
+	  "content": [
+		"- Mỗi người chơi có 3 lần đánh mỗi ngày",
+		"- Mỗi tướng được tham gia đánh boss 1 lần sẽ không được tham gia lần sau nữa (như Hỗn Nguyên Lâu)",
+		"- Trận chiến với Boss chỉ có khái niệm Hoàn Thành và không có khái niệm Thắng/Thua",
+		"- Người chơi có thể Hoàn Thành sớm bằng cách tự chọn Kết Thúc trong pop-up Setting",
+		"- Mỗi trận đánh có 3 phút, hết thời gian xem như Kết Thúc",
+		"- Người chơi được tự do sử dụng vật phẩm"]
+	},
+	{
+	  "header": "Rewards",
+	  "content": [
+		"Bạn sẽ nhận được một trong các loại phần thưởng sau:",
+		"- Phần thưởng ngẫu nhiên từ Boss sau mỗi lượt đánh",
+		"- Phần thưởng hạ gục boss (100 Bless)",
+		"- Phần thưởng theo mức tổng sát thương của 3 lần đánh",
+		"- Phần thưởng xếp hạng sát thương sau 3 lần đánh",
+		" (Xem thêm ở mục xếp hạng)"]
+	}
+  ]
+}

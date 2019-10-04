@@ -1,0 +1,412 @@
+
+AshaHolyAngleElf.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ELF wing I
+  rotate: true
+  xy: 1447, 385
+  size: 124, 156
+  orig: 124, 156
+  offset: 0, 0
+  index: -1
+ELF wing II
+  rotate: false
+  xy: 913, 318
+  size: 154, 191
+  orig: 154, 191
+  offset: 0, 0
+  index: -1
+ELF wing III
+  rotate: true
+  xy: 137, 83
+  size: 190, 243
+  orig: 190, 243
+  offset: 0, 0
+  index: -1
+arm L
+  rotate: false
+  xy: 2005, 426
+  size: 35, 38
+  orig: 35, 38
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: false
+  xy: 760, 246
+  size: 43, 28
+  orig: 43, 28
+  offset: 0, 0
+  index: -1
+arrow_light
+  rotate: true
+  xy: 308, 2
+  size: 79, 29
+  orig: 79, 29
+  offset: 0, 0
+  index: -1
+cape
+  rotate: false
+  xy: 1257, 369
+  size: 188, 140
+  orig: 188, 140
+  offset: 0, 0
+  index: -1
+ear back
+  rotate: false
+  xy: 382, 78
+  size: 68, 47
+  orig: 68, 47
+  offset: 0, 0
+  index: -1
+eyes aim
+  rotate: false
+  xy: 1165, 302
+  size: 90, 57
+  orig: 90, 57
+  offset: 0, 0
+  index: -1
+eyes attack
+  rotate: false
+  xy: 483, 209
+  size: 90, 72
+  orig: 90, 72
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: false
+  xy: 1257, 304
+  size: 84, 63
+  orig: 84, 63
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 382, 212
+  size: 99, 69
+  orig: 99, 69
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: false
+  xy: 575, 220
+  size: 92, 63
+  orig: 92, 63
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 2, 20
+  size: 112, 126
+  orig: 112, 126
+  offset: 0, 0
+  index: -1
+flash
+  rotate: false
+  xy: 467, 126
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 548, 91
+  size: 20, 37
+  orig: 20, 37
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: true
+  xy: 339, 4
+  size: 20, 37
+  orig: 20, 37
+  offset: 0, 0
+  index: -1
+gaunlet L
+  rotate: false
+  xy: 372, 47
+  size: 31, 29
+  orig: 31, 29
+  offset: 0, 0
+  index: -1
+gaunlet R
+  rotate: false
+  xy: 845, 244
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+glance light
+  rotate: false
+  xy: 679, 283
+  size: 22, 110
+  orig: 22, 110
+  offset: 0, 0
+  index: -1
+gloriole
+  rotate: false
+  xy: 382, 127
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 1605, 394
+  size: 114, 115
+  orig: 114, 115
+  offset: 0, 0
+  index: -1
+ground smoke 1
+  rotate: false
+  xy: 1343, 333
+  size: 94, 34
+  orig: 94, 34
+  offset: 0, 0
+  index: -1
+ground smoke 2
+  rotate: false
+  xy: 1343, 297
+  size: 94, 34
+  orig: 94, 34
+  offset: 0, 0
+  index: -1
+ground smoke 3
+  rotate: false
+  xy: 452, 90
+  size: 94, 34
+  orig: 94, 34
+  offset: 0, 0
+  index: -1
+ground smoke 4
+  rotate: false
+  xy: 703, 276
+  size: 94, 34
+  orig: 94, 34
+  offset: 0, 0
+  index: -1
+ground smoke 5
+  rotate: false
+  xy: 799, 276
+  size: 94, 34
+  orig: 94, 34
+  offset: 0, 0
+  index: -1
+ground smoke 6
+  rotate: false
+  xy: 1721, 375
+  size: 94, 34
+  orig: 94, 34
+  offset: 0, 0
+  index: -1
+ground smoke 7
+  rotate: false
+  xy: 1447, 349
+  size: 94, 34
+  orig: 94, 34
+  offset: 0, 0
+  index: -1
+ground smoke 8
+  rotate: false
+  xy: 1439, 313
+  size: 94, 34
+  orig: 94, 34
+  offset: 0, 0
+  index: -1
+ground smoke back 1
+  rotate: false
+  xy: 1439, 277
+  size: 94, 34
+  orig: 94, 34
+  offset: 0, 0
+  index: -1
+ground smoke back 2
+  rotate: false
+  xy: 116, 47
+  size: 94, 34
+  orig: 94, 34
+  offset: 0, 0
+  index: -1
+ground smoke back 3
+  rotate: false
+  xy: 212, 47
+  size: 94, 34
+  orig: 94, 34
+  offset: 0, 0
+  index: -1
+ground smoke back 4
+  rotate: false
+  xy: 116, 11
+  size: 94, 34
+  orig: 94, 34
+  offset: 0, 0
+  index: -1
+ground smoke back 5
+  rotate: false
+  xy: 212, 11
+  size: 94, 34
+  orig: 94, 34
+  offset: 0, 0
+  index: -1
+ground smoke back 6
+  rotate: true
+  xy: 550, 113
+  size: 94, 34
+  orig: 94, 34
+  offset: 0, 0
+  index: -1
+ground smoke back 7
+  rotate: true
+  xy: 586, 124
+  size: 94, 34
+  orig: 94, 34
+  offset: 0, 0
+  index: -1
+ground smoke back 8
+  rotate: true
+  xy: 622, 124
+  size: 94, 34
+  orig: 94, 34
+  offset: 0, 0
+  index: -1
+hair back
+  rotate: false
+  xy: 137, 275
+  size: 239, 234
+  orig: 239, 234
+  offset: 0, 0
+  index: -1
+hair front
+  rotate: false
+  xy: 1069, 361
+  size: 186, 148
+  orig: 186, 148
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 405, 50
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 895, 280
+  size: 30, 21
+  orig: 30, 21
+  offset: 0, 0
+  index: -1
+helmet
+  rotate: false
+  xy: 378, 283
+  size: 189, 110
+  orig: 189, 110
+  offset: 0, 0
+  index: -1
+leg L
+  rotate: true
+  xy: 703, 244
+  size: 30, 55
+  orig: 30, 55
+  offset: 0, 0
+  index: -1
+leg R
+  rotate: true
+  xy: 1543, 355
+  size: 28, 58
+  orig: 28, 58
+  offset: 0, 0
+  index: -1
+lighting bubble
+  rotate: false
+  xy: 569, 285
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+lighting circle
+  rotate: false
+  xy: 1821, 418
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+magic circle LV5-2
+  rotate: false
+  xy: 714, 312
+  size: 197, 197
+  orig: 197, 197
+  offset: 0, 0
+  index: -1
+mana shield
+  rotate: false
+  xy: 1914, 420
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1721, 411
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 2005, 466
+  size: 41, 43
+  orig: 41, 43
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 805, 240
+  size: 38, 34
+  orig: 38, 34
+  offset: 0, 0
+  index: -1
+spark light fx
+  rotate: false
+  xy: 2042, 423
+  size: 4, 41
+  orig: 4, 41
+  offset: 0, 0
+  index: -1
+thigh L
+  rotate: false
+  xy: 339, 26
+  size: 31, 55
+  orig: 31, 55
+  offset: 0, 0
+  index: -1
+thigh R
+  rotate: false
+  xy: 669, 228
+  size: 32, 53
+  orig: 32, 53
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 1069, 299
+  size: 60, 94
+  orig: 60, 94
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: true
+  xy: 378, 395
+  size: 114, 334
+  orig: 114, 334
+  offset: 0, 0
+  index: -1
+weapon_glow
+  rotate: false
+  xy: 2, 148
+  size: 133, 361
+  orig: 133, 361
+  offset: 0, 0
+  index: -1

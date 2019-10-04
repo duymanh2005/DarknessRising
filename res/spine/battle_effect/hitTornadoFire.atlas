@@ -1,0 +1,230 @@
+
+hitTornadoFire.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+explosion beam1
+  rotate: false
+  xy: 1171, 135
+  size: 61, 76
+  orig: 61, 76
+  offset: 0, 0
+  index: -1
+explosion beam2
+  rotate: true
+  xy: 1939, 170
+  size: 84, 97
+  orig: 84, 97
+  offset: 0, 0
+  index: -1
+explosion beam3
+  rotate: true
+  xy: 2, 2
+  size: 101, 106
+  orig: 101, 106
+  offset: 0, 0
+  index: -1
+explosion beam4
+  rotate: true
+  xy: 863, 2
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+explosion beam5
+  rotate: true
+  xy: 975, 2
+  size: 112, 96
+  orig: 112, 96
+  offset: 0, 0
+  index: -1
+explosion beam6
+  rotate: true
+  xy: 1073, 56
+  size: 112, 81
+  orig: 112, 81
+  offset: 0, 0
+  index: -1
+ground smoke 1
+  rotate: false
+  xy: 871, 161
+  size: 159, 47
+  orig: 159, 47
+  offset: 0, 0
+  index: -1
+ground smoke 2
+  rotate: false
+  xy: 1415, 203
+  size: 172, 51
+  orig: 172, 51
+  offset: 0, 0
+  index: -1
+ground smoke 3
+  rotate: false
+  xy: 291, 52
+  size: 183, 51
+  orig: 183, 51
+  offset: 0, 0
+  index: -1
+ground smoke 4
+  rotate: false
+  xy: 545, 61
+  size: 144, 45
+  orig: 144, 45
+  offset: 0, 0
+  index: -1
+ground smoke 5
+  rotate: false
+  xy: 1238, 207
+  size: 175, 47
+  orig: 175, 47
+  offset: 0, 0
+  index: -1
+ground smoke 6
+  rotate: false
+  xy: 1589, 201
+  size: 172, 53
+  orig: 172, 53
+  offset: 0, 0
+  index: -1
+ground smoke 7
+  rotate: false
+  xy: 1763, 172
+  size: 164, 42
+  orig: 164, 42
+  offset: 0, 0
+  index: -1
+ground smoke 8
+  rotate: false
+  xy: 863, 116
+  size: 147, 43
+  orig: 147, 43
+  offset: 0, 0
+  index: -1
+ground smoke back 1
+  rotate: false
+  xy: 110, 43
+  size: 179, 60
+  orig: 179, 60
+  offset: 0, 0
+  index: -1
+ground smoke back 2
+  rotate: false
+  xy: 691, 48
+  size: 137, 58
+  orig: 137, 58
+  offset: 0, 0
+  index: -1
+ground smoke back 3
+  rotate: false
+  xy: 1055, 213
+  size: 181, 41
+  orig: 181, 41
+  offset: 0, 0
+  index: -1
+ground smoke back 4
+  rotate: false
+  xy: 681, 108
+  size: 180, 43
+  orig: 180, 43
+  offset: 0, 0
+  index: -1
+ground smoke back 5
+  rotate: false
+  xy: 1763, 216
+  size: 174, 38
+  orig: 174, 38
+  offset: 0, 0
+  index: -1
+ground smoke back 6
+  rotate: false
+  xy: 871, 210
+  size: 182, 44
+  orig: 182, 44
+  offset: 0, 0
+  index: -1
+ground smoke back 7
+  rotate: false
+  xy: 681, 205
+  size: 188, 49
+  orig: 188, 49
+  offset: 0, 0
+  index: -1
+ground smoke back 8
+  rotate: false
+  xy: 681, 153
+  size: 180, 50
+  orig: 180, 50
+  offset: 0, 0
+  index: -1
+smoke smash1
+  rotate: false
+  xy: 1073, 26
+  size: 93, 28
+  orig: 93, 28
+  offset: 0, 0
+  index: -1
+smoke smash2
+  rotate: false
+  xy: 1055, 170
+  size: 114, 41
+  orig: 114, 41
+  offset: 0, 0
+  index: -1
+smoke smash3
+  rotate: false
+  xy: 366, 3
+  size: 137, 47
+  orig: 137, 47
+  offset: 0, 0
+  index: -1
+smoke smash4
+  rotate: false
+  xy: 110, 2
+  size: 126, 39
+  orig: 126, 39
+  offset: 0, 0
+  index: -1
+smoke smash5
+  rotate: false
+  xy: 238, 2
+  size: 126, 39
+  orig: 126, 39
+  offset: 0, 0
+  index: -1
+tornado1
+  rotate: false
+  xy: 2, 105
+  size: 134, 149
+  orig: 134, 149
+  offset: 0, 0
+  index: -1
+tornado2
+  rotate: false
+  xy: 138, 105
+  size: 134, 149
+  orig: 134, 149
+  offset: 0, 0
+  index: -1
+tornado3
+  rotate: false
+  xy: 545, 108
+  size: 134, 146
+  orig: 134, 146
+  offset: 0, 0
+  index: -1
+tornado4
+  rotate: false
+  xy: 274, 105
+  size: 134, 149
+  orig: 134, 149
+  offset: 0, 0
+  index: -1
+tornado5
+  rotate: false
+  xy: 410, 105
+  size: 133, 149
+  orig: 133, 149
+  offset: 0, 0
+  index: -1

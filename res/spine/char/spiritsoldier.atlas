@@ -1,0 +1,237 @@
+
+spiritsoldier.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Crescent Axe
+  rotate: false
+  xy: 249, 15
+  size: 259, 103
+  orig: 259, 103
+  offset: 0, 0
+  index: -1
+Crescent Axe glow
+  rotate: false
+  xy: 249, 120
+  size: 287, 134
+  orig: 287, 134
+  offset: 0, 0
+  index: -1
+Crescent Axe head
+  rotate: false
+  xy: 752, 120
+  size: 139, 134
+  orig: 139, 134
+  offset: 0, 0
+  index: -1
+arm low L
+  rotate: false
+  xy: 600, 61
+  size: 37, 40
+  orig: 37, 40
+  offset: 0, 0
+  index: -1
+arm low R
+  rotate: false
+  xy: 510, 43
+  size: 42, 59
+  orig: 42, 59
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: false
+  xy: 981, 157
+  size: 39, 49
+  orig: 39, 49
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: false
+  xy: 981, 105
+  size: 37, 50
+  orig: 37, 50
+  offset: 0, 0
+  index: -1
+armor leg L
+  rotate: true
+  xy: 770, 104
+  size: 14, 29
+  orig: 14, 29
+  offset: 0, 0
+  index: -1
+armor leg R
+  rotate: true
+  xy: 676, 59
+  size: 31, 35
+  orig: 31, 35
+  offset: 0, 0
+  index: -1
+belly
+  rotate: false
+  xy: 676, 92
+  size: 48, 22
+  orig: 48, 22
+  offset: 0, 0
+  index: -1
+belly back
+  rotate: false
+  xy: 619, 14
+  size: 22, 26
+  orig: 22, 26
+  offset: 0, 0
+  index: -1
+body low
+  rotate: true
+  xy: 639, 63
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+body up
+  rotate: false
+  xy: 893, 181
+  size: 86, 73
+  orig: 86, 73
+  offset: 0, 0
+  index: -1
+eyes 2
+  rotate: false
+  xy: 673, 43
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+eyes 3
+  rotate: false
+  xy: 600, 42
+  size: 41, 17
+  orig: 41, 17
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 801, 102
+  size: 22, 16
+  orig: 22, 16
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 849, 103
+  size: 20, 15
+  orig: 20, 15
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 981, 208
+  size: 41, 46
+  orig: 41, 46
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 552, 2
+  size: 39, 38
+  orig: 39, 38
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 893, 108
+  size: 71, 86
+  orig: 71, 86
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: true
+  xy: 510, 2
+  size: 39, 40
+  orig: 39, 40
+  offset: 0, 0
+  index: -1
+leg low L
+  rotate: true
+  xy: 643, 41
+  size: 20, 28
+  orig: 20, 28
+  offset: 0, 0
+  index: -1
+leg low R
+  rotate: false
+  xy: 726, 87
+  size: 22, 27
+  orig: 22, 27
+  offset: 0, 0
+  index: -1
+leg up L
+  rotate: true
+  xy: 825, 98
+  size: 20, 22
+  orig: 20, 22
+  offset: 0, 0
+  index: -1
+leg up R
+  rotate: false
+  xy: 750, 91
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 9
+  size: 245, 245
+  orig: 245, 245
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: true
+  xy: 676, 116
+  size: 43, 69
+  orig: 43, 69
+  offset: 0, 0
+  index: -1
+shoulder L back
+  rotate: false
+  xy: 554, 50
+  size: 44, 52
+  orig: 44, 52
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: true
+  xy: 538, 104
+  size: 55, 76
+  orig: 55, 76
+  offset: 0, 0
+  index: -1
+shoulder lock L
+  rotate: false
+  xy: 592, 15
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+shoulder lock R
+  rotate: false
+  xy: 643, 14
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+smash line
+  rotate: true
+  xy: 538, 161
+  size: 93, 212
+  orig: 93, 212
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 616, 103
+  size: 58, 56
+  orig: 58, 56
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+hitKundunDevil.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+black hole
+  rotate: false
+  xy: 181, 3
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+devil spirit
+  rotate: false
+  xy: 2, 2
+  size: 177, 101
+  orig: 177, 101
+  offset: 0, 0
+  index: -1
+light column
+  rotate: true
+  xy: 385, 36
+  size: 67, 113
+  orig: 67, 113
+  offset: 0, 0
+  index: -1
+magic circle S-00
+  rotate: false
+  xy: 283, 3
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+vortex fx
+  rotate: false
+  xy: 500, 44
+  size: 58, 59
+  orig: 58, 59
+  offset: 0, 0
+  index: -1

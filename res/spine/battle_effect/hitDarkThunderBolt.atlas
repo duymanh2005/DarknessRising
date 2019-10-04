@@ -1,0 +1,104 @@
+
+hitDarkThunderBolt.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/lightning fx/thunder1
+  rotate: false
+  xy: 136, 2
+  size: 62, 75
+  orig: 62, 75
+  offset: 0, 0
+  index: -1
+images/lightning fx/thunder10
+  rotate: true
+  xy: 673, 96
+  size: 30, 132
+  orig: 30, 132
+  offset: 0, 0
+  index: -1
+images/lightning fx/thunder11
+  rotate: true
+  xy: 807, 98
+  size: 28, 132
+  orig: 28, 132
+  offset: 0, 0
+  index: -1
+images/lightning fx/thunder2
+  rotate: true
+  xy: 136, 79
+  size: 47, 133
+  orig: 47, 133
+  offset: 0, 0
+  index: -1
+images/lightning fx/thunder4
+  rotate: true
+  xy: 2, 20
+  size: 50, 132
+  orig: 50, 132
+  offset: 0, 0
+  index: -1
+images/lightning fx/thunder5
+  rotate: true
+  xy: 200, 22
+  size: 55, 90
+  orig: 55, 90
+  offset: 0, 0
+  index: -1
+images/lightning fx/thunder6
+  rotate: true
+  xy: 2, 72
+  size: 54, 132
+  orig: 54, 132
+  offset: 0, 0
+  index: -1
+images/lightning fx/thunder7
+  rotate: true
+  xy: 539, 96
+  size: 30, 132
+  orig: 30, 132
+  offset: 0, 0
+  index: -1
+images/lightning fx/thunder8
+  rotate: true
+  xy: 271, 95
+  size: 31, 132
+  orig: 31, 132
+  offset: 0, 0
+  index: -1
+images/lightning fx/thunder9
+  rotate: true
+  xy: 405, 95
+  size: 31, 132
+  orig: 31, 132
+  offset: 0, 0
+  index: -1
+images/particles/DotSparkA
+  rotate: false
+  xy: 292, 55
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+images/particles/hit effect circle glowing
+  rotate: false
+  xy: 941, 82
+  size: 54, 44
+  orig: 54, 44
+  offset: 0, 0
+  index: -1
+images/particles/light beam
+  rotate: false
+  xy: 292, 23
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+images/particles/shockwave2
+  rotate: false
+  xy: 332, 55
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1

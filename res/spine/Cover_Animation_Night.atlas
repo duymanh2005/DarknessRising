@@ -1,0 +1,496 @@
+
+Cover_Animation_Night.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+DK/DK arm R
+  rotate: false
+  xy: 1140, 337
+  size: 54, 72
+  orig: 54, 72
+  offset: 0, 0
+  index: -1
+DK/DK body
+  rotate: true
+  xy: 907, 835
+  size: 229, 273
+  orig: 229, 273
+  offset: 0, 0
+  index: -1
+DK/DK cape
+  rotate: true
+  xy: 385, 241
+  size: 302, 203
+  orig: 302, 203
+  offset: 0, 0
+  index: -1
+DK/DK eyes close
+  rotate: true
+  xy: 642, 163
+  size: 75, 46
+  orig: 75, 46
+  offset: 0, 0
+  index: -1
+DK/DK eyes default
+  rotate: false
+  xy: 2, 4
+  size: 101, 54
+  orig: 101, 54
+  offset: 0, 0
+  index: -1
+DK/DK hand L
+  rotate: false
+  xy: 823, 1357
+  size: 76, 71
+  orig: 76, 71
+  offset: 0, 0
+  index: -1
+DK/DK hand R
+  rotate: false
+  xy: 1515, 429
+  size: 87, 66
+  orig: 87, 66
+  offset: 0, 0
+  index: -1
+DK/DK head
+  rotate: false
+  xy: 564, 568
+  size: 226, 226
+  orig: 226, 226
+  offset: 0, 0
+  index: -1
+DK/DK leg L
+  rotate: true
+  xy: 1892, 594
+  size: 115, 152
+  orig: 115, 152
+  offset: 0, 0
+  index: -1
+DK/DK leg R
+  rotate: true
+  xy: 1909, 711
+  size: 119, 137
+  orig: 119, 137
+  offset: 0, 0
+  index: -1
+DK/Dk arm L
+  rotate: false
+  xy: 629, 91
+  size: 55, 70
+  orig: 55, 70
+  offset: 0, 0
+  index: -1
+DK/sword
+  rotate: false
+  xy: 110, 177
+  size: 273, 366
+  orig: 273, 366
+  offset: 0, 0
+  index: -1
+DK/sword fx
+  rotate: true
+  xy: 1549, 1094
+  size: 273, 366
+  orig: 273, 366
+  offset: 0, 0
+  index: -1
+MU_glow
+  rotate: true
+  xy: 1751, 587
+  size: 166, 139
+  orig: 166, 139
+  offset: 0, 0
+  index: -1
+background
+  rotate: false
+  xy: 823, 1430
+  size: 377, 616
+  orig: 377, 616
+  offset: 0, 0
+  index: -1
+bow
+  rotate: false
+  xy: 628, 924
+  size: 277, 425
+  orig: 277, 425
+  offset: 0, 0
+  index: -1
+bow fx
+  rotate: true
+  xy: 126, 545
+  size: 302, 436
+  orig: 302, 436
+  offset: 0, 0
+  index: -1
+cloud fx
+  rotate: false
+  xy: 1235, 389
+  size: 200, 96
+  orig: 200, 96
+  offset: 0, 0
+  index: -1
+elf arm L
+  rotate: false
+  xy: 564, 173
+  size: 76, 65
+  orig: 76, 65
+  offset: 0, 0
+  index: -1
+elf arrow fx
+  rotate: true
+  xy: 2, 142
+  size: 462, 106
+  orig: 462, 106
+  offset: 0, 0
+  index: -1
+elf body
+  rotate: true
+  xy: 110, 2
+  size: 173, 258
+  orig: 173, 258
+  offset: 0, 0
+  index: -1
+elf boobs
+  rotate: false
+  xy: 1924, 541
+  size: 69, 51
+  orig: 69, 51
+  offset: 0, 0
+  index: -1
+elf boot L
+  rotate: true
+  xy: 980, 321
+  size: 82, 97
+  orig: 82, 97
+  offset: 0, 0
+  index: -1
+elf boot R
+  rotate: false
+  xy: 1437, 395
+  size: 76, 90
+  orig: 76, 90
+  offset: 0, 0
+  index: -1
+elf bowstring
+  rotate: false
+  xy: 2, 606
+  size: 122, 1440
+  orig: 122, 1440
+  offset: 0, 0
+  index: -1
+elf bracer L
+  rotate: true
+  xy: 1880, 1044
+  size: 48, 34
+  orig: 48, 34
+  offset: 0, 0
+  index: -1
+elf eyes
+  rotate: false
+  xy: 590, 240
+  size: 88, 52
+  orig: 88, 52
+  offset: 0, 0
+  index: -1
+elf eyes close
+  rotate: false
+  xy: 1515, 375
+  size: 86, 52
+  orig: 86, 52
+  offset: 0, 0
+  index: -1
+elf finger L
+  rotate: false
+  xy: 1196, 377
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+elf foot L
+  rotate: false
+  xy: 370, 17
+  size: 190, 45
+  orig: 190, 45
+  offset: 0, 0
+  index: -1
+elf foot R
+  rotate: false
+  xy: 1140, 750
+  size: 30, 41
+  orig: 30, 41
+  offset: 0, 0
+  index: -1
+elf fx
+  rotate: false
+  xy: 1202, 1717
+  size: 465, 329
+  orig: 465, 329
+  offset: 0, 0
+  index: -1
+elf hand L
+  rotate: true
+  xy: 1079, 323
+  size: 80, 59
+  orig: 80, 59
+  offset: 0, 0
+  index: -1
+elf hand R
+  rotate: false
+  xy: 1482, 972
+  size: 56, 54
+  orig: 56, 54
+  offset: 0, 0
+  index: -1
+elf shadow
+  rotate: false
+  xy: 1549, 972
+  size: 329, 120
+  orig: 329, 120
+  offset: 0, 0
+  index: -1
+energy ball
+  rotate: false
+  xy: 126, 1351
+  size: 695, 695
+  orig: 695, 695
+  offset: 0, 0
+  index: -1
+fire 1
+  rotate: false
+  xy: 980, 405
+  size: 126, 254
+  orig: 126, 254
+  offset: 0, 0
+  index: -1
+fire 10
+  rotate: false
+  xy: 1624, 508
+  size: 125, 229
+  orig: 125, 229
+  offset: 0, 0
+  index: -1
+fire 11
+  rotate: false
+  xy: 1498, 497
+  size: 124, 240
+  orig: 124, 240
+  offset: 0, 0
+  index: -1
+fire 12
+  rotate: false
+  xy: 1108, 411
+  size: 125, 248
+  orig: 125, 248
+  offset: 0, 0
+  index: -1
+fire 2
+  rotate: false
+  xy: 1235, 487
+  size: 134, 243
+  orig: 134, 243
+  offset: 0, 0
+  index: -1
+fire 3
+  rotate: false
+  xy: 851, 333
+  size: 127, 262
+  orig: 127, 262
+  offset: 0, 0
+  index: -1
+fire 4
+  rotate: true
+  xy: 628, 796
+  size: 126, 273
+  orig: 126, 273
+  offset: 0, 0
+  index: -1
+fire 5
+  rotate: false
+  xy: 725, 288
+  size: 124, 278
+  orig: 124, 278
+  offset: 0, 0
+  index: -1
+fire 6
+  rotate: false
+  xy: 1917, 832
+  size: 129, 264
+  orig: 129, 264
+  offset: 0, 0
+  index: -1
+fire 7
+  rotate: false
+  xy: 1917, 1098
+  size: 129, 269
+  orig: 129, 269
+  offset: 0, 0
+  index: -1
+fire 8
+  rotate: false
+  xy: 590, 294
+  size: 133, 272
+  orig: 133, 272
+  offset: 0, 0
+  index: -1
+fire 9
+  rotate: false
+  xy: 1371, 487
+  size: 125, 243
+  orig: 125, 243
+  offset: 0, 0
+  index: -1
+glowing sparkle
+  rotate: false
+  xy: 126, 849
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+hair 1
+  rotate: false
+  xy: 2, 60
+  size: 103, 80
+  orig: 103, 80
+  offset: 0, 0
+  index: -1
+hair 2
+  rotate: true
+  xy: 1482, 739
+  size: 231, 242
+  orig: 231, 242
+  offset: 0, 0
+  index: -1
+hit effect circle glowing
+  rotate: true
+  xy: 907, 1066
+  size: 362, 292
+  orig: 362, 292
+  offset: 0, 0
+  index: -1
+light beam
+  rotate: false
+  xy: 1140, 793
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+light_explotion
+  rotate: false
+  xy: 1751, 463
+  size: 122, 122
+  orig: 122, 122
+  offset: 0, 0
+  index: -1
+logoMU_remake4
+  rotate: false
+  xy: 1643, 1369
+  size: 399, 313
+  orig: 399, 313
+  offset: 0, 0
+  index: -1
+logoMU_remake4_glow
+  rotate: false
+  xy: 1202, 1370
+  size: 439, 345
+  orig: 439, 345
+  offset: 0, 0
+  index: -1
+rock
+  rotate: false
+  xy: 1669, 1684
+  size: 376, 362
+  orig: 376, 362
+  offset: 0, 0
+  index: -1
+wz/staff
+  rotate: true
+  xy: 1182, 732
+  size: 294, 298
+  orig: 294, 298
+  offset: 0, 0
+  index: -1
+wz/staff fx
+  rotate: false
+  xy: 1201, 1028
+  size: 346, 340
+  orig: 346, 340
+  offset: 0, 0
+  index: -1
+wz/wiz body
+  rotate: false
+  xy: 1726, 755
+  size: 181, 215
+  orig: 181, 215
+  offset: 0, 0
+  index: -1
+wz/wiz cape
+  rotate: false
+  xy: 385, 64
+  size: 177, 175
+  orig: 177, 175
+  offset: 0, 0
+  index: -1
+wz/wiz eyes close
+  rotate: true
+  xy: 1995, 522
+  size: 70, 47
+  orig: 70, 47
+  offset: 0, 0
+  index: -1
+wz/wiz eyes default
+  rotate: true
+  xy: 1875, 514
+  size: 71, 47
+  orig: 71, 47
+  offset: 0, 0
+  index: -1
+wz/wiz finger L
+  rotate: false
+  xy: 940, 290
+  size: 32, 41
+  orig: 32, 41
+  offset: 0, 0
+  index: -1
+wz/wiz gem
+  rotate: false
+  xy: 564, 814
+  size: 45, 33
+  orig: 45, 33
+  offset: 0, 0
+  index: -1
+wz/wiz hair
+  rotate: true
+  xy: 792, 597
+  size: 197, 160
+  orig: 197, 160
+  offset: 0, 0
+  index: -1
+wz/wiz hand L
+  rotate: false
+  xy: 851, 273
+  size: 87, 58
+  orig: 87, 58
+  offset: 0, 0
+  index: -1
+wz/wiz hand R
+  rotate: false
+  xy: 564, 93
+  size: 63, 78
+  orig: 63, 78
+  offset: 0, 0
+  index: -1
+wz/wiz lower body
+  rotate: false
+  xy: 954, 661
+  size: 184, 172
+  orig: 184, 172
+  offset: 0, 0
+  index: -1
+wz/wiz silk
+  rotate: true
+  xy: 1140, 667
+  size: 63, 93
+  orig: 63, 93
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,146 @@
+
+icemonster.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ImpactPart5
+  rotate: true
+  xy: 226, 2
+  size: 117, 118
+  orig: 117, 118
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: true
+  xy: 704, 99
+  size: 43, 68
+  orig: 43, 68
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: false
+  xy: 583, 39
+  size: 48, 83
+  orig: 48, 83
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 226, 121
+  size: 191, 133
+  orig: 191, 133
+  offset: 0, 0
+  index: -1
+claw L
+  rotate: false
+  xy: 576, 124
+  size: 126, 130
+  orig: 126, 130
+  offset: 0, 0
+  index: -1
+claw R
+  rotate: true
+  xy: 419, 103
+  size: 151, 155
+  orig: 151, 155
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: false
+  xy: 799, 121
+  size: 90, 61
+  orig: 90, 61
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 583, 18
+  size: 19, 37
+  orig: 19, 37
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: true
+  xy: 2, 5
+  size: 22, 44
+  orig: 22, 44
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 69
+  size: 222, 185
+  orig: 222, 185
+  offset: 0, 0
+  index: -1
+jaw behind
+  rotate: false
+  xy: 908, 187
+  size: 94, 67
+  orig: 94, 67
+  offset: 0, 0
+  index: -1
+jaw font
+  rotate: false
+  xy: 799, 184
+  size: 107, 70
+  orig: 107, 70
+  offset: 0, 0
+  index: -1
+leg low L
+  rotate: true
+  xy: 891, 126
+  size: 56, 30
+  orig: 56, 30
+  offset: 0, 0
+  index: -1
+leg low R
+  rotate: false
+  xy: 419, 2
+  size: 67, 33
+  orig: 67, 33
+  offset: 0, 0
+  index: -1
+leg up L
+  rotate: false
+  xy: 633, 51
+  size: 50, 71
+  orig: 50, 71
+  offset: 0, 0
+  index: -1
+leg up R
+  rotate: false
+  xy: 522, 16
+  size: 59, 85
+  orig: 59, 85
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 29
+  size: 203, 38
+  orig: 203, 38
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 346, 17
+  size: 71, 102
+  orig: 71, 102
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 704, 144
+  size: 93, 110
+  orig: 93, 110
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 419, 37
+  size: 101, 64
+  orig: 101, 64
+  offset: 0, 0
+  index: -1

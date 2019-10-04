@@ -1,0 +1,328 @@
+
+FuryDragonKnight.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effect/hit effect circle glowing
+  rotate: true
+  xy: 2, 2
+  size: 54, 44
+  orig: 54, 44
+  offset: 0, 0
+  index: -1
+Effect/light beam
+  rotate: false
+  xy: 844, 212
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Effect/light glow radial
+  rotate: false
+  xy: 595, 47
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+Effect/precast fx
+  rotate: true
+  xy: 48, 2
+  size: 54, 44
+  orig: 54, 44
+  offset: 0, 0
+  index: -1
+Effect/twinkle star
+  rotate: false
+  xy: 530, 109
+  size: 120, 90
+  orig: 120, 90
+  offset: 0, 0
+  index: -1
+Slash/1
+  rotate: true
+  xy: 359, 3
+  size: 25, 28
+  orig: 25, 28
+  offset: 0, 0
+  index: -1
+Slash/2
+  rotate: false
+  xy: 758, 129
+  size: 25, 28
+  orig: 25, 28
+  offset: 0, 0
+  index: -1
+Slash/3
+  rotate: true
+  xy: 691, 54
+  size: 25, 28
+  orig: 25, 28
+  offset: 0, 0
+  index: -1
+Slash/4
+  rotate: true
+  xy: 690, 27
+  size: 25, 28
+  orig: 25, 28
+  offset: 0, 0
+  index: -1
+Weapon effect/weapon fx
+  rotate: false
+  xy: 156, 49
+  size: 107, 262
+  orig: 107, 262
+  offset: 0, 0
+  index: -1
+Weapon effect/weapon fx 5s
+  rotate: false
+  xy: 2, 229
+  size: 127, 281
+  orig: 127, 281
+  offset: 0, 0
+  index: -1
+arm L
+  rotate: false
+  xy: 690, 115
+  size: 33, 42
+  orig: 33, 42
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: false
+  xy: 657, 67
+  size: 32, 43
+  orig: 32, 43
+  offset: 0, 0
+  index: -1
+belt
+  rotate: true
+  xy: 652, 152
+  size: 47, 28
+  orig: 47, 28
+  offset: 0, 0
+  index: -1
+boot L
+  rotate: true
+  xy: 329, 2
+  size: 26, 28
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+bracer L
+  rotate: false
+  xy: 657, 34
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+eyes attack
+  rotate: false
+  xy: 530, 52
+  size: 63, 55
+  orig: 63, 55
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: false
+  xy: 329, 30
+  size: 59, 44
+  orig: 59, 44
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 920, 245
+  size: 84, 41
+  orig: 84, 41
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: false
+  xy: 920, 199
+  size: 63, 44
+  orig: 63, 44
+  offset: 0, 0
+  index: -1
+eyes lookback
+  rotate: false
+  xy: 94, 2
+  size: 66, 45
+  orig: 66, 45
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 673, 203
+  size: 89, 100
+  orig: 89, 100
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 1006, 482
+  size: 28, 16
+  orig: 28, 16
+  offset: 0, 0
+  index: -1
+hand L Down
+  rotate: false
+  xy: 691, 81
+  size: 31, 32
+  orig: 31, 32
+  offset: 0, 0
+  index: -1
+hand L Up
+  rotate: false
+  xy: 725, 124
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 985, 211
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+helmet
+  rotate: false
+  xy: 2, 58
+  size: 152, 169
+  orig: 152, 169
+  offset: 0, 0
+  index: -1
+knee armor L
+  rotate: false
+  xy: 241, 20
+  size: 22, 27
+  orig: 22, 27
+  offset: 0, 0
+  index: -1
+projectile
+  rotate: true
+  xy: 652, 112
+  size: 38, 36
+  orig: 38, 36
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 845, 288
+  size: 177, 34
+  orig: 177, 34
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 265, 13
+  size: 62, 61
+  orig: 62, 61
+  offset: 0, 0
+  index: -1
+shoulder R back
+  rotate: false
+  xy: 453, 26
+  size: 52, 48
+  orig: 52, 48
+  offset: 0, 0
+  index: -1
+shoulder R front
+  rotate: true
+  xy: 390, 33
+  size: 41, 61
+  orig: 41, 61
+  offset: 0, 0
+  index: -1
+silk
+  rotate: true
+  xy: 162, 7
+  size: 40, 77
+  orig: 40, 77
+  offset: 0, 0
+  index: -1
+thigh L
+  rotate: false
+  xy: 682, 159
+  size: 44, 42
+  orig: 44, 42
+  offset: 0, 0
+  index: -1
+thigh R
+  rotate: false
+  xy: 728, 159
+  size: 44, 42
+  orig: 44, 42
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 775, 212
+  size: 67, 80
+  orig: 67, 80
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: true
+  xy: 315, 403
+  size: 107, 263
+  orig: 107, 263
+  offset: 0, 0
+  index: -1
+weapon5s/Layer 1
+  rotate: true
+  xy: 580, 403
+  size: 107, 263
+  orig: 107, 263
+  offset: 0, 0
+  index: -1
+weapon5s/Layer 2
+  rotate: true
+  xy: 315, 294
+  size: 107, 263
+  orig: 107, 263
+  offset: 0, 0
+  index: -1
+weapon5s/Layer 3
+  rotate: true
+  xy: 580, 294
+  size: 107, 263
+  orig: 107, 263
+  offset: 0, 0
+  index: -1
+weapon5s/Layer 4
+  rotate: true
+  xy: 265, 185
+  size: 107, 263
+  orig: 107, 263
+  offset: 0, 0
+  index: -1
+weapon5s/Layer 5
+  rotate: true
+  xy: 265, 76
+  size: 107, 263
+  orig: 107, 263
+  offset: 0, 0
+  index: -1
+wings/level 1
+  rotate: false
+  xy: 530, 201
+  size: 141, 91
+  orig: 141, 91
+  offset: 0, 0
+  index: -1
+wings/level 2
+  rotate: false
+  xy: 845, 324
+  size: 159, 186
+  orig: 159, 186
+  offset: 0, 0
+  index: -1
+wings/level 3
+  rotate: false
+  xy: 131, 313
+  size: 182, 197
+  orig: 182, 197
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>UI_Asset_Flag/ico_arrow_small_L.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{920,4},{19,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{19,24}</string>
+			</dict>
+			<key>UI_Asset_Flag/ico_arrow_small_R.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{947,4},{19,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{19,24}</string>
+			</dict>
+			<key>UI_Asset_Flag/ico_pnl.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{4,4},{360,240}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{360,240}</string>
+			</dict>
+			<key>UI_Asset_Flag/seperation_line.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{4,948},{488,14}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{488,14}</string>
+			</dict>
+			<key>UI_Asset_Flag/seperation_pattern.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{500,948},{240,18}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{240,18}</string>
+			</dict>
+			<key>UI_Asset_Flag/ico_flag/symbol/symbol_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{372,4},{266,228}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{266,228}</string>
+			</dict>
+			<key>UI_Asset_Flag/ico_flag/symbol/symbol_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{646,4},{266,228}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{266,228}</string>
+			</dict>
+			<key>UI_Asset_Flag/ico_flag/symbol/symbol_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{372,240},{266,228}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{266,228}</string>
+			</dict>
+			<key>UI_Asset_Flag/ico_flag/symbol/symbol_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{4,252},{266,228}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{266,228}</string>
+			</dict>
+			<key>UI_Asset_Flag/ico_flag/colour_base/guildflag_green.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{646,240},{266,228}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{266,228}</string>
+			</dict>
+			<key>UI_Asset_Flag/ico_flag/colour_base/guildflag_mix1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{278,476},{266,228}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{266,228}</string>
+			</dict>
+			<key>UI_Asset_Flag/ico_flag/colour_base/guildflag_purple.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{4,488},{266,228}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{266,228}</string>
+			</dict>
+			<key>UI_Asset_Flag/ico_flag/colour_base/guildflag_red.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{278,712},{266,228}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{266,228}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>flag.png</string>
+			<key>realTextureFileName</key>
+			<string>flag.png</string>
+			<key>size</key>
+			<string>{970,970}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>970</integer>
+			<key>height</key>
+			<integer>970</integer>
+		</dict>
+	</dict>
+</plist>

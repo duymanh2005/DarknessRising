@@ -1,0 +1,314 @@
+
+DarkSoulWizard.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effect/Weaponfx
+  rotate: true
+  xy: 591, 330
+  size: 180, 240
+  orig: 180, 240
+  offset: 0, 0
+  index: -1
+Weapon
+  rotate: true
+  xy: 833, 330
+  size: 180, 240
+  orig: 180, 240
+  offset: 0, 0
+  index: -1
+arm L
+  rotate: false
+  xy: 156, 2
+  size: 33, 47
+  orig: 33, 47
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: true
+  xy: 1499, 302
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+boot L
+  rotate: true
+  xy: 894, 142
+  size: 29, 58
+  orig: 29, 58
+  offset: 0, 0
+  index: -1
+boot R
+  rotate: true
+  xy: 894, 173
+  size: 29, 59
+  orig: 29, 59
+  offset: 0, 0
+  index: -1
+bracer L
+  rotate: true
+  xy: 955, 167
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+bracer R
+  rotate: true
+  xy: 1393, 292
+  size: 38, 46
+  orig: 38, 46
+  offset: 0, 0
+  index: -1
+evil body
+  rotate: false
+  xy: 2, 87
+  size: 278, 77
+  orig: 278, 77
+  offset: 0, 0
+  index: -1
+evil head
+  rotate: false
+  xy: 509, 139
+  size: 103, 79
+  orig: 103, 79
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: false
+  xy: 1441, 306
+  size: 56, 32
+  orig: 56, 32
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: true
+  xy: 282, 90
+  size: 74, 45
+  orig: 74, 45
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: false
+  xy: 1257, 246
+  size: 59, 32
+  orig: 59, 32
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 1123, 225
+  size: 89, 103
+  orig: 89, 103
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 2019, 353
+  size: 37, 22
+  orig: 37, 22
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 291, 63
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+glance light
+  rotate: true
+  xy: 2, 51
+  size: 34, 184
+  orig: 34, 184
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 166
+  size: 343, 344
+  orig: 343, 344
+  offset: 0, 0
+  index: -1
+hair back
+  rotate: true
+  xy: 861, 204
+  size: 124, 131
+  orig: 124, 131
+  offset: 0, 0
+  index: -1
+hair front
+  rotate: true
+  xy: 614, 127
+  size: 91, 74
+  orig: 91, 74
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 259, 54
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 954, 134
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+helmet
+  rotate: false
+  xy: 1437, 340
+  size: 168, 170
+  orig: 168, 170
+  offset: 0, 0
+  index: -1
+leg L
+  rotate: true
+  xy: 191, 11
+  size: 39, 60
+  orig: 39, 60
+  offset: 0, 0
+  index: -1
+leg R
+  rotate: true
+  xy: 1331, 290
+  size: 40, 60
+  orig: 40, 60
+  offset: 0, 0
+  index: -1
+light column
+  rotate: true
+  xy: 689, 227
+  size: 101, 170
+  orig: 101, 170
+  offset: 0, 0
+  index: -1
+lighting bubble
+  rotate: false
+  xy: 347, 169
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+lighting circle
+  rotate: false
+  xy: 1257, 332
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+magic circle LV5-8
+  rotate: false
+  xy: 1607, 362
+  size: 148, 148
+  orig: 148, 148
+  offset: 0, 0
+  index: -1
+precast/Light_SparkA
+  rotate: false
+  xy: 188, 52
+  size: 69, 33
+  orig: 69, 33
+  offset: 0, 0
+  index: -1
+precast/Light_circleA
+  rotate: false
+  xy: 1075, 330
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+precast/Light_lineA
+  rotate: true
+  xy: 2019, 392
+  size: 118, 26
+  orig: 118, 26
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 20
+  size: 152, 29
+  orig: 152, 29
+  offset: 0, 0
+  index: -1
+shadowA
+  rotate: false
+  xy: 1757, 363
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+shield
+  rotate: false
+  xy: 1906, 339
+  size: 111, 171
+  orig: 111, 171
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 1257, 280
+  size: 72, 50
+  orig: 72, 50
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: true
+  xy: 794, 143
+  size: 82, 55
+  orig: 82, 55
+  offset: 0, 0
+  index: -1
+silk
+  rotate: false
+  xy: 1214, 246
+  size: 41, 82
+  orig: 41, 82
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 690, 147
+  size: 78, 102
+  orig: 78, 102
+  offset: 0, 0
+  index: -1
+vortex
+  rotate: true
+  xy: 994, 206
+  size: 122, 127
+  orig: 122, 127
+  offset: 0, 0
+  index: -1
+waist L
+  rotate: true
+  xy: 1547, 308
+  size: 30, 47
+  orig: 30, 47
+  offset: 0, 0
+  index: -1
+waist R
+  rotate: false
+  xy: 851, 149
+  size: 41, 53
+  orig: 41, 53
+  offset: 0, 0
+  index: -1
+wings/wings_wizard_4s
+  rotate: false
+  xy: 509, 220
+  size: 178, 108
+  orig: 178, 108
+  offset: 0, 0
+  index: -1
+wings/wings_wizard_5s
+  rotate: false
+  xy: 347, 331
+  size: 242, 179
+  orig: 242, 179
+  offset: 0, 0
+  index: -1

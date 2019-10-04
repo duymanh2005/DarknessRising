@@ -1,0 +1,27 @@
+
+IllusionTowerGate.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+IllusionTowerGate
+  rotate: false
+  xy: 217, 72
+  size: 35, 41
+  orig: 35, 41
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 115, 13
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+telegate
+  rotate: false
+  xy: 2, 2
+  size: 111, 111
+  orig: 111, 111
+  offset: 0, 0
+  index: -1

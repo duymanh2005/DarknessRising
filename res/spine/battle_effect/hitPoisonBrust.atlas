@@ -1,0 +1,55 @@
+
+hitPoisonBrust.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+electric stun
+  rotate: false
+  xy: 262, 63
+  size: 81, 99
+  orig: 81, 99
+  offset: 0, 0
+  index: -1
+electric stun2
+  rotate: false
+  xy: 164, 65
+  size: 96, 97
+  orig: 96, 97
+  offset: 0, 0
+  index: -1
+electric stun3
+  rotate: false
+  xy: 388, 314
+  size: 86, 91
+  orig: 86, 91
+  offset: 0, 0
+  index: -1
+electric stun4
+  rotate: false
+  xy: 388, 407
+  size: 87, 101
+  orig: 87, 101
+  offset: 0, 0
+  index: -1
+glance light
+  rotate: false
+  xy: 347, 314
+  size: 39, 194
+  orig: 39, 194
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 164
+  size: 343, 344
+  orig: 343, 344
+  offset: 0, 0
+  index: -1
+lighting bubble
+  rotate: false
+  xy: 2, 2
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1

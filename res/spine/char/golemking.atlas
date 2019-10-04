@@ -1,0 +1,412 @@
+
+golemking.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Leg R up
+  rotate: false
+  xy: 427, 146
+  size: 65, 76
+  orig: 65, 76
+  offset: 0, 0
+  index: -1
+arm L low
+  rotate: true
+  xy: 751, 541
+  size: 143, 146
+  orig: 143, 146
+  offset: 0, 0
+  index: -1
+arm L up
+  rotate: true
+  xy: 907, 654
+  size: 79, 103
+  orig: 79, 103
+  offset: 0, 0
+  index: -1
+arm R low
+  rotate: false
+  xy: 182, 44
+  size: 178, 164
+  orig: 178, 164
+  offset: 0, 0
+  index: -1
+arm R up
+  rotate: false
+  xy: 786, 444
+  size: 85, 95
+  orig: 85, 95
+  offset: 0, 0
+  index: -1
+back
+  rotate: false
+  xy: 2, 409
+  size: 233, 318
+  orig: 233, 318
+  offset: 0, 0
+  index: -1
+belly
+  rotate: false
+  xy: 556, 268
+  size: 133, 96
+  orig: 133, 96
+  offset: 0, 0
+  index: -1
+body low
+  rotate: true
+  xy: 918, 870
+  size: 152, 84
+  orig: 152, 84
+  offset: 0, 0
+  index: -1
+body up
+  rotate: false
+  xy: 2, 729
+  size: 278, 293
+  orig: 278, 293
+  offset: 0, 0
+  index: -1
+chin
+  rotate: false
+  xy: 899, 580
+  size: 122, 72
+  orig: 122, 72
+  offset: 0, 0
+  index: -1
+chin inside 1
+  rotate: false
+  xy: 899, 510
+  size: 109, 68
+  orig: 109, 68
+  offset: 0, 0
+  index: -1
+chin inside 2
+  rotate: true
+  xy: 716, 401
+  size: 109, 68
+  orig: 109, 68
+  offset: 0, 0
+  index: -1
+earth grow
+  rotate: true
+  xy: 362, 133
+  size: 82, 63
+  orig: 82, 63
+  offset: 0, 0
+  index: -1
+earth shake
+  rotate: true
+  xy: 370, 445
+  size: 92, 28
+  orig: 92, 28
+  offset: 0, 0
+  index: -1
+energy dot
+  rotate: false
+  xy: 578, 648
+  size: 171, 171
+  orig: 171, 171
+  offset: 0, 0
+  index: -1
+eyes 1
+  rotate: false
+  xy: 282, 738
+  size: 110, 34
+  orig: 110, 34
+  offset: 0, 0
+  index: -1
+eyes 2
+  rotate: false
+  xy: 918, 837
+  size: 104, 31
+  orig: 104, 31
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 871, 403
+  size: 46, 32
+  orig: 46, 32
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 731, 512
+  size: 36, 27
+  orig: 36, 27
+  offset: 0, 0
+  index: -1
+gem AR
+  rotate: true
+  xy: 737, 304
+  size: 61, 45
+  orig: 61, 45
+  offset: 0, 0
+  index: -1
+gem B
+  rotate: false
+  xy: 2, 3
+  size: 168, 101
+  orig: 168, 101
+  offset: 0, 0
+  index: -1
+gem BD
+  rotate: false
+  xy: 2, 106
+  size: 178, 301
+  orig: 178, 301
+  offset: 0, 0
+  index: -1
+gem HL
+  rotate: false
+  xy: 353, 264
+  size: 57, 144
+  orig: 57, 144
+  offset: 0, 0
+  index: -1
+gem HL2
+  rotate: true
+  xy: 362, 54
+  size: 77, 71
+  orig: 77, 71
+  offset: 0, 0
+  index: -1
+gem HR
+  rotate: false
+  xy: 578, 512
+  size: 151, 134
+  orig: 151, 134
+  offset: 0, 0
+  index: -1
+gem HR2
+  rotate: true
+  xy: 566, 366
+  size: 144, 148
+  orig: 144, 148
+  offset: 0, 0
+  index: -1
+gem LL
+  rotate: false
+  xy: 532, 784
+  size: 37, 35
+  orig: 37, 35
+  offset: 0, 0
+  index: -1
+gem LR
+  rotate: true
+  xy: 370, 410
+  size: 33, 36
+  orig: 33, 36
+  offset: 0, 0
+  index: -1
+gem SL
+  rotate: true
+  xy: 237, 410
+  size: 127, 131
+  orig: 127, 131
+  offset: 0, 0
+  index: -1
+gem SR
+  rotate: false
+  xy: 412, 301
+  size: 142, 142
+  orig: 142, 142
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 751, 686
+  size: 154, 157
+  orig: 154, 157
+  offset: 0, 0
+  index: -1
+hand L2
+  rotate: false
+  xy: 408, 598
+  size: 168, 174
+  orig: 168, 174
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 182, 210
+  size: 197, 169
+  orig: 197, 169
+  offset: 0, 0
+  index: -1
+hand R2
+  rotate: false
+  xy: 532, 821
+  size: 185, 201
+  orig: 185, 201
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 408, 445
+  size: 151, 156
+  orig: 151, 156
+  offset: 0, 0
+  index: -1
+leg L low
+  rotate: true
+  xy: 362, 2
+  size: 50, 56
+  orig: 50, 56
+  offset: 0, 0
+  index: -1
+leg L up
+  rotate: false
+  xy: 435, 79
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+leg R low
+  rotate: true
+  xy: 353, 217
+  size: 45, 57
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+lighting cicrle
+  rotate: false
+  xy: 282, 774
+  size: 248, 248
+  orig: 248, 248
+  offset: 0, 0
+  index: -1
+magic circle A-01
+  rotate: false
+  xy: 907, 735
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 412, 224
+  size: 101, 19
+  orig: 101, 19
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 237, 539
+  size: 169, 188
+  orig: 169, 188
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 719, 845
+  size: 197, 177
+  orig: 197, 177
+  offset: 0, 0
+  index: -1
+smash fx3
+  rotate: false
+  xy: 412, 245
+  size: 128, 54
+  orig: 128, 54
+  offset: 0, 0
+  index: -1
+smog3
+  rotate: false
+  xy: 268, 5
+  size: 85, 37
+  orig: 85, 37
+  offset: 0, 0
+  index: -1
+smoke ground1
+  rotate: false
+  xy: 716, 367
+  size: 57, 32
+  orig: 57, 32
+  offset: 0, 0
+  index: -1
+smoke ground2
+  rotate: true
+  xy: 691, 286
+  size: 78, 44
+  orig: 78, 44
+  offset: 0, 0
+  index: -1
+smoke ground3
+  rotate: false
+  xy: 172, 2
+  size: 94, 40
+  orig: 94, 40
+  offset: 0, 0
+  index: -1
+smoke ground4
+  rotate: false
+  xy: 786, 394
+  size: 83, 48
+  orig: 83, 48
+  offset: 0, 0
+  index: -1
+smoke ground5
+  rotate: false
+  xy: 873, 459
+  size: 69, 49
+  orig: 69, 49
+  offset: 0, 0
+  index: -1
+smoke ground6
+  rotate: false
+  xy: 944, 459
+  size: 65, 49
+  orig: 65, 49
+  offset: 0, 0
+  index: -1
+smoke ground7
+  rotate: false
+  xy: 420, 21
+  size: 56, 31
+  orig: 56, 31
+  offset: 0, 0
+  index: -1
+smoke smash1
+  rotate: true
+  xy: 1009, 789
+  size: 46, 13
+  orig: 46, 13
+  offset: 0, 0
+  index: -1
+smoke smash2
+  rotate: false
+  xy: 938, 437
+  size: 57, 20
+  orig: 57, 20
+  offset: 0, 0
+  index: -1
+smoke smash3
+  rotate: false
+  xy: 435, 54
+  size: 69, 23
+  orig: 69, 23
+  offset: 0, 0
+  index: -1
+smoke smash4
+  rotate: true
+  xy: 494, 159
+  size: 63, 20
+  orig: 63, 20
+  offset: 0, 0
+  index: -1
+smoke smash5
+  rotate: false
+  xy: 873, 437
+  size: 63, 20
+  orig: 63, 20
+  offset: 0, 0
+  index: -1
+spark light fx
+  rotate: true
+  xy: 282, 729
+  size: 7, 82
+  orig: 7, 82
+  offset: 0, 0
+  index: -1

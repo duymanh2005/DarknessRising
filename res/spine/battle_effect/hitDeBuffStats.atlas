@@ -1,0 +1,202 @@
+
+hitDeBuffStats.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ATK/ATK
+  rotate: true
+  xy: 655, 81
+  size: 45, 74
+  orig: 45, 74
+  offset: 0, 0
+  index: -1
+ATK/DeATK
+  rotate: true
+  xy: 731, 81
+  size: 45, 73
+  orig: 45, 73
+  offset: 0, 0
+  index: -1
+ATK/lighting circle
+  rotate: false
+  xy: 2, 45
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+ATK/spark light fx
+  rotate: false
+  xy: 2, 2
+  size: 4, 41
+  orig: 4, 41
+  offset: 0, 0
+  index: -1
+CURE
+  rotate: true
+  xy: 655, 24
+  size: 55, 63
+  orig: 55, 63
+  offset: 0, 0
+  index: -1
+DEF/DEF
+  rotate: true
+  xy: 720, 25
+  size: 54, 59
+  orig: 54, 59
+  offset: 0, 0
+  index: -1
+DEF/DeDEF
+  rotate: true
+  xy: 781, 20
+  size: 54, 59
+  orig: 54, 59
+  offset: 0, 0
+  index: -1
+DEF/lighting circle
+  rotate: false
+  xy: 85, 45
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+DEF/spark light fx
+  rotate: false
+  xy: 8, 2
+  size: 4, 41
+  orig: 4, 41
+  offset: 0, 0
+  index: -1
+DeMDEF
+  rotate: false
+  xy: 531, 66
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+DeREG
+  rotate: false
+  xy: 842, 16
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+DeRES
+  rotate: true
+  xy: 940, 71
+  size: 55, 63
+  orig: 55, 63
+  offset: 0, 0
+  index: -1
+DeSPD
+  rotate: true
+  xy: 806, 76
+  size: 50, 65
+  orig: 50, 65
+  offset: 0, 0
+  index: -1
+HP/DeHP
+  rotate: true
+  xy: 417, 2
+  size: 53, 47
+  orig: 53, 47
+  offset: 0, 0
+  index: -1
+HP/HP
+  rotate: false
+  xy: 902, 11
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+REG
+  rotate: false
+  xy: 902, 11
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+HP/lighting circle
+  rotate: false
+  xy: 168, 45
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+HP/spark light fx
+  rotate: false
+  xy: 14, 2
+  size: 4, 41
+  orig: 4, 41
+  offset: 0, 0
+  index: -1
+MAG/DeMAG
+  rotate: false
+  xy: 417, 57
+  size: 55, 69
+  orig: 55, 69
+  offset: 0, 0
+  index: -1
+MAG/MAG
+  rotate: false
+  xy: 474, 57
+  size: 55, 69
+  orig: 55, 69
+  offset: 0, 0
+  index: -1
+MAG/lighting circle
+  rotate: false
+  xy: 251, 45
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+MAG/spark light fx
+  rotate: false
+  xy: 20, 2
+  size: 4, 41
+  orig: 4, 41
+  offset: 0, 0
+  index: -1
+MDEF
+  rotate: false
+  xy: 593, 66
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+MP/DeMP
+  rotate: true
+  xy: 466, 7
+  size: 48, 60
+  orig: 48, 60
+  offset: 0, 0
+  index: -1
+MP/MP
+  rotate: true
+  xy: 962, 21
+  size: 48, 60
+  orig: 48, 60
+  offset: 0, 0
+  index: -1
+MP/lighting circle
+  rotate: false
+  xy: 334, 45
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+MP/spark light fx
+  rotate: true
+  xy: 466, 2
+  size: 3, 41
+  orig: 3, 41
+  offset: 0, 0
+  index: -1
+SPD
+  rotate: true
+  xy: 873, 76
+  size: 50, 65
+  orig: 50, 65
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,76 @@
+
+chest_summon.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+DotSparkA
+  rotate: false
+  xy: 1760, 241
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Eff
+  rotate: false
+  xy: 1760, 21
+  size: 265, 218
+  orig: 265, 218
+  offset: 0, 0
+  index: -1
+ShineB
+  rotate: true
+  xy: 1133, 2
+  size: 128, 168
+  orig: 128, 168
+  offset: 0, 0
+  index: -1
+Sparkle
+  rotate: true
+  xy: 1133, 132
+  size: 365, 316
+  orig: 365, 316
+  offset: 0, 0
+  index: -1
+close
+  rotate: true
+  xy: 451, 91
+  size: 406, 373
+  orig: 406, 373
+  offset: 0, 0
+  index: -1
+grow_light
+  rotate: false
+  xy: 1303, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+lighht_lineglowA
+  rotate: false
+  xy: 1451, 190
+  size: 307, 307
+  orig: 307, 307
+  offset: 0, 0
+  index: -1
+light_growC
+  rotate: true
+  xy: 826, 97
+  size: 400, 305
+  orig: 400, 305
+  offset: 0, 0
+  index: -1
+open
+  rotate: true
+  xy: 2, 33
+  size: 464, 447
+  orig: 464, 447
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 451, 40
+  size: 254, 49
+  orig: 254, 49
+  offset: 0, 0
+  index: -1

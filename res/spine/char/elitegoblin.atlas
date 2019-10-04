@@ -1,0 +1,202 @@
+
+elitegoblin.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 2
+  rotate: true
+  xy: 518, 38
+  size: 216, 228
+  orig: 216, 228
+  offset: 0, 0
+  index: -1
+arm L low
+  rotate: false
+  xy: 1878, 193
+  size: 84, 61
+  orig: 84, 61
+  offset: 0, 0
+  index: -1
+arm L up
+  rotate: false
+  xy: 996, 2
+  size: 74, 114
+  orig: 74, 114
+  offset: 0, 0
+  index: -1
+arm R low
+  rotate: false
+  xy: 1176, 28
+  size: 58, 88
+  orig: 58, 88
+  offset: 0, 0
+  index: -1
+arm R up
+  rotate: false
+  xy: 1673, 175
+  size: 102, 79
+  orig: 102, 79
+  offset: 0, 0
+  index: -1
+body up
+  rotate: true
+  xy: 2, 26
+  size: 228, 286
+  orig: 228, 286
+  offset: 0, 0
+  index: -1
+bodydown
+  rotate: false
+  xy: 1417, 97
+  size: 123, 107
+  orig: 123, 107
+  offset: 0, 0
+  index: -1
+eye 1
+  rotate: false
+  xy: 1972, 168
+  size: 73, 23
+  orig: 73, 23
+  offset: 0, 0
+  index: -1
+eye 2
+  rotate: false
+  xy: 1770, 130
+  size: 73, 23
+  orig: 73, 23
+  offset: 0, 0
+  index: -1
+eye 3
+  rotate: false
+  xy: 1878, 153
+  size: 92, 38
+  orig: 92, 38
+  offset: 0, 0
+  index: -1
+fire magic ring
+  rotate: false
+  xy: 290, 28
+  size: 226, 226
+  orig: 226, 226
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 1423, 69
+  size: 45, 26
+  orig: 45, 26
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 1176, 2
+  size: 37, 24
+  orig: 37, 24
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 1308, 23
+  size: 68, 64
+  orig: 68, 64
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 1236, 20
+  size: 67, 70
+  orig: 67, 70
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 748, 93
+  size: 246, 161
+  orig: 246, 161
+  offset: 0, 0
+  index: -1
+leg L low
+  rotate: false
+  xy: 1378, 44
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+leg L up
+  rotate: false
+  xy: 1657, 106
+  size: 60, 67
+  orig: 60, 67
+  offset: 0, 0
+  index: -1
+leg R low
+  rotate: true
+  xy: 1719, 115
+  size: 58, 49
+  orig: 58, 49
+  offset: 0, 0
+  index: -1
+leg R up
+  rotate: true
+  xy: 1964, 193
+  size: 61, 79
+  orig: 61, 79
+  offset: 0, 0
+  index: -1
+light beam
+  rotate: false
+  xy: 1777, 155
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+light fx
+  rotate: true
+  xy: 996, 118
+  size: 136, 245
+  orig: 136, 245
+  offset: 0, 0
+  index: -1
+old shield
+  rotate: false
+  xy: 1243, 89
+  size: 172, 165
+  orig: 172, 165
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1417, 206
+  size: 254, 48
+  orig: 254, 48
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 1072, 15
+  size: 102, 101
+  orig: 102, 101
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 1542, 100
+  size: 113, 104
+  orig: 113, 104
+  offset: 0, 0
+  index: -1
+slash
+  rotate: false
+  xy: 886, 8
+  size: 102, 83
+  orig: 102, 83
+  offset: 0, 0
+  index: -1
+star mace
+  rotate: true
+  xy: 748, 10
+  size: 81, 136
+  orig: 81, 136
+  offset: 0, 0
+  index: -1

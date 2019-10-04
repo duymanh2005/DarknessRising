@@ -1,0 +1,20 @@
+
+luckywheel_idle_light.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ico_obj_effect_light
+  rotate: false
+  xy: 2, 2
+  size: 390, 147
+  orig: 390, 147
+  offset: 0, 0
+  index: -1
+pnl_wheel_white
+  rotate: false
+  xy: 2, 151
+  size: 348, 348
+  orig: 348, 348
+  offset: 0, 0
+  index: -1

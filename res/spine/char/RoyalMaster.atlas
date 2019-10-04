@@ -1,0 +1,328 @@
+
+RoyalMaster.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L arm
+  rotate: false
+  xy: 1967, 244
+  size: 49, 55
+  orig: 49, 55
+  offset: 0, 0
+  index: -1
+L boot
+  rotate: true
+  xy: 580, 197
+  size: 31, 41
+  orig: 31, 41
+  offset: 0, 0
+  index: -1
+L foot
+  rotate: false
+  xy: 2017, 338
+  size: 29, 20
+  orig: 29, 20
+  offset: 0, 0
+  index: -1
+L gaunlet
+  rotate: false
+  xy: 1219, 261
+  size: 102, 69
+  orig: 102, 69
+  offset: 0, 0
+  index: -1
+L gaunlet fx
+  rotate: false
+  xy: 1323, 261
+  size: 102, 69
+  orig: 102, 69
+  offset: 0, 0
+  index: -1
+L gaunlet fx2
+  rotate: false
+  xy: 973, 108
+  size: 119, 81
+  orig: 119, 81
+  offset: 0, 0
+  index: -1
+L leg
+  rotate: false
+  xy: 1960, 196
+  size: 61, 47
+  orig: 61, 47
+  offset: 0, 0
+  index: -1
+L shoulder
+  rotate: true
+  xy: 1671, 243
+  size: 79, 65
+  orig: 79, 65
+  offset: 0, 0
+  index: -1
+Layer 1
+  rotate: false
+  xy: 626, 216
+  size: 132, 62
+  orig: 132, 62
+  offset: 0, 0
+  index: -1
+R arm
+  rotate: true
+  xy: 468, 175
+  size: 53, 57
+  orig: 53, 57
+  offset: 0, 0
+  index: -1
+R boot
+  rotate: false
+  xy: 245, 2
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+R foot
+  rotate: false
+  xy: 2017, 316
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+R gaunlet
+  rotate: false
+  xy: 1586, 324
+  size: 125, 82
+  orig: 125, 82
+  offset: 0, 0
+  index: -1
+R gaunlet fx
+  rotate: true
+  xy: 889, 153
+  size: 125, 82
+  orig: 125, 82
+  offset: 0, 0
+  index: -1
+R gaunlet fx2
+  rotate: false
+  xy: 1431, 306
+  size: 153, 100
+  orig: 153, 100
+  offset: 0, 0
+  index: -1
+R leg
+  rotate: false
+  xy: 411, 172
+  size: 55, 56
+  orig: 55, 56
+  offset: 0, 0
+  index: -1
+R shoulder
+  rotate: true
+  xy: 1527, 211
+  size: 93, 65
+  orig: 93, 65
+  offset: 0, 0
+  index: -1
+body fx
+  rotate: false
+  xy: 344, 230
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+body fx skill 2
+  rotate: true
+  xy: 760, 158
+  size: 120, 127
+  orig: 120, 127
+  offset: 0, 0
+  index: -1
+cape/cape 1
+  rotate: true
+  xy: 1214, 332
+  size: 178, 215
+  orig: 178, 215
+  offset: 0, 0
+  index: -1
+cape/cape 2
+  rotate: false
+  xy: 2, 2
+  size: 241, 222
+  orig: 241, 222
+  offset: 0, 0
+  index: -1
+cape/cape 3
+  rotate: false
+  xy: 2, 226
+  size: 340, 284
+  orig: 340, 284
+  offset: 0, 0
+  index: -1
+cape/gear 1
+  rotate: false
+  xy: 956, 319
+  size: 256, 191
+  orig: 256, 191
+  offset: 0, 0
+  index: -1
+cape/gear 2
+  rotate: false
+  xy: 626, 280
+  size: 328, 230
+  orig: 328, 230
+  offset: 0, 0
+  index: -1
+cape/infinity stone
+  rotate: true
+  xy: 956, 283
+  size: 34, 141
+  orig: 34, 141
+  offset: 0, 0
+  index: -1
+circle fx
+  rotate: false
+  xy: 353, 172
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 1891, 206
+  size: 67, 46
+  orig: 67, 46
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: false
+  xy: 289, 9
+  size: 58, 35
+  orig: 58, 35
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 1671, 195
+  size: 62, 46
+  orig: 62, 46
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 1427, 217
+  size: 87, 98
+  orig: 87, 98
+  offset: 0, 0
+  index: -1
+fist fx
+  rotate: false
+  xy: 1815, 281
+  size: 78, 47
+  orig: 78, 47
+  offset: 0, 0
+  index: -1
+hair back
+  rotate: false
+  xy: 333, 162
+  size: 18, 62
+  orig: 18, 62
+  offset: 0, 0
+  index: -1
+hair back 2
+  rotate: false
+  xy: 973, 191
+  size: 118, 90
+  orig: 118, 90
+  offset: 0, 0
+  index: -1
+hair front
+  rotate: false
+  xy: 1895, 302
+  size: 120, 56
+  orig: 120, 56
+  offset: 0, 0
+  index: -1
+hair front 2
+  rotate: false
+  xy: 1895, 360
+  size: 133, 150
+  orig: 133, 150
+  offset: 0, 0
+  index: -1
+helmet
+  rotate: true
+  xy: 245, 46
+  size: 178, 86
+  orig: 178, 86
+  offset: 0, 0
+  index: -1
+light beam
+  rotate: false
+  xy: 1815, 205
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+light fx
+  rotate: true
+  xy: 1431, 408
+  size: 102, 280
+  orig: 102, 280
+  offset: 0, 0
+  index: -1
+magic ring
+  rotate: false
+  xy: 1738, 253
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+precast/Light_SparkA
+  rotate: false
+  xy: 1594, 193
+  size: 69, 33
+  orig: 69, 33
+  offset: 0, 0
+  index: -1
+precast/Light_circleA
+  rotate: false
+  xy: 1713, 330
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+precast/Light_lineA
+  rotate: false
+  xy: 1099, 291
+  size: 118, 26
+  orig: 118, 26
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2030, 459
+  size: 51, 10
+  orig: 51, 10
+  offset: 0, 0
+  index: -1
+silk
+  rotate: true
+  xy: 1895, 254
+  size: 46, 70
+  orig: 46, 70
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 1594, 228
+  size: 75, 94
+  orig: 75, 94
+  offset: 0, 0
+  index: -1
+waist
+  rotate: false
+  xy: 527, 196
+  size: 51, 32
+  orig: 51, 32
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,9 @@
+{
+  "APP_ID": 2,
+  "APP_NAME": "MuFantasy",
+  "PLATFORM": "cocos",
+  "GUEST": "no",
+  "KEY_LOGIN_TOKEN": "creants_mufantasy_login_token",
+  "REST_URL": "http://api.creants.net:9393/",
+  "BACKGROUND_COLOR": "#000000"
+}

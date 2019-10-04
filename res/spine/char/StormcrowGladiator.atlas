@@ -1,0 +1,412 @@
+
+StormcrowGladiator.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm L
+  rotate: true
+  xy: 961, 632
+  size: 54, 61
+  orig: 54, 61
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: false
+  xy: 481, 210
+  size: 55, 60
+  orig: 55, 60
+  offset: 0, 0
+  index: -1
+back silk a
+  rotate: true
+  xy: 143, 2
+  size: 117, 139
+  orig: 117, 139
+  offset: 0, 0
+  index: -1
+back silk b
+  rotate: false
+  xy: 214, 121
+  size: 88, 180
+  orig: 88, 180
+  offset: 0, 0
+  index: -1
+boot L
+  rotate: true
+  xy: 489, 346
+  size: 38, 81
+  orig: 38, 81
+  offset: 0, 0
+  index: -1
+boot R
+  rotate: false
+  xy: 481, 272
+  size: 49, 72
+  orig: 49, 72
+  offset: 0, 0
+  index: -1
+bracer L
+  rotate: true
+  xy: 532, 284
+  size: 60, 50
+  orig: 60, 50
+  offset: 0, 0
+  index: -1
+bracer R
+  rotate: true
+  xy: 609, 537
+  size: 44, 88
+  orig: 44, 88
+  offset: 0, 0
+  index: -1
+earings back
+  rotate: false
+  xy: 214, 532
+  size: 16, 30
+  orig: 16, 30
+  offset: 0, 0
+  index: -1
+earings front
+  rotate: false
+  xy: 284, 89
+  size: 16, 30
+  orig: 16, 30
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: false
+  xy: 884, 614
+  size: 75, 65
+  orig: 75, 65
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 508, 524
+  size: 99, 59
+  orig: 99, 59
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: true
+  xy: 372, 86
+  size: 79, 65
+  orig: 79, 65
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 2, 2
+  size: 119, 139
+  orig: 119, 139
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 982, 812
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 794, 549
+  size: 27, 34
+  orig: 27, 34
+  offset: 0, 0
+  index: -1
+hair front
+  rotate: false
+  xy: 479, 839
+  size: 172, 183
+  orig: 172, 183
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 455, 529
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 481, 169
+  size: 39, 41
+  orig: 39, 41
+  offset: 0, 0
+  index: -1
+leg L
+  rotate: false
+  xy: 489, 452
+  size: 83, 70
+  orig: 83, 70
+  offset: 0, 0
+  index: -1
+leg R
+  rotate: false
+  xy: 465, 2
+  size: 75, 82
+  orig: 75, 82
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 1
+  rotate: false
+  xy: 752, 538
+  size: 19, 45
+  orig: 19, 45
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 2
+  rotate: false
+  xy: 574, 475
+  size: 21, 47
+  orig: 21, 47
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 3
+  rotate: false
+  xy: 773, 538
+  size: 19, 45
+  orig: 19, 45
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 4
+  rotate: true
+  xy: 844, 606
+  size: 16, 38
+  orig: 16, 38
+  offset: 0, 0
+  index: -1
+lightning fx/lightning 5
+  rotate: false
+  xy: 304, 279
+  size: 13, 22
+  orig: 13, 22
+  offset: 0, 0
+  index: -1
+lightning fx/thunder1
+  rotate: true
+  xy: 284, 2
+  size: 82, 100
+  orig: 82, 100
+  offset: 0, 0
+  index: -1
+lightning fx/thunder10
+  rotate: false
+  xy: 982, 846
+  size: 40, 176
+  orig: 40, 176
+  offset: 0, 0
+  index: -1
+lightning fx/thunder11
+  rotate: false
+  xy: 844, 624
+  size: 38, 176
+  orig: 38, 176
+  offset: 0, 0
+  index: -1
+lightning fx/thunder2
+  rotate: false
+  xy: 372, 167
+  size: 63, 178
+  orig: 63, 178
+  offset: 0, 0
+  index: -1
+lightning fx/thunder4
+  rotate: false
+  xy: 304, 86
+  size: 66, 176
+  orig: 66, 176
+  offset: 0, 0
+  index: -1
+lightning fx/thunder5
+  rotate: false
+  xy: 884, 681
+  size: 73, 119
+  orig: 73, 119
+  offset: 0, 0
+  index: -1
+lightning fx/thunder6
+  rotate: false
+  xy: 372, 347
+  size: 72, 176
+  orig: 72, 176
+  offset: 0, 0
+  index: -1
+lightning fx/thunder7
+  rotate: false
+  xy: 465, 626
+  size: 41, 176
+  orig: 41, 176
+  offset: 0, 0
+  index: -1
+lightning fx/thunder8
+  rotate: false
+  xy: 437, 169
+  size: 42, 176
+  orig: 42, 176
+  offset: 0, 0
+  index: -1
+lightning fx/thunder9
+  rotate: false
+  xy: 446, 347
+  size: 41, 176
+  orig: 41, 176
+  offset: 0, 0
+  index: -1
+particles/DotSparkA
+  rotate: false
+  xy: 455, 573
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+particles/shockwave2
+  rotate: false
+  xy: 699, 530
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 321, 264
+  size: 259, 49
+  orig: 259, 49
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 439, 86
+  size: 67, 81
+  orig: 67, 81
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 747, 585
+  size: 95, 96
+  orig: 95, 96
+  offset: 0, 0
+  index: -1
+silk
+  rotate: false
+  xy: 959, 688
+  size: 62, 112
+  orig: 62, 112
+  offset: 0, 0
+  index: -1
+slash/1
+  rotate: false
+  xy: 508, 712
+  size: 110, 125
+  orig: 110, 125
+  offset: 0, 0
+  index: -1
+slash/2
+  rotate: false
+  xy: 508, 585
+  size: 110, 125
+  orig: 110, 125
+  offset: 0, 0
+  index: -1
+slash/3
+  rotate: false
+  xy: 620, 683
+  size: 110, 125
+  orig: 110, 125
+  offset: 0, 0
+  index: -1
+slash/4
+  rotate: false
+  xy: 732, 683
+  size: 110, 125
+  orig: 110, 125
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 620, 583
+  size: 98, 125
+  orig: 98, 125
+  offset: 0, 0
+  index: -1
+waist L
+  rotate: true
+  xy: 386, 2
+  size: 82, 77
+  orig: 82, 77
+  offset: 0, 0
+  index: -1
+waist R
+  rotate: false
+  xy: 489, 386
+  size: 70, 64
+  orig: 70, 64
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: false
+  xy: 2, 123
+  size: 210, 439
+  orig: 210, 439
+  offset: 0, 0
+  index: -1
+weapon fx/weapon
+  rotate: false
+  xy: 2, 564
+  size: 229, 458
+  orig: 229, 458
+  offset: 0, 0
+  index: -1
+weapon fx/weapon #1
+  rotate: true
+  xy: 653, 917
+  size: 105, 220
+  orig: 105, 220
+  offset: 0, 0
+  index: -1
+weapon fx/weapon #2
+  rotate: true
+  xy: 653, 810
+  size: 105, 220
+  orig: 105, 220
+  offset: 0, 0
+  index: -1
+weapon fx/weapon #3
+  rotate: false
+  xy: 875, 802
+  size: 105, 220
+  orig: 105, 220
+  offset: 0, 0
+  index: -1
+weapon fx/weapon #4
+  rotate: true
+  xy: 233, 525
+  size: 105, 220
+  orig: 105, 220
+  offset: 0, 0
+  index: -1
+weapon fx/weapon #5
+  rotate: false
+  xy: 214, 303
+  size: 105, 220
+  orig: 105, 220
+  offset: 0, 0
+  index: -1
+wings/level 1
+  rotate: false
+  xy: 233, 632
+  size: 230, 170
+  orig: 230, 170
+  offset: 0, 0
+  index: -1
+wings/level 2
+  rotate: false
+  xy: 233, 804
+  size: 244, 218
+  orig: 244, 218
+  offset: 0, 0
+  index: -1

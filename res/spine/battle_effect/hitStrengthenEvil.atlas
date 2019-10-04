@@ -1,0 +1,34 @@
+
+hitStrengthenEvil.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+evil body
+  rotate: false
+  xy: 241, 137
+  size: 370, 102
+  orig: 370, 102
+  offset: 0, 0
+  index: -1
+evil head
+  rotate: false
+  xy: 241, 30
+  size: 138, 105
+  orig: 138, 105
+  offset: 0, 0
+  index: -1
+lighting circle
+  rotate: false
+  xy: 2, 2
+  size: 237, 237
+  orig: 237, 237
+  offset: 0, 0
+  index: -1
+vortex
+  rotate: true
+  xy: 613, 77
+  size: 162, 170
+  orig: 162, 170
+  offset: 0, 0
+  index: -1

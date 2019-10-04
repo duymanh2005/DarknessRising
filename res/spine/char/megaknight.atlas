@@ -1,0 +1,272 @@
+
+megaknight.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Legendary Shield
+  rotate: false
+  xy: 884, 327
+  size: 52, 77
+  orig: 52, 77
+  offset: 0, 0
+  index: -1
+Legendary Shield glow
+  rotate: false
+  xy: 832, 326
+  size: 50, 74
+  orig: 50, 74
+  offset: 0, 0
+  index: -1
+Thunder Blade
+  rotate: true
+  xy: 630, 204
+  size: 108, 32
+  orig: 108, 32
+  offset: 0, 0
+  index: -1
+Thunder Blade glow
+  rotate: false
+  xy: 2, 2
+  size: 123, 47
+  orig: 123, 47
+  offset: 0, 0
+  index: -1
+Thunder Blade head
+  rotate: false
+  xy: 127, 2
+  size: 110, 47
+  orig: 110, 47
+  offset: 0, 0
+  index: -1
+arm low L
+  rotate: true
+  xy: 239, 2
+  size: 16, 35
+  orig: 16, 35
+  offset: 0, 0
+  index: -1
+arm low R
+  rotate: false
+  xy: 861, 288
+  size: 19, 36
+  orig: 19, 36
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: false
+  xy: 861, 262
+  size: 17, 24
+  orig: 17, 24
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: true
+  xy: 997, 403
+  size: 20, 25
+  orig: 20, 25
+  offset: 0, 0
+  index: -1
+body low
+  rotate: true
+  xy: 662, 147
+  size: 23, 32
+  orig: 23, 32
+  offset: 0, 0
+  index: -1
+body up
+  rotate: false
+  xy: 415, 15
+  size: 40, 34
+  orig: 40, 34
+  offset: 0, 0
+  index: -1
+eyes 1
+  rotate: true
+  xy: 630, 147
+  size: 55, 30
+  orig: 55, 30
+  offset: 0, 0
+  index: -1
+eyes 2
+  rotate: true
+  xy: 612, 103
+  size: 32, 12
+  orig: 32, 12
+  offset: 0, 0
+  index: -1
+eyes 3
+  rotate: false
+  xy: 664, 204
+  size: 38, 20
+  orig: 38, 20
+  offset: 0, 0
+  index: -1
+eyes stun
+  rotate: false
+  xy: 855, 406
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+fly line
+  rotate: false
+  xy: 462, 137
+  size: 166, 175
+  orig: 166, 175
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 861, 242
+  size: 9, 18
+  orig: 9, 18
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: true
+  xy: 295, 8
+  size: 10, 20
+  orig: 10, 20
+  offset: 0, 0
+  index: -1
+foot back L
+  rotate: false
+  xy: 695, 193
+  size: 5, 9
+  orig: 5, 9
+  offset: 0, 0
+  index: -1
+foot back R
+  rotate: true
+  xy: 630, 139
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 51
+  size: 458, 459
+  orig: 458, 459
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: true
+  xy: 276, 2
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 961, 425
+  size: 57, 85
+  orig: 57, 85
+  offset: 0, 0
+  index: -1
+hit fx
+  rotate: false
+  xy: 462, 2
+  size: 148, 133
+  orig: 148, 133
+  offset: 0, 0
+  index: -1
+leg low L
+  rotate: false
+  xy: 734, 207
+  size: 13, 17
+  orig: 13, 17
+  offset: 0, 0
+  index: -1
+leg low R
+  rotate: false
+  xy: 612, 81
+  size: 10, 20
+  orig: 10, 20
+  offset: 0, 0
+  index: -1
+leg up L
+  rotate: false
+  xy: 938, 345
+  size: 14, 24
+  orig: 14, 24
+  offset: 0, 0
+  index: -1
+leg up R
+  rotate: true
+  xy: 704, 205
+  size: 19, 28
+  orig: 19, 28
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 961, 406
+  size: 34, 17
+  orig: 34, 17
+  offset: 0, 0
+  index: -1
+scarf
+  rotate: true
+  xy: 239, 20
+  size: 29, 174
+  orig: 29, 174
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 462, 314
+  size: 196, 196
+  orig: 196, 196
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 961, 387
+  size: 21, 17
+  orig: 21, 17
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: true
+  xy: 938, 371
+  size: 33, 21
+  orig: 33, 21
+  offset: 0, 0
+  index: -1
+smash line
+  rotate: true
+  xy: 660, 326
+  size: 74, 170
+  orig: 74, 170
+  offset: 0, 0
+  index: -1
+stabbed
+  rotate: false
+  xy: 660, 402
+  size: 193, 108
+  orig: 193, 108
+  offset: 0, 0
+  index: -1
+star1
+  rotate: false
+  xy: 662, 172
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+wing R
+  rotate: false
+  xy: 664, 226
+  size: 97, 98
+  orig: 97, 98
+  offset: 0, 0
+  index: -1
+wing R glow
+  rotate: true
+  xy: 763, 227
+  size: 97, 96
+  orig: 97, 96
+  offset: 0, 0
+  index: -1

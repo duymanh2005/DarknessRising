@@ -1,0 +1,335 @@
+
+LapidLancer.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm R
+  rotate: true
+  xy: 2, 2
+  size: 12, 37
+  orig: 12, 37
+  offset: 0, 0
+  index: -1
+arm cloth  L
+  rotate: true
+  xy: 570, 642
+  size: 21, 30
+  orig: 21, 30
+  offset: 0, 0
+  index: -1
+arm cloth R
+  rotate: false
+  xy: 698, 668
+  size: 25, 28
+  orig: 25, 28
+  offset: 0, 0
+  index: -1
+boot  L
+  rotate: true
+  xy: 570, 665
+  size: 21, 52
+  orig: 21, 52
+  offset: 0, 0
+  index: -1
+boot R
+  rotate: true
+  xy: 251, 19
+  size: 32, 54
+  orig: 32, 54
+  offset: 0, 0
+  index: -1
+bracer  L
+  rotate: false
+  xy: 752, 673
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+bracer R
+  rotate: true
+  xy: 780, 677
+  size: 19, 26
+  orig: 19, 26
+  offset: 0, 0
+  index: -1
+cape
+  rotate: false
+  xy: 209, 197
+  size: 124, 112
+  orig: 124, 112
+  offset: 0, 0
+  index: -1
+circle fx
+  rotate: false
+  xy: 423, 658
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+dust01
+  rotate: false
+  xy: 727, 827
+  size: 14, 11
+  orig: 14, 11
+  offset: 0, 0
+  index: -1
+dust02
+  rotate: false
+  xy: 808, 683
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+dust03
+  rotate: true
+  xy: 904, 840
+  size: 9, 8
+  orig: 9, 8
+  offset: 0, 0
+  index: -1
+eyes attack
+  rotate: false
+  xy: 353, 702
+  size: 68, 47
+  orig: 68, 47
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: false
+  xy: 307, 6
+  size: 61, 44
+  orig: 61, 44
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 308, 52
+  size: 74, 52
+  orig: 74, 52
+  offset: 0, 0
+  index: -1
+eyes default
+  rotate: false
+  xy: 179, 7
+  size: 70, 44
+  orig: 70, 44
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 925, 651
+  size: 84, 95
+  orig: 84, 95
+  offset: 0, 0
+  index: -1
+hair back
+  rotate: false
+  xy: 697, 698
+  size: 126, 127
+  orig: 126, 127
+  offset: 0, 0
+  index: -1
+hair front
+  rotate: true
+  xy: 209, 311
+  size: 157, 121
+  orig: 157, 121
+  offset: 0, 0
+  index: -1
+hair front 2 a
+  rotate: false
+  xy: 261, 613
+  size: 81, 74
+  orig: 81, 74
+  offset: 0, 0
+  index: -1
+hair front 2 b
+  rotate: false
+  xy: 825, 726
+  size: 98, 112
+  orig: 98, 112
+  offset: 0, 0
+  index: -1
+hand  L
+  rotate: false
+  xy: 698, 649
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 602, 645
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+lance
+  rotate: true
+  xy: 904, 851
+  size: 171, 106
+  orig: 171, 106
+  offset: 0, 0
+  index: -1
+lance holder
+  rotate: true
+  xy: 305, 470
+  size: 62, 33
+  orig: 62, 33
+  offset: 0, 0
+  index: -1
+leg  L
+  rotate: true
+  xy: 624, 656
+  size: 30, 42
+  orig: 30, 42
+  offset: 0, 0
+  index: -1
+leg R
+  rotate: false
+  xy: 536, 644
+  size: 32, 42
+  orig: 32, 42
+  offset: 0, 0
+  index: -1
+light beam
+  rotate: false
+  xy: 481, 633
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1012, 971
+  size: 51, 10
+  orig: 51, 10
+  offset: 0, 0
+  index: -1
+shield
+  rotate: true
+  xy: 925, 737
+  size: 112, 96
+  orig: 112, 96
+  offset: 0, 0
+  index: -1
+silk
+  rotate: false
+  xy: 423, 716
+  size: 64, 33
+  orig: 64, 33
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 261, 470
+  size: 42, 62
+  orig: 42, 62
+  offset: 0, 0
+  index: -1
+waist armor L
+  rotate: false
+  xy: 725, 669
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+waist armor R
+  rotate: true
+  xy: 668, 651
+  size: 35, 28
+  orig: 35, 28
+  offset: 0, 0
+  index: -1
+water energy fx
+  rotate: true
+  xy: 308, 106
+  size: 89, 62
+  orig: 89, 62
+  offset: 0, 0
+  index: -1
+water fx
+  rotate: false
+  xy: 179, 53
+  size: 127, 142
+  orig: 127, 142
+  offset: 0, 0
+  index: -1
+water pillar
+  rotate: false
+  xy: 261, 534
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+water skill
+  rotate: false
+  xy: 266, 689
+  size: 85, 60
+  orig: 85, 60
+  offset: 0, 0
+  index: -1
+water splash
+  rotate: false
+  xy: 2, 470
+  size: 257, 257
+  orig: 257, 257
+  offset: 0, 0
+  index: -1
+weapon fx/lance
+  rotate: false
+  xy: 825, 663
+  size: 98, 61
+  orig: 98, 61
+  offset: 0, 0
+  index: -1
+wing capes/cape level 1
+  rotate: false
+  xy: 2, 200
+  size: 205, 268
+  orig: 205, 268
+  offset: 0, 0
+  index: -1
+wing capes/cape level 2
+  rotate: false
+  xy: 266, 751
+  size: 221, 271
+  orig: 221, 271
+  offset: 0, 0
+  index: -1
+wing capes/cape level 3
+  rotate: false
+  xy: 489, 827
+  size: 236, 195
+  orig: 236, 195
+  offset: 0, 0
+  index: -1
+wing capes/cape level 3-2
+  rotate: false
+  xy: 489, 688
+  size: 206, 137
+  orig: 206, 137
+  offset: 0, 0
+  index: -1
+wing capes/circle level 1
+  rotate: false
+  xy: 2, 16
+  size: 175, 182
+  orig: 175, 182
+  offset: 0, 0
+  index: -1
+wing capes/circle level 2
+  rotate: false
+  xy: 727, 840
+  size: 175, 182
+  orig: 175, 182
+  offset: 0, 0
+  index: -1
+wing capes/circle level 3
+  rotate: false
+  xy: 2, 729
+  size: 262, 293
+  orig: 262, 293
+  offset: 0, 0
+  index: -1

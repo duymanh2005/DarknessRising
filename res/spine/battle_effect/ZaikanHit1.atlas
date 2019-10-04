@@ -1,0 +1,139 @@
+
+ZaikanHit.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+explosion beam1
+  rotate: false
+  xy: 972, 453
+  size: 46, 57
+  orig: 46, 57
+  offset: 0, 0
+  index: -1
+explosion beam2
+  rotate: true
+  xy: 636, 362
+  size: 63, 73
+  orig: 63, 73
+  offset: 0, 0
+  index: -1
+explosion beam3
+  rotate: false
+  xy: 722, 430
+  size: 76, 80
+  orig: 76, 80
+  offset: 0, 0
+  index: -1
+explosion beam4
+  rotate: false
+  xy: 636, 427
+  size: 84, 83
+  orig: 84, 83
+  offset: 0, 0
+  index: -1
+explosion beam5
+  rotate: false
+  xy: 800, 438
+  size: 84, 72
+  orig: 84, 72
+  offset: 0, 0
+  index: -1
+explosion beam6
+  rotate: false
+  xy: 886, 449
+  size: 84, 61
+  orig: 84, 61
+  offset: 0, 0
+  index: -1
+fire chasm
+  rotate: false
+  xy: 347, 345
+  size: 148, 165
+  orig: 148, 165
+  offset: 0, 0
+  index: -1
+fire chasm glow
+  rotate: true
+  xy: 166, 16
+  size: 148, 165
+  orig: 148, 165
+  offset: 0, 0
+  index: -1
+fire light
+  rotate: false
+  xy: 497, 373
+  size: 137, 137
+  orig: 137, 137
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 166
+  size: 343, 344
+  orig: 343, 344
+  offset: 0, 0
+  index: -1
+light wall
+  rotate: false
+  xy: 497, 275
+  size: 128, 96
+  orig: 128, 96
+  offset: 0, 0
+  index: -1
+lighting bubble
+  rotate: false
+  xy: 2, 2
+  size: 162, 162
+  orig: 162, 162
+  offset: 0, 0
+  index: -1
+magic circle LV5-9
+  rotate: false
+  xy: 347, 195
+  size: 148, 148
+  orig: 148, 148
+  offset: 0, 0
+  index: -1
+meteor circle
+  rotate: false
+  xy: 497, 220
+  size: 114, 53
+  orig: 114, 53
+  offset: 0, 0
+  index: -1
+spark smash1
+  rotate: false
+  xy: 333, 71
+  size: 70, 21
+  orig: 70, 21
+  offset: 0, 0
+  index: -1
+spark smash2
+  rotate: false
+  xy: 333, 94
+  size: 86, 31
+  orig: 86, 31
+  offset: 0, 0
+  index: -1
+spark smash3
+  rotate: false
+  xy: 347, 158
+  size: 103, 35
+  orig: 103, 35
+  offset: 0, 0
+  index: -1
+spark smash4
+  rotate: false
+  xy: 497, 189
+  size: 94, 29
+  orig: 94, 29
+  offset: 0, 0
+  index: -1
+spark smash5
+  rotate: false
+  xy: 333, 127
+  size: 94, 29
+  orig: 94, 29
+  offset: 0, 0
+  index: -1

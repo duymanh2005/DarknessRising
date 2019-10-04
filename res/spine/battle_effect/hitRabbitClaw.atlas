@@ -1,0 +1,55 @@
+
+hitRabbitClaw.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+claw 1
+  rotate: false
+  xy: 2, 123
+  size: 192, 119
+  orig: 192, 119
+  offset: 0, 0
+  index: -1
+claw 2
+  rotate: false
+  xy: 2, 2
+  size: 192, 119
+  orig: 192, 119
+  offset: 0, 0
+  index: -1
+claw 3
+  rotate: false
+  xy: 196, 123
+  size: 192, 119
+  orig: 192, 119
+  offset: 0, 0
+  index: -1
+energy ball
+  rotate: false
+  xy: 390, 103
+  size: 139, 139
+  orig: 139, 139
+  offset: 0, 0
+  index: -1
+explode 1
+  rotate: false
+  xy: 613, 167
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+glowing light circle radial
+  rotate: false
+  xy: 196, 2
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+light glow radial
+  rotate: false
+  xy: 531, 162
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1

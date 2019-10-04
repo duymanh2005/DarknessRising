@@ -1,0 +1,111 @@
+
+hitRainer.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+explosion beam1
+  rotate: false
+  xy: 942, 434
+  size: 61, 76
+  orig: 61, 76
+  offset: 0, 0
+  index: -1
+explosion beam2
+  rotate: true
+  xy: 809, 216
+  size: 84, 97
+  orig: 84, 97
+  offset: 0, 0
+  index: -1
+explosion beam3
+  rotate: true
+  xy: 683, 124
+  size: 101, 106
+  orig: 101, 106
+  offset: 0, 0
+  index: -1
+explosion beam4
+  rotate: false
+  xy: 828, 400
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+explosion beam5
+  rotate: false
+  xy: 828, 302
+  size: 112, 96
+  orig: 112, 96
+  offset: 0, 0
+  index: -1
+explosion beam6
+  rotate: false
+  xy: 695, 227
+  size: 112, 81
+  orig: 112, 81
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 51
+  size: 458, 459
+  orig: 458, 459
+  offset: 0, 0
+  index: -1
+magic circl LV3-5
+  rotate: false
+  xy: 462, 93
+  size: 178, 184
+  orig: 178, 184
+  offset: 0, 0
+  index: -1
+meteor
+  rotate: false
+  xy: 695, 310
+  size: 131, 200
+  orig: 131, 200
+  offset: 0, 0
+  index: -1
+snow storm
+  rotate: false
+  xy: 462, 279
+  size: 231, 231
+  orig: 231, 231
+  offset: 0, 0
+  index: -1
+spark smash1
+  rotate: false
+  xy: 257, 21
+  size: 93, 28
+  orig: 93, 28
+  offset: 0, 0
+  index: -1
+spark smash2
+  rotate: false
+  xy: 141, 8
+  size: 114, 41
+  orig: 114, 41
+  offset: 0, 0
+  index: -1
+spark smash3
+  rotate: false
+  xy: 2, 2
+  size: 137, 47
+  orig: 137, 47
+  offset: 0, 0
+  index: -1
+spark smash4
+  rotate: false
+  xy: 462, 52
+  size: 126, 39
+  orig: 126, 39
+  offset: 0, 0
+  index: -1
+spark smash5
+  rotate: true
+  xy: 642, 151
+  size: 126, 39
+  orig: 126, 39
+  offset: 0, 0
+  index: -1

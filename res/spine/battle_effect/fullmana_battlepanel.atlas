@@ -1,0 +1,104 @@
+
+fullmana_battlepanel.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/light fx
+  rotate: false
+  xy: 2, 2
+  size: 117, 113
+  orig: 117, 113
+  offset: 0, 0
+  index: -1
+images/rainbow glowng border #1
+  rotate: false
+  xy: 2, 117
+  size: 167, 343
+  orig: 167, 343
+  offset: 0, 0
+  index: -1
+images/rainbow glowng border #2
+  rotate: false
+  xy: 171, 139
+  size: 144, 321
+  orig: 144, 321
+  offset: 0, 0
+  index: -1
+images/rainbow surface
+  rotate: false
+  xy: 317, 153
+  size: 133, 307
+  orig: 133, 307
+  offset: 0, 0
+  index: -1
+images/thunder1
+  rotate: false
+  xy: 772, 277
+  size: 82, 100
+  orig: 82, 100
+  offset: 0, 0
+  index: -1
+images/thunder10
+  rotate: true
+  xy: 594, 268
+  size: 40, 176
+  orig: 40, 176
+  offset: 0, 0
+  index: -1
+images/thunder11
+  rotate: true
+  xy: 774, 379
+  size: 38, 176
+  orig: 38, 176
+  offset: 0, 0
+  index: -1
+images/thunder2
+  rotate: true
+  xy: 594, 397
+  size: 63, 178
+  orig: 63, 178
+  offset: 0, 0
+  index: -1
+images/thunder4
+  rotate: false
+  xy: 526, 284
+  size: 66, 176
+  orig: 66, 176
+  offset: 0, 0
+  index: -1
+images/thunder5
+  rotate: false
+  xy: 452, 163
+  size: 73, 119
+  orig: 73, 119
+  offset: 0, 0
+  index: -1
+images/thunder6
+  rotate: false
+  xy: 452, 284
+  size: 72, 176
+  orig: 72, 176
+  offset: 0, 0
+  index: -1
+images/thunder7
+  rotate: true
+  xy: 774, 419
+  size: 41, 176
+  orig: 41, 176
+  offset: 0, 0
+  index: -1
+images/thunder8
+  rotate: true
+  xy: 594, 353
+  size: 42, 176
+  orig: 42, 176
+  offset: 0, 0
+  index: -1
+images/thunder9
+  rotate: true
+  xy: 594, 310
+  size: 41, 176
+  orig: 41, 176
+  offset: 0, 0
+  index: -1

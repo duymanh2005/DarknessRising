@@ -1,0 +1,111 @@
+
+hitSpiritSoldier.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cut fx
+  rotate: true
+  xy: 130, 126
+  size: 35, 247
+  orig: 35, 247
+  offset: 0, 0
+  index: -1
+explosion beam1
+  rotate: false
+  xy: 77, 7
+  size: 48, 57
+  orig: 48, 57
+  offset: 0, 0
+  index: -1
+explosion beam2
+  rotate: true
+  xy: 2, 3
+  size: 61, 73
+  orig: 61, 73
+  offset: 0, 0
+  index: -1
+explosion beam3
+  rotate: false
+  xy: 425, 178
+  size: 77, 75
+  orig: 77, 75
+  offset: 0, 0
+  index: -1
+explosion beam4
+  rotate: false
+  xy: 327, 164
+  size: 96, 89
+  orig: 96, 89
+  offset: 0, 0
+  index: -1
+explosion beam5
+  rotate: false
+  xy: 130, 29
+  size: 113, 95
+  orig: 113, 95
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 358, 38
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+hit fx
+  rotate: false
+  xy: 245, 24
+  size: 111, 100
+  orig: 111, 100
+  offset: 0, 0
+  index: -1
+smash fx3
+  rotate: false
+  xy: 130, 163
+  size: 195, 90
+  orig: 195, 90
+  offset: 0, 0
+  index: -1
+smash grond
+  rotate: false
+  xy: 2, 66
+  size: 126, 187
+  orig: 126, 187
+  offset: 0, 0
+  index: -1
+spark smash1
+  rotate: true
+  xy: 480, 94
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+spark smash2
+  rotate: true
+  xy: 446, 2
+  size: 54, 32
+  orig: 54, 32
+  offset: 0, 0
+  index: -1
+spark smash3
+  rotate: false
+  xy: 425, 136
+  size: 82, 40
+  orig: 82, 40
+  offset: 0, 0
+  index: -1
+spark smash4
+  rotate: false
+  xy: 358, 3
+  size: 86, 33
+  orig: 86, 33
+  offset: 0, 0
+  index: -1
+spark smash5
+  rotate: true
+  xy: 446, 58
+  size: 76, 32
+  orig: 76, 32
+  offset: 0, 0
+  index: -1

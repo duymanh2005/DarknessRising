@@ -1,0 +1,174 @@
+
+assassin.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm low L
+  rotate: true
+  xy: 181, 24
+  size: 66, 42
+  orig: 66, 42
+  offset: 0, 0
+  index: -1
+arm low R
+  rotate: true
+  xy: 283, 52
+  size: 41, 65
+  orig: 41, 65
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: false
+  xy: 95, 31
+  size: 84, 59
+  orig: 84, 59
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: true
+  xy: 766, 24
+  size: 85, 51
+  orig: 85, 51
+  offset: 0, 0
+  index: -1
+belly
+  rotate: false
+  xy: 667, 2
+  size: 97, 107
+  orig: 97, 107
+  offset: 0, 0
+  index: -1
+body low
+  rotate: false
+  xy: 2, 27
+  size: 91, 63
+  orig: 91, 63
+  offset: 0, 0
+  index: -1
+body up
+  rotate: true
+  xy: 667, 111
+  size: 119, 118
+  orig: 119, 118
+  offset: 0, 0
+  index: -1
+eyes 1
+  rotate: false
+  xy: 207, 95
+  size: 90, 35
+  orig: 90, 35
+  offset: 0, 0
+  index: -1
+eyes 2
+  rotate: false
+  xy: 299, 95
+  size: 90, 35
+  orig: 90, 35
+  offset: 0, 0
+  index: -1
+eyes 3
+  rotate: false
+  xy: 878, 266
+  size: 108, 45
+  orig: 108, 45
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 2, 10
+  size: 22, 15
+  orig: 22, 15
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: true
+  xy: 766, 2
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 792, 214
+  size: 56, 49
+  orig: 56, 49
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 283, 2
+  size: 48, 53
+  orig: 48, 53
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 455, 67
+  size: 210, 163
+  orig: 210, 163
+  offset: 0, 0
+  index: -1
+katana R
+  rotate: true
+  xy: 878, 313
+  size: 197, 142
+  orig: 197, 142
+  offset: 0, 0
+  index: -1
+leg low L
+  rotate: true
+  xy: 740, 234
+  size: 29, 50
+  orig: 29, 50
+  offset: 0, 0
+  index: -1
+leg low R
+  rotate: false
+  xy: 988, 265
+  size: 34, 46
+  orig: 34, 46
+  offset: 0, 0
+  index: -1
+leg up L
+  rotate: false
+  xy: 391, 85
+  size: 61, 45
+  orig: 61, 45
+  offset: 0, 0
+  index: -1
+leg up R
+  rotate: false
+  xy: 225, 34
+  size: 56, 59
+  orig: 56, 59
+  offset: 0, 0
+  index: -1
+light fx
+  rotate: false
+  xy: 740, 265
+  size: 136, 245
+  orig: 136, 245
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 92
+  size: 203, 38
+  orig: 203, 38
+  offset: 0, 0
+  index: -1
+shadow clone jutsu
+  rotate: false
+  xy: 2, 132
+  size: 451, 378
+  orig: 451, 378
+  offset: 0, 0
+  index: -1
+suriken
+  rotate: false
+  xy: 455, 232
+  size: 283, 278
+  orig: 283, 278
+  offset: 0, 0
+  index: -1

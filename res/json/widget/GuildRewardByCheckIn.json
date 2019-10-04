@@ -1,0 +1,379 @@
+{
+  "ID": "1a82fd29-0174-4bb9-93b5-e20bb3efe5f5",
+  "Version": "3.10.0.0",
+  "Name": "GuildRewardByCheckIn",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 422,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "patch9/pnl_Popup.png",
+              "Plist": "json/patch9_6.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 71,
+            "Scale9OriginY": 59,
+            "Scale9Width": 219,
+            "Scale9Height": 248,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 667.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.96,
+              "Y": 0.3748
+            },
+            "LeftMargin": 15.0,
+            "RightMargin": 15.0,
+            "TopMargin": 417.0,
+            "BottomMargin": 417.0,
+            "Tag": 423,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 360.0,
+                  "Y": 291.3259
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5827
+                },
+                "PercentWidthEnable": true,
+                "PercentWidthEnabled": true,
+                "PreSize": {
+                  "X": 0.9,
+                  "Y": 0.26
+                },
+                "LeftMargin": 36.0,
+                "RightMargin": 36.0,
+                "TopMargin": 143.6741,
+                "BottomMargin": 226.3259,
+                "Tag": 166,
+                "ActionTag": -98396132,
+                "Size": {
+                  "X": 648.0,
+                  "Y": 130.0
+                },
+                "Name": "pnlRemainReward",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "LabelText": "Rewards",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/cam_stroke_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.4993,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 359.9034,
+                  "Y": 458.4424
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 165,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.4999,
+                  "Y": 0.9169
+                },
+                "PreSize": {
+                  "X": 0.1917,
+                  "Y": 0.08
+                },
+                "LeftMargin": 291.0,
+                "RightMargin": 291.0,
+                "TopMargin": 21.5576,
+                "BottomMargin": 438.4424,
+                "Tag": 427,
+                "ActionTag": 768982804,
+                "Size": {
+                  "X": 138.0,
+                  "Y": 40.0
+                },
+                "Name": "lblTitle",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "More Info",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/cam_stroke_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.4992,
+                  "ScaleY": 0.5123
+                },
+                "Position": {
+                  "X": 359.9058,
+                  "Y": 175.4111
+                },
+                "Scale": {
+                  "ScaleX": 0.75,
+                  "ScaleY": 0.75
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.4999,
+                  "Y": 0.3508
+                },
+                "PreSize": {
+                  "X": 0.2181,
+                  "Y": 0.08
+                },
+                "LeftMargin": 281.5314,
+                "RightMargin": 281.4686,
+                "TopMargin": 305.0809,
+                "BottomMargin": 154.9191,
+                "Tag": 11,
+                "ActionTag": 1757125184,
+                "Size": {
+                  "X": 157.0,
+                  "Y": 40.0
+                },
+                "Name": "lblMoreInfo",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/sep_header_pattern.png",
+                  "Plist": "json/patch9_8.plist"
+                },
+                "Scale9OriginX": 79,
+                "Scale9OriginY": 5,
+                "Scale9Width": 82,
+                "Scale9Height": 8,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 359.9999,
+                  "Y": 405.9713
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8119
+                },
+                "PreSize": {
+                  "X": 0.3333,
+                  "Y": 0.036
+                },
+                "LeftMargin": 239.9999,
+                "RightMargin": 240.0001,
+                "TopMargin": 85.0287,
+                "BottomMargin": 396.9713,
+                "Tag": 53,
+                "ActionTag": -2068368980,
+                "Size": {
+                  "X": 240.0,
+                  "Y": 18.0
+                },
+                "Name": "seperatot",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 809872046,
+            "Size": {
+              "X": 720.0,
+              "Y": 500.0
+            },
+            "Name": "root",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "button/btn_change.png",
+              "Plist": "json/button.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 57,
+            "Scale9OriginY": 5,
+            "Scale9Width": 12,
+            "Scale9Height": 34,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 485.8508
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.3642
+            },
+            "PreSize": {
+              "X": 0.2373,
+              "Y": 0.033
+            },
+            "LeftMargin": 286.0,
+            "RightMargin": 286.0,
+            "TopMargin": 826.1492,
+            "BottomMargin": 463.8508,
+            "Tag": 100,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "icon/ico_checkin.png",
+                  "Plist": "json/icon.plist"
+                },
+                "Scale9OriginX": 16,
+                "Scale9OriginY": 16,
+                "Scale9Width": 19,
+                "Scale9Height": 18,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -5.3597,
+                  "Y": 21.4466
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.0301,
+                  "Y": 0.4874
+                },
+                "PreSize": {
+                  "X": 0.2865,
+                  "Y": 1.1364
+                },
+                "LeftMargin": -30.8597,
+                "RightMargin": 157.8597,
+                "TopMargin": -2.4466,
+                "BottomMargin": -3.5534,
+                "Tag": 101,
+                "ActionTag": 1026536218,
+                "Size": {
+                  "X": 51.0,
+                  "Y": 50.0
+                },
+                "Name": "icon",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1600827637,
+            "Size": {
+              "X": 178.0,
+              "Y": 44.0
+            },
+            "Name": "btn_checkin",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 750.0,
+          "Y": 1334.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../font/cam_stroke_32-export.fnt",
+        "../../font/cam_stroke_32-export.png",
+        "../button.plist",
+        "../button.png",
+        "../icon.plist",
+        "../icon.png",
+        "../patch9_6.plist",
+        "../patch9_6.png",
+        "../patch9_8.plist",
+        "../patch9_8.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

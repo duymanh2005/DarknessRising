@@ -1,0 +1,1254 @@
+{
+  "skeleton": {
+    "hash": "DRkR9/k9AN/oOHd+wy4Jf5x7HdU",
+    "spine": "3.6.52",
+    "width": 143,
+    "height": 319
+  },
+  "bones": [
+    {"name": "root"},
+    {
+      "name": "char_frame",
+      "parent": "root",
+      "transform": "onlyTranslation"
+    },
+    {
+      "name": "glowing_root",
+      "parent": "root"
+    },
+    {
+      "name": "electro fx #1",
+      "parent": "glowing_root",
+      "rotation": -90.43,
+      "y": -135.24,
+      "scaleX": 0.06,
+      "scaleY": 0.151
+    },
+    {
+      "name": "electro fx #2",
+      "parent": "glowing_root",
+      "rotation": -88.14,
+      "y": -111.29,
+      "scaleX": 0.06,
+      "scaleY": -0.15
+    },
+    {
+      "name": "light fx",
+      "parent": "glowing_root",
+      "x": -46.43,
+      "y": 133.16,
+      "scaleX": 1.5,
+      "scaleY": 1.5
+    },
+    {
+      "name": "rainbow glowng border #1",
+      "parent": "glowing_root"
+    },
+    {
+      "name": "rainbow glowng border #2",
+      "parent": "glowing_root",
+      "scaleX": 1.046,
+      "scaleY": 1.027
+    },
+    {
+      "name": "rainbow glowng border #3",
+      "parent": "glowing_root",
+      "scaleX": 1.046,
+      "scaleY": 1.027
+    },
+    {
+      "name": "rainbow glowng border #4",
+      "parent": "glowing_root",
+      "scaleX": 1.046,
+      "scaleY": 1.027
+    },
+    {
+      "name": "rainbow glowng border #5",
+      "parent": "glowing_root",
+      "scaleX": 1.046,
+      "scaleY": 1.027
+    },
+    {
+      "name": "rainbow glowng border #6",
+      "parent": "glowing_root"
+    },
+    {
+      "name": "rainbow surface",
+      "parent": "glowing_root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "images/Fire_Element_Chara_Frame",
+      "bone": "char_frame"
+    },
+    {
+      "name": "char_frame",
+      "bone": "char_frame"
+    },
+    {
+      "name": "images/Small_HP",
+      "bone": "char_frame"
+    },
+    {
+      "name": "images/Small_MP",
+      "bone": "char_frame"
+    },
+    {
+      "name": "char_frame2",
+      "bone": "char_frame"
+    },
+    {
+      "name": "char_frame3",
+      "bone": "char_frame"
+    },
+    {
+      "name": "images/rainbow glowng border #2",
+      "bone": "rainbow glowng border #2",
+      "blend": "additive"
+    },
+    {
+      "name": "images/rainbow glowng border #3",
+      "bone": "rainbow glowng border #3",
+      "blend": "additive"
+    },
+    {
+      "name": "images/rainbow glowng border #4",
+      "bone": "rainbow glowng border #4",
+      "blend": "additive"
+    },
+    {
+      "name": "images/rainbow glowng border #5",
+      "bone": "rainbow glowng border #5",
+      "blend": "additive"
+    },
+    {
+      "name": "images/rainbow glowng border #1",
+      "bone": "rainbow glowng border #1",
+      "color": "ffffff80",
+      "blend": "additive"
+    },
+    {
+      "name": "images/rainbow glowng border #6",
+      "bone": "rainbow glowng border #6",
+      "color": "ffffff80",
+      "blend": "additive"
+    },
+    {
+      "name": "images/rainbow surface",
+      "bone": "rainbow surface",
+      "blend": "additive"
+    },
+    {
+      "name": "images/lightning2",
+      "bone": "light fx",
+      "blend": "additive"
+    },
+    {
+      "name": "images/thunder1",
+      "bone": "electro fx #1",
+      "blend": "additive"
+    },
+    {
+      "name": "images/thunder2",
+      "bone": "electro fx #2",
+      "attachment": "images/thunder11",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "images/lightning2": {
+        "images/light fx": {
+          "scaleX": 0.364,
+          "scaleY": 0.364,
+          "width": 117,
+          "height": 113
+        }
+      },
+      "images/rainbow glowng border #1": {
+        "images/rainbow glowng border #1": {
+          "width": 167,
+          "height": 343
+        }
+      },
+      "images/rainbow glowng border #2": {
+        "images/rainbow glowng border #2": {
+          "width": 144,
+          "height": 321
+        }
+      },
+      "images/rainbow glowng border #3": {
+        "images/rainbow glowng border #2": {
+          "width": 144,
+          "height": 321
+        }
+      },
+      "images/rainbow glowng border #4": {
+        "images/rainbow glowng border #2": {
+          "width": 144,
+          "height": 321
+        }
+      },
+      "images/rainbow glowng border #5": {
+        "images/rainbow glowng border #2": {
+          "width": 144,
+          "height": 321
+        }
+      },
+      "images/rainbow glowng border #6": {
+        "images/rainbow glowng border #1": {
+          "width": 167,
+          "height": 343
+        }
+      },
+      "images/rainbow surface": {
+        "images/rainbow surface": {
+          "width": 133,
+          "height": 307
+        }
+      },
+      "images/thunder1": {
+        "images/thunder1": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            253.07,
+            -307.87,
+            -253.07,
+            -307.87,
+            -253.07,
+            307.87,
+            253.07,
+            307.87
+          ],
+          "hull": 4
+        },
+        "images/thunder2": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            157.5,
+            -444.5,
+            -157.5,
+            -444.5,
+            -157.5,
+            444.5,
+            157.5,
+            444.5
+          ],
+          "hull": 4
+        },
+        "images/thunder4": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            165.5,
+            -441,
+            -165.5,
+            -441,
+            -165.5,
+            441,
+            165.5,
+            441
+          ],
+          "hull": 4
+        },
+        "images/thunder5": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            183.5,
+            -298.5,
+            -183.5,
+            -298.5,
+            -183.5,
+            298.5,
+            183.5,
+            298.5
+          ],
+          "hull": 4
+        },
+        "images/thunder6": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            179.5,
+            -440,
+            -179.5,
+            -440,
+            -179.5,
+            440,
+            179.5,
+            440
+          ],
+          "hull": 4
+        },
+        "images/thunder7": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            101.5,
+            -439,
+            -101.5,
+            -439,
+            -101.5,
+            439,
+            101.5,
+            439
+          ],
+          "hull": 4
+        },
+        "images/thunder8": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            104,
+            -439.5,
+            -104,
+            -439.5,
+            -104,
+            439.5,
+            104,
+            439.5
+          ],
+          "hull": 4
+        },
+        "images/thunder9": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            102.5,
+            -439,
+            -102.5,
+            -439,
+            -102.5,
+            439,
+            102.5,
+            439
+          ],
+          "hull": 4
+        },
+        "images/thunder10": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            100,
+            -439,
+            -100,
+            -439,
+            -100,
+            439,
+            100,
+            439
+          ],
+          "hull": 4
+        },
+        "images/thunder11": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            94.5,
+            -439,
+            -94.5,
+            -439,
+            -94.5,
+            439,
+            94.5,
+            439
+          ],
+          "hull": 4
+        }
+      },
+      "images/thunder2": {
+        "images/thunder1": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            253.07,
+            -307.87,
+            -253.07,
+            -307.87,
+            -253.07,
+            307.87,
+            253.07,
+            307.87
+          ],
+          "hull": 4
+        },
+        "images/thunder2": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            157.5,
+            -444.5,
+            -157.5,
+            -444.5,
+            -157.5,
+            444.5,
+            157.5,
+            444.5
+          ],
+          "hull": 4
+        },
+        "images/thunder4": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            165.5,
+            -441,
+            -165.5,
+            -441,
+            -165.5,
+            441,
+            165.5,
+            441
+          ],
+          "hull": 4
+        },
+        "images/thunder5": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            183.5,
+            -298.5,
+            -183.5,
+            -298.5,
+            -183.5,
+            298.5,
+            183.5,
+            298.5
+          ],
+          "hull": 4
+        },
+        "images/thunder6": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            179.5,
+            -440,
+            -179.5,
+            -440,
+            -179.5,
+            440,
+            179.5,
+            440
+          ],
+          "hull": 4
+        },
+        "images/thunder7": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            101.5,
+            -439,
+            -101.5,
+            -439,
+            -101.5,
+            439,
+            101.5,
+            439
+          ],
+          "hull": 4
+        },
+        "images/thunder8": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            104,
+            -439.5,
+            -104,
+            -439.5,
+            -104,
+            439.5,
+            104,
+            439.5
+          ],
+          "hull": 4
+        },
+        "images/thunder9": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            102.5,
+            -439,
+            -102.5,
+            -439,
+            -102.5,
+            439,
+            102.5,
+            439
+          ],
+          "hull": 4
+        },
+        "images/thunder10": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            100,
+            -439,
+            -100,
+            -439,
+            -100,
+            439,
+            100,
+            439
+          ],
+          "hull": 4
+        },
+        "images/thunder11": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            94.5,
+            -439,
+            -94.5,
+            -439,
+            -94.5,
+            439,
+            94.5,
+            439
+          ],
+          "hull": 4
+        }
+      }
+    }
+  },
+  "animations": {
+    "fullmana_battlepanel": {
+      "slots": {
+        "images/lightning2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "images/light fx"
+            }
+          ]
+        },
+        "images/rainbow glowng border #1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff7d"
+            },
+            {
+              "time": 0.8333,
+              "color": "fffffff7"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff7d"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "images/rainbow glowng border #1"
+            }
+          ]
+        },
+        "images/rainbow glowng border #2": {
+          "color": [
+            {
+              "time": 0.1667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.1667,
+              "name": "images/rainbow glowng border #2"
+            }
+          ]
+        },
+        "images/rainbow glowng border #3": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.3333,
+              "name": "images/rainbow glowng border #2"
+            }
+          ]
+        },
+        "images/rainbow glowng border #4": {
+          "color": [
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.5,
+              "name": "images/rainbow glowng border #2"
+            }
+          ]
+        },
+        "images/rainbow glowng border #5": {
+          "color": [
+            {
+              "time": 0.6667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.1667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.6667,
+              "name": "images/rainbow glowng border #2"
+            }
+          ]
+        },
+        "images/rainbow glowng border #6": {
+          "color": [
+            {
+              "time": 0.5,
+              "color": "ffffff7d"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffe900ff"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.5,
+              "name": "images/rainbow glowng border #1"
+            }
+          ]
+        },
+        "images/rainbow surface": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff1b"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff75"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff1b"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "images/rainbow surface"
+            }
+          ]
+        },
+        "images/thunder1": {
+          "color": [
+            {
+              "time": 0.4833,
+              "color": "f7d52eff"
+            },
+            {
+              "time": 0.55,
+              "color": "ff1313ff"
+            },
+            {
+              "time": 0.6167,
+              "color": "a612ffff"
+            },
+            {
+              "time": 0.6833,
+              "color": "2cff11ff"
+            },
+            {
+              "time": 0.75,
+              "color": "108dffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.4833,
+              "name": "images/thunder1"
+            },
+            {
+              "time": 0.5167,
+              "name": "images/thunder2"
+            },
+            {
+              "time": 0.55,
+              "name": "images/thunder4"
+            },
+            {
+              "time": 0.5833,
+              "name": "images/thunder5"
+            },
+            {
+              "time": 0.6167,
+              "name": "images/thunder6"
+            },
+            {
+              "time": 0.65,
+              "name": "images/thunder7"
+            },
+            {
+              "time": 0.6833,
+              "name": "images/thunder8"
+            },
+            {
+              "time": 0.7167,
+              "name": "images/thunder9"
+            },
+            {
+              "time": 0.75,
+              "name": "images/thunder10"
+            },
+            {
+              "time": 0.7833,
+              "name": "images/thunder11"
+            },
+            {
+              "time": 0.8167,
+              "name": null
+            }
+          ]
+        },
+        "images/thunder2": {
+          "color": [
+            {
+              "time": 0.6667,
+              "color": "f7d52eff"
+            },
+            {
+              "time": 0.7333,
+              "color": "ff1313ff"
+            },
+            {
+              "time": 0.8,
+              "color": "a612ffff"
+            },
+            {
+              "time": 0.8667,
+              "color": "2cff11ff"
+            },
+            {
+              "time": 0.9333,
+              "color": "108dffff"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.6667,
+              "name": "images/thunder1"
+            },
+            {
+              "time": 0.7,
+              "name": "images/thunder2"
+            },
+            {
+              "time": 0.7333,
+              "name": "images/thunder4"
+            },
+            {
+              "time": 0.7667,
+              "name": "images/thunder5"
+            },
+            {
+              "time": 0.8,
+              "name": "images/thunder6"
+            },
+            {
+              "time": 0.8333,
+              "name": "images/thunder7"
+            },
+            {
+              "time": 0.8667,
+              "name": "images/thunder8"
+            },
+            {
+              "time": 0.9,
+              "name": "images/thunder9"
+            },
+            {
+              "time": 0.9333,
+              "name": "images/thunder10"
+            },
+            {
+              "time": 0.9667,
+              "name": "images/thunder11"
+            },
+            {
+              "time": 1,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "rainbow glowng border #2": {
+          "scale": [
+            {
+              "time": 0.1667,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.6667,
+              "x": 1.135,
+              "y": 1.053
+            }
+          ]
+        },
+        "rainbow glowng border #3": {
+          "scale": [
+            {
+              "time": 0.3333,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.8333,
+              "x": 1.135,
+              "y": 1.053
+            }
+          ]
+        },
+        "rainbow glowng border #4": {
+          "scale": [
+            {
+              "time": 0.5,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 1,
+              "x": 1.135,
+              "y": 1.053
+            }
+          ]
+        },
+        "rainbow glowng border #5": {
+          "scale": [
+            {
+              "time": 0.6667,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 1.1667,
+              "x": 1.135,
+              "y": 1.053
+            }
+          ]
+        },
+        "light fx": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 180
+            },
+            {
+              "time": 1.6667,
+              "angle": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.8333,
+              "x": 1.447,
+              "y": 1.447
+            },
+            {
+              "time": 1.6667,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

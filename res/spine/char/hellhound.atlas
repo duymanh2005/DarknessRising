@@ -1,0 +1,230 @@
+
+hellhound.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm lower L
+  rotate: false
+  xy: 302, 320
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+arm lower R
+  rotate: false
+  xy: 312, 108
+  size: 124, 157
+  orig: 124, 157
+  offset: 0, 0
+  index: -1
+arm upper L
+  rotate: false
+  xy: 871, 277
+  size: 90, 91
+  orig: 90, 91
+  offset: 0, 0
+  index: -1
+arm upper R
+  rotate: false
+  xy: 803, 264
+  size: 66, 98
+  orig: 66, 98
+  offset: 0, 0
+  index: -1
+bite D fx
+  rotate: true
+  xy: 751, 134
+  size: 22, 10
+  orig: 22, 10
+  offset: 0, 0
+  index: -1
+bite U fx
+  rotate: true
+  xy: 1004, 277
+  size: 29, 18
+  orig: 29, 18
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 680, 364
+  size: 146, 167
+  orig: 146, 167
+  offset: 0, 0
+  index: -1
+chest
+  rotate: false
+  xy: 2, 264
+  size: 298, 246
+  orig: 298, 246
+  offset: 0, 0
+  index: -1
+claw 1
+  rotate: true
+  xy: 438, 107
+  size: 158, 98
+  orig: 158, 98
+  offset: 0, 0
+  index: -1
+claw 2
+  rotate: false
+  xy: 404, 7
+  size: 157, 98
+  orig: 157, 98
+  offset: 0, 0
+  index: -1
+claw 3
+  rotate: true
+  xy: 312, 2
+  size: 104, 90
+  orig: 104, 90
+  offset: 0, 0
+  index: -1
+explode 1
+  rotate: false
+  xy: 725, 46
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+eye 1
+  rotate: false
+  xy: 768, 245
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+eye 2
+  rotate: false
+  xy: 760, 20
+  size: 21, 24
+  orig: 21, 24
+  offset: 0, 0
+  index: -1
+eye 3
+  rotate: false
+  xy: 494, 325
+  size: 37, 31
+  orig: 37, 31
+  offset: 0, 0
+  index: -1
+foot lower L
+  rotate: true
+  xy: 725, 2
+  size: 42, 33
+  orig: 42, 33
+  offset: 0, 0
+  index: -1
+foot lower R
+  rotate: false
+  xy: 963, 277
+  size: 39, 29
+  orig: 39, 29
+  offset: 0, 0
+  index: -1
+foot upper L
+  rotate: true
+  xy: 686, 240
+  size: 28, 80
+  orig: 28, 80
+  offset: 0, 0
+  index: -1
+foot upper R
+  rotate: true
+  xy: 682, 123
+  size: 33, 67
+  orig: 33, 67
+  offset: 0, 0
+  index: -1
+grow_light
+  rotate: false
+  xy: 2, 6
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 494, 358
+  size: 184, 152
+  orig: 184, 152
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: true
+  xy: 563, 2
+  size: 114, 80
+  orig: 114, 80
+  offset: 0, 0
+  index: -1
+leg lower L
+  rotate: true
+  xy: 871, 211
+  size: 64, 69
+  orig: 64, 69
+  offset: 0, 0
+  index: -1
+leg lower R
+  rotate: false
+  xy: 963, 308
+  size: 58, 60
+  orig: 58, 60
+  offset: 0, 0
+  index: -1
+leg upper L
+  rotate: true
+  xy: 549, 248
+  size: 108, 135
+  orig: 108, 135
+  offset: 0, 0
+  index: -1
+leg upper R
+  rotate: false
+  xy: 645, 23
+  size: 78, 93
+  orig: 78, 93
+  offset: 0, 0
+  index: -1
+light fx 2
+  rotate: true
+  xy: 302, 267
+  size: 51, 245
+  orig: 51, 245
+  offset: 0, 0
+  index: -1
+light glow radial
+  rotate: false
+  xy: 682, 158
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 260, 3
+  size: 259, 50
+  orig: 259, 50
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 849, 370
+  size: 167, 140
+  orig: 167, 140
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: true
+  xy: 686, 270
+  size: 92, 115
+  orig: 92, 115
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 538, 118
+  size: 142, 128
+  orig: 142, 128
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,1110 @@
+{
+  "ID": "c0c1c9f5-72a2-4740-a0e7-c9747770b90d",
+  "Version": "3.10.0.0",
+  "Name": "LayoutHeroForBattle",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 38,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 150,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 384.975,
+              "Y": 656.995
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5133,
+              "Y": 0.4925
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 9.975,
+            "RightMargin": -9.975,
+            "TopMargin": 10.005,
+            "BottomMargin": -10.005,
+            "Tag": 377,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/Formation_Panel.png",
+                  "Plist": "json/patch9_3.plist"
+                },
+                "Scale9OriginX": 43,
+                "Scale9OriginY": 34,
+                "Scale9Width": 45,
+                "Scale9Height": 37,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 527.4646,
+                  "Y": 740.275
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7033,
+                  "Y": 0.5549
+                },
+                "PreSize": {
+                  "X": 0.1747,
+                  "Y": 0.0787
+                },
+                "LeftMargin": 461.9646,
+                "RightMargin": 157.0354,
+                "TopMargin": 541.225,
+                "BottomMargin": 687.775,
+                "Tag": 95,
+                "ActionTag": 1069476325,
+                "Size": {
+                  "X": 131.0,
+                  "Y": 105.0
+                },
+                "Name": "1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/Formation_Panel.png",
+                  "Plist": "json/patch9_3.plist"
+                },
+                "Scale9OriginX": 43,
+                "Scale9OriginY": 34,
+                "Scale9Width": 45,
+                "Scale9Height": 37,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 527.4645,
+                  "Y": 921.3589
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7033,
+                  "Y": 0.6907
+                },
+                "PreSize": {
+                  "X": 0.1747,
+                  "Y": 0.0787
+                },
+                "LeftMargin": 461.9645,
+                "RightMargin": 157.0355,
+                "TopMargin": 360.1411,
+                "BottomMargin": 868.8589,
+                "Tag": 91,
+                "ActionTag": -35325610,
+                "Size": {
+                  "X": 131.0,
+                  "Y": 105.0
+                },
+                "Name": "2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/Formation_Panel.png",
+                  "Plist": "json/patch9_3.plist"
+                },
+                "Scale9OriginX": 43,
+                "Scale9OriginY": 34,
+                "Scale9Width": 45,
+                "Scale9Height": 37,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 648.3346,
+                  "Y": 1014.0707
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8644,
+                  "Y": 0.7602
+                },
+                "PreSize": {
+                  "X": 0.1747,
+                  "Y": 0.0787
+                },
+                "LeftMargin": 582.8346,
+                "RightMargin": 36.1654,
+                "TopMargin": 267.4293,
+                "BottomMargin": 961.5707,
+                "Tag": 92,
+                "ActionTag": -1921781635,
+                "Size": {
+                  "X": 131.0,
+                  "Y": 105.0
+                },
+                "Name": "3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/Formation_Panel.png",
+                  "Plist": "json/patch9_3.plist"
+                },
+                "Scale9OriginX": 43,
+                "Scale9OriginY": 34,
+                "Scale9Width": 45,
+                "Scale9Height": 37,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 648.3346,
+                  "Y": 828.818
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8644,
+                  "Y": 0.6213
+                },
+                "PreSize": {
+                  "X": 0.1747,
+                  "Y": 0.0787
+                },
+                "LeftMargin": 582.8346,
+                "RightMargin": 36.1654,
+                "TopMargin": 452.682,
+                "BottomMargin": 776.318,
+                "Tag": 93,
+                "ActionTag": -1789969906,
+                "Size": {
+                  "X": 131.0,
+                  "Y": 105.0
+                },
+                "Name": "4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/Formation_Panel.png",
+                  "Plist": "json/patch9_3.plist"
+                },
+                "Scale9OriginX": 43,
+                "Scale9OriginY": 34,
+                "Scale9Width": 45,
+                "Scale9Height": 37,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 648.3346,
+                  "Y": 649.7704
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8644,
+                  "Y": 0.4871
+                },
+                "PreSize": {
+                  "X": 0.1747,
+                  "Y": 0.0787
+                },
+                "LeftMargin": 582.8346,
+                "RightMargin": 36.1654,
+                "TopMargin": 631.7296,
+                "BottomMargin": 597.2704,
+                "Tag": 94,
+                "ActionTag": -606643898,
+                "Size": {
+                  "X": 131.0,
+                  "Y": 105.0
+                },
+                "Name": "5",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/Formation_Panel.png",
+                  "Plist": "json/patch9_3.plist"
+                },
+                "Scale9OriginX": 43,
+                "Scale9OriginY": 34,
+                "Scale9Width": 45,
+                "Scale9Height": 37,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 578.1376,
+                  "Y": 830.879
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7709,
+                  "Y": 0.6228
+                },
+                "PreSize": {
+                  "X": 0.1747,
+                  "Y": 0.0787
+                },
+                "LeftMargin": 512.6376,
+                "RightMargin": 106.3624,
+                "TopMargin": 450.621,
+                "BottomMargin": 778.379,
+                "Tag": 135,
+                "ActionTag": -1930554807,
+                "Size": {
+                  "X": 131.0,
+                  "Y": 105.0
+                },
+                "VisibleForFrame": false,
+                "Name": "6",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 908602150,
+            "Size": {
+              "X": 750.0,
+              "Y": 1334.0
+            },
+            "Name": "5_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 150,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 667.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 80,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 503.4229,
+                  "Y": 785.439
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.6712,
+                  "Y": 0.5888
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 503.4229,
+                "RightMargin": 246.5771,
+                "TopMargin": 548.561,
+                "BottomMargin": 785.439,
+                "Tag": 81,
+                "ActionTag": 2035300125,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 597.9789,
+                  "Y": 954.1457
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.7973,
+                  "Y": 0.7153
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 597.9789,
+                "RightMargin": 152.0211,
+                "TopMargin": 379.8543,
+                "BottomMargin": 954.1457,
+                "Tag": 82,
+                "ActionTag": 1534571734,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "2",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 684.5626,
+                  "Y": 785.439
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.9128,
+                  "Y": 0.5888
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 684.5626,
+                "RightMargin": 65.4374,
+                "TopMargin": 548.561,
+                "BottomMargin": 785.439,
+                "Tag": 84,
+                "ActionTag": 1388754407,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "3",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 597.9789,
+                  "Y": 609.6948
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.7973,
+                  "Y": 0.457
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 597.9789,
+                "RightMargin": 152.0211,
+                "TopMargin": 724.3052,
+                "BottomMargin": 609.6948,
+                "Tag": 83,
+                "ActionTag": -894834778,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "4",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": 75839190,
+            "Size": {
+              "X": 750.0,
+              "Y": 1334.0
+            },
+            "Name": "4_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 150,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 667.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 85,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 503.4229,
+                  "Y": 785.439
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.6712,
+                  "Y": 0.5888
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 503.4229,
+                "RightMargin": 246.5771,
+                "TopMargin": 548.561,
+                "BottomMargin": 785.439,
+                "Tag": 86,
+                "ActionTag": -1207000208,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 597.9789,
+                  "Y": 954.1457
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.7973,
+                  "Y": 0.7153
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 597.9789,
+                "RightMargin": 152.0211,
+                "TopMargin": 379.8543,
+                "BottomMargin": 954.1457,
+                "Tag": 87,
+                "ActionTag": 737453639,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "2",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 597.9789,
+                  "Y": 609.6948
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.7973,
+                  "Y": 0.457
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 597.9789,
+                "RightMargin": 152.0211,
+                "TopMargin": 724.3052,
+                "BottomMargin": 609.6948,
+                "Tag": 88,
+                "ActionTag": -1298296870,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "3",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": -1395615390,
+            "Size": {
+              "X": 750.0,
+              "Y": 1334.0
+            },
+            "Name": "3_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 150,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 667.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 90,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 583.7236,
+                  "Y": 733.438
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.7783,
+                  "Y": 0.5498
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 583.7236,
+                "RightMargin": 166.2764,
+                "TopMargin": 600.562,
+                "BottomMargin": 733.438,
+                "Tag": 91,
+                "ActionTag": 286154193,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 549.2944,
+                  "Y": 888.1313
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.7324,
+                  "Y": 0.6658
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 549.2944,
+                "RightMargin": 200.7056,
+                "TopMargin": 445.8687,
+                "BottomMargin": 888.1313,
+                "Tag": 92,
+                "ActionTag": -465828939,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "2",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": -819719451,
+            "Size": {
+              "X": 750.0,
+              "Y": 1334.0
+            },
+            "Name": "2_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 150,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 667.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 94,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 563.4186,
+                  "Y": 749.4355
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.7512,
+                  "Y": 0.5618
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 563.4186,
+                "RightMargin": 186.5814,
+                "TopMargin": 584.5645,
+                "BottomMargin": 749.4355,
+                "Tag": 95,
+                "ActionTag": -464754648,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "1",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": -1874091322,
+            "Size": {
+              "X": 750.0,
+              "Y": 1334.0
+            },
+            "Name": "1_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 150,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 385.0,
+              "Y": 657.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5133,
+              "Y": 0.4925
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 10.0,
+            "RightMargin": -10.0,
+            "TopMargin": 10.0,
+            "BottomMargin": -10.0,
+            "Tag": 128,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 597.9789,
+                  "Y": 609.6948
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.7973,
+                  "Y": 0.457
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 597.9789,
+                "RightMargin": 152.0211,
+                "TopMargin": 724.3052,
+                "BottomMargin": 609.6948,
+                "Tag": 131,
+                "ActionTag": -60001544,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 563.4297,
+                  "Y": 785.4392
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.7512,
+                  "Y": 0.5888
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 563.4297,
+                "RightMargin": 186.5703,
+                "TopMargin": 548.5608,
+                "BottomMargin": 785.4392,
+                "Tag": 129,
+                "ActionTag": -315409414,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "2",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 518.9851,
+                  "Y": 954.1457
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.692,
+                  "Y": 0.7153
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 518.9851,
+                "RightMargin": 231.0149,
+                "TopMargin": 379.8543,
+                "BottomMargin": 954.1457,
+                "Tag": 130,
+                "ActionTag": 1255285688,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "3",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 649.4392,
+                  "Y": 775.4393
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.8659,
+                  "Y": 0.5813
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 649.4392,
+                "RightMargin": 100.5608,
+                "TopMargin": 558.5607,
+                "BottomMargin": 775.4393,
+                "Tag": 132,
+                "ActionTag": 1672497164,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "4",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": 1546793933,
+            "Size": {
+              "X": 750.0,
+              "Y": 1334.0
+            },
+            "Name": "4_2",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 750.0,
+          "Y": 1334.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../patch9_3.plist",
+        "../patch9_3.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

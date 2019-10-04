@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>patch9/pnl_Rank.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,249},{122,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{122,50}</string>
+			</dict>
+			<key>patch9/pnl_rank_bottom.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,414},{752,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{752,87}</string>
+			</dict>
+			<key>patch9/pnl_rank_Timeslot.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{677,353},{317,61}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{317,61}</string>
+			</dict>
+			<key>patch9/pnl_name.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{274,0},{259,233}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{259,233}</string>
+			</dict>
+			<key>patch9/pnl_shop_price.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{274,233},{180,44}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{180,44}</string>
+			</dict>
+			<key>patch9/pnl_nameslot.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,317},{282,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{282,58}</string>
+			</dict>
+			<key>patch9/pnl_numberslot.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{267,277},{143,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{143,40}</string>
+			</dict>
+			<key>patch9/pnl_numberslot_lose.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{122,249},{145,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{145,42}</string>
+			</dict>
+			<key>patch9/pnl_separator.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,375},{507,16}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{507,16}</string>
+			</dict>
+			<key>patch9/pnl_ver_seperate.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{968,0},{4,184}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{4,184}</string>
+			</dict>
+			<key>patch9/pnl_circle.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{533,216},{144,146}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{144,146}</string>
+			</dict>
+			<key>patch9/pnl_ItemsUnderSlot.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{753,194},{159,159}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{159,159}</string>
+			</dict>
+			<key>patch9/pnl_battleitems.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{533,0},{220,216}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{220,216}</string>
+			</dict>
+			<key>patch9/seperation_line.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,391},{466,8}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{466,8}</string>
+			</dict>
+			<key>patch9/pic_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{274,249}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{274,249}</string>
+			</dict>
+			<key>patch9/pic_up.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{753,0},{215,194}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{215,194}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>patch9_5.png</string>
+			<key>realTextureFileName</key>
+			<string>patch9_5.png</string>
+			<key>size</key>
+			<string>{1024,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>

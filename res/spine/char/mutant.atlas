@@ -1,0 +1,307 @@
+
+mutant.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm low R
+  rotate: false
+  xy: 1863, 353
+  size: 30, 59
+  orig: 30, 59
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: false
+  xy: 1080, 40
+  size: 38, 70
+  orig: 38, 70
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: true
+  xy: 593, 5
+  size: 44, 67
+  orig: 44, 67
+  offset: 0, 0
+  index: -1
+belly
+  rotate: false
+  xy: 1895, 361
+  size: 48, 49
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+blade low
+  rotate: true
+  xy: 1254, 272
+  size: 61, 49
+  orig: 61, 49
+  offset: 0, 0
+  index: -1
+blade up
+  rotate: false
+  xy: 1307, 336
+  size: 109, 174
+  orig: 109, 174
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 1709, 340
+  size: 79, 72
+  orig: 79, 72
+  offset: 0, 0
+  index: -1
+body low
+  rotate: true
+  xy: 1080, 2
+  size: 36, 28
+  orig: 36, 28
+  offset: 0, 0
+  index: -1
+circular saw blade
+  rotate: false
+  xy: 922, 310
+  size: 215, 200
+  orig: 215, 200
+  offset: 0, 0
+  index: -1
+energy ball
+  rotate: false
+  xy: 2, 51
+  size: 458, 459
+  orig: 458, 459
+  offset: 0, 0
+  index: -1
+eye 2
+  rotate: false
+  xy: 662, 21
+  size: 61, 28
+  orig: 61, 28
+  offset: 0, 0
+  index: -1
+eye 3
+  rotate: false
+  xy: 513, 15
+  size: 78, 34
+  orig: 78, 34
+  offset: 0, 0
+  index: -1
+eyes stun
+  rotate: false
+  xy: 1120, 165
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+fly line
+  rotate: false
+  xy: 1139, 335
+  size: 166, 175
+  orig: 166, 175
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 908, 30
+  size: 19, 12
+  orig: 19, 12
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 462, 51
+  size: 458, 459
+  orig: 458, 459
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 725, 9
+  size: 43, 40
+  orig: 43, 40
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 1945, 364
+  size: 42, 46
+  orig: 42, 46
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1418, 370
+  size: 128, 140
+  orig: 128, 140
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: false
+  xy: 1790, 340
+  size: 71, 72
+  orig: 71, 72
+  offset: 0, 0
+  index: -1
+leg low L
+  rotate: true
+  xy: 875, 2
+  size: 16, 25
+  orig: 16, 25
+  offset: 0, 0
+  index: -1
+leg low R
+  rotate: false
+  xy: 1120, 284
+  size: 17, 24
+  orig: 17, 24
+  offset: 0, 0
+  index: -1
+leg up L
+  rotate: false
+  xy: 807, 14
+  size: 33, 35
+  orig: 33, 35
+  offset: 0, 0
+  index: -1
+leg up R
+  rotate: true
+  xy: 908, 2
+  size: 18, 38
+  orig: 18, 38
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 922, 112
+  size: 196, 196
+  orig: 196, 196
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: true
+  xy: 1120, 54
+  size: 48, 71
+  orig: 48, 71
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: true
+  xy: 1120, 104
+  size: 59, 87
+  orig: 59, 87
+  offset: 0, 0
+  index: -1
+smoke ground1
+  rotate: false
+  xy: 1418, 304
+  size: 113, 64
+  orig: 113, 64
+  offset: 0, 0
+  index: -1
+smoke ground2
+  rotate: false
+  xy: 922, 22
+  size: 156, 88
+  orig: 156, 88
+  offset: 0, 0
+  index: -1
+smoke ground3
+  rotate: false
+  xy: 1548, 430
+  size: 187, 80
+  orig: 187, 80
+  offset: 0, 0
+  index: -1
+smoke ground4
+  rotate: false
+  xy: 1737, 414
+  size: 167, 96
+  orig: 167, 96
+  offset: 0, 0
+  index: -1
+smoke ground5
+  rotate: false
+  xy: 1906, 412
+  size: 138, 98
+  orig: 138, 98
+  offset: 0, 0
+  index: -1
+smoke ground6
+  rotate: false
+  xy: 1548, 331
+  size: 129, 97
+  orig: 129, 97
+  offset: 0, 0
+  index: -1
+smoke ground7
+  rotate: false
+  xy: 1139, 271
+  size: 113, 62
+  orig: 113, 62
+  offset: 0, 0
+  index: -1
+spark smash1
+  rotate: true
+  xy: 1679, 335
+  size: 93, 28
+  orig: 93, 28
+  offset: 0, 0
+  index: -1
+spark smash2
+  rotate: false
+  xy: 397, 8
+  size: 114, 41
+  orig: 114, 41
+  offset: 0, 0
+  index: -1
+spark smash3
+  rotate: false
+  xy: 2, 2
+  size: 137, 47
+  orig: 137, 47
+  offset: 0, 0
+  index: -1
+spark smash4
+  rotate: false
+  xy: 141, 10
+  size: 126, 39
+  orig: 126, 39
+  offset: 0, 0
+  index: -1
+spark smash5
+  rotate: false
+  xy: 269, 10
+  size: 126, 39
+  orig: 126, 39
+  offset: 0, 0
+  index: -1
+star1
+  rotate: false
+  xy: 842, 19
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+tassel arm
+  rotate: false
+  xy: 770, 12
+  size: 35, 37
+  orig: 35, 37
+  offset: 0, 0
+  index: -1
+tassel shoulder L
+  rotate: true
+  xy: 875, 20
+  size: 29, 31
+  orig: 29, 31
+  offset: 0, 0
+  index: -1
+tassel shoulder R
+  rotate: false
+  xy: 1989, 367
+  size: 41, 43
+  orig: 41, 43
+  offset: 0, 0
+  index: -1

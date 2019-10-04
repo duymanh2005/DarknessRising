@@ -1,0 +1,37 @@
+{
+  "skeleton": {
+    "hash": "xHKFsgp5wwil0rpJ5v8Nz/5Q4NU",
+    "spine": "3.6.48",
+    "width": 751,
+    "height": 874
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "center#c_rainlanding#1",
+      "parent": "root",
+      "x": 368.98,
+      "y": 373.94
+    },
+    {
+      "name": "front#f_rain#1",
+      "parent": "root",
+      "x": 391.59,
+      "y": 869.56
+    }
+  ],
+  "slots": [
+    {
+      "name": "BACK_LORIEN_DAY",
+      "bone": "root"
+    }
+  ],
+  "skins": {
+    "default": {}
+  },
+  "animations": {
+    "noria1_rain": {}
+  }
+}

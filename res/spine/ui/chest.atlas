@@ -1,0 +1,90 @@
+
+chest.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+DotSparkA
+  rotate: false
+  xy: 906, 418
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+chest_bronze_blue_closed
+  rotate: false
+  xy: 2, 2
+  size: 122, 123
+  orig: 122, 123
+  offset: 0, 0
+  index: -1
+chest_bronze_blue_opened
+  rotate: false
+  xy: 404, 229
+  size: 122, 123
+  orig: 122, 123
+  offset: 0, 0
+  index: -1
+chest_bronze_green_closed
+  rotate: false
+  xy: 534, 359
+  size: 122, 123
+  orig: 122, 123
+  offset: 0, 0
+  index: -1
+chest_bronze_green_opened
+  rotate: false
+  xy: 126, 2
+  size: 122, 123
+  orig: 122, 123
+  offset: 0, 0
+  index: -1
+chest_bronze_red_closed
+  rotate: false
+  xy: 658, 359
+  size: 122, 123
+  orig: 122, 123
+  offset: 0, 0
+  index: -1
+chest_bronze_red_opened
+  rotate: false
+  xy: 782, 359
+  size: 122, 123
+  orig: 122, 123
+  offset: 0, 0
+  index: -1
+chest_platinum_closed
+  rotate: false
+  xy: 404, 104
+  size: 122, 123
+  orig: 122, 123
+  offset: 0, 0
+  index: -1
+chest_platinum_open
+  rotate: true
+  xy: 258, 53
+  size: 122, 123
+  orig: 122, 123
+  offset: 0, 0
+  index: -1
+grow_light
+  rotate: false
+  xy: 404, 354
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+light_growC
+  rotate: false
+  xy: 2, 177
+  size: 400, 305
+  orig: 400, 305
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 127
+  size: 254, 48
+  orig: 254, 48
+  offset: 0, 0
+  index: -1

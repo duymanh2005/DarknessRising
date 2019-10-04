@@ -1,0 +1,27 @@
+
+hitWaterPillar.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 7
+  rotate: true
+  xy: 2, 2
+  size: 250, 373
+  orig: 250, 373
+  offset: 0, 0
+  index: -1
+water fx
+  rotate: false
+  xy: 690, 115
+  size: 137, 137
+  orig: 137, 137
+  offset: 0, 0
+  index: -1
+water splash
+  rotate: false
+  xy: 377, 138
+  size: 311, 114
+  orig: 311, 114
+  offset: 0, 0
+  index: -1

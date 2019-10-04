@@ -1,0 +1,62 @@
+
+chaosgoblin.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chaos
+  rotate: false
+  xy: 194, 80
+  size: 49, 38
+  orig: 49, 38
+  offset: 0, 0
+  index: -1
+chara_body
+  rotate: false
+  xy: 2, 120
+  size: 274, 278
+  orig: 274, 278
+  offset: 0, 0
+  index: -1
+light_effect
+  rotate: false
+  xy: 117, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+light_star
+  rotate: false
+  xy: 169, 22
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+mat mo
+  rotate: false
+  xy: 117, 56
+  size: 75, 62
+  orig: 75, 62
+  offset: 0, 0
+  index: -1
+mat nham
+  rotate: false
+  xy: 2, 2
+  size: 113, 116
+  orig: 113, 116
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 400
+  size: 507, 96
+  orig: 507, 96
+  offset: 0, 0
+  index: -1
+xe
+  rotate: true
+  xy: 278, 87
+  size: 311, 206
+  orig: 311, 206
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,160 @@
+
+skeleton.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Leg up L
+  rotate: false
+  xy: 809, 135
+  size: 52, 49
+  orig: 52, 49
+  offset: 0, 0
+  index: -1
+Leg up R
+  rotate: false
+  xy: 760, 85
+  size: 27, 54
+  orig: 27, 54
+  offset: 0, 0
+  index: -1
+arm low L
+  rotate: true
+  xy: 658, 85
+  size: 53, 36
+  orig: 53, 36
+  offset: 0, 0
+  index: -1
+arm low R
+  rotate: false
+  xy: 696, 85
+  size: 33, 57
+  orig: 33, 57
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: true
+  xy: 591, 95
+  size: 43, 65
+  orig: 43, 65
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: false
+  xy: 695, 144
+  size: 68, 50
+  orig: 68, 50
+  offset: 0, 0
+  index: -1
+body low
+  rotate: true
+  xy: 104, 2
+  size: 104, 125
+  orig: 104, 125
+  offset: 0, 0
+  index: -1
+eyes cry
+  rotate: false
+  xy: 695, 196
+  size: 115, 46
+  orig: 115, 46
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 731, 81
+  size: 61, 27
+  orig: 61, 27
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: true
+  xy: 916, 134
+  size: 50, 26
+  orig: 50, 26
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 812, 186
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 937, 192
+  size: 50, 59
+  orig: 50, 59
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 240, 123
+  size: 119, 141
+  orig: 119, 141
+  offset: 0, 0
+  index: -1
+leg low L
+  rotate: false
+  xy: 765, 141
+  size: 42, 53
+  orig: 42, 53
+  offset: 0, 0
+  index: -1
+leg low R
+  rotate: false
+  xy: 863, 133
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+old shieldf
+  rotate: false
+  xy: 104, 108
+  size: 134, 134
+  orig: 134, 134
+  offset: 0, 0
+  index: -1
+old sword
+  rotate: false
+  xy: 2, 16
+  size: 100, 226
+  orig: 100, 226
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 383, 204
+  size: 203, 38
+  orig: 203, 38
+  offset: 0, 0
+  index: -1
+slash1
+  rotate: false
+  xy: 383, 100
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+slash2
+  rotate: false
+  xy: 487, 100
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+slash3
+  rotate: false
+  xy: 591, 140
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+waist
+  rotate: true
+  xy: 878, 186
+  size: 56, 57
+  orig: 56, 57
+  offset: 0, 0
+  index: -1

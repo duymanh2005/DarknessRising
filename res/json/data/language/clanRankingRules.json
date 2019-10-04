@@ -1,0 +1,40 @@
+{
+  "en": [
+    {
+      "header": "Arena Clan War rules",
+      "content": [
+        "- Win another Clan member add x1.5 the number of the Cups to the Total Clan Arena Scores",
+        "- Lose another Clan member deduct  x1.5 the number of the Cups in the Total Clan Arena Scores(not negative)",
+        "- Win a member not in the Clan will add the exact number of Cups to the Total Clan Arena score",
+        "- Lose a member not in the Clan will deduct the exact number of Cups from the Total Clan Arena Scores(not negative)",
+        "- Win or Lose a member with the same Clan does not count the Arena Scores",
+        "- Success in Defense from members of other Clans will added x1.5 the number of the Cups to the Total Clan Arena Scores",
+        "- Success in Defense from members do not have a Clan will not add to the Total Clan Arena Scores",
+        "- Each member of the Clan will have Arena Clan Scores (can be negative) so that the Clan Master can monitor the combat performance of each Clan member.",
+        "At the end of the Week, Top Clans with the highest number of Total Clan Arena Scores will receive a reward. The reward will be given to the Clan Master who redistributes it to the members of the Clan."]
+    },
+    {
+      "header": "Rewards",
+      "content": []
+    }
+  ],
+  "vi": [
+    {
+      "header": "Luật chơi Đấu Trường Bang Hội",
+      "content": [
+        "- Đánh thắng thành viên của Bang khác được cộng 1.5 lần số Cup vào tổng điểm Đấu Trường của Bang",
+        "- Đánh thua thành viên của Bang khác bị trừ 1.5 lần số Cup vào tổng điểm Đấu Trường của Bang(không bị âm)",
+        "- Đánh thắng thành viên không có Bang được cộng đúng số Cup vào tổng điểm Đấu Trường của Bang",
+        "- Đánh thua thành viên không có Bang bị trừ đúng số Cup vào tổng điểm Đấu Trường của Bang(không bị âm)",
+        "- Đánh thắng hoặc thua thành viên cùng Bang không tính điểm Đấu Trường Bang",
+        "- Phòng thủ thắng thành viên của Bang khác được cộng 1.5 lần số Cup vào tổng điểm Đấu Trường của Bang",
+        "- Phòng thủ thắng thành viên không có Bang không được cộng vào điểm Đấu Trường của Bang.",
+        "- Mỗi thành viên của Bang sẽ có chỉ số đóng góp điểm Đấu Trường Bang(chỉ số này có thể âm) để Bang chủ có thể theo dõi hiệu suất chiến đấu của từng thành viên trong Bang.",
+        "Tổng kết tuần Bang nào có số điểm Đấu Trường Cao nhất sẽ nhận được phần thưởng. Phần thưởng sẽ được trao cho Bang chủ phân phát lại cho các thành viên của Bang."]
+    },
+    {
+      "header": "Phần Thưởng",
+      "content": []
+    }
+  ]
+}

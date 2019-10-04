@@ -1,0 +1,48 @@
+
+hitJackSlash.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SlashLine
+  rotate: false
+  xy: 2, 19
+  size: 166, 94
+  orig: 166, 94
+  offset: 0, 0
+  index: -1
+hit effect circle glowing
+  rotate: false
+  xy: 400, 77
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+impact 1
+  rotate: false
+  xy: 170, 25
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+light circle
+  rotate: false
+  xy: 2, 2
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+lightbeam
+  rotate: false
+  xy: 260, 39
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+shock wave
+  rotate: false
+  xy: 336, 51
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1

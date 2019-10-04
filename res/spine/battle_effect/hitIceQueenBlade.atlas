@@ -1,0 +1,41 @@
+
+hitIceQueenBlade.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+magic circle LV5
+  rotate: false
+  xy: 766, 53
+  size: 197, 197
+  orig: 197, 197
+  offset: 0, 0
+  index: -1
+moon slash1
+  rotate: true
+  xy: 2, 2
+  size: 248, 189
+  orig: 248, 189
+  offset: 0, 0
+  index: -1
+moon slash2
+  rotate: true
+  xy: 193, 2
+  size: 248, 189
+  orig: 248, 189
+  offset: 0, 0
+  index: -1
+moon slash3
+  rotate: true
+  xy: 384, 2
+  size: 248, 189
+  orig: 248, 189
+  offset: 0, 0
+  index: -1
+moon slash4
+  rotate: true
+  xy: 575, 2
+  size: 248, 189
+  orig: 248, 189
+  offset: 0, 0
+  index: -1

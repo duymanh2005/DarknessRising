@@ -1,0 +1,13 @@
+
+pnl_upgrade.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pnl_upgrade
+  rotate: false
+  xy: 2, 2
+  size: 686, 313
+  orig: 686, 313
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+BossWarning.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+circle 1
+  rotate: false
+  xy: 2, 101
+  size: 384, 385
+  orig: 384, 385
+  offset: 0, 0
+  index: -1
+circle 2
+  rotate: false
+  xy: 2, 488
+  size: 525, 525
+  orig: 525, 525
+  offset: 0, 0
+  index: -1
+devil_face
+  rotate: false
+  xy: 529, 744
+  size: 355, 269
+  orig: 355, 269
+  offset: 0, 0
+  index: -1
+line
+  rotate: false
+  xy: 2, 25
+  size: 760, 74
+  orig: 760, 74
+  offset: 0, 0
+  index: -1
+redcolor
+  rotate: false
+  xy: 886, 913
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+txt_boss in coming
+  rotate: false
+  xy: 2, 2
+  size: 644, 21
+  orig: 644, 21
+  offset: 0, 0
+  index: -1

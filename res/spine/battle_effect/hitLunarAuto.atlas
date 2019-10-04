@@ -1,0 +1,223 @@
+
+hitLunarAuto.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fire/1
+  rotate: false
+  xy: 259, 78
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire_explode/fire_expl_01
+  rotate: false
+  xy: 309, 97
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+fire_explode/fire_expl_03
+  rotate: false
+  xy: 34, 4
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+fire_explode/fire_expl_05
+  rotate: false
+  xy: 340, 97
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+fire_explode/fire_expl_11
+  rotate: false
+  xy: 371, 97
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+fire_explode/fire_expl_13
+  rotate: false
+  xy: 402, 97
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+fire_explode/fire_expl_15
+  rotate: false
+  xy: 433, 97
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+hit/Shine
+  rotate: false
+  xy: 464, 103
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+hit/energy_ball
+  rotate: false
+  xy: 259, 40
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+hit/hit effect circle glowing
+  rotate: false
+  xy: 259, 2
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+hit/impact 1
+  rotate: false
+  xy: 95, 38
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+hit/light_beam
+  rotate: false
+  xy: 2, 3
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+hit/light_exlosion
+  rotate: false
+  xy: 185, 54
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+hit/magic ring
+  rotate: false
+  xy: 2, 35
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+hit/sword arch
+  rotate: true
+  xy: 185, 2
+  size: 50, 72
+  orig: 50, 72
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back1
+  rotate: false
+  xy: 309, 84
+  size: 32, 11
+  orig: 32, 11
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back2
+  rotate: true
+  xy: 489, 101
+  size: 25, 11
+  orig: 25, 11
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back3
+  rotate: false
+  xy: 98, 18
+  size: 32, 7
+  orig: 32, 7
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back4
+  rotate: false
+  xy: 413, 87
+  size: 32, 8
+  orig: 32, 8
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back5
+  rotate: false
+  xy: 98, 9
+  size: 31, 7
+  orig: 31, 7
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back6
+  rotate: false
+  xy: 378, 87
+  size: 33, 8
+  orig: 33, 8
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back7
+  rotate: false
+  xy: 343, 86
+  size: 33, 9
+  orig: 33, 9
+  offset: 0, 0
+  index: -1
+smoke/ground smoke back8
+  rotate: false
+  xy: 98, 27
+  size: 32, 9
+  orig: 32, 9
+  offset: 0, 0
+  index: -1
+smoke/ground smoke1
+  rotate: false
+  xy: 132, 27
+  size: 29, 9
+  orig: 29, 9
+  offset: 0, 0
+  index: -1
+smoke/ground smoke2
+  rotate: true
+  xy: 65, 2
+  size: 31, 9
+  orig: 31, 9
+  offset: 0, 0
+  index: -1
+smoke/ground smoke3
+  rotate: true
+  xy: 297, 43
+  size: 33, 9
+  orig: 33, 9
+  offset: 0, 0
+  index: -1
+smoke/ground smoke4
+  rotate: true
+  xy: 502, 100
+  size: 26, 8
+  orig: 26, 8
+  offset: 0, 0
+  index: -1
+smoke/ground smoke5
+  rotate: true
+  xy: 76, 2
+  size: 31, 9
+  orig: 31, 9
+  offset: 0, 0
+  index: -1
+smoke/ground smoke6
+  rotate: true
+  xy: 87, 2
+  size: 31, 9
+  orig: 31, 9
+  offset: 0, 0
+  index: -1
+smoke/ground smoke7
+  rotate: false
+  xy: 132, 19
+  size: 28, 6
+  orig: 28, 6
+  offset: 0, 0
+  index: -1
+smoke/ground smoke8
+  rotate: false
+  xy: 309, 74
+  size: 26, 8
+  orig: 26, 8
+  offset: 0, 0
+  index: -1

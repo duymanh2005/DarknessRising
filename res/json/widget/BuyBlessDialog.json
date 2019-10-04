@@ -1,0 +1,519 @@
+{
+  "ID": "7dca35f0-772d-46a7-97ca-d2ddccf6ece0",
+  "Version": "3.10.0.0",
+  "Name": "BuyBlessDialog",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 56,
+        "Children": [
+          {
+            "ClipAble": true,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 667.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 124,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "patch9/pnl_bless_shop.png",
+                  "Plist": "json/patch9_4.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 207,
+                "Scale9OriginY": 122,
+                "Scale9Width": 97,
+                "Scale9Height": 61,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 375.0,
+                  "Y": 613.1431
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4596
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.1,
+                  "Y": 0.85
+                },
+                "LeftMargin": -37.5,
+                "RightMargin": -37.5,
+                "TopMargin": 153.9069,
+                "BottomMargin": 46.1931,
+                "Tag": 123,
+                "ActionTag": -583504009,
+                "Size": {
+                  "X": 825.0,
+                  "Y": 1133.9
+                },
+                "Name": "bgr",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ItemMargin": 3,
+                "DirectionType": "Vertical",
+                "HorizontalType": "Align_HorizontalCenter",
+                "IsBounceEnabled": true,
+                "ScrollDirectionType": 0,
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 375.0,
+                  "Y": 536.2343
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.402
+                },
+                "PercentHeightEnable": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.8933,
+                  "Y": 0.68
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": 40.0,
+                "TopMargin": 344.2057,
+                "BottomMargin": 82.6743,
+                "Tag": 127,
+                "ActionTag": -794259661,
+                "Size": {
+                  "X": 670.0,
+                  "Y": 907.12
+                },
+                "Name": "ListView",
+                "ctype": "ListViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "png/banner/shop/banner_bless_with_frame.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 252,
+                "Scale9OriginY": 57,
+                "Scale9Width": 262,
+                "Scale9Height": 61,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 375.0,
+                  "Y": 1066.4819
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7995
+                },
+                "PreSize": {
+                  "X": 1.0213,
+                  "Y": 0.1312
+                },
+                "LeftMargin": -8.0,
+                "RightMargin": -8.0,
+                "TopMargin": 180.0181,
+                "BottomMargin": 978.9819,
+                "Tag": 125,
+                "ActionTag": 342591480,
+                "Size": {
+                  "X": 766.0,
+                  "Y": 175.0
+                },
+                "Name": "Image_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "png/banner/shop/pnl_shop_new.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 252,
+                "Scale9OriginY": 57,
+                "Scale9Width": 103,
+                "Scale9Height": 61,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 375.0,
+                  "Y": 1222.1538
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9162
+                },
+                "PreSize": {
+                  "X": 0.8093,
+                  "Y": 0.1312
+                },
+                "LeftMargin": 71.5,
+                "RightMargin": 71.5,
+                "TopMargin": 24.3462,
+                "BottomMargin": 1134.6538,
+                "Tag": 126,
+                "ActionTag": -2001129362,
+                "Size": {
+                  "X": 607.0,
+                  "Y": 175.0
+                },
+                "Name": "Image_2_0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "button/quit_button.png",
+                  "Plist": "json/button.plist"
+                },
+                "Scale9OriginX": 23,
+                "Scale9OriginY": 25,
+                "Scale9Width": 26,
+                "Scale9Height": 26,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 713.2443,
+                  "Y": 1170.418
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.951,
+                  "Y": 0.8774
+                },
+                "PreSize": {
+                  "X": 0.08,
+                  "Y": 0.045
+                },
+                "LeftMargin": 683.2443,
+                "RightMargin": 6.7557,
+                "TopMargin": 133.582,
+                "BottomMargin": 1140.418,
+                "Tag": 113,
+                "ActionTag": 635367397,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 60.0
+                },
+                "Name": "btn_close",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "LabelText": "Gift Shop",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/cam_outer_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 375.0,
+                  "Y": 1232.1848
+                },
+                "Scale": {
+                  "ScaleX": 1.1,
+                  "ScaleY": 1.1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9237
+                },
+                "PreSize": {
+                  "X": 0.192,
+                  "Y": 0.03
+                },
+                "LeftMargin": 303.0,
+                "RightMargin": 303.0,
+                "TopMargin": 81.8152,
+                "BottomMargin": 1212.1848,
+                "Tag": 128,
+                "ActionTag": 1419353271,
+                "Size": {
+                  "X": 144.0,
+                  "Y": 40.0
+                },
+                "Name": "title1",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "Buy Bless/Relic",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/sfumachine_outer_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 372.375,
+                  "Y": 1056.3975
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.4965,
+                  "Y": 0.7919
+                },
+                "PreSize": {
+                  "X": 0.3667,
+                  "Y": 0.03
+                },
+                "LeftMargin": 234.875,
+                "RightMargin": 240.125,
+                "TopMargin": 257.6025,
+                "BottomMargin": 1036.3975,
+                "Tag": 129,
+                "ActionTag": -50001832,
+                "Size": {
+                  "X": 275.0,
+                  "Y": 40.0
+                },
+                "Name": "title2",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "particle/random.plist",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 1
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 136.7971,
+                  "Y": 1026.0342
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.1824,
+                  "Y": 0.7691
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 136.7971,
+                "RightMargin": 613.2029,
+                "TopMargin": 307.9658,
+                "BottomMargin": 1026.0342,
+                "Tag": 10,
+                "ActionTag": -965907625,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "Particle_1",
+                "ctype": "ParticleObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "particle/star_2.plist",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 1
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 636.6633,
+                  "Y": 1037.2167
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.8489,
+                  "Y": 0.7775
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 636.6633,
+                "RightMargin": 113.3367,
+                "TopMargin": 296.7833,
+                "BottomMargin": 1037.2167,
+                "Tag": 11,
+                "ActionTag": -1538049896,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "Particle_1_0",
+                "ctype": "ParticleObjectData"
+              }
+            ],
+            "ActionTag": -206639264,
+            "Size": {
+              "X": 750.0,
+              "Y": 1334.0
+            },
+            "Name": "root",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 750.0,
+          "Y": 1334.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../font/cam_outer_32-export.fnt",
+        "../../font/cam_outer_32-export.png",
+        "../../font/sfumachine_outer_32-export.fnt",
+        "../../font/sfumachine_outer_32-export.png",
+        "../../particle/random.plist",
+        "../../particle/star_2.plist",
+        "../../png/banner/shop/banner_bless_with_frame.png",
+        "../../png/banner/shop/pnl_shop_new.png",
+        "../button.plist",
+        "../button.png",
+        "../patch9_4.plist",
+        "../patch9_4.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

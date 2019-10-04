@@ -1,0 +1,412 @@
+
+stonegolem.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Leg R up
+  rotate: false
+  xy: 797, 31
+  size: 65, 76
+  orig: 65, 76
+  offset: 0, 0
+  index: -1
+arm L low
+  rotate: true
+  xy: 1156, 188
+  size: 143, 146
+  orig: 143, 146
+  offset: 0, 0
+  index: -1
+arm L up
+  rotate: true
+  xy: 548, 25
+  size: 79, 103
+  orig: 79, 103
+  offset: 0, 0
+  index: -1
+arm R low
+  rotate: false
+  xy: 1743, 346
+  size: 178, 164
+  orig: 178, 164
+  offset: 0, 0
+  index: -1
+arm R up
+  rotate: false
+  xy: 461, 7
+  size: 85, 95
+  orig: 85, 95
+  offset: 0, 0
+  index: -1
+back
+  rotate: true
+  xy: 282, 277
+  size: 233, 318
+  orig: 233, 318
+  offset: 0, 0
+  index: -1
+belly
+  rotate: false
+  xy: 1492, 243
+  size: 133, 96
+  orig: 133, 96
+  offset: 0, 0
+  index: -1
+body low
+  rotate: false
+  xy: 852, 246
+  size: 152, 84
+  orig: 152, 84
+  offset: 0, 0
+  index: -1
+body up
+  rotate: false
+  xy: 2, 217
+  size: 278, 293
+  orig: 278, 293
+  offset: 0, 0
+  index: -1
+chin
+  rotate: false
+  xy: 1627, 267
+  size: 122, 72
+  orig: 122, 72
+  offset: 0, 0
+  index: -1
+chin inside 1
+  rotate: false
+  xy: 1627, 197
+  size: 109, 68
+  orig: 109, 68
+  offset: 0, 0
+  index: -1
+chin inside 2
+  rotate: false
+  xy: 1751, 220
+  size: 109, 68
+  orig: 109, 68
+  offset: 0, 0
+  index: -1
+earth grow
+  rotate: true
+  xy: 653, 22
+  size: 82, 63
+  orig: 82, 63
+  offset: 0, 0
+  index: -1
+earth shake
+  rotate: false
+  xy: 864, 38
+  size: 92, 28
+  orig: 92, 28
+  offset: 0, 0
+  index: -1
+energy dot
+  rotate: false
+  xy: 359, 104
+  size: 171, 171
+  orig: 171, 171
+  offset: 0, 0
+  index: -1
+eyes 1
+  rotate: false
+  xy: 1492, 207
+  size: 110, 34
+  orig: 110, 34
+  offset: 0, 0
+  index: -1
+eyes 2
+  rotate: false
+  xy: 1363, 175
+  size: 104, 31
+  orig: 104, 31
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 960, 62
+  size: 46, 32
+  orig: 46, 32
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 777, 2
+  size: 36, 27
+  orig: 36, 27
+  offset: 0, 0
+  index: -1
+gem AR
+  rotate: true
+  xy: 1197, 58
+  size: 61, 45
+  orig: 61, 45
+  offset: 0, 0
+  index: -1
+gem B
+  rotate: true
+  xy: 1923, 342
+  size: 168, 101
+  orig: 168, 101
+  offset: 0, 0
+  index: -1
+gem BD
+  rotate: true
+  xy: 852, 332
+  size: 178, 301
+  orig: 178, 301
+  offset: 0, 0
+  index: -1
+gem HL
+  rotate: false
+  xy: 1304, 187
+  size: 57, 144
+  orig: 57, 144
+  offset: 0, 0
+  index: -1
+gem HL2
+  rotate: false
+  xy: 718, 36
+  size: 77, 71
+  orig: 77, 71
+  offset: 0, 0
+  index: -1
+gem HR
+  rotate: false
+  xy: 849, 110
+  size: 151, 134
+  orig: 151, 134
+  offset: 0, 0
+  index: -1
+gem HR2
+  rotate: true
+  xy: 1006, 186
+  size: 144, 148
+  orig: 144, 148
+  offset: 0, 0
+  index: -1
+gem LL
+  rotate: true
+  xy: 276, 2
+  size: 37, 35
+  orig: 37, 35
+  offset: 0, 0
+  index: -1
+gem LR
+  rotate: false
+  xy: 313, 3
+  size: 33, 36
+  orig: 33, 36
+  offset: 0, 0
+  index: -1
+gem SL
+  rotate: false
+  xy: 1363, 208
+  size: 127, 131
+  orig: 127, 131
+  offset: 0, 0
+  index: -1
+gem SR
+  rotate: false
+  xy: 1002, 42
+  size: 142, 142
+  orig: 142, 142
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: true
+  xy: 532, 106
+  size: 154, 157
+  orig: 154, 157
+  offset: 0, 0
+  index: -1
+hand L2
+  rotate: false
+  xy: 189, 41
+  size: 168, 174
+  orig: 168, 174
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 1354, 341
+  size: 197, 169
+  orig: 197, 169
+  offset: 0, 0
+  index: -1
+hand R2
+  rotate: false
+  xy: 2, 14
+  size: 185, 201
+  orig: 185, 201
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 691, 109
+  size: 151, 156
+  orig: 151, 156
+  offset: 0, 0
+  index: -1
+leg L low
+  rotate: false
+  xy: 1284, 129
+  size: 50, 56
+  orig: 50, 56
+  offset: 0, 0
+  index: -1
+leg L up
+  rotate: false
+  xy: 1192, 121
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+leg R low
+  rotate: false
+  xy: 1823, 161
+  size: 45, 57
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+lighting cicrle
+  rotate: false
+  xy: 602, 262
+  size: 248, 248
+  orig: 248, 248
+  offset: 0, 0
+  index: -1
+magic circle A-01
+  rotate: false
+  xy: 359, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 548, 4
+  size: 101, 19
+  orig: 101, 19
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: true
+  xy: 1553, 341
+  size: 169, 188
+  orig: 169, 188
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 1155, 333
+  size: 197, 177
+  orig: 197, 177
+  offset: 0, 0
+  index: -1
+smash fx3
+  rotate: false
+  xy: 1751, 290
+  size: 128, 54
+  orig: 128, 54
+  offset: 0, 0
+  index: -1
+smog3
+  rotate: false
+  xy: 189, 2
+  size: 85, 37
+  orig: 85, 37
+  offset: 0, 0
+  index: -1
+smoke ground1
+  rotate: false
+  xy: 718, 2
+  size: 57, 32
+  orig: 57, 32
+  offset: 0, 0
+  index: -1
+smoke ground2
+  rotate: true
+  xy: 1146, 106
+  size: 78, 44
+  orig: 78, 44
+  offset: 0, 0
+  index: -1
+smoke ground3
+  rotate: false
+  xy: 864, 68
+  size: 94, 40
+  orig: 94, 40
+  offset: 0, 0
+  index: -1
+smoke ground4
+  rotate: false
+  xy: 1738, 170
+  size: 83, 48
+  orig: 83, 48
+  offset: 0, 0
+  index: -1
+smoke ground5
+  rotate: false
+  xy: 282, 226
+  size: 69, 49
+  orig: 69, 49
+  offset: 0, 0
+  index: -1
+smoke ground6
+  rotate: true
+  xy: 1146, 39
+  size: 65, 49
+  orig: 65, 49
+  offset: 0, 0
+  index: -1
+smoke ground7
+  rotate: true
+  xy: 1881, 288
+  size: 56, 31
+  orig: 56, 31
+  offset: 0, 0
+  index: -1
+smoke smash1
+  rotate: false
+  xy: 532, 262
+  size: 46, 13
+  orig: 46, 13
+  offset: 0, 0
+  index: -1
+smoke smash2
+  rotate: true
+  xy: 2026, 323
+  size: 57, 20
+  orig: 57, 20
+  offset: 0, 0
+  index: -1
+smoke smash3
+  rotate: true
+  xy: 1259, 117
+  size: 69, 23
+  orig: 69, 23
+  offset: 0, 0
+  index: -1
+smoke smash4
+  rotate: true
+  xy: 2026, 447
+  size: 63, 20
+  orig: 63, 20
+  offset: 0, 0
+  index: -1
+smoke smash5
+  rotate: true
+  xy: 2026, 382
+  size: 63, 20
+  orig: 63, 20
+  offset: 0, 0
+  index: -1
+spark light fx
+  rotate: true
+  xy: 2, 5
+  size: 7, 82
+  orig: 7, 82
+  offset: 0, 0
+  index: -1

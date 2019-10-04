@@ -1,0 +1,412 @@
+
+kundun.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm low L
+  rotate: false
+  xy: 1309, 263
+  size: 160, 158
+  orig: 160, 158
+  offset: 0, 0
+  index: -1
+arm low R
+  rotate: true
+  xy: 973, 352
+  size: 160, 169
+  orig: 160, 169
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: false
+  xy: 1144, 286
+  size: 163, 135
+  orig: 163, 135
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: true
+  xy: 954, 256
+  size: 94, 175
+  orig: 94, 175
+  offset: 0, 0
+  index: -1
+armor leg L
+  rotate: true
+  xy: 498, 180
+  size: 70, 192
+  orig: 70, 192
+  offset: 0, 0
+  index: -1
+armor leg R
+  rotate: true
+  xy: 2, 26
+  size: 146, 242
+  orig: 146, 242
+  offset: 0, 0
+  index: -1
+bell
+  rotate: true
+  xy: 275, 2
+  size: 171, 216
+  orig: 171, 216
+  offset: 0, 0
+  index: -1
+belt cloth
+  rotate: false
+  xy: 1410, 454
+  size: 119, 220
+  orig: 119, 220
+  offset: 0, 0
+  index: -1
+belt lock
+  rotate: true
+  xy: 1131, 225
+  size: 59, 148
+  orig: 59, 148
+  offset: 0, 0
+  index: -1
+black hole
+  rotate: false
+  xy: 740, 142
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 1808, 545
+  size: 233, 202
+  orig: 233, 202
+  offset: 0, 0
+  index: -1
+cloak 1
+  rotate: true
+  xy: 539, 514
+  size: 248, 616
+  orig: 248, 616
+  offset: 0, 0
+  index: -1
+cloak 2
+  rotate: true
+  xy: 1225, 676
+  size: 136, 304
+  orig: 136, 304
+  offset: 0, 0
+  index: -1
+cloak back
+  rotate: false
+  xy: 2, 494
+  size: 535, 528
+  orig: 535, 528
+  offset: 0, 0
+  index: -1
+cloth
+  rotate: false
+  xy: 740, 387
+  size: 231, 125
+  orig: 231, 125
+  offset: 0, 0
+  index: -1
+devil spirit
+  rotate: false
+  xy: 740, 264
+  size: 212, 121
+  orig: 212, 121
+  offset: 0, 0
+  index: -1
+explosion1
+  rotate: false
+  xy: 555, 34
+  size: 71, 51
+  orig: 71, 51
+  offset: 0, 0
+  index: -1
+explosion2
+  rotate: true
+  xy: 1216, 115
+  size: 108, 66
+  orig: 108, 66
+  offset: 0, 0
+  index: -1
+explosion3
+  rotate: true
+  xy: 649, 69
+  size: 109, 70
+  orig: 109, 70
+  offset: 0, 0
+  index: -1
+eye cry
+  rotate: true
+  xy: 1471, 312
+  size: 78, 47
+  orig: 78, 47
+  offset: 0, 0
+  index: -1
+eye cry staff
+  rotate: true
+  xy: 246, 149
+  size: 23, 27
+  orig: 23, 27
+  offset: 0, 0
+  index: -1
+eyes 1
+  rotate: true
+  xy: 2013, 971
+  size: 51, 28
+  orig: 51, 28
+  offset: 0, 0
+  index: -1
+eyes 2
+  rotate: false
+  xy: 539, 494
+  size: 53, 18
+  orig: 53, 18
+  offset: 0, 0
+  index: -1
+eyes fx
+  rotate: false
+  xy: 1808, 781
+  size: 54, 31
+  orig: 54, 31
+  offset: 0, 0
+  index: -1
+flash
+  rotate: true
+  xy: 1949, 285
+  size: 120, 78
+  orig: 120, 78
+  offset: 0, 0
+  index: -1
+gem fx1
+  rotate: true
+  xy: 1157, 694
+  size: 68, 63
+  orig: 68, 63
+  offset: 0, 0
+  index: -1
+gem fx10
+  rotate: false
+  xy: 1281, 233
+  size: 24, 51
+  orig: 24, 51
+  offset: 0, 0
+  index: -1
+gem fx2
+  rotate: true
+  xy: 1410, 423
+  size: 29, 33
+  orig: 29, 33
+  offset: 0, 0
+  index: -1
+gem fx4
+  rotate: false
+  xy: 1157, 676
+  size: 31, 16
+  orig: 31, 16
+  offset: 0, 0
+  index: -1
+gem fx5
+  rotate: false
+  xy: 2, 2
+  size: 14, 12
+  orig: 14, 12
+  offset: 0, 0
+  index: -1
+gem fx6
+  rotate: false
+  xy: 2, 16
+  size: 35, 8
+  orig: 35, 8
+  offset: 0, 0
+  index: -1
+gem fx7
+  rotate: false
+  xy: 1144, 491
+  size: 11, 21
+  orig: 11, 21
+  offset: 0, 0
+  index: -1
+gem fx8
+  rotate: false
+  xy: 954, 362
+  size: 13, 23
+  orig: 13, 23
+  offset: 0, 0
+  index: -1
+gem fx9
+  rotate: false
+  xy: 1471, 287
+  size: 30, 23
+  orig: 30, 23
+  offset: 0, 0
+  index: -1
+glance light
+  rotate: false
+  xy: 1784, 371
+  size: 45, 164
+  orig: 45, 164
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 1531, 537
+  size: 275, 275
+  orig: 275, 275
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 1120, 130
+  size: 94, 93
+  orig: 94, 93
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 1831, 412
+  size: 116, 131
+  orig: 116, 131
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1831, 286
+  size: 116, 124
+  orig: 116, 124
+  offset: 0, 0
+  index: -1
+helmet
+  rotate: false
+  xy: 1869, 780
+  size: 142, 242
+  orig: 142, 242
+  offset: 0, 0
+  index: -1
+helmet back
+  rotate: false
+  xy: 1784, 305
+  size: 40, 64
+  orig: 40, 64
+  offset: 0, 0
+  index: -1
+kundun staff
+  rotate: true
+  xy: 1225, 814
+  size: 208, 642
+  orig: 208, 642
+  offset: 0, 0
+  index: -1
+kundun staff fx
+  rotate: true
+  xy: 539, 764
+  size: 258, 684
+  orig: 258, 684
+  offset: 0, 0
+  index: -1
+light column
+  rotate: false
+  xy: 1949, 407
+  size: 80, 136
+  orig: 80, 136
+  offset: 0, 0
+  index: -1
+lighting cicrle 2
+  rotate: false
+  xy: 1531, 284
+  size: 251, 251
+  orig: 251, 251
+  offset: 0, 0
+  index: -1
+low jaw
+  rotate: true
+  xy: 1471, 392
+  size: 60, 58
+  orig: 60, 58
+  offset: 0, 0
+  index: -1
+magic circle S-00
+  rotate: false
+  xy: 932, 134
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+mana shield
+  rotate: false
+  xy: 1157, 423
+  size: 251, 251
+  orig: 251, 251
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 275, 175
+  size: 221, 317
+  orig: 221, 317
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 2, 174
+  size: 271, 318
+  orig: 271, 318
+  offset: 0, 0
+  index: -1
+skull effect
+  rotate: false
+  xy: 498, 252
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+smoke1
+  rotate: false
+  xy: 555, 87
+  size: 92, 91
+  orig: 92, 91
+  offset: 0, 0
+  index: -1
+smoke2
+  rotate: false
+  xy: 721, 63
+  size: 80, 77
+  orig: 80, 77
+  offset: 0, 0
+  index: -1
+smoke3
+  rotate: false
+  xy: 803, 68
+  size: 76, 72
+  orig: 76, 72
+  offset: 0, 0
+  index: -1
+thunder1
+  rotate: false
+  xy: 1054, 134
+  size: 64, 120
+  orig: 64, 120
+  offset: 0, 0
+  index: -1
+thunder2
+  rotate: false
+  xy: 493, 53
+  size: 60, 120
+  orig: 60, 120
+  offset: 0, 0
+  index: -1
+thunder3
+  rotate: false
+  xy: 862, 142
+  size: 68, 120
+  orig: 68, 120
+  offset: 0, 0
+  index: -1
+vortex fx
+  rotate: true
+  xy: 881, 62
+  size: 70, 71
+  orig: 70, 71
+  offset: 0, 0
+  index: -1

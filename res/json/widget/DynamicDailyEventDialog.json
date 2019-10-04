@@ -1,0 +1,331 @@
+{
+  "ID": "06b31c3b-70f7-43ff-9edd-15bced825e4a",
+  "Version": "3.10.0.0",
+  "Name": "DynamicDailyEventDialog",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 56,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "patch9/pnl_Popup.png",
+              "Plist": "json/patch9_6.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 71,
+            "Scale9OriginY": 59,
+            "Scale9Width": 219,
+            "Scale9Height": 248,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 667.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7133,
+              "Y": 0.4873
+            },
+            "LeftMargin": 107.5,
+            "RightMargin": 107.5,
+            "TopMargin": 342.0,
+            "BottomMargin": 342.0,
+            "Tag": 57,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "button/quit_button.png",
+                  "Plist": "json/button.plist"
+                },
+                "Scale9OriginX": 23,
+                "Scale9OriginY": 25,
+                "Scale9Width": 26,
+                "Scale9Height": 26,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 506.3715,
+                  "Y": 618.7832
+                },
+                "Scale": {
+                  "ScaleX": 0.75,
+                  "ScaleY": 0.75
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.9465,
+                  "Y": 0.952
+                },
+                "PreSize": {
+                  "X": 0.1346,
+                  "Y": 0.1169
+                },
+                "LeftMargin": 470.3715,
+                "RightMargin": -7.3715,
+                "TopMargin": -6.7832,
+                "BottomMargin": 580.7832,
+                "Tag": 279,
+                "ActionTag": 612055179,
+                "Size": {
+                  "X": 72.0,
+                  "Y": 76.0
+                },
+                "Name": "btnClose",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "LabelText": "Event",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/cam_stroke_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 267.5,
+                  "Y": 604.435
+                },
+                "Scale": {
+                  "ScaleX": 0.75,
+                  "ScaleY": 0.75
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9299
+                },
+                "PreSize": {
+                  "X": 0.1757,
+                  "Y": 0.0615
+                },
+                "LeftMargin": 220.5,
+                "RightMargin": 220.5,
+                "TopMargin": 25.565,
+                "BottomMargin": 584.435,
+                "Tag": 245,
+                "ActionTag": -227549172,
+                "Size": {
+                  "X": 94.0,
+                  "Y": 40.0
+                },
+                "Name": "lbl_title",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "DirectionType": "Vertical",
+                "ScrollDirectionType": 0,
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 267.5001,
+                  "Y": 332.5446
+                },
+                "Scale": {
+                  "ScaleX": 0.75,
+                  "ScaleY": 0.75
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5116
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.25,
+                  "Y": 0.9
+                },
+                "LeftMargin": -66.8749,
+                "RightMargin": -66.8751,
+                "TopMargin": 24.9554,
+                "BottomMargin": 40.0446,
+                "Tag": 244,
+                "ActionTag": -828768860,
+                "Size": {
+                  "X": 668.75,
+                  "Y": 585.0
+                },
+                "Name": "list_text",
+                "ctype": "ListViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "button/Green_Round.png",
+                  "Plist": "json/button.plist"
+                },
+                "Scale9OriginX": 72,
+                "Scale9OriginY": 25,
+                "Scale9Width": 75,
+                "Scale9Height": 28,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 267.5,
+                  "Y": 60.9985
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0938
+                },
+                "PreSize": {
+                  "X": 0.4093,
+                  "Y": 0.12
+                },
+                "LeftMargin": 158.0,
+                "RightMargin": 158.0,
+                "TopMargin": 550.0015,
+                "BottomMargin": 21.9985,
+                "Tag": 21,
+                "ActionTag": 799621562,
+                "Size": {
+                  "X": 219.0,
+                  "Y": 78.0
+                },
+                "Name": "btn_ok",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "LabelText": "Event",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/cam_stroke_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 780.4811,
+                  "Y": 465.9907
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 1.4588,
+                  "Y": 0.7169
+                },
+                "PreSize": {
+                  "X": 0.1757,
+                  "Y": 0.0615
+                },
+                "LeftMargin": 733.4811,
+                "RightMargin": -292.4811,
+                "TopMargin": 164.0093,
+                "BottomMargin": 445.9907,
+                "Tag": 17,
+                "ActionTag": -61228053,
+                "Size": {
+                  "X": 94.0,
+                  "Y": 40.0
+                },
+                "VisibleForFrame": false,
+                "Name": "text",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -1673557665,
+            "Size": {
+              "X": 535.0,
+              "Y": 650.0
+            },
+            "Name": "root",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 750.0,
+          "Y": 1334.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../font/cam_stroke_32-export.fnt",
+        "../../font/cam_stroke_32-export.png",
+        "../button.plist",
+        "../button.png",
+        "../patch9_6.plist",
+        "../patch9_6.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

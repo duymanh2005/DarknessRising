@@ -1,0 +1,146 @@
+
+orc.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm lower L
+  rotate: false
+  xy: 255, 39
+  size: 99, 93
+  orig: 99, 93
+  offset: 0, 0
+  index: -1
+arm lower R
+  rotate: false
+  xy: 392, 2
+  size: 98, 69
+  orig: 98, 69
+  offset: 0, 0
+  index: -1
+arm upper L
+  rotate: true
+  xy: 748, 20
+  size: 68, 73
+  orig: 68, 73
+  offset: 0, 0
+  index: -1
+arm upper R
+  rotate: true
+  xy: 580, 5
+  size: 66, 76
+  orig: 66, 76
+  offset: 0, 0
+  index: -1
+body lower
+  rotate: false
+  xy: 870, 117
+  size: 130, 136
+  orig: 130, 136
+  offset: 0, 0
+  index: -1
+body upper
+  rotate: false
+  xy: 2, 18
+  size: 153, 114
+  orig: 153, 114
+  offset: 0, 0
+  index: -1
+eyes 1
+  rotate: false
+  xy: 664, 55
+  size: 82, 33
+  orig: 82, 33
+  offset: 0, 0
+  index: -1
+eyes 2
+  rotate: true
+  xy: 356, 50
+  size: 82, 34
+  orig: 82, 34
+  offset: 0, 0
+  index: -1
+eyes 3
+  rotate: false
+  xy: 870, 74
+  size: 113, 41
+  orig: 113, 41
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 697, 22
+  size: 42, 31
+  orig: 42, 31
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: true
+  xy: 868, 15
+  size: 57, 58
+  orig: 57, 58
+  offset: 0, 0
+  index: -1
+head King
+  rotate: true
+  xy: 664, 90
+  size: 163, 204
+  orig: 163, 204
+  offset: 0, 0
+  index: -1
+hieu ung 1
+  rotate: true
+  xy: 397, 73
+  size: 180, 265
+  orig: 180, 265
+  offset: 0, 0
+  index: -1
+leg lower L
+  rotate: false
+  xy: 928, 22
+  size: 54, 50
+  orig: 54, 50
+  offset: 0, 0
+  index: -1
+leg lower R
+  rotate: false
+  xy: 823, 32
+  size: 43, 56
+  orig: 43, 56
+  offset: 0, 0
+  index: -1
+leg upper L
+  rotate: false
+  xy: 985, 64
+  size: 37, 51
+  orig: 37, 51
+  offset: 0, 0
+  index: -1
+leg upper R
+  rotate: false
+  xy: 658, 6
+  size: 37, 47
+  orig: 37, 47
+  offset: 0, 0
+  index: -1
+shoulder L King
+  rotate: false
+  xy: 157, 25
+  size: 96, 107
+  orig: 96, 107
+  offset: 0, 0
+  index: -1
+shoulder R King
+  rotate: true
+  xy: 492, 12
+  size: 59, 86
+  orig: 59, 86
+  offset: 0, 0
+  index: -1
+sword
+  rotate: true
+  xy: 2, 134
+  size: 119, 393
+  orig: 119, 393
+  offset: 0, 0
+  index: -1

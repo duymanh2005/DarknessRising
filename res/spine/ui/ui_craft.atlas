@@ -1,0 +1,27 @@
+
+ui_craft.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+UI_Win_Yelloweffect_small
+  rotate: false
+  xy: 2, 179
+  size: 352, 327
+  orig: 352, 327
+  offset: 0, 0
+  index: -1
+Whiteray
+  rotate: false
+  xy: 2, 2
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+lop 1
+  rotate: false
+  xy: 356, 181
+  size: 326, 325
+  orig: 326, 325
+  offset: 0, 0
+  index: -1

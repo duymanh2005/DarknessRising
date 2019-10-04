@@ -1,0 +1,258 @@
+
+IceStormWizard.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Back silk
+  rotate: true
+  xy: 539, 541
+  size: 155, 124
+  orig: 155, 124
+  offset: 0, 0
+  index: -1
+L arm
+  rotate: true
+  xy: 833, 602
+  size: 47, 46
+  orig: 47, 46
+  offset: 0, 0
+  index: -1
+L boot
+  rotate: false
+  xy: 795, 591
+  size: 36, 58
+  orig: 36, 58
+  offset: 0, 0
+  index: -1
+L bracer
+  rotate: false
+  xy: 811, 717
+  size: 53, 43
+  orig: 53, 43
+  offset: 0, 0
+  index: -1
+L leg
+  rotate: false
+  xy: 648, 263
+  size: 67, 58
+  orig: 67, 58
+  offset: 0, 0
+  index: -1
+L palm
+  rotate: false
+  xy: 442, 34
+  size: 49, 48
+  orig: 49, 48
+  offset: 0, 0
+  index: -1
+R arm
+  rotate: true
+  xy: 493, 34
+  size: 48, 44
+  orig: 48, 44
+  offset: 0, 0
+  index: -1
+R boot
+  rotate: false
+  xy: 928, 726
+  size: 52, 53
+  orig: 52, 53
+  offset: 0, 0
+  index: -1
+R bracer
+  rotate: false
+  xy: 343, 9
+  size: 43, 52
+  orig: 43, 52
+  offset: 0, 0
+  index: -1
+R leg
+  rotate: false
+  xy: 674, 418
+  size: 72, 70
+  orig: 72, 70
+  offset: 0, 0
+  index: -1
+R palm
+  rotate: false
+  xy: 388, 32
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: -1
+R shoulder
+  rotate: false
+  xy: 866, 720
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+Shield
+  rotate: false
+  xy: 237, 63
+  size: 135, 185
+  orig: 135, 185
+  offset: 0, 0
+  index: -1
+Silk
+  rotate: false
+  xy: 252, 252
+  size: 43, 95
+  orig: 43, 95
+  offset: 0, 0
+  index: -1
+Torso
+  rotate: false
+  xy: 674, 490
+  size: 88, 99
+  orig: 88, 99
+  offset: 0, 0
+  index: -1
+Weapon
+  rotate: false
+  xy: 364, 698
+  size: 240, 320
+  orig: 240, 320
+  offset: 0, 0
+  index: -1
+WeaponEff
+  rotate: false
+  xy: 2, 328
+  size: 248, 328
+  orig: 248, 328
+  offset: 0, 0
+  index: -1
+WizardHead/backhair
+  rotate: true
+  xy: 297, 250
+  size: 164, 224
+  orig: 164, 224
+  offset: 0, 0
+  index: -1
+WizardHead/ear
+  rotate: false
+  xy: 982, 735
+  size: 26, 44
+  orig: 26, 44
+  offset: 0, 0
+  index: -1
+WizardHead/eyes_close
+  rotate: true
+  xy: 701, 333
+  size: 83, 51
+  orig: 83, 51
+  offset: 0, 0
+  index: -1
+WizardHead/eyes_cry
+  rotate: false
+  xy: 237, 2
+  size: 104, 59
+  orig: 104, 59
+  offset: 0, 0
+  index: -1
+WizardHead/eyes_default
+  rotate: true
+  xy: 648, 323
+  size: 88, 51
+  orig: 88, 51
+  offset: 0, 0
+  index: -1
+WizardHead/front_hair
+  rotate: false
+  xy: 539, 413
+  size: 133, 126
+  orig: 133, 126
+  offset: 0, 0
+  index: -1
+WizardHead/hair
+  rotate: true
+  xy: 374, 84
+  size: 164, 146
+  orig: 164, 146
+  offset: 0, 0
+  index: -1
+WizardHead/head
+  rotate: false
+  xy: 523, 269
+  size: 123, 142
+  orig: 123, 142
+  offset: 0, 0
+  index: -1
+circle_02
+  rotate: false
+  xy: 795, 651
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+effect_line
+  rotate: false
+  xy: 252, 349
+  size: 43, 307
+  orig: 43, 307
+  offset: 0, 0
+  index: -1
+lightning2
+  rotate: false
+  xy: 665, 591
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+magic_circle3
+  rotate: false
+  xy: 2, 658
+  size: 360, 360
+  orig: 360, 360
+  offset: 0, 0
+  index: -1
+precast/Light_SparkA
+  rotate: true
+  xy: 764, 498
+  size: 91, 44
+  orig: 91, 44
+  offset: 0, 0
+  index: -1
+precast/Light_circleA
+  rotate: false
+  xy: 297, 416
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+precast/Light_lineA
+  rotate: false
+  xy: 364, 662
+  size: 157, 34
+  orig: 157, 34
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 606, 721
+  size: 203, 39
+  orig: 203, 39
+  offset: 0, 0
+  index: -1
+somasi05_R
+  rotate: false
+  xy: 606, 762
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+wings/wings_wizard_4s
+  rotate: true
+  xy: 864, 781
+  size: 237, 144
+  orig: 237, 144
+  offset: 0, 0
+  index: -1
+wings/wings_wizard_5s
+  rotate: true
+  xy: 2, 3
+  size: 323, 233
+  orig: 323, 233
+  offset: 0, 0
+  index: -1

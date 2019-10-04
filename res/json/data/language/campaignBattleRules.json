@@ -1,0 +1,24 @@
+{
+  "en": [
+	{
+	  "header": "Battle Rules",
+	  "content": [
+		"To get 3 STARS, you must complete the level within 1 minute and 30 seconds without any death in your team.",
+		"You deal more damage if your hero is stronger element (See the chart below).",
+		{"img": "patch9/pic_up.png"},
+		{"img": "patch9/pic_down.png"}
+	  ]
+	}
+  ],
+  "vi": [
+	{
+	  "header": "Qui luật Trận đấu",
+	  "content": [
+		"- Vượt ải trong 1 phút 30 giây và không bị chết tướng sẽ được 3 sao",
+		"- Tướng sẽ gây nhiều sát thương hơn nếu tấn công các hệ nguyên tố bị khắc chế, thí dụ: hệ Thủy gây 120% sát thương vào hệ Hỏa. Xem thêm hình minh họa.",
+		{"img": "patch9/pic_up.png"},
+		{"img": "patch9/pic_down.png"}
+	  ]
+	}
+  ]
+}

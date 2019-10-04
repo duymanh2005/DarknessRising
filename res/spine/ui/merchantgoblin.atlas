@@ -1,0 +1,62 @@
+
+merchantgoblin.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+backpack
+  rotate: false
+  xy: 2, 17
+  size: 217, 231
+  orig: 217, 231
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 410, 136
+  size: 112, 100
+  orig: 112, 100
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 221, 125
+  size: 187, 123
+  orig: 187, 123
+  offset: 0, 0
+  index: -1
+lantern
+  rotate: false
+  xy: 412, 62
+  size: 49, 72
+  orig: 49, 72
+  offset: 0, 0
+  index: -1
+leg
+  rotate: true
+  xy: 343, 34
+  size: 89, 67
+  orig: 89, 67
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 68, 13
+  orig: 68, 13
+  offset: 0, 0
+  index: -1
+skirt
+  rotate: false
+  xy: 463, 74
+  size: 41, 60
+  orig: 41, 60
+  offset: 0, 0
+  index: -1
+wood
+  rotate: false
+  xy: 221, 53
+  size: 120, 70
+  orig: 120, 70
+  offset: 0, 0
+  index: -1

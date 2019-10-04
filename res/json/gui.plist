@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>gui/loadingCircle.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{114,137},{80,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{80,80}</string>
+			</dict>
+			<key>gui/buttonBigGreen.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{444,4},{500,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{500,70}</string>
+			</dict>
+			<key>gui/iconFacebookWhite.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{202,137},{70,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,70}</string>
+			</dict>
+			<key>gui/star.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{996,68},{16,16}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{16,16}</string>
+			</dict>
+			<key>gui/item_frame_0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{4,137},{102,102}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{102,102}</string>
+			</dict>
+			<key>gui/dl_bar_frame_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{4,4},{432,92}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{432,92}</string>
+			</dict>
+			<key>gui/dl_bar_frame.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{4,104},{368,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{368,25}</string>
+			</dict>
+			<key>gui/buttonBigDarkBlue.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{444,82},{500,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{500,70}</string>
+			</dict>
+			<key>gui/iconCheckBox.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{952,68},{36,36}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{36,36}</string>
+			</dict>
+			<key>gui/buttonBigBlue.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{280,160},{500,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{500,70}</string>
+			</dict>
+			<key>gui/textBoxBG.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{952,4},{64,56}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{64,56}</string>
+			</dict>
+			<key>gui/iconCheckBoxBlank.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{952,112},{36,36}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{36,36}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>gui.png</string>
+			<key>realTextureFileName</key>
+			<string>gui.png</string>
+			<key>size</key>
+			<string>{1024,256}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>256</integer>
+		</dict>
+	</dict>
+</plist>

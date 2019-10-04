@@ -1,0 +1,27 @@
+
+hitTantalos.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hit fx
+  rotate: false
+  xy: 641, 46
+  size: 185, 166
+  orig: 185, 166
+  offset: 0, 0
+  index: -1
+smash fx3
+  rotate: false
+  xy: 315, 61
+  size: 324, 151
+  orig: 324, 151
+  offset: 0, 0
+  index: -1
+smash grond
+  rotate: true
+  xy: 2, 2
+  size: 210, 311
+  orig: 210, 311
+  offset: 0, 0
+  index: -1

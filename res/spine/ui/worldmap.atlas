@@ -1,0 +1,104 @@
+
+worldmap.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloud1
+  rotate: false
+  xy: 2335, 2
+  size: 571, 397
+  orig: 571, 397
+  offset: 0, 0
+  index: -1
+cloud2
+  rotate: false
+  xy: 2335, 1442
+  size: 958, 475
+  orig: 958, 475
+  offset: 0, 0
+  index: -1
+cloud3
+  rotate: false
+  xy: 3079, 977
+  size: 574, 388
+  orig: 574, 388
+  offset: 0, 0
+  index: -1
+cloud4
+  rotate: false
+  xy: 2335, 953
+  size: 742, 487
+  orig: 742, 487
+  offset: 0, 0
+  index: -1
+cloud_group
+  rotate: false
+  xy: 2887, 476
+  size: 475, 475
+  orig: 475, 475
+  offset: 0, 0
+  index: -1
+light_effect
+  rotate: false
+  xy: 3847, 1614
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+magma
+  rotate: false
+  xy: 3364, 649
+  size: 301, 326
+  orig: 301, 326
+  offset: 0, 0
+  index: -1
+swirl
+  rotate: false
+  xy: 2335, 401
+  size: 550, 550
+  orig: 550, 550
+  offset: 0, 0
+  index: -1
+swirl2
+  rotate: false
+  xy: 3295, 1367
+  size: 550, 550
+  orig: 550, 550
+  offset: 0, 0
+  index: -1
+swirlA
+  rotate: false
+  xy: 3847, 1716
+  size: 218, 201
+  orig: 218, 201
+  offset: 0, 0
+  index: -1
+water_boat
+  rotate: true
+  xy: 3655, 1157
+  size: 208, 77
+  orig: 208, 77
+  offset: 0, 0
+  index: -1
+water_monster
+  rotate: false
+  xy: 3364, 521
+  size: 132, 126
+  orig: 132, 126
+  offset: 0, 0
+  index: -1
+water_sea
+  rotate: false
+  xy: 2, 86
+  size: 257, 79
+  orig: 257, 79
+  offset: 0, 0
+  index: -1
+worldmap
+  rotate: false
+  xy: 2, 167
+  size: 2331, 1750
+  orig: 2331, 1750
+  offset: 0, 0
+  index: -1

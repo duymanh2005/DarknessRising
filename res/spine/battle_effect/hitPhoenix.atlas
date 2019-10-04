@@ -1,0 +1,293 @@
+
+hitPhoenix.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+energy bullet
+  rotate: false
+  xy: 2, 405
+  size: 251, 152
+  orig: 251, 152
+  offset: 0, 0
+  index: -1
+explosion beam1
+  rotate: false
+  xy: 791, 549
+  size: 61, 76
+  orig: 61, 76
+  offset: 0, 0
+  index: -1
+explosion beam2
+  rotate: false
+  xy: 698, 399
+  size: 84, 97
+  orig: 84, 97
+  offset: 0, 0
+  index: -1
+explosion beam3
+  rotate: false
+  xy: 598, 529
+  size: 101, 106
+  orig: 101, 106
+  offset: 0, 0
+  index: -1
+explosion beam4
+  rotate: false
+  xy: 451, 407
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1
+explosion beam5
+  rotate: false
+  xy: 441, 309
+  size: 112, 96
+  orig: 112, 96
+  offset: 0, 0
+  index: -1
+explosion beam6
+  rotate: false
+  xy: 2, 2
+  size: 112, 81
+  orig: 112, 81
+  offset: 0, 0
+  index: -1
+gloriole
+  rotate: false
+  xy: 2, 236
+  size: 167, 167
+  orig: 167, 167
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 559
+  size: 458, 459
+  orig: 458, 459
+  offset: 0, 0
+  index: -1
+ground smoke 1
+  rotate: true
+  xy: 138, 75
+  size: 159, 47
+  orig: 159, 47
+  offset: 0, 0
+  index: -1
+ground smoke 2
+  rotate: true
+  xy: 328, 83
+  size: 172, 51
+  orig: 172, 51
+  offset: 0, 0
+  index: -1
+ground smoke 3
+  rotate: true
+  xy: 932, 661
+  size: 183, 51
+  orig: 183, 51
+  offset: 0, 0
+  index: -1
+ground smoke 4
+  rotate: true
+  xy: 565, 373
+  size: 144, 45
+  orig: 144, 45
+  offset: 0, 0
+  index: -1
+ground smoke 5
+  rotate: true
+  xy: 381, 80
+  size: 175, 47
+  orig: 175, 47
+  offset: 0, 0
+  index: -1
+ground smoke 6
+  rotate: true
+  xy: 936, 846
+  size: 172, 53
+  orig: 172, 53
+  offset: 0, 0
+  index: -1
+ground smoke 7
+  rotate: true
+  xy: 515, 143
+  size: 164, 42
+  orig: 164, 42
+  offset: 0, 0
+  index: -1
+ground smoke 8
+  rotate: true
+  xy: 612, 380
+  size: 147, 43
+  orig: 147, 43
+  offset: 0, 0
+  index: -1
+ground smoke back 1
+  rotate: true
+  xy: 598, 637
+  size: 179, 60
+  orig: 179, 60
+  offset: 0, 0
+  index: -1
+ground smoke back 2
+  rotate: true
+  xy: 391, 420
+  size: 137, 58
+  orig: 137, 58
+  offset: 0, 0
+  index: -1
+ground smoke back 3
+  rotate: true
+  xy: 285, 71
+  size: 181, 41
+  orig: 181, 41
+  offset: 0, 0
+  index: -1
+ground smoke back 4
+  rotate: true
+  xy: 430, 75
+  size: 180, 43
+  orig: 180, 43
+  offset: 0, 0
+  index: -1
+ground smoke back 5
+  rotate: true
+  xy: 475, 133
+  size: 174, 38
+  orig: 174, 38
+  offset: 0, 0
+  index: -1
+ground smoke back 6
+  rotate: true
+  xy: 239, 70
+  size: 182, 44
+  orig: 182, 44
+  offset: 0, 0
+  index: -1
+ground smoke back 7
+  rotate: false
+  xy: 664, 818
+  size: 188, 49
+  orig: 188, 49
+  offset: 0, 0
+  index: -1
+ground smoke back 8
+  rotate: true
+  xy: 187, 72
+  size: 180, 50
+  orig: 180, 50
+  offset: 0, 0
+  index: -1
+magic circle LV5
+  rotate: false
+  xy: 462, 818
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+smoke smash1
+  rotate: false
+  xy: 660, 637
+  size: 93, 28
+  orig: 93, 28
+  offset: 0, 0
+  index: -1
+smoke smash2
+  rotate: false
+  xy: 796, 627
+  size: 114, 41
+  orig: 114, 41
+  offset: 0, 0
+  index: -1
+smoke smash3
+  rotate: true
+  xy: 701, 498
+  size: 137, 47
+  orig: 137, 47
+  offset: 0, 0
+  index: -1
+smoke smash4
+  rotate: true
+  xy: 657, 401
+  size: 126, 39
+  orig: 126, 39
+  offset: 0, 0
+  index: -1
+smoke smash5
+  rotate: true
+  xy: 750, 509
+  size: 126, 39
+  orig: 126, 39
+  offset: 0, 0
+  index: -1
+tornado gray1
+  rotate: false
+  xy: 2, 85
+  size: 134, 149
+  orig: 134, 149
+  offset: 0, 0
+  index: -1
+tornado gray2
+  rotate: false
+  xy: 800, 869
+  size: 134, 149
+  orig: 134, 149
+  offset: 0, 0
+  index: -1
+tornado gray3
+  rotate: false
+  xy: 796, 670
+  size: 134, 146
+  orig: 134, 146
+  offset: 0, 0
+  index: -1
+tornado gray4
+  rotate: false
+  xy: 660, 667
+  size: 134, 149
+  orig: 134, 149
+  offset: 0, 0
+  index: -1
+tornado gray5
+  rotate: false
+  xy: 306, 257
+  size: 133, 149
+  orig: 133, 149
+  offset: 0, 0
+  index: -1
+tornado1
+  rotate: false
+  xy: 255, 408
+  size: 134, 149
+  orig: 134, 149
+  offset: 0, 0
+  index: -1
+tornado2
+  rotate: false
+  xy: 462, 667
+  size: 134, 149
+  orig: 134, 149
+  offset: 0, 0
+  index: -1
+tornado3
+  rotate: false
+  xy: 462, 519
+  size: 134, 146
+  orig: 134, 146
+  offset: 0, 0
+  index: -1
+tornado4
+  rotate: false
+  xy: 664, 869
+  size: 134, 149
+  orig: 134, 149
+  offset: 0, 0
+  index: -1
+tornado5
+  rotate: false
+  xy: 171, 254
+  size: 133, 149
+  orig: 133, 149
+  offset: 0, 0
+  index: -1

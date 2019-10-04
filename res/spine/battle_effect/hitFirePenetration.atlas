@@ -1,0 +1,55 @@
+
+hitFirePenetration.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arrow skill fx
+  rotate: false
+  xy: 2, 14
+  size: 184, 32
+  orig: 184, 32
+  offset: 0, 0
+  index: -1
+explode 1
+  rotate: false
+  xy: 419, 76
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+light beam underground
+  rotate: true
+  xy: 282, 14
+  size: 137, 135
+  orig: 137, 135
+  offset: 0, 0
+  index: -1
+precast fx
+  rotate: true
+  xy: 419, 2
+  size: 72, 58
+  orig: 72, 58
+  offset: 0, 0
+  index: -1
+skill/fire tornado fx #1
+  rotate: true
+  xy: 2, 48
+  size: 205, 133
+  orig: 205, 133
+  offset: 0, 0
+  index: -1
+skill/fire tornado fx #2
+  rotate: true
+  xy: 137, 53
+  size: 200, 143
+  orig: 200, 143
+  offset: 0, 0
+  index: -1
+skill/fire tornado fx 2
+  rotate: false
+  xy: 282, 153
+  size: 178, 100
+  orig: 178, 100
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,202 @@
+
+yeti.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm lower L
+  rotate: false
+  xy: 1176, 119
+  size: 157, 135
+  orig: 157, 135
+  offset: 0, 0
+  index: -1
+arm lower R
+  rotate: false
+  xy: 1335, 132
+  size: 124, 122
+  orig: 124, 122
+  offset: 0, 0
+  index: -1
+arm upper L
+  rotate: true
+  xy: 798, 135
+  size: 119, 196
+  orig: 119, 196
+  offset: 0, 0
+  index: -1
+arm upper R
+  rotate: true
+  xy: 996, 150
+  size: 104, 178
+  orig: 104, 178
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 368, 110
+  size: 144, 226
+  orig: 144, 226
+  offset: 0, 0
+  index: -1
+chest
+  rotate: false
+  xy: 184, 55
+  size: 182, 199
+  orig: 182, 199
+  offset: 0, 0
+  index: -1
+circle light effect
+  rotate: false
+  xy: 444, 2
+  size: 54, 44
+  orig: 54, 44
+  offset: 0, 0
+  index: -1
+circle slash
+  rotate: false
+  xy: 1461, 153
+  size: 103, 101
+  orig: 103, 101
+  offset: 0, 0
+  index: -1
+eye 1
+  rotate: false
+  xy: 916, 87
+  size: 52, 16
+  orig: 52, 16
+  offset: 0, 0
+  index: -1
+eye 2
+  rotate: false
+  xy: 1671, 152
+  size: 52, 16
+  orig: 52, 16
+  offset: 0, 0
+  index: -1
+eye 3
+  rotate: false
+  xy: 916, 105
+  size: 73, 28
+  orig: 73, 28
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 1574, 112
+  size: 45, 39
+  orig: 45, 39
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 1522, 108
+  size: 50, 43
+  orig: 50, 43
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 1671, 170
+  size: 73, 84
+  orig: 73, 84
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 1978, 183
+  size: 67, 71
+  orig: 67, 71
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 50
+  size: 180, 204
+  orig: 180, 204
+  offset: 0, 0
+  index: -1
+hitting hand L
+  rotate: false
+  xy: 1746, 181
+  size: 77, 73
+  orig: 77, 73
+  offset: 0, 0
+  index: -1
+hitting hand R
+  rotate: false
+  xy: 1901, 187
+  size: 75, 67
+  orig: 75, 67
+  offset: 0, 0
+  index: -1
+jaw behind
+  rotate: false
+  xy: 1461, 114
+  size: 59, 37
+  orig: 59, 37
+  offset: 0, 0
+  index: -1
+jaw font
+  rotate: false
+  xy: 444, 48
+  size: 69, 60
+  orig: 69, 60
+  offset: 0, 0
+  index: -1
+leg lower L
+  rotate: true
+  xy: 798, 83
+  size: 50, 57
+  orig: 50, 57
+  offset: 0, 0
+  index: -1
+leg lower R
+  rotate: true
+  xy: 857, 86
+  size: 47, 57
+  orig: 47, 57
+  offset: 0, 0
+  index: -1
+leg upper L
+  rotate: true
+  xy: 368, 46
+  size: 62, 74
+  orig: 62, 74
+  offset: 0, 0
+  index: -1
+leg upper R
+  rotate: true
+  xy: 515, 53
+  size: 55, 65
+  orig: 55, 65
+  offset: 0, 0
+  index: -1
+light beam underground
+  rotate: false
+  xy: 1566, 153
+  size: 103, 101
+  orig: 103, 101
+  offset: 0, 0
+  index: -1
+neck
+  rotate: true
+  xy: 596, 88
+  size: 166, 200
+  orig: 166, 200
+  offset: 0, 0
+  index: -1
+raised hand R
+  rotate: true
+  xy: 1825, 181
+  size: 73, 74
+  orig: 73, 74
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 19
+  size: 152, 29
+  orig: 152, 29
+  offset: 0, 0
+  index: -1

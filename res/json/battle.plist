@@ -1,0 +1,236 @@
+﻿﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>battle/Bar/BG.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{4,4},{753,580}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{753,580}</string>
+			</dict>
+			<key>battle/Bar/Chara_Name_Bar.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{4,592},{378,142}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{378,142}</string>
+			</dict>
+			<key>battle/Bar/Item_Slot.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{390,649},{318,76}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{318,76}</string>
+			</dict>
+			<key>battle/Text/Combo.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{922,4},{54,18}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{54,18}</string>
+			</dict>
+			<key>battle/Text/Dark_Kngiht.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{765,4},{149,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{149,28}</string>
+			</dict>
+			<key>battle/Text/Elf.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{765,40},{149,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{149,28}</string>
+			</dict>
+			<key>battle/Text/HP.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{984,29},{26,17}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{26,17}</string>
+			</dict>
+			<key>battle/Text/Knight.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{765,76},{149,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{149,28}</string>
+			</dict>
+			<key>battle/Text/Monster.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{765,112},{124,33}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{124,33}</string>
+			</dict>
+			<key>battle/Text/MP.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{984,4},{28,17}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{28,17}</string>
+			</dict>
+			<key>battle/Bar/Small_Bar/Blue_Mana.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{765,154},{157,19}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{157,19}</string>
+			</dict>
+			<key>battle/Bar/Small_Bar/Red_HP.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{765,181},{157,19}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{157,19}</string>
+			</dict>
+			<key>battle/Bar/Small_Bar/Small_Bar_Outline.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{765,208},{157,19}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{157,19}</string>
+			</dict>
+			<key>battle/Bar/Small_Bar/Yellow_Combo.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{765,235},{157,19}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{157,19}</string>
+			</dict>
+			<key>battle/Bar/Large_Bar/Large_Bar_outline.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{390,592},{479,49}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{479,49}</string>
+			</dict>
+			<key>battle/Bar/Large_Bar/Large_Combo_Bar.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{716,649},{266,43}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{266,43}</string>
+			</dict>
+			<key>battle/Bar/Large_Bar/Large_Combo_Bar_outline.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{716,700},{266,43}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{266,43}</string>
+			</dict>
+			<key>battle/Bar/Large_Bar/Large_HP_Bar.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{4,742},{436,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{436,30}</string>
+			</dict>
+			<key>battle/Text/Combo_text.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{897,112},{108,34}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{108,34}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>battle.png</string>
+			<key>realTextureFileName</key>
+			<string>battle.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

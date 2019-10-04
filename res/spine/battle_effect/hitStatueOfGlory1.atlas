@@ -1,0 +1,146 @@
+
+hitStatueOfGlory.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bs sword_glow
+  rotate: true
+  xy: 318, 84
+  size: 109, 278
+  orig: 109, 278
+  offset: 0, 0
+  index: -1
+cut fx
+  rotate: true
+  xy: 318, 195
+  size: 59, 412
+  orig: 59, 412
+  offset: 0, 0
+  index: -1
+energy bullet
+  rotate: false
+  xy: 2, 64
+  size: 314, 190
+  orig: 314, 190
+  offset: 0, 0
+  index: -1
+explosion beam1
+  rotate: true
+  xy: 318, 2
+  size: 80, 95
+  orig: 80, 95
+  offset: 0, 0
+  index: -1
+explosion beam2
+  rotate: true
+  xy: 598, 91
+  size: 102, 121
+  orig: 102, 121
+  offset: 0, 0
+  index: -1
+explosion beam3
+  rotate: false
+  xy: 1756, 129
+  size: 128, 125
+  orig: 128, 125
+  offset: 0, 0
+  index: -1
+explosion beam4
+  rotate: false
+  xy: 1314, 105
+  size: 160, 149
+  orig: 160, 149
+  offset: 0, 0
+  index: -1
+explosion beam5
+  rotate: false
+  xy: 1124, 95
+  size: 188, 159
+  orig: 188, 159
+  offset: 0, 0
+  index: -1
+flash
+  rotate: false
+  xy: 732, 51
+  size: 203, 203
+  orig: 203, 203
+  offset: 0, 0
+  index: -1
+gloriole
+  rotate: false
+  xy: 1621, 14
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 1476, 111
+  size: 143, 143
+  orig: 143, 143
+  offset: 0, 0
+  index: -1
+hit fx
+  rotate: false
+  xy: 937, 88
+  size: 185, 166
+  orig: 185, 166
+  offset: 0, 0
+  index: -1
+lighting dome
+  rotate: false
+  xy: 1621, 120
+  size: 133, 134
+  orig: 133, 134
+  offset: 0, 0
+  index: -1
+magic circle
+  rotate: false
+  xy: 1886, 130
+  size: 123, 124
+  orig: 123, 124
+  offset: 0, 0
+  index: -1
+spark smash1
+  rotate: true
+  xy: 554, 16
+  size: 66, 38
+  orig: 66, 38
+  offset: 0, 0
+  index: -1
+spark smash2
+  rotate: true
+  xy: 1727, 28
+  size: 90, 53
+  orig: 90, 53
+  offset: 0, 0
+  index: -1
+spark smash3
+  rotate: false
+  xy: 415, 15
+  size: 137, 67
+  orig: 137, 67
+  offset: 0, 0
+  index: -1
+spark smash4
+  rotate: false
+  xy: 937, 30
+  size: 144, 56
+  orig: 144, 56
+  offset: 0, 0
+  index: -1
+spark smash5
+  rotate: false
+  xy: 1314, 50
+  size: 127, 53
+  orig: 127, 53
+  offset: 0, 0
+  index: -1
+tail light
+  rotate: true
+  xy: 2, 10
+  size: 52, 261
+  orig: 52, 261
+  offset: 0, 0
+  index: -1

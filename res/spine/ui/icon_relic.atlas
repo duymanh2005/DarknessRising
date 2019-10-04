@@ -1,0 +1,27 @@
+
+icon_relic.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+DotSparkA
+  rotate: false
+  xy: 76, 43
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ico_relic
+  rotate: false
+  xy: 2, 25
+  size: 72, 82
+  orig: 72, 82
+  offset: 0, 0
+  index: -1
+sparkle
+  rotate: false
+  xy: 2, 2
+  size: 19, 21
+  orig: 19, 21
+  offset: 0, 0
+  index: -1

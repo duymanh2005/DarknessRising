@@ -1,0 +1,146 @@
+
+vepare.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm low L
+  rotate: false
+  xy: 151, 25
+  size: 50, 29
+  orig: 50, 29
+  offset: 0, 0
+  index: -1
+arm low R
+  rotate: false
+  xy: 892, 169
+  size: 47, 30
+  orig: 47, 30
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: true
+  xy: 941, 174
+  size: 25, 40
+  orig: 25, 40
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: true
+  xy: 988, 227
+  size: 27, 34
+  orig: 27, 34
+  offset: 0, 0
+  index: -1
+ball
+  rotate: false
+  xy: 558, 140
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+chest
+  rotate: false
+  xy: 376, 119
+  size: 66, 63
+  orig: 66, 63
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 324, 33
+  size: 103, 39
+  orig: 103, 39
+  offset: 0, 0
+  index: -1
+eye 2
+  rotate: false
+  xy: 2, 11
+  size: 103, 43
+  orig: 103, 43
+  offset: 0, 0
+  index: -1
+eye 3
+  rotate: false
+  xy: 892, 201
+  size: 94, 53
+  orig: 94, 53
+  offset: 0, 0
+  index: -1
+glowing light circle radial
+  rotate: false
+  xy: 203, 17
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+glowing light fx
+  rotate: true
+  xy: 376, 184
+  size: 70, 186
+  orig: 70, 186
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 500, 137
+  size: 56, 45
+  orig: 56, 45
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 107, 2
+  size: 52, 42
+  orig: 52, 42
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 56
+  size: 199, 198
+  orig: 199, 198
+  offset: 0, 0
+  index: -1
+light beam
+  rotate: false
+  xy: 791, 155
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 151, 2
+  size: 68, 13
+  orig: 68, 13
+  offset: 0, 0
+  index: -1
+stomach
+  rotate: false
+  xy: 444, 128
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+tail cen
+  rotate: false
+  xy: 564, 178
+  size: 117, 76
+  orig: 117, 76
+  offset: 0, 0
+  index: -1
+tail low
+  rotate: false
+  xy: 203, 138
+  size: 171, 116
+  orig: 171, 116
+  offset: 0, 0
+  index: -1
+tail up
+  rotate: true
+  xy: 683, 151
+  size: 103, 106
+  orig: 103, 106
+  offset: 0, 0
+  index: -1

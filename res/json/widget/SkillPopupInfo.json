@@ -1,0 +1,346 @@
+{
+  "ID": "b6162f9b-9eae-4fd6-a3ef-a3aa140d103e",
+  "Version": "3.10.0.0",
+  "Name": "SkillPopupInfo",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 129,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "patch9/pnl_Popup.png",
+              "Plist": "json/patch9_6.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 71,
+            "Scale9OriginY": 59,
+            "Scale9Width": 219,
+            "Scale9Height": 248,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 667.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7,
+              "Y": 0.2969
+            },
+            "LeftMargin": 112.5,
+            "RightMargin": 112.5,
+            "TopMargin": 469.0,
+            "BottomMargin": 469.0,
+            "Tag": 130,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 73.29,
+                  "Y": 322.542
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewY": 1.0,
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.1396,
+                  "Y": 0.8145
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 73.29,
+                "RightMargin": 451.71,
+                "TopMargin": 73.458,
+                "BottomMargin": 322.542,
+                "Tag": 131,
+                "ActionTag": -327654445,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeAvt",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "LabelText": "Magical Eff Wind Bless()",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/cam_stroke_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 138.1275,
+                  "Y": 350.3808
+                },
+                "Scale": {
+                  "ScaleX": 0.75,
+                  "ScaleY": 0.75
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.2631,
+                  "Y": 0.8848
+                },
+                "PreSize": {
+                  "X": 0.76,
+                  "Y": 0.101
+                },
+                "LeftMargin": 138.1275,
+                "RightMargin": -12.1275,
+                "TopMargin": 25.6192,
+                "BottomMargin": 330.3808,
+                "Tag": 132,
+                "ActionTag": -173005856,
+                "Size": {
+                  "X": 399.0,
+                  "Y": 40.0
+                },
+                "Name": "lblName",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "Leader Skill",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/cam_stroke_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 138.1275,
+                  "Y": 312.7608
+                },
+                "Scale": {
+                  "ScaleX": 0.75,
+                  "ScaleY": 0.75
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.2631,
+                  "Y": 0.7898
+                },
+                "PreSize": {
+                  "X": 0.3733,
+                  "Y": 0.101
+                },
+                "LeftMargin": 138.1275,
+                "RightMargin": 190.8725,
+                "TopMargin": 63.2392,
+                "BottomMargin": 292.7608,
+                "Tag": 163,
+                "ActionTag": -2091504723,
+                "Size": {
+                  "X": 196.0,
+                  "Y": 40.0
+                },
+                "Name": "lblType",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "Deal 150% average ATK",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/cam_stroke_32-export.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 259.77,
+                  "Y": 214.3548
+                },
+                "Scale": {
+                  "ScaleX": 0.75,
+                  "ScaleY": 0.75
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.4948,
+                  "Y": 0.5413
+                },
+                "PreSize": {
+                  "X": 0.7162,
+                  "Y": 0.101
+                },
+                "LeftMargin": 71.77,
+                "RightMargin": 77.23,
+                "TopMargin": 161.6452,
+                "BottomMargin": 194.3548,
+                "Tag": 165,
+                "ActionTag": -598696812,
+                "Size": {
+                  "X": 376.0,
+                  "Y": 40.0
+                },
+                "Name": "lblInfo",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "button/Green_Round.png",
+                  "Plist": "json/button.plist"
+                },
+                "Scale9OriginX": 72,
+                "Scale9OriginY": 25,
+                "Scale9Width": 75,
+                "Scale9Height": 28,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 262.5,
+                  "Y": 110.484
+                },
+                "Scale": {
+                  "ScaleX": 0.75,
+                  "ScaleY": 0.75
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.279
+                },
+                "PreSize": {
+                  "X": 0.4171,
+                  "Y": 0.197
+                },
+                "LeftMargin": 153.0,
+                "RightMargin": 153.0,
+                "TopMargin": 246.516,
+                "BottomMargin": 71.484,
+                "Tag": 166,
+                "ActionTag": 671476041,
+                "Size": {
+                  "X": 219.0,
+                  "Y": 78.0
+                },
+                "Name": "btnUpgrade",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "button/quit_button.png",
+                  "Plist": "json/button.plist"
+                },
+                "Scale9OriginX": 23,
+                "Scale9OriginY": 25,
+                "Scale9Width": 26,
+                "Scale9Height": 26,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 497.9248,
+                  "Y": 368.8596
+                },
+                "Scale": {
+                  "ScaleX": 0.75,
+                  "ScaleY": 0.75
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9484,
+                  "Y": 0.9315
+                },
+                "PreSize": {
+                  "X": 0.1371,
+                  "Y": 0.1919
+                },
+                "LeftMargin": 461.9248,
+                "RightMargin": -8.9248,
+                "TopMargin": -10.8596,
+                "BottomMargin": 330.8596,
+                "Tag": 167,
+                "ActionTag": 339126458,
+                "Size": {
+                  "X": 72.0,
+                  "Y": 76.0
+                },
+                "Name": "btnClose",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -517634808,
+            "Size": {
+              "X": 525.0,
+              "Y": 396.0
+            },
+            "Name": "root",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 750.0,
+          "Y": 1334.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../font/cam_stroke_32-export.fnt",
+        "../../font/cam_stroke_32-export.png",
+        "../button.plist",
+        "../button.png",
+        "../patch9_6.plist",
+        "../patch9_6.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

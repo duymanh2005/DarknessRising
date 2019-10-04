@@ -1,0 +1,62 @@
+
+bloodgate.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chain
+  rotate: false
+  xy: 498, 120
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+chain back
+  rotate: false
+  xy: 2, 24
+  size: 10, 5
+  orig: 10, 5
+  offset: 0, 0
+  index: -1
+chain front
+  rotate: false
+  xy: 444, 76
+  size: 9, 5
+  orig: 9, 5
+  offset: 0, 0
+  index: -1
+gate L
+  rotate: true
+  xy: 295, 48
+  size: 33, 147
+  orig: 33, 147
+  offset: 0, 0
+  index: -1
+gate R
+  rotate: true
+  xy: 295, 83
+  size: 43, 201
+  orig: 43, 201
+  offset: 0, 0
+  index: -1
+gate rim
+  rotate: true
+  xy: 2, 31
+  size: 95, 291
+  orig: 95, 291
+  offset: 0, 0
+  index: -1
+gate rim back
+  rotate: true
+  xy: 295, 3
+  size: 43, 127
+  orig: 43, 127
+  offset: 0, 0
+  index: -1
+lock
+  rotate: true
+  xy: 424, 2
+  size: 44, 58
+  orig: 44, 58
+  offset: 0, 0
+  index: -1

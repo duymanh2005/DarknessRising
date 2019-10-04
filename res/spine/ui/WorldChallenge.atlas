@@ -1,0 +1,97 @@
+
+WorldChallenge.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eyes
+  rotate: false
+  xy: 741, 165
+  size: 30, 15
+  orig: 30, 15
+  offset: 0, 0
+  index: -1
+eyes_glow
+  rotate: false
+  xy: 2, 13
+  size: 55, 39
+  orig: 55, 39
+  offset: 0, 0
+  index: -1
+flash
+  rotate: false
+  xy: 2, 54
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+full_glow
+  rotate: false
+  xy: 204, 153
+  size: 116, 101
+  orig: 116, 101
+  offset: 0, 0
+  index: -1
+helmet
+  rotate: false
+  xy: 741, 182
+  size: 54, 72
+  orig: 54, 72
+  offset: 0, 0
+  index: -1
+helmet_glow
+  rotate: true
+  xy: 322, 2
+  size: 57, 75
+  orig: 57, 75
+  offset: 0, 0
+  index: -1
+horns
+  rotate: false
+  xy: 322, 156
+  size: 112, 98
+  orig: 112, 98
+  offset: 0, 0
+  index: -1
+horns_glow
+  rotate: false
+  xy: 322, 61
+  size: 110, 93
+  orig: 110, 93
+  offset: 0, 0
+  index: -1
+lappet
+  rotate: false
+  xy: 399, 2
+  size: 13, 57
+  orig: 13, 57
+  offset: 0, 0
+  index: -1
+pallet
+  rotate: false
+  xy: 645, 161
+  size: 94, 93
+  orig: 94, 93
+  offset: 0, 0
+  index: -1
+pallet_glow
+  rotate: false
+  xy: 545, 157
+  size: 98, 97
+  orig: 98, 97
+  offset: 0, 0
+  index: -1
+wings
+  rotate: false
+  xy: 436, 164
+  size: 107, 90
+  orig: 107, 90
+  offset: 0, 0
+  index: -1
+wings_glow
+  rotate: false
+  xy: 204, 54
+  size: 116, 97
+  orig: 116, 97
+  offset: 0, 0
+  index: -1

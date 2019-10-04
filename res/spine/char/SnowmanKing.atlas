@@ -1,0 +1,279 @@
+
+SnowmanKing.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Christmas decor glow
+  rotate: false
+  xy: 223, 378
+  size: 236, 169
+  orig: 236, 169
+  offset: 0, 0
+  index: -1
+Christmas decor light
+  rotate: false
+  xy: 632, 839
+  size: 236, 169
+  orig: 236, 169
+  offset: 0, 0
+  index: -1
+Christmas decor light 2
+  rotate: true
+  xy: 462, 521
+  size: 236, 169
+  orig: 236, 169
+  offset: 0, 0
+  index: -1
+Christmas star
+  rotate: false
+  xy: 790, 156
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+Christmas star glow
+  rotate: false
+  xy: 978, 193
+  size: 44, 45
+  orig: 44, 45
+  offset: 0, 0
+  index: -1
+Christmas tree
+  rotate: true
+  xy: 2, 92
+  size: 236, 170
+  orig: 236, 170
+  offset: 0, 0
+  index: -1
+Christmas tree root
+  rotate: true
+  xy: 978, 240
+  size: 86, 44
+  orig: 86, 44
+  offset: 0, 0
+  index: -1
+Christmas tree root ground
+  rotate: true
+  xy: 552, 144
+  size: 71, 49
+  orig: 71, 49
+  offset: 0, 0
+  index: -1
+arm L
+  rotate: true
+  xy: 342, 158
+  size: 69, 102
+  orig: 69, 102
+  offset: 0, 0
+  index: -1
+arm R
+  rotate: true
+  xy: 896, 713
+  size: 48, 110
+  orig: 48, 110
+  offset: 0, 0
+  index: -1
+bg light
+  rotate: false
+  xy: 633, 640
+  size: 197, 197
+  orig: 197, 197
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 605, 187
+  size: 130, 144
+  orig: 130, 144
+  offset: 0, 0
+  index: -1
+eyes stun
+  rotate: false
+  xy: 872, 222
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+eyes2
+  rotate: false
+  xy: 2, 2
+  size: 68, 12
+  orig: 68, 12
+  offset: 0, 0
+  index: -1
+eyes3
+  rotate: false
+  xy: 872, 190
+  size: 89, 30
+  orig: 89, 30
+  offset: 0, 0
+  index: -1
+fly line
+  rotate: false
+  xy: 174, 153
+  size: 166, 175
+  orig: 166, 175
+  offset: 0, 0
+  index: -1
+gloriole
+  rotate: false
+  xy: 461, 352
+  size: 167, 167
+  orig: 167, 167
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 549
+  size: 458, 459
+  orig: 458, 459
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: true
+  xy: 665, 136
+  size: 49, 54
+  orig: 49, 54
+  offset: 0, 0
+  index: -1
+hat
+  rotate: false
+  xy: 446, 167
+  size: 104, 48
+  orig: 104, 48
+  offset: 0, 0
+  index: -1
+hat back
+  rotate: false
+  xy: 896, 763
+  size: 116, 78
+  orig: 116, 78
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 751, 190
+  size: 127, 119
+  orig: 127, 119
+  offset: 0, 0
+  index: -1
+hit fx
+  rotate: false
+  xy: 174, 18
+  size: 148, 133
+  orig: 148, 133
+  offset: 0, 0
+  index: -1
+hit fx2
+  rotate: false
+  xy: 455, 217
+  size: 148, 133
+  orig: 148, 133
+  offset: 0, 0
+  index: -1
+horn
+  rotate: true
+  xy: 603, 144
+  size: 41, 60
+  orig: 41, 60
+  offset: 0, 0
+  index: -1
+ice
+  rotate: true
+  xy: 342, 229
+  size: 147, 111
+  orig: 147, 111
+  offset: 0, 0
+  index: -1
+leg L
+  rotate: false
+  xy: 757, 142
+  size: 31, 46
+  orig: 31, 46
+  offset: 0, 0
+  index: -1
+leg R
+  rotate: false
+  xy: 721, 136
+  size: 34, 49
+  orig: 34, 49
+  offset: 0, 0
+  index: -1
+scarf
+  rotate: true
+  xy: 832, 698
+  size: 139, 62
+  orig: 139, 62
+  offset: 0, 0
+  index: -1
+scarf in
+  rotate: true
+  xy: 223, 339
+  size: 37, 111
+  orig: 37, 111
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 630, 319
+  size: 196, 196
+  orig: 196, 196
+  offset: 0, 0
+  index: -1
+smash fx3
+  rotate: false
+  xy: 633, 517
+  size: 259, 121
+  orig: 259, 121
+  offset: 0, 0
+  index: -1
+smash grond
+  rotate: false
+  xy: 462, 759
+  size: 168, 249
+  orig: 168, 249
+  offset: 0, 0
+  index: -1
+smash line
+  rotate: true
+  xy: 2, 16
+  size: 74, 170
+  orig: 74, 170
+  offset: 0, 0
+  index: -1
+snow fx
+  rotate: true
+  xy: 832, 640
+  size: 56, 53
+  orig: 56, 53
+  offset: 0, 0
+  index: -1
+snow vortex fx
+  rotate: false
+  xy: 870, 843
+  size: 149, 165
+  orig: 149, 165
+  offset: 0, 0
+  index: -1
+snowball
+  rotate: true
+  xy: 828, 328
+  size: 187, 185
+  orig: 187, 185
+  offset: 0, 0
+  index: -1
+snowball glow
+  rotate: false
+  xy: 2, 330
+  size: 219, 217
+  orig: 219, 217
+  offset: 0, 0
+  index: -1
+star1
+  rotate: false
+  xy: 824, 158
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1

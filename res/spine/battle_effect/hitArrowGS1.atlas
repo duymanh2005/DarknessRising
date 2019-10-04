@@ -1,0 +1,48 @@
+
+hitArrowGS1.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arrowS
+  rotate: false
+  xy: 2, 2
+  size: 271, 100
+  orig: 271, 100
+  offset: 0, 0
+  index: -1
+hitImpactA1
+  rotate: false
+  xy: 537, 321
+  size: 192, 178
+  orig: 192, 178
+  offset: 0, 0
+  index: -1
+hitImpactA2
+  rotate: false
+  xy: 338, 320
+  size: 197, 179
+  orig: 197, 179
+  offset: 0, 0
+  index: -1
+hitImpactA3
+  rotate: true
+  xy: 338, 117
+  size: 201, 173
+  orig: 201, 173
+  offset: 0, 0
+  index: -1
+hitImpactA4
+  rotate: false
+  xy: 731, 342
+  size: 183, 157
+  orig: 183, 157
+  offset: 0, 0
+  index: -1
+impact3
+  rotate: false
+  xy: 2, 104
+  size: 334, 395
+  orig: 334, 395
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+item_panel_focus.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pnl_pickeditems
+  rotate: false
+  xy: 2, 2
+  size: 158, 158
+  orig: 158, 158
+  offset: 0, 0
+  index: -1

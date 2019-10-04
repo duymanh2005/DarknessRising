@@ -1,0 +1,34 @@
+
+hitDamBuff.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Circle_A_small
+  rotate: false
+  xy: 2, 82
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+Shine
+  rotate: false
+  xy: 164, 227
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+ShineB_small
+  rotate: false
+  xy: 2, 2
+  size: 13, 17
+  orig: 13, 17
+  offset: 0, 0
+  index: -1
+powersword
+  rotate: false
+  xy: 2, 21
+  size: 24, 59
+  orig: 24, 59
+  offset: 0, 0
+  index: -1

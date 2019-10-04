@@ -1,0 +1,20 @@
+
+assassinhit.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+horizontal slash
+  rotate: false
+  xy: 2, 2
+  size: 164, 9
+  orig: 164, 9
+  offset: 0, 0
+  index: -1
+shadow clone jutsu
+  rotate: false
+  xy: 2, 13
+  size: 451, 378
+  orig: 451, 378
+  offset: 0, 0
+  index: -1

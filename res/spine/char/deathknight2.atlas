@@ -1,0 +1,321 @@
+
+deathknight.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lightning Sword
+  rotate: false
+  xy: 347, 419
+  size: 247, 91
+  orig: 247, 91
+  offset: 0, 0
+  index: -1
+Lightning Sword fx
+  rotate: false
+  xy: 347, 326
+  size: 247, 91
+  orig: 247, 91
+  offset: 0, 0
+  index: -1
+arm up L
+  rotate: true
+  xy: 920, 316
+  size: 34, 60
+  orig: 34, 60
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: true
+  xy: 807, 310
+  size: 67, 52
+  orig: 67, 52
+  offset: 0, 0
+  index: -1
+armor leg L
+  rotate: true
+  xy: 410, 65
+  size: 28, 33
+  orig: 28, 33
+  offset: 0, 0
+  index: -1
+armor leg R
+  rotate: false
+  xy: 739, 189
+  size: 24, 36
+  orig: 24, 36
+  offset: 0, 0
+  index: -1
+back
+  rotate: false
+  xy: 2, 10
+  size: 224, 154
+  orig: 224, 154
+  offset: 0, 0
+  index: -1
+belly
+  rotate: false
+  xy: 445, 47
+  size: 47, 46
+  orig: 47, 46
+  offset: 0, 0
+  index: -1
+belly back
+  rotate: false
+  xy: 417, 2
+  size: 44, 39
+  orig: 44, 39
+  offset: 0, 0
+  index: -1
+body low
+  rotate: false
+  xy: 765, 195
+  size: 15, 30
+  orig: 15, 30
+  offset: 0, 0
+  index: -1
+body up
+  rotate: false
+  xy: 498, 68
+  size: 93, 72
+  orig: 93, 72
+  offset: 0, 0
+  index: -1
+electric stun
+  rotate: false
+  xy: 327, 65
+  size: 81, 99
+  orig: 81, 99
+  offset: 0, 0
+  index: -1
+electric stun2
+  rotate: false
+  xy: 490, 227
+  size: 96, 97
+  orig: 96, 97
+  offset: 0, 0
+  index: -1
+electric stun3
+  rotate: false
+  xy: 410, 95
+  size: 86, 91
+  orig: 86, 91
+  offset: 0, 0
+  index: -1
+electric stun4
+  rotate: false
+  xy: 871, 409
+  size: 87, 101
+  orig: 87, 101
+  offset: 0, 0
+  index: -1
+explosion beam1
+  rotate: true
+  xy: 861, 304
+  size: 46, 57
+  orig: 46, 57
+  offset: 0, 0
+  index: -1
+explosion beam2
+  rotate: false
+  xy: 674, 184
+  size: 63, 73
+  orig: 63, 73
+  offset: 0, 0
+  index: -1
+explosion beam3
+  rotate: false
+  xy: 593, 103
+  size: 76, 80
+  orig: 76, 80
+  offset: 0, 0
+  index: -1
+explosion beam4
+  rotate: false
+  xy: 498, 142
+  size: 84, 83
+  orig: 84, 83
+  offset: 0, 0
+  index: -1
+explosion beam5
+  rotate: false
+  xy: 588, 185
+  size: 84, 72
+  orig: 84, 72
+  offset: 0, 0
+  index: -1
+explosion beam6
+  rotate: false
+  xy: 228, 2
+  size: 84, 61
+  orig: 84, 61
+  offset: 0, 0
+  index: -1
+eyes 2
+  rotate: false
+  xy: 347, 166
+  size: 43, 20
+  orig: 43, 20
+  offset: 0, 0
+  index: -1
+eyes 3
+  rotate: true
+  xy: 393, 2
+  size: 61, 22
+  orig: 61, 22
+  offset: 0, 0
+  index: -1
+eyes stun
+  rotate: false
+  xy: 671, 104
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+fly line
+  rotate: false
+  xy: 745, 379
+  size: 124, 131
+  orig: 124, 131
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 417, 44
+  size: 26, 19
+  orig: 26, 19
+  offset: 0, 0
+  index: -1
+glow fx
+  rotate: false
+  xy: 2, 166
+  size: 343, 344
+  orig: 343, 344
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: true
+  xy: 593, 43
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 960, 411
+  size: 51, 99
+  orig: 51, 99
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 674, 42
+  size: 60, 70
+  orig: 60, 70
+  offset: 0, 0
+  index: -1
+helmet
+  rotate: false
+  xy: 228, 65
+  size: 97, 99
+  orig: 97, 99
+  offset: 0, 0
+  index: -1
+helmet back
+  rotate: false
+  xy: 871, 352
+  size: 83, 55
+  orig: 83, 55
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: true
+  xy: 777, 252
+  size: 34, 21
+  orig: 34, 21
+  offset: 0, 0
+  index: -1
+jaw behind
+  rotate: true
+  xy: 982, 303
+  size: 47, 33
+  orig: 47, 33
+  offset: 0, 0
+  index: -1
+leg down L
+  rotate: false
+  xy: 463, 11
+  size: 25, 34
+  orig: 25, 34
+  offset: 0, 0
+  index: -1
+leg up L
+  rotate: false
+  xy: 739, 227
+  size: 36, 31
+  orig: 36, 31
+  offset: 0, 0
+  index: -1
+leg up R
+  rotate: true
+  xy: 737, 260
+  size: 26, 38
+  orig: 26, 38
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 596, 363
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+shoulder L
+  rotate: false
+  xy: 956, 352
+  size: 66, 55
+  orig: 66, 55
+  offset: 0, 0
+  index: -1
+shoulder R
+  rotate: false
+  xy: 314, 2
+  size: 77, 61
+  orig: 77, 61
+  offset: 0, 0
+  index: -1
+slash
+  rotate: false
+  xy: 347, 188
+  size: 141, 136
+  orig: 141, 136
+  offset: 0, 0
+  index: -1
+star1
+  rotate: true
+  xy: 777, 227
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+thunder beam
+  rotate: true
+  xy: 596, 320
+  size: 41, 209
+  orig: 41, 209
+  offset: 0, 0
+  index: -1
+thunder beam2
+  rotate: true
+  xy: 588, 288
+  size: 30, 206
+  orig: 30, 206
+  offset: 0, 0
+  index: -1
+thunder beam3
+  rotate: true
+  xy: 588, 259
+  size: 27, 147
+  orig: 27, 147
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,111 @@
+
+hitBlackRose.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dark energy cicle
+  rotate: false
+  xy: 140, 23
+  size: 118, 83
+  orig: 118, 83
+  offset: 0, 0
+  index: -1
+images/energy ball
+  rotate: false
+  xy: 140, 108
+  size: 139, 139
+  orig: 139, 139
+  offset: 0, 0
+  index: -1
+images/explode 1
+  rotate: false
+  xy: 785, 172
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+images/explode 2
+  rotate: false
+  xy: 260, 7
+  size: 43, 38
+  orig: 43, 38
+  offset: 0, 0
+  index: -1
+images/glowing light circle radial
+  rotate: false
+  xy: 281, 128
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+images/heart icon
+  rotate: false
+  xy: 281, 108
+  size: 20, 18
+  orig: 20, 18
+  offset: 0, 0
+  index: -1
+images/hit effect circle glowing
+  rotate: false
+  xy: 937, 189
+  size: 72, 58
+  orig: 72, 58
+  offset: 0, 0
+  index: -1
+images/light  cricle beam
+  rotate: false
+  xy: 862, 174
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+images/light beam
+  rotate: false
+  xy: 504, 148
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+images/light dust
+  rotate: true
+  xy: 260, 47
+  size: 59, 56
+  orig: 59, 56
+  offset: 0, 0
+  index: -1
+images/light fx
+  rotate: false
+  xy: 2, 2
+  size: 136, 245
+  orig: 136, 245
+  offset: 0, 0
+  index: -1
+images/light glow radial
+  rotate: false
+  xy: 703, 167
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/magic ring
+  rotate: false
+  xy: 402, 147
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/magic ring skillactive
+  rotate: false
+  xy: 605, 151
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+images/star
+  rotate: false
+  xy: 140, 2
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1

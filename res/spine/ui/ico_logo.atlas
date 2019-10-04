@@ -1,0 +1,27 @@
+
+ico_logo.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+MU_glow
+  rotate: false
+  xy: 2, 2
+  size: 98, 84
+  orig: 98, 84
+  offset: 0, 0
+  index: -1
+Shine
+  rotate: false
+  xy: 201, 93
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+ico_logo
+  rotate: false
+  xy: 2, 88
+  size: 197, 155
+  orig: 197, 155
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,34 @@
+
+home_elements.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BACK_HOME_HALLOWEEN_hoa
+  rotate: true
+  xy: 2, 251
+  size: 757, 1034
+  orig: 757, 1034
+  offset: 0, 0
+  index: -1
+BACK_HOME_ITEM_event
+  rotate: false
+  xy: 1038, 627
+  size: 396, 381
+  orig: 396, 381
+  offset: 0, 0
+  index: -1
+BACK_HOME_day3_event
+  rotate: false
+  xy: 1436, 871
+  size: 397, 137
+  orig: 397, 137
+  offset: 0, 0
+  index: -1
+BACK_HOME_day_event
+  rotate: false
+  xy: 2, 2
+  size: 650, 247
+  orig: 650, 247
+  offset: 0, 0
+  index: -1

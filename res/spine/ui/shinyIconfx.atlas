@@ -1,0 +1,20 @@
+
+shinyIconfx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+manashield_half
+  rotate: false
+  xy: 2, 2
+  size: 402, 335
+  orig: 402, 335
+  offset: 0, 0
+  index: -1
+spark_glow
+  rotate: false
+  xy: 2, 339
+  size: 652, 652
+  orig: 652, 652
+  offset: 0, 0
+  index: -1

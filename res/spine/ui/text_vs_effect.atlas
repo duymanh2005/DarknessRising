@@ -1,0 +1,27 @@
+
+text_vs_effect.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+VS_Text
+  rotate: false
+  xy: 2, 2
+  size: 185, 135
+  orig: 185, 135
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 2, 139
+  size: 799, 618
+  orig: 799, 618
+  offset: 0, 0
+  index: -1
+sparkle
+  rotate: false
+  xy: 803, 139
+  size: 799, 618
+  orig: 799, 618
+  offset: 0, 0
+  index: -1

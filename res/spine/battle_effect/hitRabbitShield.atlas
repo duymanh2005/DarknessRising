@@ -1,0 +1,34 @@
+
+hitRabbitShield.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glowing light circle radial
+  rotate: false
+  xy: 2, 2
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+images/heart icon
+  rotate: false
+  xy: 197, 103
+  size: 20, 18
+  orig: 20, 18
+  offset: 0, 0
+  index: -1
+images/hit effect circle glowing
+  rotate: false
+  xy: 123, 63
+  size: 72, 58
+  orig: 72, 58
+  offset: 0, 0
+  index: -1
+images/light beam underground
+  rotate: false
+  xy: 123, 29
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
