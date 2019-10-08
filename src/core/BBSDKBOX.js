@@ -49,7 +49,7 @@ bb.pluginBox = (function () {
 
     facebook.logIn = function (callback) {
         cc.log("BBSDKBOX facebook.login");
-        if (cc.sys.isNative) {
+        if (cc.sys.isNative && sdkbox) {
             facebook.loginCallback = callback;
             !fb_init && facebook.init();
             if (sdkbox.PluginFacebook.isLoggedIn()) {
@@ -99,8 +99,9 @@ bb.pluginBox = (function () {
     };
 
     admob.init = function () {
-        cc.log("BBSDKBOX admod.login");
-        if (cc.sys.isNative && !admob._isInit) {
+        cc.log("BBSDKBOX admod.init 1");
+        var skip = true;
+        if (!skip && cc.sys.isNative && !admob._isInit) {
             if ("undefined" != typeof (sdkbox.PluginAdMob)) {
                 admob._isInit = true;
                 var plugin = sdkbox.PluginAdMob;
@@ -158,7 +159,8 @@ bb.pluginBox = (function () {
     admob.isAvailable = function () {
         if (cc.sys.isNative) {
             admob.init();
-            if (sdkbox && sdkbox.PluginAdMob) {
+            var skip = true;
+            if (!skip && sdkbox.PluginAdMob) {
                 return sdkbox.PluginAdMob.isAvailable('MU-Reward-Ads');
             }
         }
@@ -168,7 +170,8 @@ bb.pluginBox = (function () {
     unityAds.init = function () {
         cc.log("BBSDKBOX unityAds.init");
         if (cc.sys.isNative && !unityAds._isInit) {
-            if (sdkbox && sdkbox.PluginUnityAds) {
+            var skip = true;
+            if (!skip && sdkbox.PluginUnityAds) {
                 unityAds._isInit = true;
                 sdkbox.PluginUnityAds.setListener({
                     unityAdsDidClick: function (placementId) {
@@ -200,7 +203,8 @@ bb.pluginBox = (function () {
     unityAds.showVideo = function (cb) {
         if (cc.sys.isNative) {
             unityAds.init();
-            if (sdkbox && sdkbox.PluginUnityAds) {
+            var skip = true;
+            if (!skip && sdkbox.PluginUnityAds) {
                 if (sdkbox.PluginUnityAds.isReady(placementId)) {
                     unityAds._showCb = cb;
                     sdkbox.PluginUnityAds.show(placementId);
@@ -213,7 +217,8 @@ bb.pluginBox = (function () {
     unityAds.isAvailable = function () {
         if (cc.sys.isNative) {
             unityAds.init();
-            if (sdkbox && sdkbox.PluginUnityAds) {
+            var skip = true;
+            if (!skip && sdkbox.PluginUnityAds) {
                 return sdkbox.PluginUnityAds.isReady(placementId);
             }
         }
@@ -256,7 +261,8 @@ bb.pluginBox = (function () {
         _purchaseCb: null,
         init: function () {
             cc.log("BBSDKBOX plugin.iap");
-            if (cc.sys.isNative && sdkbox.IAP) {
+            var skip = true;
+            if (!skip && cc.sys.isNative  && sdkbox.IAP) {
                 sdkbox.IAP.init();
                 //sdkbox.IAP.enableUserSideVerification(true);
                 sdkbox.IAP.setDebug(true);
@@ -337,7 +343,8 @@ bb.pluginBox = (function () {
     plugin.play = {};
     plugin.play._loginCb = null;
     plugin.play.init = function () {
-        if (cc.sys.isNative) {
+        var skip = true;
+        if (!skip && cc.sys.isNative ) {
             if ("undefined" != typeof (sdkbox.PluginSdkboxPlay)) {
                 var sdkboxPlay = sdkbox.PluginSdkboxPlay
                 sdkboxPlay.setListener({
@@ -420,12 +427,13 @@ bb.pluginBox = (function () {
     };
     plugin.play.signIn = function (cb) {
         plugin.play._loginCb = cb;
-        if (!sdkbox.PluginSdkboxPlay.isSignedIn()) {
+        var skip = true;
+        if (!skip && !sdkbox.PluginSdkboxPlay.isSignedIn()) {
             sdkbox.PluginSdkboxPlay.signin();
         }
     };
     plugin.play.signOut = function (cb) {
-        if (sdkbox.PluginSdkboxPlay.isSignedIn()) {
+        if (sdkbox && sdkbox.PluginSdkboxPlay.isSignedIn()) {
             sdkbox.PluginSdkboxPlay.signout();
         }
     };

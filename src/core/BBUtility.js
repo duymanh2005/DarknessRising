@@ -255,10 +255,33 @@ bb.utility = bb.utility || {};
                 }
             };
             xhr.onerror = function () {
+                cc.log("xhr request url error");
                 cb && cb(null);
             }
             xhr.send();
         } catch (exception) {
+            cc.log("request url error");
+            cb && cb(null);
+        }
+    };
+
+    bb.utility.getJsonData = function (url, cb) {
+        try {
+            var xhr = cc.loader.getXMLHttpRequest();
+            xhr.open("GET", url, true);
+            xhr.setRequestHeader('Content-type', 'application/json;charset=UTF-8');
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && (xhr.status >= 200 && xhr.status < 300)) {
+                    cb && cb(xhr.responseText);
+                }
+            };
+            xhr.onerror = function () {
+                cc.log("xhr request url error");
+                cb && cb(null);
+            }
+            xhr.send();
+        } catch (exception) {
+            cc.log("request url error");
             cb && cb(null);
         }
     };

@@ -105,18 +105,18 @@ CreantsCocosAPI.loadDeviceString = function(callback){
             _registerRunner("getDiveString",function(){
                 count++;
                 if( bb.framework.isAndroid() ){
-                    cc.log("read android device id");
+                    cc.log("CreantsCocosAPI.loadDeviceString  read android device id");
                     CreantsCocosAPI._strDeviceId = jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "getUserNames", "()Ljava/lang/String;");
                 }
                 else if( bb.framework.isIos() ){
-                    cc.log("read ios device id");
+                    cc.log("CreantsCocosAPI.loadDeviceString  read ios device id");
                     CreantsCocosAPI._strDeviceId = jsb.reflection.callStaticMethod("AppController", "getUUID");
                 }
                 else{
                     cc.log("read system" + cc.sys.os +" device id");
                 }
                 cc.log("--------------------");
-                cc.log("read str Device Id = " + CreantsCocosAPI._strDeviceId);
+                cc.log("CreantsCocosAPI.loadDeviceString  read str Device Id = " + CreantsCocosAPI._strDeviceId);
                 if( CreantsCocosAPI._strDeviceId || count >= 3){
                     _unRegisterRunner("getDiveString",CreantsCocosAPI);
                     callback && callback(CreantsCocosAPI._strDeviceId);

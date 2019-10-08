@@ -1,76 +1,13 @@
 {
   "servers": [
     {
-      "id": 11,
-      "svn": "mus4",
-      "auth": "http://login3.mu-heroes.com:9393/",
-      "ws": "ws://gs4.mu-heroes.com:9494/ws",
-      "type": "REAL",
-      "name": "S4 : Icarus",
-      "statusCode": 4
-    },
-    {
-      "id": 10,
-      "svn": "mus3",
-      "auth": "http://login2.mu-heroes.com:9393/",
-      "ws": "ws://gs3.mu-heroes.com:9494/ws",
-      "type": "REAL",
-      "name": "S3: Maya",
-      "statusCode": 3
-    },
-    {
-      "id": 3,
+      "id": 1,
       "svn": "mus1",
-      "auth": "http://muheroes-login.creants.net:9393/",
-      "ws": "ws://muheroes-sk1.creants.net:9494/ws",
-      "name": "Server TEST",
-      "type": "REAL",
-      "statusCode": 3
-    },
-    {
-      "id": 8,
-      "svn": "mus2",
-      "auth": "http://login.mu-heroes.com:9393/",
-      "ws": "ws://gs2.mu-heroes.com:9494/ws",
-      "name": "S2: Passion",
-      "type": "REAL",
-      "statusCode": 3
-    },
-    {
-      "id": 4,
-      "svn": "mus1",
-      "auth": "http://10.0.3.95:9393/",
-      "ws": "ws://10.0.3.95:9494/ws",
+      "auth": "http://192.168.5.102:9393/",
+      "ws": "ws://192.168.5.102:9494/ws",
       "name": "S1: Legendary",
       "type": "REAL",
       "statusCode": 2
-    },
-    {
-      "id": 5,
-      "svn": "mus1",
-      "auth": "http://muheroes-login.creants.net:9393/",
-      "ws": "ws://192.168.1.222:9494/ws",
-      "type": "REAL",
-      "name": "Server NHA",
-      "statusCode": 1
-    },
-    {
-      "id": 6,
-      "svn": "mus1",
-      "auth": "http://muheroes-login.creants.net:9393/",
-      "ws": "ws://192.168.1.45:9494/ws",
-      "type": "REAL",
-      "name": "Taolao Server",
-      "statusCode": 1
-    },
-    {
-      "id": 9,
-      "svn": "mus1",
-      "auth": "http://muheroes-login.creants.net:9393/",
-      "ws": "ws://192.168.31.236:9494/ws",
-      "type": "REAL",
-      "name": "Server Dong",
-      "statusCode": 1
     }
   ]
 }

@@ -835,9 +835,9 @@
         "res/gui/battle/Fire_Element_Chara_Frame.png": {
             "md5": "11d833a5886bb2ab84724068d4e277b9", 
             "size": 18898
-        }, 
+        },
         "res/gui/battle/Light_Element_Chara_Frame.png": {
-            "md5": "6f834b1976ccae9f3036f98bfdbc6588", 
+            "md5": "6f834b1976ccae9f3036f98bfdbc6588",
             "size": 18739
         }, 
         "res/gui/battle/Water_Element_Chara_Frame.png": {
@@ -13118,9 +13118,9 @@
             "size": 6743
         }
     }, 
-    "packageUrl": "http://192.168.5.101:8000/",
-    "remoteManifestUrl": "http://192.168.5.101:8000/manifest/project.manifest",
-    "remoteVersionUrl": "http://192.168.5.101:8000/manifest/version.manifest",
+    "packageUrl": "http://192.168.5.102:8000/",
+    "remoteManifestUrl": "http://192.168.5.102:8000/manifest/project.manifest",
+    "remoteVersionUrl": "http://192.168.5.102:8000/manifest/version.manifest",
     "searchPaths": [], 
     "version": "201905.1108.3842"
 }

@@ -124,8 +124,11 @@ mc.LoginScreen = bb.Screen.extend({
                 self._lblStatus.setString(mc.dictionary.getGUIString("lblLoadingServerList") + "...");
                 var localManifest = JSON.parse(strLocalManifest);
                 var url = localManifest["packageUrl"];
+                cc.log("MCLoginScreen._loadServerConfigList load local manifest with url: " + url);
+                cc.log(localManifest);
                 var isFail = true;
                 var processServerList = function (str) {
+                    cc.log("process server list");
                     if (str) {
                         var obj = null;
                         if (cc.isString(str)) {
@@ -180,6 +183,7 @@ mc.LoginScreen = bb.Screen.extend({
                 }.bind(this);
 
                 if (mc.storage.readTestServerConfig() || !cc.sys.isNative) {
+                    cc.log("MCLoginScreen._loadServerConfigList read test server config or is not native ");
                     var resServer = "res/server-list.json";
                     cc.loader.load(resServer, function () {
                     }, function () {
@@ -187,9 +191,13 @@ mc.LoginScreen = bb.Screen.extend({
                         processServerList(str);
                     });
                 } else {
-                    bb.utility.getDataFromURL(url + "server-list.json", function (str) {
-                        processServerList(str);
-                    }.bind(this));
+                    let reqUrl = url + "manifest/mufantasy/res/server-list.json";
+                    cc.log(reqUrl);
+                    processServerList(mc.const.SERVERS);
+                    // bb.utility.getJsonData(reqUrl, function (str) {
+                    //     processServerList(str);
+                    // }.bind(this));
+
                 }
             }
         }
@@ -259,12 +267,12 @@ mc.LoginScreen = bb.Screen.extend({
             cc.log("MCLoginScreen._startLoadingGameResource check load server list");
             // load game data.
             mc.dictionary.loadData();
-            bb.pluginBox.ads.init();
-            bb.pluginBox.iap.init();
-            bb.pluginBox.analytics.init();
-            self.runAction(cc.sequence([cc.delayTime(1.0), cc.callFunc(function () {
-                bb.pluginBox.ads.cache();
-            })]));
+            // bb.pluginBox.ads.init();
+            // bb.pluginBox.iap.init();
+            // bb.pluginBox.analytics.init();
+            // self.runAction(cc.sequence([cc.delayTime(1.0), cc.callFunc(function () {
+            //     bb.pluginBox.ads.cache();
+            // })]));
             cc.log("MCLoginScreen._startLoadingGameResource: Do load config");
             CreantsCocosAPI.loadConfig();
 
@@ -275,8 +283,7 @@ mc.LoginScreen = bb.Screen.extend({
                 this._showBtnStartGame();
             }
             else {
-                var isLogin = false;
-                isLogin = this._loginBySavedToken();
+                const isLogin = this._loginBySavedToken();
                 if(isLogin)
                 this._showBtnStartGame();
             }
