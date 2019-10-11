@@ -73,6 +73,7 @@ mc.MainScreen = mc.Screen.extend({
     },
 
     initResources: function () {
+        cc.log("init resource for MCMainScreen");
         this._loadCommonResource();
 
         mc.GameData.guiState.setCurrentEditFormationTeamId(mc.TeamFormationManager.TEAM_CAMPAIGN);

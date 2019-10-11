@@ -410,6 +410,7 @@
 
         //SENDER
         protocol.logInMUGame = function (dataResult, svName, callback) {
+            cc.log("protocol logInMUGame");
             mc.log("sign in MU Game!!");
             QANT2X.login(dataResult.token, "", svName || "mus1");
             callback && _registerCallback(QANT2X.SystemRequest.Login, callback);
@@ -2040,6 +2041,7 @@
         MessageManager.addReceiveCallback(QANT2X.SystemRequest.Login, function (response) {
             var json = response.toJson();
             if (json["uid"]) {
+                cc.log("---- Login success");
                 playerInfo.setCreantsSAcc({
                     creantId: response.getValue("uid"),
                     creantName: response.getValue("p").getValue("fn"),
@@ -2061,6 +2063,7 @@
             _performCallback(QANT2X.SystemRequest.Logout, json);
         });
         MessageManager.addReceiveCallback(key.MU_EXTENSION.JOIN_GAME, function (response) {
+            cc.log("Handle join game!");
             var json = response.toJson();
             var game_hero = json["game_hero"];
             var mapTeamByIndex = bb.utility.arrayToMap(json["teams"], function (team) {
@@ -2126,7 +2129,7 @@
                     notifySystem.buildAllNotificationAboutItem();
                     notifySystem.buildHeroInvolveNotification();
                     notifySystem.buildQuestGroupNotification();
-                    setting.setSettingData(settingData);
+                    // setting.setSettingData(settingData);
                     connectionState.setState(mc.ConnectionState.SOCKET_STATE_LOGON);
                     playerInfo.notifyDataChanged();
                     heroStock.notifyDataChanged();

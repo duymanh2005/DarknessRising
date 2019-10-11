@@ -32,8 +32,8 @@ mc.const = {
             {
                 "id": 1,
                 "svn": "mus1",
-                "auth": "http://192.168.5.102:9393/",
-                "ws": "ws://192.168.5.102:9494/ws",
+                "auth": "http://192.168.5.105:9393/",
+                "ws": "ws://192.168.5.105:9494/ws",
                 "name": "S1: Legendary",
                 "type": "REAL",
                 "statusCode": 2
@@ -119,7 +119,7 @@ mc.const = {
     ITEM_INDEX_LIFEORB: 11913,
     ITEM_INDEX_BLOODSTONE: 11060,
 
-    TUTORIAL_CHARACTER_DRAGON: 104,
+    TUTORIAL_CHARACTER_DRAGON: 113,
     TUTORIAL_CHARACTER_ELF: 354,
     TUTORIAL_CHARACTER_WIZARD: 204,
 

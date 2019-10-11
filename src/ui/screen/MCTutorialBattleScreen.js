@@ -16,6 +16,7 @@ mc.BackgroundStoryScreen = bb.Screen.extend({
 
         cc.spriteFrameCache.addSpriteFrames(res.button_plist);
 
+        cc.log("MCTutorialBattleScreen show story video");
         bb.sound.playMusic(res.sound_bgm_story1);
         var spineStory = sp.SkeletonAnimation.createWithJsonFile(res.spine_ui_storyline_json,res.spine_ui_storyline_atlas, 1.0);
         spineStory.setAnimation(1,"story1",false);
@@ -418,6 +419,7 @@ mc.TutorialBattleScreen = bb.Screen.extend({
                         mc.GameData.settingManager.saveAll();
                         mc.GameData.settingManager.flush(function(){
                             new mc.SetPlayerNameDialog(function(){
+                                cc.log("MCTutorialBattleScreen show main screen");
                                 new mc.MainScreen().show();
                             }).show();
                         });

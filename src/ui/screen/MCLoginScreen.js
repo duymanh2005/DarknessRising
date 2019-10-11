@@ -388,6 +388,7 @@ mc.LoginScreen = bb.Screen.extend({
     _registerPlayerInfoListener: function () {
         var self = this;
         var _showGame = function () {
+            cc.log("MCLoginScreen_registerPlayerInfoListener");
             self._facebookToken && CreantsCocosAPI.linkFacebook(self._facebookToken, mc.GameData.playerInfo.getId());
             self._accountKitToken && CreantsCocosAPI.linkAccountKit(self._accountKitToken, mc.GameData.playerInfo.getId());
             self._pickServer && mc.storage.saveLoginServer(self._pickServer);
@@ -397,9 +398,11 @@ mc.LoginScreen = bb.Screen.extend({
             }
             else {
                 if (mc.GameData.storyManager.getStoryIndex() === 0) {
+                    cc.log("MCLoginScreen_registerPlayerInfoListener show BackgroundStoryScreen");
                     new mc.BackgroundStoryScreen().show();
                 }
                 else {
+                    cc.log("MCLoginScreen_registerPlayerInfoListener show main screen");
                     new mc.MainScreen().show();
                 }
             }
@@ -453,7 +456,7 @@ mc.LoginScreen = bb.Screen.extend({
                     bb.framework.getGUIFactory().createConnectionSupport().show();
                     self._showBtnStartGame();
                 });
-                cc.log('startConnect: ' + pickServer["auth"] + ", " + pickServer["ws"]);
+                cc.log('MCLoginScreen startConnect: ' + pickServer["auth"] + ", " + pickServer["ws"]);
                 mc.protocol.startConnect(pickServer["auth"], pickServer["ws"]);
                 self._unRegisterAllListener();
                 self._socketStateTrack = bb.director.trackGlueObject(mc.GameData.connectionState, function (state) {
@@ -575,6 +578,7 @@ mc.LoginScreen = bb.Screen.extend({
         else {
             var pickServer = self._pickServer || mc.storage.readLoginServer();
             var _connectToPickingServer = function () {
+                cc.log("MCLoginScreen _connectToPickingServer");
                 self._lblStatus.setString(mc.dictionary.getGUIString("lblConnectingServer") + "...");
                 mc.protocol.startConnect(pickServer["auth"], pickServer["ws"]);
                 self._unRegisterAllListener();
