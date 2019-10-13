@@ -267,12 +267,12 @@ mc.LoginScreen = bb.Screen.extend({
             cc.log("MCLoginScreen._startLoadingGameResource check load server list");
             // load game data.
             mc.dictionary.loadData();
-            // bb.pluginBox.ads.init();
-            // bb.pluginBox.iap.init();
-            // bb.pluginBox.analytics.init();
-            // self.runAction(cc.sequence([cc.delayTime(1.0), cc.callFunc(function () {
-            //     bb.pluginBox.ads.cache();
-            // })]));
+            //bb.pluginBox.ads.init();
+            //bb.pluginBox.iap.init();
+            //bb.pluginBox.analytics.init();
+            self.runAction(cc.sequence([cc.delayTime(1.0), cc.callFunc(function () {
+                bb.pluginBox.ads.cache();
+            })]));
             cc.log("MCLoginScreen._startLoadingGameResource: Do load config");
             CreantsCocosAPI.loadConfig();
 
