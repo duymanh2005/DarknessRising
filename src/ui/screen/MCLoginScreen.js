@@ -215,6 +215,16 @@ mc.LoginScreen = bb.Screen.extend({
         btnStartGame.opacity = 0;
         layer.addChild(btnStartGame);
 
+        // var video = new ccui.VideoPlayer();
+        // var scrWidth = cc.winSize.width;
+        // var scrHeight = cc.winSize.height;
+        // video.setContentSize(scrWidth, scrHeight);
+        // video.setPosition(scrWidth/2,scrHeight/2);
+        // window.video = video;
+        // layer.addChild(video);
+        // video.setURL('res/video/okbaby.mp4');
+        // video.play();
+
         const btnSetting = new ccui.ImageView("button/roundSetting.png", ccui.Widget.PLIST_TEXTURE);
         btnSetting.x = cc.winSize.width - btnSetting.width * 0.5 - 10;
         btnSetting.y = cc.winSize.height - btnSetting.height * 0.5 - 10;
