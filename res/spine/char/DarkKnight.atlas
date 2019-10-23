@@ -1,264 +1,271 @@
 
 DarkKnight.png
-size: 1024,512
+size: 2048,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 Default
   rotate: true
-  xy: 2, 41
-  size: 147, 320
-  orig: 147, 320
+  xy: 2, 50
+  size: 121, 337
+  orig: 121, 337
   offset: 0, 0
   index: -1
 DefaultEffect
   rotate: false
-  xy: 2, 190
-  size: 320, 320
-  orig: 320, 320
+  xy: 2, 173
+  size: 337, 337
+  orig: 337, 337
+  offset: 0, 0
+  index: -1
+Face
+  rotate: false
+  xy: 1186, 393
+  size: 106, 117
+  orig: 106, 117
   offset: 0, 0
   index: -1
 Head
   rotate: false
-  xy: 566, 64
-  size: 161, 156
-  orig: 161, 156
+  xy: 981, 305
+  size: 203, 205
+  orig: 203, 205
   offset: 0, 0
   index: -1
 L arm
   rotate: false
-  xy: 827, 39
+  xy: 1135, 259
   size: 49, 44
   orig: 49, 44
   offset: 0, 0
   index: -1
 L arm copy
   rotate: false
-  xy: 878, 37
+  xy: 207, 2
   size: 47, 46
   orig: 47, 46
   offset: 0, 0
   index: -1
 L boot
   rotate: true
-  xy: 523, 9
+  xy: 418, 39
   size: 35, 44
   orig: 35, 44
   offset: 0, 0
   index: -1
 L bracer
-  rotate: false
-  xy: 903, 125
+  rotate: true
+  xy: 464, 35
   size: 39, 30
   orig: 39, 30
   offset: 0, 0
   index: -1
 L bracer copy
   rotate: false
-  xy: 903, 95
+  xy: 1435, 406
   size: 40, 28
   orig: 40, 28
   offset: 0, 0
   index: -1
 L leg
-  rotate: true
-  xy: 324, 2
+  rotate: false
+  xy: 1840, 454
   size: 68, 56
   orig: 68, 56
   offset: 0, 0
   index: -1
 L palm
   rotate: false
-  xy: 569, 13
+  xy: 1186, 263
   size: 48, 49
   orig: 48, 49
   offset: 0, 0
   index: -1
 L palm copy
   rotate: false
-  xy: 619, 13
+  xy: 1236, 263
   size: 48, 49
   orig: 48, 49
   offset: 0, 0
   index: -1
 L waist
   rotate: false
-  xy: 906, 157
+  xy: 1392, 406
   size: 41, 28
   orig: 41, 28
   offset: 0, 0
   index: -1
 R boot
   rotate: false
-  xy: 769, 26
+  xy: 256, 2
   size: 46, 46
   orig: 46, 46
   offset: 0, 0
   index: -1
 R leg
   rotate: false
-  xy: 382, 9
+  xy: 1765, 449
   size: 73, 61
   orig: 73, 61
   offset: 0, 0
   index: -1
 R palm
   rotate: true
-  xy: 669, 15
+  xy: 1985, 463
   size: 47, 50
   orig: 47, 50
   offset: 0, 0
   index: -1
 R shoulder
   rotate: false
-  xy: 952, 222
+  xy: 339, 4
   size: 62, 44
   orig: 62, 44
   offset: 0, 0
   index: -1
 R waist
-  rotate: false
-  xy: 721, 2
+  rotate: true
+  xy: 304, 2
   size: 46, 33
   orig: 46, 33
   offset: 0, 0
   index: -1
 eye1
-  rotate: true
-  xy: 529, 46
-  size: 64, 35
-  orig: 64, 35
+  rotate: false
+  xy: 500, 84
+  size: 71, 26
+  orig: 71, 26
   offset: 0, 0
   index: -1
 eye2
   rotate: false
-  xy: 457, 6
-  size: 64, 64
-  orig: 64, 64
+  xy: 1910, 470
+  size: 73, 40
+  orig: 73, 40
   offset: 0, 0
   index: -1
 eye3
   rotate: false
-  xy: 952, 186
-  size: 64, 34
-  orig: 64, 34
+  xy: 1062, 277
+  size: 71, 26
+  orig: 71, 26
   offset: 0, 0
   index: -1
 eye4
-  rotate: true
-  xy: 964, 398
-  size: 112, 55
-  orig: 112, 55
+  rotate: false
+  xy: 1483, 455
+  size: 104, 55
+  orig: 104, 55
   offset: 0, 0
   index: -1
 eye5
   rotate: false
-  xy: 964, 268
-  size: 58, 35
-  orig: 58, 35
+  xy: 341, 50
+  size: 75, 24
+  orig: 75, 24
   offset: 0, 0
   index: -1
 fire_circle_ground
   rotate: false
-  xy: 566, 222
+  xy: 583, 222
   size: 130, 130
   orig: 130, 130
   offset: 0, 0
   index: -1
 light_circle_effect1A
   rotate: false
-  xy: 324, 354
+  xy: 341, 354
   size: 396, 156
   orig: 396, 156
   offset: 0, 0
   index: -1
 light_circle_effect1B
   rotate: false
-  xy: 161, 8
+  xy: 981, 272
   size: 79, 31
   orig: 79, 31
   offset: 0, 0
   index: -1
 light_circle_effect1C
-  rotate: false
-  xy: 242, 8
+  rotate: true
+  xy: 681, 141
   size: 79, 31
   orig: 79, 31
   offset: 0, 0
   index: -1
 precast/Light_SparkA
-  rotate: true
-  xy: 964, 305
+  rotate: false
+  xy: 1589, 466
   size: 91, 44
   orig: 91, 44
   offset: 0, 0
   index: -1
 precast/Light_circleA
   rotate: false
-  xy: 324, 112
+  xy: 341, 112
   size: 240, 240
   orig: 240, 240
   offset: 0, 0
   index: -1
 precast/Light_lineA
   rotate: false
-  xy: 2, 5
+  xy: 341, 76
   size: 157, 34
   orig: 157, 34
   offset: 0, 0
   index: -1
 shadow
   rotate: false
-  xy: 324, 72
+  xy: 2, 10
   size: 203, 38
   orig: 203, 38
   offset: 0, 0
   index: -1
 silk
-  rotate: false
-  xy: 906, 187
+  rotate: true
+  xy: 1682, 466
   size: 44, 81
   orig: 44, 81
   offset: 0, 0
   index: -1
 slash
   rotate: false
-  xy: 722, 270
+  xy: 739, 270
   size: 240, 240
   orig: 240, 240
   offset: 0, 0
   index: -1
 swelllife/light_PNG14408
   rotate: false
-  xy: 729, 172
+  xy: 583, 124
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
 swelllife/light_growA
-  rotate: true
-  xy: 827, 85
+  rotate: false
+  xy: 1392, 436
   size: 89, 74
   orig: 89, 74
   offset: 0, 0
   index: -1
 swelllife/light_ringbold
   rotate: false
-  xy: 729, 74
+  xy: 1294, 414
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
 swelllife/speedlight_effect
   rotate: false
-  xy: 698, 320
+  xy: 715, 320
   size: 2, 32
   orig: 2, 32
   offset: 0, 0
   index: -1
 torso
-  rotate: false
-  xy: 827, 176
+  rotate: true
+  xy: 1186, 314
   size: 77, 92
   orig: 77, 92
   offset: 0, 0

@@ -6,7 +6,7 @@ filter: Linear,Linear
 repeat: none
 1
   rotate: false
-  xy: 3902, 323
+  xy: 1715, 60
   size: 187, 187
   orig: 187, 187
   offset: 0, 0
@@ -20,21 +20,21 @@ repeat: none
   index: -1
 4
   rotate: true
-  xy: 2772, 323
+  xy: 2974, 323
   size: 187, 242
   orig: 187, 242
   offset: 0, 0
   index: -1
 5
   rotate: true
-  xy: 2047, 283
+  xy: 2011, 283
   size: 227, 250
   orig: 227, 250
   offset: 0, 0
   index: -1
 6
   rotate: false
-  xy: 2541, 281
+  xy: 2743, 281
   size: 229, 229
   orig: 229, 229
   offset: 0, 0
@@ -55,30 +55,58 @@ repeat: none
   index: -1
 Eff
   rotate: false
-  xy: 1613, 25
+  xy: 2536, 200
   size: 106, 87
   orig: 106, 87
   offset: 0, 0
   index: -1
 Effect/ice_00
   rotate: false
-  xy: 2218, 48
+  xy: 1534, 13
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 Effect/water_magic_circle
   rotate: false
-  xy: 3700, 310
+  xy: 3424, 310
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 Effect/water_magic_ring
   rotate: false
-  xy: 1769, 78
+  xy: 3626, 310
   size: 200, 200
   orig: 200, 200
+  offset: 0, 0
+  index: -1
+L lower wing
+  rotate: false
+  xy: 3828, 255
+  size: 189, 105
+  orig: 189, 105
+  offset: 0, 0
+  index: -1
+L upper wing
+  rotate: false
+  xy: 2263, 289
+  size: 238, 221
+  orig: 238, 221
+  offset: 0, 0
+  index: -1
+R lower wing
+  rotate: true
+  xy: 1904, 79
+  size: 189, 105
+  orig: 189, 105
+  offset: 0, 0
+  index: -1
+R upper wing
+  rotate: false
+  xy: 2503, 289
+  size: 238, 221
+  orig: 238, 221
   offset: 0, 0
   index: -1
 Staff
@@ -97,161 +125,161 @@ Staff 2
   index: -1
 arm L
   rotate: true
-  xy: 1734, 180
+  xy: 1484, 91
   size: 67, 33
   orig: 67, 33
   offset: 0, 0
   index: -1
 arm R
   rotate: true
-  xy: 1734, 111
+  xy: 4058, 443
   size: 67, 33
   orig: 67, 33
   offset: 0, 0
   index: -1
 boot L
   rotate: true
-  xy: 1043, 10
+  xy: 950, 10
   size: 38, 79
   orig: 38, 79
   offset: 0, 0
   index: -1
 boot R
   rotate: true
-  xy: 958, 10
+  xy: 865, 10
   size: 38, 83
   orig: 38, 83
   offset: 0, 0
   index: -1
 bracer L
   rotate: false
-  xy: 1202, 9
+  xy: 1109, 9
   size: 56, 39
   orig: 56, 39
   offset: 0, 0
   index: -1
 bracer R
   rotate: false
-  xy: 1124, 7
+  xy: 1031, 7
   size: 76, 41
   orig: 76, 41
   offset: 0, 0
   index: -1
 eyes close
-  rotate: false
-  xy: 2141, 64
+  rotate: true
+  xy: 1484, 2
   size: 75, 48
   orig: 75, 48
   offset: 0, 0
   index: -1
 eyes cry
   rotate: true
-  xy: 2717, 180
+  xy: 4019, 261
   size: 99, 57
   orig: 99, 57
   offset: 0, 0
   index: -1
 eyes default
   rotate: false
-  xy: 2708, 130
+  xy: 1600, 29
   size: 79, 48
   orig: 79, 48
   offset: 0, 0
   index: -1
 face
   rotate: false
-  xy: 2473, 130
+  xy: 2178, 143
   size: 118, 138
   orig: 118, 138
   offset: 0, 0
   index: -1
 foot L
-  rotate: false
-  xy: 2368, 73
+  rotate: true
+  xy: 4058, 399
   size: 42, 28
   orig: 42, 28
   offset: 0, 0
   index: -1
 foot R
-  rotate: false
-  xy: 2977, 289
+  rotate: true
+  xy: 1681, 43
   size: 34, 32
   orig: 34, 32
   offset: 0, 0
   index: -1
 hair back
-  rotate: true
-  xy: 2296, 103
+  rotate: false
+  xy: 2011, 106
   size: 165, 175
   orig: 165, 175
   offset: 0, 0
   index: -1
 hair front
   rotate: false
-  xy: 2593, 180
+  xy: 2298, 188
   size: 122, 99
   orig: 122, 99
   offset: 0, 0
   index: -1
 hand L
   rotate: false
-  xy: 2327, 62
+  xy: 1681, 2
   size: 39, 39
   orig: 39, 39
   offset: 0, 0
   index: -1
 hand R
-  rotate: false
-  xy: 2284, 61
+  rotate: true
+  xy: 2495, 144
   size: 41, 40
   orig: 41, 40
   offset: 0, 0
   index: -1
 helmet
   rotate: false
-  xy: 3494, 319
+  xy: 3218, 319
   size: 204, 191
   orig: 204, 191
   offset: 0, 0
   index: -1
 ice effect 1 copy
   rotate: false
-  xy: 1519, 114
+  xy: 1269, 25
   size: 213, 133
   orig: 213, 133
   offset: 0, 0
   index: -1
 ice effect 2 copy
-  rotate: true
-  xy: 1971, 84
+  rotate: false
+  xy: 1519, 79
   size: 194, 168
   orig: 194, 168
   offset: 0, 0
   index: -1
 leg L
-  rotate: false
-  xy: 2025, 3
+  rotate: true
+  xy: 2807, 223
   size: 56, 79
   orig: 56, 79
   offset: 0, 0
   index: -1
 leg R
-  rotate: false
-  xy: 2083, 3
+  rotate: true
+  xy: 2888, 226
   size: 53, 79
   orig: 53, 79
   offset: 0, 0
   index: -1
 precast/Light_SparkA
   rotate: false
-  xy: 865, 4
+  xy: 2178, 97
   size: 91, 44
   orig: 91, 44
   offset: 0, 0
   index: -1
 precast/Light_circleA
   rotate: false
-  xy: 2299, 270
+  xy: 1769, 270
   size: 240, 240
   orig: 240, 240
   offset: 0, 0
@@ -265,85 +293,57 @@ precast/Light_lineA
   index: -1
 shadow
   rotate: false
-  xy: 2772, 282
+  xy: 2974, 282
   size: 203, 39
   orig: 203, 39
   offset: 0, 0
   index: -1
 shield
   rotate: true
-  xy: 1269, 10
+  xy: 3828, 362
   size: 148, 228
   orig: 148, 228
   offset: 0, 0
   index: -1
 shoulder L
   rotate: false
-  xy: 2881, 217
+  xy: 2717, 216
   size: 88, 63
   orig: 88, 63
   offset: 0, 0
   index: -1
 shoulder R
-  rotate: false
-  xy: 2776, 209
+  rotate: true
+  xy: 2644, 184
   size: 103, 71
   orig: 103, 71
   offset: 0, 0
   index: -1
 silk
   rotate: true
-  xy: 2593, 131
+  xy: 2298, 139
   size: 47, 113
   orig: 47, 113
   offset: 0, 0
   index: -1
 torso
   rotate: true
-  xy: 1499, 12
+  xy: 2422, 187
   size: 100, 112
   orig: 100, 112
   offset: 0, 0
   index: -1
 waist L
   rotate: false
-  xy: 2138, 14
+  xy: 2717, 166
   size: 61, 48
   orig: 61, 48
   offset: 0, 0
   index: -1
 waist R
-  rotate: true
-  xy: 1971, 2
+  rotate: false
+  xy: 2413, 133
   size: 80, 52
   orig: 80, 52
-  offset: 0, 0
-  index: -1
-wings/level 1
-  rotate: true
-  xy: 2141, 114
-  size: 167, 153
-  orig: 167, 153
-  offset: 0, 0
-  index: -1
-wings/level 2
-  rotate: true
-  xy: 3255, 333
-  size: 177, 237
-  orig: 177, 237
-  offset: 0, 0
-  index: -1
-wings/level 2.5
-  rotate: true
-  xy: 3016, 319
-  size: 191, 237
-  orig: 191, 237
-  offset: 0, 0
-  index: -1
-wings/level 3
-  rotate: true
-  xy: 1769, 280
-  size: 230, 276
-  orig: 230, 276
   offset: 0, 0
   index: -1

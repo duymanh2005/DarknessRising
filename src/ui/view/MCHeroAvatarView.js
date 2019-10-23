@@ -60,6 +60,7 @@ mc.HeroAvatarView = ccui.Widget.extend({
             var urlBrk = null;
             var asset = mc.dictionary.getCreatureAssetByIndex(heroInfo.index);
             var urlIcon = asset && asset.getIconURL();
+            cc.log("MCHeroAvatarView setHeroInfo:" + urlIcon);
             if (!cc.spriteFrameCache.getSpriteFrame(urlIcon)) {
                 urlIcon = "png/char/icon/Unknow.png";
             }
