@@ -318,5 +318,6 @@
     "src/ui/layer/MCRelicArenaHostLayer.js",
     "src/ui/layer/MCSelectArenaLayer.js",
     "src/ui/layer/MCBloodCastleStageListLayer.js"
-  ]
+  ],
+  "version": "2.1.2"
 }
