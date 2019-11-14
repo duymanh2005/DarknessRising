@@ -5,21 +5,6 @@
     var LOG_PROTOCOL = mc.const.ENABLE_LOG;
     var protocol = {};
     var key = protocol.key = {};
-    cc.log("protocol request socket config");
-    key.NETWORK_URL = "ws://192.168.1.75:9494/ws";
-    key.NETWORK_URL = "ws://112.78.15.60:9494/ws";
-    if (!mc.const.DEBUG_GAME) {
-        key.NETWORK_URL = "ws://gs1.mu-heroes.com:9494/ws";
-        if (creants_config) {
-            creants_config["REST_URL"] = "http://login.mu-heroes.com:9393/";
-        }
-    } else {
-        key.NETWORK_URL = (mc.const.TEST_DEVICE != null) ? "ws://192.168.1.75:9494/ws" : "ws://muheroes-sk1.creants.net:9494/ws";
-        key.NETWORK_URL = "ws://muheroes-sk1.creants.net:9494/ws";
-        if (creants_config) {
-            creants_config["REST_URL"] = "http://muheroes-login.creants.net:9393/";
-        }
-    }
     key.MU_EXTENSION = {
         JOIN_GAME: "join_game",
         JOIN_CHAPTER: "cmd_join_chapter",

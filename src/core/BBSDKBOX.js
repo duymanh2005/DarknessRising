@@ -140,6 +140,7 @@ bb.pluginBox = (function () {
         }
     };
     admob.cache = function () {
+        cc.log("******** admob cache *******");
         if (cc.sys.isNative) {
             if (sdkbox && sdkbox.PluginAdMob) {
                 sdkbox.PluginAdMob.cache('MU-Reward-Ads');
@@ -148,6 +149,7 @@ bb.pluginBox = (function () {
         }
     };
     admob.showVideo = function (cb) {
+        cc.log("******** admob showVideo *******");
         if (cc.sys.isNative) {
             admob.init();
             if (sdkbox && sdkbox.PluginAdMob) {
@@ -157,6 +159,7 @@ bb.pluginBox = (function () {
         }
     };
     admob.isAvailable = function () {
+        cc.log("******** admob isAvailable *******");
         if (cc.sys.isNative) {
             admob.init();
             var skip = true;

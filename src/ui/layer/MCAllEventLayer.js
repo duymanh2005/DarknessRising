@@ -138,6 +138,7 @@ mc.AllEventLayer = mc.MainBaseLayer.extend({
                 label: mc.dictionary.getGUIString("lblBloodCastle"),
                 callback: function () {
                     mc.view_utility.confirmFunction(arrFunctionCode[6], function () {
+                        self.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_BLOOD_CASTLE_STAGE_LIST);
                         var loadingId = mc.view_utility.showLoadingDialog();
                         mc.protocol.getBloodCastleInfo(function (result) {
                             mc.view_utility.hideLoadingDialogById(loadingId);

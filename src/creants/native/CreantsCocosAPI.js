@@ -109,8 +109,15 @@ CreantsCocosAPI.loadDeviceString = function(callback){
                     CreantsCocosAPI._strDeviceId = jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "getUserNames", "()Ljava/lang/String;");
                 }
                 else if( bb.framework.isIos() ){
+                    // cc.log("******** CALL APPController");
+                    // var ret = jsb.reflection.callStaticMethod("AppController",
+                    //                        "callNativeUIWithTitle:andContent:",
+                    //                        "cocos2d-js",
+                    //                        "Yes! you call a Native UI from Reflection");
+                    // cc.log("******* TEST *******: " + ret);
                     cc.log("CreantsCocosAPI.loadDeviceString  read ios device id");
-                    CreantsCocosAPI._strDeviceId = jsb.reflection.callStaticMethod("AppController", "getUUID");
+                    // CreantsCocosAPI._strDeviceId = jsb.reflection.callStaticMethod("AppController", "getUUID");
+                    CreantsCocosAPI._strDeviceId = jsb.reflection.callStaticMethod("AppController", "getUUID:andContent:","title","content");
                 }
                 else{
                     cc.log("read system" + cc.sys.os +" device id");
