@@ -77,6 +77,7 @@ mc.BloodCastleStageListLayer = mc.MainBaseLayer.extend({
         lblTitle.setOverlayColor(mc.color.GREEN_NORMAL);
         nodeBrk.addChild(new ccui.ImageView("res/brk/BG_Hero_Info.png", ccui.Widget.LOCAL_TEXTURE));
 
+        cc.log("stage list by level");
         var arrItems = [];
         var arrBloodCastleLvl = [];
         for (var lvlIndex in mc.dictionary.mapBloodCastleStagesByLvl) {

@@ -1208,14 +1208,14 @@
         protocol.fightBloodCastleStage = function (stageBloodCastleId, callback) {
             var params = new QAntObject();
             params.putInt("act", BLOOD_CASTLE_FIGHT);
-            params.putInt("bcIndex", stageBloodCastleId);
+            params.putInt("index", stageBloodCastleId);
             callback && _registerCallback(key.MU_EXTENSION.BLOOD_CASTLE + "_" + BLOOD_CASTLE_FIGHT, callback);
             QANT2X.sendExtensionMessage(key.MU_EXTENSION.BLOOD_CASTLE, params);
         };
         protocol.finishBloodCastleStage = function (bcIndex, star, finishTime, finishWaveIdx, callback) {
             var params = new QAntObject();
             params.putInt("act", BLOOD_CASTLE_FINISH);
-            params.putInt("bcIndex", bcIndex);
+            params.putInt("index", bcIndex);
             params.putBool("win", star > 0);
             params.putLong("finishTime", finishTime);
             params.putInt("finishWaveIdx", finishWaveIdx);
