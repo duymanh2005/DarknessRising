@@ -457,6 +457,8 @@ var creants_api = (function () {
         this.requestFacebook = function () {
         };
         this.clearFacebookToken = function(){
+            cc.log("clear facebook token");
+            this.clearToken();
         };
         this.requestAccountKit = function(){
         };
@@ -472,6 +474,7 @@ var creants_api = (function () {
 
         };
         this.clearToken = function(){
+            cc.log('[creants_api] clear token');
             this.removeItem(creants_api.KEY_LOGIN_TOKEN);
         };
         this.setEnableAutoSavingToken = function(enable){

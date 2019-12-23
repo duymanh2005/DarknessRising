@@ -58,11 +58,11 @@ bb.GUIFactory = cc.Class.extend({
     },
 
     createConnectionSupport: function () {
-        const dialog = new mc.DefaultDialog()
+        var dialog = new mc.DefaultDialog()
             .setTitle("Warning")
             .setMessage(mc.dictionary.getGUIString("txtCanNotLoginByInternetConnection"));
-        const btn1 = bb.framework.getGUIFactory().createButton(mc.dictionary.getGUIString("lblSupport"));
-        const btn2 = bb.framework.getGUIFactory().createButton(mc.dictionary.getGUIString("lblClose"));
+        var btn1 = bb.framework.getGUIFactory().createButton(mc.dictionary.getGUIString("lblSupport"));
+        var btn2 = bb.framework.getGUIFactory().createButton(mc.dictionary.getGUIString("lblClose"));
         dialog.setButton_1View(btn1, function () {
             cc.sys.openURL("https://www.facebook.com/groups/173043833624803/");
         }.bind(this));
@@ -247,7 +247,7 @@ bb.DefaultSplashLayer = cc.LayerColor.extend({
         this._super(cc.hexToColor("#f0f0f0"));
         this._callback = cb;
         delayTime = delayTime || 1.0;
-        const _func = function () {
+        var _func = function () {
             this.initLoadingGUI();
             this.runAction(cc.sequence([cc.delayTime(delayTime), cc.callFunc(function () {
                 this._callback && this._callback();
@@ -259,15 +259,15 @@ bb.DefaultSplashLayer = cc.LayerColor.extend({
             }.bind(this));
         } else {
             this.initLoadingGUI();
-            const self = this;
-            const lblProgress = new cc.LabelBMFont("", res.font_cam_stroke_32_export_fnt);
+            var self = this;
+            var lblProgress = new cc.LabelBMFont("", res.font_cam_stroke_32_export_fnt);
             lblProgress.x = cc.winSize.width * 0.5;
             lblProgress.y = cc.winSize.height * 0.15;
             this.addChild(lblProgress);
             this._imgLogo.registerTouchEvent(function () {
                 new mc.GetStringDialog("192.168", function (ip) {
-                    let manifest;
-                    let strManifest = jsb.fileUtils.getStringFromFile("res/project.manifest");
+                    var manifest;
+                    var strManifest = jsb.fileUtils.getStringFromFile("res/project.manifest");
                     cc.log("strManifest2: " + strManifest);
                     strManifest && (manifest = JSON.parse(strManifest));
                     manifest["packageUrl"] = cc.formatStr("http://%s:8000/", ip);
@@ -275,21 +275,21 @@ bb.DefaultSplashLayer = cc.LayerColor.extend({
                     manifest["remoteVersionUrl"] = cc.formatStr("http://%s:8000/version.manifest", ip);
                     cc.log("manifest: " + manifest["remoteManifestUrl"]);
 
-                    const storagePath = ((jsb.fileUtils ? jsb.fileUtils.getWritablePath() : "/") + "remote_assets/");
+                    var storagePath = ((jsb.fileUtils ? jsb.fileUtils.getWritablePath() : "/") + "remote_assets/");
                     jsb.fileUtils.writeStringToFile(JSON.stringify(manifest), storagePath + "res/project.manifest");
                     // Register the manifest's search path
                     cc.sys.localStorage.setItem("_search_path_", JSON.stringify([storagePath]));
                     cc.game.restart();
                 }).show();
             });
-            const assetManager = new bb.AssetManager();
+            var assetManager = new bb.AssetManager();
             assetManager.startCheckUpdate({
                 alreadyUpdate: function () {
                     self._callback && self._callback();
                 },
                 updateDownloadSize: function (totalSize, downloadedSize) {
-                        let progressPercent = "Progress: " + Math.round(downloadedSize * 100 / totalSize) + "%";
-                    cc.log(progressPercent);
+                    var progressPercent = "Progress: " + Math.round(downloadedSize * 100 / totalSize) + "%";
+                    cc.log("progress percent:" + progressPercent);
                     lblProgress.setString(progressPercent);
                 },
                 failManifest: function () {
@@ -300,8 +300,8 @@ bb.DefaultSplashLayer = cc.LayerColor.extend({
     },
 
     initLoadingGUI: function () {
-        const winSize = cc.director.getWinSize();
-        const imgLogo = this._imgLogo = new ccui.ImageView(splash_res[0]);
+        var winSize = cc.director.getWinSize();
+        var imgLogo = this._imgLogo = new ccui.ImageView(splash_res[0]);
         imgLogo.setPosition(winSize.width / 2, winSize.height / 2);
         imgLogo.x = cc.winSize.width * 0.5;
         imgLogo.y = cc.winSize.height * 0.5;

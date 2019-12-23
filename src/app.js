@@ -32,8 +32,8 @@ mc.const = {
             {
                 "id": 1,
                 "svn": "mus1",
-                "auth": "http://192.168.5.104:9393/",
-                "ws": "ws://192.168.5.104:9494/ws",
+                "auth": "http://192.168.5.108:9393/",
+                "ws": "ws://192.168.5.108:9494/ws",
                 "name": "S1: Legendary",
                 "type": "REAL",
                 "statusCode": 2

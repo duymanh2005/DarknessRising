@@ -289,7 +289,7 @@ mc.LoginScreen = bb.Screen.extend({
             cc.log("MCLoginScreen._startLoadingGameResource: readLoginServer");
             var savedloginServer = mc.storage.readLoginServer();
             cc.log("MCLoginScreen savedloginServer: " + savedloginServer);
-            if (!savedloginServer) {
+            if (!savedloginServer || !CreantsCocosAPI.getItem(creants_api.KEY_LOGIN_TOKEN)) {
                 this._showBtnStartGame();
             }
             else {
@@ -440,8 +440,11 @@ mc.LoginScreen = bb.Screen.extend({
     },
 
     _loginBySavedToken: function () {
+        cc.log("_loginBySavedToken");
         var self = this;
         var str = CreantsCocosAPI.getItem(creants_api.KEY_LOGIN_TOKEN);
+        cc.log("token: ");
+        cc.log(str);
         var tokenObj = null;
         if (str) {
             tokenObj = JSON.parse(str);

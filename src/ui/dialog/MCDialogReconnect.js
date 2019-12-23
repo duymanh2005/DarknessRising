@@ -33,6 +33,7 @@ mc.DialogReconnect = mc.DefaultDialog.extend({
 
         this.traceDataChange(mc.GameData.connectionState,function(state){
             if( mc.GameData.connectionState.isOpen() ){
+                cc.log("do reconnect....");
                 mc.view_utility.hideLoadingDialogById(reconnectDialogId);
                 loginDialogId = mc.view_utility.showLoadingDialog();
                 var str = CreantsCocosAPI.getItem(creants_api.KEY_LOGIN_TOKEN);

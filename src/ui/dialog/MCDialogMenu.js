@@ -125,7 +125,11 @@ mc.DialogMenu = mc.DefaultDialog.extend({
                     mc.view_utility.hideLoadingDialogById(loadingId);
                     if (rs) {
                         CreantsCocosAPI.clearToken();
+                        // cc.loader.releaseAll();
                         new mc.LoginScreen().show();
+                        // cc.loader.releaseAll();
+                        // cc.log("Restart game");
+                        // cc.game.restart();
                     }
                     mc.storage.clearNotifyInfo();
                 });

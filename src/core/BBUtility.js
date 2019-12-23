@@ -246,18 +246,31 @@ bb.utility = bb.utility || {};
 
     bb.utility.getDataFromURL = function (url, cb) {
         try {
+            cc.log("call getDataFromUrl:" + url);
             var xhr = cc.loader.getXMLHttpRequest();
             xhr.open("GET", url, true);
             xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
             xhr.onreadystatechange = function () {
                 if (xhr.readyState === 4 && (xhr.status >= 200 && xhr.status < 300)) {
+                    cc.log("call callback ********");
                     cb && cb(xhr.responseText);
+                }else{
+                    cc.log("[FATAL] read url " + url + ", xhr.readyState: " + xhr.readyState + ", xhr.status: " + xhr.status);
                 }
             };
             xhr.onerror = function () {
                 cc.log("xhr request url error");
                 cb && cb(null);
             }
+
+            xhr.readyState = function (){
+                cc.log("call readyState ********");
+            }
+
+            xhr.responseText = function () {
+                cc.log("call responseText ********");
+            }
+
             xhr.send();
         } catch (exception) {
             cc.log("request url error");

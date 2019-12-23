@@ -46,6 +46,7 @@ mc.DialogLinkAccount = bb.Dialog.extend({
                                         mc.protocol.logOutMUGame(function (rs) {
                                             mc.view_utility.hideLoadingDialogById(loadingId);
                                             if (rs) {
+                                                cc.log("[Logout] Clear token");
                                                 CreantsCocosAPI.clearToken();
                                                 mc.GameData.guiState.setBackTrackLayerForMainScreen([]);
                                                 new mc.LoginScreen().show();

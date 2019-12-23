@@ -51,7 +51,9 @@ CreantsCocosAPI.requestFacebook = function(callback){
 };
 
 CreantsCocosAPI.clearFacebookToken = function(){
+    cc.log("[CreantsCocosAPI] clear facebook token");
     bb.pluginBox.facebook.logOut();
+    this.clearToken();
 };
 
 CreantsCocosAPI.requestAccountKit = function(callback){
