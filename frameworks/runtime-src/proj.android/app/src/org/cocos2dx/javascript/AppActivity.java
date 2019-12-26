@@ -27,8 +27,12 @@ package org.cocos2dx.javascript;
 import android.os.Bundle;
 import org.cocos2dx.lib.Cocos2dxActivity;
 import org.cocos2dx.lib.Cocos2dxGLSurfaceView;
+import android.provider.Settings.Secure;
 
 public class AppActivity extends com.sdkbox.plugin.SDKBoxActivity {
+    private static String uniqueID = null;
+    private static final String PREF_UNIQUE_ID = "PREF_UNIQUE_ID";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.setEnableVirtualButton(false);
@@ -47,6 +51,6 @@ public class AppActivity extends com.sdkbox.plugin.SDKBoxActivity {
     }
 
     public static String getUserNames(){
-        return "deviceid0123";
+        return Secure.getString(getContext().getContentResolver(), Secure.ANDROID_ID);
     }
 }

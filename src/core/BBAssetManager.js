@@ -44,23 +44,19 @@ bb.AssetManager = cc.Class.extend({
                                 cc.log("NEW_VERSION_FOUND: " + assetId);
                             }
                             if (!this._startDownload) {
-                                this._startDownload = true;
                                 var tempPath = ((jsb.fileUtils ? jsb.fileUtils.getWritablePath() : "/") + "remote_assets_temp/");
                                 var strVersion = jsb.fileUtils.getStringFromFile(tempPath + "version.manifest");
                                 if (strVersion) {
                                     var versionJson = JSON.parse(strVersion);
                                     var newVersion = versionJson["version"];
                                     cc.log("NEW VERSION FOUND: " + newVersion);
-                                    var remoteManifestPath = versionJson["remoteManifestUrl"];
 
-                                    cc.log("****** Read remote manifest url from local file. Remote manifest url:" + remoteManifestPath);
                                     var strLocalManifest = jsb.fileUtils.getStringFromFile(this._manifestPath);
                                     if (strLocalManifest) {
                                         var localManifest = JSON.parse(strLocalManifest);
-                                        cc.log("**** Read local manifest file");
                                         var strRemoteManifest = jsb.fileUtils.getStringFromFile(tempPath + "project.manifest.temp");
                                         if (strRemoteManifest) {
-                                            cc.log("get remote manifest data not null");
+                                            this._startDownload = true;
                                             var localAssets = localManifest["assets"];
                                             var remoteManifest = JSON.parse(strRemoteManifest);
                                             var remoteAssets = remoteManifest["assets"];
@@ -89,9 +85,7 @@ bb.AssetManager = cc.Class.extend({
                                             remainingSize < 0 && (remainingSize = 0);
                                             lis.foundNewVersion && lis.foundNewVersion(totalSize, downloadedSize, newVersion);
                                             lis.updateDownloadSize && lis.updateDownloadSize(totalSize, downloadedSize);
-                                        } else {
-                                            lis.failManifest && lis.failManifest(event.getEventCode());
-                                        }
+                                        } 
                                     }
                                 }
                             }
@@ -128,6 +122,7 @@ bb.AssetManager = cc.Class.extend({
                         case jsb.EventAssetsManager.UPDATE_PROGRESSION:
                             this._percent = event.getPercent();
                             this._percentByFile = event.getPercentByFile();
+        
                             var assetId = event.getAssetId();
                             cc.log("UPDATE_PROGRESSION { assetId = " + assetId + ", percent = " + this._percent + ", percentByFile = " + this._percentByFile + "}");
                             if (assetId && this._assetDownloadMap && this._assetDownloadMap[assetId]) {

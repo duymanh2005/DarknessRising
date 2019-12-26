@@ -288,6 +288,9 @@ bb.DefaultSplashLayer = cc.LayerColor.extend({
                     self._callback && self._callback();
                 },
                 updateDownloadSize: function (totalSize, downloadedSize) {
+                    var downloadPercent = Math.round(downloadedSize * 100 / totalSize);
+                    if(downloadPercent > 100)
+                        downloadPercent = 100;
                     var progressPercent = "Progress: " + Math.round(downloadedSize * 100 / totalSize) + "%";
                     cc.log("progress percent:" + progressPercent);
                     lblProgress.setString(progressPercent);
