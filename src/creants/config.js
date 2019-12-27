@@ -3,7 +3,7 @@
  */
 var creants_config = creants_config || {
     "APP_ID": 2,
-    "APP_NAME": "MuFantasy",
+    "APP_NAME": "DarknessRising",
     "PLATFORM": "cocos",
     "GUEST": "no",
     "KEY_LOGIN_TOKEN": "creants_mufantasy_login_token",
