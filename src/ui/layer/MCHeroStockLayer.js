@@ -21,7 +21,7 @@ mc.HeroStockLayer = mc.MainBaseLayer.extend({
         var nodeBrk = rootMap["nodeBrk"];
 
         var lblTitle = brkTitle.setString(mc.dictionary.getGUIString("lblHeroList"));
-        nodeBrk.addChild(new ccui.ImageView("res/brk/home_bur.png", ccui.Widget.LOCAL_TEXTURE));
+        nodeBrk.addChild(new ccui.ImageView("res/brk/BG_Event.png", ccui.Widget.LOCAL_TEXTURE));
 
         var btnEditTeam = this._btnEditTeam = new ccui.ImageView("button/Green_Round.png", ccui.Widget.PLIST_TEXTURE);
         btnEditTeam.scale = 0.8;

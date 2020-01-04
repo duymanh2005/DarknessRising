@@ -50,7 +50,7 @@ mc.LuckyRoundLayer = mc.MainBaseLayer.extend({
         });
 
 
-        var brk = new ccui.ImageView("res/brk/home_bur.png", ccui.Widget.LOCAL_TEXTURE);
+        var brk = new ccui.ImageView("res/brk/BG_Event.png", ccui.Widget.LOCAL_TEXTURE);
         var nodeBrk = rootMap["nodeBrk"];
         var btnInfo = rootMap["btnInfo"];
         var brkTitle = rootMap["brkTitle"];

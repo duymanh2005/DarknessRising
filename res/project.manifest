@@ -264,10 +264,6 @@
             "md5": "f11794e68b24f3a2e9e16c4e107b4230", 
             "size": 267395
         }, 
-        "res/brk/BG.png": {
-            "md5": "7f5ab4f252df3afe8b6a8a9683bac724", 
-            "size": 1167336
-        }, 
         "res/brk/BG_Event.png": {
             "md5": "ab51b1b1e1037972528ba931214edf04", 
             "size": 916613
@@ -275,11 +271,7 @@
         "res/brk/BG_Hero_Info.png": {
             "md5": "a446edc7a030488766ff6e55d4b20713", 
             "size": 1206191
-        }, 
-        "res/brk/BG_Involve.png": {
-            "md5": "8e515e13eeaef1035761927e55ba7fe3", 
-            "size": 4044085
-        }, 
+        },
         "res/brk/BG_Invovle.png": {
             "md5": "8e515e13eeaef1035761927e55ba7fe3", 
             "size": 4044085
@@ -607,11 +599,7 @@
         "res/event_page/btn_gotoshop.png": {
             "md5": "690f1ddd2fea76ac9ac89688bdfb29f0", 
             "size": 27655
-        }, 
-        "res/event_page/event_1.png": {
-            "md5": "504044f8c31712e1085d4af469854498", 
-            "size": 369482
-        }, 
+        },
         "res/event_page/event_2.png": {
             "md5": "bd6b09f6e80048af78ddcd2868dd17bb", 
             "size": 294515
@@ -843,11 +831,7 @@
         "res/gui/battle/Water_Element_Chara_Frame.png": {
             "md5": "a71077b65f8824b6c23534557be8df48", 
             "size": 18230
-        }, 
-        "res/gui/involve/BG_Involve.png": {
-            "md5": "8e515e13eeaef1035761927e55ba7fe3", 
-            "size": 4044085
-        }, 
+        },
         "res/gui/involve/ico_table.png": {
             "md5": "a7bda327fe041279c722eb286a9c8c26", 
             "size": 811517
@@ -1808,10 +1792,6 @@
             "md5": "3d0da35af29c0b3333f08af04ae562e8", 
             "size": 22324
         }, 
-        "res/json/widget/EventHalloween.json": {
-            "md5": "dbce3a096041971f27ca607575cd9716", 
-            "size": 93175
-        }, 
         "res/json/widget/EventPage.json": {
             "md5": "ed99d75bd027b9325c5a42d38b3b4ef4", 
             "size": 121197
@@ -2513,10 +2493,6 @@
             "md5": "fa8538a863190b40f83497860bb8f56b", 
             "size": 4827
         }, 
-        "res/patch9/ico_logo.png": {
-            "md5": "e74c4e2f9ee8f69f8f0dcedb8bdf6a34", 
-            "size": 58014
-        }, 
         "res/patch9/pic_down.png": {
             "md5": "1acbff8e119a09b8cbb67f7fa1e73301", 
             "size": 481460
@@ -2724,11 +2700,7 @@
         "res/png/banner/shop/ico_guildshop.png": {
             "md5": "2379742e7c2354479d5742bacde0d31a", 
             "size": 117642
-        }, 
-        "res/png/banner/shop/ico_halloweenshop.png": {
-            "md5": "c48d26f7d779336340770b4b48e0e594", 
-            "size": 97407
-        }, 
+        },
         "res/png/banner/shop/ico_packageshop.png": {
             "md5": "8db40c5bc288f642415582dedd9e3035", 
             "size": 103161
@@ -13118,9 +13090,9 @@
             "size": 6743
         }
     }, 
-    "packageUrl": "http://192.168.5.105:8000/",
-    "remoteManifestUrl": "http://192.168.5.105:8000/manifest/project.manifest",
-    "remoteVersionUrl": "http://192.168.5.105:8000/manifest/version.manifest",
+    "packageUrl": "http://192.168.5.100:8000/",
+    "remoteManifestUrl": "http://192.168.5.100:8000/manifest/project.manifest",
+    "remoteVersionUrl": "http://192.168.5.100:8000/manifest/version.manifest",
     "searchPaths": [], 
     "version": "1.0.1"
 }

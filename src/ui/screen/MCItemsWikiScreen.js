@@ -29,7 +29,7 @@ mc.ItemsWikiScreen = mc.Screen.extend({
             mc.GameData.guiState.popScreen();
         });
 
-        nodeBrk.addChild(new ccui.ImageView("res/brk/home_bur.png", ccui.Widget.LOCAL_TEXTURE));
+        nodeBrk.addChild(new ccui.ImageView("res/brk/BG_Event.png", ccui.Widget.LOCAL_TEXTURE));
 
         var tabWeaponActive = this._tabWeaponActive = new ccui.ImageView("button/tab_item_picked.png", ccui.Widget.PLIST_TEXTURE);
         var tabWeaponNormal = this._tabWeaponInActive = new ccui.ImageView("button/tab_item_normal.png", ccui.Widget.PLIST_TEXTURE);

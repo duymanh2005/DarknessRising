@@ -167,7 +167,7 @@
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "patch9/ico_logo.png",
+                  "Path": "patch9/Email_Panel.png",
                   "Plist": ""
                 },
                 "Scale9OriginX": 71,
@@ -679,7 +679,6 @@
         "../../font/UTMBienvenue_none_32-export.png",
         "../../font/UTMBienvenue_stroke_32-export.fnt",
         "../../font/UTMBienvenue_stroke_32-export.png",
-        "../../patch9/ico_logo.png",
         "../button.plist",
         "../button.png",
         "../icon.plist",

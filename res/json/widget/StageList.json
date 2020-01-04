@@ -166,7 +166,7 @@
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "png/banner/shop/ico_halloweenshop.png",
+                  "Path": "png/banner/shop/ico_equipmentshop.png",
                   "Plist": ""
                 },
                 "Scale9OriginX": 100,
@@ -896,7 +896,6 @@
         "../../font/cam_stroke_32-export.png",
         "../../font/UTMBienvenue_stroke_32-export.fnt",
         "../../font/UTMBienvenue_stroke_32-export.png",
-        "../../png/banner/shop/ico_halloweenshop.png",
         "../bar.plist",
         "../bar.png",
         "../button.plist",

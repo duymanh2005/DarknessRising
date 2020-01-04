@@ -25,36 +25,36 @@
 #include "PluginFacebookJSHelper.h"
 #include "AppDelegate.h"
 
-#include "scripting/js-bindings/auto/jsb_cocos2dx_3d_auto.hpp"
-#include "scripting/js-bindings/auto/jsb_cocos2dx_3d_extension_auto.hpp"
+// #include "scripting/js-bindings/auto/jsb_cocos2dx_3d_auto.hpp"
+// #include "scripting/js-bindings/auto/jsb_cocos2dx_3d_extension_auto.hpp"
 #include "scripting/js-bindings/auto/jsb_cocos2dx_auto.hpp"
 #include "scripting/js-bindings/auto/jsb_cocos2dx_builder_auto.hpp"
 #include "scripting/js-bindings/auto/jsb_cocos2dx_extension_auto.hpp"
 #include "scripting/js-bindings/auto/jsb_cocos2dx_network_auto.hpp"
-#include "scripting/js-bindings/auto/jsb_cocos2dx_navmesh_auto.hpp"
-#include "scripting/js-bindings/auto/jsb_cocos2dx_physics3d_auto.hpp"
+// #include "scripting/js-bindings/auto/jsb_cocos2dx_navmesh_auto.hpp"
+// #include "scripting/js-bindings/auto/jsb_cocos2dx_physics3d_auto.hpp"
 #include "scripting/js-bindings/auto/jsb_cocos2dx_spine_auto.hpp"
 #include "scripting/js-bindings/auto/jsb_cocos2dx_studio_auto.hpp"
 #include "scripting/js-bindings/auto/jsb_cocos2dx_ui_auto.hpp"
-#include "scripting/js-bindings/manual/3d/jsb_cocos2dx_3d_manual.h"
-#include "scripting/js-bindings/manual/chipmunk/js_bindings_chipmunk_registration.h"
+// #include "scripting/js-bindings/manual/3d/jsb_cocos2dx_3d_manual.h"
+// #include "scripting/js-bindings/manual/chipmunk/js_bindings_chipmunk_registration.h"
 #include "scripting/js-bindings/manual/cocosbuilder/js_bindings_ccbreader.h"
 #include "scripting/js-bindings/manual/cocostudio/jsb_cocos2dx_studio_manual.h"
 #include "scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h"
 #include "scripting/js-bindings/manual/jsb_opengl_registration.h"
 #include "scripting/js-bindings/manual/localstorage/js_bindings_system_registration.h"
-#include "scripting/js-bindings/manual/navmesh/jsb_cocos2dx_navmesh_manual.h"
+// #include "scripting/js-bindings/manual/navmesh/jsb_cocos2dx_navmesh_manual.h"
 #include "scripting/js-bindings/manual/network/XMLHTTPRequest.h"
 #include "scripting/js-bindings/manual/network/jsb_socketio.h"
 #include "scripting/js-bindings/manual/network/jsb_websocket.h"
-#include "scripting/js-bindings/manual/physics3d/jsb_cocos2dx_physics3d_manual.h"
+// #include "scripting/js-bindings/manual/physics3d/jsb_cocos2dx_physics3d_manual.h"
 #include "scripting/js-bindings/manual/spine/jsb_cocos2dx_spine_manual.h"
 #include "scripting/js-bindings/manual/ui/jsb_cocos2dx_ui_manual.h"
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID || CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
-#include "scripting/js-bindings/auto/jsb_cocos2dx_experimental_video_auto.hpp"
+// #include "scripting/js-bindings/auto/jsb_cocos2dx_experimental_video_auto.hpp"
 #include "scripting/js-bindings/auto/jsb_cocos2dx_experimental_webView_auto.hpp"
-#include "scripting/js-bindings/manual/experimental/jsb_cocos2dx_experimental_video_manual.h"
+// #include "scripting/js-bindings/manual/experimental/jsb_cocos2dx_experimental_video_manual.h"
 #include "scripting/js-bindings/manual/experimental/jsb_cocos2dx_experimental_webView_manual.h"
 #endif
 
@@ -136,7 +136,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     sc->addRegisterCallback(register_all_cocos2dx_extension_manual);
 
     // chipmunk can be commented out to reduce the package
-    sc->addRegisterCallback(jsb_register_chipmunk);
+    // sc->addRegisterCallback(jsb_register_chipmunk);
     // opengl can be commented out to reduce the package
     sc->addRegisterCallback(JSB_register_opengl);
 
@@ -166,26 +166,26 @@ bool AppDelegate::applicationDidFinishLaunching()
     sc->addRegisterCallback(register_all_cocos2dx_network);
 
     // 3d can be commented out to reduce the package
-    sc->addRegisterCallback(register_all_cocos2dx_3d);
-    sc->addRegisterCallback(register_all_cocos2dx_3d_manual);
+    // sc->addRegisterCallback(register_all_cocos2dx_3d);
+    // sc->addRegisterCallback(register_all_cocos2dx_3d_manual);
 
     // 3d extension can be commented out to reduce the package
-    sc->addRegisterCallback(register_all_cocos2dx_3d_extension);
+    // sc->addRegisterCallback(register_all_cocos2dx_3d_extension);
 
-#if CC_USE_3D_PHYSICS && CC_ENABLE_BULLET_INTEGRATION
-    // Physics 3d can be commented out to reduce the package
-    sc->addRegisterCallback(register_all_cocos2dx_physics3d);
-    sc->addRegisterCallback(register_all_cocos2dx_physics3d_manual);
-#endif
+// #if CC_USE_3D_PHYSICS && CC_ENABLE_BULLET_INTEGRATION
+//     // Physics 3d can be commented out to reduce the package
+//     sc->addRegisterCallback(register_all_cocos2dx_physics3d);
+//     sc->addRegisterCallback(register_all_cocos2dx_physics3d_manual);
+// #endif
 
-#if CC_USE_NAVMESH
-    sc->addRegisterCallback(register_all_cocos2dx_navmesh);
-    sc->addRegisterCallback(register_all_cocos2dx_navmesh_manual);
-#endif
+// #if CC_USE_NAVMESH
+//     sc->addRegisterCallback(register_all_cocos2dx_navmesh);
+//     sc->addRegisterCallback(register_all_cocos2dx_navmesh_manual);
+// #endif
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID || CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
-    sc->addRegisterCallback(register_all_cocos2dx_experimental_video);
-    sc->addRegisterCallback(register_all_cocos2dx_experimental_video_manual);
+    // sc->addRegisterCallback(register_all_cocos2dx_experimental_video);
+    // sc->addRegisterCallback(register_all_cocos2dx_experimental_video_manual);
     sc->addRegisterCallback(register_all_cocos2dx_experimental_webView);
     sc->addRegisterCallback(register_all_cocos2dx_experimental_webView_manual);
 #endif

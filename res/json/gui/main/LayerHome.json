@@ -65,7 +65,7 @@
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "brk/BG.png",
+                  "Path": "brk/pnl_smallstone.png",
                   "Plist": ""
                 },
                 "Scale9OriginX": 250,
@@ -2735,7 +2735,6 @@
         "ctype": "LayerObjectData"
       },
       "UsedResources": [
-        "../../../brk/BG.png",
         "../../../font/cam_stroke_32-export.fnt",
         "../../../font/cam_stroke_32-export.png",
         "../../../patch9/pnl_botmenu.png",

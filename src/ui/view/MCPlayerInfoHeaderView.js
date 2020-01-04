@@ -6,7 +6,7 @@ mc.PlayerInfoHeaderView = cc.Node.extend({
     ctor: function (parseNode) {
         this._super();
 
-        var root = mc.parseCCStudioNode(this, parseNode || res.widget_player_info_header);
+        var root = mc.parseCCStudioNode(this, parseNode);
         var mapChild = bb.utility.arrayToMap(root.getChildren(), function (child) {
             return child.getName();
         });

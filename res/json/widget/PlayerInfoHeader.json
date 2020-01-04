@@ -1259,7 +1259,7 @@
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "patch9/ico_logo.png",
+                  "Path": "patch9/Email_Panel.png",
                   "Plist": ""
                 },
                 "Scale9OriginX": 69,
@@ -1325,7 +1325,6 @@
         "../../font/cam_stroke_32-export.png",
         "../../font/UTMBienvenue_none_32-export.fnt",
         "../../font/UTMBienvenue_none_32-export.png",
-        "../../patch9/ico_logo.png",
         "../../patch9/Main_Menu.png",
         "../../patch9/Main_Menu_Items_Slot.png",
         "../bar.plist",

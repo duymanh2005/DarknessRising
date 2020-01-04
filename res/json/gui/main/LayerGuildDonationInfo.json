@@ -65,7 +65,7 @@
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "brk/home_bur.png",
+                  "Path": "brk/BG_Event.png",
                   "Plist": ""
                 },
                 "Scale9OriginX": 247,
@@ -99,8 +99,8 @@
                 "Tag": 104,
                 "ActionTag": -497673678,
                 "Size": {
-                  "X": 750.0,
-                  "Y": 1334.0
+                  "X": 1000.0,
+                  "Y": 1500.0
                 },
                 "Name": "imgBrk",
                 "ctype": "ImageViewObjectData"
@@ -638,7 +638,7 @@
         "ctype": "LayerObjectData"
       },
       "UsedResources": [
-        "../../../brk/home_bur.png",
+        "../../../brk/BG_Event.png",
         "../../../font/cam_stroke_32-export.fnt",
         "../../../font/cam_stroke_32-export.png",
         "../../../font/UTMBienvenue_none_32-export.fnt",
