@@ -236,22 +236,6 @@ var res = {
     icon_book_json: "res/spine/ui/icon_book.json",
     icon_book_png: "res/spine/ui/icon_book.png",
 
-    spine_ui_egg_1000_atlas: "res/spine/ui/egg_1000.atlas",
-    spine_ui_egg_1000_json: "res/spine/ui/egg_1000.json",
-    spine_ui_egg_1000_png: "res/spine/ui/egg_1000.png",
-
-    spine_ui_egg_1001_atlas: "res/spine/ui/egg_1001.atlas",
-    spine_ui_egg_1001_json: "res/spine/ui/egg_1001.json",
-    spine_ui_egg_1001_png: "res/spine/ui/egg_1001.png",
-
-    spine_ui_egg_1002_atlas: "res/spine/ui/egg_1002.atlas",
-    spine_ui_egg_1002_json: "res/spine/ui/egg_1002.json",
-    spine_ui_egg_1002_png: "res/spine/ui/egg_1002.json",
-
-    spine_ui_egg_1003_atlas: "res/spine/ui/egg_1003.atlas",
-    spine_ui_egg_1003_json: "res/spine/ui/egg_1003.json",
-    spine_ui_egg_1003_png: "res/spine/ui/egg_1003.json",
-
     spine_ui_elfshop_atlas: "res/spine/ui/elfshop.atlas",
     spine_ui_elfshop_json: "res/spine/ui/elfshop.json",
     spine_ui_elfshop_png: "res/spine/ui/elfshop.png",
@@ -1137,21 +1121,6 @@ mc.resource.main_res = [
     res.spine_ui_shiny_icon_fx_json,
     res.spine_ui_shiny_icon_fx_png,
 
-    res.spine_ui_egg_1000_atlas,
-    res.spine_ui_egg_1000_json,
-    res.spine_ui_egg_1000_png,
-
-    res.spine_ui_egg_1001_atlas,
-    res.spine_ui_egg_1001_json,
-    res.spine_ui_egg_1001_png,
-
-    res.spine_ui_egg_1002_atlas,
-    res.spine_ui_egg_1002_json,
-    res.spine_ui_egg_1002_png,
-
-    res.spine_ui_egg_1003_atlas,
-    res.spine_ui_egg_1003_json,
-    res.spine_ui_egg_1003_png,
 
     res.spine_portal_atlas,
     res.spine_portal_json,
