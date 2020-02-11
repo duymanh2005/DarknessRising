@@ -159,8 +159,7 @@ mc.ShopScreen = mc.Screen.extend({
                 popup.addChild(lblTalkWelcome);
                 lblTalkWelcome.setString("");
                 lblTalkWelcome.setAnchorPoint(0.5, 0.5);
-                if(mc.enableReplaceFontBM())
-                {
+                if (mc.enableReplaceFontBM()) {
                     lblTalkWelcome.setString("");
                     lblTalkWelcome.setAnchorPoint(0, 0.5);
                     lblTalkWelcome.x = 60;

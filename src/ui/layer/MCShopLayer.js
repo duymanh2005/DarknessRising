@@ -117,7 +117,6 @@ mc.ShopLayer = mc.MainBaseLayer.extend({
                 popup.anchorY = 0;
                 popup.scale = 0;
                 var lblTalkWelcome = bb.framework.getGUIFactory().createText("Welcome to");
-                var lblItemShop = lblTalkWelcome.setDecoratorLabel(mc.ShopManager.getShopName(this._currShopId), mc.color.YELLOW);
                 lblTalkWelcome.x = popup.width * 0.5;
                 lblTalkWelcome.y = popup.height * 0.75;
                 var lblCanIHelpU = bb.framework.getGUIFactory().createText("May I help you?");
@@ -146,7 +145,7 @@ mc.ShopLayer = mc.MainBaseLayer.extend({
         this._lblRefeshIn.removeAllChildren();
         this._lblTimesLeft.removeAllChildren();
         var arrPackage = shopManager.getShopItemByCategoryId(shopId);
-        var itemGrid = this._itemGrid = bb.layout.grid(bb.collection.createArray(arrPackage.length, function (index) {
+        this._itemGrid = bb.layout.grid(bb.collection.createArray(arrPackage.length, function (index) {
             if (index < arrPackage.length) {
                 var pack = arrPackage[index];
                 var shopItemView = new mc.ShopItemView(pack, function (result) {
