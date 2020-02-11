@@ -1,1 +1,66 @@
-[{"index":0,"rate":6,"rewardString":"11978/1","image":null,"dropRateString":"1000","randomReward":"11978/1"},{"index":1,"rate":4,"rewardString":"11952/1","image":null,"dropRateString":"1000","randomReward":"11952/1"},{"index":2,"rate":10,"rewardString":"11999/100","image":null,"dropRateString":"1000","randomReward":"11999/100"},{"index":3,"rate":20,"rewardString":"11999/30","image":null,"dropRateString":"1000","randomReward":"11999/30"},{"index":4,"rate":200,"rewardString":"11999/3","image":null,"dropRateString":"1000","randomReward":"11999/3"},{"index":5,"rate":150,"rewardString":"11006/3","image":null,"dropRateString":"1000","randomReward":"11006/3"},{"index":6,"rate":150,"rewardString":"11001/3","image":null,"dropRateString":"1000","randomReward":"11001/3"},{"index":7,"rate":460,"rewardString":"11905/100000","image":null,"dropRateString":"1000","randomReward":"11905/100000"}]
+[
+  {
+    "index": 0,
+    "rate": 6,
+    "rewardString": "11978/1",
+    "image": null,
+    "dropRateString": "1000",
+    "randomReward": "11978/1"
+  },
+  {
+    "index": 1,
+    "rate": 4,
+    "rewardString": "11952/1",
+    "image": null,
+    "dropRateString": "1000",
+    "randomReward": "11952/1"
+  },
+  {
+    "index": 2,
+    "rate": 10,
+    "rewardString": "11999/100",
+    "image": null,
+    "dropRateString": "1000",
+    "randomReward": "11999/100"
+  },
+  {
+    "index": 3,
+    "rate": 20,
+    "rewardString": "11999/30",
+    "image": null,
+    "dropRateString": "1000",
+    "randomReward": "11999/30"
+  },
+  {
+    "index": 4,
+    "rate": 200,
+    "rewardString": "11999/3",
+    "image": null,
+    "dropRateString": "1000",
+    "randomReward": "11999/3"
+  },
+  {
+    "index": 5,
+    "rate": 150,
+    "rewardString": "11006/3",
+    "image": null,
+    "dropRateString": "1000",
+    "randomReward": "11006/3"
+  },
+  {
+    "index": 6,
+    "rate": 150,
+    "rewardString": "11001/3",
+    "image": null,
+    "dropRateString": "1000",
+    "randomReward": "11001/3"
+  },
+  {
+    "index": 7,
+    "rate": 460,
+    "rewardString": "11905/100000",
+    "image": null,
+    "dropRateString": "1000",
+    "randomReward": "11905/100000"
+  }
+]

@@ -191,8 +191,8 @@ mc.LoginScreen = bb.Screen.extend({
                         processServerList(str);
                     });
                 } else {
-                    let reqUrl = url + "manifest/mufantasy/res/server-list.json";
-                    cc.log(reqUrl);
+                    var reqUrl = url + "manifest/mufantasy/res/server-list.json";
+                    cc.log("req manifest: " + reqUrl);
                     processServerList(mc.const.SERVERS);
                     // bb.utility.getJsonData(reqUrl, function (str) {
                     //     processServerList(str);

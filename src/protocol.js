@@ -40,7 +40,6 @@
         WORLD_BOSS: "cmd_world_boss",
         GUILD: "cmd_guild",
         GUILD_BOSS: "cmd_guild_boss",
-        STAGE_BOSS: "cmd_stage_boss",
         BATTLE_RELIC: "cmd_battle_relic",
         DEVICE: "cmd_device",
         ILLUSION: "cmd_illusion"
@@ -120,13 +119,6 @@
     var GUILD_BOSS_SUBMIT_TEAM = 6;
     var GUILD_BOSS_INFO_OLD_STAGE = 7;
     var GUILD_BOSS_DAMGE_INFO = 8;
-
-    var STAGE_BOSS_JOIN_BOSS = 1;
-    var STAGE_BOSS_FINISH = 3;
-    var STAGE_BOSS_SUBMIT_DAM = 4;
-    var STAGE_BOSS_DEAD = 5;
-    var STAGE_BOSS_CHECK_BOSS = 8;
-    var STAGE_BOSS_WORLD_MAP = 9;
 
     var HERO_UPGRADE_LEVEL = 1;
     var HERO_UPGRADE_RANK = 2;
@@ -1795,62 +1787,6 @@
         };
 
 
-        protocol.checkStageBoss = function (stageId, callback) {
-            var params = new QAntObject();
-            params.putInt("act", STAGE_BOSS_CHECK_BOSS);
-            params.putInt("stage_index", stageId);
-            callback && _registerCallback(key.MU_EXTENSION.STAGE_BOSS + "_" + STAGE_BOSS_CHECK_BOSS, callback);
-            QANT2X.sendExtensionMessage(key.MU_EXTENSION.STAGE_BOSS, params);
-        };
-
-        protocol.checkStageBossWorldMap = function (stageId, callback) {
-            var params = new QAntObject();
-            params.putInt("act", STAGE_BOSS_WORLD_MAP);
-            callback && _registerCallback(key.MU_EXTENSION.STAGE_BOSS + "_" + STAGE_BOSS_WORLD_MAP, callback);
-            QANT2X.sendExtensionMessage(key.MU_EXTENSION.STAGE_BOSS, params);
-        };
-
-        protocol.joinStageBoss = function (stageId, callback) {
-            var params = new QAntObject();
-            params.putInt("act", STAGE_BOSS_JOIN_BOSS);
-            params.putInt("stage_index", stageId);
-            callback && _registerCallback(key.MU_EXTENSION.STAGE_BOSS + "_" + STAGE_BOSS_JOIN_BOSS, callback);
-            QANT2X.sendExtensionMessage(key.MU_EXTENSION.STAGE_BOSS, params);
-        };
-
-        protocol.submitDamageStageBoss = function (damage, stageId, callback) {
-            var params = new QAntObject();
-            params.putInt("act", STAGE_BOSS_SUBMIT_DAM);
-            params.putInt("dame", damage);
-            params.putInt("stage_index", stageId);
-            callback && _registerCallback(key.MU_EXTENSION.STAGE_BOSS + "_" + STAGE_BOSS_SUBMIT_DAM, callback);
-            QANT2X.sendExtensionMessage(key.MU_EXTENSION.STAGE_BOSS, params);
-        };
-
-
-        protocol.finishStageBoss = function (damage, stageId, callback) {
-            var params = new QAntObject();
-            params.putInt("act", STAGE_BOSS_FINISH);
-            var itemArr = new QAntArrayObject();
-            var usedItemMapById = stageBossInBattle.getQuantityUsedItemMap();
-            for (var itemId in usedItemMapById) {
-                var quantity = usedItemMapById[itemId];
-                if (quantity > 0) {
-                    var itemSend = new QAntObject();
-                    itemSend.putLong("id", parseInt(itemId));
-                    itemSend.putInt("no", parseInt(quantity));
-                    itemArr.addQAntObject(itemSend);
-                }
-            }
-            params.putQAntArray("use_items", itemArr);
-            var t = 900000;
-            t = damage;
-            params.putInt("dame", t);
-            params.putInt("stage_index", stageId);
-            callback && _registerCallback(key.MU_EXTENSION.STAGE_BOSS + "_" + STAGE_BOSS_FINISH, callback);
-            QANT2X.sendExtensionMessage(key.MU_EXTENSION.STAGE_BOSS, params);
-        };
-
         protocol.createMatchInRelicArena = function (betIndex, relic, heroArr, time, callback) {
             var params = new QAntObject();
             params.putInt("act", BATTLE_RELIC_CREATE);
@@ -2175,49 +2111,7 @@
                 _joinGame();
             });
         });
-        MessageManager.addReceiveCallback(key.MU_EXTENSION.STAGE_BOSS, function (response) {
-            var json = response.toJson();
-            var act = json["act"];
-            var result = json;
-            if (act === STAGE_BOSS_JOIN_BOSS) {
-                stageBossSystem.setBossInfo(result["bossInfo"]);
-                stageBossSystem.setKillBossInfo(result["killBossInfo"]);
 
-                teamFormationManager.setupCampaignTeamFormation(result["killBossInfo"]);
-                if (result["opponent"] && result["opponent"]["hp"]) {
-                    stageBossSystem.setNewBossHp(result["opponent"]["hp"]);
-                }
-                stageBossInBattle.setBattleData(result);
-                stageBossInBattle.notifyDataChanged();
-            } else if (act === STAGE_BOSS_SUBMIT_DAM) {
-                mc.GameData.stageBossSystem.setNewBossHp(result["hp"]);
-                (result["gameHeroName"] != mc.GameData.playerInfo.getName()) && mc.GameData.stageBossSystem.setNewOtherPlayerDamage(result["dame"]);
-                stageBossSystem.notifyDataChangedWithParameter(result);
-            } else if (act === STAGE_BOSS_FINISH) {
-                var update = result["update"];
-                if (update) {
-                    var updateItems = update["items"];
-                    if (updateItems) {
-                        itemStock.updateArrayItem(updateItems);
-                        itemStock.notifyDataChanged();
-                    }
-                }
-                result["reward"] && resultInBattle.setRewardInfo(result["reward"]);
-                resultInBattle.setResult(json);
-                resultInBattle.notifyDataChanged();
-            } else if (act === STAGE_BOSS_DEAD) {
-                stageBossSystem.notifyDataChangedWithParameter(result);
-            } else if (act === STAGE_BOSS_WORLD_MAP) {
-                mc.GameData.stageBossSystem.isBossAppear = {
-                    appear: result["boss_appear"],
-                    endTime: result["boss_appear_time"] || 0
-                };
-                stageBossSystem.notifyDataChanged();
-            }
-            var callbackName = key.MU_EXTENSION.STAGE_BOSS + "_" + act;
-            _performCallback(callbackName, result);
-
-        });
         MessageManager.addReceiveCallback(key.MU_EXTENSION.ILLUSION, function (response) {
             var json = response.toJson();
             var act = json["act"];
@@ -2553,6 +2447,7 @@
             _performCallback(callbackName);
         });
         MessageManager.addReceiveCallback(key.MU_EXTENSION.SUMMON, function (response) {
+            cc.log("receive new heroe");
             var json = response.toJson();
             var act = json["act"];
             var rs = json;
@@ -2560,6 +2455,7 @@
             if (act === GET_SUMMON_PACKAGE_LIST) {
                 rs = json["summonInfo"];
                 summonManager.setSummonInfo(rs);
+                cc.log("performCallback x10");
                 _performCallback(callbackName, rs);
                 if (rs) {
                     mc.SummonManager.syncSummonCountDown(rs["countdownArr"] || []);
@@ -2589,6 +2485,7 @@
                     notifySystem.buildSummonNotificationByGroup();
                     notifySystem.notifyDataChanged();
                 }
+                cc.log("performCallback");
                 _performCallback(callbackName, rs);
                 var jsonElement = json["summonInfo"];
                 if (jsonElement) {
@@ -3473,6 +3370,8 @@
                 challengeManager.notifyDataChanged();
             } else if (act === CHALLENGE_FIGHT) {
                 result = json;
+                cc.log("fight *********");
+                cc.log(result);
                 challengeInBattle.setBattleData(result);
             } else if (act === CHALLENGE_FINISH ||
                 act === CHALLENGE_QUICK_FINISH) {

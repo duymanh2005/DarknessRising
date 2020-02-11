@@ -6,7 +6,6 @@ mc.WorldMapLayer = mc.MainBaseLayer.extend({
 
     ctor: function (parseNode) {
         this._super();
-        mc.protocol.checkStageBossWorldMap();
         mc.GameData.guiState.setCurrentEditFormationTeamId(mc.TeamFormationManager.TEAM_CAMPAIGN);
         var root = this.__root = this.parseCCStudio(parseNode || res.layer_word_map);
         var scroll = this._scroll = root.getChildByName("scroll");

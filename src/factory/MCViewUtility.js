@@ -1826,63 +1826,6 @@ mc.view_utility = (function () {
                     new mc.MainScreen().show();
                 }
             }
-        } else if (strs[0] === "stageBoss") {
-            if (strs.length > 1) {
-                var loadCampainStage = function (stageInd) {
-
-                    var stageData = mc.dictionary.getStageDictByIndex(stageInd);
-                    var obj = mc.GameData.campaignManager.updatePreLoadResourceURL(mc.dictionary.getStageDictByIndex(stageData["index"]));
-                    var arrPreLoadMonsterIndex = obj.monsters;
-                    var arrRes = [];
-                    for (var m = 0; m < arrPreLoadMonsterIndex.length; m++) {
-                        arrRes = mc.resource.getPreLoadSpineURL(arrPreLoadMonsterIndex[m], arrRes);
-                        arrRes = mc.resource.getPreLoadSoundURL(arrPreLoadMonsterIndex[m], arrRes);
-                    }
-                    arrRes.push(res.spine_default_hit_effect_json);
-                    arrRes.push(res.spine_default_hit_effect_png);
-                    !cc.sys.isNative && arrRes.push(res.spine_default_hit_effect_atlas);
-                    arrRes.push(obj.brk);
-                    var loadingId = mc.view_utility.showLoadingDialog();
-                    currScreen.loadMoreURL(arrRes, function () {
-                        mc.view_utility.hideLoadingDialogById(loadingId);
-                        mc.GameData.guiState.setSelectStageCampaignIndex(mc.CampaignManger.getStageIndex(stageData));
-                        currScreen.pushLayerWithId(mc.MainScreen.LAYER_SELECT_CAMPAIGN_HERO);
-                    }.bind(this));
-                }.bind(this);
-
-
-                var stageIndex = parseInt((strs[1]));
-                var chapIndex = mc.CampaignManger.getChapterIndexByStageIndex(stageIndex);
-                if (mc.GameData.playerInfo.getCurrentChapterIndex() >= chapIndex) {
-                    mc.GameData.guiState.setSelectChapterIndex(chapIndex);
-                    if (isInMainScreen) {
-
-                        //currScreen.pushLayerWithId(mc.MainScreen.LAYER_STAGE_CAMPAIGN_LIST);
-                        //currScreen.runAction(cc.sequence([cc.delayTime(0.3)]))
-                        mc.protocol.comeToChapter(chapIndex, function () {
-                            var stageInfo = mc.GameData.campaignManager.getStageInfoByStageIndex(stageIndex);
-                            if (stageInfo) {
-                                loadCampainStage(stageIndex);
-                            } else {
-                                mc.view_utility.showSuggestText(mc.dictionary.getGUIString("txtUnlockStage"));
-                            }
-                        }.bind(this));
-
-                    }
-                    //else {
-                    //    mc.GameData.guiState.setCurrentLayerIdForMainScreen(mc.MainScreen.LAYER_STAGE_CAMPAIGN_LIST);
-                    //    mc.GameData.guiState.setStackLayerIdForMainScreen([
-                    //        mc.MainScreen.LAYER_WORD_MAP,
-                    //        mc.MainScreen.LAYER_STAGE_CAMPAIGN_LIST
-                    //    ]);
-                    //    new mc.MainScreen().show();
-                    //}
-                } else {
-                    mc.view_utility.showSuggestText(mc.dictionary.getGUIString("txtUnlockChapter"));
-                }
-            } else {
-                currScreen.pushLayerWithId(mc.MainScreen.LAYER_WORD_MAP);
-            }
         } else if (strs[0] === "illusion" || strs[0] === "bloodcastle") {
             if (isInMainScreen) {
                 currScreen.pushLayerWithId(mc.MainScreen.LAYER_ALL_EVENT);

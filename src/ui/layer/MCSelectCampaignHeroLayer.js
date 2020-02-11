@@ -8,7 +8,6 @@ mc.SelectCampaignHeroLayer = mc.MainBaseLayer.extend({
 
     ctor: function () {
         this._super();
-        this._isHasBoss = false;
 
         var chapterIndex = mc.GameData.guiState.getSelectChapterIndex();
         var stageIndex = mc.GameData.guiState.getSelectStageCampaignIndex();
@@ -34,30 +33,6 @@ mc.SelectCampaignHeroLayer = mc.MainBaseLayer.extend({
             iconAnimate.setVisible(false);
             iconAnimate.setName("iconBoss");
         }
-        this._checkBoss(stageIndex, function (result) {
-            var bossAnimate = contentView.getChildByName("iconBoss");
-            if (result && result["boss_appear"]) {
-                this._isHasBoss = true;
-                bossAnimate && bossAnimate.setVisible(true);
-                imgBoss.registerTouchEvent(function () {
-                    mc.GameData.stageBossSystem.setStageIndex(stageIndex);
-                    mc.protocol.joinStageBoss(stageIndex, function (result) {
-                        if (result.bossDeath) {
-                            var dialog = bb.framework.getGUIFactory().createInfoDialog(mc.dictionary.getGUIString("Boss was killed"));
-                            dialog.show();
-                        }
-                        else {
-                            mc.GUIFactory.showStageBossBattleScreen();
-                        }
-                    }.bind(this));
-                }.bind(this));
-            } else {
-                bossAnimate && bossAnimate.setVisible(false);
-                imgBoss.registerTouchEvent(function () {
-
-                });
-            }
-        }.bind(this));
 
         var imgTitle = contentMap["imgTitle"];
         var lblReward = contentMap["lblReward"];
@@ -220,7 +195,6 @@ mc.SelectCampaignHeroLayer = mc.MainBaseLayer.extend({
             }
         }.bind(this));
         btnBattle._soundId = res.sound_ui_button_start_battle;
-        var loadingId = null;
         btnBattle.registerTouchEvent(function () {
 
             var fightNormalMode = function()
@@ -255,32 +229,7 @@ mc.SelectCampaignHeroLayer = mc.MainBaseLayer.extend({
                 }
             }.bind(this);
 
-            if (this._isHasBoss) {
-                var dialog = new mc.DefaultDialog()
-                    .setTitle(mc.dictionary.getGUIString("lblWarning"))
-                    .setMessage(mc.dictionary.getGUIString("lblDoYouWantFightStageBoss"))
-                    .enableYesNoButton(function () {
-                        dialog.close();
-                        mc.GameData.stageBossSystem.setStageIndex(stageIndex);
-                        mc.protocol.joinStageBoss(stageIndex, function (result) {
-                            if (result.bossDeath) {
-                                var dialog = bb.framework.getGUIFactory().createInfoDialog(mc.dictionary.getGUIString("Boss was killed"));
-                                dialog.show();
-                            }
-                            else {
-                                mc.GUIFactory.showStageBossBattleScreen();
-                            }
-                        }.bind(this));
-                    }.bind(this), function(){
-                        dialog.close();
-                        fightNormalMode();
-                    }.bind(this)).disableExitButton();
-                dialog.show();
-
-            }
-            else {
-                fightNormalMode();
-            }
+            fightNormalMode();
         }.bind(this));
 
         _updateRaidGUI();
@@ -299,12 +248,6 @@ mc.SelectCampaignHeroLayer = mc.MainBaseLayer.extend({
                 new mc.DialogBattleEndView(mc.DialogBattleEndView.BATTLE_IN.CAMPAIGN).show();
             }
         }.bind(this));
-    },
-
-    _checkBoss: function (stageIndex, cb) {
-        mc.protocol.checkStageBoss(stageIndex, function (result) {
-            cb && cb(result);
-        }.bind(this))
     },
 
     _setPausingCombat: function (isPause) {
