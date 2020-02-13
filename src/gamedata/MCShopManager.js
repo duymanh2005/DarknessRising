@@ -96,7 +96,7 @@ mc.ShopManager = bb.Class.extend({
     },
 
     getShopRefreshTicketNo: function (categoryId) {
-        return this._infoByCategoryId[categoryId].refreshTicketNo
+        return this._infoByCategoryId[categoryId]["refreshTicketNo"];
     },
 
     getRemainShopRefreshDuration: function (categoryId) {
