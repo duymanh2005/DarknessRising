@@ -1,1 +1,3394 @@
-{"itemOptionSkillList":[{"group":1,"skillId":"8800","randRate":5},{"group":1,"skillId":"8810","randRate":5},{"group":1,"skillId":"8820","randRate":6},{"group":1,"skillId":"8830","randRate":10},{"group":1,"skillId":"8840","randRate":6},{"group":1,"skillId":"8850","randRate":8},{"group":1,"skillId":"8860","randRate":20},{"group":1,"skillId":"8870","randRate":20},{"group":1,"skillId":"8880","randRate":20},{"group":2,"skillId":"8800","randRate":3},{"group":2,"skillId":"8810","randRate":3},{"group":2,"skillId":"8820","randRate":3},{"group":2,"skillId":"8830","randRate":10},{"group":2,"skillId":"8840","randRate":3},{"group":2,"skillId":"8850","randRate":3},{"group":2,"skillId":"8860","randRate":25},{"group":2,"skillId":"8870","randRate":25},{"group":2,"skillId":"8880","randRate":25}],"evolveHeroes":{"700/5":{"classGroup":700,"rank":5,"material":"11939/1#11039/5#11002/50#11001/50#11034/1","cost":"11905/3000000","successRate":100},"450/5":{"classGroup":450,"rank":5,"material":"11942/1#11039/5#11002/50#11001/50#11034/1","cost":"11905/3000000","successRate":100},"700/4":{"classGroup":700,"rank":4,"material":"11938/1#11039/3#11002/20#11001/20","cost":"11905/500000","successRate":100},"450/4":{"classGroup":450,"rank":4,"material":"11941/1#11039/3#11002/20#11001/20","cost":"11905/500000","successRate":100},"700/3":{"classGroup":700,"rank":3,"material":"11035/2#11002/10#11001/10","cost":"11905/250000","successRate":100},"450/3":{"classGroup":450,"rank":3,"material":"11039/2#11002/10#11001/10","cost":"11905/250000","successRate":100},"700/2":{"classGroup":700,"rank":2,"material":"11035/1#11002/1#11001/1","cost":"11905/20000","successRate":100},"450/2":{"classGroup":450,"rank":2,"material":"11039/1#11002/1#11001/1","cost":"11905/20000","successRate":100},"600/5":{"classGroup":600,"rank":5,"material":"11946/1#11037/5#11002/50#11001/50#11034/1","cost":"11905/3000000","successRate":100},"350/5":{"classGroup":350,"rank":5,"material":"11922/1#11038/5#11002/50#11001/50#11034/1","cost":"11905/3000000","successRate":100},"600/4":{"classGroup":600,"rank":4,"material":"11945/1#11037/3#11002/20#11001/20","cost":"11905/500000","successRate":100},"350/4":{"classGroup":350,"rank":4,"material":"11921/1#11038/3#11002/20#11001/20","cost":"11905/500000","successRate":100},"600/3":{"classGroup":600,"rank":3,"material":"11037/2#11002/10#11001/10","cost":"11905/250000","successRate":100},"350/3":{"classGroup":350,"rank":3,"material":"11038/2#11002/10#11001/10","cost":"11905/250000","successRate":100},"600/2":{"classGroup":600,"rank":2,"material":"11037/1#11002/1#11001/1","cost":"11905/20000","successRate":100},"350/2":{"classGroup":350,"rank":2,"material":"11038/1#11002/1#11001/1","cost":"11905/20000","successRate":100},"500/3":{"classGroup":500,"rank":3,"material":"11036/2#11002/10#11001/10","cost":"11905/250000","successRate":100},"500/2":{"classGroup":500,"rank":2,"material":"11036/1#11002/1#11001/1","cost":"11905/20000","successRate":100},"500/5":{"classGroup":500,"rank":5,"material":"11933/1#11036/5#11002/50#11001/50#11034/1","cost":"11905/3000000","successRate":100},"500/4":{"classGroup":500,"rank":4,"material":"11932/1#11036/3#11002/20#11001/20","cost":"11905/500000","successRate":100},"150/2":{"classGroup":150,"rank":2,"material":"11036/1#11002/1#11001/1","cost":"11905/20000","successRate":100},"250/3":{"classGroup":250,"rank":3,"material":"11037/2#11002/10#11001/10","cost":"11905/250000","successRate":100},"250/2":{"classGroup":250,"rank":2,"material":"11037/1#11002/1#11001/1","cost":"11905/20000","successRate":100},"250/5":{"classGroup":250,"rank":5,"material":"11930/1#11037/5#11002/50#11001/50#11034/1","cost":"11905/3000000","successRate":100},"250/4":{"classGroup":250,"rank":4,"material":"11929/1#11037/3#11002/20#11001/20","cost":"11905/500000","successRate":100},"800/2":{"classGroup":800,"rank":2,"material":"11039/1#11002/1#11001/1","cost":"11905/20000","successRate":100},"800/5":{"classGroup":800,"rank":5,"material":"11936/1#11039/5#11002/50#11001/50#11034/1","cost":"11905/3000000","successRate":100},"800/4":{"classGroup":800,"rank":4,"material":"11935/1#11039/3#11002/20#11001/20","cost":"11905/500000","successRate":100},"800/3":{"classGroup":800,"rank":3,"material":"11039/2#11002/10#11001/10","cost":"11905/250000","successRate":100},"150/5":{"classGroup":150,"rank":5,"material":"11926/1#11036/5#11002/50#11001/50#11034/1","cost":"11905/3000000","successRate":100},"150/4":{"classGroup":150,"rank":4,"material":"11925/1#11036/3#11002/20#11001/20","cost":"11905/500000","successRate":100},"150/3":{"classGroup":150,"rank":3,"material":"11036/2#11002/10#11001/10","cost":"11905/250000","successRate":100},"200/4":{"classGroup":200,"rank":4,"material":"11929/1#11037/3#11002/20#11001/20","cost":"11905/500000","successRate":100},"200/3":{"classGroup":200,"rank":3,"material":"11037/2#11002/10#11001/10","cost":"11905/250000","successRate":100},"200/2":{"classGroup":200,"rank":2,"material":"11037/1#11002/1#11001/1","cost":"11905/20000","successRate":100},"200/5":{"classGroup":200,"rank":5,"material":"11930/1#11037/5#11002/50#11001/50#11034/1","cost":"11905/3000000","successRate":100},"850/5":{"classGroup":850,"rank":5,"material":"11936/1#11039/5#11002/50#11001/50#11034/1","cost":"11905/3000000","successRate":100},"850/4":{"classGroup":850,"rank":4,"material":"11935/1#11039/3#11002/20#11001/20","cost":"11905/500000","successRate":100},"850/3":{"classGroup":850,"rank":3,"material":"11039/2#11002/10#11001/10","cost":"11905/250000","successRate":100},"850/2":{"classGroup":850,"rank":2,"material":"11039/1#11002/1#11001/1","cost":"11905/20000","successRate":100},"100/3":{"classGroup":100,"rank":3,"material":"11036/2#11002/10#11001/10","cost":"11905/250000","successRate":100},"100/2":{"classGroup":100,"rank":2,"material":"11036/1#11002/1#11001/1","cost":"11905/20000","successRate":100},"100/5":{"classGroup":100,"rank":5,"material":"11926/1#11036/5#11002/50#11001/50#11034/1","cost":"11905/3000000","successRate":100},"100/4":{"classGroup":100,"rank":4,"material":"11925/1#11036/3#11002/20#11001/20","cost":"11905/500000","successRate":100},"650/3":{"classGroup":650,"rank":3,"material":"11037/2#11002/10#11001/10","cost":"11905/250000","successRate":100},"400/2":{"classGroup":400,"rank":2,"material":"11039/1#11002/1#11001/1","cost":"11905/20000","successRate":100},"650/2":{"classGroup":650,"rank":2,"material":"11037/1#11002/1#11001/1","cost":"11905/20000","successRate":100},"650/5":{"classGroup":650,"rank":5,"material":"11946/1#11037/5#11002/50#11001/50#11034/1","cost":"11905/3000000","successRate":100},"750/5":{"classGroup":750,"rank":5,"material":"11939/1#11039/5#11002/50#11001/50#11034/1","cost":"11905/3000000","successRate":100},"650/4":{"classGroup":650,"rank":4,"material":"11945/1#11037/3#11002/20#11001/20","cost":"11905/500000","successRate":100},"750/4":{"classGroup":750,"rank":4,"material":"11938/1#11039/3#11002/20#11001/20","cost":"11905/500000","successRate":100},"750/3":{"classGroup":750,"rank":3,"material":"11035/2#11002/10#11001/10","cost":"11905/250000","successRate":100},"400/5":{"classGroup":400,"rank":5,"material":"11942/1#11039/5#11002/50#11001/50#11034/1","cost":"11905/3000000","successRate":100},"750/2":{"classGroup":750,"rank":2,"material":"11035/1#11002/1#11001/1","cost":"11905/20000","successRate":100},"400/4":{"classGroup":400,"rank":4,"material":"11941/1#11039/3#11002/20#11001/20","cost":"11905/500000","successRate":100},"400/3":{"classGroup":400,"rank":3,"material":"11039/2#11002/10#11001/10","cost":"11905/250000","successRate":100},"550/2":{"classGroup":550,"rank":2,"material":"11036/1#11002/1#11001/1","cost":"11905/20000","successRate":100},"300/3":{"classGroup":300,"rank":3,"material":"11038/2#11002/10#11001/10","cost":"11905/250000","successRate":100},"300/2":{"classGroup":300,"rank":2,"material":"11038/1#11002/1#11001/1","cost":"11905/20000","successRate":100},"550/5":{"classGroup":550,"rank":5,"material":"11933/1#11036/5#11002/50#11001/50#11034/1","cost":"11905/3000000","successRate":100},"550/4":{"classGroup":550,"rank":4,"material":"11932/1#11036/1#11002/20#11001/20","cost":"11905/500000","successRate":100},"550/3":{"classGroup":550,"rank":3,"material":"11036/2#11002/10#11001/10","cost":"11905/250000","successRate":100},"300/5":{"classGroup":300,"rank":5,"material":"11922/1#11038/5#11002/50#11001/50#11034/1","cost":"11905/3000000","successRate":100},"300/4":{"classGroup":300,"rank":4,"material":"11921/1#11038/3#11002/20#11001/20","cost":"11905/500000","successRate":100}},"equipBonusStatsMap":{"13/4":{"level":13,"equipRank":4,"atk":1350,"mag":1688,"hp":6750,"def":1350,"res":1013,"crit":0,"spd":380},"15/2":{"level":15,"equipRank":2,"atk":1600,"mag":2000,"hp":8000,"def":1600,"res":1200,"crit":0,"spd":450},"11/5":{"level":11,"equipRank":5,"atk":1139,"mag":1424,"hp":5696,"def":1139,"res":854,"crit":0,"spd":320},"13/3":{"level":13,"equipRank":3,"atk":1350,"mag":1688,"hp":6750,"def":1350,"res":1013,"crit":0,"spd":380},"15/1":{"level":15,"equipRank":1,"atk":1600,"mag":2000,"hp":8000,"def":1600,"res":1200,"crit":0,"spd":450},"11/4":{"level":11,"equipRank":4,"atk":760,"mag":950,"hp":3797,"def":760,"res":570,"crit":0,"spd":214},"13/2":{"level":13,"equipRank":2,"atk":900,"mag":1125,"hp":4500,"def":900,"res":675,"crit":0,"spd":254},"11/3":{"level":11,"equipRank":3,"atk":760,"mag":950,"hp":3797,"def":760,"res":570,"crit":0,"spd":214},"13/1":{"level":13,"equipRank":1,"atk":900,"mag":1125,"hp":4500,"def":900,"res":675,"crit":0,"spd":254},"11/2":{"level":11,"equipRank":2,"atk":506,"mag":633,"hp":2531,"def":506,"res":380,"crit":0,"spd":143},"2/1":{"level":2,"equipRank":1,"atk":13,"mag":17,"hp":66,"def":13,"res":10,"crit":0,"spd":4},"2/2":{"level":2,"equipRank":2,"atk":13,"mag":17,"hp":66,"def":13,"res":10,"crit":0,"spd":4},"11/1":{"level":11,"equipRank":1,"atk":506,"mag":633,"hp":2531,"def":506,"res":380,"crit":0,"spd":143},"2/3":{"level":2,"equipRank":3,"atk":20,"mag":25,"hp":99,"def":20,"res":15,"crit":0,"spd":6},"4/1":{"level":4,"equipRank":1,"atk":44,"mag":55,"hp":219,"def":44,"res":33,"crit":0,"spd":13},"2/4":{"level":2,"equipRank":4,"atk":20,"mag":25,"hp":99,"def":20,"res":15,"crit":0,"spd":6},"4/2":{"level":4,"equipRank":2,"atk":44,"mag":55,"hp":219,"def":44,"res":33,"crit":0,"spd":13},"2/5":{"level":2,"equipRank":5,"atk":30,"mag":37,"hp":149,"def":30,"res":23,"crit":0,"spd":8},"4/3":{"level":4,"equipRank":3,"atk":66,"mag":82,"hp":328,"def":66,"res":50,"crit":0,"spd":19},"6/1":{"level":6,"equipRank":1,"atk":113,"mag":140,"hp":561,"def":113,"res":85,"crit":0,"spd":32},"4/4":{"level":4,"equipRank":4,"atk":66,"mag":82,"hp":328,"def":66,"res":50,"crit":0,"spd":19},"6/2":{"level":6,"equipRank":2,"atk":113,"mag":140,"hp":561,"def":113,"res":85,"crit":0,"spd":32},"4/5":{"level":4,"equipRank":5,"atk":98,"mag":123,"hp":492,"def":98,"res":74,"crit":0,"spd":28},"6/3":{"level":6,"equipRank":3,"atk":169,"mag":211,"hp":841,"def":169,"res":127,"crit":0,"spd":48},"8/1":{"level":8,"equipRank":1,"atk":214,"mag":267,"hp":1068,"def":214,"res":161,"crit":0,"spd":60},"6/4":{"level":6,"equipRank":4,"atk":169,"mag":211,"hp":841,"def":169,"res":127,"crit":0,"spd":48},"8/2":{"level":8,"equipRank":2,"atk":214,"mag":267,"hp":1068,"def":214,"res":161,"crit":0,"spd":60},"6/5":{"level":6,"equipRank":5,"atk":253,"mag":316,"hp":1261,"def":253,"res":190,"crit":0,"spd":71},"8/3":{"level":8,"equipRank":3,"atk":321,"mag":401,"hp":1602,"def":321,"res":241,"crit":0,"spd":91},"15/5":{"level":15,"equipRank":5,"atk":3600,"mag":4500,"hp":18000,"def":3600,"res":2700,"crit":0,"spd":1012},"8/4":{"level":8,"equipRank":4,"atk":321,"mag":401,"hp":1602,"def":321,"res":241,"crit":0,"spd":91},"8/5":{"level":8,"equipRank":5,"atk":481,"mag":601,"hp":2403,"def":481,"res":361,"crit":0,"spd":135},"15/4":{"level":15,"equipRank":4,"atk":2400,"mag":3000,"hp":12000,"def":2400,"res":1800,"crit":0,"spd":675},"13/5":{"level":13,"equipRank":5,"atk":2025,"mag":2531,"hp":10125,"def":2025,"res":1519,"crit":0,"spd":569},"15/3":{"level":15,"equipRank":3,"atk":2400,"mag":3000,"hp":12000,"def":2400,"res":1800,"crit":0,"spd":675},"12/5":{"level":12,"equipRank":5,"atk":1519,"mag":1898,"hp":7594,"def":1519,"res":1139,"crit":0,"spd":427},"14/3":{"level":14,"equipRank":3,"atk":1800,"mag":2250,"hp":9000,"def":1800,"res":1350,"crit":0,"spd":506},"12/4":{"level":12,"equipRank":4,"atk":1013,"mag":1266,"hp":5063,"def":1013,"res":760,"crit":0,"spd":285},"14/2":{"level":14,"equipRank":2,"atk":1200,"mag":1500,"hp":6000,"def":1200,"res":900,"crit":0,"spd":338},"10/5":{"level":10,"equipRank":5,"atk":854,"mag":1068,"hp":4272,"def":854,"res":641,"crit":0,"spd":240},"12/3":{"level":12,"equipRank":3,"atk":1013,"mag":1266,"hp":5063,"def":1013,"res":760,"crit":0,"spd":285},"14/1":{"level":14,"equipRank":1,"atk":1200,"mag":1500,"hp":6000,"def":1200,"res":900,"crit":0,"spd":338},"10/4":{"level":10,"equipRank":4,"atk":570,"mag":713,"hp":2848,"def":570,"res":428,"crit":0,"spd":161},"12/2":{"level":12,"equipRank":2,"atk":675,"mag":844,"hp":3375,"def":675,"res":506,"crit":0,"spd":191},"1/1":{"level":1,"equipRank":1,"atk":0,"mag":0,"hp":0,"def":0,"res":0,"crit":0,"spd":0},"10/3":{"level":10,"equipRank":3,"atk":570,"mag":713,"hp":2848,"def":570,"res":428,"crit":0,"spd":161},"1/2":{"level":1,"equipRank":2,"atk":0,"mag":0,"hp":0,"def":0,"res":0,"crit":0,"spd":0},"12/1":{"level":12,"equipRank":1,"atk":675,"mag":844,"hp":3375,"def":675,"res":506,"crit":0,"spd":191},"1/3":{"level":1,"equipRank":3,"atk":0,"mag":0,"hp":0,"def":0,"res":0,"crit":0,"spd":0},"10/2":{"level":10,"equipRank":2,"atk":380,"mag":475,"hp":1898,"def":380,"res":285,"crit":0,"spd":107},"3/1":{"level":3,"equipRank":1,"atk":24,"mag":30,"hp":120,"def":24,"res":18,"crit":0,"spd":7},"1/4":{"level":1,"equipRank":4,"atk":0,"mag":0,"hp":0,"def":0,"res":0,"crit":0,"spd":0},"3/2":{"level":3,"equipRank":2,"atk":24,"mag":30,"hp":120,"def":24,"res":18,"crit":0,"spd":7},"10/1":{"level":10,"equipRank":1,"atk":380,"mag":475,"hp":1898,"def":380,"res":285,"crit":0,"spd":107},"1/5":{"level":1,"equipRank":5,"atk":0,"mag":0,"hp":0,"def":0,"res":0,"crit":0,"spd":0},"3/3":{"level":3,"equipRank":3,"atk":36,"mag":45,"hp":180,"def":36,"res":28,"crit":0,"spd":10},"5/1":{"level":5,"equipRank":1,"atk":73,"mag":91,"hp":365,"def":73,"res":55,"crit":0,"spd":21},"3/4":{"level":3,"equipRank":4,"atk":36,"mag":45,"hp":180,"def":36,"res":28,"crit":0,"spd":10},"5/2":{"level":5,"equipRank":2,"atk":73,"mag":91,"hp":365,"def":73,"res":55,"crit":0,"spd":21},"3/5":{"level":3,"equipRank":5,"atk":54,"mag":68,"hp":271,"def":54,"res":41,"crit":0,"spd":15},"5/3":{"level":5,"equipRank":3,"atk":110,"mag":137,"hp":547,"def":110,"res":83,"crit":0,"spd":31},"7/1":{"level":7,"equipRank":1,"atk":161,"mag":200,"hp":801,"def":161,"res":121,"crit":0,"spd":45},"5/4":{"level":5,"equipRank":4,"atk":110,"mag":137,"hp":547,"def":110,"res":83,"crit":0,"spd":31},"7/2":{"level":7,"equipRank":2,"atk":161,"mag":200,"hp":801,"def":161,"res":121,"crit":0,"spd":45},"5/5":{"level":5,"equipRank":5,"atk":164,"mag":205,"hp":820,"def":164,"res":124,"crit":0,"spd":46},"7/3":{"level":7,"equipRank":3,"atk":241,"mag":301,"hp":1202,"def":241,"res":181,"crit":0,"spd":68},"9/1":{"level":9,"equipRank":1,"atk":285,"mag":356,"hp":1424,"def":285,"res":214,"crit":0,"spd":80},"7/4":{"level":7,"equipRank":4,"atk":241,"mag":301,"hp":1202,"def":241,"res":181,"crit":0,"spd":68},"9/2":{"level":9,"equipRank":2,"atk":285,"mag":356,"hp":1424,"def":285,"res":214,"crit":0,"spd":80},"7/5":{"level":7,"equipRank":5,"atk":361,"mag":451,"hp":1802,"def":361,"res":271,"crit":0,"spd":101},"9/3":{"level":9,"equipRank":3,"atk":428,"mag":535,"hp":2136,"def":428,"res":321,"crit":0,"spd":121},"14/5":{"level":14,"equipRank":5,"atk":2700,"mag":3375,"hp":13500,"def":2700,"res":2025,"crit":0,"spd":759},"9/4":{"level":9,"equipRank":4,"atk":428,"mag":535,"hp":2136,"def":428,"res":321,"crit":0,"spd":121},"9/5":{"level":9,"equipRank":5,"atk":641,"mag":801,"hp":3204,"def":641,"res":481,"crit":0,"spd":180},"14/4":{"level":14,"equipRank":4,"atk":1800,"mag":2250,"hp":9000,"def":1800,"res":1350,"crit":0,"spd":506}},"levelUpHeroByHeroes":{"1":{"rank":1,"sameElementals":500,"differentElementals":375,"successRatePercent":100},"2":{"rank":2,"sameElementals":2000,"differentElementals":1500,"successRatePercent":100},"3":{"rank":3,"sameElementals":10000,"differentElementals":7500,"successRatePercent":100},"4":{"rank":4,"sameElementals":30000,"differentElementals":30000,"successRatePercent":100},"5":{"rank":5,"sameElementals":100000,"differentElementals":100000,"successRatePercent":100}},"levelUpHeroByItems":{"11017":{"itemIndex":11017,"sameElementals":4000,"differentElementals":3000,"successRatePercent":100,"costPerSlot":1000},"11018":{"itemIndex":11018,"sameElementals":50000,"differentElementals":37500,"successRatePercent":100,"costPerSlot":10000},"11019":{"itemIndex":11019,"sameElementals":300000,"differentElementals":225000,"successRatePercent":100,"costPerSlot":50000},"11020":{"itemIndex":11020,"sameElementals":4000,"differentElementals":3000,"successRatePercent":100,"costPerSlot":1000},"11021":{"itemIndex":11021,"sameElementals":50000,"differentElementals":37500,"successRatePercent":100,"costPerSlot":10000},"11022":{"itemIndex":11022,"sameElementals":300000,"differentElementals":225000,"successRatePercent":100,"costPerSlot":50000},"11023":{"itemIndex":11023,"sameElementals":4000,"differentElementals":3000,"successRatePercent":100,"costPerSlot":1000},"11024":{"itemIndex":11024,"sameElementals":50000,"differentElementals":37500,"successRatePercent":100,"costPerSlot":10000},"11025":{"itemIndex":11025,"sameElementals":300000,"differentElementals":225000,"successRatePercent":100,"costPerSlot":50000},"11026":{"itemIndex":11026,"sameElementals":4000,"differentElementals":3000,"successRatePercent":100,"costPerSlot":1000},"11027":{"itemIndex":11027,"sameElementals":50000,"differentElementals":37500,"successRatePercent":100,"costPerSlot":10000},"11028":{"itemIndex":11028,"sameElementals":300000,"differentElementals":225000,"successRatePercent":100,"costPerSlot":50000},"11029":{"itemIndex":11029,"sameElementals":4000,"differentElementals":3000,"successRatePercent":100,"costPerSlot":1000},"11030":{"itemIndex":11030,"sameElementals":50000,"differentElementals":37500,"successRatePercent":100,"costPerSlot":10000},"11031":{"itemIndex":11031,"sameElementals":300000,"differentElementals":225000,"successRatePercent":100,"costPerSlot":50000}},"levelUpEquipmentsLT3":{"2":{"level":2,"combineMaterial":"11008/1","cost":"11905/1000","successRatePercent":100},"3":{"level":3,"combineMaterial":"11008/3","cost":"11905/2000","successRatePercent":100},"4":{"level":4,"combineMaterial":"11008/5","cost":"11905/4000","successRatePercent":100},"5":{"level":5,"combineMaterial":"11001/5#11008/10","cost":"11905/8000","successRatePercent":100},"6":{"level":6,"combineMaterial":"11001/10#11008/20","cost":"11905/12000","successRatePercent":95},"7":{"level":7,"combineMaterial":"11001/20#11008/30","cost":"11905/18000","successRatePercent":90},"8":{"level":8,"combineMaterial":"11001/25#11008/40","cost":"11905/25000","successRatePercent":85},"9":{"level":9,"combineMaterial":"11001/30#11008/50","cost":"11905/35000","successRatePercent":80},"10":{"level":10,"combineMaterial":"11001/40#11002/5#11008/60","cost":"11905/50000","successRatePercent":75},"11":{"level":11,"combineMaterial":"11001/50#11002/10#11008/70","cost":"11999/10#11905/100000","successRatePercent":70},"12":{"level":12,"combineMaterial":"11001/60#11002/20#11008/80","cost":"11999/15#11905/200000","successRatePercent":65},"13":{"level":13,"combineMaterial":"11001/70#11002/30#11008/90","cost":"11999/20#11905/400000","successRatePercent":60},"14":{"level":14,"combineMaterial":"11001/80#11002/40#11008/100","cost":"11999/25#11905/500000","successRatePercent":55},"15":{"level":15,"combineMaterial":"11001/100#11002/50#11008/150","cost":"11999/30#11905/1000000","successRatePercent":50}},"levelUpEquipmentsGT3":{"2":{"level":2,"combineMaterial":"11009/1","cost":"11905/3000","successRatePercent":100},"3":{"level":3,"combineMaterial":"11009/3","cost":"11905/8000","successRatePercent":100},"4":{"level":4,"combineMaterial":"11009/5","cost":"11905/15000","successRatePercent":95},"5":{"level":5,"combineMaterial":"11001/5#11002/1#11009/10","cost":"11905/25000","successRatePercent":85},"6":{"level":6,"combineMaterial":"11001/10#11002/1#11009/20","cost":"11905/40000","successRatePercent":75},"7":{"level":7,"combineMaterial":"11001/20#11002/1#11009/30","cost":"11905/50000","successRatePercent":60},"8":{"level":8,"combineMaterial":"11001/25#11002/2#11009/40","cost":"11905/80000","successRatePercent":50},"9":{"level":9,"combineMaterial":"11001/30#11002/3#11009/50","cost":"11905/100000","successRatePercent":40},"10":{"level":10,"combineMaterial":"11001/40#11002/5#11009/60","cost":"11905/150000","successRatePercent":35},"11":{"level":11,"combineMaterial":"11001/50#11002/10#11009/70","cost":"11999/20#11905/300000","successRatePercent":30},"12":{"level":12,"combineMaterial":"11001/60#11002/20#11009/80","cost":"11999/30#11905/500000","successRatePercent":25},"13":{"level":13,"combineMaterial":"11001/70#11002/30#11009/90","cost":"11999/35#11905/800000","successRatePercent":20},"14":{"level":14,"combineMaterial":"11001/80#11002/40#11009/100","cost":"11999/40#11905/1500000","successRatePercent":15},"15":{"level":15,"combineMaterial":"11001/100#11002/50#11009/150","cost":"11999/50#11905/2500000","successRatePercent":10}}}
+{
+  "itemOptionSkillList": [
+    {
+      "group": 1,
+      "skillId": "8800",
+      "randRate": 5
+    },
+    {
+      "group": 1,
+      "skillId": "8810",
+      "randRate": 5
+    },
+    {
+      "group": 1,
+      "skillId": "8820",
+      "randRate": 6
+    },
+    {
+      "group": 1,
+      "skillId": "8830",
+      "randRate": 10
+    },
+    {
+      "group": 1,
+      "skillId": "8840",
+      "randRate": 6
+    },
+    {
+      "group": 1,
+      "skillId": "8850",
+      "randRate": 8
+    },
+    {
+      "group": 1,
+      "skillId": "8860",
+      "randRate": 20
+    },
+    {
+      "group": 1,
+      "skillId": "8870",
+      "randRate": 20
+    },
+    {
+      "group": 1,
+      "skillId": "8880",
+      "randRate": 20
+    },
+    {
+      "group": 2,
+      "skillId": "8800",
+      "randRate": 3
+    },
+    {
+      "group": 2,
+      "skillId": "8810",
+      "randRate": 3
+    },
+    {
+      "group": 2,
+      "skillId": "8820",
+      "randRate": 3
+    },
+    {
+      "group": 2,
+      "skillId": "8830",
+      "randRate": 10
+    },
+    {
+      "group": 2,
+      "skillId": "8840",
+      "randRate": 3
+    },
+    {
+      "group": 2,
+      "skillId": "8850",
+      "randRate": 3
+    },
+    {
+      "group": 2,
+      "skillId": "8860",
+      "randRate": 25
+    },
+    {
+      "group": 2,
+      "skillId": "8870",
+      "randRate": 25
+    },
+    {
+      "group": 2,
+      "skillId": "8880",
+      "randRate": 25
+    }
+  ],
+  "evolveHeroExtendList": [
+    {
+      "element": "Earth",
+      "rank": 5,
+      "material": "11055/5000"
+    },
+    {
+      "element": "Light",
+      "rank": 4,
+      "material": "11052/500"
+    },
+    {
+      "element": "Dark",
+      "rank": 5,
+      "material": "11053/5000"
+    },
+    {
+      "element": "Water",
+      "rank": 4,
+      "material": "11056/500"
+    },
+    {
+      "element": "Water",
+      "rank": 5,
+      "material": "11056/5000"
+    },
+    {
+      "element": "Fire",
+      "rank": 4,
+      "material": "11054/500"
+    },
+    {
+      "element": "Fire",
+      "rank": 5,
+      "material": "11054/5000"
+    },
+    {
+      "element": "Light",
+      "rank": 5,
+      "material": "11052/5000"
+    },
+    {
+      "element": "Dark",
+      "rank": 4,
+      "material": "11053/500"
+    },
+    {
+      "element": "Earth",
+      "rank": 4,
+      "material": "11055/500"
+    }
+  ],
+  "evolveHeroes": {
+    "450/5": {
+      "classGroup": 450,
+      "rank": 5,
+      "material": "11942/1#11039/5#11002/50#11001/50#11034/1",
+      "cost": "11905/3000000",
+      "successRate": 100
+    },
+    "700/5": {
+      "classGroup": 700,
+      "rank": 5,
+      "material": "11939/1#11039/5#11002/50#11001/50#11034/1",
+      "cost": "11905/3000000",
+      "successRate": 100
+    },
+    "450/4": {
+      "classGroup": 450,
+      "rank": 4,
+      "material": "11941/1#11039/3#11002/20#11001/20",
+      "cost": "11905/500000",
+      "successRate": 100
+    },
+    "700/4": {
+      "classGroup": 700,
+      "rank": 4,
+      "material": "11938/1#11039/3#11002/20#11001/20",
+      "cost": "11905/500000",
+      "successRate": 100
+    },
+    "450/3": {
+      "classGroup": 450,
+      "rank": 3,
+      "material": "11039/2#11002/10#11001/10",
+      "cost": "11905/250000",
+      "successRate": 100
+    },
+    "700/3": {
+      "classGroup": 700,
+      "rank": 3,
+      "material": "11035/2#11002/10#11001/10",
+      "cost": "11905/250000",
+      "successRate": 100
+    },
+    "450/2": {
+      "classGroup": 450,
+      "rank": 2,
+      "material": "11039/1#11002/1#11001/1",
+      "cost": "11905/20000",
+      "successRate": 100
+    },
+    "700/2": {
+      "classGroup": 700,
+      "rank": 2,
+      "material": "11035/1#11002/1#11001/1",
+      "cost": "11905/20000",
+      "successRate": 100
+    },
+    "350/5": {
+      "classGroup": 350,
+      "rank": 5,
+      "material": "11922/1#11038/5#11002/50#11001/50#11034/1",
+      "cost": "11905/3000000",
+      "successRate": 100
+    },
+    "600/5": {
+      "classGroup": 600,
+      "rank": 5,
+      "material": "11946/1#11037/5#11002/50#11001/50#11034/1",
+      "cost": "11905/3000000",
+      "successRate": 100
+    },
+    "350/4": {
+      "classGroup": 350,
+      "rank": 4,
+      "material": "11921/1#11038/3#11002/20#11001/20",
+      "cost": "11905/500000",
+      "successRate": 100
+    },
+    "600/4": {
+      "classGroup": 600,
+      "rank": 4,
+      "material": "11945/1#11037/3#11002/20#11001/20",
+      "cost": "11905/500000",
+      "successRate": 100
+    },
+    "350/3": {
+      "classGroup": 350,
+      "rank": 3,
+      "material": "11038/2#11002/10#11001/10",
+      "cost": "11905/250000",
+      "successRate": 100
+    },
+    "600/3": {
+      "classGroup": 600,
+      "rank": 3,
+      "material": "11037/2#11002/10#11001/10",
+      "cost": "11905/250000",
+      "successRate": 100
+    },
+    "350/2": {
+      "classGroup": 350,
+      "rank": 2,
+      "material": "11038/1#11002/1#11001/1",
+      "cost": "11905/20000",
+      "successRate": 100
+    },
+    "600/2": {
+      "classGroup": 600,
+      "rank": 2,
+      "material": "11037/1#11002/1#11001/1",
+      "cost": "11905/20000",
+      "successRate": 100
+    },
+    "500/3": {
+      "classGroup": 500,
+      "rank": 3,
+      "material": "11036/2#11002/10#11001/10",
+      "cost": "11905/250000",
+      "successRate": 100
+    },
+    "500/2": {
+      "classGroup": 500,
+      "rank": 2,
+      "material": "11036/1#11002/1#11001/1",
+      "cost": "11905/20000",
+      "successRate": 100
+    },
+    "500/5": {
+      "classGroup": 500,
+      "rank": 5,
+      "material": "11933/1#11036/5#11002/50#11001/50#11034/1",
+      "cost": "11905/3000000",
+      "successRate": 100
+    },
+    "500/4": {
+      "classGroup": 500,
+      "rank": 4,
+      "material": "11932/1#11036/3#11002/20#11001/20",
+      "cost": "11905/500000",
+      "successRate": 100
+    },
+    "150/2": {
+      "classGroup": 150,
+      "rank": 2,
+      "material": "11036/1#11002/1#11001/1",
+      "cost": "11905/20000",
+      "successRate": 100
+    },
+    "250/3": {
+      "classGroup": 250,
+      "rank": 3,
+      "material": "11037/2#11002/10#11001/10",
+      "cost": "11905/250000",
+      "successRate": 100
+    },
+    "250/2": {
+      "classGroup": 250,
+      "rank": 2,
+      "material": "11037/1#11002/1#11001/1",
+      "cost": "11905/20000",
+      "successRate": 100
+    },
+    "250/5": {
+      "classGroup": 250,
+      "rank": 5,
+      "material": "11930/1#11037/5#11002/50#11001/50#11034/1",
+      "cost": "11905/3000000",
+      "successRate": 100
+    },
+    "250/4": {
+      "classGroup": 250,
+      "rank": 4,
+      "material": "11929/1#11037/3#11002/20#11001/20",
+      "cost": "11905/500000",
+      "successRate": 100
+    },
+    "800/2": {
+      "classGroup": 800,
+      "rank": 2,
+      "material": "11035/1#11002/1#11001/1",
+      "cost": "11905/20000",
+      "successRate": 100
+    },
+    "800/5": {
+      "classGroup": 800,
+      "rank": 5,
+      "material": "11936/1#11035/5#11002/50#11001/50#11034/1",
+      "cost": "11905/3000000",
+      "successRate": 100
+    },
+    "800/4": {
+      "classGroup": 800,
+      "rank": 4,
+      "material": "11935/1#11035/3#11002/20#11001/20",
+      "cost": "11905/500000",
+      "successRate": 100
+    },
+    "800/3": {
+      "classGroup": 800,
+      "rank": 3,
+      "material": "11035/2#11002/10#11001/10",
+      "cost": "11905/250000",
+      "successRate": 100
+    },
+    "150/5": {
+      "classGroup": 150,
+      "rank": 5,
+      "material": "11926/1#11036/5#11002/50#11001/50#11034/1",
+      "cost": "11905/3000000",
+      "successRate": 100
+    },
+    "150/4": {
+      "classGroup": 150,
+      "rank": 4,
+      "material": "11925/1#11036/3#11002/20#11001/20",
+      "cost": "11905/500000",
+      "successRate": 100
+    },
+    "150/3": {
+      "classGroup": 150,
+      "rank": 3,
+      "material": "11036/2#11002/10#11001/10",
+      "cost": "11905/250000",
+      "successRate": 100
+    },
+    "200/4": {
+      "classGroup": 200,
+      "rank": 4,
+      "material": "11929/1#11037/3#11002/20#11001/20",
+      "cost": "11905/500000",
+      "successRate": 100
+    },
+    "200/3": {
+      "classGroup": 200,
+      "rank": 3,
+      "material": "11037/2#11002/10#11001/10",
+      "cost": "11905/250000",
+      "successRate": 100
+    },
+    "200/2": {
+      "classGroup": 200,
+      "rank": 2,
+      "material": "11037/1#11002/1#11001/1",
+      "cost": "11905/20000",
+      "successRate": 100
+    },
+    "200/5": {
+      "classGroup": 200,
+      "rank": 5,
+      "material": "11930/1#11037/5#11002/50#11001/50#11034/1",
+      "cost": "11905/3000000",
+      "successRate": 100
+    },
+    "850/5": {
+      "classGroup": 850,
+      "rank": 5,
+      "material": "11936/1#11035/5#11002/50#11001/50#11034/1",
+      "cost": "11905/3000000",
+      "successRate": 100
+    },
+    "850/4": {
+      "classGroup": 850,
+      "rank": 4,
+      "material": "11935/1#11035/3#11002/20#11001/20",
+      "cost": "11905/500000",
+      "successRate": 100
+    },
+    "850/3": {
+      "classGroup": 850,
+      "rank": 3,
+      "material": "11035/2#11002/10#11001/10",
+      "cost": "11905/250000",
+      "successRate": 100
+    },
+    "850/2": {
+      "classGroup": 850,
+      "rank": 2,
+      "material": "11035/1#11002/1#11001/1",
+      "cost": "11905/20000",
+      "successRate": 100
+    },
+    "100/3": {
+      "classGroup": 100,
+      "rank": 3,
+      "material": "11036/2#11002/10#11001/10",
+      "cost": "11905/250000",
+      "successRate": 100
+    },
+    "100/2": {
+      "classGroup": 100,
+      "rank": 2,
+      "material": "11036/1#11002/1#11001/1",
+      "cost": "11905/20000",
+      "successRate": 100
+    },
+    "100/5": {
+      "classGroup": 100,
+      "rank": 5,
+      "material": "11926/1#11036/5#11002/50#11001/50#11034/1",
+      "cost": "11905/3000000",
+      "successRate": 100
+    },
+    "100/4": {
+      "classGroup": 100,
+      "rank": 4,
+      "material": "11925/1#11036/3#11002/20#11001/20",
+      "cost": "11905/500000",
+      "successRate": 100
+    },
+    "400/2": {
+      "classGroup": 400,
+      "rank": 2,
+      "material": "11039/1#11002/1#11001/1",
+      "cost": "11905/20000",
+      "successRate": 100
+    },
+    "650/3": {
+      "classGroup": 650,
+      "rank": 3,
+      "material": "11037/2#11002/10#11001/10",
+      "cost": "11905/250000",
+      "successRate": 100
+    },
+    "650/2": {
+      "classGroup": 650,
+      "rank": 2,
+      "material": "11037/1#11002/1#11001/1",
+      "cost": "11905/20000",
+      "successRate": 100
+    },
+    "650/5": {
+      "classGroup": 650,
+      "rank": 5,
+      "material": "11946/1#11037/5#11002/50#11001/50#11034/1",
+      "cost": "11905/3000000",
+      "successRate": 100
+    },
+    "650/4": {
+      "classGroup": 650,
+      "rank": 4,
+      "material": "11945/1#11037/3#11002/20#11001/20",
+      "cost": "11905/500000",
+      "successRate": 100
+    },
+    "750/5": {
+      "classGroup": 750,
+      "rank": 5,
+      "material": "11939/1#11035/5#11002/50#11001/50#11034/1",
+      "cost": "11905/3000000",
+      "successRate": 100
+    },
+    "750/4": {
+      "classGroup": 750,
+      "rank": 4,
+      "material": "11938/1#11035/3#11002/20#11001/20",
+      "cost": "11905/500000",
+      "successRate": 100
+    },
+    "400/5": {
+      "classGroup": 400,
+      "rank": 5,
+      "material": "11942/1#11039/5#11002/50#11001/50#11034/1",
+      "cost": "11905/3000000",
+      "successRate": 100
+    },
+    "750/3": {
+      "classGroup": 750,
+      "rank": 3,
+      "material": "11035/2#11002/10#11001/10",
+      "cost": "11905/250000",
+      "successRate": 100
+    },
+    "400/4": {
+      "classGroup": 400,
+      "rank": 4,
+      "material": "11941/1#11039/3#11002/20#11001/20",
+      "cost": "11905/500000",
+      "successRate": 100
+    },
+    "750/2": {
+      "classGroup": 750,
+      "rank": 2,
+      "material": "11035/1#11002/1#11001/1",
+      "cost": "11905/20000",
+      "successRate": 100
+    },
+    "400/3": {
+      "classGroup": 400,
+      "rank": 3,
+      "material": "11039/2#11002/10#11001/10",
+      "cost": "11905/250000",
+      "successRate": 100
+    },
+    "550/2": {
+      "classGroup": 550,
+      "rank": 2,
+      "material": "11036/1#11002/1#11001/1",
+      "cost": "11905/20000",
+      "successRate": 100
+    },
+    "300/3": {
+      "classGroup": 300,
+      "rank": 3,
+      "material": "11038/2#11002/10#11001/10",
+      "cost": "11905/250000",
+      "successRate": 100
+    },
+    "300/2": {
+      "classGroup": 300,
+      "rank": 2,
+      "material": "11038/1#11002/1#11001/1",
+      "cost": "11905/20000",
+      "successRate": 100
+    },
+    "550/5": {
+      "classGroup": 550,
+      "rank": 5,
+      "material": "11933/1#11036/5#11002/50#11001/50#11034/1",
+      "cost": "11905/3000000",
+      "successRate": 100
+    },
+    "550/4": {
+      "classGroup": 550,
+      "rank": 4,
+      "material": "11932/1#11036/1#11002/20#11001/20",
+      "cost": "11905/500000",
+      "successRate": 100
+    },
+    "550/3": {
+      "classGroup": 550,
+      "rank": 3,
+      "material": "11036/2#11002/10#11001/10",
+      "cost": "11905/250000",
+      "successRate": 100
+    },
+    "300/5": {
+      "classGroup": 300,
+      "rank": 5,
+      "material": "11922/1#11038/5#11002/50#11001/50#11034/1",
+      "cost": "11905/3000000",
+      "successRate": 100
+    },
+    "300/4": {
+      "classGroup": 300,
+      "rank": 4,
+      "material": "11921/1#11038/3#11002/20#11001/20",
+      "cost": "11905/500000",
+      "successRate": 100
+    }
+  },
+  "equipBonusStatsMap": {
+    "15/2": {
+      "level": 15,
+      "equipRank": 2,
+      "atk": 7500,
+      "mag": 9375,
+      "hp": 37500,
+      "def": 1600,
+      "res": 1200,
+      "crit": 0,
+      "spd": 450
+    },
+    "13/4": {
+      "level": 13,
+      "equipRank": 4,
+      "atk": 9492,
+      "mag": 11865,
+      "hp": 47461,
+      "def": 1350,
+      "res": 1013,
+      "crit": 0,
+      "spd": 380
+    },
+    "15/1": {
+      "level": 15,
+      "equipRank": 1,
+      "atk": 5000,
+      "mag": 6250,
+      "hp": 25000,
+      "def": 1600,
+      "res": 1200,
+      "crit": 0,
+      "spd": 450
+    },
+    "13/3": {
+      "level": 13,
+      "equipRank": 3,
+      "atk": 6328,
+      "mag": 7910,
+      "hp": 31641,
+      "def": 1350,
+      "res": 1013,
+      "crit": 0,
+      "spd": 380
+    },
+    "11/5": {
+      "level": 11,
+      "equipRank": 5,
+      "atk": 8009,
+      "mag": 10011,
+      "hp": 40045,
+      "def": 1139,
+      "res": 854,
+      "crit": 0,
+      "spd": 320
+    },
+    "13/2": {
+      "level": 13,
+      "equipRank": 2,
+      "atk": 4219,
+      "mag": 5273,
+      "hp": 21094,
+      "def": 900,
+      "res": 675,
+      "crit": 0,
+      "spd": 253
+    },
+    "11/4": {
+      "level": 11,
+      "equipRank": 4,
+      "atk": 5339,
+      "mag": 6674,
+      "hp": 26697,
+      "def": 759,
+      "res": 570,
+      "crit": 0,
+      "spd": 214
+    },
+    "13/1": {
+      "level": 13,
+      "equipRank": 1,
+      "atk": 2813,
+      "mag": 3516,
+      "hp": 14063,
+      "def": 900,
+      "res": 675,
+      "crit": 0,
+      "spd": 253
+    },
+    "11/3": {
+      "level": 11,
+      "equipRank": 3,
+      "atk": 3560,
+      "mag": 4449,
+      "hp": 17798,
+      "def": 759,
+      "res": 570,
+      "crit": 0,
+      "spd": 214
+    },
+    "2/1": {
+      "level": 2,
+      "equipRank": 1,
+      "atk": 41,
+      "mag": 52,
+      "hp": 207,
+      "def": 13,
+      "res": 10,
+      "crit": 0,
+      "spd": 4
+    },
+    "11/2": {
+      "level": 11,
+      "equipRank": 2,
+      "atk": 2373,
+      "mag": 2966,
+      "hp": 11865,
+      "def": 506,
+      "res": 380,
+      "crit": 0,
+      "spd": 142
+    },
+    "11/1": {
+      "level": 11,
+      "equipRank": 1,
+      "atk": 1582,
+      "mag": 1978,
+      "hp": 7910,
+      "def": 506,
+      "res": 380,
+      "crit": 0,
+      "spd": 142
+    },
+    "2/2": {
+      "level": 2,
+      "equipRank": 2,
+      "atk": 62,
+      "mag": 78,
+      "hp": 310,
+      "def": 13,
+      "res": 10,
+      "crit": 0,
+      "spd": 4
+    },
+    "4/1": {
+      "level": 4,
+      "equipRank": 1,
+      "atk": 137,
+      "mag": 171,
+      "hp": 683,
+      "def": 44,
+      "res": 33,
+      "crit": 0,
+      "spd": 12
+    },
+    "2/3": {
+      "level": 2,
+      "equipRank": 3,
+      "atk": 93,
+      "mag": 116,
+      "hp": 465,
+      "def": 20,
+      "res": 15,
+      "crit": 0,
+      "spd": 6
+    },
+    "4/2": {
+      "level": 4,
+      "equipRank": 2,
+      "atk": 205,
+      "mag": 256,
+      "hp": 1025,
+      "def": 44,
+      "res": 33,
+      "crit": 0,
+      "spd": 12
+    },
+    "2/4": {
+      "level": 2,
+      "equipRank": 4,
+      "atk": 140,
+      "mag": 174,
+      "hp": 698,
+      "def": 20,
+      "res": 15,
+      "crit": 0,
+      "spd": 6
+    },
+    "6/1": {
+      "level": 6,
+      "equipRank": 1,
+      "atk": 350,
+      "mag": 438,
+      "hp": 1752,
+      "def": 112,
+      "res": 84,
+      "crit": 0,
+      "spd": 32
+    },
+    "4/3": {
+      "level": 4,
+      "equipRank": 3,
+      "atk": 307,
+      "mag": 384,
+      "hp": 1537,
+      "def": 66,
+      "res": 49,
+      "crit": 0,
+      "spd": 18
+    },
+    "2/5": {
+      "level": 2,
+      "equipRank": 5,
+      "atk": 209,
+      "mag": 262,
+      "hp": 1046,
+      "def": 30,
+      "res": 22,
+      "crit": 0,
+      "spd": 8
+    },
+    "6/2": {
+      "level": 6,
+      "equipRank": 2,
+      "atk": 526,
+      "mag": 657,
+      "hp": 2628,
+      "def": 112,
+      "res": 84,
+      "crit": 0,
+      "spd": 32
+    },
+    "4/4": {
+      "level": 4,
+      "equipRank": 4,
+      "atk": 461,
+      "mag": 577,
+      "hp": 2306,
+      "def": 66,
+      "res": 49,
+      "crit": 0,
+      "spd": 18
+    },
+    "8/1": {
+      "level": 8,
+      "equipRank": 1,
+      "atk": 667,
+      "mag": 834,
+      "hp": 3337,
+      "def": 214,
+      "res": 160,
+      "crit": 0,
+      "spd": 60
+    },
+    "6/3": {
+      "level": 6,
+      "equipRank": 3,
+      "atk": 788,
+      "mag": 985,
+      "hp": 3942,
+      "def": 168,
+      "res": 126,
+      "crit": 0,
+      "spd": 47
+    },
+    "4/5": {
+      "level": 4,
+      "equipRank": 5,
+      "atk": 692,
+      "mag": 865,
+      "hp": 3459,
+      "def": 98,
+      "res": 74,
+      "crit": 0,
+      "spd": 28
+    },
+    "8/2": {
+      "level": 8,
+      "equipRank": 2,
+      "atk": 1001,
+      "mag": 1251,
+      "hp": 5006,
+      "def": 214,
+      "res": 160,
+      "crit": 0,
+      "spd": 60
+    },
+    "6/4": {
+      "level": 6,
+      "equipRank": 4,
+      "atk": 1183,
+      "mag": 1478,
+      "hp": 5913,
+      "def": 168,
+      "res": 126,
+      "crit": 0,
+      "spd": 47
+    },
+    "8/3": {
+      "level": 8,
+      "equipRank": 3,
+      "atk": 1502,
+      "mag": 1877,
+      "hp": 7508,
+      "def": 320,
+      "res": 240,
+      "crit": 0,
+      "spd": 90
+    },
+    "6/5": {
+      "level": 6,
+      "equipRank": 5,
+      "atk": 1774,
+      "mag": 2217,
+      "hp": 8869,
+      "def": 252,
+      "res": 189,
+      "crit": 0,
+      "spd": 71
+    },
+    "8/4": {
+      "level": 8,
+      "equipRank": 4,
+      "atk": 2253,
+      "mag": 2816,
+      "hp": 11263,
+      "def": 320,
+      "res": 240,
+      "crit": 0,
+      "spd": 90
+    },
+    "15/5": {
+      "level": 15,
+      "equipRank": 5,
+      "atk": 25313,
+      "mag": 31641,
+      "hp": 126563,
+      "def": 3600,
+      "res": 2700,
+      "crit": 0,
+      "spd": 1013
+    },
+    "15/4": {
+      "level": 15,
+      "equipRank": 4,
+      "atk": 16875,
+      "mag": 21094,
+      "hp": 84375,
+      "def": 2400,
+      "res": 1800,
+      "crit": 0,
+      "spd": 675
+    },
+    "8/5": {
+      "level": 8,
+      "equipRank": 5,
+      "atk": 3379,
+      "mag": 4224,
+      "hp": 16894,
+      "def": 481,
+      "res": 360,
+      "crit": 0,
+      "spd": 135
+    },
+    "15/3": {
+      "level": 15,
+      "equipRank": 3,
+      "atk": 11250,
+      "mag": 14063,
+      "hp": 56250,
+      "def": 2400,
+      "res": 1800,
+      "crit": 0,
+      "spd": 675
+    },
+    "13/5": {
+      "level": 13,
+      "equipRank": 5,
+      "atk": 14238,
+      "mag": 17798,
+      "hp": 71191,
+      "def": 2025,
+      "res": 1519,
+      "crit": 0,
+      "spd": 570
+    },
+    "14/3": {
+      "level": 14,
+      "equipRank": 3,
+      "atk": 8438,
+      "mag": 10547,
+      "hp": 42188,
+      "def": 1800,
+      "res": 1350,
+      "crit": 0,
+      "spd": 506
+    },
+    "12/5": {
+      "level": 12,
+      "equipRank": 5,
+      "atk": 10679,
+      "mag": 13348,
+      "hp": 53394,
+      "def": 1519,
+      "res": 1139,
+      "crit": 0,
+      "spd": 427
+    },
+    "14/2": {
+      "level": 14,
+      "equipRank": 2,
+      "atk": 5625,
+      "mag": 7031,
+      "hp": 28125,
+      "def": 1200,
+      "res": 900,
+      "crit": 0,
+      "spd": 338
+    },
+    "12/4": {
+      "level": 12,
+      "equipRank": 4,
+      "atk": 7119,
+      "mag": 8899,
+      "hp": 35596,
+      "def": 1013,
+      "res": 759,
+      "crit": 0,
+      "spd": 285
+    },
+    "14/1": {
+      "level": 14,
+      "equipRank": 1,
+      "atk": 3750,
+      "mag": 4688,
+      "hp": 18750,
+      "def": 1200,
+      "res": 900,
+      "crit": 0,
+      "spd": 338
+    },
+    "12/3": {
+      "level": 12,
+      "equipRank": 3,
+      "atk": 4746,
+      "mag": 5933,
+      "hp": 23730,
+      "def": 1013,
+      "res": 759,
+      "crit": 0,
+      "spd": 285
+    },
+    "10/5": {
+      "level": 10,
+      "equipRank": 5,
+      "atk": 6007,
+      "mag": 7508,
+      "hp": 30034,
+      "def": 854,
+      "res": 641,
+      "crit": 0,
+      "spd": 240
+    },
+    "1/1": {
+      "level": 1,
+      "equipRank": 1,
+      "atk": 0,
+      "mag": 0,
+      "hp": 0,
+      "def": 0,
+      "res": 0,
+      "crit": 0,
+      "spd": 0
+    },
+    "12/2": {
+      "level": 12,
+      "equipRank": 2,
+      "atk": 3164,
+      "mag": 3955,
+      "hp": 15820,
+      "def": 675,
+      "res": 506,
+      "crit": 0,
+      "spd": 190
+    },
+    "10/4": {
+      "level": 10,
+      "equipRank": 4,
+      "atk": 4005,
+      "mag": 5006,
+      "hp": 20023,
+      "def": 570,
+      "res": 427,
+      "crit": 0,
+      "spd": 160
+    },
+    "12/1": {
+      "level": 12,
+      "equipRank": 1,
+      "atk": 2109,
+      "mag": 2637,
+      "hp": 10547,
+      "def": 675,
+      "res": 506,
+      "crit": 0,
+      "spd": 190
+    },
+    "1/2": {
+      "level": 1,
+      "equipRank": 2,
+      "atk": 0,
+      "mag": 0,
+      "hp": 0,
+      "def": 0,
+      "res": 0,
+      "crit": 0,
+      "spd": 0
+    },
+    "10/3": {
+      "level": 10,
+      "equipRank": 3,
+      "atk": 2670,
+      "mag": 3337,
+      "hp": 13348,
+      "def": 570,
+      "res": 427,
+      "crit": 0,
+      "spd": 160
+    },
+    "3/1": {
+      "level": 3,
+      "equipRank": 1,
+      "atk": 75,
+      "mag": 94,
+      "hp": 376,
+      "def": 24,
+      "res": 18,
+      "crit": 0,
+      "spd": 7
+    },
+    "10/2": {
+      "level": 10,
+      "equipRank": 2,
+      "atk": 1780,
+      "mag": 2225,
+      "hp": 8899,
+      "def": 380,
+      "res": 285,
+      "crit": 0,
+      "spd": 107
+    },
+    "1/3": {
+      "level": 1,
+      "equipRank": 3,
+      "atk": 0,
+      "mag": 0,
+      "hp": 0,
+      "def": 0,
+      "res": 0,
+      "crit": 0,
+      "spd": 0
+    },
+    "10/1": {
+      "level": 10,
+      "equipRank": 1,
+      "atk": 1187,
+      "mag": 1483,
+      "hp": 5933,
+      "def": 380,
+      "res": 285,
+      "crit": 0,
+      "spd": 107
+    },
+    "3/2": {
+      "level": 3,
+      "equipRank": 2,
+      "atk": 113,
+      "mag": 141,
+      "hp": 564,
+      "def": 24,
+      "res": 18,
+      "crit": 0,
+      "spd": 7
+    },
+    "1/4": {
+      "level": 1,
+      "equipRank": 4,
+      "atk": 0,
+      "mag": 0,
+      "hp": 0,
+      "def": 0,
+      "res": 0,
+      "crit": 0,
+      "spd": 0
+    },
+    "5/1": {
+      "level": 5,
+      "equipRank": 1,
+      "atk": 228,
+      "mag": 285,
+      "hp": 1139,
+      "def": 73,
+      "res": 55,
+      "crit": 0,
+      "spd": 20
+    },
+    "3/3": {
+      "level": 3,
+      "equipRank": 3,
+      "atk": 169,
+      "mag": 211,
+      "hp": 846,
+      "def": 36,
+      "res": 27,
+      "crit": 0,
+      "spd": 10
+    },
+    "1/5": {
+      "level": 1,
+      "equipRank": 5,
+      "atk": 0,
+      "mag": 0,
+      "hp": 0,
+      "def": 0,
+      "res": 0,
+      "crit": 0,
+      "spd": 0
+    },
+    "5/2": {
+      "level": 5,
+      "equipRank": 2,
+      "atk": 342,
+      "mag": 427,
+      "hp": 1708,
+      "def": 73,
+      "res": 55,
+      "crit": 0,
+      "spd": 20
+    },
+    "3/4": {
+      "level": 3,
+      "equipRank": 4,
+      "atk": 254,
+      "mag": 317,
+      "hp": 1268,
+      "def": 36,
+      "res": 27,
+      "crit": 0,
+      "spd": 10
+    },
+    "7/1": {
+      "level": 7,
+      "equipRank": 1,
+      "atk": 501,
+      "mag": 626,
+      "hp": 2503,
+      "def": 160,
+      "res": 120,
+      "crit": 0,
+      "spd": 45
+    },
+    "5/3": {
+      "level": 5,
+      "equipRank": 3,
+      "atk": 512,
+      "mag": 641,
+      "hp": 2562,
+      "def": 109,
+      "res": 82,
+      "crit": 0,
+      "spd": 31
+    },
+    "3/5": {
+      "level": 3,
+      "equipRank": 5,
+      "atk": 380,
+      "mag": 476,
+      "hp": 1902,
+      "def": 54,
+      "res": 41,
+      "crit": 0,
+      "spd": 15
+    },
+    "7/2": {
+      "level": 7,
+      "equipRank": 2,
+      "atk": 751,
+      "mag": 939,
+      "hp": 3754,
+      "def": 160,
+      "res": 120,
+      "crit": 0,
+      "spd": 45
+    },
+    "5/4": {
+      "level": 5,
+      "equipRank": 4,
+      "atk": 769,
+      "mag": 961,
+      "hp": 3843,
+      "def": 109,
+      "res": 82,
+      "crit": 0,
+      "spd": 31
+    },
+    "9/1": {
+      "level": 9,
+      "equipRank": 1,
+      "atk": 890,
+      "mag": 1112,
+      "hp": 4449,
+      "def": 285,
+      "res": 214,
+      "crit": 0,
+      "spd": 80
+    },
+    "7/3": {
+      "level": 7,
+      "equipRank": 3,
+      "atk": 1126,
+      "mag": 1408,
+      "hp": 5631,
+      "def": 240,
+      "res": 180,
+      "crit": 0,
+      "spd": 68
+    },
+    "5/5": {
+      "level": 5,
+      "equipRank": 5,
+      "atk": 1153,
+      "mag": 1441,
+      "hp": 5765,
+      "def": 164,
+      "res": 123,
+      "crit": 0,
+      "spd": 46
+    },
+    "9/2": {
+      "level": 9,
+      "equipRank": 2,
+      "atk": 1335,
+      "mag": 1669,
+      "hp": 6674,
+      "def": 285,
+      "res": 214,
+      "crit": 0,
+      "spd": 80
+    },
+    "7/4": {
+      "level": 7,
+      "equipRank": 4,
+      "atk": 1689,
+      "mag": 2112,
+      "hp": 8447,
+      "def": 240,
+      "res": 180,
+      "crit": 0,
+      "spd": 68
+    },
+    "9/3": {
+      "level": 9,
+      "equipRank": 3,
+      "atk": 2002,
+      "mag": 2503,
+      "hp": 10011,
+      "def": 427,
+      "res": 320,
+      "crit": 0,
+      "spd": 120
+    },
+    "7/5": {
+      "level": 7,
+      "equipRank": 5,
+      "atk": 2534,
+      "mag": 3168,
+      "hp": 12671,
+      "def": 360,
+      "res": 270,
+      "crit": 0,
+      "spd": 101
+    },
+    "9/4": {
+      "level": 9,
+      "equipRank": 4,
+      "atk": 3003,
+      "mag": 3754,
+      "hp": 15017,
+      "def": 427,
+      "res": 320,
+      "crit": 0,
+      "spd": 120
+    },
+    "14/5": {
+      "level": 14,
+      "equipRank": 5,
+      "atk": 18984,
+      "mag": 23730,
+      "hp": 94922,
+      "def": 2700,
+      "res": 2025,
+      "crit": 0,
+      "spd": 759
+    },
+    "14/4": {
+      "level": 14,
+      "equipRank": 4,
+      "atk": 12656,
+      "mag": 15820,
+      "hp": 63281,
+      "def": 1800,
+      "res": 1350,
+      "crit": 0,
+      "spd": 506
+    },
+    "9/5": {
+      "level": 9,
+      "equipRank": 5,
+      "atk": 4505,
+      "mag": 5631,
+      "hp": 22525,
+      "def": 641,
+      "res": 481,
+      "crit": 0,
+      "spd": 180
+    }
+  },
+  "heroExchangeStones": {
+    "1/Dark": "11053/100",
+    "1/Fire": "11054/100",
+    "5/Light": "11052/3000",
+    "4/Fire": "11054/1000",
+    "4/Dark": "11053/1000",
+    "4/Light": "11052/1000",
+    "3/Earth": "11055/500",
+    "1/Water": "11056/100",
+    "5/Earth": "11055/3000",
+    "5/Water": "11056/3000",
+    "2/Earth": "11055/250",
+    "3/Light": "11052/500",
+    "3/Fire": "11054/500",
+    "3/Dark": "11053/500",
+    "3/Water": "11056/1500",
+    "2/Light": "11052/250",
+    "4/Water": "11056/1000",
+    "1/Earth": "11055/100",
+    "5/Dark": "11053/3000",
+    "5/Fire": "11054/3000",
+    "2/Water": "11056/250",
+    "2/Fire": "11054/250",
+    "2/Dark": "11053/250",
+    "1/Light": "11052/100",
+    "4/Earth": "11055/1000"
+  },
+  "evolveHeroExtends": {
+    "Earth/5": {
+      "element": "Earth",
+      "rank": 5,
+      "material": "11055/5000"
+    },
+    "Dark/5": {
+      "element": "Dark",
+      "rank": 5,
+      "material": "11053/5000"
+    },
+    "Light/4": {
+      "element": "Light",
+      "rank": 4,
+      "material": "11052/500"
+    },
+    "Water/4": {
+      "element": "Water",
+      "rank": 4,
+      "material": "11056/500"
+    },
+    "Fire/4": {
+      "element": "Fire",
+      "rank": 4,
+      "material": "11054/500"
+    },
+    "Water/5": {
+      "element": "Water",
+      "rank": 5,
+      "material": "11056/5000"
+    },
+    "Fire/5": {
+      "element": "Fire",
+      "rank": 5,
+      "material": "11054/5000"
+    },
+    "Dark/4": {
+      "element": "Dark",
+      "rank": 4,
+      "material": "11053/500"
+    },
+    "Light/5": {
+      "element": "Light",
+      "rank": 5,
+      "material": "11052/5000"
+    },
+    "Earth/4": {
+      "element": "Earth",
+      "rank": 4,
+      "material": "11055/500"
+    }
+  },
+  "dissembleEquips": {
+    "2": {
+      "level": 2,
+      "rank1": "",
+      "rank2": "",
+      "rank3": "",
+      "rank4": "",
+      "rank5": ""
+    },
+    "3": {
+      "level": 3,
+      "rank1": "",
+      "rank2": "",
+      "rank3": "",
+      "rank4": "",
+      "rank5": ""
+    },
+    "4": {
+      "level": 4,
+      "rank1": "",
+      "rank2": "",
+      "rank3": "",
+      "rank4": "",
+      "rank5": ""
+    },
+    "5": {
+      "level": 5,
+      "rank1": "",
+      "rank2": "",
+      "rank3": "",
+      "rank4": "",
+      "rank5": ""
+    },
+    "6": {
+      "level": 6,
+      "rank1": "",
+      "rank2": "",
+      "rank3": "",
+      "rank4": "",
+      "rank5": ""
+    },
+    "7": {
+      "level": 7,
+      "rank1": "",
+      "rank2": "",
+      "rank3": "",
+      "rank4": "",
+      "rank5": ""
+    },
+    "8": {
+      "level": 8,
+      "rank1": "",
+      "rank2": "",
+      "rank3": "",
+      "rank4": "",
+      "rank5": ""
+    },
+    "9": {
+      "level": 9,
+      "rank1": "",
+      "rank2": "",
+      "rank3": "",
+      "rank4": "",
+      "rank5": ""
+    },
+    "10": {
+      "level": 10,
+      "rank1": "",
+      "rank2": "",
+      "rank3": "",
+      "rank4": "",
+      "rank5": ""
+    },
+    "11": {
+      "level": 11,
+      "rank1": "",
+      "rank2": "",
+      "rank3": "",
+      "rank4": "",
+      "rank5": ""
+    },
+    "12": {
+      "level": 12,
+      "rank1": "",
+      "rank2": "",
+      "rank3": "",
+      "rank4": "",
+      "rank5": ""
+    },
+    "13": {
+      "level": 13,
+      "rank1": "",
+      "rank2": "",
+      "rank3": "",
+      "rank4": "",
+      "rank5": ""
+    },
+    "14": {
+      "level": 14,
+      "rank1": "",
+      "rank2": "",
+      "rank3": "",
+      "rank4": "",
+      "rank5": ""
+    },
+    "15": {
+      "level": 15,
+      "rank1": "",
+      "rank2": "",
+      "rank3": "",
+      "rank4": "",
+      "rank5": ""
+    }
+  },
+  "disassembleHeroes": {
+    "10": {
+      "level": 10,
+      "fire": "11017/1",
+      "light": "11026/1",
+      "dark": "11029/1",
+      "water": "11020/1",
+      "earth": "11023/1",
+      "mapReward": {
+        "10/Dark": "11029/1",
+        "10/Fire": "11017/1",
+        "10/Water": "11020/1",
+        "10/Earth": "11023/1",
+        "10/Light": "11026/1"
+      }
+    },
+    "11": {
+      "level": 11,
+      "fire": "11017/1",
+      "light": "11026/1",
+      "dark": "11029/1",
+      "water": "11020/1",
+      "earth": "11023/1",
+      "mapReward": {
+        "11/Dark": "11029/1",
+        "11/Fire": "11017/1",
+        "11/Earth": "11023/1",
+        "11/Light": "11026/1",
+        "11/Water": "11020/1"
+      }
+    },
+    "12": {
+      "level": 12,
+      "fire": "11017/1",
+      "light": "11026/1",
+      "dark": "11029/1",
+      "water": "11020/1",
+      "earth": "11023/1",
+      "mapReward": {
+        "12/Earth": "11023/1",
+        "12/Water": "11020/1",
+        "12/Light": "11026/1",
+        "12/Dark": "11029/1",
+        "12/Fire": "11017/1"
+      }
+    },
+    "13": {
+      "level": 13,
+      "fire": "11017/1",
+      "light": "11026/1",
+      "dark": "11029/1",
+      "water": "11020/1",
+      "earth": "11023/1",
+      "mapReward": {
+        "13/Light": "11026/1",
+        "13/Fire": "11017/1",
+        "13/Water": "11020/1",
+        "13/Earth": "11023/1",
+        "13/Dark": "11029/1"
+      }
+    },
+    "14": {
+      "level": 14,
+      "fire": "11017/2",
+      "light": "11026/2",
+      "dark": "11029/2",
+      "water": "11020/2",
+      "earth": "11023/2",
+      "mapReward": {
+        "14/Water": "11020/2",
+        "14/Earth": "11023/2",
+        "14/Dark": "11029/2",
+        "14/Fire": "11017/2",
+        "14/Light": "11026/2"
+      }
+    },
+    "15": {
+      "level": 15,
+      "fire": "11017/3",
+      "light": "11026/3",
+      "dark": "11029/3",
+      "water": "11020/3",
+      "earth": "11023/3",
+      "mapReward": {
+        "15/Water": "11020/3",
+        "15/Fire": "11017/3",
+        "15/Dark": "11029/3",
+        "15/Light": "11026/3",
+        "15/Earth": "11023/3"
+      }
+    },
+    "16": {
+      "level": 16,
+      "fire": "11017/3",
+      "light": "11026/3",
+      "dark": "11029/3",
+      "water": "11020/3",
+      "earth": "11023/3",
+      "mapReward": {
+        "16/Light": "11026/3",
+        "16/Water": "11020/3",
+        "16/Earth": "11023/3",
+        "16/Dark": "11029/3",
+        "16/Fire": "11017/3"
+      }
+    },
+    "17": {
+      "level": 17,
+      "fire": "11017/4",
+      "light": "11026/4",
+      "dark": "11029/4",
+      "water": "11020/4",
+      "earth": "11023/4",
+      "mapReward": {
+        "17/Water": "11020/4",
+        "17/Light": "11026/4",
+        "17/Fire": "11017/4",
+        "17/Dark": "11029/4",
+        "17/Earth": "11023/4"
+      }
+    },
+    "18": {
+      "level": 18,
+      "fire": "11017/5",
+      "light": "11026/5",
+      "dark": "11029/5",
+      "water": "11020/5",
+      "earth": "11023/5",
+      "mapReward": {
+        "18/Light": "11026/5",
+        "18/Fire": "11017/5",
+        "18/Earth": "11023/5",
+        "18/Dark": "11029/5",
+        "18/Water": "11020/5"
+      }
+    },
+    "19": {
+      "level": 19,
+      "fire": "11017/6",
+      "light": "11026/6",
+      "dark": "11029/6",
+      "water": "11020/6",
+      "earth": "11023/6",
+      "mapReward": {
+        "19/Fire": "11017/6",
+        "19/Dark": "11029/6",
+        "19/Water": "11020/6",
+        "19/Earth": "11023/6",
+        "19/Light": "11026/6"
+      }
+    },
+    "20": {
+      "level": 20,
+      "fire": "11017/7",
+      "light": "11026/7",
+      "dark": "11029/7",
+      "water": "11020/7",
+      "earth": "11023/7",
+      "mapReward": {
+        "20/Fire": "11017/7",
+        "20/Dark": "11029/7",
+        "20/Water": "11020/7",
+        "20/Earth": "11023/7",
+        "20/Light": "11026/7"
+      }
+    },
+    "21": {
+      "level": 21,
+      "fire": "11017/8",
+      "light": "11026/8",
+      "dark": "11029/8",
+      "water": "11020/8",
+      "earth": "11023/8",
+      "mapReward": {
+        "21/Water": "11020/8",
+        "21/Earth": "11023/8",
+        "21/Light": "11026/8",
+        "21/Fire": "11017/8",
+        "21/Dark": "11029/8"
+      }
+    },
+    "22": {
+      "level": 22,
+      "fire": "11017/10",
+      "light": "11026/10",
+      "dark": "11029/10",
+      "water": "11020/10",
+      "earth": "11023/10",
+      "mapReward": {
+        "22/Light": "11026/10",
+        "22/Fire": "11017/10",
+        "22/Dark": "11029/10",
+        "22/Water": "11020/10",
+        "22/Earth": "11023/10"
+      }
+    },
+    "23": {
+      "level": 23,
+      "fire": "11017/11",
+      "light": "11026/11",
+      "dark": "11029/11",
+      "water": "11020/11",
+      "earth": "11023/11",
+      "mapReward": {
+        "23/Dark": "11029/11",
+        "23/Fire": "11017/11",
+        "23/Light": "11026/11",
+        "23/Earth": "11023/11",
+        "23/Water": "11020/11"
+      }
+    },
+    "24": {
+      "level": 24,
+      "fire": "11017/13",
+      "light": "11026/13",
+      "dark": "11029/13",
+      "water": "11020/13",
+      "earth": "11023/13",
+      "mapReward": {
+        "24/Water": "11020/13",
+        "24/Earth": "11023/13",
+        "24/Fire": "11017/13",
+        "24/Dark": "11029/13",
+        "24/Light": "11026/13"
+      }
+    },
+    "25": {
+      "level": 25,
+      "fire": "11017/15",
+      "light": "11026/15",
+      "dark": "11029/15",
+      "water": "11020/15",
+      "earth": "11023/15",
+      "mapReward": {
+        "25/Fire": "11017/15",
+        "25/Light": "11026/15",
+        "25/Water": "11020/15",
+        "25/Earth": "11023/15",
+        "25/Dark": "11029/15"
+      }
+    },
+    "26": {
+      "level": 26,
+      "fire": "11018/1",
+      "light": "11027/1",
+      "dark": "11030/1",
+      "water": "11021/1",
+      "earth": "11024/1",
+      "mapReward": {
+        "26/Dark": "11030/1",
+        "26/Light": "11027/1",
+        "26/Fire": "11018/1",
+        "26/Earth": "11024/1",
+        "26/Water": "11021/1"
+      }
+    },
+    "27": {
+      "level": 27,
+      "fire": "11018/1#11017/2",
+      "light": "11027/1#11026/2",
+      "dark": "11030/1#11029/2",
+      "water": "11021/1#11020/2",
+      "earth": "11024/1#11023/2",
+      "mapReward": {
+        "27/Water": "11021/1#11020/2",
+        "27/Dark": "11030/1#11029/2",
+        "27/Fire": "11018/1#11017/2",
+        "27/Light": "11027/1#11026/2",
+        "27/Earth": "11024/1#11023/2"
+      }
+    },
+    "28": {
+      "level": 28,
+      "fire": "11018/1#11017/4",
+      "light": "11027/1#11026/4",
+      "dark": "11030/1#11029/4",
+      "water": "11021/1#11020/4",
+      "earth": "11024/1#11023/4",
+      "mapReward": {
+        "28/Fire": "11018/1#11017/4",
+        "28/Dark": "11030/1#11029/4",
+        "28/Earth": "11024/1#11023/4",
+        "28/Light": "11027/1#11026/4",
+        "28/Water": "11021/1#11020/4"
+      }
+    },
+    "29": {
+      "level": 29,
+      "fire": "11018/1#11017/6",
+      "light": "11027/1#11026/6",
+      "dark": "11030/1#11029/6",
+      "water": "11021/1#11020/6",
+      "earth": "11024/1#11023/6",
+      "mapReward": {
+        "29/Water": "11021/1#11020/6",
+        "29/Earth": "11024/1#11023/6",
+        "29/Dark": "11030/1#11029/6",
+        "29/Fire": "11018/1#11017/6",
+        "29/Light": "11027/1#11026/6"
+      }
+    },
+    "30": {
+      "level": 30,
+      "fire": "11018/1#11017/9",
+      "light": "11027/1#11026/9",
+      "dark": "11030/1#11029/9",
+      "water": "11021/1#11020/9",
+      "earth": "11024/1#11023/9",
+      "mapReward": {
+        "30/Dark": "11030/1#11029/9",
+        "30/Fire": "11018/1#11017/9",
+        "30/Water": "11021/1#11020/9",
+        "30/Earth": "11024/1#11023/9",
+        "30/Light": "11027/1#11026/9"
+      }
+    },
+    "31": {
+      "level": 31,
+      "fire": "11018/1#11017/12",
+      "light": "11027/1#11026/12",
+      "dark": "11030/1#11029/12",
+      "water": "11021/1#11020/12",
+      "earth": "11024/1#11023/12",
+      "mapReward": {
+        "31/Earth": "11024/1#11023/12",
+        "31/Light": "11027/1#11026/12",
+        "31/Fire": "11018/1#11017/12",
+        "31/Dark": "11030/1#11029/12",
+        "31/Water": "11021/1#11020/12"
+      }
+    },
+    "32": {
+      "level": 32,
+      "fire": "11018/1#11017/15",
+      "light": "11027/1#11026/15",
+      "dark": "11030/1#11029/15",
+      "water": "11021/1#11020/15",
+      "earth": "11024/1#11023/15",
+      "mapReward": {
+        "32/Dark": "11030/1#11029/15",
+        "32/Fire": "11018/1#11017/15",
+        "32/Light": "11027/1#11026/15",
+        "32/Water": "11021/1#11020/15",
+        "32/Earth": "11024/1#11023/15"
+      }
+    },
+    "33": {
+      "level": 33,
+      "fire": "11018/2#11017/1",
+      "light": "11027/2#11026/1",
+      "dark": "11030/2#11029/1",
+      "water": "11021/2#11020/1",
+      "earth": "11024/2#11023/1",
+      "mapReward": {
+        "33/Fire": "11018/2#11017/1",
+        "33/Light": "11027/2#11026/1",
+        "33/Earth": "11024/2#11023/1",
+        "33/Water": "11021/2#11020/1",
+        "33/Dark": "11030/2#11029/1"
+      }
+    },
+    "34": {
+      "level": 34,
+      "fire": "11018/2#11017/4",
+      "light": "11027/2#11026/4",
+      "dark": "11030/2#11029/4",
+      "water": "11021/2#11020/4",
+      "earth": "11024/2#11023/4",
+      "mapReward": {
+        "34/Earth": "11024/2#11023/4",
+        "34/Water": "11021/2#11020/4",
+        "34/Dark": "11030/2#11029/4",
+        "34/Fire": "11018/2#11017/4",
+        "34/Light": "11027/2#11026/4"
+      }
+    },
+    "35": {
+      "level": 35,
+      "fire": "11018/2#11017/8",
+      "light": "11027/2#11026/8",
+      "dark": "11030/2#11029/8",
+      "water": "11021/2#11020/8",
+      "earth": "11024/2#11023/8",
+      "mapReward": {
+        "35/Light": "11027/2#11026/8",
+        "35/Fire": "11018/2#11017/8",
+        "35/Dark": "11030/2#11029/8",
+        "35/Earth": "11024/2#11023/8",
+        "35/Water": "11021/2#11020/8"
+      }
+    },
+    "36": {
+      "level": 36,
+      "fire": "11018/2#11017/12",
+      "light": "11027/2#11026/12",
+      "dark": "11030/2#11029/12",
+      "water": "11021/2#11020/12",
+      "earth": "11024/2#11023/12",
+      "mapReward": {
+        "36/Water": "11021/2#11020/12",
+        "36/Earth": "11024/2#11023/12",
+        "36/Dark": "11030/2#11029/12",
+        "36/Fire": "11018/2#11017/12",
+        "36/Light": "11027/2#11026/12"
+      }
+    },
+    "37": {
+      "level": 37,
+      "fire": "11018/2#11017/15",
+      "light": "11027/2#11026/15",
+      "dark": "11030/2#11029/15",
+      "water": "11021/2#11020/15",
+      "earth": "11024/2#11023/15",
+      "mapReward": {
+        "37/Fire": "11018/2#11017/15",
+        "37/Water": "11021/2#11020/15",
+        "37/Light": "11027/2#11026/15",
+        "37/Dark": "11030/2#11029/15",
+        "37/Earth": "11024/2#11023/15"
+      }
+    },
+    "38": {
+      "level": 38,
+      "fire": "11018/3#11017/3",
+      "light": "11027/3#11026/3",
+      "dark": "11030/3#11029/3",
+      "water": "11021/3#11020/3",
+      "earth": "11024/3#11023/3",
+      "mapReward": {
+        "38/Light": "11027/3#11026/3",
+        "38/Dark": "11030/3#11029/3",
+        "38/Fire": "11018/3#11017/3",
+        "38/Earth": "11024/3#11023/3",
+        "38/Water": "11021/3#11020/3"
+      }
+    },
+    "39": {
+      "level": 39,
+      "fire": "11018/3#11017/7",
+      "light": "11027/3#11026/7",
+      "dark": "11030/3#11029/7",
+      "water": "11021/3#11020/7",
+      "earth": "11024/3#11023/7",
+      "mapReward": {
+        "39/Water": "11021/3#11020/7",
+        "39/Fire": "11018/3#11017/7",
+        "39/Dark": "11030/3#11029/7",
+        "39/Earth": "11024/3#11023/7",
+        "39/Light": "11027/3#11026/7"
+      }
+    },
+    "40": {
+      "level": 40,
+      "fire": "11018/3#11017/12",
+      "light": "11027/3#11026/12",
+      "dark": "11030/3#11029/12",
+      "water": "11021/3#11020/12",
+      "earth": "11024/3#11023/12",
+      "mapReward": {
+        "40/Earth": "11024/3#11023/12",
+        "40/Water": "11021/3#11020/12",
+        "40/Dark": "11030/3#11029/12",
+        "40/Fire": "11018/3#11017/12",
+        "40/Light": "11027/3#11026/12"
+      }
+    },
+    "41": {
+      "level": 41,
+      "fire": "11018/4",
+      "light": "11027/4",
+      "dark": "11030/4",
+      "water": "11021/4",
+      "earth": "11024/4",
+      "mapReward": {
+        "41/Dark": "11030/4",
+        "41/Fire": "11018/4",
+        "41/Earth": "11024/4",
+        "41/Light": "11027/4",
+        "41/Water": "11021/4"
+      }
+    },
+    "42": {
+      "level": 42,
+      "fire": "11018/4#11017/5",
+      "light": "11027/4#11026/5",
+      "dark": "11030/4#11029/5",
+      "water": "11021/4#11020/5",
+      "earth": "11024/4#11023/5",
+      "mapReward": {
+        "42/Water": "11021/4#11020/5",
+        "42/Fire": "11018/4#11017/5",
+        "42/Dark": "11030/4#11029/5",
+        "42/Earth": "11024/4#11023/5",
+        "42/Light": "11027/4#11026/5"
+      }
+    },
+    "43": {
+      "level": 43,
+      "fire": "11018/4#11017/10",
+      "light": "11027/4#11026/10",
+      "dark": "11030/4#11029/10",
+      "water": "11021/4#11020/10",
+      "earth": "11024/4#11023/10",
+      "mapReward": {
+        "43/Water": "11021/4#11020/10",
+        "43/Earth": "11024/4#11023/10",
+        "43/Fire": "11018/4#11017/10",
+        "43/Dark": "11030/4#11029/10",
+        "43/Light": "11027/4#11026/10"
+      }
+    },
+    "44": {
+      "level": 44,
+      "fire": "11018/4#11017/16",
+      "light": "11027/4#11026/16",
+      "dark": "11030/4#11029/16",
+      "water": "11021/4#11020/16",
+      "earth": "11024/4#11023/16",
+      "mapReward": {
+        "44/Fire": "11018/4#11017/16",
+        "44/Light": "11027/4#11026/16",
+        "44/Dark": "11030/4#11029/16",
+        "44/Water": "11021/4#11020/16",
+        "44/Earth": "11024/4#11023/16"
+      }
+    },
+    "45": {
+      "level": 45,
+      "fire": "11018/5#11017/5",
+      "light": "11027/5#11026/5",
+      "dark": "11030/5#11029/5",
+      "water": "11021/5#11020/5",
+      "earth": "11024/5#11023/5",
+      "mapReward": {
+        "45/Light": "11027/5#11026/5",
+        "45/Fire": "11018/5#11017/5",
+        "45/Earth": "11024/5#11023/5",
+        "45/Water": "11021/5#11020/5",
+        "45/Dark": "11030/5#11029/5"
+      }
+    },
+    "46": {
+      "level": 46,
+      "fire": "11018/5#11017/11",
+      "light": "11027/5#11026/11",
+      "dark": "11030/5#11029/11",
+      "water": "11021/5#11020/11",
+      "earth": "11024/5#11023/11",
+      "mapReward": {
+        "46/Fire": "11018/5#11017/11",
+        "46/Dark": "11030/5#11029/11",
+        "46/Water": "11021/5#11020/11",
+        "46/Earth": "11024/5#11023/11",
+        "46/Light": "11027/5#11026/11"
+      }
+    },
+    "47": {
+      "level": 47,
+      "fire": "11019/1#11017/1",
+      "light": "11028/1#11026/1",
+      "dark": "11031/1#11029/1",
+      "water": "11022/1#11020/1",
+      "earth": "11025/1#11023/1",
+      "mapReward": {
+        "47/Fire": "11019/1#11017/1",
+        "47/Water": "11022/1#11020/1",
+        "47/Dark": "11031/1#11029/1",
+        "47/Light": "11028/1#11026/1",
+        "47/Earth": "11025/1#11023/1"
+      }
+    },
+    "48": {
+      "level": 48,
+      "fire": "11019/1#11017/8",
+      "light": "11028/1#11026/8",
+      "dark": "11031/1#11029/8",
+      "water": "11022/1#11020/8",
+      "earth": "11025/1#11023/8",
+      "mapReward": {
+        "48/Light": "11028/1#11026/8",
+        "48/Earth": "11025/1#11023/8",
+        "48/Water": "11022/1#11020/8",
+        "48/Fire": "11019/1#11017/8",
+        "48/Dark": "11031/1#11029/8"
+      }
+    },
+    "49": {
+      "level": 49,
+      "fire": "11019/1#11017/15",
+      "light": "11028/1#11026/15",
+      "dark": "11031/1#11029/15",
+      "water": "11022/1#11020/15",
+      "earth": "11025/1#11023/15",
+      "mapReward": {
+        "49/Water": "11022/1#11020/15",
+        "49/Light": "11028/1#11026/15",
+        "49/Dark": "11031/1#11029/15",
+        "49/Earth": "11025/1#11023/15",
+        "49/Fire": "11019/1#11017/15"
+      }
+    },
+    "50": {
+      "level": 50,
+      "fire": "11019/1#11018/1#11017/5",
+      "light": "11028/1#11027/1#11026/5",
+      "dark": "11031/1#11030/1#11029/5",
+      "water": "11022/1#11021/1#11020/5",
+      "earth": "11025/1#11024/1#11023/5",
+      "mapReward": {
+        "50/Fire": "11019/1#11018/1#11017/5",
+        "50/Earth": "11025/1#11024/1#11023/5",
+        "50/Dark": "11031/1#11030/1#11029/5",
+        "50/Water": "11022/1#11021/1#11020/5",
+        "50/Light": "11028/1#11027/1#11026/5"
+      }
+    },
+    "51": {
+      "level": 51,
+      "fire": "11019/1#11018/1#11017/13",
+      "light": "11028/1#11027/1#11026/13",
+      "dark": "11031/1#11030/1#11029/13",
+      "water": "11022/1#11021/1#11020/13",
+      "earth": "11025/1#11024/1#11023/13",
+      "mapReward": {
+        "51/Light": "11028/1#11027/1#11026/13",
+        "51/Fire": "11019/1#11018/1#11017/13",
+        "51/Dark": "11031/1#11030/1#11029/13",
+        "51/Earth": "11025/1#11024/1#11023/13",
+        "51/Water": "11022/1#11021/1#11020/13"
+      }
+    },
+    "52": {
+      "level": 52,
+      "fire": "11019/1#11018/2#11017/4",
+      "light": "11028/1#11027/2#11026/4",
+      "dark": "11031/1#11030/2#11029/4",
+      "water": "11022/1#11021/2#11020/4",
+      "earth": "11025/1#11024/2#11023/4",
+      "mapReward": {
+        "52/Water": "11022/1#11021/2#11020/4",
+        "52/Dark": "11031/1#11030/2#11029/4",
+        "52/Earth": "11025/1#11024/2#11023/4",
+        "52/Fire": "11019/1#11018/2#11017/4",
+        "52/Light": "11028/1#11027/2#11026/4"
+      }
+    },
+    "53": {
+      "level": 53,
+      "fire": "11019/1#11018/2#11017/12",
+      "light": "11028/1#11027/2#11026/12",
+      "dark": "11031/1#11030/2#11029/12",
+      "water": "11022/1#11021/2#11020/12",
+      "earth": "11025/1#11024/2#11023/12",
+      "mapReward": {
+        "53/Water": "11022/1#11021/2#11020/12",
+        "53/Earth": "11025/1#11024/2#11023/12",
+        "53/Light": "11028/1#11027/2#11026/12",
+        "53/Fire": "11019/1#11018/2#11017/12",
+        "53/Dark": "11031/1#11030/2#11029/12"
+      }
+    },
+    "54": {
+      "level": 54,
+      "fire": "11019/1#11018/3#11017/4",
+      "light": "11028/1#11027/3#11026/4",
+      "dark": "11031/1#11030/3#11029/4",
+      "water": "11022/1#11021/3#11020/4",
+      "earth": "11025/1#11024/3#11023/4",
+      "mapReward": {
+        "54/Light": "11028/1#11027/3#11026/4",
+        "54/Dark": "11031/1#11030/3#11029/4",
+        "54/Water": "11022/1#11021/3#11020/4",
+        "54/Earth": "11025/1#11024/3#11023/4",
+        "54/Fire": "11019/1#11018/3#11017/4"
+      }
+    },
+    "55": {
+      "level": 55,
+      "fire": "11019/1#11018/3#11017/13",
+      "light": "11028/1#11027/3#11026/13",
+      "dark": "11031/1#11030/3#11029/13",
+      "water": "11022/1#11021/3#11020/13",
+      "earth": "11025/1#11024/3#11023/13",
+      "mapReward": {
+        "55/Dark": "11031/1#11030/3#11029/13",
+        "55/Fire": "11019/1#11018/3#11017/13",
+        "55/Light": "11028/1#11027/3#11026/13",
+        "55/Water": "11022/1#11021/3#11020/13",
+        "55/Earth": "11025/1#11024/3#11023/13"
+      }
+    },
+    "56": {
+      "level": 56,
+      "fire": "11019/1#11018/4#11017/5",
+      "light": "11028/1#11027/4#11026/5",
+      "dark": "11031/1#11030/4#11029/5",
+      "water": "11022/1#11021/4#11020/5",
+      "earth": "11025/1#11024/4#11023/5",
+      "mapReward": {
+        "56/Earth": "11025/1#11024/4#11023/5",
+        "56/Dark": "11031/1#11030/4#11029/5",
+        "56/Fire": "11019/1#11018/4#11017/5",
+        "56/Water": "11022/1#11021/4#11020/5",
+        "56/Light": "11028/1#11027/4#11026/5"
+      }
+    },
+    "57": {
+      "level": 57,
+      "fire": "11019/1#11018/4#11017/15",
+      "light": "11028/1#11027/4#11026/15",
+      "dark": "11031/1#11030/4#11029/15",
+      "water": "11022/1#11021/4#11020/15",
+      "earth": "11025/1#11024/4#11023/15",
+      "mapReward": {
+        "57/Light": "11028/1#11027/4#11026/15",
+        "57/Dark": "11031/1#11030/4#11029/15",
+        "57/Water": "11022/1#11021/4#11020/15",
+        "57/Fire": "11019/1#11018/4#11017/15",
+        "57/Earth": "11025/1#11024/4#11023/15"
+      }
+    },
+    "58": {
+      "level": 58,
+      "fire": "11019/1#11018/5#11017/8",
+      "light": "11028/1#11027/5#11026/8",
+      "dark": "11031/1#11030/5#11029/8",
+      "water": "11022/1#11021/5#11020/8",
+      "earth": "11025/1#11024/5#11023/8",
+      "mapReward": {
+        "58/Dark": "11031/1#11030/5#11029/8",
+        "58/Fire": "11019/1#11018/5#11017/8",
+        "58/Light": "11028/1#11027/5#11026/8",
+        "58/Earth": "11025/1#11024/5#11023/8",
+        "58/Water": "11022/1#11021/5#11020/8"
+      }
+    },
+    "59": {
+      "level": 59,
+      "fire": "11019/2#11017/1",
+      "light": "11028/2#11026/1",
+      "dark": "11031/2#11029/1",
+      "water": "11022/2#11020/1",
+      "earth": "11025/2#11023/1",
+      "mapReward": {
+        "59/Earth": "11025/2#11023/1",
+        "59/Water": "11022/2#11020/1",
+        "59/Dark": "11031/2#11029/1",
+        "59/Fire": "11019/2#11017/1",
+        "59/Light": "11028/2#11026/1"
+      }
+    },
+    "60": {
+      "level": 60,
+      "fire": "11019/2#11017/12",
+      "light": "11028/2#11026/12",
+      "dark": "11031/2#11029/12",
+      "water": "11022/2#11020/12",
+      "earth": "11025/2#11023/12",
+      "mapReward": {
+        "60/Dark": "11031/2#11029/12",
+        "60/Water": "11022/2#11020/12",
+        "60/Fire": "11019/2#11017/12",
+        "60/Earth": "11025/2#11023/12",
+        "60/Light": "11028/2#11026/12"
+      }
+    },
+    "61": {
+      "level": 61,
+      "fire": "11019/2#11018/1#11017/6",
+      "light": "11028/2#11027/1#11026/6",
+      "dark": "11031/2#11030/1#11029/6",
+      "water": "11022/2#11021/1#11020/6",
+      "earth": "11025/2#11024/1#11023/6",
+      "mapReward": {
+        "61/Light": "11028/2#11027/1#11026/6",
+        "61/Earth": "11025/2#11024/1#11023/6",
+        "61/Dark": "11031/2#11030/1#11029/6",
+        "61/Fire": "11019/2#11018/1#11017/6",
+        "61/Water": "11022/2#11021/1#11020/6"
+      }
+    },
+    "62": {
+      "level": 62,
+      "fire": "11019/2#11018/2#11017/1",
+      "light": "11028/2#11027/2#11026/1",
+      "dark": "11031/2#11030/2#11029/1",
+      "water": "11022/2#11021/2#11020/1",
+      "earth": "11025/2#11024/2#11023/1",
+      "mapReward": {
+        "62/Dark": "11031/2#11030/2#11029/1",
+        "62/Fire": "11019/2#11018/2#11017/1",
+        "62/Earth": "11025/2#11024/2#11023/1",
+        "62/Water": "11022/2#11021/2#11020/1",
+        "62/Light": "11028/2#11027/2#11026/1"
+      }
+    },
+    "63": {
+      "level": 63,
+      "fire": "11019/2#11018/2#11017/12",
+      "light": "11028/2#11027/2#11026/12",
+      "dark": "11031/2#11030/2#11029/12",
+      "water": "11022/2#11021/2#11020/12",
+      "earth": "11025/2#11024/2#11023/12",
+      "mapReward": {
+        "63/Earth": "11025/2#11024/2#11023/12",
+        "63/Light": "11028/2#11027/2#11026/12",
+        "63/Dark": "11031/2#11030/2#11029/12",
+        "63/Fire": "11019/2#11018/2#11017/12",
+        "63/Water": "11022/2#11021/2#11020/12"
+      }
+    },
+    "64": {
+      "level": 64,
+      "fire": "11019/2#11018/3#11017/8",
+      "light": "11028/2#11027/3#11026/8",
+      "dark": "11031/2#11030/3#11029/8",
+      "water": "11022/2#11021/3#11020/8",
+      "earth": "11025/2#11024/3#11023/8",
+      "mapReward": {
+        "64/Light": "11028/2#11027/3#11026/8",
+        "64/Fire": "11019/2#11018/3#11017/8",
+        "64/Dark": "11031/2#11030/3#11029/8",
+        "64/Earth": "11025/2#11024/3#11023/8",
+        "64/Water": "11022/2#11021/3#11020/8"
+      }
+    },
+    "65": {
+      "level": 65,
+      "fire": "11019/2#11018/4#11017/3",
+      "light": "11028/2#11027/4#11026/3",
+      "dark": "11031/2#11030/4#11029/3",
+      "water": "11022/2#11021/4#11020/3",
+      "earth": "11025/2#11024/4#11023/3",
+      "mapReward": {
+        "65/Water": "11022/2#11021/4#11020/3",
+        "65/Light": "11028/2#11027/4#11026/3",
+        "65/Earth": "11025/2#11024/4#11023/3",
+        "65/Dark": "11031/2#11030/4#11029/3",
+        "65/Fire": "11019/2#11018/4#11017/3"
+      }
+    },
+    "66": {
+      "level": 66,
+      "fire": "11019/2#11018/4#11017/16",
+      "light": "11028/2#11027/4#11026/16",
+      "dark": "11031/2#11030/4#11029/16",
+      "water": "11022/2#11021/4#11020/16",
+      "earth": "11025/2#11024/4#11023/16",
+      "mapReward": {
+        "66/Light": "11028/2#11027/4#11026/16",
+        "66/Water": "11022/2#11021/4#11020/16",
+        "66/Earth": "11025/2#11024/4#11023/16",
+        "66/Fire": "11019/2#11018/4#11017/16",
+        "66/Dark": "11031/2#11030/4#11029/16"
+      }
+    },
+    "67": {
+      "level": 67,
+      "fire": "11019/2#11018/5#11017/12",
+      "light": "11028/2#11027/5#11026/12",
+      "dark": "11031/2#11030/5#11029/12",
+      "water": "11022/2#11021/5#11020/12",
+      "earth": "11025/2#11024/5#11023/12",
+      "mapReward": {
+        "67/Light": "11028/2#11027/5#11026/12",
+        "67/Dark": "11031/2#11030/5#11029/12",
+        "67/Fire": "11019/2#11018/5#11017/12",
+        "67/Water": "11022/2#11021/5#11020/12",
+        "67/Earth": "11025/2#11024/5#11023/12"
+      }
+    },
+    "68": {
+      "level": 68,
+      "fire": "11019/3#11017/9",
+      "light": "11028/3#11026/9",
+      "dark": "11031/3#11029/9",
+      "water": "11022/3#11020/9",
+      "earth": "11025/3#11023/9",
+      "mapReward": {
+        "68/Water": "11022/3#11020/9",
+        "68/Fire": "11019/3#11017/9",
+        "68/Dark": "11031/3#11029/9",
+        "68/Earth": "11025/3#11023/9",
+        "68/Light": "11028/3#11026/9"
+      }
+    },
+    "69": {
+      "level": 69,
+      "fire": "11019/3#11018/1#11017/7",
+      "light": "11028/3#11027/1#11026/7",
+      "dark": "11031/3#11030/1#11029/7",
+      "water": "11022/3#11021/1#11020/7",
+      "earth": "11025/3#11024/1#11023/7",
+      "mapReward": {
+        "69/Water": "11022/3#11021/1#11020/7",
+        "69/Dark": "11031/3#11030/1#11029/7",
+        "69/Light": "11028/3#11027/1#11026/7",
+        "69/Fire": "11019/3#11018/1#11017/7",
+        "69/Earth": "11025/3#11024/1#11023/7"
+      }
+    },
+    "70": {
+      "level": 70,
+      "fire": "11019/3#11018/2#11017/4",
+      "light": "11028/3#11027/2#11026/4",
+      "dark": "11031/3#11030/2#11029/4",
+      "water": "11022/3#11021/2#11020/4",
+      "earth": "11025/3#11024/2#11023/4",
+      "mapReward": {
+        "70/Water": "11022/3#11021/2#11020/4",
+        "70/Dark": "11031/3#11030/2#11029/4",
+        "70/Fire": "11019/3#11018/2#11017/4",
+        "70/Earth": "11025/3#11024/2#11023/4",
+        "70/Light": "11028/3#11027/2#11026/4"
+      }
+    },
+    "71": {
+      "level": 71,
+      "fire": "11019/3#11018/3#11017/2",
+      "light": "11028/3#11027/3#11026/2",
+      "dark": "11031/3#11030/3#11029/2",
+      "water": "11022/3#11021/3#11020/2",
+      "earth": "11025/3#11024/3#11023/2",
+      "mapReward": {
+        "71/Fire": "11019/3#11018/3#11017/2",
+        "71/Dark": "11031/3#11030/3#11029/2",
+        "71/Light": "11028/3#11027/3#11026/2",
+        "71/Earth": "11025/3#11024/3#11023/2",
+        "71/Water": "11022/3#11021/3#11020/2"
+      }
+    },
+    "72": {
+      "level": 72,
+      "fire": "11019/3#11018/4#11017/1",
+      "light": "11028/3#11027/4#11026/1",
+      "dark": "11031/3#11030/4#11029/1",
+      "water": "11022/3#11021/4#11020/1",
+      "earth": "11025/3#11024/4#11023/1",
+      "mapReward": {
+        "72/Water": "11022/3#11021/4#11020/1",
+        "72/Earth": "11025/3#11024/4#11023/1",
+        "72/Dark": "11031/3#11030/4#11029/1",
+        "72/Fire": "11019/3#11018/4#11017/1",
+        "72/Light": "11028/3#11027/4#11026/1"
+      }
+    },
+    "73": {
+      "level": 73,
+      "fire": "11019/3#11018/5",
+      "light": "11028/3#11027/5",
+      "dark": "11031/3#11030/5",
+      "water": "11022/3#11021/5",
+      "earth": "11025/3#11024/5",
+      "mapReward": {
+        "73/Light": "11028/3#11027/5",
+        "73/Earth": "11025/3#11024/5",
+        "73/Fire": "11019/3#11018/5",
+        "73/Dark": "11031/3#11030/5",
+        "73/Water": "11022/3#11021/5"
+      }
+    },
+    "74": {
+      "level": 74,
+      "fire": "11019/3#11018/5#11017/16",
+      "light": "11028/3#11027/5#11026/16",
+      "dark": "11031/3#11030/5#11029/16",
+      "water": "11022/3#11021/5#11020/16",
+      "earth": "11025/3#11024/5#11023/16",
+      "mapReward": {
+        "74/Dark": "11031/3#11030/5#11029/16",
+        "74/Fire": "11019/3#11018/5#11017/16",
+        "74/Water": "11022/3#11021/5#11020/16",
+        "74/Earth": "11025/3#11024/5#11023/16",
+        "74/Light": "11028/3#11027/5#11026/16"
+      }
+    },
+    "75": {
+      "level": 75,
+      "fire": "11019/4#11017/16",
+      "light": "11028/4#11026/16",
+      "dark": "11031/4#11029/16",
+      "water": "11022/4#11020/16",
+      "earth": "11025/4#11023/16",
+      "mapReward": {
+        "75/Water": "11022/4#11020/16",
+        "75/Earth": "11025/4#11023/16",
+        "75/Fire": "11019/4#11017/16",
+        "75/Dark": "11031/4#11029/16",
+        "75/Light": "11028/4#11026/16"
+      }
+    },
+    "76": {
+      "level": 76,
+      "fire": "11019/4#11018/1#11017/16",
+      "light": "11028/4#11027/1#11026/16",
+      "dark": "11031/4#11030/1#11029/16",
+      "water": "11022/4#11021/1#11020/16",
+      "earth": "11025/4#11024/1#11023/16",
+      "mapReward": {
+        "76/Fire": "11019/4#11018/1#11017/16",
+        "76/Light": "11028/4#11027/1#11026/16",
+        "76/Dark": "11031/4#11030/1#11029/16",
+        "76/Earth": "11025/4#11024/1#11023/16",
+        "76/Water": "11022/4#11021/1#11020/16"
+      }
+    },
+    "77": {
+      "level": 77,
+      "fire": "11019/4#11018/3",
+      "light": "11028/4#11027/3",
+      "dark": "11031/4#11030/3",
+      "water": "11022/4#11021/3",
+      "earth": "11025/4#11024/3",
+      "mapReward": {
+        "77/Dark": "11031/4#11030/3",
+        "77/Water": "11022/4#11021/3",
+        "77/Fire": "11019/4#11018/3",
+        "77/Light": "11028/4#11027/3",
+        "77/Earth": "11025/4#11024/3"
+      }
+    },
+    "78": {
+      "level": 78,
+      "fire": "11019/4#11018/4#11017/1",
+      "light": "11028/4#11027/4#11026/1",
+      "dark": "11031/4#11030/4#11029/1",
+      "water": "11022/4#11021/4#11020/1",
+      "earth": "11025/4#11024/4#11023/1",
+      "mapReward": {
+        "78/Water": "11022/4#11021/4#11020/1",
+        "78/Earth": "11025/4#11024/4#11023/1",
+        "78/Dark": "11031/4#11030/4#11029/1",
+        "78/Fire": "11019/4#11018/4#11017/1",
+        "78/Light": "11028/4#11027/4#11026/1"
+      }
+    },
+    "79": {
+      "level": 79,
+      "fire": "11019/4#11018/5#11017/3",
+      "light": "11028/4#11027/5#11026/3",
+      "dark": "11031/4#11030/5#11029/3",
+      "water": "11022/4#11021/5#11020/3",
+      "earth": "11025/4#11024/5#11023/3",
+      "mapReward": {
+        "79/Fire": "11019/4#11018/5#11017/3",
+        "79/Dark": "11031/4#11030/5#11029/3",
+        "79/Water": "11022/4#11021/5#11020/3",
+        "79/Earth": "11025/4#11024/5#11023/3",
+        "79/Light": "11028/4#11027/5#11026/3"
+      }
+    },
+    "80": {
+      "level": 80,
+      "fire": "11019/5#11017/5",
+      "light": "11028/5#11026/5",
+      "dark": "11031/5#11029/5",
+      "water": "11022/5#11020/5",
+      "earth": "11025/5#11023/5",
+      "mapReward": {
+        "80/Fire": "11019/5#11017/5",
+        "80/Dark": "11031/5#11029/5",
+        "80/Water": "11022/5#11020/5",
+        "80/Earth": "11025/5#11023/5",
+        "80/Light": "11028/5#11026/5"
+      }
+    },
+    "81": {
+      "level": 81,
+      "fire": "11019/10#11018/2#11017/16",
+      "light": "11028/10#11027/2#11026/16",
+      "dark": "11031/10#11030/2#11029/16",
+      "water": "11022/10#11021/2#11020/16",
+      "earth": "11025/10#11024/2#11023/16",
+      "mapReward": {
+        "81/Earth": "11025/10#11024/2#11023/16",
+        "81/Light": "11028/10#11027/2#11026/16",
+        "81/Dark": "11031/10#11030/2#11029/16",
+        "81/Fire": "11019/10#11018/2#11017/16",
+        "81/Water": "11022/10#11021/2#11020/16"
+      }
+    },
+    "82": {
+      "level": 82,
+      "fire": "11019/10#11018/5#11017/5",
+      "light": "11028/10#11027/5#11026/5",
+      "dark": "11031/10#11030/5#11029/5",
+      "water": "11022/10#11021/5#11020/5",
+      "earth": "11025/10#11024/5#11023/5",
+      "mapReward": {
+        "82/Earth": "11025/10#11024/5#11023/5",
+        "82/Water": "11022/10#11021/5#11020/5",
+        "82/Fire": "11019/10#11018/5#11017/5",
+        "82/Light": "11028/10#11027/5#11026/5",
+        "82/Dark": "11031/10#11030/5#11029/5"
+      }
+    },
+    "83": {
+      "level": 83,
+      "fire": "11019/11#11018/1#11017/13",
+      "light": "11028/11#11027/1#11026/13",
+      "dark": "11031/11#11030/1#11029/13",
+      "water": "11022/11#11021/1#11020/13",
+      "earth": "11025/11#11024/1#11023/13",
+      "mapReward": {
+        "83/Dark": "11031/11#11030/1#11029/13",
+        "83/Fire": "11019/11#11018/1#11017/13",
+        "83/Light": "11028/11#11027/1#11026/13",
+        "83/Water": "11022/11#11021/1#11020/13",
+        "83/Earth": "11025/11#11024/1#11023/13"
+      }
+    },
+    "84": {
+      "level": 84,
+      "fire": "11019/11#11018/4#11017/4",
+      "light": "11028/11#11027/4#11026/4",
+      "dark": "11031/11#11030/4#11029/4",
+      "water": "11022/11#11021/4#11020/4",
+      "earth": "11025/11#11024/4#11023/4",
+      "mapReward": {
+        "84/Earth": "11025/11#11024/4#11023/4",
+        "84/Water": "11022/11#11021/4#11020/4",
+        "84/Dark": "11031/11#11030/4#11029/4",
+        "84/Fire": "11019/11#11018/4#11017/4",
+        "84/Light": "11028/11#11027/4#11026/4"
+      }
+    },
+    "85": {
+      "level": 85,
+      "fire": "11019/12#11017/13",
+      "light": "11028/12#11026/13",
+      "dark": "11031/12#11029/13",
+      "water": "11022/12#11020/13",
+      "earth": "11025/12#11023/13",
+      "mapReward": {
+        "85/Water": "11022/12#11020/13",
+        "85/Earth": "11025/12#11023/13",
+        "85/Light": "11028/12#11026/13",
+        "85/Dark": "11031/12#11029/13",
+        "85/Fire": "11019/12#11017/13"
+      }
+    },
+    "86": {
+      "level": 86,
+      "fire": "11019/12#11018/3#11017/7",
+      "light": "11028/12#11027/3#11026/7",
+      "dark": "11031/12#11030/3#11029/7",
+      "water": "11022/12#11021/3#11020/7",
+      "earth": "11025/12#11024/3#11023/7",
+      "mapReward": {
+        "86/Light": "11028/12#11027/3#11026/7",
+        "86/Earth": "11025/12#11024/3#11023/7",
+        "86/Water": "11022/12#11021/3#11020/7",
+        "86/Fire": "11019/12#11018/3#11017/7",
+        "86/Dark": "11031/12#11030/3#11029/7"
+      }
+    },
+    "87": {
+      "level": 87,
+      "fire": "11019/13#11017/1",
+      "light": "11028/13#11026/1",
+      "dark": "11031/13#11029/1",
+      "water": "11022/13#11020/1",
+      "earth": "11025/13#11023/1",
+      "mapReward": {
+        "87/Water": "11022/13#11020/1",
+        "87/Dark": "11031/13#11029/1",
+        "87/Fire": "11019/13#11017/1",
+        "87/Light": "11028/13#11026/1",
+        "87/Earth": "11025/13#11023/1"
+      }
+    },
+    "88": {
+      "level": 88,
+      "fire": "11019/13#11018/2#11017/14",
+      "light": "11028/13#11027/2#11026/14",
+      "dark": "11031/13#11030/2#11029/14",
+      "water": "11022/13#11021/2#11020/14",
+      "earth": "11025/13#11024/2#11023/14",
+      "mapReward": {
+        "88/Fire": "11019/13#11018/2#11017/14",
+        "88/Water": "11022/13#11021/2#11020/14",
+        "88/Light": "11028/13#11027/2#11026/14",
+        "88/Dark": "11031/13#11030/2#11029/14",
+        "88/Earth": "11025/13#11024/2#11023/14"
+      }
+    },
+    "89": {
+      "level": 89,
+      "fire": "11019/13#11018/5#11017/10",
+      "light": "11028/13#11027/5#11026/10",
+      "dark": "11031/13#11030/5#11029/10",
+      "water": "11022/13#11021/5#11020/10",
+      "earth": "11025/13#11024/5#11023/10",
+      "mapReward": {
+        "89/Light": "11028/13#11027/5#11026/10",
+        "89/Dark": "11031/13#11030/5#11029/10",
+        "89/Water": "11022/13#11021/5#11020/10",
+        "89/Fire": "11019/13#11018/5#11017/10",
+        "89/Earth": "11025/13#11024/5#11023/10"
+      }
+    },
+    "90": {
+      "level": 90,
+      "fire": "11019/14#11018/2#11017/8",
+      "light": "11028/14#11027/2#11026/8",
+      "dark": "11031/14#11030/2#11029/8",
+      "water": "11022/14#11021/2#11020/8",
+      "earth": "11025/14#11024/2#11023/8",
+      "mapReward": {
+        "90/Water": "11022/14#11021/2#11020/8",
+        "90/Light": "11028/14#11027/2#11026/8",
+        "90/Dark": "11031/14#11030/2#11029/8",
+        "90/Fire": "11019/14#11018/2#11017/8",
+        "90/Earth": "11025/14#11024/2#11023/8"
+      }
+    },
+    "91": {
+      "level": 91,
+      "fire": "11019/14#11018/5#11017/7",
+      "light": "11028/14#11027/5#11026/7",
+      "dark": "11031/14#11030/5#11029/7",
+      "water": "11022/14#11021/5#11020/7",
+      "earth": "11025/14#11024/5#11023/7",
+      "mapReward": {
+        "91/Earth": "11025/14#11024/5#11023/7",
+        "91/Fire": "11019/14#11018/5#11017/7",
+        "91/Light": "11028/14#11027/5#11026/7",
+        "91/Dark": "11031/14#11030/5#11029/7",
+        "91/Water": "11022/14#11021/5#11020/7"
+      }
+    },
+    "92": {
+      "level": 92,
+      "fire": "11019/15#11018/2#11017/7",
+      "light": "11028/15#11027/2#11026/7",
+      "dark": "11031/15#11030/2#11029/7",
+      "water": "11022/15#11021/2#11020/7",
+      "earth": "11025/15#11024/2#11023/7",
+      "mapReward": {
+        "92/Dark": "11031/15#11030/2#11029/7",
+        "92/Fire": "11019/15#11018/2#11017/7",
+        "92/Water": "11022/15#11021/2#11020/7",
+        "92/Earth": "11025/15#11024/2#11023/7",
+        "92/Light": "11028/15#11027/2#11026/7"
+      }
+    },
+    "93": {
+      "level": 93,
+      "fire": "11019/15#11018/5#11017/8",
+      "light": "11028/15#11027/5#11026/8",
+      "dark": "11031/15#11030/5#11029/8",
+      "water": "11022/15#11021/5#11020/8",
+      "earth": "11025/15#11024/5#11023/8",
+      "mapReward": {
+        "93/Light": "11028/15#11027/5#11026/8",
+        "93/Fire": "11019/15#11018/5#11017/8",
+        "93/Dark": "11031/15#11030/5#11029/8",
+        "93/Earth": "11025/15#11024/5#11023/8",
+        "93/Water": "11022/15#11021/5#11020/8"
+      }
+    },
+    "94": {
+      "level": 94,
+      "fire": "11019/16#11018/2#11017/10",
+      "light": "11028/16#11027/2#11026/10",
+      "dark": "11031/16#11030/2#11029/10",
+      "water": "11022/16#11021/2#11020/10",
+      "earth": "11025/16#11024/2#11023/10",
+      "mapReward": {
+        "94/Water": "11022/16#11021/2#11020/10",
+        "94/Earth": "11025/16#11024/2#11023/10",
+        "94/Light": "11028/16#11027/2#11026/10",
+        "94/Fire": "11019/16#11018/2#11017/10",
+        "94/Dark": "11031/16#11030/2#11029/10"
+      }
+    },
+    "95": {
+      "level": 95,
+      "fire": "11019/16#11018/5#11017/13",
+      "light": "11028/16#11027/5#11026/13",
+      "dark": "11031/16#11030/5#11029/13",
+      "water": "11022/16#11021/5#11020/13",
+      "earth": "11025/16#11024/5#11023/13",
+      "mapReward": {
+        "95/Fire": "11019/16#11018/5#11017/13",
+        "95/Light": "11028/16#11027/5#11026/13",
+        "95/Dark": "11031/16#11030/5#11029/13",
+        "95/Water": "11022/16#11021/5#11020/13",
+        "95/Earth": "11025/16#11024/5#11023/13"
+      }
+    },
+    "96": {
+      "level": 96,
+      "fire": "11019/17#11018/3#11017/1",
+      "light": "11028/17#11027/3#11026/1",
+      "dark": "11031/17#11030/3#11029/1",
+      "water": "11022/17#11021/3#11020/1",
+      "earth": "11025/17#11024/3#11023/1",
+      "mapReward": {
+        "96/Light": "11028/17#11027/3#11026/1",
+        "96/Dark": "11031/17#11030/3#11029/1",
+        "96/Fire": "11019/17#11018/3#11017/1",
+        "96/Earth": "11025/17#11024/3#11023/1",
+        "96/Water": "11022/17#11021/3#11020/1"
+      }
+    },
+    "97": {
+      "level": 97,
+      "fire": "11019/18#11017/6",
+      "light": "11028/18#11026/6",
+      "dark": "11031/18#11029/6",
+      "water": "11022/18#11020/6",
+      "earth": "11025/18#11023/6",
+      "mapReward": {
+        "97/Fire": "11019/18#11017/6",
+        "97/Dark": "11031/18#11029/6",
+        "97/Water": "11022/18#11020/6",
+        "97/Light": "11028/18#11026/6",
+        "97/Earth": "11025/18#11023/6"
+      }
+    },
+    "98": {
+      "level": 98,
+      "fire": "11019/18#11018/3#11017/13",
+      "light": "11028/18#11027/3#11026/13",
+      "dark": "11031/18#11030/3#11029/13",
+      "water": "11022/18#11021/3#11020/13",
+      "earth": "11025/18#11024/3#11023/13",
+      "mapReward": {
+        "98/Light": "11028/18#11027/3#11026/13",
+        "98/Earth": "11025/18#11024/3#11023/13",
+        "98/Fire": "11019/18#11018/3#11017/13",
+        "98/Water": "11022/18#11021/3#11020/13",
+        "98/Dark": "11031/18#11030/3#11029/13"
+      }
+    },
+    "99": {
+      "level": 99,
+      "fire": "11019/19#11018/1#11017/4",
+      "light": "11028/19#11027/1#11026/4",
+      "dark": "11031/19#11030/1#11029/4",
+      "water": "11022/19#11021/1#11020/4",
+      "earth": "11025/19#11024/1#11023/4",
+      "mapReward": {
+        "99/Water": "11022/19#11021/1#11020/4",
+        "99/Fire": "11019/19#11018/1#11017/4",
+        "99/Dark": "11031/19#11030/1#11029/4",
+        "99/Light": "11028/19#11027/1#11026/4",
+        "99/Earth": "11025/19#11024/1#11023/4"
+      }
+    },
+    "100": {
+      "level": 100,
+      "fire": "11019/19#11018/4#11017/13",
+      "light": "11028/19#11027/4#11026/13",
+      "dark": "11031/19#11030/4#11029/13",
+      "water": "11022/19#11021/4#11020/13",
+      "earth": "11025/19#11024/4#11023/13",
+      "mapReward": {
+        "100/Dark": "11031/19#11030/4#11029/13",
+        "100/Fire": "11019/19#11018/4#11017/13",
+        "100/Water": "11022/19#11021/4#11020/13",
+        "100/Earth": "11025/19#11024/4#11023/13",
+        "100/Light": "11028/19#11027/4#11026/13"
+      }
+    }
+  },
+  "craftingWithLevels": {
+    "2": {
+      "level": 2,
+      "rank2": 0,
+      "rank3": 0,
+      "rank4": 0,
+      "rank5": 0
+    },
+    "3": {
+      "level": 3,
+      "rank2": 0,
+      "rank3": 0,
+      "rank4": 0,
+      "rank5": 0
+    },
+    "4": {
+      "level": 4,
+      "rank2": 0,
+      "rank3": 0,
+      "rank4": 0,
+      "rank5": 0
+    },
+    "5": {
+      "level": 5,
+      "rank2": 0,
+      "rank3": 0,
+      "rank4": 0,
+      "rank5": 0
+    },
+    "6": {
+      "level": 6,
+      "rank2": 0,
+      "rank3": 0,
+      "rank4": 0,
+      "rank5": 0
+    },
+    "7": {
+      "level": 7,
+      "rank2": 0,
+      "rank3": 0,
+      "rank4": 0,
+      "rank5": 0
+    },
+    "8": {
+      "level": 8,
+      "rank2": 3,
+      "rank3": 3,
+      "rank4": 0,
+      "rank5": 0
+    },
+    "9": {
+      "level": 9,
+      "rank2": 4,
+      "rank3": 3,
+      "rank4": 0,
+      "rank5": 0
+    },
+    "10": {
+      "level": 10,
+      "rank2": 5,
+      "rank3": 3,
+      "rank4": 0,
+      "rank5": 0
+    },
+    "11": {
+      "level": 11,
+      "rank2": 6,
+      "rank3": 4,
+      "rank4": 7,
+      "rank5": 0
+    },
+    "12": {
+      "level": 12,
+      "rank2": 7,
+      "rank3": 5,
+      "rank4": 8,
+      "rank5": 0
+    },
+    "13": {
+      "level": 13,
+      "rank2": 8,
+      "rank3": 6,
+      "rank4": 9,
+      "rank5": 0
+    },
+    "14": {
+      "level": 14,
+      "rank2": 9,
+      "rank3": 7,
+      "rank4": 10,
+      "rank5": 0
+    },
+    "15": {
+      "level": 15,
+      "rank2": 11,
+      "rank3": 8,
+      "rank4": 11,
+      "rank5": 7
+    }
+  },
+  "levelUpHeroByHeroes": {
+    "1": {
+      "rank": 1,
+      "sameElementals": 500,
+      "differentElementals": 375,
+      "successRatePercent": 100
+    },
+    "2": {
+      "rank": 2,
+      "sameElementals": 2000,
+      "differentElementals": 1500,
+      "successRatePercent": 100
+    },
+    "3": {
+      "rank": 3,
+      "sameElementals": 10000,
+      "differentElementals": 7500,
+      "successRatePercent": 100
+    },
+    "4": {
+      "rank": 4,
+      "sameElementals": 30000,
+      "differentElementals": 30000,
+      "successRatePercent": 100
+    },
+    "5": {
+      "rank": 5,
+      "sameElementals": 100000,
+      "differentElementals": 100000,
+      "successRatePercent": 100
+    }
+  },
+  "levelUpHeroByItems": {
+    "11017": {
+      "itemIndex": 11017,
+      "sameElementals": 4000,
+      "differentElementals": 3000,
+      "successRatePercent": 100,
+      "costPerSlot": 1000
+    },
+    "11018": {
+      "itemIndex": 11018,
+      "sameElementals": 50000,
+      "differentElementals": 37500,
+      "successRatePercent": 100,
+      "costPerSlot": 10000
+    },
+    "11019": {
+      "itemIndex": 11019,
+      "sameElementals": 300000,
+      "differentElementals": 225000,
+      "successRatePercent": 100,
+      "costPerSlot": 50000
+    },
+    "11020": {
+      "itemIndex": 11020,
+      "sameElementals": 4000,
+      "differentElementals": 3000,
+      "successRatePercent": 100,
+      "costPerSlot": 1000
+    },
+    "11021": {
+      "itemIndex": 11021,
+      "sameElementals": 50000,
+      "differentElementals": 37500,
+      "successRatePercent": 100,
+      "costPerSlot": 10000
+    },
+    "11022": {
+      "itemIndex": 11022,
+      "sameElementals": 300000,
+      "differentElementals": 225000,
+      "successRatePercent": 100,
+      "costPerSlot": 50000
+    },
+    "11023": {
+      "itemIndex": 11023,
+      "sameElementals": 4000,
+      "differentElementals": 3000,
+      "successRatePercent": 100,
+      "costPerSlot": 1000
+    },
+    "11024": {
+      "itemIndex": 11024,
+      "sameElementals": 50000,
+      "differentElementals": 37500,
+      "successRatePercent": 100,
+      "costPerSlot": 10000
+    },
+    "11025": {
+      "itemIndex": 11025,
+      "sameElementals": 300000,
+      "differentElementals": 225000,
+      "successRatePercent": 100,
+      "costPerSlot": 50000
+    },
+    "11026": {
+      "itemIndex": 11026,
+      "sameElementals": 4000,
+      "differentElementals": 3000,
+      "successRatePercent": 100,
+      "costPerSlot": 1000
+    },
+    "11027": {
+      "itemIndex": 11027,
+      "sameElementals": 50000,
+      "differentElementals": 37500,
+      "successRatePercent": 100,
+      "costPerSlot": 10000
+    },
+    "11028": {
+      "itemIndex": 11028,
+      "sameElementals": 300000,
+      "differentElementals": 225000,
+      "successRatePercent": 100,
+      "costPerSlot": 50000
+    },
+    "11029": {
+      "itemIndex": 11029,
+      "sameElementals": 4000,
+      "differentElementals": 3000,
+      "successRatePercent": 100,
+      "costPerSlot": 1000
+    },
+    "11030": {
+      "itemIndex": 11030,
+      "sameElementals": 50000,
+      "differentElementals": 37500,
+      "successRatePercent": 100,
+      "costPerSlot": 10000
+    },
+    "11031": {
+      "itemIndex": 11031,
+      "sameElementals": 300000,
+      "differentElementals": 225000,
+      "successRatePercent": 100,
+      "costPerSlot": 50000
+    }
+  },
+  "levelUpEquipmentsLT3": {
+    "2": {
+      "level": 2,
+      "combineMaterial": "11008/1",
+      "cost": "11905/1000",
+      "successRatePercent": 100
+    },
+    "3": {
+      "level": 3,
+      "combineMaterial": "11008/3",
+      "cost": "11905/2000",
+      "successRatePercent": 100
+    },
+    "4": {
+      "level": 4,
+      "combineMaterial": "11008/5",
+      "cost": "11905/4000",
+      "successRatePercent": 100
+    },
+    "5": {
+      "level": 5,
+      "combineMaterial": "11001/5#11008/10",
+      "cost": "11905/8000",
+      "successRatePercent": 100
+    },
+    "6": {
+      "level": 6,
+      "combineMaterial": "11001/10#11008/20",
+      "cost": "11905/12000",
+      "successRatePercent": 95
+    },
+    "7": {
+      "level": 7,
+      "combineMaterial": "11001/20#11008/30",
+      "cost": "11905/18000",
+      "successRatePercent": 90
+    },
+    "8": {
+      "level": 8,
+      "combineMaterial": "11001/25#11008/40",
+      "cost": "11905/25000",
+      "successRatePercent": 85
+    },
+    "9": {
+      "level": 9,
+      "combineMaterial": "11001/30#11008/50",
+      "cost": "11905/35000",
+      "successRatePercent": 80
+    },
+    "10": {
+      "level": 10,
+      "combineMaterial": "11001/40#11002/5#11008/60",
+      "cost": "11905/50000",
+      "successRatePercent": 75
+    },
+    "11": {
+      "level": 11,
+      "combineMaterial": "11001/50#11002/10#11008/70",
+      "cost": "11999/10#11905/100000",
+      "successRatePercent": 70
+    },
+    "12": {
+      "level": 12,
+      "combineMaterial": "11001/60#11002/20#11008/80",
+      "cost": "11999/15#11905/200000",
+      "successRatePercent": 65
+    },
+    "13": {
+      "level": 13,
+      "combineMaterial": "11001/70#11002/30#11008/90",
+      "cost": "11999/20#11905/400000",
+      "successRatePercent": 60
+    },
+    "14": {
+      "level": 14,
+      "combineMaterial": "11001/80#11002/40#11008/100",
+      "cost": "11999/25#11905/500000",
+      "successRatePercent": 55
+    },
+    "15": {
+      "level": 15,
+      "combineMaterial": "11001/100#11002/50#11008/150",
+      "cost": "11999/30#11905/1000000",
+      "successRatePercent": 50
+    }
+  },
+  "levelUpEquipmentsGT3": {
+    "2": {
+      "level": 2,
+      "combineMaterial": "11009/1",
+      "cost": "11905/3000",
+      "successRatePercent": 100
+    },
+    "3": {
+      "level": 3,
+      "combineMaterial": "11009/3",
+      "cost": "11905/8000",
+      "successRatePercent": 100
+    },
+    "4": {
+      "level": 4,
+      "combineMaterial": "11009/5",
+      "cost": "11905/15000",
+      "successRatePercent": 95
+    },
+    "5": {
+      "level": 5,
+      "combineMaterial": "11001/5#11002/1#11009/10",
+      "cost": "11905/25000",
+      "successRatePercent": 85
+    },
+    "6": {
+      "level": 6,
+      "combineMaterial": "11001/10#11002/1#11009/20",
+      "cost": "11905/40000",
+      "successRatePercent": 75
+    },
+    "7": {
+      "level": 7,
+      "combineMaterial": "11001/20#11002/1#11009/30",
+      "cost": "11905/50000",
+      "successRatePercent": 60
+    },
+    "8": {
+      "level": 8,
+      "combineMaterial": "11001/25#11002/2#11009/40",
+      "cost": "11905/80000",
+      "successRatePercent": 50
+    },
+    "9": {
+      "level": 9,
+      "combineMaterial": "11001/30#11002/3#11009/50",
+      "cost": "11905/100000",
+      "successRatePercent": 40
+    },
+    "10": {
+      "level": 10,
+      "combineMaterial": "11001/40#11002/5#11009/60",
+      "cost": "11905/150000",
+      "successRatePercent": 35
+    },
+    "11": {
+      "level": 11,
+      "combineMaterial": "11001/50#11002/10#11009/70",
+      "cost": "11999/20#11905/300000",
+      "successRatePercent": 30
+    },
+    "12": {
+      "level": 12,
+      "combineMaterial": "11001/60#11002/20#11009/80",
+      "cost": "11999/30#11905/500000",
+      "successRatePercent": 25
+    },
+    "13": {
+      "level": 13,
+      "combineMaterial": "11001/70#11002/30#11009/90",
+      "cost": "11999/35#11905/800000",
+      "successRatePercent": 20
+    },
+    "14": {
+      "level": 14,
+      "combineMaterial": "11001/80#11002/40#11009/100",
+      "cost": "11999/40#11905/1500000",
+      "successRatePercent": 15
+    },
+    "15": {
+      "level": 15,
+      "combineMaterial": "11001/100#11002/50#11009/150",
+      "cost": "11999/50#11905/2500000",
+      "successRatePercent": 10
+    }
+  }
+}
