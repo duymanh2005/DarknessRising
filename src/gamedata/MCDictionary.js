@@ -710,6 +710,29 @@
             return arrMonster;
         }
 
+        mc.dictionary.getAllHero = function () {
+            return arrHeroes;
+        }
+
+        mc.dictionary.getAllHeroByElement = function (element) {
+            var result = [];
+            for (var i = 0; i < arrHeroes.length; i++) {
+                var heroInfo = arrHeroes[i];
+                if (heroInfo["element"] === element && heroInfo["active"]) {
+                    var index = heroInfo["index"];
+                    if (i > 0 && arrHeroes[i - 1]["active"]) {
+                        var prevIndex = arrHeroes[i - 1]["index"];
+                        if ((index - prevIndex) < 5) {
+                            result.pop();
+                        }
+                    }
+                    result.push(heroInfo);
+                }
+            }
+
+            return result;
+        }
+
         arrCreatureAnimation = bb.utility.cloneJSON(arrCreatureAnimation);
         mc.dictionary.creatureAssetByIndex = {};
         for (var i = 0; i < arrCreatureAnimation.length; i++) {

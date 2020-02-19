@@ -161,7 +161,6 @@ mc.HeroStockLayer = mc.MainBaseLayer.extend({
         mc.GameData.guiState.setCurrentEditFormationTeamId(mc.TeamFormationManager.TEAM_CAMPAIGN);
         var emptyWidget = new ccui.ImageView("patch9/Unavailable.png", ccui.Widget.PLIST_TEXTURE);
         var self = this;
-        var playerInfo = mc.GameData.playerInfo;
         var heroStock = mc.GameData.heroStock;
         var notifySystem = mc.GameData.notifySystem;
         var arrHero = heroStock.getHeroList();

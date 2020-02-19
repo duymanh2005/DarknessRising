@@ -25,9 +25,9 @@ mc.ItemStockLayer = mc.MainBaseLayer.extend({
         var tabWeaponNormal = this._tabWeaponInActive = new ccui.ImageView("button/tab_item_normal.png", ccui.Widget.PLIST_TEXTURE);
         var tabItemActive = this._tabItemActive = tabWeaponActive.clone();
         var tabItemNormal = this._tabItemInActive = tabWeaponNormal.clone();
-        var tabMaterialActive = this._tabMaterialActive = tabWeaponActive.clone();
-        var tabMaterialNormal = this._tabMaterialInActive = tabWeaponNormal.clone();
-        var tabPuzzleActive = this._tabPuzzleActive = tabWeaponActive.clone();
+        var tabMaterialActive = tabWeaponActive.clone();
+        var tabMaterialNormal = tabWeaponNormal.clone();
+        var tabPuzzleActive = tabWeaponActive.clone();
         var tabPuzzleNormal = this._tabPuzzleInActive = tabWeaponNormal.clone();
         panelMiddle.height -= 70;
         panelMiddle.y -= 35;
@@ -573,7 +573,6 @@ mc.ItemStockLayer = mc.MainBaseLayer.extend({
         }.bind(this));
 
 
-
         var _updateNotifyForTab = function () {
             var notifyIcon = null;
             //notifyIcon = mc.view_utility.setNotifyIconForWidget(tabWeaponActive, notifySystem.getEquipmentLevelUpNotification(), 0.8);
@@ -588,7 +587,7 @@ mc.ItemStockLayer = mc.MainBaseLayer.extend({
             var notifyIcon = mc.view_utility.setNotifyIconForWidget(tabMaterialActive, !mc.storage.itemTabTouched["other"], 0.8);
             notifyIcon = mc.view_utility.setNotifyIconForWidget(tabMaterialActive, !mc.storage.itemTabTouched["other"], 0.8);
 
-            notifyIcon = mc.view_utility.setNotifyIconForWidget(tabPuzzleActive, notifySystem.getShardUpNotification() && !mc.storage.itemTabTouched["soul"] , 0.8);
+            notifyIcon = mc.view_utility.setNotifyIconForWidget(tabPuzzleActive, notifySystem.getShardUpNotification() && !mc.storage.itemTabTouched["soul"], 0.8);
             notifyIcon = mc.view_utility.setNotifyIconForWidget(tabPuzzleNormal, notifySystem.getShardUpNotification() && !mc.storage.itemTabTouched["soul"], 0.8);
         };
 
@@ -599,29 +598,22 @@ mc.ItemStockLayer = mc.MainBaseLayer.extend({
         });
     },
 
-    _checkAndClearNotifyPotionAndMaterailTab : function(){
-        if(mc.storage.itemTabTouched["potion"] && !bb.utility.isEmptyObj(mc.storage.newItems) && !mc.storage.potionItemTabNotifyClear)
-        {
-            for(var i in mc.storage.newItems)
-            {
-                var itemInfo =  mc.GameData.itemStock.getItemById(i);
-                if(itemInfo)
-                {
-                    if(mc.ItemStock.isItemPotion(itemInfo))
-                    {
+    _checkAndClearNotifyPotionAndMaterailTab: function () {
+        if (mc.storage.itemTabTouched["potion"] && !bb.utility.isEmptyObj(mc.storage.newItems) && !mc.storage.potionItemTabNotifyClear) {
+            for (var i in mc.storage.newItems) {
+                var itemInfo = mc.GameData.itemStock.getItemById(i);
+                if (itemInfo) {
+                    if (mc.ItemStock.isItemPotion(itemInfo)) {
                         delete mc.storage.newItems[i];
                     }
                 }
-                else
-                {
+                else {
                     delete mc.storage.newItems[i];
                 }
             }
-            var  arrItem = this._gridConsumable.getAllElementView();
-            if(arrItem)
-            {
-                for(var j = 0;j<arrItem.length;j++)
-                {
+            var arrItem = this._gridConsumable.getAllElementView();
+            if (arrItem) {
+                for (var j = 0; j < arrItem.length; j++) {
                     var notifyIcon = arrItem[j].getChildByName("__notify__");
                     if (notifyIcon) {
                         notifyIcon.setVisible(false);
@@ -630,28 +622,21 @@ mc.ItemStockLayer = mc.MainBaseLayer.extend({
             }
             mc.storage.potionItemTabNotifyClear = true;
         }
-        if(mc.storage.itemTabTouched["other"] && !bb.utility.isEmptyObj(mc.storage.newItems) && !mc.storage.otherItemTabNotifyClear)
-        {
-            for(var i in mc.storage.newItems)
-            {
+        if (mc.storage.itemTabTouched["other"] && !bb.utility.isEmptyObj(mc.storage.newItems) && !mc.storage.otherItemTabNotifyClear) {
+            for (var i in mc.storage.newItems) {
                 var itemInfo = mc.GameData.itemStock.getItemById(i);
-                if(itemInfo)
-                {
-                    if(!mc.ItemStock.isItemEquipment(itemInfo) && !mc.ItemStock.isItemSoul(itemInfo) && !mc.ItemStock.isItemPotion(itemInfo))
-                    {
+                if (itemInfo) {
+                    if (!mc.ItemStock.isItemEquipment(itemInfo) && !mc.ItemStock.isItemSoul(itemInfo) && !mc.ItemStock.isItemPotion(itemInfo)) {
                         delete mc.storage.newItems[i];
                     }
                 }
-                else
-                {
+                else {
                     delete mc.storage.newItems[i];
                 }
             }
-            var  arrItem = this._gridMaterial.getAllElementView();
-            if(arrItem)
-            {
-                for(var j = 0;j<arrItem.length;j++)
-                {
+            var arrItem = this._gridMaterial.getAllElementView();
+            if (arrItem) {
+                for (var j = 0; j < arrItem.length; j++) {
                     var notifyIcon = arrItem[j].getChildByName("__notify__");
                     if (notifyIcon) {
                         notifyIcon.setVisible(false);
@@ -660,32 +645,24 @@ mc.ItemStockLayer = mc.MainBaseLayer.extend({
             }
             mc.storage.otherItemTabNotifyClear = true;
         }
-        if(mc.storage.itemTabTouched["soul"] && !bb.utility.isEmptyObj(mc.storage.newItems) && !mc.storage.soulItemTabNotifyClear)
-        {
-            for(var i in mc.storage.newItems)
-            {
+        if (mc.storage.itemTabTouched["soul"] && !bb.utility.isEmptyObj(mc.storage.newItems) && !mc.storage.soulItemTabNotifyClear) {
+            for (var i in mc.storage.newItems) {
                 var itemInfo = mc.GameData.itemStock.getItemById(i);
-                if(itemInfo)
-                {
+                if (itemInfo) {
                     var shardUpNotification = mc.GameData.notifySystem.getShardUpNotification();
-                    if(mc.ItemStock.isItemSoul(itemInfo))
-                    {
-                        if(!shardUpNotification || (shardUpNotification && !shardUpNotification[mc.ItemStock.getItemId(itemInfo)]))
-                        {
+                    if (mc.ItemStock.isItemSoul(itemInfo)) {
+                        if (!shardUpNotification || (shardUpNotification && !shardUpNotification[mc.ItemStock.getItemId(itemInfo)])) {
                             delete mc.storage.newItems[i];
                         }
                     }
                 }
-                else
-                {
+                else {
                     delete mc.storage.newItems[i];
                 }
             }
-            var  arrItem = this._gridSoul.getAllElementView();
-            if(arrItem)
-            {
-                for(var j = 0;j<arrItem.length;j++)
-                {
+            var arrItem = this._gridSoul.getAllElementView();
+            if (arrItem) {
+                for (var j = 0; j < arrItem.length; j++) {
                     var notifyIcon = arrItem[j].getChildByName("__notify__");
                     if (notifyIcon) {
                         notifyIcon.setVisible(false);

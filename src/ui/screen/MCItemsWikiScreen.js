@@ -97,8 +97,6 @@ mc.ItemsWikiScreen = mc.Screen.extend({
         var lblTitle = brkTitle.setString(mc.dictionary.getGUIString("lblItemList"), res.font_UTMBienvenue_stroke_32_export_fnt);
         lblTitle.setOverlayColor(mc.color.GREEN_NORMAL);
 
-        var notifySystem = mc.GameData.notifySystem;
-
         var _createItemWidget = function (itemInfo) {
             var widget = new mc.ItemView(itemInfo);
             widget.scale = 0.9;
@@ -112,7 +110,7 @@ mc.ItemsWikiScreen = mc.Screen.extend({
             return widget;
         }.bind(this);
 
-        var _createItemWidgetByIndex = this._createItemWidgetByIndex = function (index) {
+        var _createItemWidgetByIndex = function (index) {
             var widget = null;
             if (index < arrItem.length) {
                 var itemInfo = arrItem[index];

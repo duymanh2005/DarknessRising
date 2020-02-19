@@ -609,7 +609,7 @@
 				<key>sourceSize</key>
 				<string>{39,39}</string>
 			</dict>
-			<key>icon/hero/ico_assassin.png</key>
+				<key>icon/hero/ico_assassin.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{516,354},{19,16}}</string>
@@ -983,7 +983,7 @@
 				<key>sourceSize</key>
 				<string>{47,45}</string>
 			</dict>
-			<key>icon/Cup.png</key>
+			<key>icon/Dark_Element.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{2,1730},{198,136}}</string>

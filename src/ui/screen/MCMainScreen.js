@@ -147,7 +147,7 @@ mc.MainScreen = mc.Screen.extend({
             if (sysMessage > 0) {
                 if (!this.getChildByName("banner_msg")) {
                     var popSysMessage = mc.GameData.notifySystem.popSysMessage();
-                    var bannerView = new mc.BannerView(cc.winSize.height * 0.9, popSysMessage["content"] || popSysMessage["message"], 3, 0 , popSysMessage["contentp"]);
+                    var bannerView = new mc.BannerView(cc.winSize.height * 0.9, popSysMessage["content"] || popSysMessage["message"], 3, 0, popSysMessage["contentp"]);
                     bannerView.setName("banner_msg");
                     this.addChild(bannerView, 100);
                 }
@@ -254,6 +254,7 @@ mc.MainScreen = mc.Screen.extend({
     },
 
     _createLayer: function (layerId) {
+        cc.log("********** show layer: " + layerId);
         var layer = null;
         if (this._mapLayerCacheById && this._mapLayerCacheById[layerId]) {
             layer = this._mapLayerCacheById[layerId];
@@ -406,26 +407,22 @@ mc.MainScreen = mc.Screen.extend({
             else if (layerId === mc.MainScreen.LAYER_CREATE_RELIC_MATCH) {
                 layer = new mc.EditFormationLayer();
             }
-            else if(layerId === mc.MainScreen.LAYER_JOIN_REQUEST_RELIC_ARENA)
-            {
+            else if (layerId === mc.MainScreen.LAYER_JOIN_REQUEST_RELIC_ARENA) {
                 layer = new mc.JoinRelicArenaMatchLayer();
             }
-            else if(layerId === mc.MainScreen.LAYER_JOINER_LIST_RELIC_ARENA)
-            {
+            else if (layerId === mc.MainScreen.LAYER_JOINER_LIST_RELIC_ARENA) {
                 layer = new mc.JoinerListRelicArenaLayer();
             }
-            else if(layerId === mc.MainScreen.LAYER_PICK_HERO_RELIC_ARENA)
-            {
+            else if (layerId === mc.MainScreen.LAYER_PICK_HERO_RELIC_ARENA) {
                 layer = new mc.PickHeroFromServerInRelicArenaLayer();
             }
-            else if(layerId === mc.MainScreen.LAYER_RELIC_ARENA_RECORD)
-            {
+            else if (layerId === mc.MainScreen.LAYER_RELIC_ARENA_RECORD) {
                 layer = new mc.RelicArenaRecordLayer();
             }
-            else if( layerId === mc.MainScreen.LAYER_STAGE_LIST_WORLD_CHALLENGE ){
+            else if (layerId === mc.MainScreen.LAYER_STAGE_LIST_WORLD_CHALLENGE) {
                 layer = new mc.StageListWorldChanllengeLayer();
             }
-            else if( layerId === mc.MainScreen.LAYER_BLOOD_CASTLE_STAGE_LIST ){
+            else if (layerId === mc.MainScreen.LAYER_BLOOD_CASTLE_STAGE_LIST) {
                 layer = new mc.BloodCastleStageListLayer();
             }
         }
@@ -698,7 +695,7 @@ mc.MainBaseLayer = cc.Node.extend({
         return true;
     },
 
-    isConfirmExit : function(){
+    isConfirmExit: function () {
         return false;
     },
 
