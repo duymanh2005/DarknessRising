@@ -136,62 +136,77 @@ mc.TierHeroStockScreen = mc.Screen.extend({
 
         var heroStock = mc.GameData.heroStock;
         var currHeroes = heroStock.getHeroList();
-
-        var _loadHeroList = function (tabId) {
-            brkTitle.setString(tabId, res.font_UTMBienvenue_stroke_32_export_fnt);
-            var allHero = mc.dictionary.getAllHeroByElement(tabId);
-            var allHeroClone = [];
-            var _createHeroWidgetByIndex = function (index) {
-                var widget = null;
-                if (index < allHero.length) {
-                    var heroInfo = JSON.parse(JSON.stringify(allHero[index]));
-                    heroInfo = this._upgradeMaxLvForHero(heroInfo);
-                    heroInfo = this._upgradeMaxLvSkillsForHero(heroInfo);
-                    allHeroClone.push(heroInfo);
-                    var widget = new mc.HeroAvatarView(heroInfo);
-                    widget.scale = 1.0;
-                    widget.registerTouchEvent(function (widget) {
-                        this._viewHeroInfo(allHeroClone, index);
-                    }.bind(this), function () {
-                    });
-
-                    var isExistHero = false;
-                    for (var j = 0; j < currHeroes.length; j++) {
-                        if (this._checkHeroExisting(heroInfo, currHeroes[j])) {
-                            isExistHero = true;
-                            break;
-                        }
+        var allHeroFire = this._cloneHeroByType("Fire");
+        var allHeroLight = this._cloneHeroByType("Light");
+        var allHeroDark = this._cloneHeroByType("Dark");
+        var allHeroEarth = this._cloneHeroByType("Earth");
+        var allHeroWater = this._cloneHeroByType("Water");
+        var _createHeroWidget = function (allHero, index) {
+            var widget = null;
+            if (index < allHero.length) {
+                var heroInfo = allHero[index];
+                widget = new mc.HeroAvatarView(heroInfo);
+                widget.registerTouchEvent(function (widget) {
+                    this._viewHeroInfo(allHero, index);
+                }.bind(this), function () {
+                });
+                widget.scale = 1.0;
+                var isExistHero = false;
+                for (var j = 0; j < currHeroes.length; j++) {
+                    if (this._checkHeroExisting(heroInfo, currHeroes[j])) {
+                        isExistHero = true;
+                        break;
                     }
-                    if (!isExistHero)
-                        widget.setStatusText(" ", mc.color.GREEN_NORMAL);
-                } else {
-                    widget = emptyWidget.clone();
-                    widget._value = 0;
-                    widget.rangeIndex = index;
-                    widget.scale = 0.9;
-                    widget.setCascadeOpacityEnabled(true);
                 }
-                brkTitle.setString(tabId+"/2", res.font_UTMBienvenue_stroke_32_export_fnt);
-                return widget;
-            }.bind(this);
+                if (!isExistHero)
+                    widget.setStatusText(" ", mc.color.GREEN_NORMAL);
+            } else {
+                widget = emptyWidget.clone();
+                widget._value = 0;
+                widget.rangeIndex = index;
+                widget.scale = 0.9;
+                widget.setCascadeOpacityEnabled(true);
+            }
 
-            var gridViewHero = new mc.SortedGridView(panelMiddle)
-                .setSortingDataSource(["Power", "Attack", "Defense", "Hp", "Resistance"], function (widget, indexAttr) {
-                    var heroInfo = widget.getUserData();
-                    var val = -1000;
-                    if (heroInfo) {
-                        return mc.HeroStock.getHeroValueByAttr(heroInfo, indexAttr, allHero);
-                    }
-                    return (widget._value + val);
-                }).setInfoText(tabId, allHero.length, this._getInfoWidth())
-
-                .setDataSource(40, _createHeroWidgetByIndex);
-            brkTitle.setString(tabId+"/3", res.font_UTMBienvenue_stroke_32_export_fnt);
-            root.addChild(gridViewHero);
-            return gridViewHero;
+            return widget;
         }.bind(this);
 
-        _loadHeroList(TAB_FIRE);
+        var _createFireHeroWidgetByIndex = function (index) {
+            return _createHeroWidget(allHeroFire, index);
+        }.bind(this);
+
+        var _createWaterHeroWidgetByIndex = function (index) {
+            return _createHeroWidget(allHeroWater, index);
+        }.bind(this);
+
+        var _createEarthHeroWidgetByIndex = function (index) {
+            return _createHeroWidget(allHeroEarth, index);
+        }.bind(this);
+
+        var _createLightHeroWidgetByIndex = function (index) {
+            return _createHeroWidget(allHeroLight, index);
+        }.bind(this);
+
+        var _createDarkHeroWidgetByIndex = function (index) {
+            return _createHeroWidget(allHeroDark, index);
+        }.bind(this);
+
+        var gridViewFireHero = this._createGridViewHero("Fire", panelMiddle, _createFireHeroWidgetByIndex);
+        var gridViewWaterHero = this._createGridViewHero("Water", panelMiddle, _createWaterHeroWidgetByIndex);
+        var gridViewEarthHero = this._createGridViewHero("Earth", panelMiddle, _createEarthHeroWidgetByIndex);
+        var gridViewLightHero = this._createGridViewHero("Light", panelMiddle, _createLightHeroWidgetByIndex);
+        var gridViewDarkHero = this._createGridViewHero("Dark", panelMiddle, _createDarkHeroWidgetByIndex);
+
+        root.addChild(gridViewFireHero);
+        root.addChild(gridViewWaterHero);
+        root.addChild(gridViewEarthHero);
+        root.addChild(gridViewLightHero);
+        root.addChild(gridViewDarkHero);
+        gridViewWaterHero.setVisible(false);
+        gridViewEarthHero.setVisible(false);
+        gridViewDarkHero.setVisible(false);
+        gridViewLightHero.setVisible(false);
+
         this._selectTab = function (tabId) {
             tabFireActive.setVisible(false);
             tabFireNormal.setVisible(false);
@@ -203,14 +218,19 @@ mc.TierHeroStockScreen = mc.Screen.extend({
             tabDarkNormal.setVisible(false);
             tabWaterActive.setVisible(false);
             tabWaterNormal.setVisible(false);
+            gridViewFireHero.setVisible(false);
+            gridViewWaterHero.setVisible(false);
+            gridViewEarthHero.setVisible(false);
+            gridViewDarkHero.setVisible(false);
+            gridViewLightHero.setVisible(false);
+            brkTitle.setString(tabId, res.font_UTMBienvenue_stroke_32_export_fnt);
             if (tabId === TAB_FIRE) {
                 tabFireActive.setVisible(true);
                 tabLightNormal.setVisible(true);
                 tabDarkNormal.setVisible(true);
                 tabWaterNormal.setVisible(true);
                 tabEarthNormal.setVisible(true);
-                var scrollFire = _loadHeroList(TAB_FIRE);
-                scrollFire.setVisible(true);
+                gridViewFireHero.setVisible(true);
             }
             else if (tabId === TAB_EARTH) {
                 tabEarthActive.setVisible(true);
@@ -218,8 +238,7 @@ mc.TierHeroStockScreen = mc.Screen.extend({
                 tabDarkNormal.setVisible(true);
                 tabWaterNormal.setVisible(true);
                 tabFireNormal.setVisible(true);
-                var scrollEarth = _loadHeroList(TAB_EARTH);
-                scrollEarth.setVisible(true);
+                gridViewEarthHero.setVisible(true);
             }
             else if (tabId === TAB_WATER) {
                 tabWaterActive.setVisible(true);
@@ -227,8 +246,7 @@ mc.TierHeroStockScreen = mc.Screen.extend({
                 tabDarkNormal.setVisible(true);
                 tabEarthNormal.setVisible(true);
                 tabFireNormal.setVisible(true);
-                var scrollWater = _loadHeroList(TAB_WATER);
-                scrollWater.setVisible(true);
+                gridViewWaterHero.setVisible(true);
             }
             else if (tabId === TAB_LIGHT) {
                 tabLightActive.setVisible(true);
@@ -236,16 +254,14 @@ mc.TierHeroStockScreen = mc.Screen.extend({
                 tabDarkNormal.setVisible(true);
                 tabWaterNormal.setVisible(true);
                 tabFireNormal.setVisible(true);
-                var scrollLight = _loadHeroList(TAB_LIGHT);
-                scrollLight.setVisible(true);
+                gridViewLightHero.setVisible(true);
             } else if (tabId === TAB_DARK) {
                 tabDarkActive.setVisible(true);
                 tabLightNormal.setVisible(true);
                 tabEarthNormal.setVisible(true);
                 tabWaterNormal.setVisible(true);
                 tabFireNormal.setVisible(true);
-                var scrollDark = _loadHeroList(TAB_DARK);
-                scrollDark.setVisible(true);
+                gridViewDarkHero.setVisible(true);
             }
 
         }.bind(this);
@@ -267,7 +283,32 @@ mc.TierHeroStockScreen = mc.Screen.extend({
         }.bind(this));
     },
 
+    _cloneHeroByType: function (heroType) {
+        var allHeroClone = [];
+        var allHero = mc.dictionary.getAllHeroByElement(heroType);
+        for (var i = 0; i < allHero.length; i++) {
+            var heroInfo = JSON.parse(JSON.stringify(allHero[i]));
+            heroInfo = this._upgradeMaxLvForHero(heroInfo);
+            heroInfo = this._upgradeMaxLvSkillsForHero(heroInfo);
+            allHeroClone.push(heroInfo);
+        }
+        return allHeroClone;
 
+    },
+    _createGridViewHero: function (tabId, panelMiddle, createHeroWidgetByIndex) {
+        var allHero = mc.dictionary.getAllHeroByElement(tabId);
+        return new mc.SortedGridView(panelMiddle)
+            .setSortingDataSource(["Power", "Attack", "Defense", "Hp", "Resistance"], function (widget, indexAttr) {
+                var heroInfo = widget.getUserData();
+                var val = -1000;
+                if (heroInfo) {
+                    return mc.HeroStock.getHeroValueByAttr(heroInfo, indexAttr, allHero);
+                }
+                return (widget._value + val);
+            }).setInfoText(tabId, 0, this._getInfoWidth())
+
+            .setDataSource(40, createHeroWidgetByIndex);
+    },
     _getInfoTitle: function () {
         return "Water.";
     },
@@ -419,7 +460,7 @@ mc.TierHeroStockScreen = mc.Screen.extend({
 
     _upgradeMaxLvForHero: function (heroInfo) {
         var newHero = heroInfo;
-        var maxLv = mc.HeroStock.getHeroMaxLevel(heroInfo);
+        var maxLv = heroInfo["maxLevel"];
         var attr = mc.HeroStock.getHeroTotalAttrByLevel(heroInfo, maxLv);
         for (var key in attr) {
             newHero[key] = attr[key];
