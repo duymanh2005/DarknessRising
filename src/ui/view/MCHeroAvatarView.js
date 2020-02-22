@@ -62,6 +62,7 @@ mc.HeroAvatarView = ccui.Widget.extend({
             var urlIcon = asset && asset.getIconURL();
             cc.log("MCHeroAvatarView setHeroInfo:" + urlIcon);
             if (!cc.spriteFrameCache.getSpriteFrame(urlIcon)) {
+                cc.log("------unkonw avatar :" + urlIcon);
                 urlIcon = "png/char/icon/Unknow.png";
             }
             if (element === mc.const.ELEMENT_FIRE) {

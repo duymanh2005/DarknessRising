@@ -334,6 +334,17 @@
 				<key>sourceSize</key>
 				<string>{100,100}</string>
 			</dict>
+			<key>png/char/icon/assassin.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{112,1760},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
 			<key>png/monster/icon/budgedragon.png</key>
 			<dict>
 				<key>frame</key>
