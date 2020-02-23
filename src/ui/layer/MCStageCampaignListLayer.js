@@ -91,11 +91,9 @@ mc.StageCampaignListLayer = mc.LoadingLayer.extend({
         imgTitle._maxLblWidth = imgTitle.width - 140;
         var lblView = imgTitle.setString(chapName, res.font_UTMBienvenue_none_32_export_fnt);
         lblView.setColor(mc.color.BROWN_SOFT);
-
     },
 
     _selectMode: function (modeIndex) {
-        this._currModeIndex = modeIndex;
         mc.GameData.guiState.setCurrentHardStageModeIndex(mc.GameData.guiState.getSelectChapterIndex(), modeIndex);
         var childOn = this._layoutModeOn.getChildren();
         var childOff = this._layoutModeOff.getChildren();
@@ -127,12 +125,10 @@ mc.StageCampaignListLayer = mc.LoadingLayer.extend({
             this._focusArrow.y = childOn[selectIndex].y + this._focusArrow.height + 10;
             this._focusArrow.x = childOn[selectIndex].x;
             var text = null;
-            if(mc.enableReplaceFontBM())
-            {
+            if (mc.enableReplaceFontBM()) {
                 text = mc.view_utility.createTextFromFontBitmap(res.font_cam_stroke_32_export_fnt);
             }
-            else
-            {
+            else {
                 text = new ccui.TextBMFont("", res.font_cam_stroke_32_export_fnt);
             }
             text.setString(mc.dictionary.getGUIString(arrMode[modeIndex]));
@@ -142,6 +138,14 @@ mc.StageCampaignListLayer = mc.LoadingLayer.extend({
             this._textSelected.x = childOn[selectIndex].x;
             text.runAction(cc.sequence([cc.moveBy(0.2, 0, 10), cc.moveBy(0.2, 0, -10)]).repeatForever());
             childOn[selectIndex].getParent().addChild(text);
+            cc.log(modeIndex);
+            if (modeIndex > 0) {
+                var dropRateText = text.clone();
+                dropRateText.y = 40;
+                dropRateText.x = -100;
+                dropRateText.setString("Drop rate: +" + (modeIndex == 1 ? 5 : 10) + "%");
+                childOn[selectIndex].getParent().addChild(dropRateText);
+            }
 
         }.bind(this)));
 
@@ -178,7 +182,6 @@ mc.StageCampaignListLayer = mc.LoadingLayer.extend({
         var stageIndex = this._stageIndex;
         modeIndex = modeIndex || 0;
         var selectCell = null;
-        var campaignManager = mc.GameData.campaignManager;
         var arrStageInfo = this._arrStageInfoByModeIndex[modeIndex];
         var arrStageDict = this._arrStageDictByModeIndex[modeIndex];
         var selectIndex = 0;
@@ -207,7 +210,7 @@ mc.StageCampaignListLayer = mc.LoadingLayer.extend({
                         }
                     }
                 }
-                if( cellClone._findItemIndex || cellClone._findMonsterIndex ){
+                if (cellClone._findItemIndex || cellClone._findMonsterIndex) {
                     selectCell = cellClone;
                     selectIndex = i;
                 }
@@ -247,13 +250,11 @@ mc.StageCampaignListLayer = mc.LoadingLayer.extend({
 
     onLoadDone: function () {
         var chapterIndex = mc.GameData.guiState.getSelectChapterIndex();
-        var stageIndex = mc.GameData.guiState.getSelectStageCampaignIndex();
         var findItemIndex = mc.GameData.guiState.getCurrentFindingItemIndex();
         var findMonsterIndex = mc.GameData.guiState.getCurrentFindingMonsterIndex();
         var findingMode = null;
 
         var mappingKey = {"easy": 0, "hard": 1, "hell": 2};
-        var mapModeByItemIndex = {};
         this._arrStageDictByModeIndex = [[], [], []];
         var arrStageDict = mc.dictionary.getArrayStageDictByChapter(chapterIndex);
         for (var i = 0; i < arrStageDict.length; i++) {
@@ -493,8 +494,7 @@ mc.StageCampaignListLayer = mc.LoadingLayer.extend({
         cell.addChild(layoutStar);
 
         btnBattle.setString(mc.dictionary.getGUIString("lblBattle"));
-        if(mc.enableReplaceFontBM())
-        {
+        if (mc.enableReplaceFontBM()) {
             lblPath = mc.view_utility.replaceBitmapFontAndApplyTextStyle(lblPath);
         }
         lblPath.setString(mc.CampaignManger.getStageNameByStageIndex(stageDict.index));
@@ -582,7 +582,6 @@ mc.StageCampaignListLayer = mc.LoadingLayer.extend({
     getLayerId: function () {
         return mc.MainScreen.LAYER_STAGE_CAMPAIGN_LIST;
     },
-    
 
 
     isShowHeader: function () {
