@@ -426,47 +426,53 @@
                     "ctype": "ImageViewObjectData"
                   },
                   {
-                    "LabelText": "AliceRan",
-                    "LabelBMFontFile_CNB": {
-                      "Type": "Normal",
-                      "Path": "font/UTMBienvenue_none_32-export.fnt",
-                      "Plist": ""
+                    "IsCustomSize": true,
+                    "FontSize": 26,
+                    "LabelText": "Yukan yukan yukan",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
                     },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
                     "AnchorPoint": {
                       "ScaleY": 0.5
                     },
                     "Position": {
-                      "X": 185.9334,
-                      "Y": 142.5912
+                        "X": 185.9334,
+                      "Y": 132.5912
                     },
                     "Scale": {
-                      "ScaleX": 0.8,
-                      "ScaleY": 0.8
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
                     },
                     "CColor": {},
                     "IconVisible": false,
-                    "PositionPercentXEnabled": true,
-                    "PositionPercentYEnabled": true,
                     "PrePosition": {
-                      "X": 0.2586,
-                      "Y": 0.8056
+                      "X": 0.3141,
+                      "Y": 0.7984
                     },
                     "PreSize": {
-                      "X": 0.185,
-                      "Y": 0.226
+                      "X": 0.4366,
+                      "Y": 0.1408
                     },
-                    "LeftMargin": 185.9334,
-                    "RightMargin": 400.0666,
-                    "TopMargin": 14.4088,
-                    "BottomMargin": 122.5912,
-                    "Tag": 232,
-                    "ActionTag": 510958887,
+                    "LeftMargin": 223.0189,
+                    "RightMargin": 177.006,
+                    "TopMargin": 27.0292,
+                    "BottomMargin": 149.9404,
+                    "Tag": 64,
+                    "ActionTag": 1097323272,
                     "Size": {
-                      "X": 133.0,
-                      "Y": 40.0
+                      "X": 310.0,
+                      "Y": 29.0
                     },
                     "Name": "lblName",
-                    "ctype": "TextBMFontObjectData"
+                    "ctype": "TextObjectData"
                   },
                   {
                     "LabelText": "Lv. 1",
