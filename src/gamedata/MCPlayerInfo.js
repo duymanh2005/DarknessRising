@@ -256,6 +256,11 @@ mc.PlayerInfo = bb.Class.extend({
         return this["assetMap"][mc.const.ITEM_INDEX_BLOODSTONE] || 0;
     },
 
+    getBorrowFriendTicket: function () {
+        return this["assetMap"][mc.const.ITEM_INDEX_BORROW_FRIEND_TICKET] || 0;
+    },
+
+
     getNumberOfCurrencyByKey:function(key){
         return this["assetMap"][key] || 0;
     },

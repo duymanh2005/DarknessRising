@@ -31,14 +31,64 @@ mc.SelectCampaignFriendLayer = mc.LoadingLayer.extend({
         root.addChild(spineWorldMap);
 
         btnOk.setString(mc.dictionary.getGUIString("lblOk"));
-        btnOk.registerTouchEvent(function () {
-            mc.GameData.guiState.setCurrentSuggestFriendHeroId(this._currSuggestFriendId);
-            this.getMainScreen().popLayer();
-        }.bind(this));
 
         imgTitle._maxLblWidth = imgTitle.width - 140;
         var lblView = imgTitle.setString(mc.dictionary.getGUIString("lblFriends"), res.font_UTMBienvenue_none_32_export_fnt);
         lblView.setColor(mc.color.BROWN_SOFT);
+
+        var lblCountDown = new ccui.Text("", "Arial", 25);
+        lblCountDown.x = btnOk.x + 250;
+        lblCountDown.y = btnOk.y + 30;
+        root.addChild(lblCountDown);
+        lblCountDown.setVisible(false);
+
+        var numChance = mc.GameData.playerInfo.getBorrowFriendTicket();
+        var layoutSwords = bb.layout.linear(bb.collection.createArray(5,function(index){
+            var spr = new cc.Sprite("#icon/ico_battle.png");
+            if(index < (5 - numChance) ){
+                spr.setColor(mc.color.BLACK_DISABLE_SOFT);
+            }
+            return spr;
+        }),5,bb.layout.LINEAR_HORIZONTAL);
+
+
+        layoutSwords.x = btnOk.x + 250;
+        layoutSwords.y = btnOk.y;
+
+        root.addChild(layoutSwords);
+
+        if(numChance > 0){
+            btnOk.registerTouchEvent(function () {
+                mc.GameData.guiState.setCurrentSuggestFriendHeroId(this._currSuggestFriendId);
+                this.getMainScreen().popLayer();
+            }.bind(this));
+        }else{
+            btnOk.setGrayForAll(true);
+            var markTime = bb.now();
+            var _updateFreeTime = function (lbl) {
+                lbl.setVisible(true);
+                var countDownInS = mc.SummonManager.getSummonCountDown(1);
+                if (countDownInS > 0) {
+                    var durationInS = mc.GameData.playerInfo.getRehilSecondById(mc.const.ITEM_INDEX_SUMMON_TICKET);
+                    durationInS = durationInS - ((bb.now() - markTime) / 1000);
+                    if (durationInS <= 0) {
+                        lbl.setString("Reset");
+                        lbl.setVisible(false);
+                    } else {
+                        lbl.setVisible(true);
+                        var strDur = mc.view_utility.formatDurationTimeHMS(durationInS * 1000);
+                        lbl.setString("Reset: " + strDur);
+                    }
+                } else {
+                    lbl.setVisible(false);
+                }
+            };
+
+            btnOk.runAction(cc.sequence([cc.delayTime(1.0), cc.callFunc(function (lblSummon) {
+                _updateFreeTime(lblSummon);
+            }, lblCountDown)]).repeatForever());
+        }
+
 
         this.traceDataChange(bb.framework.const.EVENT_CLICK, function (widget) {
             if (this.getMainScreen().getButtonBack() === widget) {
