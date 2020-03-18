@@ -2,8 +2,8 @@
  * Created by long.nguyen on 10/5/2017.
  */
 
-var GOBLIN_INTERVAL = 1000 * 60 * 60 * 12;
-var GOBLIN_RESET_INTERVAL = 1000 * 60 * 60 * 24 * 2;
+var GOBLIN_INTERVAL = 1000 * 60 * 60;
+var GOBLIN_RESET_INTERVAL = 1000 * 60 * 60 * 4;
 
 mc.ShopManager = bb.Class.extend({
     _arrItemByCategoryId: null,
@@ -24,30 +24,35 @@ mc.ShopManager = bb.Class.extend({
         if (goblinShop) {
             var markTime = goblinShop["markTime"];
             if ((bb.now() > markTime)) {
-                if (bb.now() - markTime < GOBLIN_INTERVAL) {
+                //goblin is standing
+                var remainStandingTime = bb.now() - markTime;
+                if (remainStandingTime < GOBLIN_INTERVAL) {
                     return true;
-                } else if (bb.now() > goblinShop["nextCome"]) {
-                    if (checkAndWakeup)
-                        this.resetGoblin();
+                }
+
+                if (bb.now() > goblinShop["nextCome"] && checkAndWakeup) {
+                    this.resetGoblin();
                 }
                 return false;
-            } else {
-                return true;
             }
-        } else {
-            if (checkAndWakeup)
-                this.resetGoblin();
-            return false;
+
+            return true;
         }
+
+        if (checkAndWakeup)
+            this.resetGoblin();
+
+        return false;
     },
 
     resetGoblin: function () {
-        var randomInt = bb.utility.randomInt(1, 1000);
+        var randomInt = bb.utility.randomInt(1, 100);
         var goblinShop = mc.storage.readGoblinShop();
-        if (randomInt > 900) {
+        if (randomInt > 80) {
             goblinShop["markTime"] = bb.now();
             goblinShop["nextCome"] = bb.now() + GOBLIN_RESET_INTERVAL;
             mc.storage.saveGoblinShop();
+            mc.protocol.refreshGoblinShop();
         }
     },
     hideGoblin: function () {

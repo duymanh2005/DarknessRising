@@ -425,6 +425,11 @@ mc.MainScreen = mc.Screen.extend({
             else if (layerId === mc.MainScreen.LAYER_BLOOD_CASTLE_STAGE_LIST) {
                 layer = new mc.BloodCastleStageListLayer();
             }
+        }else{
+            if (layerId === mc.MainScreen.LAYER_HOME) {
+                layer = new mc.HomeLayer();
+                layer.loadGoblinIfAny();
+            }
         }
         return layer;
     },

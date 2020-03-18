@@ -94,20 +94,20 @@ mc.AllEventLayer = mc.MainBaseLayer.extend({
             //fixme Chưa có event tạm tắt.
             ,
             /*      {
-                      path: [res.spine_ui_IconSeasonEvent_json, res.spine_ui_IconSeasonEvent_atlas],
-                      animation: "IconSeasonEvent",
-                      label: mc.dictionary.getGUIString("lblEvents"),
-                      callback: function () {
-                          mc.view_utility.confirmFunction(arrFunctionCode[5], function () {
-                              var eventDuration = mc.GameData.dynamicDailyEvent.getEventDuration();
-                              if (eventDuration) {
-                                  this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_SEASON_EVENT);
-                              } else {
-                                  mc.view_utility.showSuggestText(mc.dictionary.getGUIString("No Event Active now"));
-                              }
-                          }.bind(this));
-                      }.bind(this)
-                  },*/
+             path: [res.spine_ui_IconSeasonEvent_json, res.spine_ui_IconSeasonEvent_atlas],
+             animation: "IconSeasonEvent",
+             label: mc.dictionary.getGUIString("lblEvents"),
+             callback: function () {
+             mc.view_utility.confirmFunction(arrFunctionCode[5], function () {
+             var eventDuration = mc.GameData.dynamicDailyEvent.getEventDuration();
+             if (eventDuration) {
+             this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_SEASON_EVENT);
+             } else {
+             mc.view_utility.showSuggestText(mc.dictionary.getGUIString("No Event Active now"));
+             }
+             }.bind(this));
+             }.bind(this)
+             },*/
             {
                 path: [res.spine_ui_IconClanHall_json, res.spine_ui_IconEventList_atlas],
                 animation: "IconClanHall",

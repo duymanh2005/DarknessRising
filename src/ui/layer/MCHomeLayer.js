@@ -274,9 +274,9 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
                 var notifyIcon = mc.view_utility.setNotifyIconForWidget(btnEvent, markEventNotify === 0 || bb.now() - markEventNotify > (1000 * 60 * 60 * 24), 0.8);
                 notifyIcon && notifyIcon.setLocalZOrder(4);
                 btnEvent.registerTouchEvent(function () {
-                     mc.GameData.guiState.eventPage = 2;
-                     this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_PAGES_EVENT);
-                   // this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_SEASON_EVENT);
+                    mc.GameData.guiState.eventPage = 2;
+                    this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_PAGES_EVENT);
+                    // this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_SEASON_EVENT);
                     markEventNotify = bb.now();
                     var notifyIcon = mc.view_utility.setNotifyIconForWidget(btnEvent, markEventNotify === 0 || bb.now() - markEventNotify > (1000 * 60 * 60 * 24), 0.8);
                     notifyIcon && notifyIcon.setLocalZOrder(4);
@@ -348,7 +348,7 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
             mc.view_utility.seenNotify(btnFriend, true);
         }.bind(this));
         btnPromotion.registerTouchEvent(function () {
-           // this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_IN_APP_PACKAGE_LIST);//bỏ show promotion kiểu cũ
+            // this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_IN_APP_PACKAGE_LIST);//bỏ show promotion kiểu cũ
             mc.IAPShopDialog.showIAPPromo();
             mc.view_utility.seenNotify(btnPromotion);
         }.bind(this));
@@ -391,7 +391,7 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
 
 
         this._loadHeroes();
-        this._loadGoblinIfAny();
+        this.loadGoblinIfAny();
 
         var _updateNotifyForWidget = function () {
             var notifySystem = mc.GameData.notifySystem;
@@ -501,15 +501,15 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
     },
 
     //Test bubble chat
-/*      onEnter: function(){
-         this._super();  cc.spriteFrameCache.addSpriteFrames(res.chat_plist);
+    /*      onEnter: function(){
+     this._super();  cc.spriteFrameCache.addSpriteFrames(res.chat_plist);
 
-         var buff = new mc.bubble.BubbleNode("#chat/balloon_chat_84x84.png");
-         var scenr  = new mc.Screen();
-         scenr.addChild(buff);
-         scenr.show();
+     var buff = new mc.bubble.BubbleNode("#chat/balloon_chat_84x84.png");
+     var scenr  = new mc.Screen();
+     scenr.addChild(buff);
+     scenr.show();
 
-       },*/
+     },*/
 
     preloadTextures: function () {
         cc.spriteFrameCache.addSpriteFrames(res.button_plist);
@@ -672,13 +672,40 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
         }
     },
 
-    _loadGoblinIfAny: function () {
+    loadGoblinIfAny: function () {
         if (mc.GameData.shopManager.isGoblinShopOpen()) {
             var goblinContainer = new cc.Node();
             goblinContainer.setLocalZOrder(6);
             this._nodeDecorator.addChild(goblinContainer);
             var goblin = sp.SkeletonAnimation.createWithJsonFile(res.spine_ui_goblin_json, res.spine_ui_goblin_atlas, 0.5);
             goblinContainer.addChild(goblin);
+            var lblCountDown = new ccui.Text("", "Arial", 25);
+            lblCountDown.name = "lblCountDown";
+            goblinContainer.addChild(lblCountDown);
+
+
+            var GOBLIN_INTERVAL = 1000 * 60 * 60;
+            var goblinShop = mc.storage.readGoblinShop();
+            var action = null;
+            var markTime = goblinShop["markTime"];
+
+            var _updateFreeTime = function (lbl) {
+                var remainTimeSeconds = GOBLIN_INTERVAL - (bb.now() - markTime);
+                if (remainTimeSeconds > 0){
+                    lblCountDown.setString(mc.view_utility.formatDurationTimeHMS(remainTimeSeconds));
+                } else{
+                    goblinContainer.setVisible(false);
+                    goblinContainer.stopAction(action);
+                }
+            };
+
+
+
+            action = cc.sequence([cc.delayTime(1.0), cc.callFunc(function (lblCount) {
+                _updateFreeTime(lblCount);
+            }, lblCountDown)]).repeatForever();
+            goblinContainer.runAction(action);
+
 
             var layout = new ccui.Layout();
             layout.anchorX = 0.5;

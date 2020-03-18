@@ -132,6 +132,7 @@
     var SHOP_GET_ITEM_LIST = 1;
     var SHOP_BUY_ITEM = 2;
     var SHOP_REFRESH = 3;
+    var SHOP_REFRESH_NO_CHARGE = 4;
 
     var QUEST_GET_LIST = 1;
     var QUEST_CLAIM = 2;
@@ -706,6 +707,12 @@
             paramsObj.putInt("act", SHOP_REFRESH);
             categoryId && paramsObj.putUtfString("cat_id", categoryId);
             _registerCallback(key.MU_EXTENSION.SHOP + "_" + SHOP_REFRESH, callback);
+            QANT2X.sendExtensionMessage(key.MU_EXTENSION.SHOP, paramsObj);
+        };
+        protocol.refreshGoblinShop = function () {
+            var paramsObj = new QAntObject();
+            paramsObj.putInt("act", SHOP_REFRESH_NO_CHARGE);
+            paramsObj.putUtfString("cat_id", 'Shop_Goblin');
             QANT2X.sendExtensionMessage(key.MU_EXTENSION.SHOP, paramsObj);
         };
         protocol.buyItem = function (packageIndex, categoryId, callback) {
