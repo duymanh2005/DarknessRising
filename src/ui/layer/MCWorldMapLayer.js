@@ -19,38 +19,6 @@ mc.WorldMapLayer = mc.MainBaseLayer.extend({
         spineWorldMap.setAnimation(0, "animation", true);
         nodeBrk.addChild(spineWorldMap);
 
-        var btnWorldChallenge = new ccui.Layout();
-        btnWorldChallenge.width = 120;
-        btnWorldChallenge.height = 120;
-        btnWorldChallenge.anchorX = btnWorldChallenge.anchorY = 0.5;
-        btnWorldChallenge.x = root.width * 0.87;
-        btnWorldChallenge.y = root.height * 0.8;
-        btnWorldChallenge.registerTouchEvent(function () {
-            mc.GameData.guiState.setSelectChapterIndex(mc.CampaignManger.SPECIAL_CHAP_INDEX);
-            this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_STAGE_LIST_WORLD_CHALLENGE);
-        }.bind(this));
-        var spineWorldChallenge = sp.SkeletonAnimation.createWithJsonFile(res.spine_ui_world_challenge_json, res.spine_ui_world_challenge_atlas, 1.0);
-        spineWorldChallenge.setAnimation(0, "WorldChallengeIdle", true);
-        spineWorldChallenge.x = btnWorldChallenge.width * 0.5;
-        spineWorldChallenge.y = btnWorldChallenge.height * 0.5;
-        btnWorldChallenge.addChild(spineWorldChallenge);
-        var textWorldChallenge = null;
-        if(mc.enableReplaceFontBM())
-        {
-            textWorldChallenge = mc.view_utility.createTextFromFontBitmap(res.font_UTMBienvenue_stroke_32_export_fnt);
-            textWorldChallenge.setString(mc.dictionary.getGUIString("lblChallenge"));
-        }
-        else
-        {
-            textWorldChallenge = new ccui.TextBMFont(mc.dictionary.getGUIString("lblChallenge"), res.font_sfumachine_outer_32_export_fnt);
-        }
-        textWorldChallenge.setScale(0.8);
-        textWorldChallenge.setColor(mc.color.YELLOW);
-        textWorldChallenge.x = spineWorldChallenge.x;
-        textWorldChallenge.y = 0;
-        btnWorldChallenge.addChild(textWorldChallenge);
-        root.addChild(btnWorldChallenge);
-
         var self = this;
         var _clickChapter = function (chapterIndex) {
             var isSupport = mc.dictionary.isSupportFunction(arrFunction[chapterIndex]);
@@ -66,7 +34,6 @@ mc.WorldMapLayer = mc.MainBaseLayer.extend({
         var currChapIndex = (selectChapterIndex != undefined && selectChapterIndex != mc.CampaignManger.SPECIAL_CHAP_INDEX)
             ? selectChapterIndex
             : mc.GameData.playerInfo.getCurrentChapterIndex();
-        this._isClickChapter = false;
         var arrWidgetName = ["Loren", "Noria", "Davias", "Dungeon", "LostTower", "Atlans", "Tarkan", "Icarus"];
         var arrFunction = [
             mc.const.FUNCTION_CHAPTER_LOREN,
