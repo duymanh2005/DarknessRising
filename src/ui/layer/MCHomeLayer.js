@@ -516,13 +516,17 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
     },
 
     checkService: function () {
-        mc.protocol.checkGuildStatus(function (result) {
-            var guild = mc.GameData.guildManager.getGuildInfo();
-            if (guild) {
-                var guildId = guild["id"];
-                mc.protocol.listChatLogs(mc.ChatSystem.GROUP_CHAT_CLAN_ID, guildId);
-            }
-        }.bind(this));
+        cc.log("============ check guild info");
+        var guildStatusChecked = mc.GameData.guildManager.isGuildStatusChecked();
+        if(!guildStatusChecked){
+            mc.protocol.checkGuildStatus(function (result) {
+                mc.GameData.guildManager.setIsCheckGuildStatus(true);
+                var guild = mc.GameData.guildManager.getGuildInfo();
+                if (guild) {
+                    mc.protocol.listChatLogs(mc.ChatSystem.GROUP_CHAT_CLAN_ID, guild["id"]);
+                }
+            }.bind(this));
+        }
     },
 
 

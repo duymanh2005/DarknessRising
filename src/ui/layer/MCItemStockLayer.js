@@ -203,9 +203,6 @@ mc.ItemStockLayer = mc.MainBaseLayer.extend({
             if (index < arrItem3.length) {
                 var itemInfo = arrItem3[index];
                 widget = _createItemWidget(itemInfo);
-                if (!mc.ItemStock.getItemQuantity(itemInfo)) {
-                    widget.setBlack(true);
-                }
                 widget.registerTouchEvent(self._viewSoulInfo.bind(self), self._viewSoulInfo.bind(self));
             }
             else {
@@ -259,7 +256,10 @@ mc.ItemStockLayer = mc.MainBaseLayer.extend({
                 var soulInfoTemp = mc.ItemStock.createJsonItemInfo(soulIndex, mc.ItemStock.getItemQuantity(soulInfoInStock), soulInfoInStock ? mc.ItemStock.getItemId(soulInfoInStock) : "1");
                 soulInfoTemp["value"] = heroIndex;
                 soulInfoTemp["maxValue"] = soulNum;
-                arrItem3.push(soulInfoTemp);
+                if (mc.ItemStock.getItemQuantity(soulInfoTemp) > 0) {
+                    arrItem3.push(soulInfoTemp);
+                }
+
                 if (!soulNotify && soulInfoTemp["no"] >= soulNotify["maxValue"]) {
                     soulNotify = true;
                 }

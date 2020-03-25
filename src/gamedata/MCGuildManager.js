@@ -32,12 +32,20 @@ mc.GuildManager = bb.Class.extend({
     acceptJoin: false,
     requestedJoin: null,
     requestedJoinTime: null,
+    checkGuildStatus: false,
 
     setGuildInfo: function (info) {
         this.guildInfo = info;
     }
-
     ,
+
+    setIsCheckGuildStatus: function(status){
+      this.checkGuildStatus = status;
+    },
+
+    isGuildStatusChecked:function(){
+        return this.checkGuildStatus == true;
+    },
 
     receiveAcceptJoin: function () {
         this.acceptJoin = true;

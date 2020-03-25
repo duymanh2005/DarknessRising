@@ -15,59 +15,46 @@ mc.EventPagesLayer = mc.MainBaseLayer.extend({
         event1.setVisible(false);
         event2.setVisible(false);
         event3.setVisible(false);
-        this.listPages = [0, event1, event2,event3];
         event1.setCascadeOpacityEnabled(true);
         event2.setCascadeOpacityEnabled(true);
         event3.setCascadeOpacityEnabled(true);
-        this.bindEvent_1(event1);
-        this.bindEvent_2(event2);
-        this.bindEvent_3(event3);
 
         switch (mc.GameData.guiState.eventPage) {
             case 1:
+                event1.setVisible(true);
+                this.bindFirstPurchaseRewardEvent(event1);
                 mc.protocol.checkFirstTimeRewards(function () {
                 }.bind(this));
-                this._showPageByIdx(1);
                 break;
             case 2:
-                this._showPageByIdx(2);
+                event2.setVisible(true);
+                this.bindIceCreamEvent(event2);
+                mc.GameData.guiState.setCurrentShopCategory(mc.ShopManager.SHOP_ICECREAM);
                 break;
             case 3:
-                this._showPageByIdx(3);
+                event3.setVisible(true);
+                this.bindDailyRewardEvent(event3);
                 break;
             default:
-                this._showPageByIdx(2);
+                event2.setVisible(true);
+                this.bindIceCreamEvent(event2);
+                mc.GameData.guiState.setCurrentShopCategory(mc.ShopManager.SHOP_ICECREAM);
                 break;
         }
     },
 
-    _showPageByIdx: function (idx) {
-        if (idx == 2) {
-            mc.GameData.guiState.setCurrentShopCategory(mc.ShopManager.SHOP_ICECREAM);
-        }
-        var listPages = this.listPages;
-        for (var i = 1; i < listPages.length; i++) {
-            var page = listPages[i];
-            if (idx !== i)
-                page.setVisible(false);
-            else {
-                page.setVisible(true);
-            }
-        }
-    },
-
-    bindEvent_2: function (eventPage,fore) {
+    bindIceCreamEvent: function (eventPage,fore) {
         var models = mc.GameData.shopManager.getShopItemByCategoryId(mc.ShopManager.SHOP_ICECREAM);
         if (!models||fore)
             mc.protocol.requestItemShopByCategory(mc.ShopManager.SHOP_ICECREAM, function () {
                 models = mc.GameData.shopManager.getShopItemByCategoryId(mc.ShopManager.SHOP_ICECREAM);
-                this._bindEvent2(models, eventPage);
+                this._showIceCreamShop(models, eventPage);
             }.bind(this));
         else
-            this._bindEvent2(models, eventPage);
+            this._showIceCreamShop(models, eventPage);
     },
 
-    _bindEvent2: function (models, eventPage) {
+    _showIceCreamShop: function (models, eventPage) {
         var self = this;
         var shopManager = mc.GameData.shopManager;
         var itemClone = eventPage.getChildByName("itemClone");
@@ -93,7 +80,7 @@ mc.EventPagesLayer = mc.MainBaseLayer.extend({
                 mc.protocol.refreshShopByCategory(mc.ShopManager.SHOP_ICECREAM, function (rs) {
                     mc.view_utility.hideLoadingDialogById(loadingId);
                     if (rs) {
-                        self.bindEvent_2(self.listPages[2]);
+                        self.bindIceCreamEvent(self.listPages[2]);
                     }
                 });
             }).show();
@@ -105,7 +92,7 @@ mc.EventPagesLayer = mc.MainBaseLayer.extend({
             mc.protocol.buyItem(mc.ShopManager.getPackageIndex(buyPackage), mc.ShopManager.getCategoryId(buyPackage), function (result) {
                 mc.view_utility.hideLoadingDialogById(loadingId);
                 if (result) {
-                    self.bindEvent_2(self.listPages[2],true);
+                    self.bindIceCreamEvent(self.listPages[2],true);
                 }
                 dialog.close();
             });
@@ -178,7 +165,8 @@ mc.EventPagesLayer = mc.MainBaseLayer.extend({
         list.pushBackCustomItem(layoutItems);
     },
 
-    bindEvent_1: function (eventPage) {
+    bindFirstPurchaseRewardEvent: function (eventPage) {
+        cc.log("================= * bindFirstPurchaseRewardEvent");
         var firstPurchase = {
             item: "11001/30#11002/30#11034/1#11051/50#11019/2#11022/2#11025/2#11028/2#11031/2#11905/5000000",
             hero: 613
@@ -237,7 +225,8 @@ mc.EventPagesLayer = mc.MainBaseLayer.extend({
         list.pushBackCustomItem(layoutItems);
     },
 
-    bindEvent_3: function (eventPage) {
+    bindDailyRewardEvent: function (eventPage) {
+        cc.log("================ * bindDailyReward");
         var banner = eventPage.getChildByName("banner");
         var lan = mc.storage.readSetting()["language"];
         banner.loadTexture(lan === "vi" ? "res/event_page/banner_top_dailyevent_vi.png" : "res/event_page/banner_top_dailyevent_en.png", ccui.Widget.LOCAL_TEXTURE);

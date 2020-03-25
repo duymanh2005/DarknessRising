@@ -1,1 +1,74 @@
-[{"battleBG":"loren1","bgJson":"loren1_sun#loren1_rain"},{"battleBG":"loren2","bgJson":"loren2_fog#loren2_rain"},{"battleBG":"noria1","bgJson":"noria1_rain#noria1_sun"},{"battleBG":"noria2","bgJson":"noria2_fog"},{"battleBG":"devias1","bgJson":"davias1_snow"},{"battleBG":"devias2","bgJson":"davias2_snow#davias2_spectraum"},{"battleBG":"dungeon1","bgJson":"dungeon1_heat"},{"battleBG":"dungeon2","bgJson":"dungeon2_heat"},{"battleBG":"atlans1","bgJson":"atlans1_bubble"},{"battleBG":"atlans2","bgJson":"atlans2_bubble"},{"battleBG":"losttower1","bgJson":"losttower1_heat"},{"battleBG":"losttower2","bgJson":"losttower2_heat"},{"battleBG":"blood1","bgJson":"losttower1_heat"},{"battleBG":"blood2","bgJson":"losttower2_heat"}]
+[
+  {
+    "battleBG": "loren1",
+    "bgJson": "loren1_sun#loren1_rain"
+  },
+  {
+    "battleBG": "loren2",
+    "bgJson": "loren2_fog#loren2_rain"
+  },
+  {
+    "battleBG": "noria1",
+    "bgJson": "noria1_rain#noria1_sun"
+  },
+  {
+    "battleBG": "noria2",
+    "bgJson": "noria2_fog"
+  },
+  {
+    "battleBG": "devias1",
+    "bgJson": "davias1_snow"
+  },
+  {
+    "battleBG": "devias2",
+    "bgJson": "davias2_snow#davias2_spectraum"
+  },
+  {
+    "battleBG": "dungeon1",
+    "bgJson": "dungeon1_heat"
+  },
+  {
+    "battleBG": "dungeon2",
+    "bgJson": "dungeon2_heat"
+  },
+  {
+    "battleBG": "atlans1",
+    "bgJson": "atlans1_bubble"
+  },
+  {
+    "battleBG": "atlans2",
+    "bgJson": "atlans2_bubble"
+  },
+  {
+    "battleBG": "losttower1",
+    "bgJson": "losttower1_heat"
+  },
+  {
+    "battleBG": "losttower2",
+    "bgJson": "losttower2_heat"
+  },
+  {
+    "battleBG": "blood1",
+    "bgJson": "losttower1_heat"
+  },
+  {
+    "battleBG": "blood2",
+    "bgJson": "losttower2_heat"
+  },
+  {
+    "battleBG": "tarkan1",
+    "bgJson": "tarkan1_sand"
+  },
+  {
+    "battleBG": "tarkan2",
+    "bgJson": "tarkan2_sand"
+  },
+  {
+    "battleBG": "arena1",
+    "bgJson": "tarkan1_sand"
+  },
+  {
+    "battleBG": "arena2",
+    "bgJson": "tarkan2_sand"
+  }
+]
