@@ -74,8 +74,8 @@ mc.const = {
     KEY_ITEM_TAB: "item_tab",
     //PACKAGE_NAME: "com.creants.muheroes",
     PACKAGE_NAME: "com.creants.mightyunionheroes",
-    URL_TERM: "https://rpgwikigames.com/privacy-policy",
-    URL_PRIVACY: "https://rpgwikigames.com/privacy-policy",
+    URL_TERM: "https://rpgwikigames.com/#/privacy-policy",
+    URL_PRIVACY: "https://rpgwikigames.com/#/privacy-policy",
     DEFAULT_HEIGHT: 1334,
 
     LANGUAGE_DEFAULT: "en",

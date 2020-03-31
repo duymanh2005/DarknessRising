@@ -18,9 +18,9 @@ mc.CreditDialog = bb.Dialog.extend({
                 {header: "Project Manager", content: ["Nguyen Tuan Dung"]},
                 {
                     header: "Front-End Developer",
-                    content: ["Nguyen Thanh Long", "Mai Huu Chi", "Vo Phu Thanh", "Vo Tan Phat"]
+                    content: ["Nguyen Thanh Long"]
                 },
-                {header: "Back-End Developer", content: ["Ha Manh Lam", "Tran Hoang Nha"]},
+                {header: "Back-End Developer", content: ["Ha Manh Lam"]},
                 {header: "Network Engineer", content: ["Nguyen Vu"]},
                 {
                     header: "Game Artist",
@@ -35,14 +35,6 @@ mc.CreditDialog = bb.Dialog.extend({
                 {
                     header: "Quality Assurance",
                     content: ["Phan Hung Son", "Pham Phuong Lam", "Nguyen Van Quang"]
-                },
-                {
-                    header: "PR & Marketing",
-                    content: ["Bui Duc Ky Anh", "Nguyen Quang Tien", "Nguyen Ngoc Thanh"]
-                },
-                {
-                    header: "Programming Support",
-                    content: ["Le Khac Tu"]
                 },
                 {
                     header: "Special Thanks To", content: ["All you players, thank you for your patience ,\n" +
@@ -56,9 +48,9 @@ mc.CreditDialog = bb.Dialog.extend({
                 {header: "Project Manager", content: ["Nguyen Tuan Dung"]},
                 {
                     header: "Front-End Developer",
-                    content: ["Nguyen Thanh Long", "Mai Huu Chi", "Vo Phu Thanh", "Vo Tan Phat"]
+                    content: ["Nguyen Thanh Long"]
                 },
-                {header: "Back-End Developer", content: ["Ha Manh Lam", "Tran Hoang Nha"]},
+                {header: "Back-End Developer", content: ["Ha Manh Lam"]},
                 {header: "Network Engineer", content: ["Nguyen Vu"]},
                 {
                     header: "Game Artist",
@@ -73,14 +65,6 @@ mc.CreditDialog = bb.Dialog.extend({
                 {
                     header: "Quality Assurance",
                     content: ["Phan Hung Son", "Pham Phuong Lam", "Nguyen Van Quang"]
-                },
-                {
-                    header: "PR & Marketing",
-                    content: ["Bui Duc Ky Anh", "Nguyen Quang Tien", "Nguyen Ngoc Thanh"]
-                },
-                {
-                    header: "Programming Support",
-                    content: ["Le Khac Tu"]
                 },
                 {
                     header: "Special Thanks To", content: ["All you players, thank you for your patience ,\n" +
