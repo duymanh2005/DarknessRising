@@ -160,7 +160,7 @@ mc.LayerTutorial = cc.Layer.extend({
         }
 
         this._eventClickTrack = bb.director.trackGlueObject(bb.framework.const.EVENT_CLICK,function(clickWidget){
-            if( widget === clickWidget ){
+            if( widget === clickWidget || widget.getName() === clickWidget.getName()){
                 if( scroll ){
                     scroll.setTouchEnabled && scroll.setTouchEnabled(true);
                 }

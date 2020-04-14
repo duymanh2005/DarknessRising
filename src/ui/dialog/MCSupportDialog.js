@@ -36,7 +36,7 @@ mc.SupportDialog = bb.Dialog.extend({
         lblTitle.setColor(mc.color.YELLOW_SOFT);
         lblTitle.setString(mc.dictionary.getGUIString("lblSupport"));
         suportButton.registerTouchEvent(function () {
-            cc.sys.openURL("http://m.me/MUofHeroesGlobal");
+            cc.sys.openURL("http://m.me/DarknessRisingGlobal");
         }.bind(this));
         var labelButtonSP = suportButton.setString(mc.dictionary.getGUIString("Live Chat"), res.font_sfumachine_outer_32_export_fnt);
         labelButtonSP.setScale(0.7);

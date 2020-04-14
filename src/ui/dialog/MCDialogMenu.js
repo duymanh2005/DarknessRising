@@ -201,7 +201,7 @@ mc.DialogMenu = mc.DefaultDialog.extend({
             //} else {
             //    cc.sys.openURL("https://www.facebook.com/MUofHeroesGlobal/");
             //}
-            cc.sys.openURL("https://www.facebook.com/MUofHeroes/");
+            cc.sys.openURL("https://www.facebook.com/DarknessRisingGlobal");
         });
         btnTerm.registerTouchEvent(function (sender, type) {
             cc.sys.openURL(mc.const.URL_TERM);

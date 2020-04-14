@@ -361,7 +361,7 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
             mc.view_utility.seenNotify(btnBlackSmith);
         }.bind(this));
         btnFBPage.registerTouchEvent(function () {
-            cc.sys.openURL("https://www.facebook.com/groups/173043833624803/");
+            cc.sys.openURL("https://www.facebook.com/groups/217740385953954/");
             mc.view_utility.seenNotify(btnFBPage);
         }.bind(this));
 
@@ -371,6 +371,7 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
             mc.view_utility.seenNotify(btnChat, true);
         }.bind(this));
 
+        btnChat.setVisible(false);
         btnFirstTimeTopup.registerTouchEvent(function () {
             if (mc.GameData.playerInfo.firstTimeRewards === 2) {
                 mc.GUIFactory.showShopScreen(mc.ShopManager.SHOP_RELIC);

@@ -255,7 +255,7 @@ mc.LoginScreen = bb.Screen.extend({
         lblVersion.x = cc.winSize.width * 0.985;
         lblVersion.y = 25;
         if (!mc.const.DEBUG_GAME) {
-            let count = 0;
+            var count = 0;
             lblVersion._touchScale = 0.001;
             lblVersion._disableClickSound = true;
             lblVersion.registerTouchEvent(function () {
