@@ -26,7 +26,7 @@ mc.const = {
     SKIP_TUTORIAL_BATTLE: false,
     BATTLE_VERSION: "1.0",
     VERSION: "1.0.0",
-    VERSION_NEWS: "1.0.6",
+    VERSION_NEWS: "1.0.0",
     SERVERS: {
         "servers": [
             {
