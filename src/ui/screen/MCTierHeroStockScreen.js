@@ -12,7 +12,7 @@ mc.TierHeroStockScreen = mc.Screen.extend({
     _heroes: [],
 
     initResources: function () {
-        cc.log("load resource *********");
+        cc.log("load resource ********* test");
         var node = mc.loadGUI(res.screen_item_wiki_json);
         this.addChild(node);
         var root = this.root = node.getChildByName("root");
