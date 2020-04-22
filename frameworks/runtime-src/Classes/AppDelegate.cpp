@@ -23,6 +23,8 @@
  ****************************************************************************/
 #include "PluginFacebookJS.hpp"
 #include "PluginFacebookJSHelper.h"
+#include "PluginIAPJS.hpp"
+#include "PluginIAPJSHelper.h"
 #include "AppDelegate.h"
 
 // #include "scripting/js-bindings/auto/jsb_cocos2dx_3d_auto.hpp"
@@ -130,6 +132,9 @@ bool AppDelegate::applicationDidFinishLaunching()
 
     sc->addRegisterCallback(register_all_PluginFacebookJS);
     sc->addRegisterCallback(register_all_PluginFacebookJS_helper);
+
+    sc->addRegisterCallback(register_all_PluginIAPJS);
+    sc->addRegisterCallback(register_all_PluginIAPJS_helper);
 
     // extension can be commented out to reduce the package
     sc->addRegisterCallback(register_all_cocos2dx_extension);

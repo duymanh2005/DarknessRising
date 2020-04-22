@@ -185,3 +185,4 @@ dependencies {
     implementation project(':libcocos2dx')
 }
 dependencies { compile 'com.facebook.android:facebook-android-sdk:[4,5)' }
+dependencies { compile 'com.android.billingclient:billing:2.0.1' }
