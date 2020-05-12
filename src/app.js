@@ -25,8 +25,8 @@ mc.const = {
     TEST_CREATURE_BY_CAMPAIGN: null,
     SKIP_TUTORIAL_BATTLE: false,
     BATTLE_VERSION: "1.0",
-    VERSION: "1.0.0",
-    VERSION_NEWS: "1.0.0",
+    VERSION: "1.0.1",
+    VERSION_NEWS: "1.0.1",
     SERVERS: {
         "servers": [
             {
@@ -73,7 +73,7 @@ mc.const = {
     KEY_STORAGE_INAPP_TOKEN: "in_app_token",
     KEY_ITEM_TAB: "item_tab",
     //PACKAGE_NAME: "com.creants.muheroes",
-    PACKAGE_NAME: "com.creants.mightyunionheroes",
+    PACKAGE_NAME: "com.rpgwikigames.darknessrising",
     URL_TERM: "https://rpgwikigames.com/#/privacy-policy",
     URL_PRIVACY: "https://rpgwikigames.com/#/privacy-policy",
     DEFAULT_HEIGHT: 1334,

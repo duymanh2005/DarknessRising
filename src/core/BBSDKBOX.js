@@ -264,8 +264,7 @@ bb.pluginBox = (function () {
         _purchaseCb: null,
         init: function () {
             cc.log("BBSDKBOX plugin.iap");
-            var skip = true;
-            if (!skip && cc.sys.isNative  && sdkbox.IAP) {
+            if (cc.sys.isNative  && sdkbox.IAP) {
                 sdkbox.IAP.init();
                 //sdkbox.IAP.enableUserSideVerification(true);
                 sdkbox.IAP.setDebug(true);
@@ -430,8 +429,7 @@ bb.pluginBox = (function () {
     };
     plugin.play.signIn = function (cb) {
         plugin.play._loginCb = cb;
-        var skip = true;
-        if (!skip && !sdkbox.PluginSdkboxPlay.isSignedIn()) {
+        if (!sdkbox.PluginSdkboxPlay.isSignedIn()) {
             sdkbox.PluginSdkboxPlay.signin();
         }
     };

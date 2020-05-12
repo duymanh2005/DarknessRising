@@ -278,7 +278,7 @@ mc.LoginScreen = bb.Screen.extend({
             // load game data.
             mc.dictionary.loadData();
             //bb.pluginBox.ads.init();
-            //bb.pluginBox.iap.init();
+            bb.pluginBox.iap.init();
             //bb.pluginBox.analytics.init();
             self.runAction(cc.sequence([cc.delayTime(1.0), cc.callFunc(function () {
                 bb.pluginBox.ads.cache();

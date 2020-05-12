@@ -72,18 +72,6 @@
     },
     "iap": {
       "items": {
-        "subs": {
-          "type": "subs",
-          "id": "subscription1"
-        },
-        "double_coin": {
-          "type": "non_consumable",
-          "id": "com.cocos2dx.non2"
-        },
-        "remove_ads": {
-          "type": "non_consumable",
-          "id": "com.cocos2dx.non1"
-        },
         "starterpack": {
           "id": "com.rpgwikigames.darknessrising.android.starterpack"
         }
