@@ -1,5 +1,7 @@
 var mc = mc || {};
 mc.const = {
+    ////// important : remove for release///////
+    TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNTkwMTk5MjYxLCJhcHBfaWQiOiIyIiwidHRsIjo4NjQwMDAwMDB9.FG8MTklAOk2CWveMT1ZQO42WoH3BODIjNN4IjLa1Uzw",
     ////////////////////////////////////////////////////
     // important code! do not forget to TURN-OFF!!!!!!!!!
     SERVER_MAINTENANCE: false,
@@ -128,8 +130,6 @@ mc.const = {
     TUTORIAL_MONSTER_2: 1006,
     TUTORIAL_MONSTER_3: 1007,
     TUTORIAL_MONSTER_KUNDUN: 9999,
-
-    TEST_GAME_TOKEN: null,
 
     PING_TIME_OUT: 5,
     REQUEST_TIME_OUT: 30,

@@ -287,16 +287,13 @@ mc.LoginScreen = bb.Screen.extend({
             CreantsCocosAPI.loadConfig();
 
             cc.log("MCLoginScreen._startLoadingGameResource: readLoginServer");
-            var savedloginServer = mc.storage.readLoginServer();
-            cc.log("MCLoginScreen savedloginServer: " + savedloginServer);
-            if (!savedloginServer || !CreantsCocosAPI.getItem(creants_api.KEY_LOGIN_TOKEN)) {
+            var savedLoginServer = mc.storage.readLoginServer();
+            cc.log("MCLoginScreen savedLoginServer: " + savedLoginServer);
+
+            if((!savedLoginServer || !CreantsCocosAPI.getItem(creants_api.KEY_LOGIN_TOKEN)) || !this._loginBySavedToken()){
                 this._showBtnStartGame();
             }
-            else {
-                const isLogin = this._loginBySavedToken();
-                if(isLogin)
-                this._showBtnStartGame();
-            }
+
         }.bind(this);
 
 
@@ -499,6 +496,14 @@ mc.LoginScreen = bb.Screen.extend({
                 bb.framework.getGUIFactory().createConnectionSupport().show();
                 self._showBtnStartGame();
             };
+
+            var _signInByTokenTest = function() {
+                cc.log("_singInByTokenTest");
+                self._waitLoginId = mc.view_utility.showLoadingDialog();
+                var result = {"token": mc.const.TEST_GAME_TOKEN};
+                mc.protocol.logInMUGame(result);
+            }
+
             var _signInByFacebook = function () {
                 cc.log("_signInByFacebook");
                 var dialogId = mc.view_utility.showLoadingDialog(20, function () {
@@ -554,7 +559,10 @@ mc.LoginScreen = bb.Screen.extend({
                     }
                 });
             };
-            if (loginType === "google") {
+            if(mc.const.TEST_GAME_TOKEN){
+                _signInByTokenTest();
+            }
+            else if (loginType === "google") {
                 _signInByGoogle();
             }
             else if (loginType === "apple") {
