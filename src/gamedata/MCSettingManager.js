@@ -33,7 +33,7 @@ mc.SettingManager = bb.Class.extend({
     },
 
     skipAllTutorial: function () {
-        this._clientData["currStoryIndex"] = mc.GameData.storyManager.getLastStoryIndex();
+        this._clientData["currStoryIndex"] = mc.GameData.storyManager.getAndSetLastStoryIndex();
         this._clientData["tutorial"] = mc.GameData.tutorialManager.skipAll();
         this._clientData["rating"] = mc.GameData.ratingManager.getRatingData();
         this._location = mc.storage.readSetting().language;

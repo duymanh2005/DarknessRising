@@ -75,8 +75,9 @@ mc.StoryManager = bb.Class.extend({
         return this._currStoryIndex;
     },
 
-    getLastStoryIndex: function(){
-        return this.STORY_TRIGGER.length -1;
+    getAndSetLastStoryIndex: function(){
+        this.setStoryIndex(this.STORY_TRIGGER.length - 1);
+        return this._currStoryIndex;
     },
 
     getCurrentStoryString: function () {
