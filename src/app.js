@@ -1,7 +1,8 @@
 var mc = mc || {};
 mc.const = {
     ////// important : remove for release///////
-    TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNTkwMTk5MjYxLCJhcHBfaWQiOiIyIiwidHRsIjo4NjQwMDAwMDB9.FG8MTklAOk2CWveMT1ZQO42WoH3BODIjNN4IjLa1Uzw",
+    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJkZXZpY2VfaWQiOiJhZHIjI2FmMzMyM2FlNzQ0YzQ2NjMjIzIiLCJpc3MiOiJhdXRoMCIsImlkIjoiLTEiLCJleHAiOjE1OTE0NTY3NjIsInR5cGUiOiJndWVzdCIsInR0bCI6ODY0MDAwMDAwfQ.Gnzt85S1bFyBFM6fmslWMfYj-yLlqMAjk_Wg4HnfbTU",
+    TEST_GAME_TOKEN: null,
     ////////////////////////////////////////////////////
     // important code! do not forget to TURN-OFF!!!!!!!!!
     SERVER_MAINTENANCE: false,
@@ -27,8 +28,8 @@ mc.const = {
     TEST_CREATURE_BY_CAMPAIGN: null,
     SKIP_TUTORIAL_BATTLE: false,
     BATTLE_VERSION: "1.0",
-    VERSION: "1.0.1",
-    VERSION_NEWS: "1.0.1",
+    VERSION: "1.0.2",
+    VERSION_NEWS: "1.0.2",
     SERVERS: {
         "servers": [
             {

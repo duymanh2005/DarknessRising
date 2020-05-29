@@ -32,6 +32,13 @@ mc.SettingManager = bb.Class.extend({
         this._location = mc.storage.readSetting().language;
     },
 
+    skipAllTutorial: function () {
+        this._clientData["currStoryIndex"] = mc.GameData.storyManager.getLastStoryIndex();
+        this._clientData["tutorial"] = mc.GameData.tutorialManager.skipAll();
+        this._clientData["rating"] = mc.GameData.ratingManager.getRatingData();
+        this._location = mc.storage.readSetting().language;
+    },
+
     flush: function (callback) {
         mc.protocol.updateSetting(callback);
     },

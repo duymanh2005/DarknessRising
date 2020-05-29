@@ -639,6 +639,10 @@ mc.TutorialManager = bb.Class.extend({
         return this._mapTutorialDoneById;
     },
 
+    setAllTutorialDoneMap: function(){
+
+    },
+
     lockScript: function (isLock) {
         this._isLockScript = isLock;
     },
@@ -708,6 +712,14 @@ mc.TutorialManager = bb.Class.extend({
         this.lockScript(false);
     },
 
+    skipAll: function(){
+        Object.keys(this.TUTORIAL_TRIGGER).forEach(function(key) {this
+            this._mapTutorialDoneById[key] = true;
+        }.bind(this));
+
+        this.lockScript(false);
+    },
+
     getCurrentTutorialString: function () {
         var trigger = this.getCurrentTrigger();
         if (trigger) {
@@ -729,10 +741,9 @@ mc.TutorialManager = bb.Class.extend({
             this._currScriptText = 0;
             this._currTutorialIndex = 0;
             this._currTriggerId = null;
-        }
-        if (isSave) {
             this._mapTutorialDoneById[triggerId] = true;
         }
+
         this.lockScript(false);
         return isSave;
     },

@@ -157,11 +157,11 @@ mc.SeasonEventPagesLayer = mc.MainBaseLayer.extend({
         title2.setString(mc.dictionary.getGUIString("Promotion"), res.font_cam_stroke_32_export_fnt);
         var btn1 = group2.getChildByName("btn1");
         btn1.registerTouchEvent(function () {
-            mc.MCIapPackDialog.showIAPItem(bb.framework.isAndroid() ? mc.dictionary.IAPMap["com.creants.mightyunionheroes.android.promopack5_49"] : mc.dictionary.IAPMap["com.creants.muheroes.ios.promopack5_49"]);
+            mc.MCIapPackDialog.showIAPItem(bb.framework.isAndroid() ? mc.dictionary.IAPMap["com.rpgwikigames.darknessrising.android.promopack5_49"] : mc.dictionary.IAPMap["com.creants.muheroes.ios.promopack5_49"]);
         }.bind(this));
         var btn2 = group2.getChildByName("btn2");
         btn2.registerTouchEvent(function () {
-            mc.MCIapPackDialog.showIAPItem(bb.framework.isAndroid() ? mc.dictionary.IAPMap["com.creants.mightyunionheroes.android.eventpack_51"] : mc.dictionary.IAPMap["com.creants.muheroes.ios.eventpack_51"]);
+            mc.MCIapPackDialog.showIAPItem(bb.framework.isAndroid() ? mc.dictionary.IAPMap["com.rpgwikigames.darknessrising.android.eventpack_51"] : mc.dictionary.IAPMap["com.creants.muheroes.ios.eventpack_51"]);
         }.bind(this));
         var btn3 = group2.getChildByName("btn3");
         btn3.registerTouchEvent(function () {
@@ -169,7 +169,7 @@ mc.SeasonEventPagesLayer = mc.MainBaseLayer.extend({
         }.bind(this));
         var btn4 = group2.getChildByName("btn4");
         btn4.registerTouchEvent(function () {
-            mc.MCIapPackDialog.showIAPItem(bb.framework.isAndroid() ? mc.dictionary.IAPMap["com.creants.mightyunionheroes.android.promopack4_50"] : mc.dictionary.IAPMap["com.creants.muheroes.ios.promopack4_50"]);
+            mc.MCIapPackDialog.showIAPItem(bb.framework.isAndroid() ? mc.dictionary.IAPMap["com.rpgwikigames.darknessrising.android.promopack4_50"] : mc.dictionary.IAPMap["com.creants.muheroes.ios.promopack4_50"]);
 
         }.bind(this));
 
@@ -360,7 +360,7 @@ mc.SeasonEventPagesLayer = mc.MainBaseLayer.extend({
                     key: KEY_BTN,
                     content: "lblViewInfo",
                     action: function () {
-                        var packInfo = bb.framework.isAndroid() ? mc.dictionary.IAPMap["com.creants.mightyunionheroes.android.promopack2"] : mc.dictionary.IAPMap["com.creants.muheroes.ios.promopack2"];
+                        var packInfo = bb.framework.isAndroid() ? mc.dictionary.IAPMap["com.rpgwikigames.darknessrising.android.promopack2"] : mc.dictionary.IAPMap["com.creants.muheroes.ios.promopack2"];
                         mc.MCIapPackDialog.showIAPItem(packInfo);
                     }
                 },
@@ -425,7 +425,7 @@ mc.SeasonEventPagesLayer = mc.MainBaseLayer.extend({
                     key: KEY_BTN,
                     content: "lblViewInfo",
                     action: function () {
-                        var packInfo = bb.framework.isAndroid() ? mc.dictionary.IAPMap["com.creants.mightyunionheroes.android.promopack2"] : mc.dictionary.IAPMap["com.creants.muheroes.ios.promopack2"];
+                        var packInfo = bb.framework.isAndroid() ? mc.dictionary.IAPMap["com.rpgwikigames.darknessrising.android.promopack2"] : mc.dictionary.IAPMap["com.creants.muheroes.ios.promopack2"];
                         mc.MCIapPackDialog.showIAPItem(packInfo);
                     }
                 },

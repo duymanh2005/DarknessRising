@@ -31,16 +31,36 @@ mc.BackgroundStoryScreen = bb.Screen.extend({
         this.addChild(spineStory);
 
         var btnSkip = new ccui.ImageView("button/btn_skip.png",ccui.Widget.PLIST_TEXTURE);
+        btnSkip.setScaleX(1.3);
         var lblRedeem = btnSkip.setString(mc.dictionary.getGUIString("lblSkip"), res.font_UTMBienvenue_stroke_32_export_fnt);
-        lblRedeem.x = btnSkip.width * 0.63;
-        lblRedeem.setScale(0.7);
+        lblRedeem.x = btnSkip.width * 0.53;
+        lblRedeem.y = lblRedeem.y - 5;
+        lblRedeem.setScale(0.6);
         btnSkip.registerTouchEvent(function(){
             _showTutorialScreen();
         }.bind(this));
-        btnSkip.x = cc.winSize.width*0.85;
-        btnSkip.y = cc.winSize.height*0.95;
+        btnSkip.x = cc.winSize.width - 350;
+        btnSkip.y = cc.winSize.height * 0.95;
         btnSkip.setLocalZOrder(5);
         this.addChild(btnSkip);
+        cc.log("************* show skip all 2");
+
+        var btnSkipAll = btnSkip.clone();
+        var lblRedeem1 = btnSkipAll.setString("Skip all", res.font_UTMBienvenue_stroke_32_export_fnt);
+        lblRedeem1.x = btnSkip.width * 0.63;
+        lblRedeem1.y = lblRedeem1.y - 5;
+        lblRedeem1.setScale(0.6);
+        btnSkipAll.x = btnSkip.x + 230;
+        btnSkipAll.setLocalZOrder(999);
+
+        btnSkipAll.registerTouchEvent(function(){
+            mc.GameData.settingManager.skipAllTutorial();
+            mc.GameData.settingManager.saveAll();
+            mc.GameData.settingManager.flush(function(){
+                new mc.MainScreen().show();
+            });
+        }.bind(this));
+        this.addChild(btnSkipAll);
 
         var _showTutorialScreen = function(){
             new mc.TutorialBattleScreen().show();
