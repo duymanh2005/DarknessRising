@@ -59,10 +59,10 @@ mc.HeroAvatarView = ccui.Widget.extend({
             element = element.toLowerCase();
             var urlBrk = null;
             var asset = mc.dictionary.getCreatureAssetByIndex(heroInfo.index);
-            var urlIcon = asset && asset.getIconURL();
+            var urlIcon = asset && asset.getIconURL(heroInfo.index);
             cc.log("MCHeroAvatarView setHeroInfo:" + urlIcon);
             if (!cc.spriteFrameCache.getSpriteFrame(urlIcon)) {
-                cc.log("------unkonw avatar :" + urlIcon);
+                cc.log("------unkonw avatar :" + urlIcon + " in avatar1.plist");
                 urlIcon = "png/char/icon/Unknow.png";
             }
             if (element === mc.const.ELEMENT_FIRE) {

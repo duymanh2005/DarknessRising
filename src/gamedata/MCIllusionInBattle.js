@@ -5,9 +5,7 @@ mc.IllusionInBattle = mc.StageInBattle.extend({
 
     setBattleData: function (json) {
         this._super(json);
-        this.setBackgroundURL(bb.utility.randomElement([
-            res.illusion_battle_bg
-        ]));
+        this.setBackgroundURL("res/png/brk/" + json["illusionBattleBG"] + ".png");
     },
 
     isUsedItem: function () {

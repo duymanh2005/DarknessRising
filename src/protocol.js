@@ -2126,9 +2126,10 @@
             if (act === ILLUSION_JOIN) {
                 illusionManager.setIllusionData(json);
                 illusionManager.notifyDataChanged();
+                mc.GameData.teamFormationManager.setupIllusionTeamFormation(json["illusion_info"]);
             } else if (act === ILLUSION_SETUP_TEAM) {
                 teamFormationManager.setupIllusionTeamFormation(result);
-                teamFormationManager.correctFormationAllTeams(mc.TeamFormationManager.TEAM_ILLUSION);
+                mc.GameData.teamFormationManager.setupIllusionTeamFormation(result);
             } else if (act === ILLUSION_START_BATTLE) {
                 illusiionInBattle.setBattleData(json);
                 illusiionInBattle.notifyDataChanged();
@@ -2138,9 +2139,9 @@
                     var updateItems = update["items"];
                     itemStock.updateArrayItem(updateItems);
                 }
-                teamFormationManager.setupIllusionTeamFormation(result);
-                teamFormationManager.correctFormationAllTeams(mc.TeamFormationManager.TEAM_ILLUSION);
-                illusionManager.updateAllStatusCreature(json["properties"]);
+                //teamFormationManager.setupIllusionTeamFormation(result);
+                //teamFormationManager.correctFormationAllTeams(mc.TeamFormationManager.TEAM_ILLUSION);
+                //illusionManager.updateAllStatusCreature(json["properties"]);
                 illusionManager.setIllusionData(json);
                 result["reward"] && resultInBattle.setRewardInfo(result["reward"]);
                 resultInBattle.setResult(json);
@@ -3498,7 +3499,6 @@
                         mc.GameData.challengeManager.notifyDataChanged();
                         break;
                     case mc.const.REFRESH_FUNCTION_ILLUSION:
-                        illusionManager.updateIllusionInfo(update);
                         illusionManager.notifyDataChanged();
                         break;
                     case mc.const.FUNCTION_BLOOD_CASTLE:
@@ -3755,22 +3755,23 @@
 
     protocol.calculateNumStarInBattleIllusion = function (arrCreature, durBattleInMs) {
         var numHeroAlive = arrCreature.length;
+        var numHeroDead = 0;
         bb.utility.arrayTraverse(arrCreature, function (creature) {
             if (creature.isDead()) {
-                numHeroAlive--;
+                numHeroDead++;
             }
         });
         var oneMinute = 60 * 1000;
         // var remainInMs = mc.const.MAX_BATTLE_DURATION_IN_MS - durBattleInMs;
         var numStar = 1;
         if (durBattleInMs <= oneMinute) {
-            if (numHeroAlive >= 3) {
+            if (numHeroDead === 0) {
                 numStar = 3;
-            } else if (numHeroAlive === 2) {
+            } else if (numHeroAlive === 1) {
                 numStar = 2;
             }
         } else {
-            if (numHeroAlive >= 3) {
+            if (numHeroAlive === 0) {
                 numStar = 2;
             }
         }

@@ -287,14 +287,6 @@ mc.BattleViewRefactor = cc.Node.extend({
 
         this._registerBattleFieldEvent();
 
-        var self = this;
-        this._mapInfo = {
-            xOffset: 50,
-            yOffset: 600,
-            widthTile: cc.winSize.width / mc.BattleFieldRefactor.MAX_COLUMN,
-            heightTile: 100
-        };
-
         var brk = this.loadNewEnvironment(environment);
 
         var brkBlack = this._brkBlack = new ccui.Layout();

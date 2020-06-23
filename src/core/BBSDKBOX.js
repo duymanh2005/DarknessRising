@@ -452,7 +452,8 @@ bb.pluginBox = (function () {
                 //cc.sys.isNative && jsb.reflection.callStaticMethod("AppController", "rateGame");
                 cc.sys.openURL(cc.formatStr("itms-apps://itunes.apple.com/app/id%s?action=write-review", ""));
             } else {
-                cc.sys.isNative && jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "rateGame", "()Ljava/lang/String;");
+                //cc.sys.isNative && jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "rateGame", "()Ljava/lang/String;");
+                cc.sys.openURL("https://play.google.com/store/apps/details?id=com.rpgwikigames.darknessrising");
             }
         }
     };

@@ -12,14 +12,16 @@ LOCAL_SRC_FILES := hellojavascript/main.cpp \
 ../../../Classes/PluginFacebookJSHelper.cpp \
 ../../../Classes/SDKBoxJSHelper.cpp \
 ../../../Classes/PluginIAPJS.cpp \
-../../../Classes/PluginIAPJSHelper.cpp
+../../../Classes/PluginIAPJSHelper.cpp \
+../../../Classes/PluginReviewJS.cpp \
+../../../Classes/PluginReviewJSHelper.cpp
 
 LOCAL_CPPFLAGS := -DSDKBOX_ENABLED \
 -DSDKBOX_COCOS_CREATOR
 LOCAL_LDLIBS := -landroid \
 -llog
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../Classes
-LOCAL_WHOLE_STATIC_LIBRARIES += PluginFacebook PluginIAP
+LOCAL_WHOLE_STATIC_LIBRARIES += PluginFacebook PluginIAP PluginReview PluginReview PluginReview PluginReview PluginReview PluginReview
 LOCAL_WHOLE_STATIC_LIBRARIES += sdkbox
 
 LOCAL_STATIC_LIBRARIES := cocos2d_js_static
@@ -35,3 +37,4 @@ $(call import-module, cocos/scripting/js-bindings/proj.android)
 $(call import-module, ./sdkbox)
 $(call import-module, ./PluginFacebook)
 $(call import-module, ./PluginIAP)
+$(call import-module, ./PluginReview)

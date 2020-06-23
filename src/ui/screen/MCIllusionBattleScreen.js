@@ -15,6 +15,12 @@ mc.IllusionBattleScreen = mc.BattleScreen.extend({
         mc.GameData.playerInfo.setCurrentPartInBattle(illusionBattle);
         var battleView = this._battleView = illusionBattle.createBattleViewRefactor().showTempBlackPanel(false);
         battleView.preLoadBattleEffect(illusionBattle.getArrayAllCreatureIndex());
+        var towerGate = sp.SkeletonAnimation.createWithJsonFile(res.spine_ui_IllusionTowerGate_json, res.spine_ui_IllusionTowerGate_atlas, 1.0);
+        towerGate.addAnimation(0, "IllusionTowerGateOpen", true, bb.utility.randomInt(0, 10) * 0.1);
+        towerGate.x = cc.winSize.width / 2;
+        towerGate.y = mc.const.DEFAULT_HEIGHT - 100;
+        battleView.addChild(towerGate);
+
         this.addChild(battleView);
 
         var battleField = this._battleView.getBattleField();

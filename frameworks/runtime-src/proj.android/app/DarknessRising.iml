@@ -401,6 +401,7 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 27 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: __local_aars__:./app/libs/PluginReview.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:./app/libs/org.apache.http.legacy.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:./app/libs/PluginIAP.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:./app/libs/sdkbox.jar:unspecified@jar" level="project" />
@@ -433,6 +434,7 @@
     <orderEntry type="library" name="Gradle: com.android.support:support-vector-drawable:27.0.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-compat:27.0.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime:1.0.3@aar" level="project" />
+    <orderEntry type="module" module-name="libPluginReviewResource" />
     <orderEntry type="module" module-name="libcocos2dx" />
   </component>
 </module>

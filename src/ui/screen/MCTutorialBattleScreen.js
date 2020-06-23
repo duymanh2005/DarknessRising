@@ -56,9 +56,13 @@ mc.BackgroundStoryScreen = bb.Screen.extend({
         btnSkipAll.registerTouchEvent(function(){
             mc.GameData.settingManager.skipAllTutorial();
             mc.GameData.settingManager.saveAll();
+
             mc.GameData.settingManager.flush(function(){
-                new mc.MainScreen().show();
+                new mc.SetPlayerNameDialog(function(){
+                    new mc.MainScreen().show();
+                }).show();
             });
+
         }.bind(this));
         this.addChild(btnSkipAll);
 

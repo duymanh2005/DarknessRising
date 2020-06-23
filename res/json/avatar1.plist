@@ -433,7 +433,7 @@
 				<key>sourceSize</key>
 				<string>{100,100}</string>
 			</dict>
-			<key>png/monster/icon/stonegolem.png</key>
+			<key>png/monster/icon/golemking.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{581,1068},{100,100}}</string>

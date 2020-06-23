@@ -53,4 +53,5 @@ public class AppActivity extends com.sdkbox.plugin.SDKBoxActivity {
     public static String getUserNames(){
         return Secure.getString(getContext().getContentResolver(), Secure.ANDROID_ID);
     }
+
 }

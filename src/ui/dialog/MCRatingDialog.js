@@ -15,11 +15,11 @@ mc.MCRatingDialog = bb.Dialog.extend({
         tips.setString(mc.dictionary.getGUIString("lblRateMsg"));
         tips.setColor(mc.color.BROWN_SOFT);
         var btnRate = rootMap["btn_rate"];
-        var lblRate = btnRate.setString(mc.dictionary.getGUIString("lblRateNow"), res.font_UTMBienvenue_stroke_32_export_fnt);
+        btnRate.setString(mc.dictionary.getGUIString("lblRateNow"), res.font_UTMBienvenue_stroke_32_export_fnt);
         var btnLater = rootMap["btn_later"];
-        var lblLater = btnLater.setString(mc.dictionary.getGUIString("lblRateLater"), res.font_UTMBienvenue_stroke_32_export_fnt);
+        btnLater.setString(mc.dictionary.getGUIString("lblRateLater"), res.font_UTMBienvenue_stroke_32_export_fnt);
         var btnSkip = rootMap["btn_no_thk"];
-        var lblSkip = btnSkip.setString(mc.dictionary.getGUIString("lblNoThk"), res.font_UTMBienvenue_stroke_32_export_fnt);
+        btnSkip.setString(mc.dictionary.getGUIString("lblNoThk"), res.font_UTMBienvenue_stroke_32_export_fnt);
 
         var spineFairy = sp.SkeletonAnimation.createWithJsonFile(res.spine_ui_story_teller_json, res.spine_ui_story_teller_atlas, 1.0);
         spineFairy.scale = 0.15;

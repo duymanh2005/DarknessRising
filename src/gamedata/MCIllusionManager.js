@@ -15,6 +15,7 @@ mc.IllusionManager = bb.Class.extend({
     },
 
     unlockNextStage: function (currStageIndex, nextStageIndex) {
+        cc.log("currStage: " + currStageIndex + ", nextStageIndex: " + nextStageIndex);
         var currStage = this._mapStagesRecord[currStageIndex];
         currStage.win = true;
 
@@ -27,6 +28,7 @@ mc.IllusionManager = bb.Class.extend({
                     win: false
                 };
                 this._mapStagesRecord[nextStageIndex] = stage;
+                cc.log("================== stageIndex: " + nextStageIndex);
             }
             stage.unlock = true;
         }
@@ -47,7 +49,9 @@ mc.IllusionManager = bb.Class.extend({
     setIllusionData: function (json) {
         this._mapStatusCreatureById = null;
         this._info = json["illusion_info"] || this._info;
-        this._stages = this.createStages(json["stages"]) || this._stages;
+        this._stages = this.createStages(mc.dictionary.illusionDict.getStages()) || this._stages;
+        //this._stages = this.createStages(json["stages"]) || this._stages;
+        cc.log("set illusion data =================");
         this._stages.sort(function (stage1, stage2) {
             return stage1.stageIndex - stage2.stageIndex;
         });
@@ -60,8 +64,7 @@ mc.IllusionManager = bb.Class.extend({
             return stage["stage"];
         });
 
-        mc.GameData.teamFormationManager.setupIllusionTeamFormation(this._info);
-        mc.GameData.teamFormationManager.correctFormationAllTeams(mc.TeamFormationManager.TEAM_ILLUSION);
+        //mc.GameData.teamFormationManager.setupIllusionTeamFormation(this._info);
     },
 
     claimRewardIllusionStage: function (stageIndex) {
@@ -69,10 +72,6 @@ mc.IllusionManager = bb.Class.extend({
         currStage.clamed = true;
     },
 
-    updateIllusionInfo: function (json) {
-        if (json)
-            this._info = json;
-    },
     getTotalNumStage: function () {
         return this.numOfStage;
     },
@@ -116,10 +115,6 @@ mc.IllusionManager = bb.Class.extend({
 
     getRemainAttackChance: function () {
         return this._info["remainAttack"]
-    },
-
-    setRemainAttackChance: function (remain) {
-        this._info["remainAttack"] = remain || 0;
     },
 
     getMaxLevelReach: function () {
@@ -166,25 +161,20 @@ mc.IllusionStage = cc.Class.extend({
     stageIndex: null,
     ctor: function (json) {
         if (json) {
-            this.monsters = json["monsters"].split("#");
-            for (var i = 0; i < this.monsters.length; i++) {
-                this.monsters[i] = parseInt(this.monsters[i]);
-
-            }
+            this.monsters = json["monsters"];
             this.stageIndex = json["stageIndex"];
-            var rewardIllusionDict = mc.dictionary.illusionDict.getDataByStageIndex(this.stageIndex);
-            this.reward = json["reward"];
             this.rewardItems = [];
-            var arrStrReward = this.reward["items"];
+            var arrStrReward = json["rewardItems"];
             var tempListRandomReward = []; //lưu tạm reward dang random để push sau cùng layout sau cùng
+            var listFirstTimeRewards = json["firstTimeRewards"];
             for (var i = 0; i < arrStrReward.length; i++) {
-                var strs = arrStrReward[i].split('/');
-                var itemInfo = mc.ItemStock.createJsonItemInfo(strs[0], strs[1]);
-                var listFirstTimeRewards = rewardIllusionDict["firstTimeRewards"];
+                var rewardObj = arrStrReward[i];
+                var itemInfo = mc.ItemStock.createJsonItemInfo(rewardObj.index, rewardObj.no);
                 for (var j = 0; j < listFirstTimeRewards.length; j++) {
                     var item = listFirstTimeRewards[j];
-                    if (item.index === strs[0]) {
-                        itemInfo["isFirstTimeReward"] = true;
+                    //bo label first time reward set = false
+                    if (item.index === rewardObj.index) {
+                        itemInfo["isFirstTimeReward"] = false;
                     }
                 }
                 if (itemInfo["isFirstTimeReward"] == true) {

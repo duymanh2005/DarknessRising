@@ -6,7 +6,7 @@ mc.BloodCastleInBattle = mc.StageInBattle.extend({
     setBattleData: function (json) {
         this._super(json);
         this.setCanRetry(false);
-        this.setBackgroundURL(res.brk_bloodcastle1_png);
+        this.setBackgroundURL(res.brk_losttower1_png);
     },
 
     isDealItemForPerRound:function(){

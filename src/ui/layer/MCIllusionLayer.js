@@ -30,9 +30,10 @@ mc.IllusionLayer = mc.MainBaseLayer.extend({
         listView.insertCustomItem(this.createCommingSoonStage(), 0);
 
         var _initFightTimes = function () {
+            cc.log("=============== init fight times: "+ mc.GameData.illusionManager.getRemainAttackChance());
             root.removeChildByTag(1100524);
             root.removeChildByTag(1100525);
-            var numChance = mc.GameData.illusionManager.getRemainAttackChance();
+            var numChance = mc.GameData.playerInfo.getIllusionTicket();
             var layoutSwords = bb.layout.linear(bb.collection.createArray(5, function (index) {
                 var spr = new cc.Sprite("#icon/ico_battle.png");
                 spr.swordIndex = index;
@@ -104,11 +105,6 @@ mc.IllusionLayer = mc.MainBaseLayer.extend({
      * @param {mc.IllusionStage}stage
      */
     bindStage: function (widget, stage) {
-        /*    widget._touchScale = -0.0001;
-            widget.registerTouchEvent(function () {
-                    this._showDialogStartBattle(stage.stageIndex);
-                }.bind(this)
-            );*/
         var stageName = widget.setString(stage.stageIndex, res.font_cam_outer_32_export_fnt, mc.const.FONT_SIZE_24);
         stageName.setPosition(widget.width / 2, widget.height * 0.95);
         var self = this;
@@ -139,7 +135,8 @@ mc.IllusionLayer = mc.MainBaseLayer.extend({
 
         widget.lazyInitHeroView = function () {
             if (!win) {
-                var opponentView = mc.BattleViewFactory.createCreatureGUIByIndex(stage.monsters[0]);
+                var moduleStageIndex = stage.stageIndex % 10;
+                var opponentView = mc.BattleViewFactory.createCreatureGUIByIndex(moduleStageIndex == 0? stage.monsters[3]: stage.monsters[0]);
                 opponentView.x = this.width * 0.20;
                 opponentView.y = this.height * 0.25;
                 opponentView.setDirection(mc.CreatureView.DIRECTION_RIGHT);
@@ -193,7 +190,7 @@ mc.IllusionLayer = mc.MainBaseLayer.extend({
     },
 
     _showDialogStartBattle: function (stageIndex, getFromCache) {
-        if (mc.GameData.illusionManager.getRemainAttackChance() <= 0) {
+        if (mc.GameData.playerInfo.getIllusionTicket() <= 0) {
             mc.view_utility.showBuyingFunctionIfAny(mc.const.REFRESH_FUNCTION_ILLUSION);
         } else {
             mc.GameData.guiState.setCurrentIllusionStageIndex(stageIndex);
@@ -482,14 +479,13 @@ var IllusionStartBattleDialog = bb.Dialog.extend({
         nodeHero.scale = 0.965;
 
         var teamFormationManager = mc.GameData.teamFormationManager;
-        var teamId = mc.TeamFormationManager.TEAM_ILLUSION;
         var teamIndex = mc.GameData.guiState.getCurrentEditFormationTeamIndex();
         var heroStock = mc.GameData.heroStock;
         mc.GameData.guiState.setCurrentEditFormationTeamId(mc.TeamFormationManager.TEAM_ILLUSION);
 
         var dataTeam = {
-            arrTeamFormation: teamFormationManager.getTeamFormationByIndex(teamId, teamIndex),
-            leaderIndex: teamFormationManager.getLeaderFormationByIndex(teamId, teamIndex),
+            arrTeamFormation: teamFormationManager.getTeamFormationByIndex(mc.TeamFormationManager.TEAM_ILLUSION, teamIndex),
+            leaderIndex: teamFormationManager.getLeaderFormationByIndex(mc.TeamFormationManager.TEAM_ILLUSION, teamIndex),
             mapHeroInfo: heroStock.getHeroMap()
         };
         mc.view_utility.layoutTeamFormation(dataTeam, {
@@ -531,13 +527,14 @@ var IllusionRewardDialog = bb.Dialog.extend({
         });
         var title = rootMap["title"];
         var btnCancel = rootMap["btn_close"];
-        title.setString(mc.dictionary.getGUIString("lblIllusionTower"));
+        //title.setString(mc.dictionary.getGUIString("lblIllusionTower") + " Season 1");
+        title.setString("Season 1");
         var list = rootMap["list"];
         var illusions = mc.dictionary.illusionDict.getData();
         var stageLength = mc.dictionary.illusionDict.getStageNumber();
-        for (var i = 0; i < stageLength; i++) {
-            var illusion = illusions[i + 1];//i+1 = stage index
-            if ((i+1) % 10 == 0&&!!illusion)
+        for (var i = 1; i <= stageLength; i++) {
+            var illusion = illusions[i];//i+1 = stage index
+            if (i % 10 === 0)
                 list.pushBackCustomItem(this.createItemRewardInfo(illusion));
         }
         btnCancel.registerTouchEvent(function () {
@@ -548,11 +545,11 @@ var IllusionRewardDialog = bb.Dialog.extend({
 
     createItemRewardInfo: function (illusionIndict) {
         var panel = new ccui.ImageView("patch9/pnl_event_stage.png", ccui.Widget.PLIST_TEXTURE);
-        var stageIdex = new ccui.TextBMFont(illusionIndict.index, res.font_cam_outer_48_export_fnt);
+        var stageIdex = new ccui.TextBMFont(illusionIndict.stageIndex, res.font_cam_outer_48_export_fnt);
         stageIdex.setOverlayColor(mc.color.BLUE);
         var monsterStock = mc.dictionary.monsterMap;
-        var arrFormation = illusionIndict.team;
-        var widget = new mc.HeroAvatarView(monsterStock[arrFormation[0]]);
+        var arrFormation = illusionIndict.monsters;
+        var widget = new mc.HeroAvatarView(monsterStock[arrFormation[3]]);
         panel.addChild(stageIdex);
         panel.addChild(widget);
         stageIdex.setPosition(95, panel.height / 2);
@@ -563,12 +560,6 @@ var IllusionRewardDialog = bb.Dialog.extend({
             itemView.scale = 0.75;
             itemView.registerViewItemInfo();
             itemView.setSwallowTouches(false);
-            if (arrReward[index]["isFirstTimeReward"] == true) {
-                var icon = new cc.Sprite("#icon/ico_clear.png");
-                icon.x = itemView.width * 0.085;
-                icon.y = itemView.height * 0.85;
-                itemView.addChild(icon);
-            }
             return itemView;
         }), 10);
         var wrapWidget = mc.view_utility.wrapWidget(layoutReward, 350, false, {

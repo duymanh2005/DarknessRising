@@ -26,8 +26,8 @@
             return url;
         },
 
-        getIconURL: function () {
-            var url = cc.formatStr("png/char/icon/%s.png", this._data["resChar"]);
+        getIconURL: function (index) {
+            var url = cc.formatStr(index >= 1000 ? "png/monster/icon/%s.png" :"png/char/icon/%s.png", this._data["resChar"]);
             return url;
         },
 
@@ -829,17 +829,17 @@
         }();
 
         mc.dictionary.illusionDict = (function () {
-            var data, stageNum;
+            var data, stageNum, stages;
             var prepare = function () {
                 var illusion = cc.loader.getRes(res.data_illusion_json);
-                data = {};
-                stageNum = illusion["illusionRewardList"].length;
-                data = bb.utility.toMaps(illusion["illusionRewardList"], "index");
+                stages = illusion["stages"];
+                stageNum = illusion["stages"].length;
+                data = bb.utility.toMaps(illusion["stages"], "stageIndex");
                 for (var dataKey in data) {
                     var firstTimeRewards = data[dataKey]["firstTimeRewards"].split("#");
                     var randomRewards = data[dataKey]["randomRewards"].split("#");
-                    var monsters = data[dataKey]["team"].split("#");
-                    data[dataKey]["team"] = monsters;
+                    var monsters = data[dataKey]["monsters"].split("#");
+                    data[dataKey]["monsters"] = monsters;
 
                     var firstTimeRewards_extract = [];
                     var randomRewards_extract = [];
@@ -847,6 +847,7 @@
                     var j = 0;
                     for (j = 0; j < firstTimeRewards.length; j++) {
                         var reward = firstTimeRewards[j];
+                        if(reward.length < 2) continue;
                         var strs = reward.split('/');
                         var itemInfo = mc.ItemStock.createJsonItemInfo(strs[0], strs[1]);
                         itemInfo["isFirstTimeReward"] = true;
@@ -866,7 +867,6 @@
                 }
                 cc.loader.release(res.data_illusion_json);
             };
-            prepare();
             return {
                 getDataByStageIndex: function (stageIndex) {
                     return data[stageIndex];
@@ -876,6 +876,10 @@
                     return data;
                 },
 
+                getStages: function(){
+                    if(data == null) prepare();
+                    return stages;
+                },
                 getStageNumber: function () {
                     return stageNum;
                 }
