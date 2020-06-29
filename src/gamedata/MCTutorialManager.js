@@ -713,7 +713,7 @@ mc.TutorialManager = bb.Class.extend({
     },
 
     skipAll: function(){
-        Object.keys(this.TUTORIAL_TRIGGER).forEach(function(key) {this
+        Object.keys(this.TUTORIAL_TRIGGER).forEach(function(key) {
             this._mapTutorialDoneById[key] = true;
         }.bind(this));
 

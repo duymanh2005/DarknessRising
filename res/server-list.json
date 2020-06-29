@@ -1,1 +1,13 @@
-{"servers":[{"id":1,"svn":"mus1","auth":"http://192.168.1.249:9393/","ws":"ws://192.168.1.249:9494/ws","name":"S1: Legendary","type":"REAL","statusCode":2}]}
+{
+  "servers": [
+    {
+      "id": 1,
+      "svn": "mus1",
+      "auth": "http://192.168.1.249:9393/",
+      "ws": "http://192.168.1.249:9494/ws",
+      "name": "S1: Legendary",
+      "type": "REAL",
+      "statusCode": 2
+    }
+  ]
+}

@@ -3,9 +3,9 @@ var path = require('path');
 var crypto = require('crypto');
 
 var manifest = {
-    packageUrl: 'http://localhost/tutorial-hot-update/remote-assets/',
-    remoteManifestUrl: 'http://localhost/tutorial-hot-update/remote-assets/project.manifest',
-    remoteVersionUrl: 'http://localhost/tutorial-hot-update/remote-assets/version.manifest',
+    packageUrl: 'http://192.168.1.249:8000/tutorial-hot-update/remote-assets/',
+    remoteManifestUrl: '192.168.1.249:8000/tutorial-hot-update/remote-assets/project.manifest',
+    remoteVersionUrl: '192.168.1.249:8000/tutorial-hot-update/remote-assets/version.manifest',
     version: '1.0.0',
     assets: {},
     searchPaths: []

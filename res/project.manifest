@@ -13090,9 +13090,9 @@
             "size": 6743
         }
     }, 
-    "packageUrl": "http://192.168.1.249:8000/",
-    "remoteManifestUrl": "http://192.168.1.249:8000/manifest/project.manifest",
-    "remoteVersionUrl": "http://192.168.1.249:8000/manifest/version.manifest",
+    "packageUrl": "http://192.168.1.249:8000/manifest/mufantasy/",
+    "remoteManifestUrl": "http://192.168.1.249:8000/manifest/mufantasy/project.manifest",
+    "remoteVersionUrl": "http://192.168.1.249:8000/manifest/mufantasy/version.manifest",
     "searchPaths": [], 
     "version": "1.0.1"
 }

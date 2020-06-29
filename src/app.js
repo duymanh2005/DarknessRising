@@ -2,7 +2,7 @@ var mc = mc || {};
 mc.const = {
     ////// important : remove for release///////
     //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJkZXZpY2VfaWQiOiJhZHIjI2FmMzMyM2FlNzQ0YzQ2NjMjIzIiLCJpc3MiOiJhdXRoMCIsImlkIjoiLTEiLCJleHAiOjE1OTE0NTY3NjIsInR5cGUiOiJndWVzdCIsInR0bCI6ODY0MDAwMDAwfQ.Gnzt85S1bFyBFM6fmslWMfYj-yLlqMAjk_Wg4HnfbTU",
-    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAzIiwiZXhwIjoxNTkxNTg4NjA3LCJhcHBfaWQiOiIyIiwidHRsIjo4NjQwMDAwMDB9.-SdiAPP_uOxBCLGy5idn_1tQJ1-zlXZPwYirjQVHaB0",
+    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAzIiwiZXhwIjoxNTk0MDE0OTAwLCJhcHBfaWQiOiIyIiwidHRsIjo4NjQwMDAwMDB9.KhPAHJo9FVUtE6CAdB0opIDVl5AEsKyBcHLLey-V4Zo",
     TEST_GAME_TOKEN: null,
     ////////////////////////////////////////////////////
     // important code! do not forget to TURN-OFF!!!!!!!!!
@@ -29,8 +29,8 @@ mc.const = {
     TEST_CREATURE_BY_CAMPAIGN: null,
     SKIP_TUTORIAL_BATTLE: false,
     BATTLE_VERSION: "1.0",
-    VERSION: "1.0.3",
-    VERSION_NEWS: "1.0.3",
+    VERSION: "1.0.5",
+    VERSION_NEWS: "1.0.5",
     SERVERS: {
         "servers": [
             {

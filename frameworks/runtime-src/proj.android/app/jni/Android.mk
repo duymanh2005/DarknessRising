@@ -21,7 +21,7 @@ LOCAL_CPPFLAGS := -DSDKBOX_ENABLED \
 LOCAL_LDLIBS := -landroid \
 -llog
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../Classes
-LOCAL_WHOLE_STATIC_LIBRARIES += PluginFacebook PluginIAP PluginReview PluginReview PluginReview PluginReview PluginReview PluginReview
+LOCAL_WHOLE_STATIC_LIBRARIES += PluginFacebook PluginIAP PluginReview
 LOCAL_WHOLE_STATIC_LIBRARIES += sdkbox
 
 LOCAL_STATIC_LIBRARIES := cocos2d_js_static

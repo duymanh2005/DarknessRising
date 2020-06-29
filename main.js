@@ -51,24 +51,18 @@
  }
  *
  */
-
 if (cc.sys && cc.sys.isNative) {
     var assetSearchPath = cc.sys.localStorage.getItem("_search_path_");
     if (assetSearchPath) {
-        // cc.log("test here");
-        // jsb.fileUtils.setSearchPaths(JSON.parse(assetSearchPath));
-        var searchPaths = jsb.fileUtils.getSearchPaths();
-        var assetSearchPathArray = JSON.parse(assetSearchPath);
-        for (var i = 0; i < assetSearchPathArray.length; i++) {
-            searchPaths.push(assetSearchPathArray[i]);
-        }
-        jsb.fileUtils.setSearchPaths(searchPaths);
+        //cc.log("test");
+        jsb.fileUtils.setSearchPaths(JSON.parse(assetSearchPath));
     }
 }
 
 cc.game.onStart = function () {
     if (!cc.sys.isNative && document.getElementById("cocosLoading")) //If referenced loading.js, please remove it
         document.body.removeChild(document.getElementById("cocosLoading"));
+
     cc.log("Game on start");
     bb.framework.setGUIFactory(mc.GUIFactory);
     bb.framework.runNow();
