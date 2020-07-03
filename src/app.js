@@ -2,8 +2,8 @@ var mc = mc || {};
 mc.const = {
     ////// important : remove for release///////
     //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJkZXZpY2VfaWQiOiJhZHIjI2FmMzMyM2FlNzQ0YzQ2NjMjIzIiLCJpc3MiOiJhdXRoMCIsImlkIjoiLTEiLCJleHAiOjE1OTE0NTY3NjIsInR5cGUiOiJndWVzdCIsInR0bCI6ODY0MDAwMDAwfQ.Gnzt85S1bFyBFM6fmslWMfYj-yLlqMAjk_Wg4HnfbTU",
-    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAzIiwiZXhwIjoxNTk0MDE0OTAwLCJhcHBfaWQiOiIyIiwidHRsIjo4NjQwMDAwMDB9.KhPAHJo9FVUtE6CAdB0opIDVl5AEsKyBcHLLey-V4Zo",
-    TEST_GAME_TOKEN: null,
+    TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAzIiwiZXhwIjoxNTk0NDgyNTM2LCJhcHBfaWQiOiIyIiwidHRsIjo4NjQwMDAwMDB9.YL_nAhXRz68T-Tj55pN7EIy3Z4618yT0pY22_TTz4Ps",
+    //TEST_GAME_TOKEN: null,
     ////////////////////////////////////////////////////
     // important code! do not forget to TURN-OFF!!!!!!!!!
     SERVER_MAINTENANCE: false,
@@ -37,7 +37,7 @@ mc.const = {
                 "id": 1,
                 "svn": "mus1",
                 "auth": "http://192.168.1.249:9393/",
-                "ws": "http://192.168.1.249:9494/ws",
+                "ws": "ws://192.168.1.249:9494/ws",
                 "name": "S1: Legendary",
                 "type": "REAL",
                 "statusCode": 2
@@ -110,6 +110,7 @@ mc.const = {
     ITEM_INDEX_SUMMON_TICKET: 11909,
     ITEM_INDEX_BORROW_FRIEND_TICKET: 11090,
     ITEM_INDEX_ILLUSION_TICKET: 11091,
+    ITEM_INDEX_BLOODCASTLE_TICKET: 11092,
     ITEM_INDEX_LIGHT_SPHERE: 11052,
     ITEM_INDEX_DARK_SPHERE: 11053,
     ITEM_INDEX_FIRE_SPHERE: 11054,

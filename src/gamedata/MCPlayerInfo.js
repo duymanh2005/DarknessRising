@@ -264,6 +264,9 @@ mc.PlayerInfo = bb.Class.extend({
         return this["assetMap"][mc.const.ITEM_INDEX_ILLUSION_TICKET] || 0;
     },
 
+    getBloodCastleTicket: function () {
+        return this["assetMap"][mc.const.ITEM_INDEX_BLOODCASTLE_TICKET] || 0;
+    },
 
     getNumberOfCurrencyByKey:function(key){
         return this["assetMap"][key] || 0;

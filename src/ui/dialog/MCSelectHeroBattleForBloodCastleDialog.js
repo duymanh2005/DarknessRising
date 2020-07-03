@@ -161,7 +161,7 @@ mc.SelectHeroBattleForBloodCastleDialog = bb.Dialog.extend({
         }.bind(this));
 
         this.traceDataChange(mc.GameData.bloodCastleManager, function () {
-            var numChance = this._numChance = mc.GameData.bloodCastleManager.getNumberOfChance();
+            var numChance = this._numChance = mc.GameData.playerInfo.getBloodCastleTicket();
             if( numChance <= 0 ){
                 this.close();
             }

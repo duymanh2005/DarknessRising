@@ -6,7 +6,8 @@ mc.BloodCastleStageListLayer = mc.MainBaseLayer.extend({
     ctor: function (parseNode) {
         this._super();
         cc.spriteFrameCache.addSpriteFrames(res.icon_plist);
-        var numChance = this._numChance = mc.GameData.bloodCastleManager.getNumberOfChance();
+        //var numChance = this._numChance = mc.GameData.bloodCastleManager.getNumberOfChance();
+        var numChance = this._numChance = mc.GameData.playerInfo.getBloodCastleTicket();
 
         var root = this._rootNode = this.parseCCStudio(parseNode || res.layer_event_stage_list);
         var rootMap = bb.utility.arrayToMap(root.getChildren(), function (child) {
@@ -118,7 +119,7 @@ mc.BloodCastleStageListLayer = mc.MainBaseLayer.extend({
 
         this.traceDataChange(mc.GameData.bloodCastleManager, function () {
             var swords = layoutSwords.getChildren();
-            var numChance = this._numChance = mc.GameData.bloodCastleManager.getNumberOfChance();
+            var numChance = this._numChance = mc.GameData.playerInfo.getBloodCastleTicket();
             for (var i in swords) {
                 if (swords[i].swordIndex >= numChance) {
                     swords[i].setColor(mc.color.BLACK_DISABLE_SOFT);

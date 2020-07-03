@@ -18,12 +18,12 @@ mc.BloodCastleInBattle = mc.StageInBattle.extend({
     },
 
     getCurrentWaveIndex:function(){
-        var currRound = this.getCurrentRoundIndex();
+        var currRoundIndex = this.getCurrentRoundIndex();
         var arrWaveData = mc.dictionary.getArrayBloodCastleStageDataByLevelIndex(this.getStageId());
-        if( arrWaveData && currRound < arrWaveData.length ){
-            return arrWaveData[currRound]["waveIndex"];
+        if(currRoundIndex >= arrWaveData.length){
+            currRoundIndex = arrWaveData.length - 1;
         }
-        return 10;
+        return arrWaveData[currRoundIndex]["waveIndex"];
     },
 
     createBattleFieldRefactor: function (randomSeed) {

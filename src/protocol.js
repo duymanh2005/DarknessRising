@@ -3431,7 +3431,7 @@
             else if (act === BLOOD_CASTLE_FIGHT) {
                 result = json;
                 bloodCastleInBattle.setBattleData(result);
-                bloodCastleManager.notifyDataChanged();
+                //bloodCastleManager.notifyDataChanged();
             } else if (act === BLOOD_CASTLE_FINISH) {
                 json["star"] = _popParameter(callbackName);
                 result = json;
@@ -3450,11 +3450,7 @@
                 teamFormationManager.setupBloodCastleTeamFormation(mc.TeamFormationManager.TEAM_BLOODCASTLE);
                 bloodCastleManager.updateAllStatusCreature(result["properties"]);
 
-                var numChance = bloodCastleManager.getNumberOfChance();
-                numChance--;
-                numChance < 0 && (numChance = 0);
-                bloodCastleManager.setNumberOfChance(numChance);
-                bloodCastleManager.notifyDataChanged();
+                //bloodCastleManager.notifyDataChanged();
             }
 
             _performCallback(callbackName, result);
