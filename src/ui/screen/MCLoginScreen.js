@@ -249,6 +249,7 @@ mc.LoginScreen = bb.Screen.extend({
         progressContainer.addChild(brkProgress);
         progressContainer.addChild(lblStatus);
         layer.addChild(progressContainer);
+        this._progressContainer.setVisible(false);
 
         const lblVersion = this.lblVersion = bb.framework.getGUIFactory().createText("");
         lblVersion.anchorX = 1.0;
@@ -298,6 +299,7 @@ mc.LoginScreen = bb.Screen.extend({
 
 
         if (!cc.sys.isNative) {
+            this._progressContainer.setVisible(true);
             var arrRes = cc.copyArray(mc.resource.data_res);
             arrRes = bb.collection.arrayAppendArray(arrRes, mc.resource.main_res);
             arrRes = bb.collection.arrayAppendArray(arrRes, mc.resource.battle_effect);
@@ -316,7 +318,6 @@ mc.LoginScreen = bb.Screen.extend({
     },
 
     displayPercent: function (percent) {
-        var currProgress = this._progressLoading.getPercentage();
         var newProgress = percent;
         this._progressLoading.setPercentage(newProgress);
         this._lblStatus.setString(mc.dictionary.getGUIString("lblLoading") + " " + percent + "%");

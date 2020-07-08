@@ -76,6 +76,18 @@ mc.ItemView = ccui.Widget.extend({
             this.width = heroAvtView.width;
             this.height = heroAvtView.height;
             this.addChild(heroAvtView);
+
+            var animateShiny = sp.SkeletonAnimation.createWithJsonFile(res.spine_ui_shiny_icon_fx_json, res.spine_ui_shiny_icon_fx_atlas, 1.1);
+            this.addChild(animateShiny);
+            animateShiny.setPosition(heroAvtView.x, heroAvtView.y);
+            animateShiny.setAnimation(0, "shinyIconfx", true);
+
+            var animateVip = sp.SkeletonAnimation.createWithJsonFile(res.spine_ui_vip_avatar_json, res.spine_ui_vip_avatar_atlas, 1.1);
+            this.addChild(animateVip);
+            animateVip.anchorX = 0.5;
+            animateVip.anchorY = 0.5;
+            animateVip.setPosition(heroAvtView.width / 2, heroAvtView.height / 2);
+            animateVip.setAnimation(0, "Avatar", true);
         }
         else {
             var brk = this._brk = this._createItemRank(mc.ItemStock.getItemRank(itemInfo));

@@ -44,6 +44,7 @@ bb.AssetManager = cc.Class.extend({
                                 cc.log("NEW_VERSION_FOUND: " + assetId);
                             }
                             if (!this._startDownload) {
+                                lis.doNewVersionFound();
                                 var tempPath = ((jsb.fileUtils ? jsb.fileUtils.getWritablePath() : "/") + "remote_assets_temp/");
                                 var strVersion = jsb.fileUtils.getStringFromFile(tempPath + "version.manifest");
                                 if (strVersion) {

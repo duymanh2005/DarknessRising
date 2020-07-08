@@ -96,10 +96,14 @@ mc.IAPShopDialog = bb.Dialog.extend({
             }
         };
         var widgetPromotion = bottomPanel.getChildByName("widget1");
+        widgetPromotion.x = cc.winSize.width/4 - 50;
         var widgetMonthly = bottomPanel.getChildByName("widget2");
+        widgetMonthly.setVisible(false);
         var widgetBuyBless = bottomPanel.getChildByName("widget3");
+        widgetBuyBless.x = cc.winSize.width/2;
         var widgetBuyBestOff = bottomPanel.getChildByName("widget4");
-        applyLbl(widgetPromotion, "Promotion");
+        widgetBuyBestOff.x = cc.winSize.width*3/4 + 50;
+        applyLbl(widgetPromotion, "Newcomer's Bundle");
         applyLbl(widgetMonthly, "lblmonthly");
         applyLbl(widgetBuyBless, "lblBuyBless");
         applyLbl(widgetBuyBestOff, "lblBestOff");
@@ -329,24 +333,34 @@ mc._PromoContentBinder = cc.Class.extend({
         var buyBtn = new ccui.ImageView("button/btn_BuyBless.png", ccui.Widget.PLIST_TEXTURE);
         var lblName = bb.framework.getGUIFactory().createText(mc.dictionary.getI18nMsg(inAppDict["name"]), res.font_UTMBienvenue_none_32_export_fnt);
 
-
+        var txtLimit = "";
+        if(inAppDict["buyTimes"] >= 1){
+            txtLimit = mc.dictionary.getI18nMsg("txtLimit") + " : " + inAppDict["buyTimes"];
+        }
+        var lblLimit = bb.framework.getGUIFactory().createText(txtLimit, res.font_UTMBienvenue_none_32_export_fnt);
         var ids = inAppDict["id"].split('.');
         var product = self._mapInAppProductByName[ids[ids.length - 1]];
         var lblPrice = widget._lblPrice = new cc.LabelTTF(product ? cc.formatStr("%s %s", product["price"], product["currencyCode"]) : inAppDict["cost"] + " usd", res.font_regular_ttf, 24);
+
         //lblPrice.setColor(mc.color.BROWN_SOFT);
         lblPrice.enableStroke(mc.color.BLACK, 2);
         buyBtn.addChild(lblPrice);
         lblPrice.setPosition(buyBtn.width / 2, buyBtn.height / 2 - 4);
         buyBtn.setPosition(widget.width - buyBtn.width / 2 - 20, widget.height / 2 - 14);
 
-
+        lblName.anchorX = 0;
+        //lblLimit.anchorY = lblLimit.getWidth();
         lblName.setColor(mc.color.BROWN_SOFT);
         widget.addChild(lblName);
+        lblLimit.setColor(mc.color.BROWN_SOFT);
+        widget.addChild(lblLimit);
         widget.addChild(buyBtn);
         if (mc.enableReplaceFontBM()) {
-            lblName.setPosition(widget.width / 2, widget.height - lblName.height / 2 - 22);
+            lblName.setPosition(50, widget.height - 38);
+            lblLimit.setPosition(widget.width - 150, widget.height - 38 );
         } else {
-            lblName.setPosition(widget.width / 2, widget.height - lblName.height / 2 - 14);
+            lblName.setPosition(50, widget.height - 38);
+            lblLimit.setPosition(widget.width - 150, widget.height - 38);
         }
         if (!!inAppDict["promoLabel"]) {
             var bgdiscount = new cc.Sprite("#patch9/pnl_sale.png");
@@ -404,17 +418,25 @@ mc._PromoContentBinder = cc.Class.extend({
         if (packData["bless"]) {
             promotionData = "11999/" + packData["bless"] + "#" + promotionData;
         }
+
         var arrReward = mc.ItemStock.createArrJsonItemFromStr(promotionData);
+        var arrStr = "302".split('#');
+        for (var i = 0; i < arrStr.length; i++) {
+            var heroDict = mc.dictionary.getHeroDictByIndex(parseInt(arrStr[i]));
+            arrReward.unshift(mc.ItemStock.createJsonItemHeroSoul(1, heroDict));
+        }
+
+
         var layoutReward = bb.layout.linear(bb.collection.createArray(arrReward.length, function (index) {
             var itemView = new mc.ItemView(arrReward[index]);
             itemView.scale = 0.75;
             itemView.registerViewItemInfo();
             itemView.setSwallowTouches(false);
             /* if (arrReward[index]["isFirstTimeReward"] == true) {
-                 var icon = new cc.Sprite("#icon/ico_clear.png");
-                 icon.x = itemView.width * 0.085;
-                 icon.y = itemView.height * 0.85;
-                 itemView.addChild(icon);
+             var icon = new cc.Sprite("#icon/ico_clear.png");
+             icon.x = itemView.width * 0.085;
+             icon.y = itemView.height * 0.85;
+             itemView.addChild(icon);
              }*/
             return itemView;
         }), 2);

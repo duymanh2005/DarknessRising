@@ -7,9 +7,9 @@ import hashlib
 import json
 from distutils.dir_util import copy_tree
 
-MANIFEST_VERSION = sys.argv[1]
-MANIFEST_URL = sys.argv[2]
-EXPORT_FOLDER = sys.argv[3]
+MANIFEST_VERSION = sys.argv[3]
+MANIFEST_URL = sys.argv[1]
+EXPORT_FOLDER = sys.argv[2]
 DEBUG = ''
 if len(sys.argv) > 4:
     DEBUG = sys.argv[4]
@@ -82,7 +82,7 @@ shutil.copy2('./project.json',tempFolder+'project.json')
 
 with open(tempFolder+'project.json') as json_file:
     proj = json.load(json_file)
-    proj['jsList'] = ['src/base.js','src/game.js']
+    proj['jsList'] = ['src/game.js']
 
 with open(tempFolder+'project.json', 'w') as json_file:
     json.dump(proj,json_file,indent=4, sort_keys=True)

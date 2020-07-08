@@ -57,7 +57,8 @@ mc.MailContentDialog = mc.DefaultDialogType2.extend({
         var arrView = null;
         if (arrItem.length > 0) {
             arrView = bb.collection.createArray(arrItem.length, function (index) {
-                var itemView = new mc.ItemView(arrItem[index]).setNewScale(0.75);
+                var itemView = new mc.ItemView(arrItem[index]);
+                itemView.scale = 0.75;
                 if (mc.MailManager.isMailClaimed(mailInfo)) {
                     itemView.setBlack(true);
                 }

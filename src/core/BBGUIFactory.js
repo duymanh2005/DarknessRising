@@ -282,6 +282,26 @@ bb.DefaultSplashLayer = cc.LayerColor.extend({
                     cc.game.restart();
                 }).show();
             });
+
+
+            const progressContainer = this._progressContainer = new ccui.Widget();
+            progressContainer.scale = 0.8;
+            progressContainer.x = cc.winSize.width * 0.5;
+            progressContainer.y = cc.winSize.height * 0.07;
+            const brkProgress = new cc.Sprite("res/bar/Loading_Gauge_Outline.png");
+            const progress = this._progressLoading = new cc.ProgressTimer(new cc.Sprite("res/bar/Loading_Gauge.png"));
+            const lblStatus = this._lblStatus = new ccui.TextBMFont("", res.font_cam_stroke_32_export_fnt);
+            lblStatus.anchorX = 0.5;
+            lblStatus.y = 50;
+            progress.barChangeRate = cc.p(1.0, 0.0);
+            progress.midPoint = cc.p(0.0, 1.0);
+            progress.type = cc.ProgressTimer.TYPE_BAR;
+            progressContainer.addChild(progress);
+            progressContainer.addChild(brkProgress);
+            progressContainer.addChild(lblStatus);
+            this.addChild(progressContainer);
+            this._progressContainer.setVisible(false);
+
             var assetManager = new bb.AssetManager();
             assetManager.startCheckUpdate({
                 alreadyUpdate: function () {
@@ -289,18 +309,25 @@ bb.DefaultSplashLayer = cc.LayerColor.extend({
                 },
                 updateDownloadSize: function (totalSize, downloadedSize) {
                     var downloadPercent = Math.round(downloadedSize * 100 / totalSize);
-                    if(downloadPercent > 100)
-                        downloadPercent = 100;
-                    var progressPercent = "Progress: " + Math.round(downloadedSize * 100 / totalSize) + "%";
-                    cc.log("progress percent:" + progressPercent);
-                    lblProgress.setString(progressPercent);
+                    downloadPercent = Math.min(downloadPercent, 100);
+                    self.displayPercent(downloadPercent);
                 },
                 failManifest: function () {
-                    lblProgress.setString("Can not read Manifest!!!");
+                    lblProgress.setString("Can not read Manifest1a!!!");
+                },
+                doNewVersionFound: function(){
+                    self._progressContainer.setVisible(true);
                 }
             }, true);
         }
     },
+
+    displayPercent: function (percent) {
+        var newProgress = percent;
+        this._progressLoading.setPercentage(newProgress);
+        this._lblStatus.setString("Loading " + percent + "%");
+    },
+
 
     initLoadingGUI: function () {
         var winSize = cc.director.getWinSize();
