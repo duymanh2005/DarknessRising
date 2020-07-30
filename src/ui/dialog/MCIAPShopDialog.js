@@ -420,12 +420,13 @@ mc._PromoContentBinder = cc.Class.extend({
         }
 
         var arrReward = mc.ItemStock.createArrJsonItemFromStr(promotionData);
-        var arrStr = "302".split('#');
-        for (var i = 0; i < arrStr.length; i++) {
-            var heroDict = mc.dictionary.getHeroDictByIndex(parseInt(arrStr[i]));
-            arrReward.unshift(mc.ItemStock.createJsonItemHeroSoul(1, heroDict));
+        if(packData["heroes"]){
+            var arrStr = packData["heroes"].split('#');
+            for (var i = 0; i < arrStr.length; i++) {
+                var heroDict = mc.dictionary.getHeroDictByIndex(parseInt(arrStr[i]));
+                arrReward.unshift(mc.ItemStock.createJsonItemHeroSoul(1, heroDict));
+            }
         }
-
 
         var layoutReward = bb.layout.linear(bb.collection.createArray(arrReward.length, function (index) {
             var itemView = new mc.ItemView(arrReward[index]);

@@ -273,7 +273,14 @@ mc.LoginScreen = bb.Screen.extend({
     _startLoadingGameResource: function () {
         var self = this;
         cc.log("_startLoadingGameResource ??");
-        this.lblVersion.setString(mc.dictionary.getGUIString("lblVersion") + mc.const.VERSION);
+        if(cc.sys.isNative){
+            var strLocalManifest = jsb.fileUtils.getStringFromFile("res/project.manifest");
+            var localManifest = JSON.parse(strLocalManifest);
+            this.lblVersion.setString("Build: " + localManifest["version"] +" "+  mc.dictionary.getGUIString("lblVersion") + mc.const.VERSION);
+        }else{
+            this.lblVersion.setString(mc.dictionary.getGUIString("lblVersion") + mc.const.VERSION);
+        }
+
         var _checkLoadServerList = function () {
             cc.log("MCLoginScreen._startLoadingGameResource check load server list");
             // load game data.

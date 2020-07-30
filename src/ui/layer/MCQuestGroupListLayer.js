@@ -14,8 +14,6 @@ mc.QuestGroupListLayer = mc.MainBaseLayer.extend({
         var panelMiddle = rootMap["panelMiddle"];
         var nodeBrk = rootMap["nodeBrk"];
 
-        var lblTitle = brkTitle.setString(mc.dictionary.getGUIString("lblQuest"));
-
         var notifySystem = mc.GameData.notifySystem;
         var questCompleteNotification = notifySystem.getQuestCompleteNotification();
         var arrQuestGroup = mc.GameData.questManager.getArrQuestGroup();

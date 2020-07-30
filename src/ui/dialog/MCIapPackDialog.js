@@ -55,7 +55,16 @@ mc.MCIapPackDialog = bb.Dialog.extend({
         if (packData["bless"]) {
             promotionData = "11999/" + packData["bless"] + "#" + promotionData;
         }
+
         var arrItem = mc.ItemStock.createArrJsonItemFromStr(promotionData);
+        if(packData["heroes"]){
+            var arrStr = packData["heroes"].split('#');
+            for (var i = 0; i < arrStr.length; i++) {
+                var heroDict = mc.dictionary.getHeroDictByIndex(parseInt(arrStr[i]));
+                arrItem.unshift(mc.ItemStock.createJsonItemHeroSoul(1, heroDict));
+            }
+        }
+
         var array = bb.collection.createArray(arrItem.length, function (index) {
             var itemInfo = arrItem[index];
             var itemView = new mc.ItemView(itemInfo);

@@ -2,8 +2,8 @@ var mc = mc || {};
 mc.const = {
     ////// important : remove for release///////
     //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJkZXZpY2VfaWQiOiJhZHIjI2FmMzMyM2FlNzQ0YzQ2NjMjIzIiLCJpc3MiOiJhdXRoMCIsImlkIjoiLTEiLCJleHAiOjE1OTE0NTY3NjIsInR5cGUiOiJndWVzdCIsInR0bCI6ODY0MDAwMDAwfQ.Gnzt85S1bFyBFM6fmslWMfYj-yLlqMAjk_Wg4HnfbTU",
-    TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAzIiwiZXhwIjoxNTk0NDgyNTM2LCJhcHBfaWQiOiIyIiwidHRsIjo4NjQwMDAwMDB9.YL_nAhXRz68T-Tj55pN7EIy3Z4618yT0pY22_TTz4Ps",
-    //TEST_GAME_TOKEN: null,
+    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAzIiwiZXhwIjoxNTk0NDgyNTM2LCJhcHBfaWQiOiIyIiwidHRsIjo4NjQwMDAwMDB9.YL_nAhXRz68T-Tj55pN7EIy3Z4618yT0pY22_TTz4Ps",
+    TEST_GAME_TOKEN: null,
     ////////////////////////////////////////////////////
     // important code! do not forget to TURN-OFF!!!!!!!!!
     SERVER_MAINTENANCE: false,
@@ -78,8 +78,8 @@ mc.const = {
     KEY_ITEM_TAB: "item_tab",
     //PACKAGE_NAME: "com.creants.muheroes",
     PACKAGE_NAME: "com.rpgwikigames.darknessrising",
-    URL_TERM: "https://rpgwikigames.com/#/privacy-policy",
-    URL_PRIVACY: "https://rpgwikigames.com/#/privacy-policy",
+    URL_TERM: "https://rpgwikigames.com/privacy-policy",
+    URL_PRIVACY: "https://rpgwikigames.com/privacy-policy",
     DEFAULT_HEIGHT: 1334,
 
     LANGUAGE_DEFAULT: "en",
