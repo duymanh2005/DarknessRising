@@ -74,6 +74,20 @@
       "items": {
         "starterpack": {
           "id": "com.rpgwikigames.darknessrising.android.starterpack"
+        },"bestselling": {
+          "id": "com.rpgwikigames.darknessrising.android.bestselling"
+        },"price1p1": {
+          "id": "com.rpgwikigames.darknessrising.android.bless.price1p1"
+        },"price20p1": {
+          "id": "com.rpgwikigames.darknessrising.android.bless.price20p1"
+        },"price10p1": {
+          "id": "com.rpgwikigames.darknessrising.android.bless.price10p1"
+        },"price30p1": {
+          "id": "com.rpgwikigames.darknessrising.android.bless.price30p1"
+        },"price5p2": {
+          "id": "com.rpgwikigames.darknessrising.android.bless.price5p2"
+        },"price5p1": {
+          "id": "com.rpgwikigames.darknessrising.android.bless.price5p1"
         }
       },
       "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlK9ETB3+8BO2+Tvjzw7fRR+AvrHM4jHobJvec1Nbehpagl6wtCSCqauTs9tbzL7J8W3RkgLCZIzniZSFmp0Ucc09Qo2hsgmO7/LCO5R6DPFjred5qdLyQAa9vvQYelS2TQkMV/vht7UDrNuAi7xc4eACJvM+4fCasKUZ39t21tRT/OrCKEpYq5yNvLRcqxg6NYBhX4h7wFMUzcZlRHSWziVdpoHULccWUgTgX0mwSw6eXluN4PJ5JZUR+KT2zkrUBW+P3riL+DSND+GW4h4tZ85hdJ3Q3g4RmOLPYcADBO66qZYMsWD4J4G0YxhyLpoUQRb3i1wt0aLBhmsA7ImfHwIDAQAB"
