@@ -7,9 +7,9 @@ import hashlib
 import json
 from distutils.dir_util import copy_tree
 
-MANIFEST_VERSION = sys.argv[3]
 MANIFEST_URL = sys.argv[1]
 EXPORT_FOLDER = sys.argv[2]
+MANIFEST_VERSION = sys.argv[3]
 DEBUG = ''
 if len(sys.argv) > 4:
     DEBUG = sys.argv[4]
