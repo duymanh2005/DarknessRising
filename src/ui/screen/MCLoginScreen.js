@@ -447,7 +447,14 @@ mc.LoginScreen = bb.Screen.extend({
     _loginBySavedToken: function () {
         cc.log("_loginBySavedToken");
         var self = this;
+        var isNotFirstTimeLogin = cc.sys.localStorage.getItem("FIRST_TIME_LOGIN");
+        if(!isNotFirstTimeLogin){
+            CreantsCocosAPI.removeItem(creants_api.KEY_LOGIN_TOKEN);
+            cc.sys.localStorage.setItem("FIRST_TIME_LOGIN", true);
+        }
+
         var str = CreantsCocosAPI.getItem(creants_api.KEY_LOGIN_TOKEN);
+
         cc.log("token: ");
         cc.log(str);
         var tokenObj = null;
