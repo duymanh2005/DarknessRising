@@ -8,6 +8,6 @@ var creants_config = creants_config || {
     "GUEST": "no",
     "KEY_LOGIN_TOKEN": "creants_mufantasy_login_token",
     "KEY_LINK_ACCOUNT": "creants_mufantasy_link_account",
-    "REST_URL": "http://api.creants.net:9393/",
+    "REST_URL": "http://192.168.1.249:9393/",
     "BACKGROUND_COLOR": "#000000"
 };

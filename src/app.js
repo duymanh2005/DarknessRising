@@ -3,6 +3,7 @@ mc.const = {
     ////// important : remove for release///////
     //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJkZXZpY2VfaWQiOiJhZHIjI2FmMzMyM2FlNzQ0YzQ2NjMjIzIiLCJpc3MiOiJhdXRoMCIsImlkIjoiLTEiLCJleHAiOjE1OTE0NTY3NjIsInR5cGUiOiJndWVzdCIsInR0bCI6ODY0MDAwMDAwfQ.Gnzt85S1bFyBFM6fmslWMfYj-yLlqMAjk_Wg4HnfbTU",
     //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAzIiwiZXhwIjoxNTk0NDgyNTM2LCJhcHBfaWQiOiIyIiwidHRsIjo4NjQwMDAwMDB9.YL_nAhXRz68T-Tj55pN7EIy3Z4618yT0pY22_TTz4Ps",
+    //TEST_FACEBOOK_TOKEN:"can test bang token fb"
     TEST_GAME_TOKEN: null,
     ////////////////////////////////////////////////////
     // important code! do not forget to TURN-OFF!!!!!!!!!

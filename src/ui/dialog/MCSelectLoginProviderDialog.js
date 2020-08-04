@@ -43,7 +43,6 @@ mc.SelectLoginProviderDialog = bb.Dialog.extend({
         linkPrivacy.setColor(mc.color.BLUE_SOFT);
         linkTerm.setColor(mc.color.BLUE_SOFT);
 
-        var custom = mc.storage.readCustom();
 
         linkPrivacy.registerTouchEvent(function(){
             cc.sys.openURL(mc.const.URL_PRIVACY);
@@ -75,20 +74,8 @@ mc.SelectLoginProviderDialog = bb.Dialog.extend({
             checkImage.setVisible(!checkImage.isVisible());
         });
 
-        if( custom.agreeTermAndPrivacy === undefined ){
-            checkImage.setVisible(true);
-            node_term.setVisible(true);
-        }
-        else{
-            if( !custom.agreeTermAndPrivacy ){
-                checkImage.setVisible(false);
-                node_term.setVisible(true);
-            }
-            else{
-                checkImage.setVisible(true);
-                node_term.setVisible(false);
-            }
-        }
+        checkImage.setVisible(true);
+        node_term.setVisible(true);
 
         lblTitle.setString(mc.dictionary.getGUIString("lblLogIn"));
         lblDes.setString(mc.dictionary.getGUIString("txtChooseYourAccountToLogIn"));
@@ -104,8 +91,6 @@ mc.SelectLoginProviderDialog = bb.Dialog.extend({
                 mc.view_utility.showSuggestText(mc.dictionary.getGUIString("txtUNeedAgreeTermAndPrivacy"),null,3);
                 return true;
             }
-            mc.storage.custom.agreeTermAndPrivacy = true;
-            mc.storage.saveCustom(mc.storage.custom);
             return false;
         };
 
