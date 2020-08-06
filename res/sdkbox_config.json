@@ -1,1 +1,631 @@
-{"android":{"GoogleAnalytics":{"track_init_screen":true,"trackingCode":"UA-124642673-1","anonymizeIp":true},"UnityAds":{"gameId":"2692486","testMode":true},"SdkboxAds":{"units":["AdColony","AdMob","Chartboost","Appnext","UnityAds"],"placements":[{"units":[{"weight":30,"name":"video","unit":"AdColony"},{"weight":20,"name":"Default","unit":"Chartboost"}],"id":"placement-1","strategy":"weight"},{"units":[{"name":"v4vc","unit":"AdColony"},{"name":"Level Complete","unit":"Chartboost"}],"id":"placement-2","strategy":"weight"},{"units":[{"name":"gameover","unit":"AdMob"}],"id":"placement-admob","strategy":"weight"},{"units":[{"name":"","unit":"UnityAds"}],"id":"placement-unity","strategy":"weight"}]},"iap":{"items":{"starterpack":{"id":"com.rpgwikigames.darknessrising.android.starterpack"},"bestselling":{"id":"com.rpgwikigames.darknessrising.android.bestselling"},"price1p1":{"id":"com.rpgwikigames.darknessrising.android.bless.price1p1"},"price20p1":{"id":"com.rpgwikigames.darknessrising.android.bless.price20p1"},"price10p1":{"id":"com.rpgwikigames.darknessrising.android.bless.price10p1"},"price30p1":{"id":"com.rpgwikigames.darknessrising.android.bless.price30p1"},"price5p2":{"id":"com.rpgwikigames.darknessrising.android.bless.price5p2"},"price5p1":{"id":"com.rpgwikigames.darknessrising.android.bless.price5p1"}},"key":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlK9ETB3+8BO2+Tvjzw7fRR+AvrHM4jHobJvec1Nbehpagl6wtCSCqauTs9tbzL7J8W3RkgLCZIzniZSFmp0Ucc09Qo2hsgmO7/LCO5R6DPFjred5qdLyQAa9vvQYelS2TQkMV/vht7UDrNuAi7xc4eACJvM+4fCasKUZ39t21tRT/OrCKEpYq5yNvLRcqxg6NYBhX4h7wFMUzcZlRHSWziVdpoHULccWUgTgX0mwSw6eXluN4PJ5JZUR+KT2zkrUBW+P3riL+DSND+GW4h4tZ85hdJ3Q3g4RmOLPYcADBO66qZYMsWD4J4G0YxhyLpoUQRb3i1wt0aLBhmsA7ImfHwIDAQAB"},"Appnext":{"debug":true,"ads":{"default":{"creative_type":"managed","postback":"postback","can_close":false,"mute":false,"skip_text":"Skip Text","cache":true,"button_text":"Button Text","button_color":"#6AB344","type":"interstitial","id":"2f6850dd-190a-499d-aa50-1f4a3dd1ed5f","categories":"Action,Puzzle","autoplay":true},"fullscreen":{"postback":"postback","can_close":false,"progress_color":"#ffffff","show_close_button":true,"progress_type":"clock","cache":true,"button_text":"Button Text","button_color":"#6AB344","kVideoLength":"short","type":"fullscreen","id":"17322152-1ef3-4e72-9677-eaf7c09f1054","categories":"Action,Puzzle"}}},"AdMob":{"testdevice":"FE20924C46522E2E204587EB339897C6,kGADSimulatorID","test":false,"cache":{"MU-Reward-Ads":true},"ads":{"next_level":{"type":"interstitial","id":"ca-app-pub-1329374026572143/4564434111"},"Mu-Interstitial":{"type":"interstitial","id":"ca-app-pub-3405222554081347/9366369348"},"rewarded2":{"type":"rewarded_video","id":"ca-app-pub-3940256099942544/5224354917"},"gameover":{"type":"interstitial","id":"ca-app-pub-1329374026572143/1092476511"},"home":{"width":300,"type":"banner","id":"ca-app-pub-1329374026572143/2685130917","alignment":"bottom","height":100},"MU-Reward-Ads":{"type":"rewarded_video","id":"ca-app-pub-3405222554081347/1081271945"},"top_banner":{"type":"banner","id":"ca-app-pub-1329374026572143/3087700911","alignment":"top"},"rewarded":{"type":"rewarded_video","id":"ca-app-pub-1329374026572143/8251968111"}},"appid":"ca-app-pub-1329374026572143~7139010117"},"sdkboxplay":{"leaderboards":[{"id":"CgkI0sux8sMWEAIQAA","name":"ldb1"}],"achievements":[{"incremental":false,"id":"CgkI0sux8sMWEAIQAg","name":"ten-games"},{"incremental":false,"id":"CgkI0sux8sMWEAIQAw","name":"hunter"},{"incremental":false,"id":"CgkI0sux8sMWEAIQBA","name":"craftsman"},{"incremental":true,"id":"CgkI0sux8sMWEAIQBQ","name":"incremental"}],"web_client_id":"769769424796-0n57btuu20smi6hogd5ol9s2dbfan04v.apps.googleusercontent.com","connect_on_start":true,"show_achievement_notification":false,"cloud_save":true,"debug":false},"Facebook":{"debug":false,"app_id":"739616139797120"},"Appodeal":{"app_key":"7acb75c06e543c3c49452f4acb0711377d77b63993cbad49"},"Review":{"LaunchLimit":3,"DayForReminding":1,"tryPromptWhenInit":true,"DayLimit":0,"LaunchForReminding":2,"UserEventLimit":0},"Chartboost":{"ads":{"Default":{"type":"interstitial"},"Level Complete":{"type":"rewarded_video"},"MoreApp":{"type":"more_app"}},"cache":{"Default":true,"Level Complete":true,"__ADS__":true},"id":"4f7b433509b6025804000002","signature":"dd2d41b69ac01b80f443f5b6cf06096d457f82bd"},"AdColony":{"debug":true,"id":"app185a7e71e1714831a49ec7","ads":{"v4vc":{"v4vc":true,"pre_popup":true,"zone":"vz1fd5a8b2bf6841a0a4b826","post_popup":true},"video":{"v4vc":false,"zone":"vz06e8c32a037749699e7050"}}}},"ios":{"GoogleAnalytics":{"track_init_screen":true,"trackingCode":"UA-124642673-1","anonymizeIp":true},"UnityAds":{"gameId":"2692484","testMode":true,"ads":{"banner":{"type":"banner","placement":"banner"}}},"SdkboxAds":{"debug":true,"units":["AdColony","Fyber","Chartboost","AdMob","Appnext","UnityAds"],"placements":[{"units":[{"weight":30,"name":"video","unit":"AdColony"},{"weight":20,"name":"Default","unit":"Chartboost"}],"id":"placement-1","strategy":"weight"},{"units":[{"name":"v4vc","unit":"AdColony"},{"name":"Level Complete","unit":"Chartboost"}],"id":"placement-2","strategy":"weight"},{"units":[{"name":"gameover","unit":"AdMob"}],"id":"placement-admob","strategy":"weight"},{"units":[{"name":"video","unit":"UnityAds"}],"id":"placement-unity","strategy":"weight"}]},"iap":{"items":{"promopack4":{"id":"com.creants.muheroes.ios.promopack4"},"eventpack":{"id":"com.creants.muheroes.ios.eventpack"},"4starticket":{"id":"com.creants.muheroes.ios.4starticket"},"hotpack":{"id":"com.creants.muheroes.ios.hotpack"},"coin_package":{"id":"com.cocos2dx.plugintest2"},"smallpack":{"id":"com.creants.muheroes.ios.smallpack"},"bestoffer":{"id":"com.creants.muheroes.ios.bestoffer"},"superpack":{"id":"com.creants.muheroes.ios.superpack"},"tinypack":{"id":"com.creants.muheroes.ios.tinypack"},"hugepack":{"id":"com.creants.muheroes.ios.hugepack"},"promopack1":{"id":"com.creants.muheroes.ios.promopack1"},"dkequip1":{"id":"com.creants.muheroes.ios.dkequip1"},"promopack3":{"id":"com.creants.muheroes.ios.promopack3"},"elfbuffequip1":{"id":"com.creants.muheroes.ios.elfbuffequip1"},"promopack5":{"id":"com.creants.muheroes.ios.promopack5"},"double_coin":{"type":"non_consumable","id":"com.cocos2dx.non2"},"elfequip1":{"id":"com.creants.muheroes.ios.elfequip1"},"coin_package2":{"id":"com.cocos2dx.plugintest3"},"fighterequip1":{"id":"com.creants.muheroes.ios.fighterequip1"},"mediumpack":{"id":"com.creants.muheroes.ios.mediumpack"},"bigpack":{"id":"com.creants.muheroes.ios.bigpack"},"mgequip1":{"id":"com.creants.muheroes.ios.mgequip1"},"starterpack":{"id":"com.creants.muheroes.ios.starterpack"},"crystal1":{"id":"com.creants.muheroes.ios.crystal1"},"dwequip1":{"id":"com.creants.muheroes.ios.dwequip1"},"bestselling":{"id":"com.creants.muheroes.ios.bestselling"},"remove_ads":{"type":"non_consumable","id":"com.cocos2dx.non1"},"darklordequip1":{"id":"com.creants.muheroes.ios.darklordequip1"},"sumequip1":{"id":"com.creants.muheroes.ios.sumequip1"},"monthlycard":{"id":"com.creants.muheroes.ios.monthlycard"},"lancerequip1":{"id":"com.creants.muheroes.ios.lancerequip1"},"promopack2":{"id":"com.creants.muheroes.ios.promopack2"}}},"Appnext":{"debug":true,"ads":{"default":{"cache":true,"type":"interstitial","id":"6d596bc5-b4c1-48ca-be95-3758fd29a3a5"}}},"AdMob":{"test":false,"testdevice":"kGADSimulatorID","safearea":true,"ads":{"next_level":{"type":"interstitial","id":"ca-app-pub-1329374026572143/9390403312"},"Mu-Interstitial":{"type":"interstitial","id":"ca-app-pub-3405222554081347/6713601211"},"rewarded2":{"type":"rewarded_video","id":"ca-app-pub-3940256099942544/1712485313"},"gameover":{"type":"interstitial","id":"ca-app-pub-1329374026572143/4185543717"},"home":{"width":300,"type":"banner","id":"ca-app-pub-3940256099942544/2934735716","alignment":"bottom","height":50},"MU-Reward-Ads":{"type":"rewarded_video","id":"ca-app-pub-3405222554081347/6562801247"},"top_banner":{"type":"banner","id":"ca-app-pub-1329374026572143/6690628914","alignment":"top"},"rewarded":{"type":"rewarded_video","id":"ca-app-pub-1329374026572143/7991602916"}},"appid":"ca-app-pub-1329374026572143~2708810518"},"sdkboxplay":{"leaderboards":[{"id":"ldb1","name":"ldb1"}],"achievements":[{"incremental":false,"id":"tengames","name":"ten-games"},{"incremental":false,"id":"hunter","name":"hunter"},{"incremental":false,"id":"craftsman","name":"craftsman"},{"incremental":true,"id":"Incremental","name":"incremental"},{"incremental":false,"id":"hidden_incremental","name":"hidden"},{"incremental":true,"id":"flip_cards1","name":"flip_cards1"},{"incremental":true,"id":"flip_cards2","name":"flip_cards2"},{"incremental":true,"id":"flip_cards3","name":"flip_cards3"}],"web_client_id":"769769424796-0n57btuu20smi6hogd5ol9s2dbfan04v.apps.googleusercontent.com","connect_on_start":false,"show_achievement_notification":true,"debug":true},"Facebook":{"debug":false,"app_id":"739616139797120"},"Appodeal":{"app_key":"2cfc9cc638980eb7f5ff35d6eb63dbe404503151ccc451ed"},"Review":{"LaunchLimit":3,"DayForReminding":1,"tryPromptWhenInit":true,"AppID":"587767923","DayLimit":0,"LaunchForReminding":2,"UserEventLimit":0},"Chartboost":{"ads":{"Default":{"type":"interstitial"},"Level Complete":{"type":"rewarded_video"},"MoreApp":{"type":"more_app"}},"id":"4f21c409cd1cb2fb7000001b","signature":"92e2de2fd7070327bdeb54c15a5295309c6fcd2d"},"AdColony":{"id":"appbdee68ae27024084bb334a","ads":{"v4vc":{"v4vc":true,"pre_popup":true,"zone":"vzf8e4e97704c4445c87504e","post_popup":true},"video":{"v4vc":false,"zone":"vzf8fb4670a60e4a139d01b5"}}}},"amazon":{"Review":{"LaunchLimit":3,"DayForReminding":1,"market":"amazon","tryPromptWhenInit":true,"DayLimit":0,"LaunchForReminding":2,"UserEventLimit":0}},"playphone":[]}
+{
+  "android": {
+    "GoogleAnalytics": {
+      "track_init_screen": true,
+      "trackingCode": "UA-124642673-1",
+      "anonymizeIp": true
+    },
+    "UnityAds": {
+      "gameId": "2692486",
+      "testMode": true
+    },
+    "SdkboxAds": {
+      "units": [
+        "AdColony",
+        "AdMob",
+        "Chartboost",
+        "Appnext",
+        "UnityAds"
+      ],
+      "placements": [
+        {
+          "units": [
+            {
+              "weight": 30,
+              "name": "video",
+              "unit": "AdColony"
+            },
+            {
+              "weight": 20,
+              "name": "Default",
+              "unit": "Chartboost"
+            }
+          ],
+          "id": "placement-1",
+          "strategy": "weight"
+        },
+        {
+          "units": [
+            {
+              "name": "v4vc",
+              "unit": "AdColony"
+            },
+            {
+              "name": "Level Complete",
+              "unit": "Chartboost"
+            }
+          ],
+          "id": "placement-2",
+          "strategy": "weight"
+        },
+        {
+          "units": [
+            {
+              "name": "gameover",
+              "unit": "AdMob"
+            }
+          ],
+          "id": "placement-admob",
+          "strategy": "weight"
+        },
+        {
+          "units": [
+            {
+              "name": "",
+              "unit": "UnityAds"
+            }
+          ],
+          "id": "placement-unity",
+          "strategy": "weight"
+        }
+      ]
+    },
+    "iap": {
+      "items": {
+        "starterpack": {
+          "id": "com.rpgwikigames.darknessrising.android.starterpack"
+        },
+        "bestselling": {
+          "id": "com.rpgwikigames.darknessrising.android.bestselling"
+        },
+        "price1p1": {
+          "id": "com.rpgwikigames.darknessrising.android.bless.price1p1"
+        },
+        "price20p1": {
+          "id": "com.rpgwikigames.darknessrising.android.bless.price20p1"
+        },
+        "price10p1": {
+          "id": "com.rpgwikigames.darknessrising.android.bless.price10p1"
+        },
+        "price10p2": {
+          "id": "com.rpgwikigames.darknessrising.android.bless.price10p2"
+        },
+        "price10p2": {
+          "id": "com.rpgwikigames.darknessrising.android.bless.price10p3"
+        },
+        "price30p1": {
+          "id": "com.rpgwikigames.darknessrising.android.bless.price30p1"
+        },
+        "price50p1": {
+          "id": "com.rpgwikigames.darknessrising.android.bless.price50p1"
+        },
+        "price5p2": {
+          "id": "com.rpgwikigames.darknessrising.android.bless.price5p2"
+        },
+        "price5p1": {
+          "id": "com.rpgwikigames.darknessrising.android.bless.price5p1"
+        },
+        "price5p3": {
+          "id": "com.rpgwikigames.darknessrising.android.bless.price5p3"
+        },
+        "price5p4": {
+          "id": "com.rpgwikigames.darknessrising.android.bless.price5p4"
+        }
+      },
+      "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlK9ETB3+8BO2+Tvjzw7fRR+AvrHM4jHobJvec1Nbehpagl6wtCSCqauTs9tbzL7J8W3RkgLCZIzniZSFmp0Ucc09Qo2hsgmO7/LCO5R6DPFjred5qdLyQAa9vvQYelS2TQkMV/vht7UDrNuAi7xc4eACJvM+4fCasKUZ39t21tRT/OrCKEpYq5yNvLRcqxg6NYBhX4h7wFMUzcZlRHSWziVdpoHULccWUgTgX0mwSw6eXluN4PJ5JZUR+KT2zkrUBW+P3riL+DSND+GW4h4tZ85hdJ3Q3g4RmOLPYcADBO66qZYMsWD4J4G0YxhyLpoUQRb3i1wt0aLBhmsA7ImfHwIDAQAB"
+    },
+    "Appnext": {
+      "debug": true,
+      "ads": {
+        "default": {
+          "creative_type": "managed",
+          "postback": "postback",
+          "can_close": false,
+          "mute": false,
+          "skip_text": "Skip Text",
+          "cache": true,
+          "button_text": "Button Text",
+          "button_color": "#6AB344",
+          "type": "interstitial",
+          "id": "2f6850dd-190a-499d-aa50-1f4a3dd1ed5f",
+          "categories": "Action,Puzzle",
+          "autoplay": true
+        },
+        "fullscreen": {
+          "postback": "postback",
+          "can_close": false,
+          "progress_color": "#ffffff",
+          "show_close_button": true,
+          "progress_type": "clock",
+          "cache": true,
+          "button_text": "Button Text",
+          "button_color": "#6AB344",
+          "kVideoLength": "short",
+          "type": "fullscreen",
+          "id": "17322152-1ef3-4e72-9677-eaf7c09f1054",
+          "categories": "Action,Puzzle"
+        }
+      }
+    },
+    "AdMob": {
+      "testdevice": "FE20924C46522E2E204587EB339897C6,kGADSimulatorID",
+      "test": false,
+      "cache": {
+        "MU-Reward-Ads": true
+      },
+      "ads": {
+        "next_level": {
+          "type": "interstitial",
+          "id": "ca-app-pub-1329374026572143/4564434111"
+        },
+        "Mu-Interstitial": {
+          "type": "interstitial",
+          "id": "ca-app-pub-3405222554081347/9366369348"
+        },
+        "rewarded2": {
+          "type": "rewarded_video",
+          "id": "ca-app-pub-3940256099942544/5224354917"
+        },
+        "gameover": {
+          "type": "interstitial",
+          "id": "ca-app-pub-1329374026572143/1092476511"
+        },
+        "home": {
+          "width": 300,
+          "type": "banner",
+          "id": "ca-app-pub-1329374026572143/2685130917",
+          "alignment": "bottom",
+          "height": 100
+        },
+        "MU-Reward-Ads": {
+          "type": "rewarded_video",
+          "id": "ca-app-pub-3405222554081347/1081271945"
+        },
+        "top_banner": {
+          "type": "banner",
+          "id": "ca-app-pub-1329374026572143/3087700911",
+          "alignment": "top"
+        },
+        "rewarded": {
+          "type": "rewarded_video",
+          "id": "ca-app-pub-1329374026572143/8251968111"
+        }
+      },
+      "appid": "ca-app-pub-1329374026572143~7139010117"
+    },
+    "sdkboxplay": {
+      "leaderboards": [
+        {
+          "id": "CgkI0sux8sMWEAIQAA",
+          "name": "ldb1"
+        }
+      ],
+      "achievements": [
+        {
+          "incremental": false,
+          "id": "CgkI0sux8sMWEAIQAg",
+          "name": "ten-games"
+        },
+        {
+          "incremental": false,
+          "id": "CgkI0sux8sMWEAIQAw",
+          "name": "hunter"
+        },
+        {
+          "incremental": false,
+          "id": "CgkI0sux8sMWEAIQBA",
+          "name": "craftsman"
+        },
+        {
+          "incremental": true,
+          "id": "CgkI0sux8sMWEAIQBQ",
+          "name": "incremental"
+        }
+      ],
+      "web_client_id": "769769424796-0n57btuu20smi6hogd5ol9s2dbfan04v.apps.googleusercontent.com",
+      "connect_on_start": true,
+      "show_achievement_notification": false,
+      "cloud_save": true,
+      "debug": false
+    },
+    "Facebook": {
+      "debug": false,
+      "app_id": "739616139797120"
+    },
+    "Appodeal": {
+      "app_key": "7acb75c06e543c3c49452f4acb0711377d77b63993cbad49"
+    },
+    "Review": {
+      "LaunchLimit": 3,
+      "DayForReminding": 1,
+      "tryPromptWhenInit": true,
+      "DayLimit": 0,
+      "LaunchForReminding": 2,
+      "UserEventLimit": 0
+    },
+    "Chartboost": {
+      "ads": {
+        "Default": {
+          "type": "interstitial"
+        },
+        "Level Complete": {
+          "type": "rewarded_video"
+        },
+        "MoreApp": {
+          "type": "more_app"
+        }
+      },
+      "cache": {
+        "Default": true,
+        "Level Complete": true,
+        "__ADS__": true
+      },
+      "id": "4f7b433509b6025804000002",
+      "signature": "dd2d41b69ac01b80f443f5b6cf06096d457f82bd"
+    },
+    "AdColony": {
+      "debug": true,
+      "id": "app185a7e71e1714831a49ec7",
+      "ads": {
+        "v4vc": {
+          "v4vc": true,
+          "pre_popup": true,
+          "zone": "vz1fd5a8b2bf6841a0a4b826",
+          "post_popup": true
+        },
+        "video": {
+          "v4vc": false,
+          "zone": "vz06e8c32a037749699e7050"
+        }
+      }
+    }
+  },
+  "ios": {
+    "GoogleAnalytics": {
+      "track_init_screen": true,
+      "trackingCode": "UA-124642673-1",
+      "anonymizeIp": true
+    },
+    "UnityAds": {
+      "gameId": "2692484",
+      "testMode": true,
+      "ads": {
+        "banner": {
+          "type": "banner",
+          "placement": "banner"
+        }
+      }
+    },
+    "SdkboxAds": {
+      "debug": true,
+      "units": [
+        "AdColony",
+        "Fyber",
+        "Chartboost",
+        "AdMob",
+        "Appnext",
+        "UnityAds"
+      ],
+      "placements": [
+        {
+          "units": [
+            {
+              "weight": 30,
+              "name": "video",
+              "unit": "AdColony"
+            },
+            {
+              "weight": 20,
+              "name": "Default",
+              "unit": "Chartboost"
+            }
+          ],
+          "id": "placement-1",
+          "strategy": "weight"
+        },
+        {
+          "units": [
+            {
+              "name": "v4vc",
+              "unit": "AdColony"
+            },
+            {
+              "name": "Level Complete",
+              "unit": "Chartboost"
+            }
+          ],
+          "id": "placement-2",
+          "strategy": "weight"
+        },
+        {
+          "units": [
+            {
+              "name": "gameover",
+              "unit": "AdMob"
+            }
+          ],
+          "id": "placement-admob",
+          "strategy": "weight"
+        },
+        {
+          "units": [
+            {
+              "name": "video",
+              "unit": "UnityAds"
+            }
+          ],
+          "id": "placement-unity",
+          "strategy": "weight"
+        }
+      ]
+    },
+    "iap": {
+      "items": {
+        "promopack4": {
+          "id": "com.creants.muheroes.ios.promopack4"
+        },
+        "eventpack": {
+          "id": "com.creants.muheroes.ios.eventpack"
+        },
+        "4starticket": {
+          "id": "com.creants.muheroes.ios.4starticket"
+        },
+        "hotpack": {
+          "id": "com.creants.muheroes.ios.hotpack"
+        },
+        "coin_package": {
+          "id": "com.cocos2dx.plugintest2"
+        },
+        "smallpack": {
+          "id": "com.creants.muheroes.ios.smallpack"
+        },
+        "bestoffer": {
+          "id": "com.creants.muheroes.ios.bestoffer"
+        },
+        "superpack": {
+          "id": "com.creants.muheroes.ios.superpack"
+        },
+        "tinypack": {
+          "id": "com.creants.muheroes.ios.tinypack"
+        },
+        "hugepack": {
+          "id": "com.creants.muheroes.ios.hugepack"
+        },
+        "promopack1": {
+          "id": "com.creants.muheroes.ios.promopack1"
+        },
+        "dkequip1": {
+          "id": "com.creants.muheroes.ios.dkequip1"
+        },
+        "promopack3": {
+          "id": "com.creants.muheroes.ios.promopack3"
+        },
+        "elfbuffequip1": {
+          "id": "com.creants.muheroes.ios.elfbuffequip1"
+        },
+        "promopack5": {
+          "id": "com.creants.muheroes.ios.promopack5"
+        },
+        "double_coin": {
+          "type": "non_consumable",
+          "id": "com.cocos2dx.non2"
+        },
+        "elfequip1": {
+          "id": "com.creants.muheroes.ios.elfequip1"
+        },
+        "coin_package2": {
+          "id": "com.cocos2dx.plugintest3"
+        },
+        "fighterequip1": {
+          "id": "com.creants.muheroes.ios.fighterequip1"
+        },
+        "mediumpack": {
+          "id": "com.creants.muheroes.ios.mediumpack"
+        },
+        "bigpack": {
+          "id": "com.creants.muheroes.ios.bigpack"
+        },
+        "mgequip1": {
+          "id": "com.creants.muheroes.ios.mgequip1"
+        },
+        "starterpack": {
+          "id": "com.creants.muheroes.ios.starterpack"
+        },
+        "crystal1": {
+          "id": "com.creants.muheroes.ios.crystal1"
+        },
+        "dwequip1": {
+          "id": "com.creants.muheroes.ios.dwequip1"
+        },
+        "bestselling": {
+          "id": "com.creants.muheroes.ios.bestselling"
+        },
+        "remove_ads": {
+          "type": "non_consumable",
+          "id": "com.cocos2dx.non1"
+        },
+        "darklordequip1": {
+          "id": "com.creants.muheroes.ios.darklordequip1"
+        },
+        "sumequip1": {
+          "id": "com.creants.muheroes.ios.sumequip1"
+        },
+        "monthlycard": {
+          "id": "com.creants.muheroes.ios.monthlycard"
+        },
+        "lancerequip1": {
+          "id": "com.creants.muheroes.ios.lancerequip1"
+        },
+        "promopack2": {
+          "id": "com.creants.muheroes.ios.promopack2"
+        }
+      }
+    },
+    "Appnext": {
+      "debug": true,
+      "ads": {
+        "default": {
+          "cache": true,
+          "type": "interstitial",
+          "id": "6d596bc5-b4c1-48ca-be95-3758fd29a3a5"
+        }
+      }
+    },
+    "AdMob": {
+      "test": false,
+      "testdevice": "kGADSimulatorID",
+      "safearea": true,
+      "ads": {
+        "next_level": {
+          "type": "interstitial",
+          "id": "ca-app-pub-1329374026572143/9390403312"
+        },
+        "Mu-Interstitial": {
+          "type": "interstitial",
+          "id": "ca-app-pub-3405222554081347/6713601211"
+        },
+        "rewarded2": {
+          "type": "rewarded_video",
+          "id": "ca-app-pub-3940256099942544/1712485313"
+        },
+        "gameover": {
+          "type": "interstitial",
+          "id": "ca-app-pub-1329374026572143/4185543717"
+        },
+        "home": {
+          "width": 300,
+          "type": "banner",
+          "id": "ca-app-pub-3940256099942544/2934735716",
+          "alignment": "bottom",
+          "height": 50
+        },
+        "MU-Reward-Ads": {
+          "type": "rewarded_video",
+          "id": "ca-app-pub-3405222554081347/6562801247"
+        },
+        "top_banner": {
+          "type": "banner",
+          "id": "ca-app-pub-1329374026572143/6690628914",
+          "alignment": "top"
+        },
+        "rewarded": {
+          "type": "rewarded_video",
+          "id": "ca-app-pub-1329374026572143/7991602916"
+        }
+      },
+      "appid": "ca-app-pub-1329374026572143~2708810518"
+    },
+    "sdkboxplay": {
+      "leaderboards": [
+        {
+          "id": "ldb1",
+          "name": "ldb1"
+        }
+      ],
+      "achievements": [
+        {
+          "incremental": false,
+          "id": "tengames",
+          "name": "ten-games"
+        },
+        {
+          "incremental": false,
+          "id": "hunter",
+          "name": "hunter"
+        },
+        {
+          "incremental": false,
+          "id": "craftsman",
+          "name": "craftsman"
+        },
+        {
+          "incremental": true,
+          "id": "Incremental",
+          "name": "incremental"
+        },
+        {
+          "incremental": false,
+          "id": "hidden_incremental",
+          "name": "hidden"
+        },
+        {
+          "incremental": true,
+          "id": "flip_cards1",
+          "name": "flip_cards1"
+        },
+        {
+          "incremental": true,
+          "id": "flip_cards2",
+          "name": "flip_cards2"
+        },
+        {
+          "incremental": true,
+          "id": "flip_cards3",
+          "name": "flip_cards3"
+        }
+      ],
+      "web_client_id": "769769424796-0n57btuu20smi6hogd5ol9s2dbfan04v.apps.googleusercontent.com",
+      "connect_on_start": false,
+      "show_achievement_notification": true,
+      "debug": true
+    },
+    "Facebook": {
+      "debug": false,
+      "app_id": "739616139797120"
+    },
+    "Appodeal": {
+      "app_key": "2cfc9cc638980eb7f5ff35d6eb63dbe404503151ccc451ed"
+    },
+    "Review": {
+      "LaunchLimit": 3,
+      "DayForReminding": 1,
+      "tryPromptWhenInit": true,
+      "AppID": "587767923",
+      "DayLimit": 0,
+      "LaunchForReminding": 2,
+      "UserEventLimit": 0
+    },
+    "Chartboost": {
+      "ads": {
+        "Default": {
+          "type": "interstitial"
+        },
+        "Level Complete": {
+          "type": "rewarded_video"
+        },
+        "MoreApp": {
+          "type": "more_app"
+        }
+      },
+      "id": "4f21c409cd1cb2fb7000001b",
+      "signature": "92e2de2fd7070327bdeb54c15a5295309c6fcd2d"
+    },
+    "AdColony": {
+      "id": "appbdee68ae27024084bb334a",
+      "ads": {
+        "v4vc": {
+          "v4vc": true,
+          "pre_popup": true,
+          "zone": "vzf8e4e97704c4445c87504e",
+          "post_popup": true
+        },
+        "video": {
+          "v4vc": false,
+          "zone": "vzf8fb4670a60e4a139d01b5"
+        }
+      }
+    }
+  },
+  "amazon": {
+    "Review": {
+      "LaunchLimit": 3,
+      "DayForReminding": 1,
+      "market": "amazon",
+      "tryPromptWhenInit": true,
+      "DayLimit": 0,
+      "LaunchForReminding": 2,
+      "UserEventLimit": 0
+    }
+  },
+  "playphone": []
+}
