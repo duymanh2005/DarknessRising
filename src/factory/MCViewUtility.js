@@ -1267,6 +1267,17 @@ mc.view_utility = (function () {
             })]));
             bb.director.getCurrentRunningScene().addChild(blackBrk);
         }
+
+        if (mc.GameData.itemStock.afterShowNewComingItem) {
+            var blackBrk = new ccui.ImageView("patch9/gradian_black.png", ccui.Widget.PLIST_TEXTURE);
+            blackBrk.runAction((cc.sequence([cc.delayTime(0.5 * (arrItemInfo.length + 0.5)), cc.callFunc(function () {
+                mc.GameData.itemStock.afterShowNewComingItem();
+                mc.GameData.itemStock.afterShowNewComingItem = null;
+            })])));
+            bb.director.getCurrentRunningScene().addChild(blackBrk);
+
+        }
+
     };
     utility.confirmFunction = function (funcCode, callback) {
         var mapByCode = {};
@@ -1316,14 +1327,14 @@ mc.view_utility = (function () {
     utility.showBuyingFunctionIfAny = function (codeFunction) {
         if (codeFunction &&
             (codeFunction === mc.const.EXCHANGE_FUNC_CHAOS_TICKET ||
-                codeFunction === mc.const.REFRESH_FUNCTION_ILLUSION ||
-                codeFunction === mc.const.FUNCTION_BLOOD_CASTLE ||
-                codeFunction === mc.const.REFRESH_FUNCTION_BUY_ITEM_SLOT ||
-                codeFunction === mc.const.REFRESH_FUNCTION_BUY_HERO_SLOT ||
-                codeFunction === mc.const.REFRESH_FUNCTION_BUY_VAULT_SLOT ||
-                codeFunction === mc.const.EXCHANGE_FUNC_DAILY_CHALLENGER_0 ||
-                codeFunction === mc.const.EXCHANGE_FUNC_DAILY_CHALLENGER_1 ||
-                codeFunction === mc.const.EXCHANGE_FUNC_DAILY_CHALLENGER_2)) {
+            codeFunction === mc.const.REFRESH_FUNCTION_ILLUSION ||
+            codeFunction === mc.const.FUNCTION_BLOOD_CASTLE ||
+            codeFunction === mc.const.REFRESH_FUNCTION_BUY_ITEM_SLOT ||
+            codeFunction === mc.const.REFRESH_FUNCTION_BUY_HERO_SLOT ||
+            codeFunction === mc.const.REFRESH_FUNCTION_BUY_VAULT_SLOT ||
+            codeFunction === mc.const.EXCHANGE_FUNC_DAILY_CHALLENGER_0 ||
+            codeFunction === mc.const.EXCHANGE_FUNC_DAILY_CHALLENGER_1 ||
+            codeFunction === mc.const.EXCHANGE_FUNC_DAILY_CHALLENGER_2)) {
             var mapNameByCode = {};
             mapNameByCode[mc.const.REFRESH_FUNCTION_BUY_STAMINA] = mc.ItemStock.getItemName({index: mc.const.ITEM_INDEX_STAMINA});
             mapNameByCode[mc.const.EXCHANGE_FUNCTION_BUY_ARENA_TICKET] = mc.ItemStock.getItemName({index: mc.const.ITEM_INDEX_ARENA_TICKET});

@@ -186,7 +186,6 @@ mc.EventPagesLayer = mc.MainBaseLayer.extend({
                 mc.protocol.claimFirstTimeRewards(function (result) {
                     mc.view_utility.hideLoadingDialogById(loadingId);
                     if (result) {
-                        bb.framework.getGUIFactory().createInfoDialog(mc.dictionary.getGUIString("ev1_reward_at")).show();
                         mc.GameData.playerInfo.firstTimeRewards = 2;
                     }
                 });

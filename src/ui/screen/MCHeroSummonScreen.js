@@ -3,11 +3,12 @@
  */
 mc.HeroSummonScreen = mc.Screen.extend({
 
-    ctor: function (summonHeroPuzzle) {
+    ctor: function (summonHeroPuzzle, backToScreenCallback) {
         this._super();
         bb.sound.preloadEffect(res.sound_ui_summon_iconhero_appear);
         bb.sound.preloadEffect(res.sound_ui_summon_hero_appear);
         this.summonHeroPuzzle = summonHeroPuzzle;
+        this.backToScreenCallback = backToScreenCallback;
     },
 
     getPreLoadURL: function () {
@@ -103,7 +104,11 @@ mc.HeroSummonScreen = mc.Screen.extend({
                             this._spineView = null;
                         }
                         if (this.summonHeroPuzzle) {
-                            this._showHomeWithItemsScreen();
+                            if(this.backToScreenCallback){
+                                this.backToScreenCallback();
+                            }else{
+                                this._showHomeWithItemsScreen();
+                            }
                         } else {
                             this._showSummonScreen();
                         }
@@ -227,7 +232,11 @@ mc.HeroSummonScreen = mc.Screen.extend({
         var btnBack = new ccui.ImageView("button/Back_button.png", ccui.Widget.PLIST_TEXTURE);
         btnBack.registerTouchEvent(function () {
             if (this.summonHeroPuzzle) {
-                this._showHomeWithItemsScreen();
+                if(this.backToScreenCallback){
+                    this.backToScreenCallback();
+                }else{
+                    this._showHomeWithItemsScreen();
+                }
             } else {
                 this._showSummonScreen();
             }

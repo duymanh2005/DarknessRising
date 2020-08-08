@@ -68,6 +68,15 @@ mc.MainScreen = mc.Screen.extend({
         }
     },
 
+    backToLayer: function (layerId) {
+        mc.GameData.guiState.setCurrentLayerIdForMainScreen(layerId);
+        mc.GameData.guiState.setStackLayerIdForMainScreen([
+            mc.MainScreen.LAYER_HOME,
+            layerId
+        ]);
+        return this;
+    },
+
     getPreLoadURL: function () {
         return mc.resource.getBattleTeamPreLoadURL();
     },
@@ -140,6 +149,7 @@ mc.MainScreen = mc.Screen.extend({
             if (arrNewComingItem) {
                 mc.view_utility.showNewComingItem(arrNewComingItem);
             }
+
         }.bind(this));
 
         this.traceDataChange(mc.GameData.notifySystem, function () {
@@ -425,7 +435,7 @@ mc.MainScreen = mc.Screen.extend({
             else if (layerId === mc.MainScreen.LAYER_BLOOD_CASTLE_STAGE_LIST) {
                 layer = new mc.BloodCastleStageListLayer();
             }
-        }else{
+        } else {
             if (layerId === mc.MainScreen.LAYER_HOME) {
                 layer = new mc.HomeLayer();
                 layer.loadGoblinIfAny();
