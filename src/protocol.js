@@ -281,12 +281,6 @@
             }
         };
 
-        var _showNewCommingHero = function(arrHeroInfo){
-            //new mc.HeroSummonScreen(true, function () {
-            //    new mc.MainScreen().backToLayer(mc.MainScreen.LAYER_SHOP_LIST).show();
-            //    mc.IAPShopDialog.showIAPPromo();
-            //}).show(new cc.LayerColor(cc.color.WHITE));
-        }
 
         var _registerCallback = function (callbackName, callback, param) {
             if (!mapCallbackByName[callbackName]) {
@@ -3118,7 +3112,7 @@
                     itemStock.notifyDataChanged();
                 }
                 if (heroes) {
-                    summonManager.setSummonHeroes(heroes);
+                    //summonManager.setSummonHeroes(heroes);
                     heroStock.updateArrayHero(heroes);
                     heroStock.notifyDataChanged();
                     _performCallback(callbackName, heroes);
@@ -3194,7 +3188,6 @@
 
                 var arrHeroInfo = json["heroes"];
                 if(arrHeroInfo){
-                    //summonManager.setSummonHeroes(arrHeroInfo);
                     heroStock.updateArrayHero(arrHeroInfo);
                     heroStock.notifyDataChanged();
                 }
@@ -3202,15 +3195,6 @@
                 if (reward) {
                     var items = reward["items"];
                     itemStock.pushArrayNewComingItem(items);
-                    if(arrHeroInfo){
-                        itemStock.afterShowNewComingItem = function(){
-                           _showNewCommingHero(arrHeroInfo);
-                        }
-                    }
-                }else{
-                    if (arrHeroInfo) {
-                        _showNewCommingHero(arrHeroInfo);
-                    }
                 }
 
                 (update || reward) && itemStock.notifyDataChanged();
@@ -3736,7 +3720,6 @@
 
                 var arrHeroInfo = json["heroes"];
                 if(arrHeroInfo){
-                    //summonManager.setSummonHeroes(arrHeroInfo);
                     heroStock.updateArrayHero(arrHeroInfo);
                     heroStock.notifyDataChanged();
                 }
@@ -3744,15 +3727,6 @@
                 if (reward) {
                     var items = reward["items"];
                     itemStock.pushArrayNewComingItem(items);
-                    if(arrHeroInfo){
-                        itemStock.afterShowNewComingItem = function(){
-                            _showNewCommingHero(arrHeroInfo);
-                        }
-                    }
-                }else{
-                    if (arrHeroInfo) {
-                        _showNewCommingHero(arrHeroInfo);
-                    }
                 }
 
                 var strInAppItem = _popParameter(callbackName);
@@ -3774,20 +3748,18 @@
                     }
 
                     var arrHeroInfo = json["heroes"];
+                    if(arrHeroInfo){
+                        heroStock.updateArrayHero(arrHeroInfo);
+                        heroStock.notifyDataChanged();
+                    }
+
                     var reward = json["reward"];
                     if (reward) {
                         var items = reward["items"];
                         itemStock.pushArrayNewComingItem(items);
-                        if(arrHeroInfo){
-                            itemStock.afterShowNewComingItem = function(){
-                                _showNewCommingHero(arrHeroInfo);
-                            }
-                        }
-                    }else{
-                        if (arrHeroInfo) {
-                            _showNewCommingHero(arrHeroInfo);
-                        }
                     }
+
+                    (update || reward) && itemStock.notifyDataChanged();
                 }
             } else if (act === PAYMENT_MANA_COIN_REWARD_CLAIM) {
                 var update = json["update"];

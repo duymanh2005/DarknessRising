@@ -1,5 +1,5 @@
 {
-    "assets": {
+    "assets": { 
         "res/Default/ImageFile.png": {
             "md5": "9968dd4895282d41db942358983afe7c", 
             "size": 1735
@@ -949,8 +949,8 @@
             "size": 1865
         }, 
         "res/json/data/dynamic_event.json": {
-            "md5": "0725f0455cfc9812b614eaf93a6fdbc2", 
-            "size": 600
+            "md5": "8c138acafa99e8c2863349c720c5be66", 
+            "size": 450
         }, 
         "res/json/data/effects.json": {
             "md5": "ce050f00c17405c9ef74f8bdf653f42d", 
@@ -981,12 +981,12 @@
             "size": 131483
         }, 
         "res/json/data/illusion.json": {
-            "md5": "d4f9d6a5d4c1dfa27d32a96682e1e7a3", 
-            "size": 47256
+            "md5": "692ff50675653ab04aebfdb694280ccb", 
+            "size": 47248
         }, 
         "res/json/data/in_app.json": {
-            "md5": "a14a479356da227ac2b8396b92f52836", 
-            "size": 2959
+            "md5": "b9e8644c7bfaacd18a8a4d4a7d7928b0", 
+            "size": 3342
         }, 
         "res/json/data/language/campaignBattleRules.json": {
             "md5": "ce9bed3dec4eee1572ee7b050c92880b", 
@@ -1001,28 +1001,28 @@
             "size": 3429
         }, 
         "res/json/data/language/en.json": {
-            "md5": "844df03180f251e0c83f442879672e52", 
-            "size": 188267
+            "md5": "a183f5e86371b7f0fbb70fae9bea1767", 
+            "size": 188347
         }, 
         "res/json/data/language/gui-i18en.json": {
             "md5": "72abe35f9c67b70bc791620be750894d", 
             "size": 32876
         }, 
         "res/json/data/language/gui-i18vi.json": {
-            "md5": "9b5e6b60bf7aac363d47d7ece693df47", 
-            "size": 39576
+            "md5": "f31b95b4931633fa17724254bb249f07", 
+            "size": 53416
         }, 
         "res/json/data/language/guildBossRules.json": {
             "md5": "bfaefedbcc37e391597d12eb381146cb", 
             "size": 1654
         }, 
         "res/json/data/language/news.json": {
-            "md5": "0379e67153f072f60455c927f7d475ca", 
-            "size": 269
+            "md5": "188370b430294cc56d9b1bc6338e45a5", 
+            "size": 323
         }, 
         "res/json/data/language/vi.json": {
-            "md5": "180cba1688b6998bcb1432be81cfad41", 
-            "size": 212815
+            "md5": "ccd8defaf3fd4c535c62ca861240e305", 
+            "size": 269581
         }, 
         "res/json/data/language/worldBossRules.json": {
             "md5": "24a67fcc46e61b75ad3b617846b425c2", 
@@ -1045,8 +1045,8 @@
             "size": 240
         }, 
         "res/json/data/quests.json": {
-            "md5": "46c1b2b36f53d3714d0a719f82d442c8", 
-            "size": 84549
+            "md5": "ef3d7291cf9d81f7757eaea2ac289bad", 
+            "size": 74447
         }, 
         "res/json/data/ranking_heroes.json": {
             "md5": "d9ba2d166b6ced23e826c9b7ebd01740", 
@@ -1077,7 +1077,7 @@
             "size": 911
         }, 
         "res/json/data/stages.json": {
-            "md5": "630d4310a444ae3d2db6bed55b4916df", 
+            "md5": "686f09e49ed31d5d57d38fccd5ace60a", 
             "size": 160229
         }, 
         "res/json/data/summon_package.json": {
@@ -5815,14 +5815,14 @@
         "res/png/equipment/ico_sword_spirit5.png": {
             "md5": "7d092ce3ab997c41bb4605d9ebc8a0cb", 
             "size": 12210
-        },
+        }, 
         "res/sdkbox_config.json": {
-            "md5": "1ba91e2141e9b8d6369848b94c53ae7f", 
-            "size": 15823
+            "md5": "d0d46c0a4449f03a666ba0152fc04933", 
+            "size": 16422
         }, 
         "res/server-list.json": {
-            "md5": "be7a4ad68d948e54d464de7ddb784096", 
-            "size": 249
+            "md5": "f3f8216ab45eb23f54ac9db6ec8c754f", 
+            "size": 175
         }, 
         "res/sound/effect/armoredskeleton_a.mp3": {
             "md5": "bb97d2298b941588ff687e6b49abd58e", 
@@ -12073,9 +12073,9 @@
             "size": 32571
         }
     }, 
-    "packageUrl": "http://192.168.1.249:8000/manifest/mufantasy/",
-    "remoteManifestUrl": "http://192.168.1.249:8000/manifest/mufantasy/project.manifest",
-    "remoteVersionUrl": "http://192.168.1.249:8000/manifest/mufantasy/version.manifest",
+    "packageUrl": "http://drapi.rpgwikigames.com:8000/manifest/mufantasy/",
+    "remoteManifestUrl": "http://drapi.rpgwikigames.com:8000/manifest/mufantasy/project.manifest",
+    "remoteVersionUrl": "http://drapi.rpgwikigames.com:8000/manifest/mufantasy/version.manifest",
     "searchPaths": [], 
-    "version": "2.1.210"
+    "version": "2.1.239"
 }

@@ -1268,16 +1268,6 @@ mc.view_utility = (function () {
             bb.director.getCurrentRunningScene().addChild(blackBrk);
         }
 
-        if (mc.GameData.itemStock.afterShowNewComingItem) {
-            var blackBrk = new ccui.ImageView("patch9/gradian_black.png", ccui.Widget.PLIST_TEXTURE);
-            blackBrk.runAction((cc.sequence([cc.delayTime(0.5 * (arrItemInfo.length + 0.5)), cc.callFunc(function () {
-                mc.GameData.itemStock.afterShowNewComingItem();
-                mc.GameData.itemStock.afterShowNewComingItem = null;
-            })])));
-            bb.director.getCurrentRunningScene().addChild(blackBrk);
-
-        }
-
     };
     utility.confirmFunction = function (funcCode, callback) {
         var mapByCode = {};

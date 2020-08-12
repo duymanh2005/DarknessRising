@@ -10,7 +10,7 @@ android {
         applicationId "com.rpgwikigames.darknessrising"
         minSdkVersion PROP_MIN_SDK_VERSION
         targetSdkVersion PROP_TARGET_SDK_VERSION
-        versionCode 10
+        versionCode 11
         versionName "1.0.0"
 
         externalNativeBuild {

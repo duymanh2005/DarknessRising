@@ -1,7 +1,7 @@
 var mc = mc || {};
 mc.const = {
     ////// important : remove for release///////
-    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAzIiwiZXhwIjoxNTk3NTUyNDM4LCJhcHBfaWQiOiIyIiwidHRsIjo4NjQwMDAwMDB9.-5iztFFlXFNY4aHSHTUr-0sumTPACjAt8QdbfRSf2Z4",
+    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJkZXZpY2VfaWQiOiJhZHIjIzIzOTFlMzNlOWIxYTAxZDkjIzIiLCJpc3MiOiJhdXRoMCIsImlkIjoiLTEiLCJleHAiOjE1OTc5MDgyODEsInR5cGUiOiJndWVzdCIsInR0bCI6ODY0MDAwMDAwfQ.RFWDKU_jyekGiID741ewUgk8NUfe_Kw_J5vCHwEELZk",
     //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJkZXZpY2VfaWQiOiJhZHIjI2FmMzMyM2FlNzQ0YzQ2NjMjIzIiLCJpc3MiOiJhdXRoMCIsImlkIjoiLTEiLCJleHAiOjE1OTc3MTkxMjEsInR5cGUiOiJndWVzdCIsInR0bCI6ODY0MDAwMDAwfQ.MQfLtaP-MDWC4ORXGO8haqWhPcQInWyiV8wPPQYiwo0",
     //TEST_FACEBOOK_TOKEN:"can test bang token fb"
     TEST_GAME_TOKEN: null,
@@ -37,8 +37,8 @@ mc.const = {
             {
                 "id": 1,
                 "svn": "mus1",
-                "auth": "http://192.168.1.249:9393/",
-                "ws": "ws://192.168.1.249:9494/ws",
+                "auth": "http://drapi.rpgwikigames.com:9393/",
+                "ws": "ws://drapi.rpgwikigames.com:9494/ws",
                 "name": "S1: Legendary",
                 "type": "REAL",
                 "statusCode": 2

@@ -361,7 +361,7 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
             mc.view_utility.seenNotify(btnBlackSmith);
         }.bind(this));
         btnFBPage.registerTouchEvent(function () {
-            cc.sys.openURL("https://www.facebook.com/groups/217740385953954/");
+            cc.sys.openURL("https://www.facebook.com/DarknessRisingGlobal/");
             mc.view_utility.seenNotify(btnFBPage);
         }.bind(this));
 
