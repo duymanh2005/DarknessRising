@@ -172,7 +172,11 @@ mc.ArenaVSDialog = bb.Dialog.extend({
                 });
             }
         });
-        btnFight.setUserData(mc.ArenaManager.getOpponentHeroId(oppInfo));
+        var opponentId = mc.ArenaManager.getOpponentHeroId(oppInfo);
+        if(opponentId.startsWith("NPC")){
+            cc.log("-------------");
+        }
+        btnFight.setUserData(opponentId);
 
         lblGainWin.setString(oppWinPoint > 0 ? ("+" + oppWinPoint) : "" + oppWinPoint);
         lblGainLose.setString(oppLosePoint > 0 ? "-" + oppLosePoint : "" + oppLosePoint);

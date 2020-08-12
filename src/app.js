@@ -17,7 +17,7 @@ mc.const = {
     ENABLE_REPLACE_FONT_BM: false,
     IS_EN_LANGUAGE : false,
 
-    CHEAT_UNLOCK_ALL: false,
+    CHEAT_UNLOCK_ALL: true,
     CHEAT_GOD_DAMAGE: 0,
     CHEAT_GOD_HP: 0,
     CHEAT_GOD_MP: 0,
@@ -31,7 +31,7 @@ mc.const = {
     SKIP_TUTORIAL_BATTLE: false,
     BATTLE_VERSION: "1.0",
     VERSION: "1.0.0",
-    VERSION_NEWS: "1.0.0",
+    VERSION_NEWS: "1.0.1",
     SERVERS: {
         "servers": [
             {
