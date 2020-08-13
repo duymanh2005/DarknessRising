@@ -17,7 +17,7 @@ mc.const = {
     ENABLE_REPLACE_FONT_BM: false,
     IS_EN_LANGUAGE : false,
 
-    CHEAT_UNLOCK_ALL: true,
+    CHEAT_UNLOCK_ALL: false,
     CHEAT_GOD_DAMAGE: 0,
     CHEAT_GOD_HP: 0,
     CHEAT_GOD_MP: 0,
