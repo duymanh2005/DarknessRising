@@ -655,7 +655,7 @@
             mc.dictionary.worldBossMap["topDameRewardList"].push({
                 "top": 0,
                 "bossIndex": 9998,
-                "reward": "11999/30#11051/20"
+                "reward": mc.dictionary.worldBossMap["lastHitReward"]
             });
         }
         mc.dictionary.spinData = mapSpin;

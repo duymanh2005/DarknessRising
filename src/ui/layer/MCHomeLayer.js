@@ -371,7 +371,7 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
             mc.view_utility.seenNotify(btnChat, true);
         }.bind(this));
 
-        btnChat.setVisible(false);
+        btnChat.setVisible(true);
         btnFirstTimeTopup.registerTouchEvent(function () {
             if (mc.GameData.playerInfo.firstTimeRewards === 2) {
                 mc.GUIFactory.showShopScreen(mc.ShopManager.SHOP_RELIC);
