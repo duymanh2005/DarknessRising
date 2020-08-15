@@ -70,7 +70,7 @@ mc.ItemView = ccui.Widget.extend({
         this.setUserData(itemInfo);
         var heroSoul = mc.ItemStock.getItemHeroSoul(itemInfo);
         if (heroSoul) {
-            var heroAvtView = this._heroAvtView = new mc.HeroAvatarView(heroSoul);
+            var heroAvtView = this._heroAvtView = new mc.HeroAvatarView(heroSoul, null, true);
             heroAvtView.x = heroAvtView.width * 0.5;
             heroAvtView.y = heroAvtView.height * 0.5;
             this.width = heroAvtView.width;

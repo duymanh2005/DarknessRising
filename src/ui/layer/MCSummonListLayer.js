@@ -360,7 +360,7 @@ mc.SummonListLayer = mc.MainBaseLayer.extend({
                 var view = arrHeaderView[i];
                 var groupID = view.getUserData();
                 var flag = notifySystem.doHaveFreeSummonPackage(groupID);
-                if (focusAtNotifyGroup && flag && !hasFocus&&!cc.isNumber(currSummonPackageGroupId)) {
+                if (focusAtNotifyGroup && flag && !hasFocus && !cc.isNumber(currSummonPackageGroupId)) {
                     hasFocus = true;
                     currSummonPackageGroupId = groupID;
                     mc.GameData.guiState.setCurrentSummonPackageGroupId(groupID);
@@ -396,7 +396,43 @@ mc.SummonListLayer = mc.MainBaseLayer.extend({
 
         var _setFocusSummonView = function (index) {
             nodeContent.removeAllChildren();
-            nodeContent.addChild(new ccui.ImageView("res/png/banner/summon/" + mapPackages[index]["url"], ccui.Widget.LOCAL_TEXTURE));
+            var bannerImage = new ccui.ImageView("res/png/banner/summon/" + mapPackages[index]["url"], ccui.Widget.LOCAL_TEXTURE);
+            nodeContent.addChild(bannerImage);
+
+            if (mapPackages[index]["url"] === "banner_Legendary.png") {
+                var arrItem = [];
+                var arrStr = "322#222".split('#');
+                for (var i = 0; i < arrStr.length; i++) {
+                    var heroDict = mc.dictionary.getHeroDictByIndex(parseInt(arrStr[i]));
+                    arrItem.push(mc.ItemStock.createJsonItemHeroSoul(i, heroDict));
+                }
+
+                var arrView = bb.collection.createArray(arrItem.length, function (index) {
+                    var itemView = new mc.ItemView(arrItem[index]);
+                    itemView.scale = 0.5;
+                    itemView.registerViewItemInfo();
+
+                    //var richText = new ccui.RichText();
+                    //var text2 = new ccui.RichElementText(1, cc.color.GREEN, 255, "HELLO", "Arial", 35);
+                    //richText.pushBackElement(text2);
+                    //itemView.addChild(richText);
+
+                    var upRateText = mc.GUIFactory.createComplexString("+5%", mc.color.YELLOW_SOFT, res.font_cam_stroke_32_export_fnt);
+                    upRateText.setVisible(true);
+                    upRateText.y += itemView.height + 10;
+                    upRateText.x += itemView.width / 2;
+                    itemView.addChild(upRateText);
+                    return itemView;
+                });
+                var gridView = bb.layout.grid(arrView, Math.min(4, arrView.length), 60, 5);
+                var arrAllView = [];
+                arrAllView.push(gridView);
+                var contentView = bb.layout.linear(arrAllView, 40, bb.layout.LINEAR_HORIZONTAL);
+                contentView.x += 86;
+                contentView.y += 50;
+                bannerImage.addChild(contentView);
+
+            }
             mc.GameData.guiState.setCurrentSummonPackageGroupId(index);
             _updateSummonGUI();
         };

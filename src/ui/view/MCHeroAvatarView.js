@@ -4,9 +4,9 @@
 mc.HeroAvatarView = ccui.Widget.extend({
     isBlack: false,
 
-    ctor: function (heroInfo, statusObject) {
+    ctor: function (heroInfo, statusObject, hideLevel) {
         this._super();
-        this.setHeroInfo(heroInfo, statusObject);
+        this.setHeroInfo(heroInfo, statusObject, hideLevel);
     },
 
     setStatusText: function (statusText, color) {
@@ -46,7 +46,7 @@ mc.HeroAvatarView = ccui.Widget.extend({
         iconPick.setVisible(isPick);
     },
 
-    setHeroInfo: function (heroInfo, statusObject) {
+    setHeroInfo: function (heroInfo, statusObject, hideLevel) {
         var brk = null;
         this.removeAllChildren();
         var heightBar = 0;
@@ -142,24 +142,27 @@ mc.HeroAvatarView = ccui.Widget.extend({
 
             var lvlBG = this._lblLevelBG = new ccui.ImageView("patch9/pnl_maskname.png", ccui.Widget.PLIST_TEXTURE);
 
-            if(mc.enableReplaceFontBM())
-            {
-                var lblLevel = this._lblLvl = mc.view_utility.createTextFromFontBitmap(res.font_cam_stroke_32_export_fnt);
-                lblLevel.setString("Lv." + lvl);
-                lblLevel.setFontSize(22);
-                lblLevel.setAnchorPoint(1, 0.5);
-                lvlBG.addChild(lblLevel);
-                lblLevel.x = lvlBG.width - 5;
-                lblLevel.y = lvlBG.height * 0.5 - 5;
+            if(!hideLevel){
+                if(mc.enableReplaceFontBM())
+                {
+                    var lblLevel = this._lblLvl = mc.view_utility.createTextFromFontBitmap(res.font_cam_stroke_32_export_fnt);
+                    lblLevel.setString("Lv." + lvl);
+                    lblLevel.setFontSize(22);
+                    lblLevel.setAnchorPoint(1, 0.5);
+                    lvlBG.addChild(lblLevel);
+                    lblLevel.x = lvlBG.width - 5;
+                    lblLevel.y = lvlBG.height * 0.5 - 5;
+                }
+                else
+                {
+                    var lblLevel = this._lblLvl = mc.GUIFactory.createText("Lv." + lvl);
+                    lblLevel.setAnchorPoint(1, 0.5);
+                    lvlBG.addChild(lblLevel);
+                    lblLevel.x = lvlBG.width;
+                    lblLevel.y = lvlBG.height * 0.6;
+                }
             }
-            else
-            {
-                var lblLevel = this._lblLvl = mc.GUIFactory.createText("Lv." + lvl);
-                lblLevel.setAnchorPoint(1, 0.5);
-                lvlBG.addChild(lblLevel);
-                lblLevel.x = lvlBG.width;
-                lblLevel.y = lvlBG.height * 0.6;
-            }
+
 
             avt.addChild(lvlBG);
             lvlBG.setCascadeOpacityEnabled(true);
