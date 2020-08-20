@@ -1,8 +1,8 @@
 var mc = mc || {};
 mc.const = {
     ////// important : remove for release///////
-    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJkZXZpY2VfaWQiOiJhZHIjIzIzOTFlMzNlOWIxYTAxZDkjIzIiLCJpc3MiOiJhdXRoMCIsImlkIjoiLTEiLCJleHAiOjE1OTc5MDgyODEsInR5cGUiOiJndWVzdCIsInR0bCI6ODY0MDAwMDAwfQ.RFWDKU_jyekGiID741ewUgk8NUfe_Kw_J5vCHwEELZk",
-    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJkZXZpY2VfaWQiOiJhZHIjI2FmMzMyM2FlNzQ0YzQ2NjMjIzIiLCJpc3MiOiJhdXRoMCIsImlkIjoiLTEiLCJleHAiOjE1OTc3MTkxMjEsInR5cGUiOiJndWVzdCIsInR0bCI6ODY0MDAwMDAwfQ.MQfLtaP-MDWC4ORXGO8haqWhPcQInWyiV8wPPQYiwo0",
+    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNTk4NzczMzk1LCJhcHBfaWQiOiJtdXMxIiwidHRsIjo4NjQwMDAwMDB9.BkWTEhM1USCMqXN0gJGqotpoetDpwYC1DcacBuMmJMs",
+    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNTk4NTg3NTg2LCJhcHBfaWQiOiIyIiwidHRsIjo4NjQwMDAwMDB9._FJWW_fxnqeYKuQQWpiaUn9CiN-Hlc15ZkIgBKqju0M",
     //TEST_FACEBOOK_TOKEN:"can test bang token fb"
     TEST_GAME_TOKEN: null,
     ////////////////////////////////////////////////////
@@ -37,8 +37,8 @@ mc.const = {
             {
                 "id": 1,
                 "svn": "mus1",
-                "auth": "http://drapi.rpgwikigames.com:9393/",
-                "ws": "ws://drapi.rpgwikigames.com:9494/ws",
+                "auth": "http://192.168.1.249:9393/",
+                "ws": "ws://192.168.1.249:9494/ws",
                 "name": "S1: Legendary",
                 "type": "REAL",
                 "statusCode": 2
@@ -67,6 +67,7 @@ mc.const = {
     KEY_FEATURE_NOTIFY: "feature_notify",
     AUTO_RETRY: "auto_retry",
     CHAT_INDEX: "chat_last_index",
+    CLAIMED_LEVEL_UP_REWARD_MAP: "claimed_level_up_reward_map",
     NEWS_LAST_VERSION: "NEWS_LAST_VERSION",
     KEY_ENCRYPT: "mu",
     KEY_JOINED_SERVER: "joined_server",

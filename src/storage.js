@@ -63,7 +63,7 @@ mc.storage.saveLastNewsVersion = function () {
 mc.storage.readObjIAPBuyTimes = function () {
     try {
         if (!mc.storage.objIAPBuyTimes) {
-            var str = cc.sys.localStorage.getItem(mc.const.KEY_IAP_BUY_TIMES)||"{}";
+            var str = cc.sys.localStorage.getItem(mc.const.KEY_IAP_BUY_TIMES) || "{}";
             if (str) {
                 mc.storage.objIAPBuyTimes = JSON.parse(str);
             }
@@ -364,6 +364,15 @@ mc.storage.readChatLastIndex = function () {
         mc.storage.chatLastIndex = JSON.parse(cus) || {};
     }
     return mc.storage.chatLastIndex;
+};
+
+mc.storage.getClaimedLevelUpReward = function () {
+    var levelUpInfo = cc.sys.localStorage.getItem(mc.const.CLAIMED_LEVEL_UP_REWARD_MAP);
+    return levelUpInfo && JSON.parse(levelUpInfo);
+};
+
+mc.storage.setClaimedLevelUpReward = function (data) {
+    cc.sys.localStorage.setItem(mc.const.CLAIMED_LEVEL_UP_REWARD_MAP, JSON.stringify(data));
 };
 
 mc.storage.saveEggGameLog = function () {

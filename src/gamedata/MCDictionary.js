@@ -659,6 +659,7 @@
             });
         }
         mc.dictionary.spinData = mapSpin;
+        mc.dictionary.levelUpReward = cc.loader.getRes(res.data_level_up_reward);
 
         mc.dictionary.guildData = cc.loader.getRes(res.data_guild_json);
         mc.dictionary.guildBossData = cc.loader.getRes(res.data_guild_boss_json);

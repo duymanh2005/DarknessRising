@@ -185,6 +185,7 @@
     "src/ui/dialog/MCSellingItemDialog.js",
     "src/ui/dialog/MCExchangeItemByBlessDialog.js",
     "src/ui/dialog/MCIAPShopDialog.js",
+    "src/ui/dialog/MCLevelUpEventDialog.js",
     "src/ui/dialog/MCDialogLogin.js",
     "src/ui/dialog/MCDialogMenu.js",
     "src/ui/dialog/MCHowToGetDialog.js",
