@@ -64,8 +64,8 @@ mc.NotifySystem = bb.Class.extend({
         }
     },
 
-    touchSummon: function(){
-        if(this._summonNotificationByEvent) {
+    touchSummon: function () {
+        if (this._summonNotificationByEvent) {
             this._summonNotificationByEvent = false;
             mc.storage.featureNotify["lastTimeShowSummonEvent"] = bb.now();
             mc.storage.saveFeatureNotify();
@@ -496,6 +496,39 @@ mc.NotifySystem = bb.Class.extend({
         return mc.GameData.mailManager.getNotifyCount() > 0;
     },
 
+    doHaveClaimLevelUpReward: function () {
+        cc.log('-------- check doHaveClaimLevelUpReward ------');
+        var playerLevel = mc.GameData.playerInfo.getLevel();
+        if (playerLevel < 10) return false;
+
+        const validLevelReward = mc.dictionary.levelUpReward.filter(function (levelReward) {
+            return levelReward["level"] <= playerLevel
+        });
+
+        var rewardLvlUpInf = mc.storage.getClaimedLevelUpReward();
+        if (!rewardLvlUpInf) return true;
+
+        var claimedMap = rewardLvlUpInf["claimedMap"];
+        if (claimedMap.length <= 0) {
+            return true;
+        }
+
+        var isEnableBonus = rewardLvlUpInf["isEnableBonus"];
+        for (var i = 0; i < validLevelReward.length; i++) {
+            var rewardLevel = validLevelReward[i];
+            if (!claimedMap[rewardLevel['level']])
+                return true;
+
+            if (isEnableBonus > 0 && claimedMap[rewardLevel['level']] >= 1)
+                return true;
+
+            if (claimedMap[rewardLevel['level']] <= -1)
+                return true;
+        }
+
+        return false;
+    },
+
     checkEmptyObject: function (obj) {
         for (var key in obj) {
             if (obj.hasOwnProperty(key))
@@ -517,8 +550,8 @@ mc.NotifySystem = bb.Class.extend({
         return (this._summonNotificationByGroup && this._summonNotificationByGroup[groupID] && this._summonNotificationByGroup[groupID][index]);
     },
 
-    haveSummonNotificationByEvent: function(){
-      return this._summonNotificationByEvent;
+    haveSummonNotificationByEvent: function () {
+        return this._summonNotificationByEvent;
     },
 
     getEquipmentLevelUpNotification: function () {
