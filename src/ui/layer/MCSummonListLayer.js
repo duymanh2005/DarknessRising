@@ -401,7 +401,7 @@ mc.SummonListLayer = mc.MainBaseLayer.extend({
 
             if (mapPackages[index]["url"] === "banner_Legendary.png") {
                 var arrItem = [];
-                var arrStr = "322#222".split('#');
+                var arrStr = "133#363#163#733#533".split('#');
                 for (var i = 0; i < arrStr.length; i++) {
                     var heroDict = mc.dictionary.getHeroDictByIndex(parseInt(arrStr[i]));
                     arrItem.push(mc.ItemStock.createJsonItemHeroSoul(i, heroDict));
@@ -417,20 +417,39 @@ mc.SummonListLayer = mc.MainBaseLayer.extend({
                     //richText.pushBackElement(text2);
                     //itemView.addChild(richText);
 
-                    var upRateText = mc.GUIFactory.createComplexString("+5%", mc.color.YELLOW_SOFT, res.font_cam_stroke_32_export_fnt);
+                    var upRateText = mc.GUIFactory.createComplexString("+15%", mc.color.YELLOW_SOFT, res.font_cam_stroke_32_export_fnt);
                     upRateText.setVisible(true);
                     upRateText.y += itemView.height + 10;
                     upRateText.x += itemView.width / 2;
                     itemView.addChild(upRateText);
                     return itemView;
                 });
-                var gridView = bb.layout.grid(arrView, Math.min(4, arrView.length), 60, 5);
+                var gridView = bb.layout.grid(arrView, Math.min(6, arrView.length), 280, 10);
                 var arrAllView = [];
                 arrAllView.push(gridView);
                 var contentView = bb.layout.linear(arrAllView, 40, bb.layout.LINEAR_HORIZONTAL);
-                contentView.x += 86;
+                contentView.anchorX = 0;
+                contentView.x += 12;
                 contentView.y += 50;
                 bannerImage.addChild(contentView);
+
+                var countDown = mc.GUIFactory.createComplexString("End Time", mc.color.WHITE_NORMAL, res.font_cam_stroke_32_export_fnt);
+                countDown.anchorX = 0;
+                countDown.x += contentView.width + 50;
+                countDown.y += 50;
+                bannerImage.addChild(countDown);
+                var markTime = bb.now();
+                var endDateTime = new Date(Date.UTC(2020, 8 - 1, 29, 0, 0, 0)).getTime();
+                var waitingTimeSeconds = (endDateTime - markTime) / 1000;
+                bannerImage.runAction(cc.sequence([cc.delayTime(1.0), cc.callFunc(function () {
+                    waitingTimeSeconds--;
+                    if (waitingTimeSeconds <= 0) {
+                        countDown.setString("Done");
+                    } else {
+                        countDown.setString(mc.view_utility.formatDurationTime(waitingTimeSeconds * 1000));
+                    }
+
+                })]).repeatForever());
 
             }
             mc.GameData.guiState.setCurrentSummonPackageGroupId(index);

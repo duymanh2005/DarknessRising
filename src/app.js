@@ -1,7 +1,7 @@
 var mc = mc || {};
 mc.const = {
     ////// important : remove for release///////
-    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJkZXZpY2VfaWQiOiJhZHIjIzIzOTFlMzNlOWIxYTAxZDkjIzIiLCJpc3MiOiJhdXRoMCIsImlkIjoiLTEiLCJleHAiOjE1OTc5MDgyODEsInR5cGUiOiJndWVzdCIsInR0bCI6ODY0MDAwMDAwfQ.RFWDKU_jyekGiID741ewUgk8NUfe_Kw_J5vCHwEELZk",
+    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNTk4ODY2MDc2LCJhcHBfaWQiOiJtdXMxIiwidHRsIjo4NjQwMDAwMDB9.EZrye2OzABfb28Qsm4QcJEx8wTD3FenZUkeRwz4KEfE",
     //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJkZXZpY2VfaWQiOiJhZHIjI2FmMzMyM2FlNzQ0YzQ2NjMjIzIiLCJpc3MiOiJhdXRoMCIsImlkIjoiLTEiLCJleHAiOjE1OTc3MTkxMjEsInR5cGUiOiJndWVzdCIsInR0bCI6ODY0MDAwMDAwfQ.MQfLtaP-MDWC4ORXGO8haqWhPcQInWyiV8wPPQYiwo0",
     //TEST_FACEBOOK_TOKEN:"can test bang token fb"
     TEST_GAME_TOKEN: null,
@@ -31,7 +31,7 @@ mc.const = {
     SKIP_TUTORIAL_BATTLE: false,
     BATTLE_VERSION: "1.0",
     VERSION: "1.0.0",
-    VERSION_NEWS: "1.0.1",
+    VERSION_NEWS: "1.0.2",
     SERVERS: {
         "servers": [
             {
@@ -140,7 +140,7 @@ mc.const = {
     REQUEST_TIME_OUT: 30,
     BATTLE_TIME_SCALE: 1.0,
     SPINE_SCALE: 0.1,
-    PRODUCTION_STAMINA_PER_SECOND: 5 / (15 * 60),// 15m -> 5 ve
+    PRODUCTION_STAMINA_PER_SECOND: 5 / (10 * 60),// 10m -> 5 ve
     PRODUCTION_ARENA_PER_SECOND: 1 / (20 * 60),//20m -> 1 vé
     PRODUCTION_SPIN_PER_SECOND: 0,// get from config.json
     SEARCH_ARENA_OPPONENT_GOLD: 10000,
