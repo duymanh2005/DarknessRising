@@ -42,7 +42,8 @@
         GUILD_BOSS: "cmd_guild_boss",
         BATTLE_RELIC: "cmd_battle_relic",
         DEVICE: "cmd_device",
-        ILLUSION: "cmd_illusion"
+        ILLUSION: "cmd_illusion",
+        LEVEL_UP_EVENT: "cmd_level_up_event"
 
     };
     key.PARAMETER = {
@@ -209,6 +210,10 @@
     var PLAYER_LINK_ACCOUNT = 2;
     var PLAYER_VIEW_INFO = 3;
     var PLAYER_TRANSFER_RELIC = 4;
+
+    var LEVEL_UP_EVENT_CLAIM = 1;
+    var LEVEL_UP_EVENT_GET_REWARD = 5;
+    var LEVEL_UP__EVENT_IN_APP_SUCCESS = 6;
 
 
     var FRIEND_GET_SUGGEST_HERO_LIST = 1;
@@ -424,6 +429,23 @@
             _registerCallback(key.MU_EXTENSION.PLAYER + "_" + PLAYER_TRANSFER_RELIC, callback);
             QANT2X.sendExtensionMessage(key.MU_EXTENSION.PLAYER, paramsObj);
         };
+        protocol.getLevelUpReward = function (callback) {
+            var paramsObj = new QAntObject();
+            paramsObj.putInt("act", LEVEL_UP_EVENT_GET_REWARD);
+            _registerCallback(key.MU_EXTENSION.LEVEL_UP_EVENT + "_" + LEVEL_UP_EVENT_GET_REWARD, callback);
+            QANT2X.sendExtensionMessage(key.MU_EXTENSION.LEVEL_UP_EVENT, paramsObj);
+        };
+        protocol.claimLevelUpReward = function (level, callback) {
+            var paramsObj = new QAntObject();
+            paramsObj.putInt("act", LEVEL_UP_EVENT_CLAIM);
+            paramsObj.putInt("level", level);
+            _registerCallback(key.MU_EXTENSION.LEVEL_UP_EVENT + "_" + LEVEL_UP_EVENT_CLAIM, callback);
+            QANT2X.sendExtensionMessage(key.MU_EXTENSION.LEVEL_UP_EVENT, paramsObj);
+        };
+        protocol.registerLevelUpEventBuySuccess = function(callback){
+            _registerCallback(key.MU_EXTENSION.LEVEL_UP_EVENT + "_" + LEVEL_UP__EVENT_IN_APP_SUCCESS, callback);
+        };
+
         protocol.viewPlayerProfile = function (userId, callback) {
             var paramsObj = new QAntObject();
             paramsObj.putInt("act", PLAYER_VIEW_INFO);
@@ -2270,13 +2292,45 @@
                 if (result["code"] === 1) {
                     CreantsCocosAPI.linkFacebook(result["token"], playerInfo.getId());
                 }
-            } else if (act === PLAYER_TRANSFER_RELIC) {
+            }  else if (act === PLAYER_TRANSFER_RELIC) {
                 result = true;
             }
             mc.log(act + "," + code);
             var callbackName = key.MU_EXTENSION.PLAYER + "_" + act;
             _performCallback(callbackName, result);
         });
+
+        MessageManager.addReceiveCallback(key.MU_EXTENSION.LEVEL_UP_EVENT, function (response) {
+            var json = response.toJson();
+            var result = json;
+            var act = json["act"];
+            if (act === LEVEL_UP_EVENT_CLAIM) {
+                var update = json["update"];
+                if (update) {
+                    var items = update["items"];
+                    if (items && items.length > 0) {
+                        itemStock.updateArrayItem(items);
+                    }
+                }
+
+                var reward = json["reward"];
+                if (reward) {
+                    var items = reward["items"];
+                    itemStock.pushArrayNewComingItem(items);
+                }
+
+                (update || reward) && itemStock.notifyDataChanged();
+                mc.storage.setClaimedLevelUpReward(result["data"]);
+            } else if (act === LEVEL_UP_EVENT_GET_REWARD) {
+                mc.storage.setClaimedLevelUpReward(result["data"]);
+            } else if (act === LEVEL_UP__EVENT_IN_APP_SUCCESS) {
+                mc.storage.setClaimedLevelUpReward(result["data"]);
+            }
+
+            var callbackName = key.MU_EXTENSION.LEVEL_UP_EVENT + "_" + act;
+            _performCallback(callbackName, result);
+        });
+
         MessageManager.addReceiveCallback(key.MU_EXTENSION.JOIN_STAGE, function (response) {
             var json = response.toJson();
             var result = json;
@@ -3187,7 +3241,7 @@
                 }
 
                 var arrHeroInfo = json["heroes"];
-                if(arrHeroInfo){
+                if (arrHeroInfo) {
                     heroStock.updateArrayHero(arrHeroInfo);
                     heroStock.notifyDataChanged();
                 }
@@ -3719,7 +3773,7 @@
                 }
 
                 var arrHeroInfo = json["heroes"];
-                if(arrHeroInfo){
+                if (arrHeroInfo) {
                     heroStock.updateArrayHero(arrHeroInfo);
                     heroStock.notifyDataChanged();
                 }
@@ -3735,10 +3789,10 @@
                 json["buyTimesArr"] && paymentSystem.setBuyTimes(json["buyTimesArr"]);
             } else if (act === PAYMENT_GET_BUY_TIMES) {
                 json["buyTimesArr"] && paymentSystem.setBuyTimes(json["buyTimesArr"]);
-            } else if (act === PAYMENT_FIRST_TIME_CHECK) {
+            }else if (act === PAYMENT_FIRST_TIME_CHECK) {
                 if (json["state"] !== undefined) {
                     mc.GameData.playerInfo.firstTimeRewards = json["state"];
-                }else{
+                } else {
                     var update = json["update"];
                     if (update) {
                         var items = update["items"];
@@ -3748,7 +3802,7 @@
                     }
 
                     var arrHeroInfo = json["heroes"];
-                    if(arrHeroInfo){
+                    if (arrHeroInfo) {
                         heroStock.updateArrayHero(arrHeroInfo);
                         heroStock.notifyDataChanged();
                     }

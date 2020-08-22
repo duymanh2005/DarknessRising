@@ -31,12 +31,13 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
         var btnSetting = rootMap["btnSetting"];
         var btnSpin = rootMap["btnSpin"];
         var btnEgg = rootMap["btnEgg"];
-        var btnMail = this._btnMail = rootMap["btnMail"];
+        var btnMail = rootMap["btnMail"];
         var btnBlackSmith = this._btnBlackSmith = rootMap["btnBlackSmith"];
+        var btnLevelUpEvent = rootMap["btnLevelUpEvent"];
         var btnFriend = rootMap["btnFriend"];
         var btnEvent = rootMap["btnEvent"];
         var btnPromotion = rootMap["btnPromotion"];
-        var btnAds = this.btnAds = rootMap["btnAds"];
+        var btnAds = rootMap["btnAds"];
         var btnChat = rootMap["btnChat"];
         var btnFBPage = rootMap["btnFBPage"];
         var btnFirstTimeTopup = rootMap["btnFirstTime"];
@@ -46,6 +47,8 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
         this.botPos = bb.collection.createArray(botIcons.length, function (index) {
             return botIcons[index].getPosition();
         });
+
+       this._getLevelUpRewardInfo();
 
         var arrangeFunc = function () {
             var checkPos = [btnPromotion, btnEgg, btnEvent, btnFirstTimeTopup, btnAds];
@@ -165,6 +168,15 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
         iconTopupAnimate.setAnimation(0, "idle", true);
         topupIcon.setVisible(false);
 
+        var levelUpIcon = btnLevelUpEvent.getChildByName("Image_31");
+        var iconLevelUpAnimate = sp.SkeletonAnimation.createWithJsonFile(res.spine_icon_level_up_event_json, res.spine_icon_level_up_event_atlas, 1.0);
+        btnLevelUpEvent.addChild(iconLevelUpAnimate);
+        iconLevelUpAnimate.setName("animateIcon");
+        iconLevelUpAnimate.setLocalZOrder(1);
+        iconLevelUpAnimate.setPosition(levelUpIcon.x, levelUpIcon.y);
+        iconLevelUpAnimate.setAnimation(0, "idle", true);
+        levelUpIcon.setVisible(false);
+
         //Remove Snow
         if (hasSnow) {
             var childNode = new cc.ParticleSystem(res.f_snow_plist);
@@ -221,8 +233,7 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
         }
 
         var self = this;
-        mc.protocol.checkFirstTimeRewards(function () {
-        }.bind(this));
+        mc.protocol.checkFirstTimeRewards(function () {}.bind(this));
         var _updateLanguage = function () {
             btnAds.getChildByName("BitmapFontLabel_11").setString(mc.dictionary.getGUIString("lblHomeBonus"));
             btnAds.getChildByName("BitmapFontLabel_11").setString("");
@@ -360,6 +371,12 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
             this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_BLACK_SMITH);
             mc.view_utility.seenNotify(btnBlackSmith);
         }.bind(this));
+
+        btnLevelUpEvent.registerTouchEvent(function () {
+            mc.MCLevelUpEventDialog.showIAPItem(mc.dictionary.IAPMap["com.rpgwikigames.darknessrising.android.bless.price10p1_13"]);
+            mc.view_utility.seenNotify(btnLevelUpEvent);
+        }.bind(this));
+
         btnFBPage.registerTouchEvent(function () {
             cc.sys.openURL("https://www.facebook.com/DarknessRisingGlobal/");
             mc.view_utility.seenNotify(btnFBPage);
@@ -395,6 +412,7 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
         this.loadGoblinIfAny();
 
         var _updateNotifyForWidget = function () {
+            cc.log("----------- update notify for all icon -------------");
             var notifySystem = mc.GameData.notifySystem;
             var notifyIcon = mc.view_utility.setNotifyIconForWidget(btnMenu, (notifySystem.getQuestCompleteNotification() != null), 0.8);
             notifyIcon && notifyIcon.setLocalZOrder(4);
@@ -421,11 +439,14 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
             notifyIcon && notifyIcon.setLocalZOrder(4);
             notifyIcon = mc.view_utility.setNotifyIconForWidget(btnPromotion, notifySystem.hasIapNotify() && mc.GameData.notifySystem.hasNewInAppPackage(), 0.8);
             notifyIcon && notifyIcon.setLocalZOrder(4);
+            notifyIcon = mc.view_utility.setNotifyIconForWidget(btnLevelUpEvent, notifySystem.doHaveClaimLevelUpReward(), 0.8);
+            notifyIcon && notifyIcon.setLocalZOrder(4);
             arrangeFunc();
         };
 
         _updateNotifyForWidget();
         this.traceDataChange(mc.GameData.notifySystem, function () {
+            cc.log('===== notifySystem have data change');
             _updateNotifyForWidget();
         });
 
@@ -541,6 +562,13 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
         if (lbl) {
             lbl.setLocalZOrder(3);
         }
+    },
+
+    _getLevelUpRewardInfo: function(){
+        //var claimedLevelUpReward = mc.storage.getClaimedLevelUpReward();
+        //if (!claimedLevelUpReward) {
+            mc.protocol.getLevelUpReward(function () {}.bind(this));
+        //}
     },
 
     onStart: function () {

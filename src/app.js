@@ -67,6 +67,7 @@ mc.const = {
     KEY_FEATURE_NOTIFY: "feature_notify",
     AUTO_RETRY: "auto_retry",
     CHAT_INDEX: "chat_last_index",
+    CLAIMED_LEVEL_UP_REWARD_MAP: "claimed_level_up_reward_map",
     NEWS_LAST_VERSION: "NEWS_LAST_VERSION",
     KEY_ENCRYPT: "mu",
     KEY_JOINED_SERVER: "joined_server",
