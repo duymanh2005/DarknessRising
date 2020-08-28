@@ -2,9 +2,9 @@ var mc = mc || {};
 mc.const = {
     ////// important : remove for release///////
     //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJkZXZpY2VfaWQiOiJhZHIjIzIzOTFlMzNlOWIxYTAxZDkjIzIiLCJpc3MiOiJhdXRoMCIsImlkIjoiLTEiLCJleHAiOjE1OTc5MDgyODEsInR5cGUiOiJndWVzdCIsInR0bCI6ODY0MDAwMDAwfQ.RFWDKU_jyekGiID741ewUgk8NUfe_Kw_J5vCHwEELZk",
-    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJkZXZpY2VfaWQiOiJhZHIjI2FmMzMyM2FlNzQ0YzQ2NjMjIzIiLCJpc3MiOiJhdXRoMCIsImlkIjoiLTEiLCJleHAiOjE1OTc3MTkxMjEsInR5cGUiOiJndWVzdCIsInR0bCI6ODY0MDAwMDAwfQ.MQfLtaP-MDWC4ORXGO8haqWhPcQInWyiV8wPPQYiwo0",
+    TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNTk5MTQzMjI2LCJhcHBfaWQiOiIyIiwidHRsIjo4NjQwMDAwMDB9.aYxAAH31P7zCkpoQ5vlC6RL47-8XRb4KtJMSl21s3Qw",
     //TEST_FACEBOOK_TOKEN:"can test bang token fb"
-    TEST_GAME_TOKEN: null,
+    //TEST_GAME_TOKEN: null,
     ////////////////////////////////////////////////////
     // important code! do not forget to TURN-OFF!!!!!!!!!
     SERVER_MAINTENANCE: false,
@@ -782,6 +782,18 @@ mc.loadGUI = function (url) {
     node.y = cc.winSize.height * 0.5;
     return node;
 };
+
+mc.GUIFactory.applyMixComplexString = function(lblWidget, text, color, font){
+    var lbl = new mc.view_utility.createRichTextFromFontBitmap({width:460,height: lblWidget.height});
+    lbl.setComplexString(text, color || mc.color.BROWN_SOFT, font || res.font_UTMBienvenue_none_32_export_fnt);
+    lblWidget.setString("");
+    lbl.setLocalZOrder(lblWidget.getLocalZOrder());
+    lbl.setPosition(lblWidget.getPosition());
+    lbl.setAnchorPoint(lblWidget.getAnchorPoint());
+    lbl.scale = lblWidget.scale;
+    lblWidget.getParent().addChild(lbl);
+    return lbl;
+}
 
 mc.GUIFactory.applyComplexString = function (lblWidget, text, color, font) {
     var lbl = null;

@@ -160,10 +160,10 @@ mc.Message = cc.Class.extend({
     _isOriginalLangShowed: true,
     _isVIP: false,
     _contentParam: null,
-    _item : null,
+    _itemList : null,
     _actions : null,
 
-    ctor: function (id, content, timeStamp, name, avtIndex, msgIndex, isVIP, contentParams, item, action) {
+    ctor: function (id, content, timeStamp, name, avtIndex, msgIndex, isVIP, contentParams, itemList, action) {
         this._ownerId = id;
         this._content = content;
         this._timeStamp = timeStamp;
@@ -172,9 +172,9 @@ mc.Message = cc.Class.extend({
         this._index = msgIndex;
         this._isVIP = isVIP
         this._contentParam = contentParams;
-        if(item)
+        if(itemList)
         {
-            this._item = JSON.parse(item);
+            this._itemList = itemList;
         }
         if (contentParams) {
             this._content = bb.utility.formatStringWithParams(mc.dictionary.getI18nMsg(content), contentParams);
@@ -192,7 +192,7 @@ mc.Message = cc.Class.extend({
 
     getItem : function()
     {
-        return this._item;
+        return this._itemList;
     },
 
     getOwnerId: function () {
@@ -255,7 +255,7 @@ mc.Message = cc.Class.extend({
 });
 
 mc.Message.createFromJson = function (json) {
-    return new mc.Message(json["senderId"], json["message"], json["time"], json["senderName"], json["avatar"], json["index"], json["vip"], json["contentParams"], json["item"],json["goTo"])
+    return new mc.Message(json["senderId"], json["message"], json["time"], json["senderName"], json["avatar"], json["index"], json["vip"], json["contentParams"], json["items"],json["goTo"])
 };
 
 mc.ChatSystem.GROUP_CHAT_WORLD_ID = "world";

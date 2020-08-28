@@ -473,19 +473,15 @@ mc.ChatDialog = bb.Dialog.extend({
         var traslateButton = bloon.getChildByName("traslateButton");
         var created_time_label = bloon.getChildByName("created_time_label");
         created_time_label.setHorizontalAlignment(cc.TEXT_ALIGNMENT_RIGHT);
-        var itMe = msg.getOwnerId() === mc.GameData.playerInfo.getId();
-        //avatar.setVisible(false);
-        var isSystemMsg = false;
-        var itemMsg = msg.getItem();
-        if (msg.getOwnerId() === "sys") {
-            isSystemMsg = true;
+        var itMe =msg.getOwnerId() === mc.GameData.playerInfo.getId();
+        var isSystemMsg = (msg.getOwnerId() === "sys");
+        if (isSystemMsg) {
             username.setColor(mc.color.RED);
         }
         bloon.loadTexture("chat/chatBalloonWhite.png", ccui.Widget.PLIST_TEXTURE);
         bloon.setAnchorPoint(0, 0.5);
         created_time_label.setAnchorPoint(1, 1);
         bloon.x = PADDING_LEFT;
-        // if (isLastMsg) {
         avatar.setVisible(true);
         var isVip = msg.isVIP();
         var avt = mc.view_utility.createAvatarPlayer(parseInt(msg.getOwnerAvatarIndex()), isVip);
@@ -516,56 +512,39 @@ mc.ChatDialog = bb.Dialog.extend({
         var msg_label = bloon.getChildByName("msg_label");
         msg_label.setString(chatContent);
         msg_label.setFontFillColor(mc.color.BLACK_DISABLE_STRONG);
-        // if (msg_label.width > 300) {
-        msg_label.setDimensions(cc.size(messageViewWidth, 0));
-        /* } else if (msg_label.width < 150) {
-         itMe && msg_label.setHorizontalAlignment(cc.TEXT_ALIGNMENT_RIGHT);
-         msg_label.setDimensions(cc.size(150, 0));
-         }*/
+        var dim = cc.size(messageViewWidth, 0);
+        msg_label.setDimensions(dim);
+
         var itemView = null;
         var itemHeight = 0;
-        var scale = 0.65;
-        if (itemMsg) {
-            if (itemMsg.items) {
+        var scale = 0.5;
+        var heroItems = msg.getItem();
+        if (heroItems) {
+            var itemView = bb.layout.linear(bb.collection.createArray(heroItems.length, function (index) {
+                var element = heroItems[index];
+                var itemV = new mc.ItemView(element);
+                itemV.setNewScale(scale);
+                itemV.anchorY = 1;
+                itemV.registerViewItemInfo();
+                itemHeight = itemV.height;
+                return itemV;
+            }), 40);
+            itemView = mc.view_utility.wrapWidget(itemView, msg_label.width - 10, false, {
+                top: 15,
+                left: -10,
+                bottom: 25,
+                a1: -32,
+                a2: -32
+            });
 
-                var itemView = bb.layout.linear(bb.collection.createArray(itemMsg.items.length, function (index) {
-                    var element = itemMsg.items[index];
-                    var itemV = new mc.ItemView(element);
-                    itemV.setNewScale(scale);
-                    itemV.anchorY = 1;
-                    itemV.registerViewItemInfo();
-                    itemHeight = itemV.height;
-                    return itemV;
-                }), 40);
-                itemView = mc.view_utility.wrapWidget(itemView, msg_label.width - 10, false, {
-                    top: 15,
-                    left: -10,
-                    bottom: 25,
-                    a1: -32,
-                    a2: -32
-                });
-
-                bloon.addChild(itemView);
-                itemView.anchorX = 0.5;
-                itemView.anchorY = 1;
-                itemView.height = itemHeight + 10 ;
-                itemHeight += 30;
-                itemView.x = msg_label.width / 2 + 10;
-            }
-            else {
-                itemMsg.no = 1;
-                itemView = new mc.ItemView(itemMsg);
-                itemView.anchorX = 0.5;
-                itemView.anchorY = 1;
-                itemView.scale = scale;
-                itemView.x = msg_label.width / 2;
-                itemView.y = msg_label.y;
-                itemHeight = itemView.height * scale + 20;
-                msg_label.y = itemHeight;
-                itemView.registerViewItemInfo();
-                bloon.addChild(itemView);
-            }
+            bloon.addChild(itemView);
+            itemView.anchorX = 0.5;
+            itemView.anchorY = 1;
+            itemView.height = itemHeight + 10;
+            itemHeight += 20;
+            itemView.x = 60;
         }
+
         var goToAction = msg.getActions();
         var panelAction = null;
         var panelHeight = 0;
@@ -595,8 +574,12 @@ mc.ChatDialog = bb.Dialog.extend({
         bloon.height = msgSize.height + 30 + nameSize.height + itemHeight * scale + 20 + panelHeight;
         if(itemView)
         {
-            bloon.height += 20;
+            bloon.height +=  20;
+            if(isSystemMsg){
+                bloon.height += msg_label.height;
+            }
         }
+
         bloon.width = Math.max(msg_label.width + 20, nameSize.width + 20);
         panel.height = bloon.height;
         avatar.setPosition(avatar.width / 2 + 5, panel.height - avatar.height / 2);
@@ -618,7 +601,11 @@ mc.ChatDialog = bb.Dialog.extend({
             panelAction.y = msg_label.y - msg_label.height ;
         }
         avatar.y = panel.height - avatar.height / 2;
-        //this._runApearMsgAction(bloon);
+
+        if(isSystemMsg){
+           mc.GUIFactory.applyMixComplexString(msg_label, bb.utility.stringBreakLines(chatContent), mc.color.BLACK_DISABLE_STRONG, res.font_cam_stroke_32_export_fnt);
+        }
+
         return panel;
     },
 

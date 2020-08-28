@@ -114,6 +114,22 @@ ccui.TextBMFont.prototype.setComplexString = function (str, color) {
     this.setString(str);
     this.setColor(color || cc.color.WHITE);
 };
+ccui.RichText.prototype.setComplexString = function (str, color) {
+    if (str) {
+        var strArr = str.split('#');
+        for (var i = 0; i < strArr.length; i++) {
+            var text1 = new ccui.RichElementText(1, color ||cc.color.GRAY, 255, strArr[i], "Arial", 22);
+            if (strArr[i].indexOf("_") > -1) {
+                var colorArr = strArr[i].split('_');
+                text1 = new ccui.RichElementText(1, cc.hexToColor("#" +colorArr[0]), 255, colorArr[1], "Arial", 22);
+            }
+
+            this.pushBackElement(text1);
+        }
+
+    }
+};
+
 cc.LabelBMFont.prototype.setComplexString = function (str, color) {
     if (str) {
         var strs = str.split('#');

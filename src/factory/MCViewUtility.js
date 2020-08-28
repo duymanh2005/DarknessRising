@@ -2095,6 +2095,14 @@ mc.view_utility = (function () {
         //}
 
     };
+
+    utility.createRichTextFromFontBitmap = function(contentSize){
+        var textField = new ccui.RichText();
+        textField.setContentSize(contentSize);
+        textField.ignoreContentAdaptWithSize(false);
+        return textField;
+    }
+
     utility.createTextFromFontBitmap = function (fontBM) {
         //if(mc.enableReplaceFontBM())
         //{
