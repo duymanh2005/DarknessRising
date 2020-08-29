@@ -3166,7 +3166,7 @@
                     itemStock.notifyDataChanged();
                 }
                 if (heroes) {
-                    //summonManager.setSummonHeroes(heroes);
+                    summonManager.setSummonHeroes(heroes);
                     heroStock.updateArrayHero(heroes);
                     heroStock.notifyDataChanged();
                     _performCallback(callbackName, heroes);

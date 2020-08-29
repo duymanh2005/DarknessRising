@@ -109,7 +109,6 @@ mc.BannerView = cc.Node.extend({
         this.loop = loop || 1;
 
         var icon = this.icon = rootMap["icon"];
-        var richText = new ccui.RichText()
         var spineFairy = sp.SkeletonAnimation.createWithJsonFile(res.spine_ui_story_teller_json, res.spine_ui_story_teller_atlas, 1.0);
         spineFairy.scale = 0.1;
         spineFairy.setAnimation(0, "default", true);

@@ -2,7 +2,7 @@ var mc = mc || {};
 mc.const = {
     ////// important : remove for release///////
     //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNTk4ODY2MDc2LCJhcHBfaWQiOiJtdXMxIiwidHRsIjo4NjQwMDAwMDB9.EZrye2OzABfb28Qsm4QcJEx8wTD3FenZUkeRwz4KEfE",
-    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJkZXZpY2VfaWQiOiJhZHIjI2FmMzMyM2FlNzQ0YzQ2NjMjIzIiLCJpc3MiOiJhdXRoMCIsImlkIjoiLTEiLCJleHAiOjE1OTc3MTkxMjEsInR5cGUiOiJndWVzdCIsInR0bCI6ODY0MDAwMDAwfQ.MQfLtaP-MDWC4ORXGO8haqWhPcQInWyiV8wPPQYiwo0",
+    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNTk4NTg3NTg2LCJhcHBfaWQiOiIyIiwidHRsIjo4NjQwMDAwMDB9._FJWW_fxnqeYKuQQWpiaUn9CiN-Hlc15ZkIgBKqju0M",
     //TEST_FACEBOOK_TOKEN:"can test bang token fb"
     TEST_GAME_TOKEN: null,
     ////////////////////////////////////////////////////

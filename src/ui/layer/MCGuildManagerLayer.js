@@ -1332,7 +1332,11 @@ mc.GuildManagerLayer = mc.MainBaseLayer.extend({
         lblOnline.setVisible(true);
         var onlineAgo = info["now"];
         if (onlineAgo && onlineAgo !== -1) {
-            lblOnline.setString(cc.formatStr(mc.dictionary.getGUIString("Offline"), mc.view_utility.formatDurationTime(bb.now() - onlineAgo)));
+            var logoutAgo = bb.now() - onlineAgo;
+            if(logoutAgo > 172800000){
+                logoutAgo = this._getMsAfterStartOfDate(bb.now()) - 24*60*60*1000 + this._getMsAfterStartOfDate(logoutAgo);
+            }
+            lblOnline.setString(cc.formatStr(mc.dictionary.getGUIString("Offline"), mc.view_utility.formatDurationTime(logoutAgo)));
             lblOnline.setColor(mc.color.BROWN_SOFT);
         } else {
             lblOnline.setString(mc.dictionary.getGUIString("Online"));
@@ -1397,6 +1401,13 @@ mc.GuildManagerLayer = mc.MainBaseLayer.extend({
             }.bind(this));
         }
 
+    },
+
+    _getMsAfterStartOfDate: function (date) {
+        var currentDate = new Date(date);
+        var startCurrentDate = new Date(date);
+        startCurrentDate.setHours(0, 0, 0, 0);
+        return currentDate.getTime() - startCurrentDate.getTime();
     },
 
     _showDialogVS: function () {

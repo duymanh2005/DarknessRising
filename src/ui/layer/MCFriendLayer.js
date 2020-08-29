@@ -571,7 +571,11 @@ mc.FriendLayer = mc.MainBaseLayer.extend({
         lblOnline.setVisible(true);
         var onlineAgo = modelInfo["now"];
         if (onlineAgo && onlineAgo !== -1) {
-            lblOnline.setString(cc.formatStr(mc.dictionary.getGUIString("Offline"), mc.view_utility.formatDurationTime(bb.now() - onlineAgo)));
+            var logoutAgo = bb.now() - onlineAgo;
+            if(logoutAgo > 172800000){
+                logoutAgo = this._getMsAfterStartOfDate(bb.now()) - 24*60*60*1000 + this._getMsAfterStartOfDate(logoutAgo);
+            }
+            lblOnline.setString(cc.formatStr(mc.dictionary.getGUIString("Offline"), mc.view_utility.formatDurationTime(logoutAgo)));
             lblOnline.setColor(mc.color.BROWN_SOFT);
         } else {
             lblOnline.setString(mc.dictionary.getGUIString("Online"));
@@ -600,6 +604,15 @@ mc.FriendLayer = mc.MainBaseLayer.extend({
         btnSend.setCascadeOpacityEnabled(true);
         avt.setCascadeOpacityEnabled(true);
         return cell;
+    },
+
+    _getMsAfterStartOfDate: function (date) {
+        var currentDate = new Date(date);
+        var startCurrentDate = new Date(date);
+        startCurrentDate.setHours(0, 0, 0, 0);
+        cc.log("------------------------");
+        cc.log(currentDate.getTime() + "/" + startCurrentDate.getTime());
+        return currentDate.getTime() - startCurrentDate.getTime();
     },
 
     _requestFriendSolo: function () {
