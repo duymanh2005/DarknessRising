@@ -1,8 +1,8 @@
 var mc = mc || {};
 mc.const = {
     ////// important : remove for release///////
-    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNTk4ODY2MDc2LCJhcHBfaWQiOiJtdXMxIiwidHRsIjo4NjQwMDAwMDB9.EZrye2OzABfb28Qsm4QcJEx8wTD3FenZUkeRwz4KEfE",
-    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNTk4NTg3NTg2LCJhcHBfaWQiOiIyIiwidHRsIjo4NjQwMDAwMDB9._FJWW_fxnqeYKuQQWpiaUn9CiN-Hlc15ZkIgBKqju0M",
+    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJkZXZpY2VfaWQiOiJhZHIjIzIzOTFlMzNlOWIxYTAxZDkjIzIiLCJpc3MiOiJhdXRoMCIsImlkIjoiLTEiLCJleHAiOjE1OTc5MDgyODEsInR5cGUiOiJndWVzdCIsInR0bCI6ODY0MDAwMDAwfQ.RFWDKU_jyekGiID741ewUgk8NUfe_Kw_J5vCHwEELZk",
+    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNTk5NjY3NjU5LCJhcHBfaWQiOiIyIiwidHRsIjo4NjQwMDAwMDB9.Um-F4s52jqQmfPDe42egvpdyW7UKdkJJ5dal0TxZA5k",
     //TEST_FACEBOOK_TOKEN:"can test bang token fb"
     TEST_GAME_TOKEN: null,
     ////////////////////////////////////////////////////
@@ -31,7 +31,7 @@ mc.const = {
     SKIP_TUTORIAL_BATTLE: false,
     BATTLE_VERSION: "1.0",
     VERSION: "1.0.0",
-    VERSION_NEWS: "1.0.2",
+    VERSION_NEWS: "1.0.1",
     SERVERS: {
         "servers": [
             {
@@ -67,7 +67,6 @@ mc.const = {
     KEY_FEATURE_NOTIFY: "feature_notify",
     AUTO_RETRY: "auto_retry",
     CHAT_INDEX: "chat_last_index",
-    CLAIMED_LEVEL_UP_REWARD_MAP: "claimed_level_up_reward_map",
     NEWS_LAST_VERSION: "NEWS_LAST_VERSION",
     KEY_ENCRYPT: "mu",
     KEY_JOINED_SERVER: "joined_server",
@@ -141,7 +140,7 @@ mc.const = {
     REQUEST_TIME_OUT: 30,
     BATTLE_TIME_SCALE: 1.0,
     SPINE_SCALE: 0.1,
-    PRODUCTION_STAMINA_PER_SECOND: 5 / (10 * 60),// 10m -> 5 ve
+    PRODUCTION_STAMINA_PER_SECOND: 5 / (15 * 60),// 15m -> 5 ve
     PRODUCTION_ARENA_PER_SECOND: 1 / (20 * 60),//20m -> 1 vé
     PRODUCTION_SPIN_PER_SECOND: 0,// get from config.json
     SEARCH_ARENA_OPPONENT_GOLD: 10000,
@@ -783,6 +782,18 @@ mc.loadGUI = function (url) {
     node.y = cc.winSize.height * 0.5;
     return node;
 };
+
+mc.GUIFactory.applyMixComplexString = function(lblWidget, text, color, font){
+    var lbl = new mc.view_utility.createRichTextFromFontBitmap({width:460,height: lblWidget.height});
+    lbl.setComplexString(text, color || mc.color.BROWN_SOFT, font || res.font_UTMBienvenue_none_32_export_fnt);
+    lblWidget.setString("");
+    lbl.setLocalZOrder(lblWidget.getLocalZOrder());
+    lbl.setPosition(lblWidget.getPosition());
+    lbl.setAnchorPoint(lblWidget.getAnchorPoint());
+    lbl.scale = lblWidget.scale;
+    lblWidget.getParent().addChild(lbl);
+    return lbl;
+}
 
 mc.GUIFactory.applyComplexString = function (lblWidget, text, color, font) {
     var lbl = null;

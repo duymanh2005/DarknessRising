@@ -176,17 +176,6 @@ mc.ItemInfoDialog = mc.BaseItemDialog.extend({
 
         btnSell.registerTouchEvent(function () {
             if (mc.ItemStock.isItemEquipment(itemInfo)) {
-                //mc.GUIFactory.confirm(mc.dictionary.getGUIString("Do you want to Sell this Equipment?"), function () {
-                //    self.close();
-                //    var loadingId = mc.view_utility.showLoadingDialog();
-                //    bb.sound.playEffect(res.sound_ui_button_exchange_item);
-                //    mc.protocol.sellItem(mc.ItemStock.getItemId(itemInfo), 1, function (rs) {
-                //        mc.view_utility.hideLoadingDialogById(loadingId);
-                //        if (rs) {
-                //            self.close();
-                //        }
-                //    }.bind(this));
-                //}.bind(this));
                 mc.GameData.guiState.setCurrentDisarmItemId(mc.ItemStock.getItemId(itemInfo));
                 mc.GUIFactory.showQuickSellItemsScreen();
             }
@@ -201,20 +190,6 @@ mc.ItemInfoDialog = mc.BaseItemDialog.extend({
 
         nodeItem.addChild(itemView);
         lblName.setMultiLineString(mc.ItemStock.getItemName(itemInfo), root.width * 0.9);
-
-        var _createAttrLbl = function (attr, numAttr) {
-            if (numAttr > 0) {
-                var lblAttr = bb.framework.getGUIFactory().createText(attr);
-                lblAttr.anchorX = 0;
-                var lblNumAttr = bb.framework.getGUIFactory().createText(bb.utility.formatNumber(numAttr));
-                lblNumAttr.anchorX = 0;
-                return bb.layout.linear([
-                    lblAttr,
-                    lblNumAttr
-                ], 5);
-            }
-            return null;
-        };
 
         var attrArray = this.attrArray = [];
 
@@ -365,32 +340,6 @@ mc.ItemInfoDialog = mc.BaseItemDialog.extend({
     },
 
     registerShowItemBag: function (heroId, callback) {
-        //var bagView = new ccui.ImageView("icon/Items.png",ccui.Widget.PLIST_TEXTURE);
-        //bagView._touchScale = -0.05;
-        //bagView.scale = 0.35;
-        //bagView.x = this._root.width*0.9;
-        //bagView.y = 350 ;
-        //if( this._countEnableAttr >= 3 ){
-        //    bagView.y += 100;
-        //}
-        //bagView.registerTouchEvent(function(){
-        //    callback && callback();
-        //    this.close();
-        //}.bind(this));
-        //var equipmentNotification = mc.GameData.notifySytem.getHeroEquipmentNotification();
-        //if( equipmentNotification ){
-        //    var allSlot = equipmentNotification[heroId];
-        //    if( equipmentNotification && allSlot){
-        //        for(var slotIndex in allSlot ){
-        //            if( mc.ItemStock.isItemMatchSlot(this._itemInfo,parseInt(slotIndex))){
-        //                var icon = mc.view_utility.setNotifyIconForWidget(bagView,true);
-        //                icon.scale = 1/0.35;
-        //                break;
-        //            }
-        //        }
-        //    }
-        //}
-        //this._root.addChild(bagView);
         return this;
     },
 

@@ -94,17 +94,6 @@ mc.ItemView = ccui.Widget.extend({
             brk.setName("_brk");
             this.addChild(brk);
             var itemURL = mc.ItemStock.getItemRes(itemInfo);
-            //var itemFrame = cc.spriteFrameCache.getSpriteFrame(itemURL);
-            //if( !itemFrame ){
-            //    cc.log("Unknow FrameCache:" + itemInfo.index );
-            //    var strs = itemURL.split('.');
-            //    if( strs[1] === "json" ){
-            //        itemURL = strs[0] +".png";
-            //    }
-            //    else{
-            //        itemURL = "res/png/equipment/ico_equip_unknow.png";
-            //    }
-            //}
             var img = this._img = new ccui.ImageView(itemURL, ccui.Widget.LOCAL_TEXTURE);
             this.addChild(img);
 
@@ -124,6 +113,15 @@ mc.ItemView = ccui.Widget.extend({
             lblLevel.y = lvlBG.y + lvlBG.height * 0.2;
             lvlBG.setVisible(level > 1);
             lblLevel.setVisible(level > 1);
+
+            if(level >= 7){
+                var animateShiny = sp.SkeletonAnimation.createWithJsonFile(res.spine_ui_shiny_icon_fx_json, res.spine_ui_shiny_icon_fx_atlas, 1.1);
+                img.addChild(animateShiny);
+                animateShiny.anchorX = 0;
+                animateShiny.anchorY = 0;
+                animateShiny.setPosition(img.width/2, img.height/2);
+                animateShiny.setAnimation(0, "shinyIconfx", true);
+            }
 
             this.setNewContentSize(cc.size(brk.width, brk.height));
         }
