@@ -572,13 +572,6 @@ mc.ChatDialog = bb.Dialog.extend({
         var msgSize = msg_label.getContentSize();
         var nameSize = username.isVisible() ? username.getContentSize() : cc.size(0, 0);
         bloon.height = msgSize.height + 30 + nameSize.height + itemHeight * scale + 20 + panelHeight;
-        if(itemView)
-        {
-            //bloon.height +=  20;
-            //if(isSystemMsg){
-            //    bloon.height += msg_label.height;
-            //}
-        }
 
         bloon.width = Math.max(msg_label.width + 20, nameSize.width + 20);
         panel.height = bloon.height;
