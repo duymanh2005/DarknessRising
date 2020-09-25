@@ -801,6 +801,12 @@ mc.DialogBattleEndView = bb.Dialog.extend({
 
         this.setAutoClose(false);
         this.scheduleUpdate();
+
+        if(mc.const.ARENA_NPC_ENABLE){
+            this.runAction(cc.sequence([cc.delayTime(2.0), cc.callFunc(function(){
+                mc.GameData.guiState.popScreen();
+            })]));
+        }
     },
 
     disableRetryButton: function () {

@@ -72,9 +72,31 @@ mc.ArenaVSDialog = bb.Dialog.extend({
         this._reloadCell(this._cellRecord1, 0);
         this._reloadCell(this._cellRecord2, 1);
         this._reloadCell(this._cellRecord3, 2);
+
+        if(mc.const.ARENA_NPC_ENABLE){
+
+            this._btnRefresh.runAction(cc.sequence([cc.delayTime(2), cc.callFunc(function () {
+                var oppInfo = mc.GameData.arenaManager.getSearchOpponentByIndex(Math.round(this._getRandom(0, 2)));
+                var loadingId = mc.view_utility.showLoadingDialog();
+                mc.protocol.fightArenaOpponent(mc.ArenaManager.getOpponentHeroId(oppInfo), function (data) {
+                    mc.view_utility.hideLoadingDialogById(loadingId);
+                    if (data) {
+                        mc.GUIFactory.showArenaBattleScreen();
+                    }
+                });
+            }.bind(this))]));
+
+        }
+    },
+
+    _getRandom: function(min, max) {
+        return Math.random() * (max - min) + min;
     },
 
     _reloadCell: function (cell, index) {
+        var oppInfo = mc.GameData.arenaManager.getSearchOpponentByIndex(index);
+        if(oppInfo == null) return;
+        
         var cellMap = bb.utility.arrayToMap(cell.getChildren(), function (child) {
             return child.getName();
         });
@@ -104,9 +126,6 @@ mc.ArenaVSDialog = bb.Dialog.extend({
         btnFight.setString(mc.dictionary.getGUIString("lblFight"));
         nodeHero.scale = 0.685;
 
-        var self = this;
-        var arenaManager = mc.GameData.arenaManager;
-        var oppInfo = mc.GameData.arenaManager.getSearchOpponentByIndex(index);
         var oppName = mc.ArenaManager.getOpponentName(oppInfo);
         var oppPower = mc.ArenaManager.getOpponentTeamPower(oppInfo);
         var oppLeague = mc.ArenaManager.getOpponentLeague(oppInfo);
@@ -172,11 +191,7 @@ mc.ArenaVSDialog = bb.Dialog.extend({
                 });
             }
         });
-        var opponentId = mc.ArenaManager.getOpponentHeroId(oppInfo);
-        if(opponentId.startsWith("NPC")){
-            cc.log("-------------");
-        }
-        btnFight.setUserData(opponentId);
+        btnFight.setUserData(mc.ArenaManager.getOpponentHeroId(oppInfo));
 
         lblGainWin.setString(oppWinPoint > 0 ? ("+" + oppWinPoint) : "" + oppWinPoint);
         lblGainLose.setString(oppLosePoint > 0 ? "-" + oppLosePoint : "" + oppLosePoint);

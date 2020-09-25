@@ -2,9 +2,9 @@ var mc = mc || {};
 mc.const = {
     ////// important : remove for release///////
     //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNTk5ODQ1MzE0LCJhcHBfaWQiOiJtdXMxIiwidHRsIjo4NjQwMDAwMDB9.d_RQjz62uhtuzw9DMq1S-HMJKVlugTUVz7EnxZtpT24",
-    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNTk5NjY3NjU5LCJhcHBfaWQiOiIyIiwidHRsIjo4NjQwMDAwMDB9.Um-F4s52jqQmfPDe42egvpdyW7UKdkJJ5dal0TxZA5k",
+    TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNjAxMzExMDI1LCJhcHBfaWQiOiJtdXMxIiwidHRsIjo4NjQwMDAwMDB9.46cw1G1XpHi-slCn4YnooZyd4kxaUR5GQgOKloXBGVo",
     //TEST_FACEBOOK_TOKEN:"can test bang token fb"
-    TEST_GAME_TOKEN: null,
+    //TEST_GAME_TOKEN: null,
     ////////////////////////////////////////////////////
     // important code! do not forget to TURN-OFF!!!!!!!!!
     SERVER_MAINTENANCE: false,
@@ -17,7 +17,8 @@ mc.const = {
     ENABLE_REPLACE_FONT_BM: false,
     IS_EN_LANGUAGE : false,
 
-    CHEAT_UNLOCK_ALL: false,
+    ARENA_NPC_ENABLE: true,
+    CHEAT_UNLOCK_ALL: true,
     CHEAT_GOD_DAMAGE: 0,
     CHEAT_GOD_HP: 0,
     CHEAT_GOD_MP: 0,
@@ -37,8 +38,8 @@ mc.const = {
             {
                 "id": 1,
                 "svn": "mus1",
-                "auth": "http://drapi.rpgwikigames.com:9393/",
-                "ws": "ws://drapi.rpgwikigames.com:9494/ws",
+                "auth": "http://192.168.1.249:9393/",
+                "ws": "ws://192.168.1.249:9494/ws",
                 "name": "S1: Legendary",
                 "type": "REAL",
                 "statusCode": 2

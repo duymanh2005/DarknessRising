@@ -28,6 +28,7 @@
         DAILY_CHALLENGE: "cmd_daily_event",
         BLOOD_CASTLE: "cmd_blood_castle",
         ARENA: "cmd_arena",
+        ARENA_NPC: "cmd_arena_npc",
         FRIEND: "cmd_friend",
         MAIL: "cmd_mail",
         SHOP: "cmd_shop",
@@ -945,15 +946,29 @@
         protocol.searchArenaOpponent = function (callback) {
             var paramsObj = new QAntObject();
             paramsObj.putInt("act", ARENA_FIND);
-            _registerCallback(key.MU_EXTENSION.ARENA + "_" + ARENA_FIND, callback);
-            QANT2X.sendExtensionMessage(key.MU_EXTENSION.ARENA, paramsObj);
+            if(mc.const.ARENA_NPC_ENABLE){
+                _registerCallback(key.MU_EXTENSION.ARENA_NPC + "_" + ARENA_FIND, callback);
+                QANT2X.sendExtensionMessage(key.MU_EXTENSION.ARENA_NPC, paramsObj);
+            }
+            else{
+                _registerCallback(key.MU_EXTENSION.ARENA + "_" + ARENA_FIND, callback);
+                QANT2X.sendExtensionMessage(key.MU_EXTENSION.ARENA, paramsObj);
+            }
+
         };
         protocol.fightArenaOpponent = function (gameHeroId, callback) {
             var paramsObj = new QAntObject();
             paramsObj.putInt("act", ARENA_FIGHT);
             paramsObj.putUtfString("defenderId", gameHeroId);
-            _registerCallback(key.MU_EXTENSION.ARENA + "_" + ARENA_FIGHT, callback);
-            QANT2X.sendExtensionMessage(key.MU_EXTENSION.ARENA, paramsObj);
+            if(mc.const.ARENA_NPC_ENABLE){
+                _registerCallback(key.MU_EXTENSION.ARENA_NPC + "_" + ARENA_FIGHT, callback);
+                QANT2X.sendExtensionMessage(key.MU_EXTENSION.ARENA_NPC, paramsObj);
+            }else{
+                _registerCallback(key.MU_EXTENSION.ARENA + "_" + ARENA_FIGHT, callback);
+                QANT2X.sendExtensionMessage(key.MU_EXTENSION.ARENA, paramsObj);
+            }
+
+
         };
         protocol.finishArena = function (numStar, scriptStr, callback) {
             var paramsObj = new QAntObject();
@@ -963,8 +978,15 @@
             if (scriptStr) {
                 paramsObj.putUtfString("script", scriptStr);
             }
-            _registerCallback(key.MU_EXTENSION.ARENA + "_" + ARENA_FINISH, callback);
-            QANT2X.sendExtensionMessage(key.MU_EXTENSION.ARENA, paramsObj);
+            if(mc.const.ARENA_NPC_ENABLE){
+                _registerCallback(key.MU_EXTENSION.ARENA_NPC + "_" + ARENA_FINISH, callback);
+                QANT2X.sendExtensionMessage(key.MU_EXTENSION.ARENA_NPC, paramsObj);
+            }else{
+                _registerCallback(key.MU_EXTENSION.ARENA + "_" + ARENA_FINISH, callback);
+                QANT2X.sendExtensionMessage(key.MU_EXTENSION.ARENA, paramsObj);
+            }
+
+
         };
         protocol.setupArenaTeam = function (index, arrHeroId, leaderIndex, isDefense, callback) {
             leaderIndex = leaderIndex || 0;
@@ -2713,6 +2735,34 @@
             var callbackName = key.MU_EXTENSION.ARENA + "_" + act;
             _performCallback(callbackName, result);
         });
+
+        MessageManager.addReceiveCallback(key.MU_EXTENSION.ARENA_NPC, function (response) {
+            var json = response.toJson();
+            var act = json["act"];
+            var result = json;
+            if (act === ARENA_FIND) {
+                result = json["opponents"];
+                arenaManager.setArraySearchOpponent(result);
+
+            } else if (act === ARENA_FIGHT || act === ARENA_BATTLE_REVENGE) {
+                arenaInBattle.setBattleData(result);
+                arenaInBattle.notifyDataChanged();
+            } else if (act === ARENA_GET_OPPONENT_DEFENSE_TEAM) {
+                arenaManager.setSelectRevengingOpponent(json["opponent"]);
+                arenaManager.notifyDataChanged();
+            } else if (act === ARENA_FINISH) {
+                result = json;
+                resultInBattle.setResult(json);
+                result["arena_info"] && arenaManager.setInfo(result["arena_info"]);
+                result["reward"] && resultInBattle.setRewardInfo(result["reward"]);
+                resultInBattle.notifyDataChanged();
+                arenaManager.notifyDataChanged();
+                accountChanger.setDataChange({league: playerInfo.getLeague()});
+            }
+            var callbackName = key.MU_EXTENSION.ARENA_NPC + "_" + act;
+            _performCallback(callbackName, result);
+        });
+
         MessageManager.addReceiveCallback(key.MU_EXTENSION.WORLD_BOSS, function (response) {
             var json = response.toJson();
             var act = json["act"];

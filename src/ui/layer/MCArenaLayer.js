@@ -164,6 +164,11 @@ mc.ArenaLayer = mc.LoadingLayer.extend({
             self.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_ARENA_REWARDS);
         });
 
+        if(mc.const.ARENA_NPC_ENABLE){
+            btnInfo.runAction(cc.sequence([cc.delayTime(2), cc.callFunc(function () {
+                _searchOpp();
+            }.bind(this))]));
+        }
     },
 
     _showDialogVS: function () {
