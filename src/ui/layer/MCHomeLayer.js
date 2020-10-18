@@ -2,7 +2,7 @@
  * Created by long.nguyen on 6/29/2017.
  */
 
-var xMasTime = true;
+var xMasTime = false;
 var waterFall = true;
 var hasSunShine = true;
 var hasWindSand = false;
@@ -286,8 +286,8 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
                 notifyIcon && notifyIcon.setLocalZOrder(4);
                 btnEvent.registerTouchEvent(function () {
                     mc.GameData.guiState.eventPage = 2;
-                    this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_PAGES_EVENT);
-                    // this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_SEASON_EVENT);
+                    //this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_PAGES_EVENT);
+                     this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_SEASON_EVENT);
                     markEventNotify = bb.now();
                     var notifyIcon = mc.view_utility.setNotifyIconForWidget(btnEvent, markEventNotify === 0 || bb.now() - markEventNotify > (1000 * 60 * 60 * 24), 0.8);
                     notifyIcon && notifyIcon.setLocalZOrder(4);
@@ -612,6 +612,8 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
         nodeDecorator.setCascadeOpacityEnabled(true);
         var nodeDecoratorBG = this._nodeDecoratorBG;
         nodeDecoratorBG.setCascadeOpacityEnabled(true);
+
+
         if (!xMasTime) {
             var home1 = sp.SkeletonAnimation.createWithJsonFile(res.spine_ui_home_elements_json, res.spine_ui_home_elements_atlas, 1.0);
             //home1.findAnimation("idle") && home1.setAnimation(0, "idle", true);

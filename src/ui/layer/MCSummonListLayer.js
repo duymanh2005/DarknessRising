@@ -401,7 +401,7 @@ mc.SummonListLayer = mc.MainBaseLayer.extend({
 
             if (mapPackages[index]["url"] === "banner_Legendary.png") {
                 var arrItem = [];
-                var arrStr = "133#363#163#733#533".split('#');
+                var arrStr = "223#363#163#733#533".split('#');
                 for (var i = 0; i < arrStr.length; i++) {
                     var heroDict = mc.dictionary.getHeroDictByIndex(parseInt(arrStr[i]));
                     arrItem.push(mc.ItemStock.createJsonItemHeroSoul(i, heroDict));
@@ -416,8 +416,9 @@ mc.SummonListLayer = mc.MainBaseLayer.extend({
                     //var text2 = new ccui.RichElementText(1, cc.color.GREEN, 255, "HELLO", "Arial", 35);
                     //richText.pushBackElement(text2);
                     //itemView.addChild(richText);
-
-                    var upRateText = mc.GUIFactory.createComplexString("+15%", mc.color.YELLOW_SOFT, res.font_cam_stroke_32_export_fnt);
+                    var incr = "+15%";
+                    if(index==0) incr = "+20%";
+                    var upRateText = mc.GUIFactory.createComplexString(incr, mc.color.YELLOW_SOFT, res.font_cam_stroke_32_export_fnt);
                     upRateText.setVisible(true);
                     upRateText.y += itemView.height + 10;
                     upRateText.x += itemView.width / 2;

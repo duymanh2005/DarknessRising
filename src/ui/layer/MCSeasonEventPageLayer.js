@@ -16,14 +16,14 @@ mc.SeasonEventPagesLayer = mc.MainBaseLayer.extend({
         var banner = rootMap["banner"];
         var event1 = rootMap["event1"];
         var event2 = rootMap["event2"];
-        var event3 = rootMap["event3"];
+        var xMasEvent = rootMap["event3"];
         var event4 = rootMap["event4"];
-        var event5 = rootMap["event5"];
+        var halloweenEvent = rootMap["event5"];
         event1.setVisible(false);
         event2.setVisible(false);
-        event3.setVisible(false);
+        xMasEvent.setVisible(false);
         event4.setVisible(false);
-        event5.setVisible(false);
+        halloweenEvent.setVisible(false);
 
         var lan = mc.storage.readSetting()["language"];
         // var gotoUrl = (lan === "vi" ? "res/event_page/vi_event_1.png" : "res/event_page/event_1.png");
@@ -47,16 +47,16 @@ mc.SeasonEventPagesLayer = mc.MainBaseLayer.extend({
         //     resUrl: url2,
         //     urlIcon: urlIcon2
         // });
-        // this.bindSummon(event3, {arrayIds: [134, 344, 814, 364, 234], resUrl: null});
-        // this.bindSummon(event3, {arrayIds: [734, 164, 614], resUrl: "res/event_page/event_3_banner.png"});
+        // this.bindSummon(xMasEvent, {arrayIds: [134, 344, 814, 364, 234], resUrl: null});
+        // this.bindSummon(xMasEvent, {arrayIds: [734, 164, 614], resUrl: "res/event_page/event_3_banner.png"});
 
         // this.bindSeasonEventDetail(event4);
         //
         // var listIcon = [event4];
 
-        this.bindSeasonDetail(event5);
+        this.bindSeasonDetail(halloweenEvent);
 
-        var listIcon = [event5];
+        var listIcon = [halloweenEvent];
 
         var btnLeft = new ccui.ImageView("button/Left_arrow.png", ccui.Widget.PLIST_TEXTURE);
         var btnRight = new ccui.ImageView("button/Left_arrow.png", ccui.Widget.PLIST_TEXTURE);
@@ -78,7 +78,7 @@ mc.SeasonEventPagesLayer = mc.MainBaseLayer.extend({
 
         var lblTime = banner.getChildByName("time");
         var lblMsg = img_baner.getChildByName("lbl");
-        lblMsg.setString(mc.dictionary.getGUIString("lblNewYearMsg"));
+        lblMsg.setString(mc.dictionary.getGUIString("lblShopHalloweenMsg"));
 
         var eventDuration = mc.GameData.dynamicDailyEvent.getEventDuration();
         if (eventDuration) {
@@ -149,28 +149,34 @@ mc.SeasonEventPagesLayer = mc.MainBaseLayer.extend({
         string.setScale(0.75);
         string.y = btnShop.height * 0.27;
         btnShop.registerTouchEvent(function () {
-            mc.GUIFactory.showShopScreen(mc.ShopManager.SHOP_EVENTA);
+            mc.GUIFactory.showShopScreen(mc.ShopManager.SHOP_EVENTB);
         }.bind(this));
 
 
-        var title2 = group2.getChildByName("title");
-        title2.setString(mc.dictionary.getGUIString("Promotion"), res.font_cam_stroke_32_export_fnt);
+        var groupBottomEvent = group2.getChildByName("title");
+        groupBottomEvent.setString(mc.dictionary.getGUIString("lblHowToGet"), res.font_cam_stroke_32_export_fnt);
         var btn1 = group2.getChildByName("btn1");
         btn1.registerTouchEvent(function () {
-            mc.MCIapPackDialog.showIAPItem(bb.framework.isAndroid() ? mc.dictionary.IAPMap["com.rpgwikigames.darknessrising.android.promopack5_49"] : mc.dictionary.IAPMap["com.creants.muheroes.ios.promopack5_49"]);
+            mc.view_utility.confirmFunction(mc.const.FUNCTION_KALIMA, function () {
+                this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_WORD_MAP);
+            }.bind(this));
         }.bind(this));
         var btn2 = group2.getChildByName("btn2");
         btn2.registerTouchEvent(function () {
-            mc.MCIapPackDialog.showIAPItem(bb.framework.isAndroid() ? mc.dictionary.IAPMap["com.rpgwikigames.darknessrising.android.eventpack_51"] : mc.dictionary.IAPMap["com.creants.muheroes.ios.eventpack_51"]);
+            mc.view_utility.confirmFunction(mc.const.FUNCTION_KALIMA, function () {
+                this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_WORLD_BOSS);
+            }.bind(this));
         }.bind(this));
         var btn3 = group2.getChildByName("btn3");
         btn3.registerTouchEvent(function () {
-            mc.IAPShopDialog.showIAPBless();
+            mc.IAPShopDialog.showIAPPromo();
         }.bind(this));
         var btn4 = group2.getChildByName("btn4");
         btn4.registerTouchEvent(function () {
-            mc.MCIapPackDialog.showIAPItem(bb.framework.isAndroid() ? mc.dictionary.IAPMap["com.rpgwikigames.darknessrising.android.promopack4_50"] : mc.dictionary.IAPMap["com.creants.muheroes.ios.promopack4_50"]);
-
+            mc.view_utility.confirmFunction(mc.const.FUNCTION_KALIMA, function () {
+                this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_SUMMON_LIST);
+            }.bind(this));
+            //this.getMainScreen().showLayerWithId(mc.MainScreen.LAYER_SUMMON_LIST);
         }.bind(this));
 
     },
@@ -643,6 +649,7 @@ mc.SeasonEventPagesLayer = mc.MainBaseLayer.extend({
             cb && cb();
         }.bind(this))
     },
+
     bindPack: function (widget, data1, data2) {
         widget.setVisible(true);
         var bg = widget.getChildByName("bg");

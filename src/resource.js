@@ -696,6 +696,7 @@ var res = {
     layer_guild_edit: "res/json/gui/main/LayerGuildEdit.json",
     layer_guild_request_join: "res/json/gui/main/LayerGuildRequestJoin.json",
     layer_guild_boss_ranking: "res/json/gui/main/LayerGuildBossRanking.json",
+    layer_halloween_event: "res/json/widget/EventHalloween.json",
 
     screen_main_json: "res/json/gui/MainScreen.json",
     screen_shop_json: "res/json/gui/ShopScreen.json",
@@ -1313,6 +1314,7 @@ mc.resource.main_res = [
     res.layer_guild_edit,
     res.layer_guild_request_join,
     res.layer_relic_arena_host,
+    res.layer_halloween_event,
 
     res.screen_main_json,
     res.screen_shop_json,

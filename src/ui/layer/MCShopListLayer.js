@@ -83,13 +83,13 @@ mc.ShopListLayer = mc.MainBaseLayer.extend({
 
 
         var arrMiddleURL = [
-            "icon_promotionshop", "ico_relicshop", "ico_gemshop", "ico_packageshop", "ico_arenashop", "ico_chaosshop"
+            "icon_promotionshop", "ico_relicshop", "ico_gemshop", "ico_packageshop", "ico_arenashop", "ico_chaosshop", "ico_halloweenshop"
         ];
         var arrMiddleLbl = [
-            "Promotion Shop", "Relic Shop", "Bless Shop", "Common Shop", "Arena Shop", "Chaos Shop"
+            "Promotion Shop", "Relic Shop", "Bless Shop", "Common Shop", "Arena Shop", "Chaos Shop", "Halloween Shop"
         ];
 
-        var arrShopCategoryId = [mc.ShopManager.SHOP_PROMOTION, mc.ShopManager.SHOP_RELIC, blessShopId, mc.ShopManager.SHOP_COMMON, mc.ShopManager.SHOP_ARENA, mc.ShopManager.SHOP_CHAOS];
+        var arrShopCategoryId = [mc.ShopManager.SHOP_PROMOTION, mc.ShopManager.SHOP_RELIC, blessShopId, mc.ShopManager.SHOP_COMMON, mc.ShopManager.SHOP_ARENA, mc.ShopManager.SHOP_CHAOS, mc.ShopManager.SHOP_EVENTB];
 
         if (mc.GameData.guildManager.getGuildInfo()) {
             arrMiddleURL.push("ico_guildshop");
