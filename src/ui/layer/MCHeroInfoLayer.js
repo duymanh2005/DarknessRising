@@ -7,7 +7,6 @@ mc.HeroInfoLayer = mc.LoadingLayer.extend({
 
     onLoading: function () {
         var self = this;
-        var heroes = mc.GameData.heroStock.getHeroList();
         var mapHeroInInFormation = mc.GameData.teamFormationManager.getMapHeroIdInFormation();
         var indexAttr = mc.GameData.guiState.getCurrentSortingHeroStockIndex();
         var arrHero = null;
@@ -136,7 +135,6 @@ mc.HeroInfoLayer = mc.LoadingLayer.extend({
         this._rootNode && this._rootNode.removeFromParent();
 
         this._mapViewBySlotId = {};
-        var heroStock = mc.GameData.heroStock;
         var itemStock = mc.GameData.itemStock;
         var notifySystem = mc.GameData.notifySystem;
         var viewHeroId = mc.GameData.guiState.getViewHeroId();
@@ -196,6 +194,7 @@ mc.HeroInfoLayer = mc.LoadingLayer.extend({
         this._MAP_SLOT_URL[mc.const.SLOT_TYPE_ELEMENTAL] = "patch9/Element.png";
         //load slot.
         for (var slot in this._mapViewBySlotId) {
+            cc.log("load slot **********");
             var img = new ccui.ImageView(this._MAP_SLOT_URL[slot], ccui.Widget.PLIST_TEXTURE);
             img.setName("item");
             this._mapViewBySlotId[slot].addChild(img);
@@ -246,11 +245,11 @@ mc.HeroInfoLayer = mc.LoadingLayer.extend({
 
         var lblTitle = imgTitle.setString(mc.dictionary.getGUIString("lblHeroInfo"), res.font_UTMBienvenue_stroke_32_export_fnt);
         lblTitle.setOverlayColor(mc.color.GREEN_NORMAL);
-
-        var spineView = this._spineView = mc.BattleViewFactory.createCreatureGUIByIndex(mc.HeroStock.getHeroIndex(viewHeroInfo));
-        spineView.scale = 1.4;
-        spineView.setClickAble(true, undefined, viewHeroInfo);
-        nodeSpine.addChild(spineView);
+        cc.log("*********** create spine view hero");
+        var spineHeroView = this._spineView = mc.BattleViewFactory.createCreatureGUIByIndex(mc.HeroStock.getHeroIndex(viewHeroInfo));
+        spineHeroView.scale = 1.4;
+        spineHeroView.setClickAble(true, undefined, viewHeroInfo);
+        nodeSpine.addChild(spineHeroView);
 
         var layoutStar = this._layoutStar = bb.layout.linear(bb.collection.createArray(mc.HeroStock.getHeroMaxRank(viewHeroInfo), function (index) {
             if (index < mc.HeroStock.getHeroRank(viewHeroInfo)) {
@@ -263,7 +262,7 @@ mc.HeroInfoLayer = mc.LoadingLayer.extend({
         layoutStar.scale = 0.75;
         layoutStar.y = -45;
         nodeSpine.addChild(layoutStar);
-
+        cc.log("******* get map equipment by hero");
         var mapEquipping = itemStock.getMapEquippingItemByHeroId(mc.HeroStock.getHeroId(viewHeroInfo));
         btnLvlUp.registerTouchEvent(function () {
             var viewHeroInfo = this._getViewHeroInfo();
@@ -526,13 +525,13 @@ mc.HeroInfoLayer = mc.LoadingLayer.extend({
     },
 
     _showEquipStockByType: function (equipType) {
-
-        if (equipType === "6") {
-            mc.view_utility.showComingSoon();
-            return;
-        }
-
+        //if (equipType === "6") {
+        //    cc.log("-------- show item 6");
+        //    mc.view_utility.showComingSoon();
+        //    return;
+        //}
         var self = this;
+
         var heroInfo = this._getViewHeroInfo();
         var _takeOn = function (itemInfo) {
             var loadingDialogId = mc.view_utility.showLoadingDialog();
@@ -543,9 +542,12 @@ mc.HeroInfoLayer = mc.LoadingLayer.extend({
                         self._pickItem(equipInfo.slotIndex, equipInfo.itemInfo);
                         bb.sound.playEffect(res.sound_ui_equip_on);
                         self._updateHeroAttr();
+
+
                     }
                 });
         };
+
         new mc.EquipmentStockDialog().setTravelItemCb(function (itemWidget, itemInfo) {
             if (mc.ItemStock.getHeroIdEquipping(itemWidget.getUserData()) != null) {
                 itemWidget.setStatusText(mc.dictionary.getGUIString("lblPicked"));
@@ -614,6 +616,19 @@ mc.HeroInfoLayer = mc.LoadingLayer.extend({
             slot2Widget && slot2Widget.setGray && slot2Widget.setGray(true);
         }
         this._mapEquippingItemBySlotId[slot] = itemInfo;
+        cc.log("***************** Show item info");
+        cc.log(itemInfo);
+        if(slot == 6){
+            var statusImage = mc.HeroStock.getSkillStatusResource({index: 8260});
+            if (statusImage) {
+                var strs = statusImage.split('.');
+                if (!strs[1] || strs[1] === "json") {
+                    var name = strs[0];
+                    var strPrefixSpine = "res/spine/battle_effect/" + name;
+                    this._spineView.showPet(strPrefixSpine, name);
+                }
+            }
+        }
     },
 
     _unpickItem: function (slot, itemInfo) {
@@ -630,6 +645,11 @@ mc.HeroInfoLayer = mc.LoadingLayer.extend({
         }
         self._updateHeroAttr();
         bb.sound.playEffect(res.sound_ui_equip_off);
+
+        if(slot == 6){
+            self._spineView.releasePet();
+        }
+
     },
 
     getLayerId: function () {

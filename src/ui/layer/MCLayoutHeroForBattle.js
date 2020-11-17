@@ -68,6 +68,7 @@ mc.LayoutHeroForBattle = cc.Class.extend({
         for(var f = 0; f < arrFighterIdByFormation.length; f++ ){
             var fighterId = arrFighterIdByFormation[f];
             var pos = pattern[(f+1)];
+            cc.log(fighterId);
             var cr = mapCreatureByBattleId[fighterId];
             if( cr && pos ){
                 var x = pos.x;
@@ -79,6 +80,7 @@ mc.LayoutHeroForBattle = cc.Class.extend({
                 cr.setBattleCellPosition(x,y);
                 cc.log(cc.formatStr("%s stand at %d,%d",cr.getName(),cr.colBattleCell,cr.rowBattleCell));
             }
+
         }
         var attachCreature = creatureGroup.getAttachCreature();
         if( attachCreature ){

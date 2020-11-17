@@ -168,6 +168,7 @@ mc.BattleControllBoardViewRefactor = cc.Node.extend({
             battleField.fireEvent(mc.BattleFieldRefactor.EVENT_BATTLEFIELD_PAUSE, undefined, true);
         }.bind(this));
         btnMoreItem.registerTouchEvent(function () {
+            cc.log("more item");
             new mc.PickBattleConsumableDialog(battleView, function (isChange) {
                 if (isChange) {
                     this._loadConsumableItem();
@@ -616,6 +617,7 @@ mc.BattleControllBoardViewRefactor = cc.Node.extend({
     },
 
     registerDragAbleItem: function () {
+        cc.log("drage item");
         var allHeroAvatar = bb.utility.mapToArray(this._mapPlayerHeroAvtByBattleId);
         var allFakeWidget = bb.utility.mapToArray(this._mapFakePlayerWidgetByBattleId);
         var allHeroWidget = bb.collection.arrayAppendArray(allHeroAvatar, allFakeWidget);
@@ -629,6 +631,8 @@ mc.BattleControllBoardViewRefactor = cc.Node.extend({
         var _funcDrag = function (slotItemView, dragIndex) {
             var consumeInfo = slotItemView.getUserData();
             if (dragIndex >= 0) {
+                cc.log("drage " + dragIndex);
+                cc.log(consumeInfo);
                 var consumeId = mc.ItemStock.getItemId(consumeInfo);
                 var currPartInBattle = mc.GameData.playerInfo.getCurrentPartInBattle();
                 if (currPartInBattle) {
@@ -638,6 +642,8 @@ mc.BattleControllBoardViewRefactor = cc.Node.extend({
                 var heroWidget = _getArrActiveHeroWidget()[dragIndex];
                 if (heroWidget) {
                     var creature = heroWidget.getUserData();
+                    cc.log("************* HERE **************");
+                    cc.log(heroWidget);
                     creature.doUsingItem(consumeInfo);
                 }
                 slotItemView.useItem(currPartInBattle.getQuantityUsedByItemId(consumeId));
@@ -679,6 +685,7 @@ mc.BattleControllBoardViewRefactor = cc.Node.extend({
                 if (partInBattle.isUsedItem()) {
                     var brk = slotView.getChildByName("brk");
                     if (brk) {
+                        cc.log("b1");
                         brk.registerTouchEvent(function () {
                             new mc.PickBattleConsumableDialog(this.battleView, function (isChange) {
                                 if (isChange) {

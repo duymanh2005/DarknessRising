@@ -463,6 +463,7 @@ mc.BattleViewRefactor = cc.Node.extend({
         }.bind(this));
 
         this.getBattleField().addBattleListener(mc.BattleFieldRefactor.EVENT_CREATURE_ENTER, function (data) {
+            cc.log("************ Event Creature Enter *********");
             var creature = data.creature;
             var isForeign = data.data;
             if (!creature.isDead()) {

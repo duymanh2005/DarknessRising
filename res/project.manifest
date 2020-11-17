@@ -12073,9 +12073,9 @@
             "size": 32571
         }
     }, 
-    "packageUrl": "http://drapi.rpgwikigames.com:8000/manifest/mufantasy/",
-    "remoteManifestUrl": "http://drapi.rpgwikigames.com:8000/manifest/mufantasy/project.manifest",
-    "remoteVersionUrl": "http://drapi.rpgwikigames.com:8000/manifest/mufantasy/version.manifest",
+    "packageUrl": "http://192.168.5.109:8000/manifest/mufantasy/",
+    "remoteManifestUrl": "http://192.168.5.109:8000/manifest/mufantasy/project.manifest",
+    "remoteVersionUrl": "http://192.168.5.109:8000/manifest/mufantasy/version.manifest",
     "searchPaths": [], 
     "version": "2.1.239"
 }

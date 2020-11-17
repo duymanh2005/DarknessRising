@@ -1381,6 +1381,9 @@ mc.CreatureInfo = cc.Class.extend({
     },
 
     copyHeroInfo: function (heroInfo) {
+        cc.log("******* copy hero info");
+        cc.log(heroInfo);
+        cc.log("*****************");
         this.resourceId = heroInfo.index;
         this.attack = mc.CreatureInfo.encryptNumber((mc.const.CHEAT_GOD_DAMAGE * 100000 + heroInfo.atk) || 1);
         this.defense = mc.CreatureInfo.encryptNumber(heroInfo.def || 1);

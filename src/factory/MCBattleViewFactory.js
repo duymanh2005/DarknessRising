@@ -24,6 +24,16 @@ mc.BattleViewFactory = (function () {
         return heroView;
     };
 
+    factory.createCreatureGUIByIndexAndPet = function (index, pet) {
+        var heroView = factory.createCreatureViewByIndex(index);
+        heroView.onEnter = function () {
+            cc.Node.prototype.onEnter.call(this);
+            this.setVisible(true);
+        }.bind(heroView);
+        heroView.scale = 1.25;
+        return heroView;
+    };
+
     factory.createBattleBackground = function (environment) {
         var brk = new cc.Sprite(environment.getBrkURL());
         return brk;

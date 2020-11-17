@@ -56,6 +56,8 @@ mc.PickBattleConsumableDialog = bb.Dialog.extend({
         var arrConsumableInStock = mc.GameData.itemStock.getItemList(function(itemInfo){
             return mc.ItemStock.getItemType(itemInfo) === mc.const.ITEM_TYPE_POTION;
         });
+        cc.log("array consume item");
+        cc.log(arrConsumableInStock);
         var arrConsumableInUsing = [];
         var mapConsumableInUsingById = {};
         var partInBattle = mc.GameData.playerInfo.getCurrentPartInBattle();

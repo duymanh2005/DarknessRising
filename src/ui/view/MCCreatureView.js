@@ -378,7 +378,7 @@
             var assetData = mc.dictionary.getCreatureAssetByIndex(index);
             if (assetData) {
                 var atlasStr = assetData.getSpineString();
-                mc.log("create: " + atlasStr);
+                mc.log("-------------- create: " + atlasStr);
                 var loadFunc = function (arr) {
                     var body = this._body = sp.SkeletonAnimation.createWithJsonFile(arr[0], arr[1], mc.const.SPINE_SCALE);
                     body.setName("_originalBody");
@@ -407,6 +407,21 @@
                     loadFunc(arrRes);
                 }
             }
+        },
+
+        showPet: function(spineUrl, animationName){
+            var self = this;
+            bb.utility.loadSpine(spineUrl, function (statusEffectSpine) {
+                statusEffectSpine.scaleX = self.getDirection();
+                statusEffectSpine.setAnimation(0, animationName, true);
+                //statusEffectSpine.setPositionY(100);
+                var tag = 999;
+                self.addChild(statusEffectSpine, 55, tag);
+            }, 0.15);
+        },
+
+        releasePet: function(){
+            this.removeChildByTag(999);
         },
 
         setCustomCallbackMapSpineEvent: function (mapCallback) {
