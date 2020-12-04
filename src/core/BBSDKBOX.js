@@ -238,17 +238,18 @@ bb.pluginBox = (function () {
             admob.cache();
         },
         isAvailable: function () {
-            var isAvailable = admob.isAvailable();
+            //var isAvailable = admob.isAvailable();
             //if( !isAvailable ){
             //    isAvailable = unityAds.isAvailable();
             //}
-            return isAvailable;
+            //return isAvailable;
+            return false;
         },
         showVideo: function (cb) {
-            var isAvailable = admob.isAvailable();
-            if (isAvailable) {
-                admob.showVideo(cb);
-            }
+            //var isAvailable = admob.isAvailable();
+            //if (isAvailable) {
+            //    admob.showVideo(cb);
+            //}
             //if( !isAvailable ){
             //    isAvailable = unityAds.isAvailable();
             //    if( isAvailable ){

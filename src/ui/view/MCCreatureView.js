@@ -407,6 +407,7 @@
                     loadFunc(arrRes);
                 }
             }
+
         },
 
         showPet: function(spineUrl, animationName){
@@ -422,6 +423,8 @@
 
         releasePet: function(){
             this.removeChildByTag(999);
+            cc.log("-------- release pet");
+            cc.log(this);
         },
 
         setCustomCallbackMapSpineEvent: function (mapCallback) {
@@ -459,6 +462,7 @@
                     this._currTrackIndex = TRACK_IDLE;
                 }
             }.bind(this));
+
         },
 
         _registerEventListener: function () {
@@ -538,6 +542,7 @@
             }
             this._updateGauseBarPosition();
             this._zBattle = this.y;
+
         },
 
         _updateGauseBarPosition: function () {

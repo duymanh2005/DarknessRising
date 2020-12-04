@@ -7,6 +7,16 @@ mc.BattleViewFactory = (function () {
         var resourceId = creatureModel.getResourceId();
         var creatureView = factory.createCreatureViewByIndex(resourceId);
         creatureView.setUserData(creatureModel);
+        cc.log("show by createCreatureView");
+        cc.log(creatureView);
+        creatureView.onEnter = function () {
+            cc.Node.prototype.onEnter.call(this);
+            this.setVisible(true);
+            var userData = this.userData.info;
+            if (userData) {
+                factory.showHeroAndPet(this, userData.petEquipment);
+            }
+        }.bind(creatureView);
         return creatureView;
     };
 
@@ -15,24 +25,39 @@ mc.BattleViewFactory = (function () {
     };
 
     factory.createCreatureGUIByIndex = function (index) {
+        cc.log("show by createCreatureGUIByIndex");
         var heroView = factory.createCreatureViewByIndex(index);
         heroView.onEnter = function () {
             cc.Node.prototype.onEnter.call(this);
             this.setVisible(true);
+
+            var userData = this.userData;
+            if(userData){
+                var petEquipment = mc.GameData.itemStock.getEquipmentByHeroId(userData.id, 6);
+                factory.showHeroAndPet(this, petEquipment);
+                cc.log(petEquipment);
+            }
+
         }.bind(heroView);
         heroView.scale = 1.25;
         return heroView;
     };
 
-    factory.createCreatureGUIByIndexAndPet = function (index, pet) {
-        var heroView = factory.createCreatureViewByIndex(index);
-        heroView.onEnter = function () {
-            cc.Node.prototype.onEnter.call(this);
-            this.setVisible(true);
-        }.bind(heroView);
-        heroView.scale = 1.25;
-        return heroView;
-    };
+    factory.showHeroAndPet = function(creature, petEquipment){
+        if (petEquipment) {
+            var skillByEquipmentIndex = mc.dictionary.getSkillByEquipmentIndex(petEquipment.index);
+            var statusImage = mc.HeroStock.getSkillStatusResource({index: skillByEquipmentIndex});
+            if (statusImage) {
+                var strs = statusImage.split('.');
+                if (!strs[1] || strs[1] === "json") {
+                    var name = strs[0];
+                    var strPrefixSpine = "res/spine/battle_effect/" + name;
+                    creature.showPet(strPrefixSpine, name);
+                }
+            }
+        }
+    }
+
 
     factory.createBattleBackground = function (environment) {
         var brk = new cc.Sprite(environment.getBrkURL());

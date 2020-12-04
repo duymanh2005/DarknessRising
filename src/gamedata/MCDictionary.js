@@ -125,6 +125,18 @@
         cc.log("DO NOT FOUND SKILL INDEX: " + index);
         return null;
     };
+
+    mc.dictionary.getSkillByEquipmentIndex = function(index){
+        var equipment = mc.dictionary.equipmentMapByIndex[index];
+        return equipment.skillIndex;
+    }
+
+    mc.dictionary.getSkillDescByEquipmentIndex = function(index){
+        var equipment = mc.dictionary.equipmentMapByIndex[index];
+        var skillDict =  mc.dictionary.getSkillByIndex(equipment.skillIndex);
+        return mc.dictionary.getI18nMsg(skillDict.desc);
+    }
+
     mc.dictionary.getEffectByIndex = function (index) {
         if (mc.dictionary.effectMapByIndex[index]) {
             return mc.dictionary.effectMapByIndex[index];

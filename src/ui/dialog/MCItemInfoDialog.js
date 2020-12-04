@@ -152,8 +152,11 @@ mc.ItemInfoDialog = mc.BaseItemDialog.extend({
         var btnUpgrade = this._btnUpgrade = btnMap["btnUpgrade"];
         var nodeAsset = this._nodeAsset = btnMap["nodeAsset"];
 
+        cc.log("*************** item info");
+        cc.log(itemInfo);
+
         btnSell.setString(mc.dictionary.getGUIString(mc.ItemStock.isItemEquipment(itemInfo) ? "lblDisarm" : "lblSell"));
-        btnUpgrade.setString(mc.dictionary.getGUIString("lblUpgrade"));
+        btnUpgrade.setString(mc.dictionary.getGUIString(itemInfo.slotIndex != 6 ? "lblUpgrade" : "Tien Hoa"));
         var rankObj = mc.ItemView.getRankText(mc.ItemStock.getItemRank(itemInfo));
 
         lblRare.setString("");
@@ -169,10 +172,17 @@ mc.ItemInfoDialog = mc.BaseItemDialog.extend({
             mc.view_utility.setNotifyIconForWidget(btnUpgrade, lvUpNotification[mc.ItemStock.getItemId(itemInfo)]);
         }
 
-        btnUpgrade.registerTouchEvent(function () {
-            mc.GameData.guiState.setCurrentRefineEquipId(mc.ItemStock.getItemId(itemInfo));
-            mc.GUIFactory.showRefineItemScreen();
-        });
+        if(itemInfo.slotIndex == 6){
+            btnUpgrade.registerTouchEvent(function () {
+                mc.view_utility.showSuggestText(mc.dictionary.getGUIString("txtComingSoon"));
+            });
+        }else{
+            btnUpgrade.registerTouchEvent(function () {
+                mc.GameData.guiState.setCurrentRefineEquipId(mc.ItemStock.getItemId(itemInfo));
+                mc.GUIFactory.showRefineItemScreen();
+            });
+        }
+
 
         btnSell.registerTouchEvent(function () {
             if (mc.ItemStock.isItemEquipment(itemInfo)) {
@@ -214,6 +224,13 @@ mc.ItemInfoDialog = mc.BaseItemDialog.extend({
         if (!strDesc) {
             strDesc = "Unknown index" + mc.ItemStock.getItemIndex(itemInfo);
         }
+        //item 6
+        cc.log("************** hero item");
+        cc.log(itemInfo);
+        if(itemInfo.slotIndex == 6){
+            strDesc = mc.dictionary.getSkillDescByEquipmentIndex(itemInfo.index);
+        }
+
         this.viewDatas["strDesc"] = strDesc;
         var assetSell = mc.view_utility.createAssetView(mc.ItemStock.createJsonItemZen(mc.ItemStock.getItemRefundCost(itemInfo)));
         nodeAsset.addChild(assetSell);
@@ -642,8 +659,7 @@ mc.ItemInfoConsumeDialog = mc.BaseItemDialog.extend({
 
     show: function () {
         this._super();
-        if (!mc.ItemStock.getItemId(this._itemInfo) &&
-            !this._buyMode) {
+        if (!mc.ItemStock.getItemId(this._itemInfo) && !this._buyMode) {
             var dy = 175;
             for (var key in this._rootMap) {
                 this._rootMap[key].y -= dy;

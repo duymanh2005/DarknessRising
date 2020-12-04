@@ -1370,6 +1370,7 @@ mc.CreatureInfo = cc.Class.extend({
     currHpPercentByLong: 0,
     currMpPercentByLong: 0,
     ultimate: false,
+    petEquipment:null,
 
     cooldownMap: null,
 
@@ -1412,6 +1413,7 @@ mc.CreatureInfo = cc.Class.extend({
         }
         this.serverId = heroInfo.id;
         this.monster = false;
+        this.petEquipment = heroInfo.petEquipment
         this.gameHeroId = heroInfo.gameHeroId;
         this.currHpPercentByLong = 1 * mc.CreatureInfo.CAST_LONG_RATE;
         this.currMpPercentByLong = 0;

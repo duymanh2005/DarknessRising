@@ -586,11 +586,11 @@ mc.NotifySystem = bb.Class.extend({
     },
 
     doHaveAds: function () {
-        cc.log("check have ads");
-        var refreshFee = mc.GameData.refreshGameFunctionSystem.getRefreshFunctionPriceByCode(mc.const.REFRESH_FUNCTION_ADS);
-        if (refreshFee && bb.pluginBox.ads.isAvailable()) {
-            return true;
-        }
+        //cc.log("check have ads");
+        //var refreshFee = mc.GameData.refreshGameFunctionSystem.getRefreshFunctionPriceByCode(mc.const.REFRESH_FUNCTION_ADS);
+        //if (refreshFee && bb.pluginBox.ads.isAvailable()) {
+        //    return true;
+        //}
         return false;
     },
 

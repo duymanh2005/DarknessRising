@@ -619,7 +619,8 @@ mc.HeroInfoLayer = mc.LoadingLayer.extend({
         cc.log("***************** Show item info");
         cc.log(itemInfo);
         if(slot == 6){
-            var statusImage = mc.HeroStock.getSkillStatusResource({index: 8260});
+            var skillByEquipmentIndex = mc.dictionary.getSkillByEquipmentIndex(itemInfo.index);
+            var statusImage = mc.HeroStock.getSkillStatusResource({index: skillByEquipmentIndex});
             if (statusImage) {
                 var strs = statusImage.split('.');
                 if (!strs[1] || strs[1] === "json") {
