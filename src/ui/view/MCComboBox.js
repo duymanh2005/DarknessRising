@@ -21,7 +21,6 @@ mc.ComboBox = ccui.Layout.extend({
         var lblTitle = mc.GUIFactory.createText(title || "", res.font_cam_stroke_32_export_fnt);
         var lblSelect = this._lblSelect = mc.GUIFactory.createText("Rarity", res.font_cam_stroke_32_export_fnt);
         lblSelect.setColor(mc.color.BLUE_SOFT);
-        lblSelect.anchorX = 1.0;
         var iconArrow = new cc.Sprite("#button/Yellow_Arrow.png");
         this.anchorX = 0.5;
         this.anchorY = 0.5;
@@ -35,6 +34,7 @@ mc.ComboBox = ccui.Layout.extend({
 
         lblTitle.x = xLR + lblTitle.width * 0.5;
         lblTitle.y = this.height * 0.65;
+        lblSelect.anchorX = 1.0;
         lblSelect.x = this.width * 0.85;
         lblSelect.y = this.height * 0.65;
         iconArrow.x = this.width - xLR - iconArrow.width * 0.5;

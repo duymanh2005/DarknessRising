@@ -74,7 +74,9 @@ mc.LoginScreen = bb.Screen.extend({
             "res/button/Start_button.png",
             "res/bar/Loading_Gauge.png",
             "res/bar/Loading_Gauge_Outline.png",
-            "res/spine/Cover_Animation_Night.atlas", "res/spine/Cover_Animation_Night.json", "res/spine/Cover_Animation_Night.png"
+            "res/spine/Cover_Animation_Night.atlas", "res/spine/Cover_Animation_Night.json", "res/spine/Cover_Animation_Night.png",
+            "res/spine/waterfallAnim_spine.atlas", "res/spine/waterfallAnim_spine.json", "res/spine/waterfallAnim_spine.png",
+            "res/spine/atlas2-xhdpi.jpg", "res/spine/atlas2-xhdpi.plist"
         ];
     },
 
@@ -94,6 +96,7 @@ mc.LoginScreen = bb.Screen.extend({
         if (imgCover) {
             imgCover.runAction(cc.sequence([cc.fadeOut(0.3), cc.removeSelf()]));
         }
+
         var spineCover = sp.SkeletonAnimation.createWithJsonFile("res/spine/Cover_Animation_Night.json", "res/spine/Cover_Animation_Night.atlas", scale);
         spineCover.setName("_cover_spine");
         spineCover.anchorX = spineCover.anchorY = 0.5;
@@ -106,6 +109,22 @@ mc.LoginScreen = bb.Screen.extend({
         spineCover.opacity = 0;
         spineCover.runAction(cc.fadeIn(0.3));
         this.addChild(spineCover);
+
+        //var spineCover1 = sp.SkeletonAnimation.createWithJsonFile("res/spine/waterfallAnim_spine.json", "res/spine/waterfallAnim_spine.atlas", scale);
+        //spineCover1.x = cc.winSize.width * 0.1;
+        //spineCover1.y = cc.winSize.height;
+        //spineCover1.width = 70*scale;
+        //spineCover1.setAnimation(0, "waterfallLoop", true);
+        //this.addChild(spineCover1);
+
+        cc.spriteFrameCache.addSpriteFrame("res/spine/atlas2-xhdpi.plist", "atlas2-xhdpi.jpg")
+        var brkView = new ccui.ImageView("seq_01_leaves_32.jpg", ccui.Widget.PLIST_TEXTURE);
+        brkView.setScale9Enabled(true);
+        brkView.width = 500;
+        brkView.anchorX = 0;
+        brkView.anchorY = 0;
+        this.addChild(brkView);
+
     },
 
     _loadServerConfigList: function (callback) {

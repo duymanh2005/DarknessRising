@@ -1,1 +1,564 @@
-{"ID":"8265019b-e8d4-43ff-a790-debedae6ef8d","Version":"3.10.0.0","Name":"ChatPopup","Content":{"Content":{"Animation":{"Duration":0,"Speed":1.0,"Timelines":[],"ctype":"TimelineActionData"},"AnimationList":[],"ObjectData":{"Tag":422,"Children":[{"FileData":{"Type":"MarkedSubImage","Path":"patch9/Grid_Panel.png","Plist":"json/patch9_1.plist"},"Scale9Enable":true,"Scale9OriginX":71,"Scale9OriginY":59,"Scale9Width":588,"Scale9Height":580,"TouchEnable":true,"AnchorPoint":{"ScaleX":0.5,"ScaleY":0.5},"Position":{"X":375.0,"Y":609.2378},"Scale":{"ScaleX":1.0,"ScaleY":1.0},"CColor":{},"IconVisible":false,"PositionPercentXEnabled":true,"PositionPercentYEnabled":true,"PrePosition":{"X":0.5,"Y":0.4567},"PercentWidthEnable":true,"PercentHeightEnable":true,"PercentWidthEnabled":true,"PercentHeightEnabled":true,"PreSize":{"X":0.9733,"Y":0.8},"LeftMargin":10.0125,"RightMargin":10.0125,"TopMargin":191.1621,"BottomMargin":75.6378,"Tag":423,"Children":[{"FileData":{"Type":"MarkedSubImage","Path":"button/quit_button.png","Plist":"json/button.plist"},"Scale9OriginX":23,"Scale9OriginY":25,"Scale9Width":26,"Scale9Height":26,"AnchorPoint":{"ScaleX":0.5,"ScaleY":0.5},"Position":{"X":694.6053,"Y":1032.8557},"Scale":{"ScaleX":1.0,"ScaleY":1.0},"CColor":{},"IconVisible":false,"PrePosition":{"X":0.9515,"Y":0.9678},"PreSize":{"X":0.0986,"Y":0.0712},"LeftMargin":658.6053,"RightMargin":-0.6303,"TopMargin":-3.6556,"BottomMargin":994.8557,"Tag":193,"ActionTag":1009838573,"Size":{"X":72.0,"Y":76.0},"Name":"btnExit","ctype":"ImageViewObjectData"},{"FileData":{"Type":"MarkedSubImage","Path":"chat/tab_item_picked.png","Plist":"json/chat.plist"},"Scale9OriginX":77,"Scale9OriginY":24,"Scale9Width":15,"Scale9Height":36,"AnchorPoint":{"ScaleX":0.5,"ScaleY":0.5},"Position":{"X":337.3944,"Y":1098.0422},"Scale":{"ScaleX":1.0,"ScaleY":1.0},"CColor":{},"IconVisible":false,"PositionPercentXEnabled":true,"PositionPercentYEnabled":true,"PrePosition":{"X":0.4622,"Y":1.0289},"PreSize":{"X":0.2315,"Y":0.0787},"LeftMargin":252.8944,"RightMargin":308.0806,"TopMargin":-72.8422,"BottomMargin":1056.0422,"Tag":243,"Children":[{"FileData":{"Type":"MarkedSubImage","Path":"chat/flag-icon.png","Plist":"json/chat.plist"},"Scale9OriginX":23,"Scale9OriginY":16,"Scale9Width":12,"Scale9Height":27,"AnchorPoint":{"ScaleX":0.5,"ScaleY":0.5},"Position":{"X":88.0854,"Y":33.7784},"Scale":{"ScaleX":1.0,"ScaleY":1.0},"CColor":{},"IconVisible":false,"PrePosition":{"X":0.5212,"Y":0.4021},"PreSize":{"X":0.3432,"Y":0.7024},"LeftMargin":59.0854,"RightMargin":51.9146,"TopMargin":20.7216,"BottomMargin":4.2784,"Tag":275,"ActionTag":-1616817632,"Size":{"X":58.0,"Y":59.0},"Name":"icon","ctype":"ImageViewObjectData"}],"ActionTag":-1446662638,"Size":{"X":169.0,"Y":84.0},"Name":"btnGuild","ctype":"ImageViewObjectData"},{"FileData":{"Type":"MarkedSubImage","Path":"chat/tab_item_picked.png","Plist":"json/chat.plist"},"Scale9OriginX":77,"Scale9OriginY":24,"Scale9Width":15,"Scale9Height":36,"AnchorPoint":{"ScaleX":0.5,"ScaleY":0.5},"Position":{"X":538.9406,"Y":1098.0422},"Scale":{"ScaleX":1.0,"ScaleY":1.0},"CColor":{},"IconVisible":false,"PositionPercentXEnabled":true,"PositionPercentYEnabled":true,"PrePosition":{"X":0.7383,"Y":1.0289},"PreSize":{"X":0.2315,"Y":0.0787},"LeftMargin":454.4406,"RightMargin":106.5344,"TopMargin":-72.8422,"BottomMargin":1056.0422,"Tag":242,"Children":[{"FileData":{"Type":"MarkedSubImage","Path":"chat/ico_chat.png","Plist":"json/chat.plist"},"Scale9OriginX":23,"Scale9OriginY":16,"Scale9Width":19,"Scale9Height":28,"AnchorPoint":{"ScaleX":0.5,"ScaleY":0.5},"Position":{"X":89.6693,"Y":33.2784},"Scale":{"ScaleX":1.0,"ScaleY":1.0},"CColor":{},"IconVisible":false,"PrePosition":{"X":0.5306,"Y":0.3962},"PreSize":{"X":0.3846,"Y":0.7143},"LeftMargin":57.1693,"RightMargin":46.8307,"TopMargin":20.7216,"BottomMargin":3.2784,"Tag":276,"ActionTag":400422197,"Size":{"X":65.0,"Y":60.0},"Name":"icon","ctype":"ImageViewObjectData"}],"ActionTag":282702128,"Size":{"X":169.0,"Y":84.0},"Name":"btnPrivate","ctype":"ImageViewObjectData"},{"FileData":{"Type":"MarkedSubImage","Path":"chat/pnl_chat.png","Plist":"json/chat.plist"},"Scale9Enable":true,"Scale9OriginX":74,"Scale9OriginY":65,"Scale9Width":142,"Scale9Height":115,"AnchorPoint":{"ScaleX":0.5,"ScaleY":0.5},"Position":{"X":364.9875,"Y":565.616},"Scale":{"ScaleX":1.0,"ScaleY":1.0},"CColor":{},"IconVisible":false,"PositionPercentXEnabled":true,"PositionPercentYEnabled":true,"PrePosition":{"X":0.5,"Y":0.53},"PercentWidthEnable":true,"PercentHeightEnable":true,"PercentWidthEnabled":true,"PercentHeightEnabled":true,"PreSize":{"X":0.86,"Y":0.82},"LeftMargin":51.0982,"RightMargin":51.0983,"TopMargin":64.032,"BottomMargin":128.064,"Tag":245,"ActionTag":1019514781,"Size":{"X":627.7785,"Y":875.1041},"Name":"bgList","ctype":"ImageViewObjectData"},{"FileData":{"Type":"MarkedSubImage","Path":"chat/ico_largearrow_yellow.png","Plist":"json/chat.plist"},"Scale9OriginX":23,"Scale9OriginY":25,"Scale9Width":33,"Scale9Height":19,"AnchorPoint":{"ScaleX":0.5,"ScaleY":0.5},"Position":{"X":640.8577,"Y":79.8419},"Scale":{"ScaleX":1.0,"ScaleY":1.0},"CColor":{},"IconVisible":false,"PrePosition":{"X":0.8779,"Y":0.0748},"PreSize":{"X":0.1082,"Y":0.0647},"LeftMargin":601.3577,"RightMargin":49.6172,"TopMargin":952.8582,"BottomMargin":45.3419,"Tag":272,"ActionTag":671218905,"Size":{"X":79.0,"Y":69.0},"Name":"btnChat","ctype":"ImageViewObjectData"},{"FileData":{"Type":"MarkedSubImage","Path":"chat/pnl_text_here.png","Plist":"json/chat.plist"},"Scale9Enable":true,"Scale9OriginX":23,"Scale9OriginY":25,"Scale9Width":477,"Scale9Height":8,"AnchorPoint":{"ScaleX":0.5,"ScaleY":0.5},"Position":{"X":315.5252,"Y":79.8419},"Scale":{"ScaleX":1.0,"ScaleY":1.0},"CColor":{},"IconVisible":false,"PrePosition":{"X":0.4322,"Y":0.0748},"PercentWidthEnable":true,"PercentWidthEnabled":true,"PreSize":{"X":0.7164,"Y":0.0543},"LeftMargin":54.0482,"RightMargin":152.9727,"TopMargin":958.3582,"BottomMargin":50.8419,"Tag":273,"ActionTag":-1123662356,"Size":{"X":522.9541,"Y":58.0},"Name":"chatBg","ctype":"ImageViewObjectData"},{"FileData":{"Type":"MarkedSubImage","Path":"chat/tab_item_picked.png","Plist":"json/chat.plist"},"Scale9OriginX":77,"Scale9OriginY":24,"Scale9Width":15,"Scale9Height":36,"AnchorPoint":{"ScaleX":0.5,"ScaleY":0.5},"Position":{"X":135.7753,"Y":1098.0422},"Scale":{"ScaleX":1.0,"ScaleY":1.0},"CColor":{},"IconVisible":false,"PositionPercentXEnabled":true,"PositionPercentYEnabled":true,"PrePosition":{"X":0.186,"Y":1.0289},"PreSize":{"X":0.2315,"Y":0.0787},"LeftMargin":51.2753,"RightMargin":509.6996,"TopMargin":-72.8422,"BottomMargin":1056.0422,"Tag":13,"Children":[{"FileData":{"Type":"MarkedSubImage","Path":"chat/ico_world.png","Plist":"json/chat.plist"},"Scale9OriginX":23,"Scale9OriginY":16,"Scale9Width":21,"Scale9Height":24,"AnchorPoint":{"ScaleX":0.5,"ScaleY":0.5},"Position":{"X":88.0854,"Y":33.7784},"Scale":{"ScaleX":1.0,"ScaleY":1.0},"CColor":{},"IconVisible":false,"PrePosition":{"X":0.5212,"Y":0.4021},"PreSize":{"X":0.3964,"Y":0.6667},"LeftMargin":54.5854,"RightMargin":47.4146,"TopMargin":22.2216,"BottomMargin":5.7784,"Tag":14,"ActionTag":2091329142,"Size":{"X":67.0,"Y":56.0},"Name":"icon","ctype":"ImageViewObjectData"}],"ActionTag":393806337,"Size":{"X":169.0,"Y":84.0},"Name":"btnWorld","ctype":"ImageViewObjectData"}],"ActionTag":809872046,"Size":{"X":729.975,"Y":1067.2001},"Name":"root","ctype":"ImageViewObjectData"}],"Size":{"X":750.0,"Y":1334.0},"Name":"Layer","ctype":"LayerObjectData"},"UsedResources":["../button.plist","../button.png","../chat.plist","../chat.png","../patch9_1.plist","../patch9_1.png"],"ctype":"GameFileData"}},"Type":"Layer"}
+{
+  "ID": "8265019b-e8d4-43ff-a790-debedae6ef8d",
+  "Version": "3.10.0.0",
+  "Name": "ChatPopup",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 422,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "patch9/Grid_Panel.png",
+              "Plist": "json/patch9_1.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 71,
+            "Scale9OriginY": 59,
+            "Scale9Width": 588,
+            "Scale9Height": 580,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 609.2378
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4567
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.9733,
+              "Y": 0.8
+            },
+            "LeftMargin": 10.0125,
+            "RightMargin": 10.0125,
+            "TopMargin": 191.1621,
+            "BottomMargin": 75.6378,
+            "Tag": 423,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "button/quit_button.png",
+                  "Plist": "json/button.plist"
+                },
+                "Scale9OriginX": 23,
+                "Scale9OriginY": 25,
+                "Scale9Width": 26,
+                "Scale9Height": 26,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 694.6053,
+                  "Y": 1032.8557
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9515,
+                  "Y": 0.9678
+                },
+                "PreSize": {
+                  "X": 0.0986,
+                  "Y": 0.0712
+                },
+                "LeftMargin": 658.6053,
+                "RightMargin": -0.6303,
+                "TopMargin": -3.6556,
+                "BottomMargin": 994.8557,
+                "Tag": 193,
+                "ActionTag": 1009838573,
+                "Size": {
+                  "X": 72.0,
+                  "Y": 76.0
+                },
+                "Name": "btnExit",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "chat/tab_item_picked.png",
+                  "Plist": "json/chat.plist"
+                },
+                "Scale9OriginX": 77,
+                "Scale9OriginY": 24,
+                "Scale9Width": 15,
+                "Scale9Height": 36,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 337.3944,
+                  "Y": 1098.0422
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.4622,
+                  "Y": 1.0289
+                },
+                "PreSize": {
+                  "X": 0.2315,
+                  "Y": 0.0787
+                },
+                "LeftMargin": 252.8944,
+                "RightMargin": 308.0806,
+                "TopMargin": -72.8422,
+                "BottomMargin": 1056.0422,
+                "Tag": 243,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "chat/flag-icon.png",
+                      "Plist": "json/chat.plist"
+                    },
+                    "Scale9OriginX": 23,
+                    "Scale9OriginY": 16,
+                    "Scale9Width": 12,
+                    "Scale9Height": 27,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 88.0854,
+                      "Y": 33.7784
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5212,
+                      "Y": 0.4021
+                    },
+                    "PreSize": {
+                      "X": 0.3432,
+                      "Y": 0.7024
+                    },
+                    "LeftMargin": 59.0854,
+                    "RightMargin": 51.9146,
+                    "TopMargin": 20.7216,
+                    "BottomMargin": 4.2784,
+                    "Tag": 275,
+                    "ActionTag": -1616817632,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 59.0
+                    },
+                    "Name": "icon",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -1446662638,
+                "Size": {
+                  "X": 169.0,
+                  "Y": 84.0
+                },
+                "Name": "btnGuild",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "chat/tab_item_picked.png",
+                  "Plist": "json/chat.plist"
+                },
+                "Scale9OriginX": 77,
+                "Scale9OriginY": 24,
+                "Scale9Width": 15,
+                "Scale9Height": 36,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 538.9406,
+                  "Y": 1098.0422
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7383,
+                  "Y": 1.0289
+                },
+                "PreSize": {
+                  "X": 0.2315,
+                  "Y": 0.0787
+                },
+                "LeftMargin": 454.4406,
+                "RightMargin": 106.5344,
+                "TopMargin": -72.8422,
+                "BottomMargin": 1056.0422,
+                "Tag": 242,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "chat/ico_chat.png",
+                      "Plist": "json/chat.plist"
+                    },
+                    "Scale9OriginX": 23,
+                    "Scale9OriginY": 16,
+                    "Scale9Width": 19,
+                    "Scale9Height": 28,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 89.6693,
+                      "Y": 33.2784
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5306,
+                      "Y": 0.3962
+                    },
+                    "PreSize": {
+                      "X": 0.3846,
+                      "Y": 0.7143
+                    },
+                    "LeftMargin": 57.1693,
+                    "RightMargin": 46.8307,
+                    "TopMargin": 20.7216,
+                    "BottomMargin": 3.2784,
+                    "Tag": 276,
+                    "ActionTag": 400422197,
+                    "Size": {
+                      "X": 65.0,
+                      "Y": 60.0
+                    },
+                    "Name": "icon",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 282702128,
+                "Size": {
+                  "X": 169.0,
+                  "Y": 84.0
+                },
+                "Name": "btnPrivate",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "chat/pnl_chat.png",
+                  "Plist": "json/chat.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 74,
+                "Scale9OriginY": 65,
+                "Scale9Width": 142,
+                "Scale9Height": 115,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 364.9875,
+                  "Y": 565.616
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.53
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.86,
+                  "Y": 0.82
+                },
+                "LeftMargin": 51.0982,
+                "RightMargin": 51.0983,
+                "TopMargin": 64.032,
+                "BottomMargin": 128.064,
+                "Tag": 245,
+                "ActionTag": 1019514781,
+                "Size": {
+                  "X": 627.7785,
+                  "Y": 875.1041
+                },
+                "Name": "bgList",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "chat/ico_largearrow_yellow.png",
+                  "Plist": "json/chat.plist"
+                },
+                "Scale9OriginX": 23,
+                "Scale9OriginY": 25,
+                "Scale9Width": 33,
+                "Scale9Height": 19,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.8577,
+                  "Y": 79.8419
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8779,
+                  "Y": 0.0748
+                },
+                "PreSize": {
+                  "X": 0.1082,
+                  "Y": 0.0647
+                },
+                "LeftMargin": 601.3577,
+                "RightMargin": 49.6172,
+                "TopMargin": 952.8582,
+                "BottomMargin": 45.3419,
+                "Tag": 272,
+                "ActionTag": 671218905,
+                "Size": {
+                  "X": 79.0,
+                  "Y": 69.0
+                },
+                "Name": "btnChat",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "chat/pnl_text_here.png",
+                  "Plist": "json/chat.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 23,
+                "Scale9OriginY": 25,
+                "Scale9Width": 477,
+                "Scale9Height": 8,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 315.5252,
+                  "Y": 79.8419
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4322,
+                  "Y": 0.0748
+                },
+                "PercentWidthEnable": true,
+                "PercentWidthEnabled": true,
+                "PreSize": {
+                  "X": 0.7164,
+                  "Y": 0.0543
+                },
+                "LeftMargin": 54.0482,
+                "RightMargin": 152.9727,
+                "TopMargin": 958.3582,
+                "BottomMargin": 50.8419,
+                "Tag": 273,
+                "ActionTag": -1123662356,
+                "Size": {
+                  "X": 522.9541,
+                  "Y": 58.0
+                },
+                "Name": "chatBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "chat/tab_item_picked.png",
+                  "Plist": "json/chat.plist"
+                },
+                "Scale9OriginX": 77,
+                "Scale9OriginY": 24,
+                "Scale9Width": 15,
+                "Scale9Height": 36,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 135.7753,
+                  "Y": 1098.0422
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.186,
+                  "Y": 1.0289
+                },
+                "PreSize": {
+                  "X": 0.2315,
+                  "Y": 0.0787
+                },
+                "LeftMargin": 51.2753,
+                "RightMargin": 509.6996,
+                "TopMargin": -72.8422,
+                "BottomMargin": 1056.0422,
+                "Tag": 13,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "chat/ico_world.png",
+                      "Plist": "json/chat.plist"
+                    },
+                    "Scale9OriginX": 23,
+                    "Scale9OriginY": 16,
+                    "Scale9Width": 21,
+                    "Scale9Height": 24,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 88.0854,
+                      "Y": 33.7784
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5212,
+                      "Y": 0.4021
+                    },
+                    "PreSize": {
+                      "X": 0.3964,
+                      "Y": 0.6667
+                    },
+                    "LeftMargin": 54.5854,
+                    "RightMargin": 47.4146,
+                    "TopMargin": 22.2216,
+                    "BottomMargin": 5.7784,
+                    "Tag": 14,
+                    "ActionTag": 2091329142,
+                    "Size": {
+                      "X": 67.0,
+                      "Y": 56.0
+                    },
+                    "Name": "icon",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 393806337,
+                "Size": {
+                  "X": 169.0,
+                  "Y": 84.0
+                },
+                "Name": "btnWorld",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 809872046,
+            "Size": {
+              "X": 729.975,
+              "Y": 1067.2001
+            },
+            "Name": "root",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 750.0,
+          "Y": 1334.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../button.plist",
+        "../button.png",
+        "../chat.plist",
+        "../chat.png",
+        "../patch9_1.plist",
+        "../patch9_1.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

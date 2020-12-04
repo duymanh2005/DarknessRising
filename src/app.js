@@ -2,9 +2,9 @@ var mc = mc || {};
 mc.const = {
     ////// important : remove for release///////
     //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJkZXZpY2VfaWQiOiJhZHIjIzIzOTFlMzNlOWIxYTAxZDkjIzIiLCJpc3MiOiJhdXRoMCIsImlkIjoiLTEiLCJleHAiOjE1OTc5MDgyODEsInR5cGUiOiJndWVzdCIsInR0bCI6ODY0MDAwMDAwfQ.RFWDKU_jyekGiID741ewUgk8NUfe_Kw_J5vCHwEELZk",
-    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNTk5NjY3NjU5LCJhcHBfaWQiOiIyIiwidHRsIjo4NjQwMDAwMDB9.Um-F4s52jqQmfPDe42egvpdyW7UKdkJJ5dal0TxZA5k",
+    TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNTk5NjY3NjU5LCJhcHBfaWQiOiIyIiwidHRsIjo4NjQwMDAwMDB9.Um-F4s52jqQmfPDe42egvpdyW7UKdkJJ5dal0TxZA5k",
     //TEST_FACEBOOK_TOKEN:"can test bang token fb"
-    TEST_GAME_TOKEN: null,
+    //TEST_GAME_TOKEN: null,
     ////////////////////////////////////////////////////
     // important code! do not forget to TURN-OFF!!!!!!!!!
     SERVER_MAINTENANCE: false,

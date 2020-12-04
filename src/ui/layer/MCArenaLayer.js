@@ -139,6 +139,7 @@ mc.ArenaLayer = mc.LoadingLayer.extend({
         btnEnter.registerTouchEvent(function () {
             _searchOpp();
         });
+
         btnRecord.registerTouchEvent(function () {
             self.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_ARENA_RECORD);
         });
@@ -164,6 +165,15 @@ mc.ArenaLayer = mc.LoadingLayer.extend({
             self.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_ARENA_REWARDS);
         });
 
+
+        var comboBoxRank = new mc.ComboBox("Search Opt: ");
+        comboBoxRank.setDataSource(["Default", "Top", "Under League"],
+            0,
+            function (cbBox, index) {
+            }.bind(this));
+        comboBoxRank.x = btnEnter.x;
+        comboBoxRank.y = panelArena.height;
+        panelArena.addChild(comboBoxRank);
     },
 
     _showDialogVS: function () {
