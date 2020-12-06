@@ -156,7 +156,7 @@ mc.ItemInfoDialog = mc.BaseItemDialog.extend({
         cc.log(itemInfo);
 
         btnSell.setString(mc.dictionary.getGUIString(mc.ItemStock.isItemEquipment(itemInfo) ? "lblDisarm" : "lblSell"));
-        btnUpgrade.setString(mc.dictionary.getGUIString(itemInfo.slotIndex != 6 ? "lblUpgrade" : "Tien Hoa"));
+        btnUpgrade.setString(mc.dictionary.getGUIString(itemInfo.slotIndex != 6 ? "lblUpgrade" : "Evolution"));
         var rankObj = mc.ItemView.getRankText(mc.ItemStock.getItemRank(itemInfo));
 
         lblRare.setString("");
@@ -227,7 +227,7 @@ mc.ItemInfoDialog = mc.BaseItemDialog.extend({
         //item 6
         cc.log("************** hero item");
         cc.log(itemInfo);
-        if(itemInfo.slotIndex == 6){
+        if(itemInfo.slotIndex == 6 || !itemInfo.id){
             strDesc = mc.dictionary.getSkillDescByEquipmentIndex(itemInfo.index);
         }
 

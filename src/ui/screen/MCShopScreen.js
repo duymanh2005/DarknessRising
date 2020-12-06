@@ -76,6 +76,8 @@ mc.ShopScreen = mc.Screen.extend({
         var urlBrkTop = res.brk_shop_normal;
         if (shopId === mc.ShopManager.SHOP_CHAOS) {
             urlBrkTop = res.brk_shop_chaos;
+        }if (shopId === mc.ShopManager.SHOP_PET) {
+            urlBrkTop = res.brk_shop_pet;
         } else if (shopId === mc.ShopManager.SHOP_ARENA) {
             urlBrkTop = res.brk_shop_arena;
         } else if (shopId === mc.ShopManager.SHOP_EVENTB) {

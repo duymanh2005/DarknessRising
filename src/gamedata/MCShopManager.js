@@ -132,6 +132,7 @@ mc.ShopManager.SHOP_GOBLIN = "Shop_Goblin";
 mc.ShopManager.SHOP_RELIC = "Shop_Relic";
 mc.ShopManager.SHOP_PROMGOTION = "Shop_Promotion";
 mc.ShopManager.SHOP_EGG = "Shop_Egg";
+mc.ShopManager.SHOP_PET = "Shop_Pet";
 
 mc.ShopManager.getShopName = function (shopId) {
     var shopDict = mc.dictionary.getItemShopById(shopId);
