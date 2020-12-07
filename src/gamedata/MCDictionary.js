@@ -134,7 +134,9 @@
     mc.dictionary.getSkillDescByEquipmentIndex = function(index){
         var equipment = mc.dictionary.equipmentMapByIndex[index];
         var skillDict =  mc.dictionary.getSkillByIndex(equipment.skillIndex);
-        return mc.dictionary.getI18nMsg(skillDict.desc);
+        if(skillDict)
+            return mc.dictionary.getI18nMsg(skillDict.desc);
+        else null
     }
 
     mc.dictionary.getEffectByIndex = function (index) {

@@ -228,7 +228,10 @@ mc.ItemInfoDialog = mc.BaseItemDialog.extend({
         cc.log("************** hero item");
         cc.log(itemInfo);
         if(itemInfo.slotIndex == 6 || !itemInfo.id){
-            strDesc = mc.dictionary.getSkillDescByEquipmentIndex(itemInfo.index);
+            var skillDesc = mc.dictionary.getSkillDescByEquipmentIndex(itemInfo.index);
+            if(skillDesc){
+                strDesc = skillDesc;
+            }
         }
 
         this.viewDatas["strDesc"] = strDesc;
