@@ -61,15 +61,29 @@ mc.HeroSummonScreen = mc.Screen.extend({
             var rank = mc.HeroStock.getHeroRank(heroInfo);
             this.scheduleOnce(function () {
                 spineView && spineView.attack();
-                var starLayout = bb.layout.linear(bb.collection.createArray(rank, function (index) {
-                    var icon = new ccui.ImageView("icon/Star.png", ccui.Widget.PLIST_TEXTURE);
-                    icon.ignoreContentAdaptWithSize(true);
-                    var newScale = 1.0;
-                    icon.scale = newScale;
-                    icon.scale = 0.0;
-                    icon.runAction(cc.sequence([cc.delayTime(delay * (index + 1) + dur * index), cc.scaleTo(0.25, newScale, newScale).easing(cc.easeBackOut())]));
-                    return icon;
-                }), 32);
+                var starLayout = null;
+                if(rank >= 6){
+                    starLayout = bb.layout.linear(bb.collection.createArray(rank - 5, function (index) {
+                        var icon = new ccui.ImageView("icon/star_purple_small.png", ccui.Widget.PLIST_TEXTURE);
+                        icon.ignoreContentAdaptWithSize(true);
+                        var newScale = 1.0;
+                        icon.scale = newScale;
+                        icon.scale = 0.0;
+                        icon.runAction(cc.sequence([cc.delayTime(delay * (index + 1) + dur * index), cc.scaleTo(0.25, newScale, newScale).easing(cc.easeBackOut())]));
+                        return icon;
+                    }), 32);
+                }else{
+                    starLayout = bb.layout.linear(bb.collection.createArray(rank, function (index) {
+                        var icon = new ccui.ImageView("icon/Star.png", ccui.Widget.PLIST_TEXTURE);
+                        icon.ignoreContentAdaptWithSize(true);
+                        var newScale = 1.0;
+                        icon.scale = newScale;
+                        icon.scale = 0.0;
+                        icon.runAction(cc.sequence([cc.delayTime(delay * (index + 1) + dur * index), cc.scaleTo(0.25, newScale, newScale).easing(cc.easeBackOut())]));
+                        return icon;
+                    }), 32);
+                }
+
                 starLayout.x = this._nodeChar.width * 0.5;
                 starLayout.y = -35;
                 this._nodeChar.addChild(starLayout);

@@ -267,10 +267,18 @@ mc.InvolveHeroScreen = mc.Screen.extend({
                 involveAnimate_back.setPositionX(this._nodeInvolveSpine.width / 2);
                 involveAnimate_back.setAnimation(0, "idle" + (enableUpgrade ? "2" : ""), true);
 
+                var heroRank = mc.HeroStock.getHeroRank(evolveHeroInfo);
+                var layoutStar = null;
+                if(heroRank >= 6){
+                    layoutStar = bb.layout.linear(bb.collection.createArray(heroRank - 5, function (index) {
+                        return new ccui.ImageView("icon/star_purple_small.png", ccui.Widget.PLIST_TEXTURE);
+                    }), 0);
+                }else{
+                    layoutStar = bb.layout.linear(bb.collection.createArray(heroRank, function (index) {
+                        return new ccui.ImageView("icon/Star.png", ccui.Widget.PLIST_TEXTURE);
+                    }), 0)
+                }
 
-                var layoutStar = this._layoutInvolveStar = bb.layout.linear(bb.collection.createArray(mc.HeroStock.getHeroRank(evolveHeroInfo), function (index) {
-                    return new ccui.ImageView("icon/Star.png", ccui.Widget.PLIST_TEXTURE);
-                }), 0);
                 layoutStar.setCascadeOpacityEnabled(true);
                 layoutStar.setCascadeColorEnabled(true);
                 layoutStar.scale = 0.75;
@@ -281,9 +289,18 @@ mc.InvolveHeroScreen = mc.Screen.extend({
             }
             this._lblCurrPower.setString(mc.dictionary.getGUIString("lblPower") + bb.utility.formatNumber(mc.HeroStock.getHeroBattlePower(this._getViewHeroInfo())));
 
-            var layoutStar = this._layoutStar = bb.layout.linear(bb.collection.createArray(mc.HeroStock.getHeroRank(heroInfo), function (index) {
-                return new ccui.ImageView("icon/Star.png", ccui.Widget.PLIST_TEXTURE);
-            }), 0);
+            var heroRank2 = mc.HeroStock.getHeroRank(heroInfo);
+            var layoutStar = null;
+            if(heroRank2 >= 6){
+                layoutStar = this._layoutStar = bb.layout.linear(bb.collection.createArray(heroRank2 - 5, function (index) {
+                    return new ccui.ImageView("icon/star_purple_small.png", ccui.Widget.PLIST_TEXTURE);
+                }), 0);
+            }else{
+                layoutStar = this._layoutStar = bb.layout.linear(bb.collection.createArray(heroRank2, function (index) {
+                    return new ccui.ImageView("icon/Star.png", ccui.Widget.PLIST_TEXTURE);
+                }), 0);
+            }
+
             layoutStar.setCascadeOpacityEnabled(true);
             layoutStar.setCascadeColorEnabled(true);
             layoutStar.scale = 0.75;
@@ -402,15 +419,29 @@ mc.InvolveHeroScreen = mc.Screen.extend({
                 var rank = mc.HeroStock.getHeroRank(heroInfo);
                 this.scheduleOnce(function () {
                     spineView.attack();
-                    var starLayout = bb.layout.linear(bb.collection.createArray(rank, function (index) {
-                        var icon = new ccui.ImageView("icon/Star.png", ccui.Widget.PLIST_TEXTURE);
-                        icon.ignoreContentAdaptWithSize(true);
-                        var newScale = 1.0;
-                        icon.scale = newScale;
-                        icon.scale = 0.0;
-                        icon.runAction(cc.sequence([cc.delayTime(delay * (index + 1) + dur * index), cc.scaleTo(0.25, newScale, newScale).easing(cc.easeBackOut())]));
-                        return icon;
-                    }), 32);
+                    var starLayout = null;
+                    if(rank >= 6){
+                        starLayout = bb.layout.linear(bb.collection.createArray(rank - 5, function (index) {
+                            var icon = new ccui.ImageView("icon/Star.png", ccui.Widget.PLIST_TEXTURE);
+                            icon.ignoreContentAdaptWithSize(true);
+                            var newScale = 1.0;
+                            icon.scale = newScale;
+                            icon.scale = 0.0;
+                            icon.runAction(cc.sequence([cc.delayTime(delay * (index + 1) + dur * index), cc.scaleTo(0.25, newScale, newScale).easing(cc.easeBackOut())]));
+                            return icon;
+                        }), 32);
+                    }else{
+                        starLayout = bb.layout.linear(bb.collection.createArray(rank, function (index) {
+                            var icon = new ccui.ImageView("icon/star_purple_small.png", ccui.Widget.PLIST_TEXTURE);
+                            icon.ignoreContentAdaptWithSize(true);
+                            var newScale = 1.0;
+                            icon.scale = newScale;
+                            icon.scale = 0.0;
+                            icon.runAction(cc.sequence([cc.delayTime(delay * (index + 1) + dur * index), cc.scaleTo(0.25, newScale, newScale).easing(cc.easeBackOut())]));
+                            return icon;
+                        }), 32);
+                    }
+
                     starLayout.x = this._nodeChar.width * 0.5;
                     starLayout.y = -35;
                     this._nodeChar.addChild(starLayout);

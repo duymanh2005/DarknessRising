@@ -30,15 +30,15 @@ mc.const = {
     TEST_CREATURE_BY_CAMPAIGN: null,
     SKIP_TUTORIAL_BATTLE: false,
     BATTLE_VERSION: "1.0",
-    VERSION: "1.0.0",
-    VERSION_NEWS: "1.0.1",
+    VERSION: "1.0.3",
+    VERSION_NEWS: "1.0.3",
     SERVERS: {
         "servers": [
             {
                 "id": 1,
                 "svn": "mus1",
-                "auth": "http://drapi.rpgwikigames.com:9393/",
-                "ws": "ws://drapi.rpgwikigames.com:9494/ws",
+                "auth": "http://192.168.1.249:9393/",
+                "ws": "ws://192.168.1.249:9494/ws",
                 "name": "S1: Legendary",
                 "type": "REAL",
                 "statusCode": 2

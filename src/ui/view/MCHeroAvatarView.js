@@ -130,9 +130,19 @@ mc.HeroAvatarView = ccui.Widget.extend({
             var rank = mc.HeroStock.getHeroRank(heroInfo);
             var lvl = mc.HeroStock.getHeroLevel(heroInfo);
 
-            var layoutStar = this._layoutStar = bb.layout.linear(bb.collection.createArray(rank, function (index) {
-                return new ccui.ImageView("icon/Star.png", ccui.Widget.PLIST_TEXTURE);
-            }), 0);
+            var layoutStar = null;
+            if(rank >= 6){
+                layoutStar = this._layoutStar = bb.layout.linear(bb.collection.createArray(rank - 5, function (index) {
+                    return new ccui.ImageView("icon/star_purple_small.png", ccui.Widget.PLIST_TEXTURE);
+                }), 0);
+
+                yBar -= 10;
+            }else{
+                layoutStar = this._layoutStar = bb.layout.linear(bb.collection.createArray(rank, function (index) {
+                    return new ccui.ImageView("icon/Star.png", ccui.Widget.PLIST_TEXTURE);
+                }), 0);
+            }
+
             layoutStar.setCascadeOpacityEnabled(true);
             layoutStar.setCascadeColorEnabled(true);
             layoutStar.scale = 0.6;
