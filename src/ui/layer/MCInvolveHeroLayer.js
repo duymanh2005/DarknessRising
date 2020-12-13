@@ -116,9 +116,17 @@ mc.InvolveHeroLayer = mc.MainBaseLayer.extend({
         nodeSpine.addChild(spineView);
         nodeAvt.addChild(new mc.HeroAvatarView(heroInfo).setVisibleSurfaceInfo(false));
 
-        var layoutStar = this._layoutStar = bb.layout.linear(bb.collection.createArray(mc.HeroStock.getHeroRank(heroInfo), function (index) {
-            return new ccui.ImageView("icon/Star.png", ccui.Widget.PLIST_TEXTURE);
-        }), 0);
+        var heroRank = mc.HeroStock.getHeroRank(heroInfo);
+        var layoutStar = null;
+        if(heroRank >= 6){
+            layoutStar = this._layoutStar = bb.layout.linear(bb.collection.createArray(heroRank - 5, function (index) {
+                return new ccui.ImageView("icon/star_purple_small.png", ccui.Widget.PLIST_TEXTURE);
+            }), 0);
+        }else{
+            layoutStar = this._layoutStar = bb.layout.linear(bb.collection.createArray(heroRank, function (index) {
+                return new ccui.ImageView("icon/Star.png", ccui.Widget.PLIST_TEXTURE);
+            }), 0);
+        }
         layoutStar.setCascadeOpacityEnabled(true);
         layoutStar.setCascadeColorEnabled(true);
         layoutStar.scale = 0.75;
