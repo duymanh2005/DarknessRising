@@ -1681,11 +1681,20 @@ mc.view_utility = (function () {
             funcObj[mc.const.ITEM_INDEX_BLESS] = function (oldBless, bless) {
                 lblBless.runAction(cc.countText(1.0, oldBless, bless));
             };
+
             if (thirdCurrencyIndex) {
                 funcObj[thirdCurrencyIndex] = function (oldCurrency, currency) {
                     lblHeart && lblHeart.runAction(cc.countText(1.0, oldCurrency, currency));
                 };
+
+                var itemInStock = mc.GameData.itemStock.getOverlapItemByIndex(thirdCurrencyIndex);
+                if(itemInStock && itemInStock.itemType === 3){
+                    var itemQuantity = (itemInStock ? mc.ItemStock.getItemQuantity(itemInStock) : 0);
+                    var stringValue = lblHeart._stringValue;
+                    lblHeart && lblHeart.runAction(cc.countText(1.0, parseInt(stringValue.replace(",","")) , itemQuantity));
+                }
             }
+
             assetChanger.performChanging(funcObj);
         };
 
@@ -1714,6 +1723,10 @@ mc.view_utility = (function () {
         });
         layer.traceDataChange(mc.GameData.playerInfo, function () {
             _updatePlayerInfo();
+        });
+
+        layer.traceDataChange(mc.GameData.itemStock, function () {
+            _animateChanger();
         });
     };
 
