@@ -1727,6 +1727,7 @@ mc.view_utility = (function () {
 
         layer.traceDataChange(mc.GameData.itemStock, function () {
             _animateChanger();
+
         });
     };
 
