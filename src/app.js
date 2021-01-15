@@ -2,9 +2,9 @@ var mc = mc || {};
 mc.const = {
     ////// important : remove for release///////
     //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNTk5ODQ1MzE0LCJhcHBfaWQiOiJtdXMxIiwidHRsIjo4NjQwMDAwMDB9.d_RQjz62uhtuzw9DMq1S-HMJKVlugTUVz7EnxZtpT24",
-    TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNjA3OTU5OTIwLCJhcHBfaWQiOiJtdXMxIiwidHRsIjo4NjQwMDAwMDB9.W6Buf2nVg69qp7PQbJOzeJAuY4MEFV5ZcXQodRGk8h4",
+    //TEST_GAME_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMzAxIiwiZXhwIjoxNjEwMzExMzI3LCJhcHBfaWQiOiJtdXMxIiwidHRsIjo4NjQwMDAwMDB9.tE0kqt6jpfjpbeX1MJo3nXC-mPxDLJaSub5sckxSKb4",
     //TEST_FACEBOOK_TOKEN:"can test bang token fb"
-    //TEST_GAME_TOKEN: null,
+    TEST_GAME_TOKEN: null,
     ////////////////////////////////////////////////////
     // important code! do not forget to TURN-OFF!!!!!!!!!
     SERVER_MAINTENANCE: false,
@@ -30,15 +30,15 @@ mc.const = {
     TEST_CREATURE_BY_CAMPAIGN: null,
     SKIP_TUTORIAL_BATTLE: false,
     BATTLE_VERSION: "1.0",
-    VERSION: "1.0.3",
-    VERSION_NEWS: "1.0.3",
+    VERSION: "1.0.4",
+    VERSION_NEWS: "1.0.4",
     SERVERS: {
         "servers": [
             {
                 "id": 1,
                 "svn": "mus1",
-                "auth": "http://192.168.1.249:9393/",
-                "ws": "ws://192.168.1.249:9494/ws",
+                "auth": "http://drapi.rpgwikigames.com:9393/",
+                "ws": "ws://drapi.rpgwikigames.com:9494/ws",
                 "name": "S1: Legendary",
                 "type": "REAL",
                 "statusCode": 2

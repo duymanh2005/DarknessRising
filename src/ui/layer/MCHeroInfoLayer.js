@@ -252,17 +252,18 @@ mc.HeroInfoLayer = mc.LoadingLayer.extend({
         nodeSpine.addChild(spineHeroView);
 
         var heroMaxRank = mc.HeroStock.getHeroMaxRank(viewHeroInfo);
+        var heroRank = mc.HeroStock.getHeroRank(viewHeroInfo);
         var layoutStar = null;
-        if(heroMaxRank >= 6){
+        if(heroRank >= 6){
             layoutStar = this._layoutStar = bb.layout.linear(bb.collection.createArray(heroMaxRank - 5, function (index) {
-                if (index < mc.HeroStock.getHeroRank(viewHeroInfo)) {
+                if (index < heroRank) {
                     return new ccui.ImageView("icon/star_purple_small.png", ccui.Widget.PLIST_TEXTURE);
                 }
                 return new ccui.ImageView("icon/Disable_Star.png", ccui.Widget.PLIST_TEXTURE);
             }), 0);
         }else{
             layoutStar = this._layoutStar = bb.layout.linear(bb.collection.createArray(heroMaxRank, function (index) {
-                if (index < mc.HeroStock.getHeroRank(viewHeroInfo)) {
+                if (index < heroRank) {
                     return new ccui.ImageView("icon/Star.png", ccui.Widget.PLIST_TEXTURE);
                 }
                 return new ccui.ImageView("icon/Disable_Star.png", ccui.Widget.PLIST_TEXTURE);
@@ -433,6 +434,7 @@ mc.HeroInfoLayer = mc.LoadingLayer.extend({
                 skillWidget.y = arrPos[i].y;
                 if (skillDict.skillType != mc.const.SKILL_TYPE_LEADER) {
                     var nextSkillIndex = mc.HeroStock.getSkillUpgradeOf(skillList[i]);
+
                     if (nextSkillIndex && nextSkillIndex > 0) {
                         var sphere = mc.HeroStock.getHeroSphere(heroInfo);
                         var numSphere = sphere ? mc.ItemStock.getItemQuantity(sphere) : 0;
