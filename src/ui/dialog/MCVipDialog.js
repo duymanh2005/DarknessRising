@@ -39,7 +39,6 @@ mc.VipDialog = bb.Dialog.extend({
         this.promo_content.setVisible(false);
         this.monthly_card_content.setVisible(false);
         this.best_offer_content.setVisible(false);
-        bottomPanel.getChildByName("widget1").setOpacity(170);
         bottomPanel.getChildByName("widget3").setOpacity(170);
     },
 
@@ -59,9 +58,6 @@ mc.VipDialog = bb.Dialog.extend({
 
     _bindBottonBar: function () {
         var bottomPanel = this._bottomPanel;
-        var widgetPromotion = bottomPanel.getChildByName("widget1");
-        widgetPromotion.x = cc.winSize.width/4 - 50;
-        widgetPromotion.setVisible(false);
         var widgetBuyBless = bottomPanel.getChildByName("widget3");
         widgetBuyBless.x = cc.winSize.width/2;
         widgetBuyBless.setVisible(false);
