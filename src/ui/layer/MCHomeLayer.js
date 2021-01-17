@@ -34,6 +34,7 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
         var btnMail = rootMap["btnMail"];
         var btnBlackSmith = this._btnBlackSmith = rootMap["btnBlackSmith"];
         var btnLevelUpEvent = rootMap["btnLevelUpEvent"];
+        var btnVip = rootMap["btnVip"];
         var btnFriend = rootMap["btnFriend"];
         var btnEvent = rootMap["btnEvent"];
         var btnPromotion = rootMap["btnPromotion"];
@@ -176,6 +177,15 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
         iconLevelUpAnimate.setPosition(levelUpIcon.x, levelUpIcon.y);
         iconLevelUpAnimate.setAnimation(0, "idle", true);
         levelUpIcon.setVisible(false);
+
+        //var vipIcon = btnVip.getChildByName("Image_31");
+        //var iconVipAnimate = sp.SkeletonAnimation.createWithJsonFile(res.spine_icon_level_up_event_json, res.spine_icon_level_up_event_atlas, 1.0);
+        //btnVip.addChild(iconVipAnimate);
+        //iconVipAnimate.setName("animateIcon");
+        //iconVipAnimate.setLocalZOrder(1);
+        //iconVipAnimate.setPosition(vipIcon.x, vipIcon.y);
+        //iconVipAnimate.setAnimation(0, "idle", true);
+        //vipIcon.setVisible(false);
 
         //Remove Snow
         if (hasSnow) {
@@ -363,6 +373,12 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
             mc.IAPShopDialog.showIAPPromo();
             mc.view_utility.seenNotify(btnPromotion);
         }.bind(this));
+
+        btnVip.registerTouchEvent(function () {
+            mc.VipDialog.showIAPBless();
+            mc.view_utility.seenNotify(btnVip);
+        }.bind(this));
+
         btnMail.registerTouchEvent(function () {
             this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_MAIL);
             mc.view_utility.seenNotify(btnMail, true);
