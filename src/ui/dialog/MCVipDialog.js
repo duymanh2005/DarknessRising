@@ -24,37 +24,31 @@ mc.VipDialog = bb.Dialog.extend({
         this.gift_shop_content = rootMap["gift_shop_content"];
         var btn_close = this.close_btn = rootMap["btn_close"];
         this._bindBottonBar();
-        this._loadTabBuyIndex(withPosition);
+        this._loadTabBuyIndex();
         btn_close.registerTouchEvent(function () {
             this.close();
         }.bind(this));
-    },
-
-    _preset: function () {
-        var bottomPanel = this._bottomPanel;
-        this.gift_shop_content.setVisible(false);
-        bottomPanel.getChildByName("widget3").setOpacity(170);
     },
 
     /**
      * @param {mc.PaymentSystem.POSITION_PROMOTION||mc.PaymentSystem.POSITION_MONTHLY||mc.PaymentSystem.POSITION_BLESS}pos
      * @private
      */
-    _loadTabBuyIndex: function (pos) {
-        var bottomPanel = this._bottomPanel;
-        this._preset();
+    _loadTabBuyIndex: function () {
         this.gift_shop_content.setVisible(true);
         this._currentVisitContent = this.gift_shop_content;
-        bottomPanel.getChildByName("widget3").setOpacity(255);
         !this.giftShopCtrl && (this.giftShopCtrl = new mc._BlessContentBinder(this.gift_shop_content));
         this.giftShopCtrl.loadContent();
     },
 
     _bindBottonBar: function () {
         var bottomPanel = this._bottomPanel;
-        var widgetBuyBless = bottomPanel.getChildByName("widget3");
-        widgetBuyBless.x = cc.winSize.width/2;
-        widgetBuyBless.setVisible(false);
+        var widget_progress = bottomPanel.getChildByName("widget_progress");
+        widget_progress.x = cc.winSize.width/2;
+        widget_progress.y = 90;
+
+        var progressExp = this._progressExp = widget_progress.getChildByName("progressExp");
+        progressExp.setPercent((100 / 100) * 100);
     },
 
     overrideShowAnimation: function () {
@@ -65,7 +59,6 @@ mc.VipDialog = bb.Dialog.extend({
         this.close_btn.runAction(cc.fadeIn(0.2));
         this._bottomPanel.y = -this._bottomPanel.height;
         this._bottomPanel.runAction(cc.moveTo(0.2, cc.winSize.width * 0.5, 0).easing(cc.easeBackOut()));
-
 
         return dur;
     },
