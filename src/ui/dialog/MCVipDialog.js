@@ -22,9 +22,6 @@ mc.VipDialog = bb.Dialog.extend({
         cc.spriteFrameCache.addSpriteFrames(res.patch9_8_plist);
         this._bottomPanel = rootMap["bottomPanel"];
         this.gift_shop_content = rootMap["gift_shop_content"];
-        this.monthly_card_content = rootMap["monthly_card_content"];
-        this.promo_content = rootMap["promo_content"];
-        this.best_offer_content = rootMap["offer_content"];
         var btn_close = this.close_btn = rootMap["btn_close"];
         this._bindBottonBar();
         this._loadTabBuyIndex(withPosition);
@@ -36,9 +33,6 @@ mc.VipDialog = bb.Dialog.extend({
     _preset: function () {
         var bottomPanel = this._bottomPanel;
         this.gift_shop_content.setVisible(false);
-        this.promo_content.setVisible(false);
-        this.monthly_card_content.setVisible(false);
-        this.best_offer_content.setVisible(false);
         bottomPanel.getChildByName("widget3").setOpacity(170);
     },
 
