@@ -30,8 +30,8 @@ mc.const = {
     TEST_CREATURE_BY_CAMPAIGN: null,
     SKIP_TUTORIAL_BATTLE: false,
     BATTLE_VERSION: "1.0",
-    VERSION: "1.1.4",
-    VERSION_NEWS: "1.1.4",
+    VERSION: "1.1.5",
+    VERSION_NEWS: "1.1.5",
     SERVERS: {
         "servers": [
             {
