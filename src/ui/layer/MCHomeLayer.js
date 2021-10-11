@@ -2,11 +2,11 @@
  * Created by long.nguyen on 6/29/2017.
  */
 
-var xMasTime = true;
+var xMasTime = false;
 var waterFall = true;
-var hasSunShine = true;
+var hasSunShine = false;
 var hasWindSand = false;
-var hasSnow = false;
+var hasSnow = true;
 var markEventNotify = 0;
 
 mc.HomeLayer = mc.MainBaseLayer.extend({
@@ -286,8 +286,8 @@ mc.HomeLayer = mc.MainBaseLayer.extend({
                 notifyIcon && notifyIcon.setLocalZOrder(4);
                 btnEvent.registerTouchEvent(function () {
                     mc.GameData.guiState.eventPage = 2;
-                    this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_PAGES_EVENT);
-                    // this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_SEASON_EVENT);
+                   // this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_PAGES_EVENT);
+                    this.getMainScreen().pushLayerWithId(mc.MainScreen.LAYER_SEASON_EVENT);
                     markEventNotify = bb.now();
                     var notifyIcon = mc.view_utility.setNotifyIconForWidget(btnEvent, markEventNotify === 0 || bb.now() - markEventNotify > (1000 * 60 * 60 * 24), 0.8);
                     notifyIcon && notifyIcon.setLocalZOrder(4);
